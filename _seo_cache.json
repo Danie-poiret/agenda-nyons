@@ -1,28 +1,28 @@
 {
   "2026-09-21": {
-    "hash": "1fca34e50c16cf99be7bad94ac479b995d1ca4dd393f9ca2c9cd968da1bad66e",
+    "hash": "778f695fd6f963f344a748b477656a4d213ee230d2e79c5f7f24bc4c72cde576",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : culture, concert, improvisation, initiatives citoyennes et exposition le temps du week-end.",
-      "intro": "La semaine du 21 au 27 septembre 2026 se concentre surtout sur la fin de semaine à Nyons. Dès le vendredi, une rencontre avec Régis PENET ouvre la sélection culturelle. Le samedi 26 septembre réunit des propositions très diverses : atelier culinaire, concert, improvisation, cérémonie de cacao, rendez-vous autour du jardin, action liée au climat et distribution gratuite de compost. Cette diversité permet de composer une sortie selon ses envies, entre culture, loisirs, vie associative et sujets de cadre de vie. Le dimanche 27 septembre, l’exposition « La Vie en Couleur » : Exposition de Cécile Allex prolonge cette dynamique culturelle. Les informations disponibles ne détaillent ni les horaires ni les conditions d’accès : il est donc préférable de consulter les pages officielles avant de prévoir sa venue.",
-      "weekend": "Pour le week-end, le samedi 26 septembre offre le choix le plus large. Les amateurs de culture peuvent s’orienter vers le concert COMTESSA !, Impro ! ou le rendez-vous Une ruche dans mon jardin ?. Celles et ceux qui souhaitent privilégier une initiative liée au cadre de vie trouveront la Marche pour le Climat ou la distribution gratuite de compost. L’Atelier culinaire – Street food party constitue une autre piste de loisirs. Le dimanche, l’exposition de Cécile Allex apporte une option culturelle supplémentaire. Comme plusieurs événements ont lieu le même jour, comparez les informations publiées par les organisateurs avant de faire votre programme.",
-      "practical": "Avant de vous déplacer, ouvrez la page officielle de chaque événement retenu. Vérifiez notamment l’horaire, le lieu exact, les éventuelles modalités d’inscription et les conditions d’accès, car ces éléments ne sont pas indiqués dans cette sélection. Pour le samedi 26 septembre, anticipez aussi les chevauchements possibles entre les différents rendez-vous annoncés à Nyons.",
-      "conclusion": "Cette semaine à Nyons met en avant une programmation resserrée mais variée, particulièrement le samedi. Culture vivante, loisirs, environnement, vie associative et exposition se côtoient sur quelques jours. Que vous choisissiez une rencontre, un concert, une initiative citoyenne ou une visite d’exposition, prenez le temps de confirmer les informations pratiques auprès des sources officielles avant votre sortie.",
+      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, rencontre, concert, impro et rendez-vous associatifs le week-end.",
+      "intro": "La semaine du 21 au 27 septembre 2026 propose à Nyons un agenda concentré sur la culture, la vie associative et des initiatives liées à la solidarité ou à la santé. Les rendez-vous débutent le jeudi 24 septembre avec l’Exposition du Cinquantenaire du Préau des Arts et une proposition autour de la robustesse du Nyonsais. Le vendredi, une rencontre avec Régis PENET prend le relais. Le samedi rassemble la programmation la plus variée : concert, impro, cérémonie de cacao, distribution gratuite de compost et rendez-vous autour de la présence d’une ruche dans son jardin. Enfin, le dimanche met à l’affiche l’exposition « La Vie en Couleur » de Cécile Allex. Cette sélection permet de composer une sortie selon ses envies, entre découverte culturelle, temps d’échange et démarche associative.",
+      "weekend": "Pour organiser votre week-end à Nyons, le samedi 26 septembre offre le plus grand choix. Les amateurs de culture peuvent se tourner vers le concert COMTESSA ! ou Impro !, tandis que la journée comporte aussi une cérémonie de cacao, une distribution gratuite de compost et le rendez-vous Une ruche dans mon jardin ?. Le dimanche 27 septembre, l’exposition « La Vie en Couleur » de Cécile Allex constitue l’unique événement annoncé. Si vous préférez une sortie en semaine, l’exposition du cinquantenaire, la rencontre consacrée au Nyonsais et celle avec Régis PENET se répartissent entre jeudi et vendredi.",
+      "practical": "Les informations disponibles indiquent les dates, les intitulés et les thématiques générales, mais ne précisent pas les horaires, les lieux, les conditions d’accès ni les modalités d’inscription. Avant de vous déplacer, consultez la page officielle de l’événement choisi pour vérifier les informations actualisées. Le 26 septembre réunissant plusieurs rendez-vous, une vérification préalable est particulièrement utile pour faire votre choix.",
+      "conclusion": "Entre le 24 et le 27 septembre, Nyons propose une semaine riche en approches culturelles et associatives. Expositions, rencontre, concert et impro voisinent avec des initiatives autour du compost, du jardin et de la santé. Le samedi concentre l’essentiel des possibilités, alors que le dimanche invite à découvrir une exposition. Consultez les pages officielles avant votre sortie afin de confirmer les détails pratiques.",
       "highlights": [
         {
-          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-          "reason": "Un rendez-vous culturel programmé le samedi 26 septembre."
+          "event_title": "Exposition du Cinquantenaire du Préau des Arts",
+          "reason": "Un rendez-vous culturel et associatif programmé le jeudi 24 septembre."
         },
         {
-          "event_title": "Marche pour le Climat",
-          "reason": "Une proposition du 26 septembre classée dans les thématiques cadre de vie et solidarité / santé."
+          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
+          "reason": "Un concert inscrit au programme culturel du samedi 26 septembre."
         },
         {
           "event_title": "« La Vie en Couleur » : Exposition de Cécile Allex",
-          "reason": "Une exposition culturelle annoncée le dimanche 27 septembre."
+          "reason": "Une exposition annoncée le dimanche 27 septembre."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:22:39.480558+00:00",
+    "generated_at": "2026-09-25T12:29:26.924678+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {

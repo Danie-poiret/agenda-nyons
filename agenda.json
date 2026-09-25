@@ -1,8 +1,30 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
-  "updated_at": "2026-09-25T11:44:15.103477+00:00",
+  "updated_at": "2026-09-25T12:29:11.876913+00:00",
   "count": 118,
   "events": [
+    {
+      "title": "Exposition du Cinquantenaire du Préau des Arts",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "summary": "",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/preau-des-arts-exposition-du-cinquantenaire-de-lassociation-18-au-24-septembre-2026/"
+    },
+    {
+      "title": "Robustesse du Nyonsais : et si nous avancions autrement?",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-24",
+      "summary": "",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/robustesse-du-nyonsais-et-si-nous-avancions-autrement/"
+    },
     {
       "title": "Rencontre avec Régis PENET",
       "start_date": "2026-09-25",
@@ -13,17 +35,6 @@
         "Culture"
       ],
       "url": "https://www.nyons.com/agenda/rencontre-avec-regis-penet/"
-    },
-    {
-      "title": "Atelier culinaire – Street food party",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/"
     },
     {
       "title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
@@ -66,17 +77,6 @@
         "Culture"
       ],
       "url": "https://www.nyons.com/agenda/impro/"
-    },
-    {
-      "title": "Marche pour le Climat",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "",
-      "categories": [
-        "Cadre de vie",
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/marche-pour-le-climat/"
     },
     {
       "title": "Une ruche dans mon jardin ?",
