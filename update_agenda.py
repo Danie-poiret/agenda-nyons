@@ -59,7 +59,6 @@ WEEKDAYS = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
 MONTH_RE = r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)"
 DATE_RE = re.compile(rf"(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})", re.I)
 UNTIL_RE = re.compile(rf"Jusqu['’]au\s+(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})", re.I)
-DATE_LINE_RE = re.compile(rf"^(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})$", re.I)
 
 CATEGORIES = [
     "Administratif", "Cadre de vie", "Enfance / Jeunesse",
@@ -99,108 +98,136 @@ def is_event_url(href: str) -> bool:
     return p.startswith("/agenda/") or p.startswith("/sorties-actus/agenda/")
 
 
-def previous_start_date(anchor):
-    """Trouve la date de début située avant le titre de l'événement.
+def date_from_match(m: re.Match) -> str:
+    """Convertit un match DATE_RE / UNTIL_RE en date ISO."""
+    return parse_match(m)
 
-    La page Nyons peut ajouter des balises, espaces insécables ou petits textes
-    autour de la date. On cherche donc une date à l'intérieur du texte, tout en
-    ignorant explicitement les mentions "Jusqu'au..." de l'événement précédent.
-    """
-    for node in anchor.find_all_previous(string=True, limit=180):
-        t = clean(node)
-        if not t:
-            continue
-        if UNTIL_RE.search(t):
-            continue
-        m = DATE_RE.search(t)
-        if m:
-            return parse_match(m)
-    return None
 
-def scan_event_after_title(anchor, title):
-    """Lit le résumé et la date de fin jusqu'au prochain événement."""
-    summary = ""
-    end = None
+def page_event_headings(soup):
+    """Retourne uniquement les vrais titres d'événements de la liste."""
+    items = []
+    seen = set()
 
-    for node in anchor.find_all_next(string=True, limit=140):
-        t = clean(node)
-        if not t or t == title:
+    for h2 in soup.find_all("h2"):
+        a = h2.find("a", href=True)
+        if not a:
             continue
 
-        em = UNTIL_RE.search(t)
-        if em:
-            end = parse_match(em)
-            break
-
-        if DATE_RE.search(t) and not UNTIL_RE.search(t):
-            break
-
-        if not summary:
-            low = t.lower()
-            if (
-                len(t) >= 18
-                and not any(t.lower() == c.lower() for c in CATEGORIES)
-                and "image:" not in low
-                and t.lower() not in {"retour", "lire plus", "voir l'événement", "voir l’événement"}
-            ):
-                summary = t[:420]
-
-    return summary, end
-
-
-def categories_before_title(anchor):
-    """Récupère les catégories affichées entre la date et le titre."""
-    found = []
-    for node in anchor.find_all_previous(string=True, limit=30):
-        t = clean(node)
-        if not t:
+        href = urljoin(BASE, a["href"])
+        if not is_event_url(href):
             continue
-        if DATE_LINE_RE.match(t):
-            break
-        for c in CATEGORIES:
-            if c.lower() in t.lower() and c not in found:
-                found.append(c)
-    return found
+
+        href = href.split("#", 1)[0].split("?", 1)[0]
+        title = clean(a.get_text(" ", strip=True))
+
+        if len(title) < 4 or href in seen:
+            continue
+
+        items.append((title, href))
+        seen.add(href)
+
+    return items
+
+
+def find_title_positions(page_text: str, items):
+    """Repère les titres dans le texte complet en conservant l'ordre de la page."""
+    located = []
+    cursor = 0
+
+    for title, href in items:
+        pos = page_text.find(title, cursor)
+        if pos < 0:
+            pos = page_text.find(title)
+        if pos < 0:
+            print(f"Titre introuvable dans le texte: {title}", file=sys.stderr)
+            continue
+
+        located.append((title, href, pos))
+        cursor = pos + len(title)
+
+    return located
+
+
+def is_until_match(text: str, match: re.Match) -> bool:
+    """Vrai si la date trouvée appartient à une mention Jusqu'au."""
+    left = text[max(0, match.start() - 35):match.start()].lower()
+    return bool(re.search(r"jusqu['’]au\s*$", left))
+
+
+def extract_start_from_before(segment: str):
+    """Prend la dernière vraie date située juste avant le titre."""
+    matches = [
+        m for m in DATE_RE.finditer(segment)
+        if not is_until_match(segment, m)
+    ]
+    if not matches:
+        return None
+    return date_from_match(matches[-1])
+
+
+def extract_end_and_summary(segment: str, start_iso: str):
+    """Extrait le résumé et une éventuelle date de fin après le titre."""
+    end = start_iso
+
+    em = UNTIL_RE.search(segment)
+    if em:
+        end = date_from_match(em)
+
+    cut_positions = []
+
+    if em:
+        cut_positions.append(em.start())
+
+    next_date = DATE_RE.search(segment)
+    if next_date:
+        cut_positions.append(next_date.start())
+
+    summary_part = segment[:min(cut_positions)] if cut_positions else segment
+    summary_part = clean(summary_part)
+
+    for c in CATEGORIES:
+        if summary_part.lower().startswith(c.lower()):
+            summary_part = clean(summary_part[len(c):].lstrip(" ,·-"))
+
+    return end, summary_part[:420]
 
 
 def scrape_page(session, page: int):
     url = BASE if page == 1 else f"{BASE}?_pagination={page}"
     r = session.get(url, headers=HEADERS, timeout=TIMEOUT)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    found, seen = [], set()
 
-    candidate_links = [
-        a for a in soup.find_all("a", href=True)
-        if is_event_url(urljoin(BASE, a["href"]))
-    ]
+    soup = BeautifulSoup(r.text, "html.parser")
+    items = page_event_headings(soup)
+
+    page_text = clean(soup.get_text(" ", strip=True))
+    located = find_title_positions(page_text, items)
+
     print(
         f"Page {page}: HTTP {r.status_code}, {len(r.text)} octets, "
-        f"{len(candidate_links)} lien(s) événement candidat(s)"
+        f"{len(items)} titre(s) H2 événement(s)"
     )
 
-    for a in candidate_links:
-        href = urljoin(BASE, a["href"])
-        if not is_event_url(href):
-            continue
+    found = []
 
-        title = clean(a.get_text(" ", strip=True))
-        if len(title) < 4 or title.lower() in {
-            "retour", "lire plus", "voir l'événement", "voir l’événement"
-        }:
-            continue
+    for i, (title, href, pos) in enumerate(located):
+        prev_boundary = 0 if i == 0 else located[i - 1][2] + len(located[i - 1][0])
+        next_boundary = len(page_text) if i + 1 == len(located) else located[i + 1][2]
 
-        href = href.split("#", 1)[0].split("?", 1)[0]
-        if href in seen:
-            continue
+        before = page_text[prev_boundary:pos]
+        start = extract_start_from_before(before)
 
-        start = previous_start_date(a)
         if not start:
+            print(f"Page {page}: date de début introuvable pour {title}", file=sys.stderr)
             continue
 
-        summary, explicit_end = scan_event_after_title(a, title)
-        end = explicit_end or start
-        cats = categories_before_title(a)
+        after = page_text[pos + len(title):next_boundary]
+        end, summary = extract_end_and_summary(after, start)
+
+        cats = [
+            c for c in CATEGORIES
+            if c.lower() in before.lower()
+        ]
 
         found.append({
             "title": title,
@@ -210,7 +237,6 @@ def scrape_page(session, page: int):
             "categories": cats,
             "url": href,
         })
-        seen.add(href)
 
     return found
 
@@ -229,14 +255,14 @@ def scrape_all():
                 raise
             break
 
-        before = len(all_events)
+        before_count = len(all_events)
         for e in events:
             all_events[e["url"]] = e
 
-        added = len(all_events) - before
-        print(f"Page {page}: {len(events)} événements trouvés, {added} nouveaux")
-        stagnant = stagnant + 1 if added == 0 else 0
+        added = len(all_events) - before_count
+        print(f"Page {page}: {len(events)} événements extraits, {added} nouveaux")
 
+        stagnant = stagnant + 1 if added == 0 else 0
         if stagnant >= 2:
             break
 
@@ -253,8 +279,9 @@ def scrape_all():
             "agenda.json n'est pas remplacé."
         )
 
+    print(f"TOTAL: {len(events)} événements uniques extraits.")
     print("Premiers événements extraits:")
-    for e in events[:12]:
+    for e in events[:15]:
         print(f" - {e['start_date']} -> {e['end_date']} | {e['title']}")
 
     return events
