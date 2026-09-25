@@ -59,7 +59,7 @@ WEEKDAYS = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
 MONTH_RE = r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)"
 DATE_RE = re.compile(rf"(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})", re.I)
 UNTIL_RE = re.compile(rf"Jusqu['’]au\s+(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})", re.I)
-DATE_LINE_RE = re.compile(rf"^(?:{WEEKDAYS}\\s+)?(\\d{{1,2}})\\s+({MONTH_RE})\\s+(20\\d{{2}})$", re.I)
+DATE_LINE_RE = re.compile(rf"^(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})$", re.I)
 
 CATEGORIES = [
     "Administratif", "Cadre de vie", "Enfance / Jeunesse",
