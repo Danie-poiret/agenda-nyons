@@ -1,81 +1,1429 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
-  "updated_at": "2026-09-25T13:38:17.304172+00:00",
-  "count": 5,
+  "updated_at": "2026-09-25T13:58:10.748744+00:00",
+  "count": 118,
   "events": [
     {
-      "title": "Atelier culinaire – Street food party",
-      "start_date": "2026-10-04",
+      "title": "Découvrez Solidarité Paysans !",
+      "start_date": "2026-08-01",
+      "end_date": "2026-09-30",
+      "summary": "Une exposition pour découvrir l'association Solidarité Paysans Drôme-Ardèche.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/"
+    },
+    {
+      "title": "Exposition « Urbain Urbex »",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-30",
+      "summary": "Exposition aux 3 Platanes.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-urbain-urbex/"
+    },
+    {
+      "title": "« La Vie en Couleur » : Exposition de Cécile Allex",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-27",
+      "summary": "Exposition artistique de Cécile Allex, à l'Espace Roumanille, Draye de Meyne.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/"
+    },
+    {
+      "title": "Les 8 jours de la Ville de Nyons",
+      "start_date": "2026-09-25",
       "end_date": "2026-10-04",
+      "summary": "Du vendredi 25 septembre au",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/"
+    },
+    {
+      "title": "Rencontre avec Régis PENET",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "summary": "À travers son dessin et son récit, Régis Penet nous invite à voyager entre mythologie, science-fiction et grandes questions existentielles.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/rencontre-avec-regis-penet/"
+    },
+    {
+      "title": "Atelier culinaire – Street food party",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
       "summary": "Réalisez vos tacos au poulet et burritos au bœuf maison",
       "categories": [
         "Sport / Loisirs",
-        "Loisirs",
-        "Patrimoine / Culture vivante",
-        "Culture",
-        "Solidarité / Santé",
-        "Vie associative"
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/"
     },
     {
       "title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-04",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
       "summary": "Medieval, world music, jazz, improvisations",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Culture",
-        "Solidarité / Santé",
-        "Vie associative",
-        "Sport / Loisirs",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/"
     },
     {
       "title": "Cérémonie de cacao",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-04",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
       "summary": "Les cérémonies de cacao s'inspirent de l'usage spirituel de cette plante par le peuple Maya du Guatemala. Le cacao connecte au coeur, à la joie, à la créativité, il aide à relâcher les tensions.",
       "categories": [
         "Solidarité / Santé",
-        "Culture",
-        "Vie associative",
-        "Sport / Loisirs",
-        "Loisirs",
-        "Patrimoine / Culture vivante"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
     },
     {
-      "title": "Marche pour le Climat",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-04",
-      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale",
+      "title": "Distribution gratuite de compost",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "La CCBDP propose une distribution gratuite de compost réservé aux particuliers.",
       "categories": [
-        "Solidarité / Santé",
+        "Administratif",
         "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
-        "Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/"
+    },
+    {
+      "title": "Impro !",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Improvisation théâtrale pour lancer la saison de l'Electron Libre !",
+      "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/impro/"
+    },
+    {
+      "title": "Marche pour le Climat",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 20.4°C / 20.4°C Contact Recherche Mentions légal",
+      "categories": [
+        "Cadre de vie",
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/marche-pour-le-climat/"
     },
     {
       "title": "Une ruche dans mon jardin ?",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-04",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
       "summary": "Journée découverte des abeilles et de l'apiculture",
       "categories": [
-        "Vie associative",
-        "Sport / Loisirs",
-        "Loisirs",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/"
+    },
+    {
+      "title": "Lectures animées",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-28",
+      "summary": "Lectures animées pour les enfants de 0 à 6 ans, pendant le temps de consultation au Centre médico-social 3 Place Joseph Roumanille.",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/lectures-animees-6/"
+    },
+    {
+      "title": "Soirée 100% Agriculture / Viticulture",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-28",
+      "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Agriculture / Viticulture !",
+      "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/"
+      "url": "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/"
+    },
+    {
+      "title": "Atelier lactofermentation",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "summary": "Atelier lactofermentation proposé par le CEDER.",
+      "categories": [
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-lactofermentation/"
+    },
+    {
+      "title": "Dédicace Françoise Bourdon",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-01",
+      "summary": "Rencontrez Françoise Bourdon à la Libraire Pinet, jeudi 1er octobre de 10h à 16h30.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/dedicace-francoise-bourdon/"
+    },
+    {
+      "title": "Concert Bouda OMG !",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-02",
+      "summary": "Concert Bouda OMG - Dispositif Miz’Ampli",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/concert-bouda-omg/"
+    },
+    {
+      "title": "Grande braderie",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-04",
+      "summary": "Grande braderie organisée par les associations Le Vestiaire et le Carrefour des Habitants",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/grande-braderie/"
+    },
+    {
+      "title": "Les Journées Nationales des Artistes à Nyons",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-04",
+      "summary": "Une fête de l'art dans toute la France.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/"
+    },
+    {
+      "title": "Atelier culinaire – Risotto & panacotta",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-03",
+      "summary": "Atelier culinaire Italien \"Risotto & Panacotta\"",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/"
+    },
+    {
+      "title": "Constellations familiales",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-03",
+      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres... 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mai",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/constellations-familiales/"
+    },
+    {
+      "title": "Atelier thématique sur la législation funéraire",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-05",
+      "summary": "Dans le cadre de la Semaine Bleue 2026.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Le grès turonien de Venterol »",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "summary": "Conférence gratuite présentée par Jean-Loup Rubino, Université de la Sorbonne, dans le cadre de la Fête de la Science 2026.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/"
+    },
+    {
+      "title": "« Ts’art : Une histoire de Paradis ! »",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "summary": "Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/"
+    },
+    {
+      "title": "À vos cartes, prêts, jouez !",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "summary": "Un voyage souvenir à travers la France",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/"
+    },
+    {
+      "title": "Atelier culinaire – Gnocchis",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "summary": "Atelier culinaire - Gnocchis aux pois cassés",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/"
+    },
+    {
+      "title": "L’instant Papillon",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "summary": "Les praticien.nes du Papillon vous invitent à un moment de partage et de bien-être. Lors de cet événement, vous aurez la possibilité de découvrir et de participer à différents ateliers et pratiques proposés par les praticien.nes de notre collectif.",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/linstant-papillon-2/"
+    },
+    {
+      "title": "Stands sur la santé mentale",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "summary": "Stands des associations et des structures du territoire, œuvre participative dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/"
+    },
+    {
+      "title": "Théâtre sur la santé mentale",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/"
+    },
+    {
+      "title": "Concert de Demi Mondaine",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "summary": "Sortie de résidence de Demi Mondaine, Mystic Gordon et Clément Bouet 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 26.3°C / 26.3°C Contact Recherche Mentions léga",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/concert-de-demi-mondaine/"
+    },
+    {
+      "title": "Lectures par la MARPA de Rémuzat et Antoine Picard",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/"
+    },
+    {
+      "title": "4 Seasons Jam",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "summary": "7e édition du week-end descente VTT.",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/4-seasons-jam/"
+    },
+    {
+      "title": "Atelier Jardin Zen",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Atelier Jardin Zen dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-jardin-zen/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/"
+    },
+    {
+      "title": "Conférence-discussion sur les directives anticipées et les dernières volontés",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Dans le cadre de la Semaine Bleue 2026.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/"
+    },
+    {
+      "title": "Constellations familiales",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/constellations-familiales-2/"
+    },
+    {
+      "title": "Fête de la Science 2026 : excursion à Venterol avec l’UNTL",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Excursion gratuite organisée par l'UNTL et menée par Jean-Loup Rubino",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/"
+    },
+    {
+      "title": "Journée découverte Matériauthèque",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Ateliers participatifs et présentation",
+      "categories": [
+        "Cadre de vie",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-decouverte-materiautheque/"
+    },
+    {
+      "title": "Reprise des Ateliers Yoga du Chant",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Le deuxième samedi de chaque mois de 10h à 12h.",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/"
+    },
+    {
+      "title": "Samedi, ça me dit !",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Un atelier pour fabriquer ton propre jardin zen !",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-3/"
+    },
+    {
+      "title": "Spectacle « Papillon noir »",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Dans le cadre de la Semaine Bleue 2026.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/spectacle-papillon-noir/"
+    },
+    {
+      "title": "Ciné-débat « Sur l’Adamant »",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "summary": "Projection et débat autour du film documentaire \"Sur l'Adamant\" de Nicolas Philibert, dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/cine-debat-sur-ladamant/"
+    },
+    {
+      "title": "Cocktail d’impro",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "summary": "Improvisation théâtrale",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/cocktail-dimpro-2/"
+    },
+    {
+      "title": "« Une soirée à Vienne » : concert du « Page Blanche Quartet »",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "summary": "Concert du \"Page Blanche Quartet\" dans le cadre de la 4e édition du Festival Page Blanche, à l'Église Saint-Vincent, 17h.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur Chagall",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "summary": "Par Marie-Christine Haussy, ancienne élève de l'École du Louvre",
+      "categories": [],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/"
+    },
+    {
+      "title": "Atelier sur les directives anticipées et dernières volontés",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "summary": "Dans le cadre de la Semaine Bleue 2026.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/"
+    },
+    {
+      "title": "Agriculture en surchauffe, on en parle ?",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "summary": "Une saison agricole bouleversée par la fournaise.",
+      "categories": [
+        "Cadre de vie",
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/"
+    },
+    {
+      "title": "Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "summary": "Projection suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque, ayant rencontré tous les protagonistes ou leurs proches",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/"
+    },
+    {
+      "title": "Stands sur la santé mentale et « Mad Pride »",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "summary": "Stands des associations et des structures du territoire et \"Mad Pride\" dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/"
+    },
+    {
+      "title": "Atelier sur les rituels funéraires",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "summary": "Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 26.3°C / 26.3°C Contact Recherche Mentions légales Politique de confidential",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/"
+    },
+    {
+      "title": "Soirée de présentation de « Nyons en scène »",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "summary": "Présentation de la nouvelle saison culturelle municipale.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/"
+    },
+    {
+      "title": "Atelier d’Art-Thérapie",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "summary": "Atelier d'Art-Thérapie avec Anaïs Marino, Art-thérapeute, dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-dart-therapie/"
+    },
+    {
+      "title": "Journée de clôture des vendanges",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "summary": "Journée de clôture des vendanges et « Vignoble en Scène » au domaine Rocheville",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/"
+    },
+    {
+      "title": "Tournoi de belote du Comité des Fêtes",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "summary": "Tournoi de belote du Comité des Fêtes",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/"
+    },
+    {
+      "title": "Trail de Nyons et Baronnies",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "summary": "Courses de trail 40km, 22km, 9,5 km / Randonnée 9,5 km / Marche nordique / Randonnée 9,5 km",
+      "categories": [
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/"
+    },
+    {
+      "title": "Loto d’ASOFT Nyons Numérique",
+      "start_date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "summary": "Loto d'ASOFT Nyons Numérique à la Maison de Pays,14h.",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/"
+    },
+    {
+      "title": "« Ts’art : Une histoire de Paradis ! »",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-19",
+      "summary": "Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/"
+    },
+    {
+      "title": "Exposition « Le réel et son double #2 »",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-31",
+      "summary": "Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/"
+    },
+    {
+      "title": "Conseil Municipal",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "summary": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.",
+      "categories": [
+        "Administratif"
+      ],
+      "url": "https://www.nyons.com/agenda/conseil-municipal-4/"
+    },
+    {
+      "title": "Les documentaires de l’UNTL : « De la libération à l’épuration »",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "summary": "Projection de la seconde partie des Messagers de l'ombre\", suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/"
+    },
+    {
+      "title": "Atelier cosmétique – Savon d’Halloween",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "summary": "Atelier cosmétique sur le thème d'Halloween",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/"
+    },
+    {
+      "title": "« SAISON 4 » de Romuald Maufras",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "summary": "En tournée dans toute la France avec son nouveau spectacle !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/"
+    },
+    {
+      "title": "Journée Jeux de société",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "summary": "Journée Jeux de société organisée par le Service Jeunesse",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/journees-jeux-de-societe/"
+    },
+    {
+      "title": "Jeux Zen… et moins zen !",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "summary": "Jeux de société Zen... et moins zen !",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/"
+    },
+    {
+      "title": "Atelier cosmétique – Maquillage d’Halloween",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "summary": "Atelier cosmétique, création de maquillage sur le thème d'Halloween",
+      "categories": [
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/"
+    },
+    {
+      "title": "Les documentaires de l’UNTL : « La Passion selon Callas »",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "summary": "Projection suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/"
+    },
+    {
+      "title": "Atelier cosmétique – Savon d’Halloween",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "summary": "Atelier cosmétique sur le thème d'Halloween",
+      "categories": [
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/"
+    },
+    {
+      "title": "Atelier culinaire – Tapenades & tartinables",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "summary": "Atelier culinaire, réalisation de tapenades et tartinables",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/"
+    },
+    {
+      "title": "Atelier cosmétique – Maquillage d’Halloween",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween",
+      "categories": [
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/"
+    },
+    {
+      "title": "Atelier culinaire – Brownies d’Halloween",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "summary": "Atelier culinaire, réalisation de brownies d'Halloween 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 26.3°C / 26.3°C Contact Recherche Mentions légales Politique ",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/"
+    },
+    {
+      "title": "Loto de l’association « Le Trait d’Union »",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "summary": "Loto de l'association \"Le Trait d'Union\" dimanche 1er novembre à la Maison de Pays.De nombreux...",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/"
+    },
+    {
+      "title": "Drôles de Coïncidences",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "summary": "Comédie d'intrigue de Maxence Descamps",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/droles-de-coincidences-2/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Le Liban petit pays mais gros problèmes »",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/"
+    },
+    {
+      "title": "Opera follies",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "summary": "De l’Ensemble Vocal Cant’Ouvèze",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/opera-follies/"
+    },
+    {
+      "title": "La Femme Moustique",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "summary": "Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/la-femme-moustique/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/"
+    },
+    {
+      "title": "Café-rencontre UNAFAM",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "summary": "Tous les deux mois les bénévoles de l’Union Nationale des Amis et Familles de Malades et/ou...",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/"
+    },
+    {
+      "title": "Petits crimes conjugaux",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "summary": "Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie \" L'Épopée Belle \"",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/"
+    },
+    {
+      "title": "Puces des couturières",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/puces-des-couturieres/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur l’intelligence des corbeaux",
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-16",
+      "summary": "Conférence présentée par Joëlle Vionnet et Bruno Machtelinck. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 26.3°C / 26.3°C Contact Recherche Mentions légales Pol",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/"
+    },
+    {
+      "title": "Salon Vivre ici",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "summary": "Etudier, travailler, habiter",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/salon-vivre-ici/"
+    },
+    {
+      "title": "De l’île Noire au Montbrun",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/"
+    },
+    {
+      "title": "Loto de « Détente et loisirs »",
+      "start_date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "summary": "Loto de l'association \"Détente et loisirs\" à 14h à la Maison de Pays.",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/"
+    },
+    {
+      "title": "Les turlupinades",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Comédie de la Compagnie du Chien Noir",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/les-turlupinades/"
+    },
+    {
+      "title": "Téléthon 2026",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-06",
+      "summary": "Téléthon 2026",
+      "categories": [
+        "Solidarité / Santé",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/telethon-2026/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »",
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-07",
+      "summary": "Présentée par Jean-Luc Boissel, astrophysicien, professeur à l'INSA de Lyon.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/"
+    },
+    {
+      "title": "Cher Edouard",
+      "start_date": "2026-12-13",
+      "end_date": "2026-12-13",
+      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs”",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/cher-edouard/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne »",
+      "start_date": "2026-12-14",
+      "end_date": "2026-12-14",
+      "summary": "Conférence présentée par Alain Saint-Denis, historien médiéviste",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/"
+    },
+    {
+      "title": "Peter Pan ou l’Enfant Jamais",
+      "start_date": "2026-12-18",
+      "end_date": "2026-12-18",
+      "summary": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ». 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/"
+    },
+    {
+      "title": "On a perdu les clés du traîneau",
+      "start_date": "2026-12-29",
+      "end_date": "2026-12-29",
+      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/"
+    },
+    {
+      "title": "Concert de Rebecca Chaillot",
+      "start_date": "2027-01-01",
+      "end_date": "2027-01-01",
+      "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Essai de toponymie locale »",
+      "start_date": "2027-01-04",
+      "end_date": "2027-01-04",
+      "summary": "Conférence présentée par Robert Gleize, agrégé de physique",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/"
+    },
+    {
+      "title": "Au Nom du Père, du Fils et de Jackie Chan",
+      "start_date": "2027-01-08",
+      "end_date": "2027-01-08",
+      "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2027-01-09",
+      "end_date": "2027-01-09",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur Albert Camus, la voix de la pauvreté",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-11",
+      "summary": "Conférence présentée par Jean-Michel Wavelet, instituteur, inspecteur d'Académie et écrivain",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/"
+    },
+    {
+      "title": "Conférence de l’UNTL : « Les marchands ruraux dans le Dauphiné au XVIIIe siècle »",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-21",
+      "summary": "Conférence présentée par Martine Lambert, coprésidente honoraire de l'UNTL.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/"
+    },
+    {
+      "title": "Les Rencontres Barjavel 2027",
+      "start_date": "2027-01-22",
+      "end_date": "2027-01-23",
+      "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Guernica » de Pablo Picasso",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-27",
+      "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Les penseurs économiques face à la situation française »",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-03",
+      "summary": "Conférence présentée par Gilbert Font, ancien directeur financier. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 26.3°C / 26.3°C Contact Recherche Mentions légale",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/"
+    },
+    {
+      "title": "Les Grands Chemins",
+      "start_date": "2027-02-06",
+      "end_date": "2027-02-06",
+      "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/les-grands-chemins/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2027-02-13",
+      "end_date": "2027-02-13",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/"
+    },
+    {
+      "title": "Blue Maqam de Renaud Garcia-Fons",
+      "start_date": "2027-02-19",
+      "end_date": "2027-02-19",
+      "summary": "Un trait d’union entre jazz et musiques orientales.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/"
+    },
+    {
+      "title": "Quand je serai grande, je serai Patrick Swayze",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-10",
+      "summary": "Si les histoires d’amour ressemblaient aux contes de fées, cela se saurait !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2027-03-13",
+      "end_date": "2027-03-13",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi »",
+      "start_date": "2027-03-14",
+      "end_date": "2027-03-14",
+      "summary": "Conférence présentée par Michel Moreau, agrégé de mathématiques.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur la domesticité, entre servilité et fidélité",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-17",
+      "summary": "Conférence présentée par Michèle Margain, généalogiste, écrivaine, passionnée des terroirs et de ceux qui y vivent.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/"
+    },
+    {
+      "title": "Au nom de l’amour",
+      "start_date": "2027-03-19",
+      "end_date": "2027-03-19",
+      "summary": "De Charlotte Adrien, en collaboration avec le CCDV. Un rituel théâtral insolent, drôle et troublant, pour regarder l’amour en face.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/au-nom-de-lamour/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana »",
+      "start_date": "2027-03-24",
+      "end_date": "2027-03-24",
+      "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Sapienza Galiarda »",
+      "start_date": "2027-03-31",
+      "end_date": "2027-03-31",
+      "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux ",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/"
+    },
+    {
+      "title": "Et maintenant j’attends",
+      "start_date": "2027-04-02",
+      "end_date": "2027-04-02",
+      "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/et-maintenant-jattends/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Les Jeux d’Enfants de Pieter Bruegel l’ancien »",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-07",
+      "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2027-04-10",
+      "end_date": "2027-04-10",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/"
+    },
+    {
+      "title": "Landing",
+      "start_date": "2027-04-23",
+      "end_date": "2027-04-23",
+      "summary": "Tomber n’est pas la fin du mouvement.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/landing/"
+    },
+    {
+      "title": "Conférence de l’UNTL sur « Pour une histoire de l’éducation populaire »",
+      "start_date": "2027-04-26",
+      "end_date": "2027-04-26",
+      "summary": "Conférence présentée par Philippe Fréchet, enseignant spécialisé, conférencier de l’histoire de la pensée et de l’histoire sociale et politique.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/"
+    },
+    {
+      "title": "Atelier Yoga du Chant",
+      "start_date": "2027-05-08",
+      "end_date": "2027-05-08",
+      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/"
+    },
+    {
+      "title": "Boite à cordées",
+      "start_date": "2027-05-14",
+      "end_date": "2027-05-14",
+      "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/boite-a-cordees/"
+    },
+    {
+      "title": "On ne badine pas avec l’amour",
+      "start_date": "2027-05-20",
+      "end_date": "2027-05-20",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 26.3°C / 26.3°C Contact Rec",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/"
     }
   ]
 }

@@ -1,276 +1,276 @@
 {
   "2026-09-21": {
-    "hash": "778f695fd6f963f344a748b477656a4d213ee230d2e79c5f7f24bc4c72cde576",
+    "hash": "697d2d4fafe26020284f8a6d12235cffe45f949b054bd2a93fd21d44cb314d18",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, rencontre, concert, impro et rendez-vous associatifs le week-end.",
-      "intro": "La semaine du 21 au 27 septembre 2026 propose à Nyons un agenda concentré sur la culture, la vie associative et des initiatives liées à la solidarité ou à la santé. Les rendez-vous débutent le jeudi 24 septembre avec l’Exposition du Cinquantenaire du Préau des Arts et une proposition autour de la robustesse du Nyonsais. Le vendredi, une rencontre avec Régis PENET prend le relais. Le samedi rassemble la programmation la plus variée : concert, impro, cérémonie de cacao, distribution gratuite de compost et rendez-vous autour de la présence d’une ruche dans son jardin. Enfin, le dimanche met à l’affiche l’exposition « La Vie en Couleur » de Cécile Allex. Cette sélection permet de composer une sortie selon ses envies, entre découverte culturelle, temps d’échange et démarche associative.",
-      "weekend": "Pour organiser votre week-end à Nyons, le samedi 26 septembre offre le plus grand choix. Les amateurs de culture peuvent se tourner vers le concert COMTESSA ! ou Impro !, tandis que la journée comporte aussi une cérémonie de cacao, une distribution gratuite de compost et le rendez-vous Une ruche dans mon jardin ?. Le dimanche 27 septembre, l’exposition « La Vie en Couleur » de Cécile Allex constitue l’unique événement annoncé. Si vous préférez une sortie en semaine, l’exposition du cinquantenaire, la rencontre consacrée au Nyonsais et celle avec Régis PENET se répartissent entre jeudi et vendredi.",
-      "practical": "Les informations disponibles indiquent les dates, les intitulés et les thématiques générales, mais ne précisent pas les horaires, les lieux, les conditions d’accès ni les modalités d’inscription. Avant de vous déplacer, consultez la page officielle de l’événement choisi pour vérifier les informations actualisées. Le 26 septembre réunissant plusieurs rendez-vous, une vérification préalable est particulièrement utile pour faire votre choix.",
-      "conclusion": "Entre le 24 et le 27 septembre, Nyons propose une semaine riche en approches culturelles et associatives. Expositions, rencontre, concert et impro voisinent avec des initiatives autour du compost, du jardin et de la santé. Le samedi concentre l’essentiel des possibilités, alors que le dimanche invite à découvrir une exposition. Consultez les pages officielles avant votre sortie afin de confirmer les détails pratiques.",
+      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, rencontres, concert, atelier cuisine, théâtre et initiatives locales à découvrir.",
+      "intro": "La semaine du 21 au 27 septembre 2026 compose un agenda nyonsais particulièrement varié, entre rendez-vous culturels, loisirs et initiatives associatives. Les expositions déjà en cours, dont « Urbain Urbex » et la présentation consacrée à Solidarité Paysans, restent visibles jusqu’à la fin du mois. À partir du 22 septembre, « La Vie en Couleur » : Exposition de Cécile Allex s’ajoute à cette proposition artistique. La fin de semaine ouvre aussi Les 8 jours de la Ville de Nyons, dès le vendredi 25. Le samedi 26 concentre de nombreuses possibilités : cuisine avec l’atelier street food, concert, théâtre d’improvisation, découverte de l’apiculture, cérémonie de cacao, marche pour le climat ou distribution de compost. De quoi choisir une sortie selon ses envies, sans se limiter à une seule ambiance.",
+      "weekend": "Pour organiser son week-end à Nyons, il est utile de distinguer les rendez-vous ponctuels du samedi 26 des expositions accessibles sur plusieurs jours. Les amateurs de culture peuvent regarder du côté du concert COMTESSA !, d’Impro ! ou de la rencontre avec Régis PENET, programmée le vendredi 25. Pour une activité participative, l’atelier culinaire, la journée autour des abeilles ou la cérémonie de cacao offrent des pistes différentes. Les personnes intéressées par les questions environnementales peuvent aussi repérer la Marche pour le Climat et la distribution gratuite de compost. Enfin, les expositions permettent de compléter le programme à son rythme.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement : les informations utiles qui ne figurent pas ici peuvent y être précisées ou actualisées. Vérifiez notamment la date retenue, les éventuelles modalités de participation et les conditions d’accès. Pour les expositions, tenez compte de leur période de présentation : certaines se terminent le 27 septembre, d’autres le 30 septembre.",
+      "conclusion": "Cette semaine de septembre fait cohabiter création artistique, rendez-vous associatifs, loisirs et sujets de cadre de vie à Nyons. Entre les expositions qui accompagnent toute la semaine et l’offre dense du samedi 26, chacun peut construire un parcours adapté à ses centres d’intérêt. Pensez à consulter les pages officielles avant votre sortie pour préparer votre choix avec les informations les plus récentes.",
       "highlights": [
-        {
-          "event_title": "Exposition du Cinquantenaire du Préau des Arts",
-          "reason": "Un rendez-vous culturel et associatif programmé le jeudi 24 septembre."
-        },
-        {
-          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-          "reason": "Un concert inscrit au programme culturel du samedi 26 septembre."
-        },
         {
           "event_title": "« La Vie en Couleur » : Exposition de Cécile Allex",
-          "reason": "Une exposition annoncée le dimanche 27 septembre."
-        }
-      ]
-    },
-    "generated_at": "2026-09-25T12:29:26.924678+00:00",
-    "model": "gpt-5.6-terra"
-  },
-  "2026-09-28": {
-    "hash": "7f3048b0b8063ca0d5e1972d42433ab5e6f9abfafd652d5623c75a35e143917a",
-    "editorial": {
-      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : concert, atelier culinaire, découverte des abeilles, marche et cérémonie de cacao.",
-      "intro": "La semaine du 28 septembre au 4 octobre 2026 se termine à Nyons avec cinq rendez-vous annoncés le dimanche 4 octobre. L’offre couvre des envies très différentes : une proposition culinaire autour de tacos au poulet et de burritos au bœuf faits maison, un concert à la croisée des musiques médiévales, du monde, du jazz et de l’improvisation, ainsi qu’une journée consacrée aux abeilles et à l’apiculture. La journée comprend aussi une Marche pour le Climat, associée au vivant, à la paix et à la justice sociale. Enfin, la cérémonie de cacao évoque une inspiration issue de l’usage spirituel de cette plante chez le peuple Maya du Guatemala. Cette concentration de rendez-vous invite à choisir selon son intérêt, entre culture, découverte, cuisine et démarche collective.",
-      "weekend": "Pour organiser votre dimanche 4 octobre, commencez par identifier le type d’expérience qui vous attire. Les amateurs de musique pourront se tourner vers le concert, tandis que l’atelier culinaire conviendra à ceux qui souhaitent préparer des recettes de street food. La découverte des abeilles et de l’apiculture offre une autre approche, davantage tournée vers le vivant. La marche porte quant à elle un message lié au climat, à la paix et à la justice sociale. La cérémonie de cacao propose enfin un rendez-vous inspiré d’une tradition maya du Guatemala. Comme tous les événements sont annoncés le même jour, vérifiez leurs informations avant de composer votre programme.",
-      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement. Les informations fournies ne précisent ni horaires, ni lieux, ni éventuelles modalités d’accès : ces éléments sont donc à confirmer directement auprès de l’organisateur. Vérifiez également si des changements sont signalés, notamment pour choisir entre plusieurs rendez-vous prévus le dimanche 4 octobre.",
-      "conclusion": "Le 4 octobre rassemble à Nyons une programmation variée, allant de la cuisine à la musique, de l’apiculture à la mobilisation collective. Cette diversité permet de retenir un rendez-vous en fonction de ses centres d’intérêt, sans supposer de détails qui ne sont pas annoncés. Prenez le temps de consulter les pages dédiées afin de préparer votre sortie avec les informations à jour.",
-      "highlights": [
-        {
-          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-          "reason": "Un concert annoncé entre musiques médiévales, musiques du monde, jazz et improvisations."
+          "reason": "Une exposition artistique présentée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne."
         },
         {
-          "event_title": "Atelier culinaire – Street food party",
-          "reason": "Une occasion de réaliser des tacos au poulet et des burritos au bœuf maison."
+          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
+          "reason": "Un concert qui mêle répertoires médiévaux, musiques du monde, jazz et improvisations."
         },
         {
           "event_title": "Une ruche dans mon jardin ?",
-          "reason": "Une journée de découverte consacrée aux abeilles et à l’apiculture."
+          "reason": "Une journée dédiée à la découverte des abeilles et de l’apiculture."
         }
       ]
     },
-    "generated_at": "2026-09-25T13:38:43.776503+00:00",
+    "generated_at": "2026-09-25T13:58:28.013425+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2026-09-28": {
+    "hash": "bafe12af4fe8491c753e27a1c9b64fac172f7d1e93fc420ac5537e5bf24337c2",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : ateliers, culture, concert, dédicace, braderie et rendez-vous associatifs à découvrir.",
+      "intro": "Du lundi 28 septembre au dimanche 4 octobre 2026, l’agenda de Nyons réunit des propositions très variées, entre culture, initiatives associatives, cuisine et loisirs. Le début de semaine donne notamment place aux lectures animées destinées aux enfants de 0 à 6 ans, ainsi qu’à une soirée consacrée à l’agriculture et à la viticulture. Mercredi, le CEDER propose un atelier autour de la lactofermentation. La programmation se poursuit jeudi avec une rencontre-dédicace de Françoise Bourdon à la Libraire Pinet. À l’approche du week-end, plusieurs rendez-vous se superposent : un concert, une grande braderie portée par deux associations, les Journées Nationales des Artistes à Nyons et un atelier culinaire italien. Les expositions « Découvrez Solidarité Paysans ! » et « Urbain Urbex » se terminent le 30 septembre, tandis que Les 8 jours de la Ville de Nyons se poursuivent jusqu’au 4 octobre.",
+      "weekend": "Pour composer son programme du week-end à Nyons, il est possible de partir de ses envies plutôt que de chercher une seule sortie. Le vendredi 2 octobre associe le Concert Bouda OMG ! à l’ouverture de la Grande braderie et des Journées Nationales des Artistes à Nyons, toutes deux annoncées jusqu’au dimanche 4. Le samedi 3 octobre ajoute un atelier culinaire autour du risotto et de la panacotta, ainsi que les Constellations familiales. Les 8 jours de la Ville de Nyons restent également à l’agenda durant toute cette période, jusqu’au 4 octobre. Cette diversité invite à consulter les fiches de chaque rendez-vous avant de faire son choix.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement : les informations disponibles dans l’agenda ne précisent pas systématiquement les horaires, les modalités d’accès ou les éventuelles conditions de participation. Vérifiez aussi bien la date de fin des rendez-vous sur plusieurs jours, notamment les expositions qui s’achèvent le 30 septembre, que les détails propres aux activités du week-end. Pour la dédicace de Françoise Bourdon, le créneau indiqué est de 10h à 16h30, le 1er octobre.",
+      "conclusion": "Cette semaine met en lumière la pluralité des rendez-vous nyonsais : lecture pour les plus jeunes, rencontre littéraire, culture, concert, initiatives associatives et ateliers. Les visiteurs comme les habitants peuvent privilégier une date précise ou suivre un événement sur plusieurs jours. Les fiches officielles restent le bon point de départ pour compléter les informations avant chaque sortie et profiter sereinement de l’agenda local.",
+      "highlights": [
+        {
+          "event_title": "Dédicace Françoise Bourdon",
+          "reason": "Une rencontre avec Françoise Bourdon est annoncée à la Libraire Pinet le 1er octobre, de 10h à 16h30."
+        },
+        {
+          "event_title": "Grande braderie",
+          "reason": "Ce rendez-vous, organisé par les associations Le Vestiaire et le Carrefour des Habitants, se déroule du 2 au 4 octobre."
+        },
+        {
+          "event_title": "Atelier lactofermentation",
+          "reason": "Le CEDER propose cet atelier le 30 septembre."
+        }
+      ]
+    },
+    "generated_at": "2026-09-25T13:58:41.893825+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-05": {
-    "hash": "a9e510d686f64805138c01b59c2d1b10d4550cde5acf19812b5e97f8ed16969b",
+    "hash": "8d528844b337b82bd59ea05652e6c635e692e83a3c32ceb7053914e87299fbea",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 5 au 11 octobre 2026 : culture, santé, loisirs, ateliers, conférences et rendez-vous associatifs à découvrir cette semaine.",
-      "intro": "Du 5 au 11 octobre 2026, l’agenda de Nyons réunit des rendez-vous variés, entre culture, santé, loisirs et vie associative. La semaine débute avec un atelier consacré à la législation funéraire, puis se poursuit mercredi autour d’une conférence sur le grès turonien de Venterol, d’une proposition intitulée « Ts’art : Une histoire de Paradis ! » et d’un temps de jeu de cartes. Jeudi, un atelier culinaire dédié aux gnocchis côtoie plusieurs initiatives liées à la santé mentale. Vendredi, le programme propose notamment un concert et des lectures. Le week-end concentre de nombreux choix : ateliers, conférences, excursion à Venterol, découverte d’une matériauthèque, spectacle, cinéma, improvisation et concerts. Une semaine dense qui permet de composer sa sortie selon ses envies et les thématiques recherchées.",
-      "weekend": "Pour le week-end des 10 et 11 octobre, il est utile de commencer par repérer la thématique qui vous attire. Le samedi rassemble des propositions liées aux loisirs, à la culture, à la santé, à la vie associative, à l’enfance et à la jeunesse, ainsi qu’au cadre de vie. Parmi les rendez-vous annoncés figurent une excursion à Venterol avec l’UNTL, une journée découverte Matériauthèque, des ateliers et un spectacle. Le dimanche, l’agenda s’oriente notamment vers les loisirs, le ciné-débat, l’improvisation et la musique. Plusieurs options ayant lieu le même jour, consultez les informations de chaque événement avant de faire votre choix.",
-      "practical": "Les données disponibles indiquent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les conditions d’accès ni les éventuelles réservations. Avant de vous déplacer, ouvrez la page officielle de l’événement choisi pour vérifier ces éléments. Pensez aussi à distinguer les rendez-vous aux intitulés proches, notamment autour du Yoga du Chant, et à confirmer que les informations n’ont pas évolué.",
-      "conclusion": "Cette semaine d’octobre offre à Nyons un agenda particulièrement diversifié, de l’atelier culinaire aux conférences, en passant par des rendez-vous culturels, associatifs et liés à la santé. Le samedi constitue le temps fort par le nombre de propositions annoncées, tandis que le dimanche prolonge les sorties avec cinéma, improvisation et concert. Consultez les fiches officielles pour organiser votre sélection sereinement.",
+      "meta_description": "Agenda de Nyons du 5 au 11 octobre 2026 : culture, science, santé mentale, ateliers, VTT et rendez-vous associatifs toute la semaine.",
+      "intro": "Du 5 au 11 octobre 2026, l’agenda de Nyons réunit des propositions très variées, entre culture, vie associative, loisirs et sujets de société. La semaine s’ouvre avec un atelier consacré à la législation funéraire, puis se poursuit mercredi autour de la science, du théâtre et d’un rendez-vous fondé sur le souvenir. Jeudi, la cuisine, le bien-être et l’information sur la santé mentale se côtoient. Vendredi, les amateurs de musique peuvent repérer la sortie de résidence de Demi Mondaine, tandis que des lectures sont également annoncées. Le samedi concentre de nombreux choix : descente VTT sur deux jours, ateliers, conférences, découverte de la matériauthèque et excursion scientifique à Venterol. Le dimanche prolonge l’élan culturel avec un ciné-débat, de l’improvisation théâtrale et un concert du Page Blanche Quartet. Plusieurs rendez-vous s’inscrivent dans la Semaine Bleue, la Fête de la Science ou les semaines d’information sur la santé mentale.",
+      "weekend": "Pour composer votre week-end des 10 et 11 octobre, commencez par choisir l’ambiance recherchée. La 4 Seasons Jam correspond à un rendez-vous de descente VTT programmé sur les deux journées. Le samedi offre aussi une excursion à Venterol dans le cadre de la Fête de la Science, une journée autour de la matériauthèque, ainsi que plusieurs ateliers et conférences. Pour une sortie culturelle le dimanche, le choix se partage entre le ciné-débat « Sur l’Adamant », le Cocktail d’impro et le concert « Une soirée à Vienne » du Page Blanche Quartet. Les thématiques de santé mentale et de Semaine Bleue restent également présentes durant le week-end.",
+      "practical": "Avant de retenir une sortie, consultez la fiche officielle de l’événement concerné. Les informations fournies ici ne précisent pas systématiquement les horaires, les lieux, les conditions d’accès, les tarifs ou une éventuelle inscription. Cette vérification est particulièrement utile le samedi, où plusieurs rendez-vous sont annoncés le même jour. Pour l’excursion à Venterol et la 4 Seasons Jam, reportez-vous également aux indications propres à chaque organisateur.",
+      "conclusion": "Cette semaine d’octobre propose à Nyons un agenda dense, avec des formats allant de la conférence à l’atelier, du spectacle au rendez-vous sportif. Les personnes intéressées par la science pourront suivre le fil consacré à Venterol, tandis que les propositions culturelles et les actions liées à la santé mentale structurent aussi le programme. Consultez les pages officielles avant votre venue afin de finaliser votre sélection.",
       "highlights": [
         {
           "event_title": "Fête de la Science 2026 : excursion à Venterol avec l’UNTL",
-          "reason": "Une excursion annoncée dans le cadre de la Fête de la Science 2026, associant patrimoine, culture et vie associative."
+          "reason": "Une excursion gratuite à Venterol, menée par Jean-Loup Rubino dans le cadre de la Fête de la Science."
+        },
+        {
+          "event_title": "4 Seasons Jam",
+          "reason": "La 7e édition d’un week-end consacré à la descente VTT, annoncée les 10 et 11 octobre."
         },
         {
           "event_title": "Ciné-débat « Sur l’Adamant »",
-          "reason": "Un rendez-vous du dimanche qui associe cinéma et débat, classé en culture et solidarité / santé."
-        },
-        {
-          "event_title": "« Une soirée à Vienne » : concert du « Page Blanche Quartet »",
-          "reason": "Un concert programmé le dimanche, parmi les propositions culturelles de fin de semaine."
+          "reason": "Une projection suivie d’un débat autour du documentaire de Nicolas Philibert, liée aux semaines d’information sur la santé mentale."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:23:20.456644+00:00",
+    "generated_at": "2026-09-25T13:58:59.262752+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-12": {
-    "hash": "271c14b402eb08be1bc96bb3a693d6466701dab8dc2b8998a9fe68b816a7d13d",
+    "hash": "08a3d6000832981afbf7157ed1d243e4855105d85efc14be7f45b4503f2b96cb",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 12 au 18 octobre 2026 : conférences, ateliers, culture, vendanges, belote, loto et trail dans les Baronnies.",
-      "intro": "Du 12 au 18 octobre 2026, l’agenda de Nyons réunit des rendez-vous aux thématiques variées, entre culture, échanges, santé, vie associative et loisirs. La semaine débute avec une conférence consacrée à Chagall, puis se poursuit par un atelier autour des directives anticipées et dernières volontés. Le mercredi propose à la fois un temps de discussion sur l’agriculture et un documentaire consacré à l’Opéra de Lyon et à Jean Nouvel. La santé mentale, les rituels funéraires et l’art-thérapie font également partie des sujets abordés. À l’approche du week-end, la programmation laisse davantage de place aux sorties collectives, avec la présentation de « Nyons en scène », la clôture des vendanges, un tournoi de belote, un loto et le Trail de Nyons et Baronnies. De quoi composer son programme selon ses centres d’intérêt.",
-      "weekend": "Le week-end des 17 et 18 octobre se choisit selon l’envie du moment. Le samedi rassemble plusieurs propositions : un Atelier d’Art-Thérapie, la Journée de clôture des vendanges et le Tournoi de belote du Comité des Fêtes. Ces rendez-vous relèvent respectivement des thématiques culture et santé, patrimoine culturel, ou loisirs et vie associative. Le dimanche, deux options figurent à l’agenda : le Loto d’ASOFT Nyons Numérique et le Trail de Nyons et Baronnies. Pour faire son choix, il est utile de privilégier le thème qui vous attire, puis de consulter les informations mises à jour par chaque organisateur.",
-      "practical": "Les événements indiqués ont tous lieu sur une seule journée, entre le 12 et le 18 octobre 2026. Avant de vous déplacer, consultez la page officielle de la manifestation choisie : les horaires, le lieu précis, les éventuelles conditions de participation et les informations de dernière minute ne sont pas détaillés ici. Cette vérification est particulièrement recommandée pour les ateliers, les rendez-vous associatifs et les activités de loisirs.",
-      "conclusion": "Cette semaine d’octobre reflète la diversité des rendez-vous proposés à Nyons : réflexion, culture, initiatives associatives et moments de loisir se succèdent jusqu’au dimanche. Les amateurs de conférences et de documentaires trouveront des propositions en milieu de semaine, tandis que le week-end offre plusieurs formats collectifs. Consultez les pages officielles pour retenir les sorties qui correspondent à vos envies.",
+      "meta_description": "Agenda de Nyons du 12 au 18 octobre 2026 : Chagall, santé mentale, vendanges, belote et trail dans les Baronnies.",
+      "intro": "Du 12 au 18 octobre 2026, l’agenda de Nyons rassemble des rendez-vous qui alternent culture, sujets de société, vie associative et loisirs. La semaine s’ouvre avec une conférence consacrée à Chagall, puis aborde les directives anticipées, les dernières volontés et les effets de la chaleur sur une saison agricole. Une projection autour de l’Opéra de Lyon conçu par Jean Nouvel prévoit également un échange avec le réalisateur Michel Van Zèle. Les rendez-vous liés à la santé mentale se poursuivent avec des stands associatifs, une « Mad Pride » et un atelier d’Art-Thérapie. Vendredi, la présentation de la nouvelle saison culturelle municipale de « Nyons en scène » complète les ateliers proposés dans le cadre de la Semaine Bleue. Le week-end réunit enfin la clôture des vendanges, un tournoi de belote, le Trail de Nyons et Baronnies et un loto associatif.",
+      "weekend": "Pour composer votre week-end, le samedi 17 octobre offre plusieurs orientations. La Journée de clôture des vendanges est associée à « Vignoble en Scène » au domaine Rocheville, tandis que le Tournoi de belote du Comité des Fêtes privilégie un temps de loisirs associatif. Les personnes attirées par une activité sportive peuvent regarder le Trail de Nyons et Baronnies, programmé sur les 17 et 18 octobre : il annonce des courses de 40 km, 22 km et 9,5 km, ainsi qu’une randonnée et de la marche nordique. Le dimanche 18, le Loto d’ASOFT Nyons Numérique ajoute une autre proposition portée par une association.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque rendez-vous pour confirmer les informations utiles publiées par l’organisateur. Vérifiez en particulier la date retenue pour les événements du Trail de Nyons et Baronnies, qui s’étendent sur deux jours. Les ateliers, la conférence, la projection et les rencontres associatives étant distincts, il est préférable de consulter leurs pages séparément plutôt que de se fier à un aperçu général de la semaine.",
+      "conclusion": "Cette semaine d’octobre met en regard des thèmes culturels, agricoles et de santé, avec une place marquée pour les associations et les initiatives locales. Entre la conférence sur Chagall, les échanges autour de la santé mentale, la présentation de « Nyons en scène » et les activités du week-end, chacun peut repérer un rendez-vous selon ses centres d’intérêt. Les pages officielles restent la référence pour préparer sa sortie.",
       "highlights": [
         {
-          "event_title": "Agriculture en surchauffe, on en parle ?",
-          "reason": "Un rendez-vous du mercredi inscrit dans les catégories cadre de vie, solidarité / santé et culture."
-        },
-        {
-          "event_title": "Journée de clôture des vendanges",
-          "reason": "Une proposition du samedi rattachée au patrimoine et à la culture."
+          "event_title": "Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »",
+          "reason": "La projection est suivie d’un échange animé par le réalisateur Michel Van Zèle."
         },
         {
           "event_title": "Trail de Nyons et Baronnies",
-          "reason": "Un rendez-vous dominical classé dans les loisirs et le sport."
+          "reason": "L’événement se déroule sur deux jours et propose plusieurs distances, une randonnée et de la marche nordique."
+        },
+        {
+          "event_title": "Journée de clôture des vendanges",
+          "reason": "Cette journée associe la clôture des vendanges à « Vignoble en Scène » au domaine Rocheville."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:23:36.808667+00:00",
+    "generated_at": "2026-09-25T13:59:13.371526+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-19": {
-    "hash": "6307bdcd36f59e7500430fcc2c8f26a8109e0985d6e87ba285ee2a99b2ad4f1c",
+    "hash": "29ed19eb5fe5bb5c13a751e71bb957b14621ccf299b2e5c3eeafe6aae459db66",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 19 au 25 octobre 2026 : culture, vie locale, atelier de savon d’Halloween et jeux de société cette semaine.",
-      "intro": "Du 19 au 25 octobre 2026, l’agenda de Nyons rassemble six rendez-vous répartis entre culture, vie locale et loisirs. La semaine s’ouvre le lundi avec « Ts’art : Une histoire de Paradis ! », classé dans les rubriques culture, patrimoine et solidarité/santé. Le mercredi, le Conseil Municipal figure parmi les rendez-vous administratifs, tandis que les documentaires de l’UNTL proposent « De la libération à l’épuration ». Jeudi, l’Atelier cosmétique – Savon d’Halloween apporte une idée de loisir en lien avec la période. La programmation se poursuit vendredi avec « SAISON 4 » de Romuald Maufras. Enfin, la Journée Jeux de société, annoncée le samedi, clôt cette sélection hebdomadaire avec une proposition inscrite dans les catégories loisirs, enfance/jeunesse et sport/loisirs.",
-      "weekend": "Pour organiser vos sorties du week-end, la liste fournie met en avant un rendez-vous le samedi 24 octobre : Journée Jeux de société. Cette proposition relève des loisirs et est également rattachée aux catégories enfance/jeunesse et sport/loisirs. Elle peut donc constituer le point de départ d’un programme de samedi à Nyons. Aucun événement daté du dimanche 25 octobre n’apparaît dans les informations transmises. Pour le reste du week-end, il est préférable de consulter les fiches officielles plutôt que de déduire des prolongations ou des activités non indiquées.",
-      "practical": "Avant de vous déplacer, consultez la fiche officielle de chaque événement. Les informations fournies ici donnent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les tarifs, les modalités d’accès ou une éventuelle réservation. Cette vérification est particulièrement utile si vous hésitez entre plusieurs rendez-vous le mercredi ou si vous prévoyez la sortie du samedi.",
-      "conclusion": "Cette semaine d’octobre propose à Nyons un agenda varié, allant des rendez-vous culturels aux loisirs, en passant par la vie municipale. Les dates s’échelonnent du lundi au samedi, avec plusieurs choix autour du 21 octobre. Retenez les événements qui correspondent à vos centres d’intérêt, puis appuyez-vous sur leur page officielle pour préparer votre venue avec des informations à jour.",
+      "meta_description": "Agenda de Nyons du 19 au 25 octobre 2026 : théâtre, exposition, documentaire, spectacle, atelier et jeux de société à découvrir.",
+      "intro": "La semaine du 19 au 25 octobre 2026 propose à Nyons un agenda varié, entre propositions culturelles, rendez-vous citoyens et loisirs. Elle s’ouvre le 19 octobre avec « Ts’art : Une histoire de Paradis ! », une représentation inscrite dans le cadre de la Semaine Bleue. Dès le lendemain, l’exposition « Le réel et son double #2 » accompagne la fin du mois, avec Antoine Picard et la MARPA de Rémuzat. Le 21 octobre réunit un Conseil Municipal et la projection d’un documentaire de l’UNTL, suivie d’un échange avec le réalisateur Michel Van Zèle. L’approche d’Halloween inspire aussi un atelier cosmétique consacré au savon, avant le spectacle « SAISON 4 » de Romuald Maufras. Le samedi, la Journée Jeux de société organisée par le Service Jeunesse offre une autre idée de sortie.",
+      "weekend": "Pour le week-end, l’agenda se concentre sur deux propositions distinctes le samedi 24 octobre. Les amateurs de loisirs peuvent se tourner vers la Journée Jeux de société, portée par le Service Jeunesse. Ceux qui préfèrent une sortie culturelle peuvent également tenir compte de l’exposition « Le réel et son double #2 », commencée le 20 octobre et programmée jusqu’au 31 octobre. Le vendredi 23 octobre, « SAISON 4 » de Romuald Maufras constitue une option à envisager pour démarrer le week-end avec un spectacle. Le choix dépend donc surtout de l’envie du moment : jeu, exposition ou scène.",
+      "practical": "Avant de vous déplacer, consultez la fiche officielle de chaque rendez-vous : elle permet de vérifier les informations pratiques non précisées dans cet agenda, notamment les horaires, le lieu exact et les éventuelles modalités d’accès. Pensez aussi à contrôler la date : certains événements n’ont lieu qu’une journée, tandis que l’exposition « Le réel et son double #2 » se poursuit jusqu’au 31 octobre.",
+      "conclusion": "Cette semaine d’octobre dessine un programme nyonsais aux formats complémentaires : théâtre participatif, exposition, documentaire et échange, vie municipale, atelier thématique, spectacle et jeux. Les rendez-vous sont répartis du lundi au samedi, ce qui laisse plusieurs occasions de composer sa sortie selon ses centres d’intérêt. Pour finaliser votre sélection, reportez-vous aux pages officielles des événements.",
       "highlights": [
         {
-          "event_title": "Les documentaires de l’UNTL : « De la libération à l’épuration »",
-          "reason": "Un rendez-vous culturel et associatif programmé le mercredi 21 octobre."
+          "event_title": "« Ts’art : Une histoire de Paradis ! »",
+          "reason": "Une représentation théâtrale réunissant une quinzaine d’adhérents des GEM le Soleil et l’Oasis, dans le cadre de la Semaine Bleue."
         },
         {
-          "event_title": "Atelier cosmétique – Savon d’Halloween",
-          "reason": "Une proposition de loisirs prévue le jeudi 22 octobre, en lien avec Halloween par son intitulé."
+          "event_title": "Les documentaires de l’UNTL : « De la libération à l’épuration »",
+          "reason": "La projection est suivie d’un échange animé par le réalisateur Michel Van Zèle."
         },
         {
           "event_title": "Journée Jeux de société",
-          "reason": "Le rendez-vous du samedi 24 octobre, classé dans les catégories loisirs et enfance/jeunesse."
+          "reason": "Une journée de loisirs organisée par le Service Jeunesse."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:24:03.938221+00:00",
+    "generated_at": "2026-09-25T13:59:27.298864+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-26": {
-    "hash": "3ce55412df59cf0472335a97799c1f065a2ca14237412c0da61dddd11e2e81b2",
+    "hash": "34c95b147fb51e212b4abd9a513b68eee37d5e96499ce552b50ba002083d27c9",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 26 octobre au 1er novembre 2026 : ateliers d’Halloween, culture, exposition et rendez-vous associatif.",
-      "intro": "La semaine du 26 octobre au 1er novembre 2026 propose à Nyons un agenda largement rythmé par Halloween, avec plusieurs ateliers créatifs et culinaires répartis entre mardi et samedi. Jeux, maquillage, savon et brownies composent une sélection tournée vers les loisirs, tandis qu’un atelier consacré aux tapenades et tartinables apporte une autre idée de sortie gourmande. La programmation laisse aussi une place à la culture : un documentaire consacré à Callas est annoncé le mercredi, puis l’exposition « Le réel et son double #2 » le samedi. Enfin, le dimanche 1er novembre, le loto de l’association « Le Trait d’Union » inscrit la fin de semaine dans un cadre associatif. De quoi construire un programme varié selon ses envies, entre activités manuelles, découvertes culturelles et rendez-vous convivial.",
-      "weekend": "Pour le week-end, le samedi 31 octobre concentre deux propositions de nature différente : l’Atelier culinaire – Brownies d’Halloween, classé parmi les loisirs et la culture, et l’Exposition « Le réel et son double #2 », également rattachée à la culture. Le dimanche 1er novembre, l’agenda se poursuit avec le Loto de l’association « Le Trait d’Union ». Le choix peut donc se faire selon l’envie du moment : privilégier une activité liée à Halloween, découvrir une exposition ou participer à un événement de vie associative. Les intitulés et catégories permettent de repérer rapidement l’esprit de chaque rendez-vous.",
-      "practical": "Les informations disponibles indiquent les dates et les catégories des événements, mais ne précisent ni horaires, ni conditions d’accès, ni tarifs. Avant de vous déplacer, consultez la page officielle de chaque rendez-vous afin de vérifier les modalités actualisées. Cela est particulièrement utile pour les ateliers, dont les conditions de participation ne sont pas détaillées dans l’agenda fourni. Pensez aussi à distinguer les deux dates proposées pour l’atelier de maquillage d’Halloween.",
-      "conclusion": "Cette semaine à Nyons offre un fil conducteur automnal, avec plusieurs rendez-vous associés à Halloween, tout en préservant des alternatives culturelles et associatives. Les ateliers se succèdent du 27 au 31 octobre, avant le loto du 1er novembre. Pour composer votre sortie, appuyez-vous sur les dates, les catégories et les pages officielles : elles permettront de confirmer les informations nécessaires avant votre venue.",
+      "meta_description": "Agenda de Nyons du 26 octobre au 1er novembre 2026 : exposition, jeux, ateliers d’Halloween, documentaire, cuisine et loto associatif.",
+      "intro": "La semaine du 26 octobre au 1er novembre 2026 offre à Nyons un agenda varié, entre culture, loisirs créatifs et rendez-vous associatifs. L’exposition « Le réel et son double #2 » se poursuit jusqu’au 31 octobre, avec Antoine Picard et la MARPA de Rémuzat. Les 27 et 28 octobre, les propositions alternent entre jeux de société, création de maquillage pour Halloween et projection documentaire consacrée à Maria Callas, suivie d’un échange avec le réalisateur Michel Van Zèle. La fin de semaine s’inscrit aussi dans l’esprit d’Halloween : savon, maquillage et brownies figurent parmi les ateliers annoncés. Les amateurs de cuisine peuvent également se tourner vers un atelier dédié aux tapenades et tartinables. Enfin, le dimanche 1er novembre, l’association « Le Trait d’Union » organise son loto. Une sélection qui permet de composer ses sorties selon ses envies, de la découverte culturelle aux activités pratiques.",
+      "weekend": "Pour le week-end, plusieurs rendez-vous se concentrent autour du samedi 31 octobre et du dimanche 1er novembre. Le samedi, l’atelier culinaire consacré aux brownies d’Halloween peut convenir à celles et ceux qui souhaitent rester dans la thématique de saison. C’est aussi le dernier jour annoncé pour l’exposition « Le réel et son double #2 », une option culturelle à envisager avant sa clôture. Le dimanche, le loto de l’association « Le Trait d’Union » apporte une proposition tournée vers la vie associative. Le choix peut donc se faire entre une activité culinaire, une visite d’exposition ou un rendez-vous associatif.",
+      "practical": "Avant de vous déplacer, consultez la fiche officielle de chaque événement : elle permet de vérifier les informations qui ne figurent pas dans cet agenda, notamment les modalités pratiques. Les ateliers de maquillage d’Halloween sont annoncés à deux dates distinctes, les 28 et 30 octobre : vérifiez bien celle qui vous intéresse. Pour l’exposition, retenez qu’elle est programmée jusqu’au 31 octobre inclus.",
+      "conclusion": "Cette semaine nyonsaise associe exposition, documentaire, jeux, ateliers et vie associative. Les rendez-vous liés à Halloween occupent une place importante, tandis que l’exposition et la projection autour de Callas ouvrent d’autres perspectives culturelles. Entre le 26 octobre et le 1er novembre, chacun peut ainsi repérer une sortie en fonction de ses centres d’intérêt, puis compléter sa préparation auprès des organisateurs.",
       "highlights": [
         {
-          "event_title": "Atelier culinaire – Brownies d’Halloween",
-          "reason": "Un atelier culinaire programmé le samedi 31 octobre, dans une semaine fortement marquée par Halloween."
+          "event_title": "Exposition « Le réel et son double #2 »",
+          "reason": "Une exposition programmée jusqu’au 31 octobre, associant Antoine Picard et la MARPA de Rémuzat."
         },
         {
-          "event_title": "Exposition « Le réel et son double #2 »",
-          "reason": "Un rendez-vous culturel proposé le samedi 31 octobre, en alternative aux ateliers."
+          "event_title": "Les documentaires de l’UNTL : « La Passion selon Callas »",
+          "reason": "La projection est suivie d’un échange animé par le réalisateur Michel Van Zèle."
         },
         {
           "event_title": "Loto de l’association « Le Trait d’Union »",
-          "reason": "L’événement associatif qui clôt la sélection le dimanche 1er novembre."
+          "reason": "Un rendez-vous de vie associative organisé le dimanche 1er novembre."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:24:22.617372+00:00",
+    "generated_at": "2026-09-25T13:59:39.963581+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-11-02": {
-    "hash": "cbe39806ca694b579a7d652754913a87ed10fb4e82f5f0e02841348a54aa404b",
+    "hash": "10e6b1ed1192f134ed0da6787e0d21a608a126076e979a214c86509b84fd4aad",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 2 au 8 novembre 2026 : découvrez Drôles de Coïncidences, un rendez-vous culturel programmé le 7 novembre.",
-      "intro": "La semaine du 2 au 8 novembre 2026 propose un rendez-vous culturel à Nyons. Le samedi 7 novembre, « Drôles de Coïncidences » figure à l’agenda local, dans les catégories Culture et Patrimoine / Culture vivante. C’est une occasion de repérer une sortie à intégrer à son programme de fin de semaine, que l’on soit de passage dans le Nyonsais ou habitant du secteur. Les informations disponibles ne détaillent pas le contenu de l’événement : il est donc préférable de consulter la page officielle avant de prévoir sa venue. Cette sélection volontairement concise permet de mettre en avant le rendez-vous annoncé pour cette période, sans lui attribuer de programme ou de modalités qui ne sont pas communiqués.",
-      "weekend": "Pour choisir une sortie durant le week-end, commencez par retenir la date : « Drôles de Coïncidences » est annoncé le samedi 7 novembre. Son classement dans les rubriques Culture et Patrimoine / Culture vivante peut orienter les personnes en recherche d’un rendez-vous culturel à Nyons. Comme le détail du contenu n’est pas indiqué dans les informations disponibles, la page officielle de l’événement reste le meilleur point de repère pour compléter votre choix. Pensez aussi à vérifier que les informations affichées sont toujours à jour avant de vous organiser.",
-      "practical": "Avant de vous déplacer, consultez le lien officiel associé à « Drôles de Coïncidences ». Les éléments tels que les horaires, le lieu précis, les conditions d’accès ou une éventuelle réservation ne sont pas fournis ici. Une vérification en amont vous permettra de préparer votre sortie du 7 novembre avec les informations les plus récentes.",
-      "conclusion": "Cette semaine, l’agenda de Nyons met en lumière « Drôles de Coïncidences », programmé le 7 novembre 2026. Pour en savoir plus sur ce rendez-vous rattaché à la culture et au patrimoine vivant, reportez-vous aux informations publiées par l’organisateur. C’est le bon réflexe pour finaliser votre programme de week-end sans rien supposer.",
+      "meta_description": "Agenda de Nyons du 2 au 8 novembre 2026 : découvrez « Drôles de Coïncidences », une comédie d’intrigue proposée le samedi 7 novembre.",
+      "intro": "La semaine du 2 au 8 novembre 2026 s’annonce concentrée dans l’agenda de Nyons, avec un rendez-vous culturel programmé le samedi 7 novembre. « Drôles de Coïncidences » est une comédie d’intrigue de Maxence Descamps, inscrite dans les catégories Culture et Patrimoine / Culture vivante. Ce format théâtral constitue l’occasion de privilégier une sortie autour d’une œuvre de scène, au cœur de la programmation locale de la semaine. Avec un seul événement communiqué sur cette période, l’agenda se lit simplement : il permet d’identifier rapidement la date à retenir et de préparer sa sortie sans multiplier les choix. Pour les visiteurs comme pour les habitants, c’est aussi une bonne raison de consulter la page officielle de l’événement afin de compléter les informations utiles avant de se déplacer.",
+      "weekend": "Pour choisir une sortie le week-end des 7 et 8 novembre, le rendez-vous annoncé se situe le samedi 7 novembre. « Drôles de Coïncidences » conviendra à celles et ceux qui souhaitent s’orienter vers une proposition culturelle et une comédie d’intrigue. L’événement est également rattaché à la catégorie Patrimoine / Culture vivante, ce qui peut guider les personnes recherchant une sortie liée à la vie culturelle locale. Aucun autre événement n’étant indiqué ici pour le dimanche, il est préférable de bâtir son programme autour de cette date et de vérifier les précisions disponibles auprès de l’organisateur.",
+      "practical": "Avant votre sortie, consultez la page officielle de « Drôles de Coïncidences ». Les informations fournies confirment la date du samedi 7 novembre 2026 et la nature de l’événement, mais ne précisent ni horaire, ni lieu, ni conditions d’accès. Une vérification préalable vous permettra de disposer des informations actualisées nécessaires à l’organisation de votre venue.",
+      "conclusion": "Du 2 au 8 novembre 2026, l’agenda de Nyons met en avant une proposition culturelle unique : « Drôles de Coïncidences », le 7 novembre. Cette comédie d’intrigue de Maxence Descamps offre un repère clair pour une sortie du samedi. Pensez à consulter le lien officiel avant de finaliser votre programme, afin de vérifier les modalités non renseignées dans l’annonce.",
       "highlights": [
         {
           "event_title": "Drôles de Coïncidences",
-          "reason": "Un rendez-vous culturel annoncé à Nyons le 7 novembre 2026, également classé en Patrimoine / Culture vivante."
+          "reason": "Une comédie d’intrigue de Maxence Descamps, annoncée le samedi 7 novembre 2026."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:24:36.477705+00:00",
+    "generated_at": "2026-09-25T13:59:50.617950+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-11-09": {
-    "hash": "671a350acbbb780ca454bb7ed6f32051b47d0fb1fd69c3d4bfdaf8dc40611bd9",
+    "hash": "d166118135e02d9953ff3631c0eda86c0d22dc755fa4bda7aafbaac44c1d69ee",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 9 au 15 novembre 2026 : conférence, culture, loisirs, solidarité et santé, avec plusieurs rendez-vous le samedi 14 novembre.",
-      "intro": "La semaine du 9 au 15 novembre 2026 propose à Nyons un agenda concentré sur quelques rendez-vous ponctuels, entre culture, vie associative, loisirs et solidarité. Dès le lundi 9 novembre, la conférence de l’UNTL consacrée au Liban ouvre la programmation. La culture se poursuit le mercredi avec Opera follies, puis le vendredi avec La Femme Moustique. Le samedi 14 novembre réunit la plus grande diversité de choix : Atelier Yoga du Chant et Puces des couturières côté loisirs et vie associative, Café-rencontre UNAFAM dans la rubrique solidarité et santé, ainsi que Petits crimes conjugaux dans la catégorie culture. Cette sélection permet de repérer rapidement les événements selon ses envies, tout en gardant à l’esprit que les informations détaillées ne sont pas indiquées dans cet agenda synthétique.",
-      "weekend": "Pour organiser votre week-end, le samedi 14 novembre mérite une attention particulière : cinq événements y sont annoncés dans des registres différents. Les amateurs de culture peuvent s’orienter vers Petits crimes conjugaux, tandis que les rubriques loisirs et vie associative regroupent Atelier Yoga du Chant et Puces des couturières. Café-rencontre UNAFAM relève pour sa part de la solidarité et de la santé. Le meilleur choix dépend donc avant tout de la catégorie recherchée et des informations pratiques disponibles sur chaque fiche officielle. En l’absence d’horaires et de lieux dans cette sélection, mieux vaut comparer les pages des événements avant de composer sa journée.",
-      "practical": "Avant tout déplacement, consultez la page officielle liée à chaque événement. Elle permettra de vérifier les éléments non fournis ici, notamment l’horaire, le lieu et les éventuelles modalités d’accès. Cette précaution est particulièrement utile pour le samedi 14 novembre, où plusieurs rendez-vous sont programmés le même jour. Vérifiez également que la date affichée correspond bien à votre sortie : chaque événement de cette sélection se déroule sur une seule journée.",
-      "conclusion": "Du 9 au 15 novembre 2026, Nyons propose une programmation courte mais variée, avec une présence marquée de la culture et de la vie associative. Le samedi concentre l’essentiel des possibilités, entre loisirs, solidarité et rendez-vous culturel. Utilisez cette sélection comme un repère pour identifier les dates qui vous intéressent, puis appuyez-vous sur les fiches officielles pour finaliser votre choix et préparer votre venue.",
+      "meta_description": "Du 9 au 15 novembre 2026, Nyons propose conférences, chant, théâtre, conte et loisirs créatifs, avec plusieurs rendez-vous le samedi.",
+      "intro": "La semaine du 9 au 15 novembre 2026 dessine un agenda nyonsais largement tourné vers la culture et la vie associative. Dès le lundi, une conférence de l’UNTL aborde la situation du Liban avec Vincent Fert, professeur agrégé d’histoire-géographie. Le mercredi, l’Ensemble Vocal Cant’Ouvèze est annoncé avec « Opera follies ». La fin de semaine réunit ensuite des propositions très différentes : un conte porté par Mélancolie Motte, un atelier consacré au yoga du chant, une rencontre UNAFAM, du théâtre et les Puces des couturières. Le samedi 14 novembre concentre ainsi plusieurs possibilités, entre création artistique, initiative associative, solidarité et loisirs créatifs. Cet agenda permet de composer une sortie selon ses centres d’intérêt, en privilégiant soit un rendez-vous culturel, soit une activité collective ou associative.",
+      "weekend": "Pour le week-end, le samedi 14 novembre est la date à regarder en priorité : cinq rendez-vous y sont annoncés. Les amateurs de scène peuvent s’orienter vers « Petits crimes conjugaux », pièce d’Éric-Emmanuel Schmitt interprétée par la Compagnie « L’Épopée Belle ». « La Femme Moustique », programmée la veille, offre une autre approche artistique à travers un conte de et par Mélancolie Motte. Côté pratique et associatif, l’Atelier Yoga du Chant, le Café-rencontre UNAFAM et les Puces des couturières complètent les choix. Il est donc utile de sélectionner d’abord le type de sortie recherché avant de comparer les informations de chaque fiche.",
+      "practical": "Avant de vous déplacer, consultez la fiche officielle de chaque événement afin de vérifier les informations utiles publiées par l’organisateur. Cette précaution est particulièrement pertinente le samedi 14 novembre, qui rassemble plusieurs rendez-vous à Nyons. Vérifiez aussi que la date correspond bien à votre choix : « La Femme Moustique » est annoncée le vendredi 13, tandis que les autres propositions de fin de semaine ont lieu le samedi 14.",
+      "conclusion": "Du 9 au 15 novembre, l’agenda de Nyons fait place à des formats variés, de la conférence au spectacle, en passant par l’atelier et les loisirs créatifs. La programmation du samedi permet notamment de choisir entre plusieurs univers. Pour préparer sa sortie, le plus simple reste de s’appuyer sur les fiches officielles de chaque rendez-vous et de retenir celui qui correspond le mieux à ses envies.",
       "highlights": [
         {
           "event_title": "Conférence de l’UNTL sur « Le Liban petit pays mais gros problèmes »",
-          "reason": "Un rendez-vous classé à la fois en culture, vie associative et patrimoine / culture vivante, programmé le 9 novembre."
+          "reason": "Une conférence le 9 novembre présentée par Vincent Fert, professeur agrégé d’histoire-géographie."
+        },
+        {
+          "event_title": "La Femme Moustique",
+          "reason": "Un conte présenté comme monstrueux et merveilleux, créé et interprété par Mélancolie Motte."
         },
         {
           "event_title": "Petits crimes conjugaux",
-          "reason": "Un événement culturel prévu le samedi 14 novembre, journée la plus fournie de la semaine."
-        },
-        {
-          "event_title": "Puces des couturières",
-          "reason": "Un rendez-vous de loisirs et de vie associative annoncé le 14 novembre."
+          "reason": "Une pièce d’Éric-Emmanuel Schmitt proposée par la Compagnie « L’Épopée Belle »."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:25:00.243477+00:00",
+    "generated_at": "2026-09-25T14:00:05.501106+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-11-16": {
-    "hash": "e6cd7013f888c3e2c2831114a19dc57bc73f6dc8722e00f56d34569808e664ed",
+    "hash": "5f12098b34ffc1cfe18040e495295c92297ef843daccceec7e894cd2e70bb2f6",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 16 au 22 novembre 2026 : conférence, salon, rendez-vous culturel et loto pour rythmer la semaine et le week-end.",
-      "intro": "Du 16 au 22 novembre 2026, l’agenda de Nyons réunit quatre rendez-vous aux thématiques variées. La semaine s’ouvre avec une conférence consacrée à l’intelligence des corbeaux, inscrite dans les champs de la culture et de la vie associative. Le mercredi, le Salon Vivre ici aborde des sujets liés au cadre de vie, à la solidarité, à la santé et au tissu associatif. À l’approche du week-end, la programmation laisse place à un événement culturel, « De l’île Noire au Montbrun », puis à un loto porté par l’univers des loisirs et de la vie associative. Cette sélection permet de composer une sortie selon ses envies : découverte, échanges autour de la vie locale, culture ou moment convivial. Les informations détaillées de chaque rendez-vous sont à consulter sur les pages officielles associées.",
-      "weekend": "Pour organiser vos sorties des 21 et 22 novembre, deux propositions se distinguent par leurs univers. « De l’île Noire au Montbrun » est annoncé le samedi et relève de la culture ainsi que du patrimoine et de la culture vivante. Le dimanche, le Loto de « Détente et loisirs » s’inscrit dans les catégories loisirs et vie associative. Le choix peut donc se faire selon le type de moment recherché, ou permettre de répartir les sorties sur les deux journées. Avant de vous décider, consultez les fiches officielles afin d’obtenir les précisions disponibles pour chaque événement.",
-      "practical": "Les données disponibles indiquent les dates et les grandes catégories des rendez-vous, mais ne précisent ni horaires, ni lieux, ni conditions d’accès. Vérifiez donc la page officielle de l’événement retenu avant de vous déplacer. Cette démarche est particulièrement utile pour confirmer les modalités pratiques et prendre connaissance d’éventuelles informations complémentaires.",
-      "conclusion": "Cette semaine de novembre offre un aperçu de la diversité des initiatives annoncées à Nyons : culture, cadre de vie, solidarité, loisirs et vie associative se croisent au fil des jours. Que vous visiez un rendez-vous précis ou une sortie de week-end, prenez le temps de consulter les informations officielles. Vous pourrez ainsi choisir l’événement qui correspond le mieux à vos centres d’intérêt.",
+      "meta_description": "Agenda de Nyons du 16 au 22 novembre 2026 : conférence sur les corbeaux, salon, concert et loto pour rythmer la semaine.",
+      "intro": "La semaine du 16 au 22 novembre 2026 propose à Nyons quatre rendez-vous aux formats bien différents. Elle débute le lundi avec une conférence de l’UNTL consacrée à l’intelligence des corbeaux, présentée par Joëlle Vionnet et Bruno Machtelinck. Le mercredi, le Salon Vivre ici ouvre une parenthèse liée aux études, au travail et à l’habitat. Le programme se poursuit samedi avec le concert « De l’île Noire au Montbrun ». Enfin, le dimanche, l’association Détente et loisirs organise son loto. Cet agenda permet ainsi de composer une semaine entre curiosité culturelle, informations sur la vie locale, musique et vie associative. Les fiches officielles de chaque rendez-vous restent la meilleure source pour préparer sa venue et connaître les modalités propres à chaque proposition.",
+      "weekend": "Pour le week-end des 21 et 22 novembre, le choix se fait simplement selon l’envie du moment. Le samedi est marqué par « De l’île Noire au Montbrun », annoncé comme un concert et classé dans la rubrique culture. Le dimanche, le loto de l’association Détente et loisirs offre un autre type de sortie, ancré dans la vie associative. Les personnes souhaitant profiter des deux journées peuvent donc retenir un rendez-vous culturel le samedi puis le loto le dimanche. Pour ce dernier, l’annonce indique un début à 14 h à la Maison de Pays.",
+      "practical": "Avant de vous déplacer, consultez la page officielle associée à chaque événement. Vérifiez notamment les horaires lorsqu’ils ne figurent pas dans l’agenda, l’adresse précise, les éventuelles conditions d’accès et toute mise à jour publiée par l’organisateur. Le loto de « Détente et loisirs » est annoncé à 14 h, à la Maison de Pays. Pour les autres rendez-vous, les informations disponibles dans les fiches officielles sont à privilégier.",
+      "conclusion": "Entre conférence, salon, concert et loto, Nyons présente une programmation courte mais variée pour cette semaine de novembre. Chaque date correspond à une approche distincte : découverte, vie locale, culture ou association. Repérez le rendez-vous qui vous intéresse, puis consultez son annonce officielle avant votre venue afin de disposer des informations les plus à jour.",
       "highlights": [
         {
           "event_title": "Conférence de l’UNTL sur l’intelligence des corbeaux",
-          "reason": "Un rendez-vous culturel et associatif programmé dès le lundi 16 novembre."
+          "reason": "Une conférence présentée par Joëlle Vionnet et Bruno Machtelinck, autour de l’intelligence des corbeaux."
         },
         {
           "event_title": "De l’île Noire au Montbrun",
-          "reason": "Une proposition du samedi 21 novembre classée dans la culture et le patrimoine."
+          "reason": "Un concert programmé le samedi 21 novembre dans la catégorie culture."
         },
         {
           "event_title": "Loto de « Détente et loisirs »",
-          "reason": "Un événement de loisirs et de vie associative prévu le dimanche 22 novembre."
+          "reason": "Un rendez-vous associatif annoncé le dimanche à 14 h à la Maison de Pays."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:25:15.522786+00:00",
+    "generated_at": "2026-09-25T14:00:21.647964+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-11-30": {
-    "hash": "01b380752d6113a140e31f2eaf358b4583d03bd02a7a136ac7cda42456fe4fc8",
+    "hash": "bb03edf92b088136d765e6de3889b5f137653219d0d43e2582b7dd76410fd73f",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 30 novembre au 6 décembre 2026 : deux rendez-vous les 5 et 6 décembre, entre culture vivante et solidarité.",
-      "intro": "La première semaine de décembre se conclut à Nyons par deux rendez-vous inscrits à l’agenda local. Le samedi 5 décembre, « Les turlupinades » propose une sortie classée dans les rubriques Patrimoine / Culture vivante et Culture. Le lendemain, dimanche 6 décembre, le « Téléthon 2026 » porte la programmation vers la solidarité et la santé. Cette sélection resserrée permet de repérer rapidement les propositions annoncées pour le week-end, selon l’envie de privilégier une approche culturelle ou un événement solidaire. Les informations disponibles ne détaillent ni les horaires, ni les lieux, ni les modalités de participation : il est donc préférable de consulter les pages officielles avant de préparer sa sortie. Pour les habitants comme pour les visiteurs de passage, ces deux dates offrent des repères simples pour organiser la fin de semaine à Nyons.",
-      "weekend": "Pour choisir sa sortie des 5 et 6 décembre, commencez par le thème qui vous attire le plus. « Les turlupinades », programmé le samedi, relève de la culture vivante et du patrimoine. Le dimanche, « Téléthon 2026 » est référencé dans la catégorie Solidarité / Santé. Les deux rendez-vous ayant lieu sur des jours différents, ils peuvent aussi s’intégrer dans un même week-end. Avant de vous décider, consultez les fiches officielles : les données fournies ne précisent pas le déroulé, le lieu ni les horaires de ces événements.",
-      "practical": "Vérifiez les informations actualisées directement sur les pages officielles de chaque rendez-vous avant de vous déplacer. Les éléments transmis indiquent les dates et les catégories, mais pas les horaires, l’adresse, les conditions d’accès, les éventuels tarifs ou les modalités d’inscription. Une consultation préalable aidera à confirmer les informations utiles à votre organisation.",
-      "conclusion": "Du 30 novembre au 6 décembre 2026, l’agenda de Nyons met en avant deux propositions concentrées sur le week-end. Culture vivante le samedi avec « Les turlupinades », puis solidarité et santé le dimanche avec le « Téléthon 2026 » : chacun peut retenir le rendez-vous correspondant à ses centres d’intérêt. Pensez à vérifier les informations pratiques auprès des organisateurs.",
+      "meta_description": "Agenda de Nyons du 30 novembre au 6 décembre 2026 : théâtre comique le 5 décembre et Téléthon 2026 durant le week-end.",
+      "intro": "La semaine du 30 novembre au 6 décembre 2026 se concentre surtout sur le week-end à Nyons, avec deux rendez-vous annoncés les 5 et 6 décembre. Le samedi 5 décembre, « Les turlupinades » propose un moment culturel placé sous le signe du théâtre comique, avec la Compagnie du Chien Noir. L’événement est rattaché aux thématiques de la culture et du patrimoine vivant. Le même jour débute le Téléthon 2026, inscrit dans les catégories solidarité, santé et loisirs. Cette initiative se poursuit le dimanche 6 décembre. Pour composer votre programme, vous pouvez donc privilégier la sortie culturelle du samedi, participer au rendez-vous solidaire sur l’une ou l’autre journée, ou envisager les deux selon vos envies. Les informations disponibles invitent à regarder de près les pages officielles de chaque événement avant de finaliser votre sortie.",
+      "weekend": "Le week-end des 5 et 6 décembre offre deux approches complémentaires. Le samedi, « Les turlupinades » conviendra à celles et ceux qui recherchent une proposition culturelle autour d’une comédie. Le Téléthon 2026 commence également ce jour-là et se prolonge jusqu’au dimanche : il peut ainsi s’intégrer à un programme sur une journée ou sur l’ensemble du week-end. Pour choisir, partez de votre envie principale — spectacle culturel ou démarche solidaire — puis consultez les informations actualisées associées à chaque rendez-vous.",
+      "practical": "Avant de vous déplacer, vérifiez les dates indiquées sur les pages officielles : « Les turlupinades » est annoncée le 5 décembre, tandis que le Téléthon 2026 couvre les 5 et 6 décembre. Les précisions utiles non présentes dans cet agenda, notamment l’organisation exacte de chaque rendez-vous, sont à consulter directement auprès des informations publiées par les organisateurs.",
+      "conclusion": "Avec un spectacle à tonalité comique le samedi et un rendez-vous solidaire programmé sur deux jours, Nyons propose un agenda de début décembre ciblé mais varié. Les 5 et 6 décembre 2026 peuvent se préparer selon votre disponibilité et le type de sortie recherché. Pensez à consulter les pages officielles pour disposer des dernières informations avant votre venue.",
       "highlights": [
         {
           "event_title": "Les turlupinades",
-          "reason": "Un rendez-vous programmé le 5 décembre, classé en Patrimoine / Culture vivante et Culture."
+          "reason": "Une proposition culturelle du 5 décembre, associée au théâtre comique et au patrimoine vivant."
         },
         {
           "event_title": "Téléthon 2026",
-          "reason": "Un événement annoncé le 6 décembre dans la catégorie Solidarité / Santé."
+          "reason": "Un rendez-vous solidaire lié aux thèmes de la santé et des loisirs, prévu les 5 et 6 décembre."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:25:31.708447+00:00",
+    "generated_at": "2026-09-25T14:00:39.167040+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-12-07": {
-    "hash": "c3018ea0f2a00d1aa211851d7a9efb9787d3e3e98d5aa64540aee954b787fcda",
+    "hash": "b9beb9308aabc194996bf9b185d5f215d6fe491e801e2c92778a36ec0072c5ec",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 7 au 13 décembre 2026 : conférence de l’UNTL, atelier Yoga du Chant et rendez-vous culturel Cher Edouard.",
-      "intro": "La semaine du 7 au 13 décembre 2026 propose à Nyons trois rendez-vous aux tonalités complémentaires. Dès le lundi, la conférence de l’UNTL invite à aborder la question des représentations du monde, entre mythes et modèles. Le week-end se poursuit avec un Atelier Yoga du Chant, classé parmi les loisirs et la vie associative, puis avec Cher Edouard, inscrit dans la programmation culturelle. Cet agenda resserré permet de repérer facilement une sortie selon ses envies : réflexion et culture en début de semaine, activité de loisirs le samedi, ou proposition culturelle le dimanche. Les événements étant répartis sur trois journées distinctes, chacun peut envisager son programme sans multiplier les choix. Pour les informations complètes associées à chaque rendez-vous, il est préférable de consulter les pages officielles correspondantes.",
-      "weekend": "Pour organiser vos sorties des 12 et 13 décembre à Nyons, le choix se fait entre deux propositions de nature différente. Le samedi, l’Atelier Yoga du Chant relève des rubriques sport, loisirs et vie associative. Le dimanche, Cher Edouard figure dans la catégorie culture, avec une dimension de patrimoine et culture vivante. Selon que vous recherchez une activité de loisirs ou un rendez-vous culturel, ces deux dates offrent des repères simples pour composer votre week-end. Pensez à consulter les informations officielles de chaque événement avant de vous déplacer.",
-      "practical": "Les données disponibles indiquent les dates et les catégories des événements, mais ne précisent pas les horaires, les lieux, les tarifs ni les modalités de participation. Avant votre venue, vérifiez ces éléments sur la page officielle de l’événement concerné. Cette démarche permet aussi de prendre connaissance d’éventuelles informations complémentaires ou mises à jour concernant l’organisation.",
-      "conclusion": "Du 7 au 13 décembre, l’agenda de Nyons réunit une conférence, un atelier de loisirs et un rendez-vous culturel. Cette sélection courte facilite le repérage des sorties de la semaine, du lundi au dimanche. Que votre intérêt aille vers la réflexion, une pratique autour du chant ou la culture, consultez les pages officielles pour préparer votre participation avec les informations à jour.",
+      "meta_description": "Agenda de Nyons du 7 au 13 décembre 2026 : conférence de l’UNTL, atelier Yoga du Chant et comédie « Cher Edouard ».",
+      "intro": "La semaine du 7 au 13 décembre 2026 propose à Nyons trois rendez-vous aux registres bien distincts. Dès le lundi, la conférence de l’UNTL invite à explorer la question des représentations du monde, avec l’intervention de Jean-Luc Boissel, astrophysicien et professeur à l’INSA de Lyon. Le samedi, l’association Amate organise un Atelier Yoga du Chant animé par Ghislaine Checchini. Enfin, la semaine se termine avec « Cher Edouard », une comédie portée par la Cie “d’ici ou d’Ailleurs”. Cet agenda réunit ainsi une proposition culturelle autour des sciences, une activité de loisirs associative et un spectacle théâtral. Une sélection courte, mais variée, pour repérer facilement une sortie selon ses envies entre découverte, pratique et scène vivante.",
+      "weekend": "Pour le week-end des 12 et 13 décembre, deux options figurent à l’agenda de Nyons. L’Atelier Yoga du Chant est programmé le samedi et s’inscrit dans les activités de loisirs proposées par une association. Le dimanche, « Cher Edouard » offre une sortie culturelle sous la forme d’une comédie de la Cie “d’ici ou d’Ailleurs”. Le choix peut donc se faire entre une démarche de pratique autour du chant et un rendez-vous de spectacle. Ceux qui souhaitent organiser leurs deux journées peuvent aussi retenir ces deux propositions, prévues sur des dates consécutives.",
+      "practical": "Avant de prévoir votre sortie, consultez la page officielle de chaque événement : les informations utiles qui ne figurent pas dans cet aperçu peuvent y être précisées ou actualisées. Vérifiez notamment les modalités d’accès, les éventuelles conditions de participation et toute indication communiquée par l’organisateur. Pour l’atelier comme pour le spectacle, il est préférable de se référer directement aux informations publiées avant de vous déplacer.",
+      "conclusion": "Cette semaine de décembre à Nyons met en avant trois formats complémentaires : une conférence animée par un astrophysicien, un atelier proposé par l’association Amate et une comédie de la Cie “d’ici ou d’Ailleurs”. Que votre préférence aille à la réflexion, à une activité de loisirs ou au théâtre, l’agenda permet de composer une sortie entre le 7 et le 13 décembre 2026. Pensez à vérifier les informations officielles de l’événement retenu.",
       "highlights": [
         {
           "event_title": "Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »",
-          "reason": "Un rendez-vous culturel et associatif consacré à la recherche d’une représentation du monde."
+          "reason": "Une conférence avec Jean-Luc Boissel, astrophysicien et professeur à l’INSA de Lyon."
         },
         {
           "event_title": "Atelier Yoga du Chant",
-          "reason": "Une proposition du samedi classée dans les loisirs, le sport et la vie associative."
+          "reason": "Un atelier de l’association Amate animé par Ghislaine Checchini."
         },
         {
           "event_title": "Cher Edouard",
-          "reason": "Un événement culturel programmé le dimanche 13 décembre."
+          "reason": "Une comédie proposée par la Cie “d’ici ou d’Ailleurs”."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:25:47.858507+00:00",
+    "generated_at": "2026-09-25T14:00:50.940268+00:00",
     "model": "gpt-5.6-terra"
   }
 }
