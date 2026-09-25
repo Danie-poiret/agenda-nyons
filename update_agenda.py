@@ -30,7 +30,7 @@ except Exception:
     OpenAI = None
 
 BASE = "https://www.nyons.com/sorties-actus/agenda/"
-SITE = "https://danie-poiret.github.io/agenda-nyons/"
+SITE = "https://agenda.vivreanyons.fr/"
 BANNER_URL = "https://danie-poiret.github.io/banniere-nyons/"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "agenda.json"
