@@ -59,6 +59,7 @@ WEEKDAYS = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
 MONTH_RE = r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)"
 DATE_RE = re.compile(rf"(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})", re.I)
 UNTIL_RE = re.compile(rf"Jusqu['’]au\s+(?:{WEEKDAYS}\s+)?(\d{{1,2}})\s+({MONTH_RE})\s+(20\d{{2}})", re.I)
+DATE_LINE_RE = re.compile(rf"^(?:{WEEKDAYS}\\s+)?(\\d{{1,2}})\\s+({MONTH_RE})\\s+(20\\d{{2}})$", re.I)
 
 CATEGORIES = [
     "Administratif", "Cadre de vie", "Enfance / Jeunesse",
@@ -94,32 +95,62 @@ def is_event_url(href: str) -> bool:
     return p.startswith("/agenda/") or p.startswith("/sorties-actus/agenda/")
 
 
-def smallest_card(anchor):
-    for parent in anchor.parents:
-        if getattr(parent, "name", None) not in {"article", "li", "div", "section"}:
+def previous_start_date(anchor):
+    """Récupère la date placée juste AVANT la carte événement sur nyons.com."""
+    for node in anchor.find_all_previous(string=True, limit=80):
+        t = clean(node)
+        if not t:
             continue
-        txt = clean(parent.get_text(" ", strip=True))
-        if len(txt) > 3500:
-            break
-        if DATE_RE.search(txt):
-            return parent
+        m = DATE_LINE_RE.match(t)
+        if m:
+            return parse_match(m)
     return None
 
 
-def extract_summary(card, anchor, title):
-    heading = anchor.find_parent(["h1", "h2", "h3", "h4", "h5"])
-    if heading:
-        for sib in heading.find_all_next("p", limit=4):
-            if card not in sib.parents and sib is not card:
-                break
-            t = clean(sib.get_text(" ", strip=True))
-            if len(t) >= 18 and title.lower() not in t.lower():
-                return t[:420]
-    for p in card.find_all("p"):
-        t = clean(p.get_text(" ", strip=True))
-        if len(t) >= 18 and title.lower() not in t.lower():
-            return t[:420]
-    return ""
+def scan_event_after_title(anchor, title):
+    """Lit le résumé et la date de fin jusqu'au prochain événement."""
+    summary = ""
+    end = None
+
+    for node in anchor.find_all_next(string=True, limit=140):
+        t = clean(node)
+        if not t or t == title:
+            continue
+
+        em = UNTIL_RE.search(t)
+        if em:
+            end = parse_match(em)
+            break
+
+        if DATE_LINE_RE.match(t):
+            break
+
+        if not summary:
+            low = t.lower()
+            if (
+                len(t) >= 18
+                and not any(t.lower() == c.lower() for c in CATEGORIES)
+                and "image:" not in low
+                and t.lower() not in {"retour", "lire plus", "voir l'événement", "voir l’événement"}
+            ):
+                summary = t[:420]
+
+    return summary, end
+
+
+def categories_before_title(anchor):
+    """Récupère les catégories affichées entre la date et le titre."""
+    found = []
+    for node in anchor.find_all_previous(string=True, limit=30):
+        t = clean(node)
+        if not t:
+            continue
+        if DATE_LINE_RE.match(t):
+            break
+        for c in CATEGORIES:
+            if c.lower() in t.lower() and c not in found:
+                found.append(c)
+    return found
 
 
 def scrape_page(session, page: int):
@@ -144,20 +175,13 @@ def scrape_page(session, page: int):
         if href in seen:
             continue
 
-        card = smallest_card(a)
-        if card is None:
+        start = previous_start_date(a)
+        if not start:
             continue
 
-        text = clean(card.get_text(" ", strip=True))
-        dm = DATE_RE.search(text)
-        if not dm:
-            continue
-
-        start = parse_match(dm)
-        em = UNTIL_RE.search(text)
-        end = parse_match(em) if em else start
-        summary = extract_summary(card, a, title)
-        cats = [c for c in CATEGORIES if c.lower() in text.lower()]
+        summary, explicit_end = scan_event_after_title(a, title)
+        end = explicit_end or start
+        cats = categories_before_title(a)
 
         found.append({
             "title": title,
@@ -191,23 +215,30 @@ def scrape_all():
             all_events[e["url"]] = e
 
         added = len(all_events) - before
-        print(f"Page {page}: {len(events)} éléments, {added} nouveaux")
+        print(f"Page {page}: {len(events)} événements trouvés, {added} nouveaux")
         stagnant = stagnant + 1 if added == 0 else 0
+
         if stagnant >= 2:
             break
+
         time.sleep(0.6)
 
     events = sorted(
         all_events.values(),
         key=lambda e: (e["start_date"], e["title"].lower())
     )
+
     if len(events) < 3:
         raise RuntimeError(
             f"Extraction suspecte: seulement {len(events)} événements. "
             "agenda.json n'est pas remplacé."
         )
-    return events
 
+    print("Premiers événements extraits:")
+    for e in events[:12]:
+        print(f" - {e['start_date']} -> {e['end_date']} | {e['title']}")
+
+    return events
 
 def write_agenda(events):
     payload = {
