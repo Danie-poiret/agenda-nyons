@@ -9,150 +9,459 @@
   <meta name="robots" content="index,follow">
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "Lectures animées", "startDate": "2026-09-28", "endDate": "2026-09-28", "url": "https://www.nyons.com/agenda/lectures-animees-6/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Soirée 100% Agriculture / Viticulture", "startDate": "2026-09-28", "endDate": "2026-09-28", "url": "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Atelier lactofermentation", "startDate": "2026-09-30", "endDate": "2026-09-30", "url": "https://www.nyons.com/agenda/atelier-lactofermentation/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Découvrez Solidarité Paysans !", "startDate": "2026-09-30", "endDate": "2026-09-30", "url": "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Exposition « Urbain Urbex »", "startDate": "2026-09-30", "endDate": "2026-09-30", "url": "https://www.nyons.com/agenda/exposition-urbain-urbex/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Dédicace Françoise Bourdon", "startDate": "2026-10-01", "endDate": "2026-10-01", "url": "https://www.nyons.com/agenda/dedicace-francoise-bourdon/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Concert Bouda OMG !", "startDate": "2026-10-02", "endDate": "2026-10-02", "url": "https://www.nyons.com/agenda/concert-bouda-omg/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Atelier culinaire – Risotto & panacotta", "startDate": "2026-10-03", "endDate": "2026-10-03", "url": "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Constellations familiales", "startDate": "2026-10-03", "endDate": "2026-10-03", "url": "https://www.nyons.com/agenda/constellations-familiales/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Grande braderie", "startDate": "2026-10-04", "endDate": "2026-10-04", "url": "https://www.nyons.com/agenda/grande-braderie/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Les 8 jours de la Ville de Nyons", "startDate": "2026-10-04", "endDate": "2026-10-04", "url": "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Les Journées Nationales des Artistes à Nyons", "startDate": "2026-10-04", "endDate": "2026-10-04", "url": "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/", "eventStatus": "https://schema.org/EventScheduled"}]}</script>
   <style>
-    :root { color-scheme: light; }
-    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:#f6f3ec; color:#252525; line-height:1.65; }
-    .wrap { max-width:980px; margin:auto; padding:28px 18px 60px; }
-    .hero { background:white; padding:28px; border-radius:18px; box-shadow:0 4px 20px rgba(0,0,0,.06); }
-    h1 { line-height:1.15; font-size:clamp(30px,5vw,48px); margin:.1em 0 .4em; }
-    h2 { margin-top:34px; font-size:28px; }
-    h3 { margin-bottom:4px; font-size:21px; }
-    a { color:#1659a5; }
-    .kicker { font-weight:700; letter-spacing:.05em; text-transform:uppercase; font-size:13px; }
-    .event { background:#fff; margin:14px 0; padding:18px 20px; border-radius:14px; }
-    .date { font-weight:700; margin:.35em 0; }
-    .cats { font-size:14px; opacity:.75; }
-    .official { font-weight:700; }
-    .source { margin-top:36px; padding:18px; background:#fff; border-radius:14px; font-size:14px; }
-    .nav { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
-    .nav a { background:#fff; padding:8px 12px; border-radius:999px; text-decoration:none; }
+    * { box-sizing:border-box; }
+    :root {
+      --olive:#566b3a;
+      --olive-dark:#354622;
+      --terracotta:#a94f35;
+      --cream:#f6f1e8;
+      --paper:#fffdf9;
+      --ink:#262722;
+      --muted:#6b6d65;
+      --line:#e4dccd;
+      --shadow:0 12px 34px rgba(52,48,38,.10);
+    }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.68;
+    }
+    a { color:var(--olive-dark); }
+    .top {
+      max-width:1180px;
+      margin:0 auto;
+      padding:16px 18px 0;
+    }
+    .ad-shell {
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+    .ad-frame {
+      display:block;
+      width:100%;
+      aspect-ratio:3 / 1;
+      border:0;
+      background:#fff;
+    }
+    .ad-note {
+      margin:7px 5px 0;
+      text-align:right;
+      font-size:11px;
+      color:#7c7c75;
+    }
+    .wrap {
+      max-width:1120px;
+      margin:auto;
+      padding:18px 18px 64px;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin:10px 0 18px;
+    }
+    .nav a {
+      display:inline-flex;
+      align-items:center;
+      padding:9px 14px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.78);
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:14px;
+    }
+    .hero {
+      position:relative;
+      overflow:hidden;
+      color:#fff;
+      background:linear-gradient(125deg,var(--olive-dark),var(--olive) 58%,#788d58);
+      padding:clamp(26px,5vw,52px);
+      border-radius:24px;
+      box-shadow:var(--shadow);
+    }
+    .hero::after {
+      content:"";
+      position:absolute;
+      width:240px;height:240px;
+      border-radius:50%;
+      right:-80px;top:-95px;
+      background:rgba(255,255,255,.08);
+    }
+    .kicker {
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      font-size:12px;
+      opacity:.88;
+    }
+    h1 {
+      max-width:900px;
+      line-height:1.08;
+      font-size:clamp(31px,5vw,52px);
+      margin:.22em 0 .42em;
+    }
+    .hero p {
+      max-width:850px;
+      margin:0;
+      font-size:clamp(16px,2vw,19px);
+    }
+    .section-title {
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:42px 0 17px;
+    }
+    .section-title h2 {
+      margin:0;
+      font-size:clamp(24px,3.5vw,32px);
+      line-height:1.2;
+    }
+    .section-title span {
+      font-size:26px;
+    }
+    .highlights {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:14px;
+    }
+    .highlight {
+      display:flex;
+      gap:13px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:17px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.06);
+    }
+    .highlight-star {
+      flex:0 0 38px;
+      width:38px;height:38px;
+      display:grid;place-items:center;
+      border-radius:12px;
+      background:#efe7cf;
+      color:#8c6a18;
+      font-size:20px;
+    }
+    .highlight h3 {
+      margin:0 0 6px;
+      line-height:1.25;
+      font-size:18px;
+    }
+    .highlight p { margin:0;color:var(--muted);font-size:14px; }
+    .editorial {
+      background:var(--paper);
+      border-left:5px solid var(--terracotta);
+      border-radius:16px;
+      padding:21px 23px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+    }
+    .events {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+    }
+    .event {
+      display:flex;
+      gap:16px;
+      align-items:flex-start;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+      transition:transform .15s ease,box-shadow .15s ease;
+    }
+    .event:hover {
+      transform:translateY(-2px);
+      box-shadow:0 10px 28px rgba(52,48,38,.095);
+    }
+    .date-badge {
+      flex:0 0 58px;
+      width:58px;
+      padding:8px 4px;
+      text-align:center;
+      color:#fff;
+      background:var(--terracotta);
+      border-radius:14px;
+      line-height:1;
+    }
+    .date-badge span {
+      display:block;
+      font-size:24px;
+      font-weight:900;
+    }
+    .date-badge small {
+      display:block;
+      margin-top:5px;
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.08em;
+    }
+    .event-content { min-width:0; }
+    .event h3 {
+      margin:0 0 7px;
+      font-size:19px;
+      line-height:1.25;
+    }
+    .event h3 a { text-decoration:none; }
+    .event h3 a:hover { text-decoration:underline; }
+    .date-line { margin:0 0 5px;font-weight:700;font-size:14px; }
+    .cats { color:var(--muted);font-size:13px;margin-bottom:10px; }
+    .official {
+      display:inline-block;
+      margin-top:5px;
+      font-weight:800;
+      font-size:14px;
+      text-decoration:none;
+    }
+    .source {
+      margin-top:42px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.65);
+      border-radius:15px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    @media (max-width:840px) {
+      .highlights,.events { grid-template-columns:1fr; }
+    }
+    @media (max-width:520px) {
+      .top { padding:9px 9px 0; }
+      .wrap { padding:10px 11px 45px; }
+      .hero { border-radius:18px;padding:24px 20px; }
+      .event { padding:15px;gap:12px; }
+      .date-badge { flex-basis:51px;width:51px; }
+      .date-badge span { font-size:21px; }
+      .nav a { font-size:12px;padding:8px 11px; }
+      .ad-shell { border-radius:10px; }
+    }
   </style>
 </head>
 <body>
+  <aside class="top" aria-label="Sélection de livres sur Nyons">
+    <div class="ad-shell">
+      <iframe class="ad-frame" src="https://danie-poiret.github.io/banniere-nyons/" loading="eager"
+              title="Voir ma sélection de vieux livres sur Nyons"></iframe>
+    </div>
+    <div class="ad-note">Publicité · lien affilié</div>
+  </aside>
+
   <main class="wrap">
     <nav class="nav">
       <a href="https://danie-poiret.github.io/agenda-nyons/">← Agenda interactif</a>
-      <a href="https://danie-poiret.github.io/agenda-nyons/semaines/">Toutes les semaines</a>
+      <a href="https://danie-poiret.github.io/agenda-nyons/semaines/">📅 Toutes les semaines</a>
     </nav>
 
     <section class="hero">
-      <div class="kicker">Agenda de Nyons · semaine du 28 septembre 2026</div>
+      <div class="kicker">Nyons · agenda de la semaine</div>
       <h1>Agenda de Nyons du 28 septembre au 4 octobre 2026 : que faire cette semaine ?</h1>
       <p>Du lundi 28 septembre au dimanche 4 octobre 2026, l’agenda de Nyons réunit des propositions variées, entre culture, loisirs, vie associative et thématiques de solidarité. La semaine débute avec Lectures animées et Soirée 100% Agriculture / Viticulture. Le mercredi, plusieurs rendez-vous sont annoncés, dont Atelier lactofermentation, Découvrez Solidarité Paysans ! et l’Exposition « Urbain Urbex ». La programmation se poursuit le 1er octobre avec une dédicace, puis le vendredi avec le Concert Bouda OMG !. Le week-end concentre plusieurs choix : un atelier culinaire et Constellations familiales le samedi, avant une braderie, Les 8 jours de la Ville de Nyons et Les Journées Nationales des Artistes à Nyons le dimanche. Cette diversité permet de composer une sortie selon ses envies, en s’appuyant sur les catégories et les dates indiquées pour chaque événement.</p>
     </section>
 
     <section>
-      <h2>⭐ Les rendez-vous à retenir</h2>
-      <ul><li><strong>Soirée 100% Agriculture / Viticulture</strong> — Un rendez-vous du 28 septembre rattaché aux catégories patrimoine, culture vivante et culture.</li><li><strong>Concert Bouda OMG !</strong> — Une proposition culturelle programmée le vendredi 2 octobre.</li><li><strong>Les Journées Nationales des Artistes à Nyons</strong> — Un rendez-vous du 4 octobre croisant culture, loisirs et patrimoine / culture vivante.</li></ul>
+      <div class="section-title"><span>⭐</span><h2>Les rendez-vous à retenir</h2></div>
+      <div class="highlights">
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Soirée 100% Agriculture / Viticulture</h3>
+            <p>Un rendez-vous du 28 septembre rattaché aux catégories patrimoine, culture vivante et culture.</p>
+          </div>
+        </article>
+        
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Concert Bouda OMG !</h3>
+            <p>Une proposition culturelle programmée le vendredi 2 octobre.</p>
+          </div>
+        </article>
+        
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Les Journées Nationales des Artistes à Nyons</h3>
+            <p>Un rendez-vous du 4 octobre croisant culture, loisirs et patrimoine / culture vivante.</p>
+          </div>
+        </article>
+        </div>
     </section>
 
     <section>
-      <h2>☀️ Que faire à Nyons ce week-end ?</h2>
-      <p>Pour organiser le week-end des 3 et 4 octobre, commencez par distinguer les rendez-vous selon leur date et leur thématique. Le samedi, Atelier culinaire – Risotto &amp; panacotta est classé à la fois dans culture et loisirs, tandis que Constellations familiales relève de la vie associative. Le dimanche, Grande braderie est associée à la solidarité et à la vie associative. Les 8 jours de la Ville de Nyons et Les Journées Nationales des Artistes à Nyons proposent, de leur côté, des entrées liées aux loisirs, avec une dimension culturelle également indiquée pour les Journées Nationales des Artistes. Consultez les fiches de chaque rendez-vous pour finaliser votre choix.</p>
+      <div class="section-title"><span>☀️</span><h2>Que faire à Nyons ce week-end ?</h2></div>
+      <div class="editorial"><p>Pour organiser le week-end des 3 et 4 octobre, commencez par distinguer les rendez-vous selon leur date et leur thématique. Le samedi, Atelier culinaire – Risotto &amp; panacotta est classé à la fois dans culture et loisirs, tandis que Constellations familiales relève de la vie associative. Le dimanche, Grande braderie est associée à la solidarité et à la vie associative. Les 8 jours de la Ville de Nyons et Les Journées Nationales des Artistes à Nyons proposent, de leur côté, des entrées liées aux loisirs, avec une dimension culturelle également indiquée pour les Journées Nationales des Artistes. Consultez les fiches de chaque rendez-vous pour finaliser votre choix.</p></div>
     </section>
 
     <section>
-      <h2>📅 Tous les événements du 28 septembre au 4 octobre 2026</h2>
-      
+      <div class="section-title"><span>📅</span><h2>Tous les événements du 28 septembre au 4 octobre 2026</h2></div>
+      <div class="events">
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/lectures-animees-6/" target="_blank" rel="noopener">Lectures animées</a></h3>
-          <p class="date">📅 28 septembre 2026</p>
-          <div class="cats">Enfance / Jeunesse · Solidarité / Santé</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/lectures-animees-6/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>28</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/lectures-animees-6/" target="_blank" rel="noopener">Lectures animées</a></h3>
+            <p class="date-line">📅 28 septembre 2026</p>
+            <div class="cats">Enfance / Jeunesse · Solidarité / Santé</div>
+            <a class="official" href="https://www.nyons.com/agenda/lectures-animees-6/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/" target="_blank" rel="noopener">Soirée 100% Agriculture / Viticulture</a></h3>
-          <p class="date">📅 28 septembre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>28</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/" target="_blank" rel="noopener">Soirée 100% Agriculture / Viticulture</a></h3>
+            <p class="date-line">📅 28 septembre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/atelier-lactofermentation/" target="_blank" rel="noopener">Atelier lactofermentation</a></h3>
-          <p class="date">📅 30 septembre 2026</p>
-          <div class="cats">Solidarité / Santé · Sport / Loisirs · Vie associative · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/atelier-lactofermentation/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>30</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/atelier-lactofermentation/" target="_blank" rel="noopener">Atelier lactofermentation</a></h3>
+            <p class="date-line">📅 30 septembre 2026</p>
+            <div class="cats">Solidarité / Santé · Sport / Loisirs · Vie associative · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/atelier-lactofermentation/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/decouvrez-solidarite-paysans/" target="_blank" rel="noopener">Découvrez Solidarité Paysans !</a></h3>
-          <p class="date">📅 30 septembre 2026</p>
-          <div class="cats">Solidarité / Santé</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/decouvrez-solidarite-paysans/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>30</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/decouvrez-solidarite-paysans/" target="_blank" rel="noopener">Découvrez Solidarité Paysans !</a></h3>
+            <p class="date-line">📅 30 septembre 2026</p>
+            <div class="cats">Solidarité / Santé</div>
+            <a class="official" href="https://www.nyons.com/agenda/decouvrez-solidarite-paysans/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/exposition-urbain-urbex/" target="_blank" rel="noopener">Exposition « Urbain Urbex »</a></h3>
-          <p class="date">📅 30 septembre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/exposition-urbain-urbex/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>30</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/exposition-urbain-urbex/" target="_blank" rel="noopener">Exposition « Urbain Urbex »</a></h3>
+            <p class="date-line">📅 30 septembre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/exposition-urbain-urbex/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/dedicace-francoise-bourdon/" target="_blank" rel="noopener">Dédicace Françoise Bourdon</a></h3>
-          <p class="date">📅 1 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/dedicace-francoise-bourdon/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>1</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/dedicace-francoise-bourdon/" target="_blank" rel="noopener">Dédicace Françoise Bourdon</a></h3>
+            <p class="date-line">📅 1 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/dedicace-francoise-bourdon/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/concert-bouda-omg/" target="_blank" rel="noopener">Concert Bouda OMG !</a></h3>
-          <p class="date">📅 2 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/concert-bouda-omg/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>2</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/concert-bouda-omg/" target="_blank" rel="noopener">Concert Bouda OMG !</a></h3>
+            <p class="date-line">📅 2 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/concert-bouda-omg/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/" target="_blank" rel="noopener">Atelier culinaire – Risotto &amp; panacotta</a></h3>
-          <p class="date">📅 3 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Sport / Loisirs · Culture · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>3</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/" target="_blank" rel="noopener">Atelier culinaire – Risotto &amp; panacotta</a></h3>
+            <p class="date-line">📅 3 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Sport / Loisirs · Culture · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/constellations-familiales/" target="_blank" rel="noopener">Constellations familiales</a></h3>
-          <p class="date">📅 3 octobre 2026</p>
-          <div class="cats">Vie associative</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/constellations-familiales/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>3</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/constellations-familiales/" target="_blank" rel="noopener">Constellations familiales</a></h3>
+            <p class="date-line">📅 3 octobre 2026</p>
+            <div class="cats">Vie associative</div>
+            <a class="official" href="https://www.nyons.com/agenda/constellations-familiales/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/grande-braderie/" target="_blank" rel="noopener">Grande braderie</a></h3>
-          <p class="date">📅 4 octobre 2026</p>
-          <div class="cats">Solidarité / Santé · Vie associative</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/grande-braderie/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>4</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/grande-braderie/" target="_blank" rel="noopener">Grande braderie</a></h3>
+            <p class="date-line">📅 4 octobre 2026</p>
+            <div class="cats">Solidarité / Santé · Vie associative</div>
+            <a class="official" href="https://www.nyons.com/agenda/grande-braderie/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/" target="_blank" rel="noopener">Les 8 jours de la Ville de Nyons</a></h3>
-          <p class="date">📅 4 octobre 2026</p>
-          <div class="cats">Sport / Loisirs · Vie associative · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>4</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/" target="_blank" rel="noopener">Les 8 jours de la Ville de Nyons</a></h3>
+            <p class="date-line">📅 4 octobre 2026</p>
+            <div class="cats">Sport / Loisirs · Vie associative · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/" target="_blank" rel="noopener">Les Journées Nationales des Artistes à Nyons</a></h3>
-          <p class="date">📅 4 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Sport / Loisirs · Culture · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>4</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/" target="_blank" rel="noopener">Les Journées Nationales des Artistes à Nyons</a></h3>
+            <p class="date-line">📅 4 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Sport / Loisirs · Culture · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
-        
+        </div>
     </section>
 
     <section>
-      <h2>ℹ️ Avant de vous déplacer</h2>
-      <p>Les informations disponibles indiquent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les tarifs ni les modalités éventuelles d’accès. Avant de vous déplacer, vérifiez la fiche officielle de l’événement concerné. Cette précaution est particulièrement utile si vous hésitez entre plusieurs rendez-vous prévus le même jour, notamment le 30 septembre ou le 4 octobre.</p>
+      <div class="section-title"><span>ℹ️</span><h2>Avant de vous déplacer</h2></div>
+      <div class="editorial"><p>Les informations disponibles indiquent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les tarifs ni les modalités éventuelles d’accès. Avant de vous déplacer, vérifiez la fiche officielle de l’événement concerné. Cette précaution est particulièrement utile si vous hésitez entre plusieurs rendez-vous prévus le même jour, notamment le 30 septembre ou le 4 octobre.</p></div>
     </section>
 
-    <section>
+    <section class="editorial" style="margin-top:22px">
       <p>Cette semaine à Nyons fait se côtoyer lecture, agriculture, exposition, musique, cuisine, initiatives associatives et rendez-vous culturels. Les dates se répartissent du 28 septembre au 4 octobre, avec une offre plus dense en fin de semaine. Repérez les événements qui correspondent à vos centres d’intérêt, puis consultez leur page officielle pour obtenir les informations pratiques manquantes avant votre sortie.</p>
     </section>
 
     <div class="source">
-      Source des dates et événements :
+      <strong>Source des dates et événements :</strong>
       <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">agenda officiel de la Ville de Nyons</a>.
-      Les textes éditoriaux de cette page sont générés à partir des informations factuelles de l'agenda,
-      sans remplacer la fiche officielle.
+      Les textes éditoriaux apportent une présentation complémentaire à partir des informations factuelles disponibles.
     </div>
   </main>
 </body>

@@ -8,15 +8,296 @@
   <link rel="canonical" href="https://danie-poiret.github.io/agenda-nyons/semaines/">
   <meta name="robots" content="index,follow">
   <style>
-    body { font-family:Arial,Helvetica,sans-serif; max-width:900px; margin:auto; padding:30px 18px; line-height:1.6; }
-    li { margin:12px 0; }
+    * { box-sizing:border-box; }
+    :root {
+      --olive:#566b3a;
+      --olive-dark:#354622;
+      --terracotta:#a94f35;
+      --cream:#f6f1e8;
+      --paper:#fffdf9;
+      --ink:#262722;
+      --muted:#6b6d65;
+      --line:#e4dccd;
+      --shadow:0 12px 34px rgba(52,48,38,.10);
+    }
+    body {
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.65;
+    }
+    .top {
+      max-width:1180px;
+      margin:0 auto;
+      padding:16px 18px 0;
+    }
+    .ad-shell {
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+    .ad-frame {
+      display:block;
+      width:100%;
+      aspect-ratio:3 / 1;
+      border:0;
+      background:#fff;
+    }
+    .ad-note {
+      margin:7px 5px 0;
+      text-align:right;
+      font-size:11px;
+      color:#7c7c75;
+    }
+    .wrap { max-width:1120px;margin:auto;padding:18px 18px 64px; }
+    .back {
+      display:inline-block;
+      margin:8px 0 18px;
+      padding:9px 14px;
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:999px;
+      color:var(--olive-dark);
+      text-decoration:none;
+      font-weight:800;
+      font-size:14px;
+    }
+    .hero {
+      background:linear-gradient(125deg,var(--olive-dark),var(--olive) 58%,#788d58);
+      color:#fff;
+      border-radius:24px;
+      padding:clamp(28px,5vw,54px);
+      box-shadow:var(--shadow);
+    }
+    .hero .kicker {
+      text-transform:uppercase;
+      font-weight:800;
+      font-size:12px;
+      letter-spacing:.08em;
+      opacity:.88;
+    }
+    h1 {
+      margin:.2em 0 .3em;
+      line-height:1.08;
+      font-size:clamp(32px,5vw,52px);
+    }
+    .hero p {
+      max-width:780px;
+      margin:0;
+      font-size:clamp(16px,2vw,19px);
+    }
+    .weeks {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:16px;
+      margin-top:24px;
+    }
+    .week-card {
+      display:block;
+      position:relative;
+      padding:22px;
+      min-height:210px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      color:var(--ink);
+      text-decoration:none;
+      box-shadow:0 7px 25px rgba(52,48,38,.065);
+      transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;
+    }
+    .week-card:hover {
+      transform:translateY(-3px);
+      box-shadow:0 13px 30px rgba(52,48,38,.11);
+      border-color:#cfc3af;
+    }
+    .week-card.current {
+      border:2px solid var(--terracotta);
+    }
+    .week-top {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      min-height:35px;
+    }
+    .calendar { font-size:28px; }
+    .now {
+      padding:5px 9px;
+      border-radius:999px;
+      background:#f2dfd8;
+      color:#7f3321;
+      font-weight:800;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+    }
+    .week-card h2 {
+      margin:18px 0 8px;
+      font-size:20px;
+      line-height:1.28;
+    }
+    .week-card p { color:var(--muted);margin:0 0 16px; }
+    .cta { color:var(--olive-dark);font-weight:900; }
+    .source {
+      margin-top:34px;
+      padding:17px 19px;
+      background:rgba(255,255,255,.68);
+      border:1px solid var(--line);
+      border-radius:15px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .source a { color:var(--olive-dark); }
+    @media(max-width:850px) { .weeks { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:560px) {
+      .top { padding:9px 9px 0; }
+      .wrap { padding:10px 11px 44px; }
+      .hero { border-radius:18px;padding:25px 20px; }
+      .weeks { grid-template-columns:1fr;gap:12px; }
+      .week-card { min-height:0;padding:18px; }
+      .ad-shell { border-radius:10px; }
+    }
   </style>
 </head>
 <body>
-  <p><a href="https://danie-poiret.github.io/agenda-nyons/">← Agenda interactif</a></p>
-  <h1>Agenda de Nyons semaine par semaine</h1>
-  <p>Choisissez une semaine pour consulter les sorties et événements annoncés à Nyons.</p>
-  <ul><li><a href="semaine-21-septembre-2026/"><strong>Agenda de Nyons du 21 au 27 septembre 2026</strong> — 9 événement(s)</a></li><li><a href="semaine-28-septembre-2026/"><strong>Agenda de Nyons du 28 septembre au 4 octobre 2026</strong> — 12 événement(s)</a></li><li><a href="semaine-5-octobre-2026/"><strong>Agenda de Nyons du 5 au 11 octobre 2026</strong> — 23 événement(s)</a></li><li><a href="semaine-12-octobre-2026/"><strong>Agenda de Nyons du 12 au 18 octobre 2026</strong> — 12 événement(s)</a></li><li><a href="semaine-19-octobre-2026/"><strong>Agenda de Nyons du 19 au 25 octobre 2026</strong> — 6 événement(s)</a></li><li><a href="semaine-26-octobre-2026/"><strong>Agenda de Nyons du 26 octobre au 1 novembre 2026</strong> — 9 événement(s)</a></li><li><a href="semaine-2-novembre-2026/"><strong>Agenda de Nyons du 2 au 8 novembre 2026</strong> — 1 événement(s)</a></li><li><a href="semaine-9-novembre-2026/"><strong>Agenda de Nyons du 9 au 15 novembre 2026</strong> — 7 événement(s)</a></li><li><a href="semaine-16-novembre-2026/"><strong>Agenda de Nyons du 16 au 22 novembre 2026</strong> — 4 événement(s)</a></li><li><a href="semaine-30-novembre-2026/"><strong>Agenda de Nyons du 30 novembre au 6 décembre 2026</strong> — 2 événement(s)</a></li><li><a href="semaine-7-decembre-2026/"><strong>Agenda de Nyons du 7 au 13 décembre 2026</strong> — 3 événement(s)</a></li></ul>
-  <p>Source : <a href="https://www.nyons.com/sorties-actus/agenda/">Ville de Nyons — agenda officiel</a>.</p>
+  <aside class="top" aria-label="Sélection de livres sur Nyons">
+    <div class="ad-shell">
+      <iframe class="ad-frame" src="https://danie-poiret.github.io/banniere-nyons/" loading="eager"
+              title="Voir ma sélection de vieux livres sur Nyons"></iframe>
+    </div>
+    <div class="ad-note">Publicité · lien affilié</div>
+  </aside>
+
+  <main class="wrap">
+    <a class="back" href="https://danie-poiret.github.io/agenda-nyons/">← Agenda interactif</a>
+
+    <section class="hero">
+      <div class="kicker">Sorties · animations · vie locale</div>
+      <h1>Agenda de Nyons semaine par semaine</h1>
+      <p>Choisissez une semaine pour découvrir les événements annoncés à Nyons, avec une présentation claire et des liens vers les fiches officielles.</p>
+    </section>
+
+    <section class="weeks">
+      
+        <a class="week-card current" href="semaine-21-septembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            <span class="now">Cette semaine</span>
+          </div>
+          <h2>Agenda de Nyons du 21 au 27 septembre 2026</h2>
+          <p>9 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-28-septembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 28 septembre au 4 octobre 2026</h2>
+          <p>12 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-5-octobre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 5 au 11 octobre 2026</h2>
+          <p>23 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-12-octobre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 12 au 18 octobre 2026</h2>
+          <p>12 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-19-octobre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 19 au 25 octobre 2026</h2>
+          <p>6 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-26-octobre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 26 octobre au 1 novembre 2026</h2>
+          <p>9 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-2-novembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 2 au 8 novembre 2026</h2>
+          <p>1 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-9-novembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 9 au 15 novembre 2026</h2>
+          <p>7 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-16-novembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 16 au 22 novembre 2026</h2>
+          <p>4 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-30-novembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 30 novembre au 6 décembre 2026</h2>
+          <p>2 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+        <a class="week-card" href="semaine-7-decembre-2026/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            
+          </div>
+          <h2>Agenda de Nyons du 7 au 13 décembre 2026</h2>
+          <p>3 événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        
+    </section>
+
+    <div class="source">
+      <strong>Source :</strong>
+      <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">Ville de Nyons — agenda officiel</a>.
+      Mise à jour automatique.
+    </div>
+  </main>
 </body>
 </html>

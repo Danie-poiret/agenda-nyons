@@ -9,129 +9,423 @@
   <meta name="robots" content="index,follow">
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "Rencontre avec Régis PENET", "startDate": "2026-09-25", "endDate": "2026-09-25", "url": "https://www.nyons.com/agenda/rencontre-avec-regis-penet/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Atelier culinaire – Street food party", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Cérémonie de cacao", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Distribution gratuite de compost", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Impro !", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/impro/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Marche pour le Climat", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/marche-pour-le-climat/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Une ruche dans mon jardin ?", "startDate": "2026-09-26", "endDate": "2026-09-26", "url": "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "« La Vie en Couleur » : Exposition de Cécile Allex", "startDate": "2026-09-27", "endDate": "2026-09-27", "url": "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/", "eventStatus": "https://schema.org/EventScheduled"}]}</script>
   <style>
-    :root { color-scheme: light; }
-    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:#f6f3ec; color:#252525; line-height:1.65; }
-    .wrap { max-width:980px; margin:auto; padding:28px 18px 60px; }
-    .hero { background:white; padding:28px; border-radius:18px; box-shadow:0 4px 20px rgba(0,0,0,.06); }
-    h1 { line-height:1.15; font-size:clamp(30px,5vw,48px); margin:.1em 0 .4em; }
-    h2 { margin-top:34px; font-size:28px; }
-    h3 { margin-bottom:4px; font-size:21px; }
-    a { color:#1659a5; }
-    .kicker { font-weight:700; letter-spacing:.05em; text-transform:uppercase; font-size:13px; }
-    .event { background:#fff; margin:14px 0; padding:18px 20px; border-radius:14px; }
-    .date { font-weight:700; margin:.35em 0; }
-    .cats { font-size:14px; opacity:.75; }
-    .official { font-weight:700; }
-    .source { margin-top:36px; padding:18px; background:#fff; border-radius:14px; font-size:14px; }
-    .nav { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
-    .nav a { background:#fff; padding:8px 12px; border-radius:999px; text-decoration:none; }
+    * { box-sizing:border-box; }
+    :root {
+      --olive:#566b3a;
+      --olive-dark:#354622;
+      --terracotta:#a94f35;
+      --cream:#f6f1e8;
+      --paper:#fffdf9;
+      --ink:#262722;
+      --muted:#6b6d65;
+      --line:#e4dccd;
+      --shadow:0 12px 34px rgba(52,48,38,.10);
+    }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.68;
+    }
+    a { color:var(--olive-dark); }
+    .top {
+      max-width:1180px;
+      margin:0 auto;
+      padding:16px 18px 0;
+    }
+    .ad-shell {
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+    .ad-frame {
+      display:block;
+      width:100%;
+      aspect-ratio:3 / 1;
+      border:0;
+      background:#fff;
+    }
+    .ad-note {
+      margin:7px 5px 0;
+      text-align:right;
+      font-size:11px;
+      color:#7c7c75;
+    }
+    .wrap {
+      max-width:1120px;
+      margin:auto;
+      padding:18px 18px 64px;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin:10px 0 18px;
+    }
+    .nav a {
+      display:inline-flex;
+      align-items:center;
+      padding:9px 14px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.78);
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:14px;
+    }
+    .hero {
+      position:relative;
+      overflow:hidden;
+      color:#fff;
+      background:linear-gradient(125deg,var(--olive-dark),var(--olive) 58%,#788d58);
+      padding:clamp(26px,5vw,52px);
+      border-radius:24px;
+      box-shadow:var(--shadow);
+    }
+    .hero::after {
+      content:"";
+      position:absolute;
+      width:240px;height:240px;
+      border-radius:50%;
+      right:-80px;top:-95px;
+      background:rgba(255,255,255,.08);
+    }
+    .kicker {
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      font-size:12px;
+      opacity:.88;
+    }
+    h1 {
+      max-width:900px;
+      line-height:1.08;
+      font-size:clamp(31px,5vw,52px);
+      margin:.22em 0 .42em;
+    }
+    .hero p {
+      max-width:850px;
+      margin:0;
+      font-size:clamp(16px,2vw,19px);
+    }
+    .section-title {
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:42px 0 17px;
+    }
+    .section-title h2 {
+      margin:0;
+      font-size:clamp(24px,3.5vw,32px);
+      line-height:1.2;
+    }
+    .section-title span {
+      font-size:26px;
+    }
+    .highlights {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:14px;
+    }
+    .highlight {
+      display:flex;
+      gap:13px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:17px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.06);
+    }
+    .highlight-star {
+      flex:0 0 38px;
+      width:38px;height:38px;
+      display:grid;place-items:center;
+      border-radius:12px;
+      background:#efe7cf;
+      color:#8c6a18;
+      font-size:20px;
+    }
+    .highlight h3 {
+      margin:0 0 6px;
+      line-height:1.25;
+      font-size:18px;
+    }
+    .highlight p { margin:0;color:var(--muted);font-size:14px; }
+    .editorial {
+      background:var(--paper);
+      border-left:5px solid var(--terracotta);
+      border-radius:16px;
+      padding:21px 23px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+    }
+    .events {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+    }
+    .event {
+      display:flex;
+      gap:16px;
+      align-items:flex-start;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+      transition:transform .15s ease,box-shadow .15s ease;
+    }
+    .event:hover {
+      transform:translateY(-2px);
+      box-shadow:0 10px 28px rgba(52,48,38,.095);
+    }
+    .date-badge {
+      flex:0 0 58px;
+      width:58px;
+      padding:8px 4px;
+      text-align:center;
+      color:#fff;
+      background:var(--terracotta);
+      border-radius:14px;
+      line-height:1;
+    }
+    .date-badge span {
+      display:block;
+      font-size:24px;
+      font-weight:900;
+    }
+    .date-badge small {
+      display:block;
+      margin-top:5px;
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.08em;
+    }
+    .event-content { min-width:0; }
+    .event h3 {
+      margin:0 0 7px;
+      font-size:19px;
+      line-height:1.25;
+    }
+    .event h3 a { text-decoration:none; }
+    .event h3 a:hover { text-decoration:underline; }
+    .date-line { margin:0 0 5px;font-weight:700;font-size:14px; }
+    .cats { color:var(--muted);font-size:13px;margin-bottom:10px; }
+    .official {
+      display:inline-block;
+      margin-top:5px;
+      font-weight:800;
+      font-size:14px;
+      text-decoration:none;
+    }
+    .source {
+      margin-top:42px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.65);
+      border-radius:15px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    @media (max-width:840px) {
+      .highlights,.events { grid-template-columns:1fr; }
+    }
+    @media (max-width:520px) {
+      .top { padding:9px 9px 0; }
+      .wrap { padding:10px 11px 45px; }
+      .hero { border-radius:18px;padding:24px 20px; }
+      .event { padding:15px;gap:12px; }
+      .date-badge { flex-basis:51px;width:51px; }
+      .date-badge span { font-size:21px; }
+      .nav a { font-size:12px;padding:8px 11px; }
+      .ad-shell { border-radius:10px; }
+    }
   </style>
 </head>
 <body>
+  <aside class="top" aria-label="Sélection de livres sur Nyons">
+    <div class="ad-shell">
+      <iframe class="ad-frame" src="https://danie-poiret.github.io/banniere-nyons/" loading="eager"
+              title="Voir ma sélection de vieux livres sur Nyons"></iframe>
+    </div>
+    <div class="ad-note">Publicité · lien affilié</div>
+  </aside>
+
   <main class="wrap">
     <nav class="nav">
       <a href="https://danie-poiret.github.io/agenda-nyons/">← Agenda interactif</a>
-      <a href="https://danie-poiret.github.io/agenda-nyons/semaines/">Toutes les semaines</a>
+      <a href="https://danie-poiret.github.io/agenda-nyons/semaines/">📅 Toutes les semaines</a>
     </nav>
 
     <section class="hero">
-      <div class="kicker">Agenda de Nyons · semaine du 21 septembre 2026</div>
+      <div class="kicker">Nyons · agenda de la semaine</div>
       <h1>Agenda de Nyons du 21 au 27 septembre 2026 : que faire cette semaine ?</h1>
       <p>La semaine du 21 au 27 septembre 2026 se concentre surtout sur la fin de semaine à Nyons. Dès le vendredi, une rencontre avec Régis PENET ouvre la sélection culturelle. Le samedi 26 septembre réunit des propositions très diverses : atelier culinaire, concert, improvisation, cérémonie de cacao, rendez-vous autour du jardin, action liée au climat et distribution gratuite de compost. Cette diversité permet de composer une sortie selon ses envies, entre culture, loisirs, vie associative et sujets de cadre de vie. Le dimanche 27 septembre, l’exposition « La Vie en Couleur » : Exposition de Cécile Allex prolonge cette dynamique culturelle. Les informations disponibles ne détaillent ni les horaires ni les conditions d’accès : il est donc préférable de consulter les pages officielles avant de prévoir sa venue.</p>
     </section>
 
     <section>
-      <h2>⭐ Les rendez-vous à retenir</h2>
-      <ul><li><strong>COMTESSA ! Concert de Samuel Cattiau &amp; Pierre Baillot</strong> — Un rendez-vous culturel programmé le samedi 26 septembre.</li><li><strong>Marche pour le Climat</strong> — Une proposition du 26 septembre classée dans les thématiques cadre de vie et solidarité / santé.</li><li><strong>« La Vie en Couleur » : Exposition de Cécile Allex</strong> — Une exposition culturelle annoncée le dimanche 27 septembre.</li></ul>
+      <div class="section-title"><span>⭐</span><h2>Les rendez-vous à retenir</h2></div>
+      <div class="highlights">
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>COMTESSA ! Concert de Samuel Cattiau &amp; Pierre Baillot</h3>
+            <p>Un rendez-vous culturel programmé le samedi 26 septembre.</p>
+          </div>
+        </article>
+        
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Marche pour le Climat</h3>
+            <p>Une proposition du 26 septembre classée dans les thématiques cadre de vie et solidarité / santé.</p>
+          </div>
+        </article>
+        
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>« La Vie en Couleur » : Exposition de Cécile Allex</h3>
+            <p>Une exposition culturelle annoncée le dimanche 27 septembre.</p>
+          </div>
+        </article>
+        </div>
     </section>
 
     <section>
-      <h2>☀️ Que faire à Nyons ce week-end ?</h2>
-      <p>Pour le week-end, le samedi 26 septembre offre le choix le plus large. Les amateurs de culture peuvent s’orienter vers le concert COMTESSA !, Impro ! ou le rendez-vous Une ruche dans mon jardin ?. Celles et ceux qui souhaitent privilégier une initiative liée au cadre de vie trouveront la Marche pour le Climat ou la distribution gratuite de compost. L’Atelier culinaire – Street food party constitue une autre piste de loisirs. Le dimanche, l’exposition de Cécile Allex apporte une option culturelle supplémentaire. Comme plusieurs événements ont lieu le même jour, comparez les informations publiées par les organisateurs avant de faire votre programme.</p>
+      <div class="section-title"><span>☀️</span><h2>Que faire à Nyons ce week-end ?</h2></div>
+      <div class="editorial"><p>Pour le week-end, le samedi 26 septembre offre le choix le plus large. Les amateurs de culture peuvent s’orienter vers le concert COMTESSA !, Impro ! ou le rendez-vous Une ruche dans mon jardin ?. Celles et ceux qui souhaitent privilégier une initiative liée au cadre de vie trouveront la Marche pour le Climat ou la distribution gratuite de compost. L’Atelier culinaire – Street food party constitue une autre piste de loisirs. Le dimanche, l’exposition de Cécile Allex apporte une option culturelle supplémentaire. Comme plusieurs événements ont lieu le même jour, comparez les informations publiées par les organisateurs avant de faire votre programme.</p></div>
     </section>
 
     <section>
-      <h2>📅 Tous les événements du 21 au 27 septembre 2026</h2>
-      
+      <div class="section-title"><span>📅</span><h2>Tous les événements du 21 au 27 septembre 2026</h2></div>
+      <div class="events">
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/rencontre-avec-regis-penet/" target="_blank" rel="noopener">Rencontre avec Régis PENET</a></h3>
-          <p class="date">📅 25 septembre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/rencontre-avec-regis-penet/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>25</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/rencontre-avec-regis-penet/" target="_blank" rel="noopener">Rencontre avec Régis PENET</a></h3>
+            <p class="date-line">📅 25 septembre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/rencontre-avec-regis-penet/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/atelier-culinaire-street-food-party/" target="_blank" rel="noopener">Atelier culinaire – Street food party</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Sport / Loisirs · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/atelier-culinaire-street-food-party/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/atelier-culinaire-street-food-party/" target="_blank" rel="noopener">Atelier culinaire – Street food party</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Sport / Loisirs · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/atelier-culinaire-street-food-party/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/" target="_blank" rel="noopener">COMTESSA ! Concert de Samuel Cattiau &amp; Pierre Baillot</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/" target="_blank" rel="noopener">COMTESSA ! Concert de Samuel Cattiau &amp; Pierre Baillot</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/ceremonie-de-cacao/" target="_blank" rel="noopener">Cérémonie de cacao</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Solidarité / Santé</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/ceremonie-de-cacao/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/ceremonie-de-cacao/" target="_blank" rel="noopener">Cérémonie de cacao</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Solidarité / Santé</div>
+            <a class="official" href="https://www.nyons.com/agenda/ceremonie-de-cacao/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/" target="_blank" rel="noopener">Distribution gratuite de compost</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Solidarité / Santé</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/" target="_blank" rel="noopener">Distribution gratuite de compost</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Solidarité / Santé</div>
+            <a class="official" href="https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/impro/" target="_blank" rel="noopener">Impro !</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/impro/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/impro/" target="_blank" rel="noopener">Impro !</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/impro/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/marche-pour-le-climat/" target="_blank" rel="noopener">Marche pour le Climat</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Cadre de vie · Solidarité / Santé</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/marche-pour-le-climat/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/marche-pour-le-climat/" target="_blank" rel="noopener">Marche pour le Climat</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Cadre de vie · Solidarité / Santé</div>
+            <a class="official" href="https://www.nyons.com/agenda/marche-pour-le-climat/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/" target="_blank" rel="noopener">Une ruche dans mon jardin ?</a></h3>
-          <p class="date">📅 26 septembre 2026</p>
-          <div class="cats">Vie associative · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>26</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/" target="_blank" rel="noopener">Une ruche dans mon jardin ?</a></h3>
+            <p class="date-line">📅 26 septembre 2026</p>
+            <div class="cats">Vie associative · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/" target="_blank" rel="noopener">« La Vie en Couleur » : Exposition de Cécile Allex</a></h3>
-          <p class="date">📅 27 septembre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>27</span><small>SEP</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/" target="_blank" rel="noopener">« La Vie en Couleur » : Exposition de Cécile Allex</a></h3>
+            <p class="date-line">📅 27 septembre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
-        
+        </div>
     </section>
 
     <section>
-      <h2>ℹ️ Avant de vous déplacer</h2>
-      <p>Avant de vous déplacer, ouvrez la page officielle de chaque événement retenu. Vérifiez notamment l’horaire, le lieu exact, les éventuelles modalités d’inscription et les conditions d’accès, car ces éléments ne sont pas indiqués dans cette sélection. Pour le samedi 26 septembre, anticipez aussi les chevauchements possibles entre les différents rendez-vous annoncés à Nyons.</p>
+      <div class="section-title"><span>ℹ️</span><h2>Avant de vous déplacer</h2></div>
+      <div class="editorial"><p>Avant de vous déplacer, ouvrez la page officielle de chaque événement retenu. Vérifiez notamment l’horaire, le lieu exact, les éventuelles modalités d’inscription et les conditions d’accès, car ces éléments ne sont pas indiqués dans cette sélection. Pour le samedi 26 septembre, anticipez aussi les chevauchements possibles entre les différents rendez-vous annoncés à Nyons.</p></div>
     </section>
 
-    <section>
+    <section class="editorial" style="margin-top:22px">
       <p>Cette semaine à Nyons met en avant une programmation resserrée mais variée, particulièrement le samedi. Culture vivante, loisirs, environnement, vie associative et exposition se côtoient sur quelques jours. Que vous choisissiez une rencontre, un concert, une initiative citoyenne ou une visite d’exposition, prenez le temps de confirmer les informations pratiques auprès des sources officielles avant votre sortie.</p>
     </section>
 
     <div class="source">
-      Source des dates et événements :
+      <strong>Source des dates et événements :</strong>
       <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">agenda officiel de la Ville de Nyons</a>.
-      Les textes éditoriaux de cette page sont générés à partir des informations factuelles de l'agenda,
-      sans remplacer la fiche officielle.
+      Les textes éditoriaux apportent une présentation complémentaire à partir des informations factuelles disponibles.
     </div>
   </main>
 </body>

@@ -9,108 +9,387 @@
   <meta name="robots" content="index,follow">
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Event", "name": "« Ts’art : Une histoire de Paradis ! »", "startDate": "2026-10-19", "endDate": "2026-10-19", "url": "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Conseil Municipal", "startDate": "2026-10-21", "endDate": "2026-10-21", "url": "https://www.nyons.com/agenda/conseil-municipal-4/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Les documentaires de l’UNTL : « De la libération à l’épuration »", "startDate": "2026-10-21", "endDate": "2026-10-21", "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Atelier cosmétique – Savon d’Halloween", "startDate": "2026-10-22", "endDate": "2026-10-22", "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "« SAISON 4 » de Romuald Maufras", "startDate": "2026-10-23", "endDate": "2026-10-23", "url": "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/", "eventStatus": "https://schema.org/EventScheduled"}, {"@type": "Event", "name": "Journée Jeux de société", "startDate": "2026-10-24", "endDate": "2026-10-24", "url": "https://www.nyons.com/agenda/journees-jeux-de-societe/", "eventStatus": "https://schema.org/EventScheduled"}]}</script>
   <style>
-    :root { color-scheme: light; }
-    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:#f6f3ec; color:#252525; line-height:1.65; }
-    .wrap { max-width:980px; margin:auto; padding:28px 18px 60px; }
-    .hero { background:white; padding:28px; border-radius:18px; box-shadow:0 4px 20px rgba(0,0,0,.06); }
-    h1 { line-height:1.15; font-size:clamp(30px,5vw,48px); margin:.1em 0 .4em; }
-    h2 { margin-top:34px; font-size:28px; }
-    h3 { margin-bottom:4px; font-size:21px; }
-    a { color:#1659a5; }
-    .kicker { font-weight:700; letter-spacing:.05em; text-transform:uppercase; font-size:13px; }
-    .event { background:#fff; margin:14px 0; padding:18px 20px; border-radius:14px; }
-    .date { font-weight:700; margin:.35em 0; }
-    .cats { font-size:14px; opacity:.75; }
-    .official { font-weight:700; }
-    .source { margin-top:36px; padding:18px; background:#fff; border-radius:14px; font-size:14px; }
-    .nav { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
-    .nav a { background:#fff; padding:8px 12px; border-radius:999px; text-decoration:none; }
+    * { box-sizing:border-box; }
+    :root {
+      --olive:#566b3a;
+      --olive-dark:#354622;
+      --terracotta:#a94f35;
+      --cream:#f6f1e8;
+      --paper:#fffdf9;
+      --ink:#262722;
+      --muted:#6b6d65;
+      --line:#e4dccd;
+      --shadow:0 12px 34px rgba(52,48,38,.10);
+    }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.68;
+    }
+    a { color:var(--olive-dark); }
+    .top {
+      max-width:1180px;
+      margin:0 auto;
+      padding:16px 18px 0;
+    }
+    .ad-shell {
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+    .ad-frame {
+      display:block;
+      width:100%;
+      aspect-ratio:3 / 1;
+      border:0;
+      background:#fff;
+    }
+    .ad-note {
+      margin:7px 5px 0;
+      text-align:right;
+      font-size:11px;
+      color:#7c7c75;
+    }
+    .wrap {
+      max-width:1120px;
+      margin:auto;
+      padding:18px 18px 64px;
+    }
+    .nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin:10px 0 18px;
+    }
+    .nav a {
+      display:inline-flex;
+      align-items:center;
+      padding:9px 14px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.78);
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:14px;
+    }
+    .hero {
+      position:relative;
+      overflow:hidden;
+      color:#fff;
+      background:linear-gradient(125deg,var(--olive-dark),var(--olive) 58%,#788d58);
+      padding:clamp(26px,5vw,52px);
+      border-radius:24px;
+      box-shadow:var(--shadow);
+    }
+    .hero::after {
+      content:"";
+      position:absolute;
+      width:240px;height:240px;
+      border-radius:50%;
+      right:-80px;top:-95px;
+      background:rgba(255,255,255,.08);
+    }
+    .kicker {
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      font-size:12px;
+      opacity:.88;
+    }
+    h1 {
+      max-width:900px;
+      line-height:1.08;
+      font-size:clamp(31px,5vw,52px);
+      margin:.22em 0 .42em;
+    }
+    .hero p {
+      max-width:850px;
+      margin:0;
+      font-size:clamp(16px,2vw,19px);
+    }
+    .section-title {
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:42px 0 17px;
+    }
+    .section-title h2 {
+      margin:0;
+      font-size:clamp(24px,3.5vw,32px);
+      line-height:1.2;
+    }
+    .section-title span {
+      font-size:26px;
+    }
+    .highlights {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:14px;
+    }
+    .highlight {
+      display:flex;
+      gap:13px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:17px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.06);
+    }
+    .highlight-star {
+      flex:0 0 38px;
+      width:38px;height:38px;
+      display:grid;place-items:center;
+      border-radius:12px;
+      background:#efe7cf;
+      color:#8c6a18;
+      font-size:20px;
+    }
+    .highlight h3 {
+      margin:0 0 6px;
+      line-height:1.25;
+      font-size:18px;
+    }
+    .highlight p { margin:0;color:var(--muted);font-size:14px; }
+    .editorial {
+      background:var(--paper);
+      border-left:5px solid var(--terracotta);
+      border-radius:16px;
+      padding:21px 23px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+    }
+    .events {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+    }
+    .event {
+      display:flex;
+      gap:16px;
+      align-items:flex-start;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+      transition:transform .15s ease,box-shadow .15s ease;
+    }
+    .event:hover {
+      transform:translateY(-2px);
+      box-shadow:0 10px 28px rgba(52,48,38,.095);
+    }
+    .date-badge {
+      flex:0 0 58px;
+      width:58px;
+      padding:8px 4px;
+      text-align:center;
+      color:#fff;
+      background:var(--terracotta);
+      border-radius:14px;
+      line-height:1;
+    }
+    .date-badge span {
+      display:block;
+      font-size:24px;
+      font-weight:900;
+    }
+    .date-badge small {
+      display:block;
+      margin-top:5px;
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.08em;
+    }
+    .event-content { min-width:0; }
+    .event h3 {
+      margin:0 0 7px;
+      font-size:19px;
+      line-height:1.25;
+    }
+    .event h3 a { text-decoration:none; }
+    .event h3 a:hover { text-decoration:underline; }
+    .date-line { margin:0 0 5px;font-weight:700;font-size:14px; }
+    .cats { color:var(--muted);font-size:13px;margin-bottom:10px; }
+    .official {
+      display:inline-block;
+      margin-top:5px;
+      font-weight:800;
+      font-size:14px;
+      text-decoration:none;
+    }
+    .source {
+      margin-top:42px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.65);
+      border-radius:15px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    @media (max-width:840px) {
+      .highlights,.events { grid-template-columns:1fr; }
+    }
+    @media (max-width:520px) {
+      .top { padding:9px 9px 0; }
+      .wrap { padding:10px 11px 45px; }
+      .hero { border-radius:18px;padding:24px 20px; }
+      .event { padding:15px;gap:12px; }
+      .date-badge { flex-basis:51px;width:51px; }
+      .date-badge span { font-size:21px; }
+      .nav a { font-size:12px;padding:8px 11px; }
+      .ad-shell { border-radius:10px; }
+    }
   </style>
 </head>
 <body>
+  <aside class="top" aria-label="Sélection de livres sur Nyons">
+    <div class="ad-shell">
+      <iframe class="ad-frame" src="https://danie-poiret.github.io/banniere-nyons/" loading="eager"
+              title="Voir ma sélection de vieux livres sur Nyons"></iframe>
+    </div>
+    <div class="ad-note">Publicité · lien affilié</div>
+  </aside>
+
   <main class="wrap">
     <nav class="nav">
       <a href="https://danie-poiret.github.io/agenda-nyons/">← Agenda interactif</a>
-      <a href="https://danie-poiret.github.io/agenda-nyons/semaines/">Toutes les semaines</a>
+      <a href="https://danie-poiret.github.io/agenda-nyons/semaines/">📅 Toutes les semaines</a>
     </nav>
 
     <section class="hero">
-      <div class="kicker">Agenda de Nyons · semaine du 19 octobre 2026</div>
+      <div class="kicker">Nyons · agenda de la semaine</div>
       <h1>Agenda de Nyons du 19 au 25 octobre 2026 : que faire cette semaine ?</h1>
       <p>Du 19 au 25 octobre 2026, l’agenda de Nyons rassemble six rendez-vous répartis entre culture, vie locale et loisirs. La semaine s’ouvre le lundi avec « Ts’art : Une histoire de Paradis ! », classé dans les rubriques culture, patrimoine et solidarité/santé. Le mercredi, le Conseil Municipal figure parmi les rendez-vous administratifs, tandis que les documentaires de l’UNTL proposent « De la libération à l’épuration ». Jeudi, l’Atelier cosmétique – Savon d’Halloween apporte une idée de loisir en lien avec la période. La programmation se poursuit vendredi avec « SAISON 4 » de Romuald Maufras. Enfin, la Journée Jeux de société, annoncée le samedi, clôt cette sélection hebdomadaire avec une proposition inscrite dans les catégories loisirs, enfance/jeunesse et sport/loisirs.</p>
     </section>
 
     <section>
-      <h2>⭐ Les rendez-vous à retenir</h2>
-      <ul><li><strong>Les documentaires de l’UNTL : « De la libération à l’épuration »</strong> — Un rendez-vous culturel et associatif programmé le mercredi 21 octobre.</li><li><strong>Atelier cosmétique – Savon d’Halloween</strong> — Une proposition de loisirs prévue le jeudi 22 octobre, en lien avec Halloween par son intitulé.</li><li><strong>Journée Jeux de société</strong> — Le rendez-vous du samedi 24 octobre, classé dans les catégories loisirs et enfance/jeunesse.</li></ul>
+      <div class="section-title"><span>⭐</span><h2>Les rendez-vous à retenir</h2></div>
+      <div class="highlights">
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Les documentaires de l’UNTL : « De la libération à l’épuration »</h3>
+            <p>Un rendez-vous culturel et associatif programmé le mercredi 21 octobre.</p>
+          </div>
+        </article>
+        
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Atelier cosmétique – Savon d’Halloween</h3>
+            <p>Une proposition de loisirs prévue le jeudi 22 octobre, en lien avec Halloween par son intitulé.</p>
+          </div>
+        </article>
+        
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>Journée Jeux de société</h3>
+            <p>Le rendez-vous du samedi 24 octobre, classé dans les catégories loisirs et enfance/jeunesse.</p>
+          </div>
+        </article>
+        </div>
     </section>
 
     <section>
-      <h2>☀️ Que faire à Nyons ce week-end ?</h2>
-      <p>Pour organiser vos sorties du week-end, la liste fournie met en avant un rendez-vous le samedi 24 octobre : Journée Jeux de société. Cette proposition relève des loisirs et est également rattachée aux catégories enfance/jeunesse et sport/loisirs. Elle peut donc constituer le point de départ d’un programme de samedi à Nyons. Aucun événement daté du dimanche 25 octobre n’apparaît dans les informations transmises. Pour le reste du week-end, il est préférable de consulter les fiches officielles plutôt que de déduire des prolongations ou des activités non indiquées.</p>
+      <div class="section-title"><span>☀️</span><h2>Que faire à Nyons ce week-end ?</h2></div>
+      <div class="editorial"><p>Pour organiser vos sorties du week-end, la liste fournie met en avant un rendez-vous le samedi 24 octobre : Journée Jeux de société. Cette proposition relève des loisirs et est également rattachée aux catégories enfance/jeunesse et sport/loisirs. Elle peut donc constituer le point de départ d’un programme de samedi à Nyons. Aucun événement daté du dimanche 25 octobre n’apparaît dans les informations transmises. Pour le reste du week-end, il est préférable de consulter les fiches officielles plutôt que de déduire des prolongations ou des activités non indiquées.</p></div>
     </section>
 
     <section>
-      <h2>📅 Tous les événements du 19 au 25 octobre 2026</h2>
-      
+      <div class="section-title"><span>📅</span><h2>Tous les événements du 19 au 25 octobre 2026</h2></div>
+      <div class="events">
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/" target="_blank" rel="noopener">« Ts’art : Une histoire de Paradis ! »</a></h3>
-          <p class="date">📅 19 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Solidarité / Santé · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>19</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/" target="_blank" rel="noopener">« Ts’art : Une histoire de Paradis ! »</a></h3>
+            <p class="date-line">📅 19 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Solidarité / Santé · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/conseil-municipal-4/" target="_blank" rel="noopener">Conseil Municipal</a></h3>
-          <p class="date">📅 21 octobre 2026</p>
-          <div class="cats">Administratif</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/conseil-municipal-4/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>21</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/conseil-municipal-4/" target="_blank" rel="noopener">Conseil Municipal</a></h3>
+            <p class="date-line">📅 21 octobre 2026</p>
+            <div class="cats">Administratif</div>
+            <a class="official" href="https://www.nyons.com/agenda/conseil-municipal-4/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/" target="_blank" rel="noopener">Les documentaires de l’UNTL : « De la libération à l’épuration »</a></h3>
-          <p class="date">📅 21 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Vie associative · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>21</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/" target="_blank" rel="noopener">Les documentaires de l’UNTL : « De la libération à l’épuration »</a></h3>
+            <p class="date-line">📅 21 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Vie associative · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/" target="_blank" rel="noopener">Atelier cosmétique – Savon d’Halloween</a></h3>
-          <p class="date">📅 22 octobre 2026</p>
-          <div class="cats">Sport / Loisirs · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>22</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/" target="_blank" rel="noopener">Atelier cosmétique – Savon d’Halloween</a></h3>
+            <p class="date-line">📅 22 octobre 2026</p>
+            <div class="cats">Sport / Loisirs · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/saison-4-de-romuald-maufras/" target="_blank" rel="noopener">« SAISON 4 » de Romuald Maufras</a></h3>
-          <p class="date">📅 23 octobre 2026</p>
-          <div class="cats">Patrimoine / Culture vivante · Culture</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/saison-4-de-romuald-maufras/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>23</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/saison-4-de-romuald-maufras/" target="_blank" rel="noopener">« SAISON 4 » de Romuald Maufras</a></h3>
+            <p class="date-line">📅 23 octobre 2026</p>
+            <div class="cats">Patrimoine / Culture vivante · Culture</div>
+            <a class="official" href="https://www.nyons.com/agenda/saison-4-de-romuald-maufras/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         
         <article class="event">
-          <h3><a href="https://www.nyons.com/agenda/journees-jeux-de-societe/" target="_blank" rel="noopener">Journée Jeux de société</a></h3>
-          <p class="date">📅 24 octobre 2026</p>
-          <div class="cats">Enfance / Jeunesse · Sport / Loisirs · Loisirs</div>
-          <p><a class="official" href="https://www.nyons.com/agenda/journees-jeux-de-societe/" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          <div class="date-badge"><span>24</span><small>OCT</small></div>
+          <div class="event-content">
+            <h3><a href="https://www.nyons.com/agenda/journees-jeux-de-societe/" target="_blank" rel="noopener">Journée Jeux de société</a></h3>
+            <p class="date-line">📅 24 octobre 2026</p>
+            <div class="cats">Enfance / Jeunesse · Sport / Loisirs · Loisirs</div>
+            <a class="official" href="https://www.nyons.com/agenda/journees-jeux-de-societe/" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
-        
+        </div>
     </section>
 
     <section>
-      <h2>ℹ️ Avant de vous déplacer</h2>
-      <p>Avant de vous déplacer, consultez la fiche officielle de chaque événement. Les informations fournies ici donnent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les tarifs, les modalités d’accès ou une éventuelle réservation. Cette vérification est particulièrement utile si vous hésitez entre plusieurs rendez-vous le mercredi ou si vous prévoyez la sortie du samedi.</p>
+      <div class="section-title"><span>ℹ️</span><h2>Avant de vous déplacer</h2></div>
+      <div class="editorial"><p>Avant de vous déplacer, consultez la fiche officielle de chaque événement. Les informations fournies ici donnent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les tarifs, les modalités d’accès ou une éventuelle réservation. Cette vérification est particulièrement utile si vous hésitez entre plusieurs rendez-vous le mercredi ou si vous prévoyez la sortie du samedi.</p></div>
     </section>
 
-    <section>
+    <section class="editorial" style="margin-top:22px">
       <p>Cette semaine d’octobre propose à Nyons un agenda varié, allant des rendez-vous culturels aux loisirs, en passant par la vie municipale. Les dates s’échelonnent du lundi au samedi, avec plusieurs choix autour du 21 octobre. Retenez les événements qui correspondent à vos centres d’intérêt, puis appuyez-vous sur leur page officielle pour préparer votre venue avec des informations à jour.</p>
     </section>
 
     <div class="source">
-      Source des dates et événements :
+      <strong>Source des dates et événements :</strong>
       <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">agenda officiel de la Ville de Nyons</a>.
-      Les textes éditoriaux de cette page sont générés à partir des informations factuelles de l'agenda,
-      sans remplacer la fiche officielle.
+      Les textes éditoriaux apportent une présentation complémentaire à partir des informations factuelles disponibles.
     </div>
   </main>
 </body>
