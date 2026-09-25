@@ -31,6 +31,7 @@ except Exception:
 
 BASE = "https://www.nyons.com/sorties-actus/agenda/"
 SITE = "https://danie-poiret.github.io/agenda-nyons/"
+BANNER_URL = "https://danie-poiret.github.io/banniere-nyons/"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "agenda.json"
 WEEKS_DIR = ROOT / "semaines"
@@ -497,40 +498,51 @@ def render_week_page(start: date, events, editorial):
 
     highlight_html = ""
     for h in editorial["highlights"]:
-        highlight_html += (
-            "<li><strong>" + esc(h["event_title"]) + "</strong> — "
-            + esc(h["reason"]) + "</li>"
-        )
+        highlight_html += f"""
+        <article class="highlight">
+          <div class="highlight-star">★</div>
+          <div>
+            <h3>{esc(h["event_title"])}</h3>
+            <p>{esc(h["reason"])}</p>
+          </div>
+        </article>
+        """
 
     events_html = ""
     for e in events:
         cats = " · ".join(e.get("categories") or [])
         cats_html = f'<div class="cats">{esc(cats)}</div>' if cats else ""
+        event_start = parse_iso(e["start_date"])
+        date_badge = (
+            f'<div class="date-badge"><span>{event_start.day}</span>'
+            f'<small>{esc(MONTH_NAMES[event_start.month][:3].upper())}</small></div>'
+        )
         events_html += f"""
         <article class="event">
-          <h3><a href="{esc(e['url'])}" target="_blank" rel="noopener">{esc(e['title'])}</a></h3>
-          <p class="date">📅 {esc(format_event_date(e))}</p>
-          {cats_html}
-          <p><a class="official" href="{esc(e['url'])}" target="_blank" rel="noopener">Voir la fiche officielle →</a></p>
+          {date_badge}
+          <div class="event-content">
+            <h3><a href="{esc(e['url'])}" target="_blank" rel="noopener">{esc(e['title'])}</a></h3>
+            <p class="date-line">📅 {esc(format_event_date(e))}</p>
+            {cats_html}
+            <a class="official" href="{esc(e['url'])}" target="_blank" rel="noopener">
+              Voir la fiche officielle <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </article>
         """
 
     structured_events = []
     for e in events:
-        item = {
+        structured_events.append({
             "@type": "Event",
             "name": e["title"],
             "startDate": e["start_date"],
             "endDate": e["end_date"],
             "url": e["url"],
             "eventStatus": "https://schema.org/EventScheduled",
-        }
-        structured_events.append(item)
+        })
 
-    json_ld = {
-        "@context": "https://schema.org",
-        "@graph": structured_events,
-    }
+    json_ld = {"@context": "https://schema.org", "@graph": structured_events}
 
     return f"""<!doctype html>
 <html lang="fr">
@@ -543,81 +555,315 @@ def render_week_page(start: date, events, editorial):
   <meta name="robots" content="index,follow">
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
   <style>
-    :root {{ color-scheme: light; }}
-    body {{ margin:0; font-family:Arial,Helvetica,sans-serif; background:#f6f3ec; color:#252525; line-height:1.65; }}
-    .wrap {{ max-width:980px; margin:auto; padding:28px 18px 60px; }}
-    .hero {{ background:white; padding:28px; border-radius:18px; box-shadow:0 4px 20px rgba(0,0,0,.06); }}
-    h1 {{ line-height:1.15; font-size:clamp(30px,5vw,48px); margin:.1em 0 .4em; }}
-    h2 {{ margin-top:34px; font-size:28px; }}
-    h3 {{ margin-bottom:4px; font-size:21px; }}
-    a {{ color:#1659a5; }}
-    .kicker {{ font-weight:700; letter-spacing:.05em; text-transform:uppercase; font-size:13px; }}
-    .event {{ background:#fff; margin:14px 0; padding:18px 20px; border-radius:14px; }}
-    .date {{ font-weight:700; margin:.35em 0; }}
-    .cats {{ font-size:14px; opacity:.75; }}
-    .official {{ font-weight:700; }}
-    .source {{ margin-top:36px; padding:18px; background:#fff; border-radius:14px; font-size:14px; }}
-    .nav {{ display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }}
-    .nav a {{ background:#fff; padding:8px 12px; border-radius:999px; text-decoration:none; }}
+    * {{ box-sizing:border-box; }}
+    :root {{
+      --olive:#566b3a;
+      --olive-dark:#354622;
+      --terracotta:#a94f35;
+      --cream:#f6f1e8;
+      --paper:#fffdf9;
+      --ink:#262722;
+      --muted:#6b6d65;
+      --line:#e4dccd;
+      --shadow:0 12px 34px rgba(52,48,38,.10);
+    }}
+    html {{ scroll-behavior:smooth; }}
+    body {{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.68;
+    }}
+    a {{ color:var(--olive-dark); }}
+    .top {{
+      max-width:1180px;
+      margin:0 auto;
+      padding:16px 18px 0;
+    }}
+    .ad-shell {{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }}
+    .ad-frame {{
+      display:block;
+      width:100%;
+      aspect-ratio:3 / 1;
+      border:0;
+      background:#fff;
+    }}
+    .ad-note {{
+      margin:7px 5px 0;
+      text-align:right;
+      font-size:11px;
+      color:#7c7c75;
+    }}
+    .wrap {{
+      max-width:1120px;
+      margin:auto;
+      padding:18px 18px 64px;
+    }}
+    .nav {{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin:10px 0 18px;
+    }}
+    .nav a {{
+      display:inline-flex;
+      align-items:center;
+      padding:9px 14px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.78);
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:14px;
+    }}
+    .hero {{
+      position:relative;
+      overflow:hidden;
+      color:#fff;
+      background:linear-gradient(125deg,var(--olive-dark),var(--olive) 58%,#788d58);
+      padding:clamp(26px,5vw,52px);
+      border-radius:24px;
+      box-shadow:var(--shadow);
+    }}
+    .hero::after {{
+      content:"";
+      position:absolute;
+      width:240px;height:240px;
+      border-radius:50%;
+      right:-80px;top:-95px;
+      background:rgba(255,255,255,.08);
+    }}
+    .kicker {{
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      font-size:12px;
+      opacity:.88;
+    }}
+    h1 {{
+      max-width:900px;
+      line-height:1.08;
+      font-size:clamp(31px,5vw,52px);
+      margin:.22em 0 .42em;
+    }}
+    .hero p {{
+      max-width:850px;
+      margin:0;
+      font-size:clamp(16px,2vw,19px);
+    }}
+    .section-title {{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:42px 0 17px;
+    }}
+    .section-title h2 {{
+      margin:0;
+      font-size:clamp(24px,3.5vw,32px);
+      line-height:1.2;
+    }}
+    .section-title span {{
+      font-size:26px;
+    }}
+    .highlights {{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:14px;
+    }}
+    .highlight {{
+      display:flex;
+      gap:13px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:17px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.06);
+    }}
+    .highlight-star {{
+      flex:0 0 38px;
+      width:38px;height:38px;
+      display:grid;place-items:center;
+      border-radius:12px;
+      background:#efe7cf;
+      color:#8c6a18;
+      font-size:20px;
+    }}
+    .highlight h3 {{
+      margin:0 0 6px;
+      line-height:1.25;
+      font-size:18px;
+    }}
+    .highlight p {{ margin:0;color:var(--muted);font-size:14px; }}
+    .editorial {{
+      background:var(--paper);
+      border-left:5px solid var(--terracotta);
+      border-radius:16px;
+      padding:21px 23px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+    }}
+    .events {{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+    }}
+    .event {{
+      display:flex;
+      gap:16px;
+      align-items:flex-start;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px;
+      box-shadow:0 6px 22px rgba(52,48,38,.055);
+      transition:transform .15s ease,box-shadow .15s ease;
+    }}
+    .event:hover {{
+      transform:translateY(-2px);
+      box-shadow:0 10px 28px rgba(52,48,38,.095);
+    }}
+    .date-badge {{
+      flex:0 0 58px;
+      width:58px;
+      padding:8px 4px;
+      text-align:center;
+      color:#fff;
+      background:var(--terracotta);
+      border-radius:14px;
+      line-height:1;
+    }}
+    .date-badge span {{
+      display:block;
+      font-size:24px;
+      font-weight:900;
+    }}
+    .date-badge small {{
+      display:block;
+      margin-top:5px;
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.08em;
+    }}
+    .event-content {{ min-width:0; }}
+    .event h3 {{
+      margin:0 0 7px;
+      font-size:19px;
+      line-height:1.25;
+    }}
+    .event h3 a {{ text-decoration:none; }}
+    .event h3 a:hover {{ text-decoration:underline; }}
+    .date-line {{ margin:0 0 5px;font-weight:700;font-size:14px; }}
+    .cats {{ color:var(--muted);font-size:13px;margin-bottom:10px; }}
+    .official {{
+      display:inline-block;
+      margin-top:5px;
+      font-weight:800;
+      font-size:14px;
+      text-decoration:none;
+    }}
+    .source {{
+      margin-top:42px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.65);
+      border-radius:15px;
+      color:var(--muted);
+      font-size:13px;
+    }}
+    @media (max-width:840px) {{
+      .highlights,.events {{ grid-template-columns:1fr; }}
+    }}
+    @media (max-width:520px) {{
+      .top {{ padding:9px 9px 0; }}
+      .wrap {{ padding:10px 11px 45px; }}
+      .hero {{ border-radius:18px;padding:24px 20px; }}
+      .event {{ padding:15px;gap:12px; }}
+      .date-badge {{ flex-basis:51px;width:51px; }}
+      .date-badge span {{ font-size:21px; }}
+      .nav a {{ font-size:12px;padding:8px 11px; }}
+      .ad-shell {{ border-radius:10px; }}
+    }}
   </style>
 </head>
 <body>
+  <aside class="top" aria-label="Sélection de livres sur Nyons">
+    <div class="ad-shell">
+      <iframe class="ad-frame" src="{BANNER_URL}" loading="eager"
+              title="Voir ma sélection de vieux livres sur Nyons"></iframe>
+    </div>
+    <div class="ad-note">Publicité · lien affilié</div>
+  </aside>
+
   <main class="wrap">
     <nav class="nav">
       <a href="{SITE}">← Agenda interactif</a>
-      <a href="{SITE}semaines/">Toutes les semaines</a>
+      <a href="{SITE}semaines/">📅 Toutes les semaines</a>
     </nav>
 
     <section class="hero">
-      <div class="kicker">Agenda de Nyons · semaine du {esc(french_date(start))}</div>
+      <div class="kicker">Nyons · agenda de la semaine</div>
       <h1>{esc(title)}</h1>
       <p>{esc(editorial['intro'])}</p>
     </section>
 
     <section>
-      <h2>⭐ Les rendez-vous à retenir</h2>
-      <ul>{highlight_html}</ul>
+      <div class="section-title"><span>⭐</span><h2>Les rendez-vous à retenir</h2></div>
+      <div class="highlights">{highlight_html}</div>
     </section>
 
     <section>
-      <h2>☀️ Que faire à Nyons ce week-end ?</h2>
-      <p>{esc(editorial['weekend'])}</p>
+      <div class="section-title"><span>☀️</span><h2>Que faire à Nyons ce week-end ?</h2></div>
+      <div class="editorial"><p>{esc(editorial['weekend'])}</p></div>
     </section>
 
     <section>
-      <h2>📅 Tous les événements {esc(label)}</h2>
-      {events_html}
+      <div class="section-title"><span>📅</span><h2>Tous les événements {esc(label)}</h2></div>
+      <div class="events">{events_html}</div>
     </section>
 
     <section>
-      <h2>ℹ️ Avant de vous déplacer</h2>
-      <p>{esc(editorial['practical'])}</p>
+      <div class="section-title"><span>ℹ️</span><h2>Avant de vous déplacer</h2></div>
+      <div class="editorial"><p>{esc(editorial['practical'])}</p></div>
     </section>
 
-    <section>
+    <section class="editorial" style="margin-top:22px">
       <p>{esc(editorial['conclusion'])}</p>
     </section>
 
     <div class="source">
-      Source des dates et événements :
+      <strong>Source des dates et événements :</strong>
       <a href="{BASE}" target="_blank" rel="noopener">agenda officiel de la Ville de Nyons</a>.
-      Les textes éditoriaux de cette page sont générés à partir des informations factuelles de l'agenda,
-      sans remplacer la fiche officielle.
+      Les textes éditoriaux apportent une présentation complémentaire à partir des informations factuelles disponibles.
     </div>
   </main>
 </body>
 </html>
 """
 
-
 def render_weeks_index(weeks):
     cards = []
+    today_monday = monday_of(date.today())
     for start, events in weeks.items():
         slug = slug_week(start)
-        cards.append(
-            f'<li><a href="{slug}/"><strong>Agenda de Nyons {esc(week_label(start))}</strong>'
-            f' — {len(events)} événement(s)</a></li>'
-        )
+        current = " current" if start == today_monday else ""
+        badge = '<span class="now">Cette semaine</span>' if start == today_monday else ""
+        cards.append(f"""
+        <a class="week-card{current}" href="{slug}/">
+          <div class="week-top">
+            <span class="calendar">📅</span>
+            {badge}
+          </div>
+          <h2>Agenda de Nyons {esc(week_label(start))}</h2>
+          <p>{len(events)} événement(s) annoncé(s)</p>
+          <span class="cta">Voir la semaine →</span>
+        </a>
+        """)
 
     return f"""<!doctype html>
 <html lang="fr">
@@ -629,20 +875,190 @@ def render_weeks_index(weeks):
   <link rel="canonical" href="{SITE}semaines/">
   <meta name="robots" content="index,follow">
   <style>
-    body {{ font-family:Arial,Helvetica,sans-serif; max-width:900px; margin:auto; padding:30px 18px; line-height:1.6; }}
-    li {{ margin:12px 0; }}
+    * {{ box-sizing:border-box; }}
+    :root {{
+      --olive:#566b3a;
+      --olive-dark:#354622;
+      --terracotta:#a94f35;
+      --cream:#f6f1e8;
+      --paper:#fffdf9;
+      --ink:#262722;
+      --muted:#6b6d65;
+      --line:#e4dccd;
+      --shadow:0 12px 34px rgba(52,48,38,.10);
+    }}
+    body {{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.65;
+    }}
+    .top {{
+      max-width:1180px;
+      margin:0 auto;
+      padding:16px 18px 0;
+    }}
+    .ad-shell {{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }}
+    .ad-frame {{
+      display:block;
+      width:100%;
+      aspect-ratio:3 / 1;
+      border:0;
+      background:#fff;
+    }}
+    .ad-note {{
+      margin:7px 5px 0;
+      text-align:right;
+      font-size:11px;
+      color:#7c7c75;
+    }}
+    .wrap {{ max-width:1120px;margin:auto;padding:18px 18px 64px; }}
+    .back {{
+      display:inline-block;
+      margin:8px 0 18px;
+      padding:9px 14px;
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:999px;
+      color:var(--olive-dark);
+      text-decoration:none;
+      font-weight:800;
+      font-size:14px;
+    }}
+    .hero {{
+      background:linear-gradient(125deg,var(--olive-dark),var(--olive) 58%,#788d58);
+      color:#fff;
+      border-radius:24px;
+      padding:clamp(28px,5vw,54px);
+      box-shadow:var(--shadow);
+    }}
+    .hero .kicker {{
+      text-transform:uppercase;
+      font-weight:800;
+      font-size:12px;
+      letter-spacing:.08em;
+      opacity:.88;
+    }}
+    h1 {{
+      margin:.2em 0 .3em;
+      line-height:1.08;
+      font-size:clamp(32px,5vw,52px);
+    }}
+    .hero p {{
+      max-width:780px;
+      margin:0;
+      font-size:clamp(16px,2vw,19px);
+    }}
+    .weeks {{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:16px;
+      margin-top:24px;
+    }}
+    .week-card {{
+      display:block;
+      position:relative;
+      padding:22px;
+      min-height:210px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      color:var(--ink);
+      text-decoration:none;
+      box-shadow:0 7px 25px rgba(52,48,38,.065);
+      transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;
+    }}
+    .week-card:hover {{
+      transform:translateY(-3px);
+      box-shadow:0 13px 30px rgba(52,48,38,.11);
+      border-color:#cfc3af;
+    }}
+    .week-card.current {{
+      border:2px solid var(--terracotta);
+    }}
+    .week-top {{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      min-height:35px;
+    }}
+    .calendar {{ font-size:28px; }}
+    .now {{
+      padding:5px 9px;
+      border-radius:999px;
+      background:#f2dfd8;
+      color:#7f3321;
+      font-weight:800;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+    }}
+    .week-card h2 {{
+      margin:18px 0 8px;
+      font-size:20px;
+      line-height:1.28;
+    }}
+    .week-card p {{ color:var(--muted);margin:0 0 16px; }}
+    .cta {{ color:var(--olive-dark);font-weight:900; }}
+    .source {{
+      margin-top:34px;
+      padding:17px 19px;
+      background:rgba(255,255,255,.68);
+      border:1px solid var(--line);
+      border-radius:15px;
+      color:var(--muted);
+      font-size:13px;
+    }}
+    .source a {{ color:var(--olive-dark); }}
+    @media(max-width:850px) {{ .weeks {{ grid-template-columns:repeat(2,minmax(0,1fr)); }} }}
+    @media(max-width:560px) {{
+      .top {{ padding:9px 9px 0; }}
+      .wrap {{ padding:10px 11px 44px; }}
+      .hero {{ border-radius:18px;padding:25px 20px; }}
+      .weeks {{ grid-template-columns:1fr;gap:12px; }}
+      .week-card {{ min-height:0;padding:18px; }}
+      .ad-shell {{ border-radius:10px; }}
+    }}
   </style>
 </head>
 <body>
-  <p><a href="{SITE}">← Agenda interactif</a></p>
-  <h1>Agenda de Nyons semaine par semaine</h1>
-  <p>Choisissez une semaine pour consulter les sorties et événements annoncés à Nyons.</p>
-  <ul>{''.join(cards)}</ul>
-  <p>Source : <a href="{BASE}">Ville de Nyons — agenda officiel</a>.</p>
+  <aside class="top" aria-label="Sélection de livres sur Nyons">
+    <div class="ad-shell">
+      <iframe class="ad-frame" src="{BANNER_URL}" loading="eager"
+              title="Voir ma sélection de vieux livres sur Nyons"></iframe>
+    </div>
+    <div class="ad-note">Publicité · lien affilié</div>
+  </aside>
+
+  <main class="wrap">
+    <a class="back" href="{SITE}">← Agenda interactif</a>
+
+    <section class="hero">
+      <div class="kicker">Sorties · animations · vie locale</div>
+      <h1>Agenda de Nyons semaine par semaine</h1>
+      <p>Choisissez une semaine pour découvrir les événements annoncés à Nyons, avec une présentation claire et des liens vers les fiches officielles.</p>
+    </section>
+
+    <section class="weeks">
+      {''.join(cards)}
+    </section>
+
+    <div class="source">
+      <strong>Source :</strong>
+      <a href="{BASE}" target="_blank" rel="noopener">Ville de Nyons — agenda officiel</a>.
+      Mise à jour automatique.
+    </div>
+  </main>
 </body>
 </html>
 """
-
 
 def write_sitemap():
     urls = [SITE, f"{SITE}semaines/"]
