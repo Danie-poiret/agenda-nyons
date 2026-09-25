@@ -1,1 +1,43 @@
+name: Mise a jour agenda Nyons
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-agenda:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dependances
+        run: python -m pip install -r requirements.txt
+
+      - name: Recuperer agenda Nyons
+        run: python update_agenda.py
+
+      - name: Enregistrer agenda
+        shell: bash
+        run: |
+          if git diff --quiet -- agenda.json; then
+            echo "Aucun changement dans agenda.json"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add agenda.json
+          git commit -m "Mise a jour automatique agenda Nyons"
+          git push
