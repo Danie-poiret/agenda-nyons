@@ -26,29 +26,29 @@
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
-    "hash": "5e5cc3ee7ea8e1361c4309a815968fba14b8347d72e4705961a08ef978221d71",
+    "hash": "7f3048b0b8063ca0d5e1972d42433ab5e6f9abfafd652d5623c75a35e143917a",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : culture, ateliers, concert, braderie et rendez-vous associatifs à découvrir cette semaine.",
-      "intro": "Du lundi 28 septembre au dimanche 4 octobre 2026, l’agenda de Nyons réunit des propositions variées, entre culture, loisirs, vie associative et thématiques de solidarité. La semaine débute avec Lectures animées et Soirée 100% Agriculture / Viticulture. Le mercredi, plusieurs rendez-vous sont annoncés, dont Atelier lactofermentation, Découvrez Solidarité Paysans ! et l’Exposition « Urbain Urbex ». La programmation se poursuit le 1er octobre avec une dédicace, puis le vendredi avec le Concert Bouda OMG !. Le week-end concentre plusieurs choix : un atelier culinaire et Constellations familiales le samedi, avant une braderie, Les 8 jours de la Ville de Nyons et Les Journées Nationales des Artistes à Nyons le dimanche. Cette diversité permet de composer une sortie selon ses envies, en s’appuyant sur les catégories et les dates indiquées pour chaque événement.",
-      "weekend": "Pour organiser le week-end des 3 et 4 octobre, commencez par distinguer les rendez-vous selon leur date et leur thématique. Le samedi, Atelier culinaire – Risotto & panacotta est classé à la fois dans culture et loisirs, tandis que Constellations familiales relève de la vie associative. Le dimanche, Grande braderie est associée à la solidarité et à la vie associative. Les 8 jours de la Ville de Nyons et Les Journées Nationales des Artistes à Nyons proposent, de leur côté, des entrées liées aux loisirs, avec une dimension culturelle également indiquée pour les Journées Nationales des Artistes. Consultez les fiches de chaque rendez-vous pour finaliser votre choix.",
-      "practical": "Les informations disponibles indiquent les dates et les catégories, mais ne précisent pas les horaires, les lieux, les tarifs ni les modalités éventuelles d’accès. Avant de vous déplacer, vérifiez la fiche officielle de l’événement concerné. Cette précaution est particulièrement utile si vous hésitez entre plusieurs rendez-vous prévus le même jour, notamment le 30 septembre ou le 4 octobre.",
-      "conclusion": "Cette semaine à Nyons fait se côtoyer lecture, agriculture, exposition, musique, cuisine, initiatives associatives et rendez-vous culturels. Les dates se répartissent du 28 septembre au 4 octobre, avec une offre plus dense en fin de semaine. Repérez les événements qui correspondent à vos centres d’intérêt, puis consultez leur page officielle pour obtenir les informations pratiques manquantes avant votre sortie.",
+      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : concert, atelier culinaire, découverte des abeilles, marche et cérémonie de cacao.",
+      "intro": "La semaine du 28 septembre au 4 octobre 2026 se termine à Nyons avec cinq rendez-vous annoncés le dimanche 4 octobre. L’offre couvre des envies très différentes : une proposition culinaire autour de tacos au poulet et de burritos au bœuf faits maison, un concert à la croisée des musiques médiévales, du monde, du jazz et de l’improvisation, ainsi qu’une journée consacrée aux abeilles et à l’apiculture. La journée comprend aussi une Marche pour le Climat, associée au vivant, à la paix et à la justice sociale. Enfin, la cérémonie de cacao évoque une inspiration issue de l’usage spirituel de cette plante chez le peuple Maya du Guatemala. Cette concentration de rendez-vous invite à choisir selon son intérêt, entre culture, découverte, cuisine et démarche collective.",
+      "weekend": "Pour organiser votre dimanche 4 octobre, commencez par identifier le type d’expérience qui vous attire. Les amateurs de musique pourront se tourner vers le concert, tandis que l’atelier culinaire conviendra à ceux qui souhaitent préparer des recettes de street food. La découverte des abeilles et de l’apiculture offre une autre approche, davantage tournée vers le vivant. La marche porte quant à elle un message lié au climat, à la paix et à la justice sociale. La cérémonie de cacao propose enfin un rendez-vous inspiré d’une tradition maya du Guatemala. Comme tous les événements sont annoncés le même jour, vérifiez leurs informations avant de composer votre programme.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement. Les informations fournies ne précisent ni horaires, ni lieux, ni éventuelles modalités d’accès : ces éléments sont donc à confirmer directement auprès de l’organisateur. Vérifiez également si des changements sont signalés, notamment pour choisir entre plusieurs rendez-vous prévus le dimanche 4 octobre.",
+      "conclusion": "Le 4 octobre rassemble à Nyons une programmation variée, allant de la cuisine à la musique, de l’apiculture à la mobilisation collective. Cette diversité permet de retenir un rendez-vous en fonction de ses centres d’intérêt, sans supposer de détails qui ne sont pas annoncés. Prenez le temps de consulter les pages dédiées afin de préparer votre sortie avec les informations à jour.",
       "highlights": [
         {
-          "event_title": "Soirée 100% Agriculture / Viticulture",
-          "reason": "Un rendez-vous du 28 septembre rattaché aux catégories patrimoine, culture vivante et culture."
+          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
+          "reason": "Un concert annoncé entre musiques médiévales, musiques du monde, jazz et improvisations."
         },
         {
-          "event_title": "Concert Bouda OMG !",
-          "reason": "Une proposition culturelle programmée le vendredi 2 octobre."
+          "event_title": "Atelier culinaire – Street food party",
+          "reason": "Une occasion de réaliser des tacos au poulet et des burritos au bœuf maison."
         },
         {
-          "event_title": "Les Journées Nationales des Artistes à Nyons",
-          "reason": "Un rendez-vous du 4 octobre croisant culture, loisirs et patrimoine / culture vivante."
+          "event_title": "Une ruche dans mon jardin ?",
+          "reason": "Une journée de découverte consacrée aux abeilles et à l’apiculture."
         }
       ]
     },
-    "generated_at": "2026-09-25T11:23:01.056282+00:00",
+    "generated_at": "2026-09-25T13:38:43.776503+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-05": {
