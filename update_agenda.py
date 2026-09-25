@@ -68,7 +68,11 @@ CATEGORIES = [
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; AgendaNyons/2.0; +https://github.com/Danie-poiret/agenda-nyons)",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/140.0.0.0 Safari/537.36"
+    ),
     "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.5",
 }
 
@@ -96,16 +100,22 @@ def is_event_url(href: str) -> bool:
 
 
 def previous_start_date(anchor):
-    """Récupère la date placée juste AVANT la carte événement sur nyons.com."""
-    for node in anchor.find_all_previous(string=True, limit=80):
+    """Trouve la date de début située avant le titre de l'événement.
+
+    La page Nyons peut ajouter des balises, espaces insécables ou petits textes
+    autour de la date. On cherche donc une date à l'intérieur du texte, tout en
+    ignorant explicitement les mentions "Jusqu'au..." de l'événement précédent.
+    """
+    for node in anchor.find_all_previous(string=True, limit=180):
         t = clean(node)
         if not t:
             continue
-        m = DATE_LINE_RE.match(t)
+        if UNTIL_RE.search(t):
+            continue
+        m = DATE_RE.search(t)
         if m:
             return parse_match(m)
     return None
-
 
 def scan_event_after_title(anchor, title):
     """Lit le résumé et la date de fin jusqu'au prochain événement."""
@@ -122,7 +132,7 @@ def scan_event_after_title(anchor, title):
             end = parse_match(em)
             break
 
-        if DATE_LINE_RE.match(t):
+        if DATE_RE.search(t) and not UNTIL_RE.search(t):
             break
 
         if not summary:
@@ -160,7 +170,16 @@ def scrape_page(session, page: int):
     soup = BeautifulSoup(r.text, "html.parser")
     found, seen = [], set()
 
-    for a in soup.find_all("a", href=True):
+    candidate_links = [
+        a for a in soup.find_all("a", href=True)
+        if is_event_url(urljoin(BASE, a["href"]))
+    ]
+    print(
+        f"Page {page}: HTTP {r.status_code}, {len(r.text)} octets, "
+        f"{len(candidate_links)} lien(s) événement candidat(s)"
+    )
+
+    for a in candidate_links:
         href = urljoin(BASE, a["href"])
         if not is_event_url(href):
             continue
