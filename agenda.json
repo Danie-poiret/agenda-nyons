@@ -1,0 +1,109 @@
+{
+  "source": "https://www.nyons.com/sorties-actus/agenda/",
+  "updated_at": "2026-09-25T09:00:00+00:00",
+  "count": 10,
+  "events": [
+    {
+      "title": "Découvrez Solidarité Paysans !",
+      "start_date": "2026-08-01",
+      "end_date": "2026-09-30",
+      "summary": "Une exposition pour découvrir l'association Solidarité Paysans Drôme-Ardèche.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/"
+    },
+    {
+      "title": "Exposition « Urbain Urbex »",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-30",
+      "summary": "Exposition aux 3 Platanes.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-urbain-urbex/"
+    },
+    {
+      "title": "« La Vie en Couleur » : Exposition de Cécile Allex",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-27",
+      "summary": "Exposition artistique de Cécile Allex, à l'Espace Roumanille, Draye de Meyne.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/"
+    },
+    {
+      "title": "Les 8 jours de la Ville de Nyons",
+      "start_date": "2026-09-25",
+      "end_date": "2026-10-04",
+      "summary": "27e édition des 8 Jours de pétanque de la Ville de Nyons.",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/"
+    },
+    {
+      "title": "Rencontre avec Régis PENET",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "summary": "Rencontre autour du dessin et du récit de Régis Penet.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/rencontre-avec-regis-penet/"
+    },
+    {
+      "title": "Atelier culinaire – Street food party",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Atelier culinaire autour des tacos au poulet et burritos au bœuf maison.",
+      "categories": [
+        "Sport / Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/"
+    },
+    {
+      "title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Medieval, world music, jazz et improvisations.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/"
+    },
+    {
+      "title": "Cérémonie de cacao",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Cérémonie autour du cacao et de ses usages traditionnels.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
+    },
+    {
+      "title": "Marche pour le Climat",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Marche pour le climat, le vivant, la paix et la justice sociale.",
+      "categories": [
+        "Cadre de vie",
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/marche-pour-le-climat/"
+    },
+    {
+      "title": "Une ruche dans mon jardin ?",
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-26",
+      "summary": "Journée découverte des abeilles et de l'apiculture.",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/"
+    }
+  ]
+}

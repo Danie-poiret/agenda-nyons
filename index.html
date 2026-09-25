@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Agenda hebdomadaire de Nyons, mis à jour automatiquement à partir de l'agenda officiel de la Ville de Nyons.">
+  <title>Agenda de Nyons — semaine par semaine</title>
+  <style>
+    :root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#28231e;--muted:#766c61;--accent:#8b2f24;--olive:#697345;--line:#ded4c6;--shadow:0 8px 28px rgba(43,34,24,.10)}
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#efe6d7 0,#f8f4ed 22rem);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:1050px;margin:auto;padding:24px 16px 44px}
+    header{background:rgba(255,253,248,.94);border:1px solid var(--line);border-radius:22px;padding:26px 22px 20px;box-shadow:var(--shadow);text-align:center}
+    .eyebrow{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--olive);font-weight:800}
+    h1{font-family:Georgia,serif;font-size:clamp(2rem,6vw,4rem);margin:.25rem 0;color:var(--accent);line-height:1}
+    .subtitle{margin:.5rem auto 0;max-width:720px;color:var(--muted)}
+    .toolbar{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin:18px 0 12px}
+    button{border:1px solid var(--line);background:var(--paper);padding:11px 14px;border-radius:999px;font-weight:700;cursor:pointer;color:var(--ink)}
+    button:hover{border-color:#b9a791;transform:translateY(-1px)}
+    #prev{justify-self:start} #next{justify-self:end}
+    #today{background:var(--accent);color:white;border-color:var(--accent)}
+    .week-title{text-align:center;margin:12px 0 18px;font-family:Georgia,serif;font-size:clamp(1.25rem,3vw,1.8rem)}
+    .count{text-align:center;color:var(--muted);margin:-10px 0 18px;font-size:.92rem}
+    .events{display:grid;gap:14px}
+    .event{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 3px 12px rgba(43,34,24,.06);display:grid;grid-template-columns:105px 1fr;gap:18px}
+    .datebox{border-right:1px solid var(--line);padding-right:14px;text-align:center;align-self:stretch;display:flex;flex-direction:column;justify-content:center}
+    .day{font:700 2rem/1 Georgia,serif;color:var(--accent)}
+    .month{text-transform:uppercase;letter-spacing:.08em;font-size:.78rem;font-weight:800;margin-top:5px;color:var(--olive)}
+    .range{font-size:.76rem;color:var(--muted);margin-top:6px}
+    .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:7px}
+    .tag{font-size:.72rem;background:#f1eadf;border:1px solid #e1d5c3;border-radius:999px;padding:4px 8px;color:#65594e}
+    .event h2{font:700 1.25rem/1.2 Georgia,serif;margin:0 0 7px}
+    .event p{margin:0 0 10px;color:#514941;line-height:1.48}
+    .official{display:inline-block;color:#164aa6;text-decoration:underline;font-weight:750}
+    .empty,.error{background:var(--paper);border:1px dashed var(--line);border-radius:18px;padding:28px;text-align:center;color:var(--muted)}
+    footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:22px;line-height:1.5}
+    footer a{color:inherit}
+    .updated{margin-top:5px}
+    @media(max-width:650px){
+      .toolbar{grid-template-columns:1fr 1fr;}.toolbar #today{grid-column:1/-1;grid-row:1}.toolbar #prev{grid-row:2}.toolbar #next{grid-row:2}
+      .event{grid-template-columns:72px 1fr;padding:14px;gap:12px}.datebox{padding-right:10px}.day{font-size:1.6rem}.event h2{font-size:1.1rem}
+    }
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Sorties • culture • loisirs • vie locale</div>
+    <h1>AGENDA DE NYONS</h1>
+    <p class="subtitle">Les rendez-vous de la semaine, récupérés automatiquement depuis l’agenda officiel de la Ville de Nyons.</p>
+  </header>
+
+  <nav class="toolbar" aria-label="Navigation par semaine">
+    <button id="prev" type="button">← Semaine précédente</button>
+    <button id="today" type="button">Cette semaine</button>
+    <button id="next" type="button">Semaine suivante →</button>
+  </nav>
+
+  <div id="weekTitle" class="week-title"></div>
+  <div id="count" class="count"></div>
+  <section id="events" class="events" aria-live="polite"></section>
+
+  <footer>
+    Source : <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">Ville de Nyons — agenda officiel</a>.<br>
+    Les informations peuvent évoluer : cliquez sur chaque événement pour vérifier le détail officiel.
+    <div id="updated" class="updated"></div>
+  </footer>
+</main>
+
+<script>
+const FR_MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+let data = {events:[], updated_at:null};
+let weekOffset = 0;
+
+const isoDate = s => new Date(s + 'T12:00:00');
+function mondayOf(d){
+  const x = new Date(d); x.setHours(12,0,0,0);
+  const day = (x.getDay()+6)%7; x.setDate(x.getDate()-day); return x;
+}
+function addDays(d,n){ const x=new Date(d); x.setDate(x.getDate()+n); return x; }
+function ymd(d){ return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; }
+function fmtLong(d){ return d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }
+function fmtShort(d){ return d.toLocaleDateString('fr-FR',{day:'numeric',month:'long'}); }
+function esc(s=''){ return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
+function sameDay(a,b){ return ymd(a)===ymd(b); }
+
+function render(){
+  const start = addDays(mondayOf(new Date()), weekOffset*7);
+  const end = addDays(start,6);
+  document.getElementById('weekTitle').textContent = `Du ${fmtShort(start)} au ${fmtLong(end)}`;
+
+  const evs = (data.events||[]).filter(e => {
+    const s=isoDate(e.start_date), ee=isoDate(e.end_date||e.start_date);
+    return s <= end && ee >= start;
+  }).sort((a,b)=>a.start_date.localeCompare(b.start_date)||a.title.localeCompare(b.title,'fr'));
+
+  document.getElementById('count').textContent = evs.length ? `${evs.length} événement${evs.length>1?'s':''} cette semaine` : '';
+  const root=document.getElementById('events');
+  if(!evs.length){ root.innerHTML='<div class="empty">Aucun événement trouvé pour cette semaine dans les données actuellement récupérées.</div>'; return; }
+
+  root.innerHTML = evs.map(e=>{
+    const s=isoDate(e.start_date), ee=isoDate(e.end_date||e.start_date);
+    const range = sameDay(s,ee) ? '' : `Jusqu’au ${fmtShort(ee)}`;
+    const tags=(e.categories||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+    return `<article class="event">
+      <div class="datebox"><div class="day">${s.getDate()}</div><div class="month">${FR_MONTHS[s.getMonth()]}</div>${range?`<div class="range">${esc(range)}</div>`:''}</div>
+      <div><div class="tags">${tags}</div><h2>${esc(e.title)}</h2>${e.summary?`<p>${esc(e.summary)}</p>`:''}<a class="official" href="${esc(e.url)}" target="_blank" rel="noopener">Voir l’événement sur nyons.com ↗</a></div>
+    </article>`;
+  }).join('');
+}
+
+async function load(){
+  try{
+    const r=await fetch(`agenda.json?t=${Date.now()}`,{cache:'no-store'});
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    data=await r.json();
+    if(data.updated_at){
+      const d=new Date(data.updated_at);
+      document.getElementById('updated').textContent=`Dernière récupération : ${d.toLocaleString('fr-FR',{dateStyle:'long',timeStyle:'short'})}`;
+    }
+    render();
+  }catch(err){
+    document.getElementById('events').innerHTML='<div class="error">Impossible de charger l’agenda pour le moment. Réessayez dans quelques minutes.</div>';
+    console.error(err);
+  }
+}
+
+document.getElementById('prev').onclick=()=>{weekOffset--;render();};
+document.getElementById('next').onclick=()=>{weekOffset++;render();};
+document.getElementById('today').onclick=()=>{weekOffset=0;render();};
+load();
+</script>
+</body>
+</html>
