@@ -1,7 +1,7 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
-  "updated_at": "2026-09-26T12:31:19.441276+00:00",
-  "count": 117,
+  "updated_at": "2026-09-26T12:50:18.126042+00:00",
+  "count": 116,
   "events": [
     {
       "title": "Découvrez Solidarité Paysans !",
@@ -56,6 +56,17 @@
       "url": "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/"
     },
     {
+      "title": "Rencontre avec Régis PENET",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "summary": "À travers son dessin et son récit, Régis Penet nous invite à voyager entre mythologie, science-fiction et grandes questions existentielles.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/rencontre-avec-regis-penet/"
+    },
+    {
       "title": "Atelier culinaire – Street food party",
       "start_date": "2026-09-26",
       "end_date": "2026-09-26",
@@ -83,36 +94,16 @@
       "end_date": "2026-09-26",
       "summary": "Les cérémonies de cacao s'inspirent de l'usage spirituel de cette plante par le peuple Maya du Guatemala. Le cacao connecte au coeur, à la joie, à la créativité, il aide à relâcher les tensions.",
       "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
-    },
-    {
-      "title": "Distribution gratuite de compost",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "La CCBDP propose une distribution gratuite de compost réservé aux particuliers.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/"
-    },
-    {
-      "title": "Impro !",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "Improvisation théâtrale pour lancer la saison de l'Electron Libre ! 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 16.1°C / 16.1°C Contact Recherche Mentions l",
-      "categories": [
-        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/impro/"
+      "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
     },
     {
       "title": "Marche pour le Climat",
       "start_date": "2026-09-26",
       "end_date": "2026-09-26",
-      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale",
+      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 20.4°C / 20.4°C Contact Recherche Mentions légal",
       "categories": [
         "Cadre de vie",
         "Solidarité / Santé"

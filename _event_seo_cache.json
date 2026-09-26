@@ -38,7 +38,7 @@
       "email": "r.viarsac@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:31:28.560312+00:00",
+    "generated_at": "2026-09-26T12:50:19.337989+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
@@ -73,7 +73,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:31:40.446497+00:00",
+    "generated_at": "2026-09-26T12:50:19.338095+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
@@ -108,7 +108,7 @@
       "email": "celice@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:31:54.567130+00:00",
+    "generated_at": "2026-09-26T12:50:19.338171+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
@@ -144,7 +144,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:32:10.391307+00:00",
+    "generated_at": "2026-09-26T12:50:19.338235+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
@@ -179,7 +179,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:32:17.920640+00:00",
+    "generated_at": "2026-09-26T12:50:19.338302+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/": {
@@ -214,11 +214,11 @@
       "email": "mhadam.conf@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:32:26.606390+00:00",
+    "generated_at": "2026-09-26T12:50:19.594847+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/ceremonie-de-cacao/": {
-    "hash": "76995a942452acac298d9fb4b625a7d258682487781476b727a1166c109f07bb",
+    "hash": "51e0c9e2d6cffc8917342d21a171cf2068eb3a6c88858eff6c97baa53a861c0f",
     "slug": "ceremonie-de-cacao-2026-09-26",
     "event": {
       "title": "Cérémonie de cacao",
@@ -226,17 +226,18 @@
       "end_date": "2026-09-26",
       "summary": "Les cérémonies de cacao s'inspirent de l'usage spirituel de cette plante par le peuple Maya du Guatemala. Le cacao connecte au coeur, à la joie, à la créativité, il aide à relâcher les tensions.",
       "categories": [
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
     },
     "editorial": {
-      "seo_title": "Cérémonie de cacao à Nyons : cœur, joie et créativité",
-      "meta_description": "À Nyons, une cérémonie de cacao inspirée des usages spirituels mayas du Guatemala, autour du cœur, de la joie et de la créativité.",
-      "intro": "La cérémonie de cacao proposée à Nyons s’inspire de l’usage spirituel de cette plante chez le peuple Maya du Guatemala. Ce rendez-vous place le cacao au centre d’un temps consacré au cœur, à la joie et à la créativité. Il invite aussi à relâcher les tensions, dans l’esprit même associé à cette cérémonie.",
-      "story": "Le cacao occupe ici une place particulière : celle d’une plante liée à une tradition spirituelle maya du Guatemala. La cérémonie s’appuie sur cette inspiration pour créer un moment tourné vers ce que le cacao peut éveiller ou accompagner : la connexion au cœur, la joie et la créativité. Le résumé met également en avant son rôle pour aider à relâcher les tensions. Cette rencontre est ainsi dédiée à une approche sensible et spirituelle du cacao.",
-      "why_it_matters": "C’est une occasion de découvrir une cérémonie inspirée d’un usage traditionnel du cacao chez le peuple Maya du Guatemala. La proposition réunit plusieurs dimensions mises en avant par l’événement : le cœur, la joie, la créativité et le relâchement des tensions.",
-      "practical": "Samedi 26 septembre 2026, de 14h à 18h. Renseignements par téléphone au 06 47 18 92 87.",
+      "seo_title": "Cérémonie de cacao à Nyons, entre joie et créativité",
+      "meta_description": "À Nyons, une cérémonie de cacao inspirée de l’usage spirituel maya du Guatemala, pour se relier au cœur, à la joie et à la créativité.",
+      "intro": "La cérémonie de cacao proposée à Nyons s’inspire de l’usage spirituel de cette plante par le peuple Maya du Guatemala. Ce rendez-vous place le cacao au centre d’un temps consacré au cœur, à la joie et à la créativité, avec l’idée de relâcher les tensions.",
+      "story": "Le cacao est ici abordé dans sa dimension spirituelle, en référence à une pratique liée au peuple Maya du Guatemala. La cérémonie invite à prendre place autour de cette plante, présentée comme un soutien pour se connecter au cœur, à la joie et à l’élan créatif. Elle met également en avant le relâchement des tensions, dans un cadre rattaché aux thèmes de la solidarité, de la santé et de la culture.",
+      "why_it_matters": "Cette cérémonie offre une approche culturelle et spirituelle du cacao, au-delà de son usage habituel. C’est une sortie pour celles et ceux qui souhaitent découvrir cette inspiration maya et prendre un temps tourné vers la joie, la créativité et l’apaisement.",
+      "practical": "Samedi 26 septembre 2026, de 14h à 18h. Renseignements : 06 47 18 92 87.",
       "reader_question": "Avez-vous déjà participé à une cérémonie de cacao ?",
       "_fallback": false
     },
@@ -248,7 +249,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:32:35.990724+00:00",
+    "generated_at": "2026-09-26T12:50:29.312346+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/": {
@@ -321,13 +322,13 @@
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/marche-pour-le-climat/": {
-    "hash": "62fb4cf8e4ca4d2a98d003dda5dad52b234e129a9ecda3607be0f8cdcf783cd9",
+    "hash": "a4f3c644633bfa30958ebf67736f698a279cf578d7ce6d9c95954967bd70caf8",
     "slug": "marche-pour-le-climat-2026-09-26",
     "event": {
       "title": "Marche pour le Climat",
       "start_date": "2026-09-26",
       "end_date": "2026-09-26",
-      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale",
+      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 20.4°C / 20.4°C Contact Recherche Mentions légal",
       "categories": [
         "Cadre de vie",
         "Solidarité / Santé"
@@ -335,13 +336,13 @@
       "url": "https://www.nyons.com/agenda/marche-pour-le-climat/"
     },
     "editorial": {
-      "seo_title": "Marche pour le climat, le vivant et la paix à Nyons",
-      "meta_description": "Le 26 septembre 2026 à Nyons, une marche porte les enjeux du climat, du vivant, de la paix et de la justice sociale.",
-      "intro": "Nyons accueille une Marche pour le Climat le samedi 26 septembre 2026. Cette mobilisation réunit dans un même élan le climat, le vivant, la paix et la justice sociale. Une sortie citoyenne inscrite dans les thèmes du cadre de vie, de la solidarité et de la santé.",
-      "story": "La Marche pour le Climat proposée à Nyons ne s’arrête pas à la seule question climatique. Son intitulé associe aussi la défense du vivant, la paix et la justice sociale. Ces quatre sujets forment le cœur de la matinée, avec une marche organisée le samedi 26 septembre. C’est un rendez-vous qui place les préoccupations environnementales et sociales dans l’espace public, au fil d’un temps de mobilisation commun.",
-      "why_it_matters": "Cette marche donne une place concrète à des sujets qui touchent au cadre de vie et à la solidarité. En reliant climat, vivant, paix et justice sociale, elle propose un moment collectif autour d’enjeux étroitement liés.",
-      "practical": "Samedi 26 septembre 2026, de 9 h 30 à 12 h. Site officiel : service-public.gouv.fr.",
-      "reader_question": "Souhaitez-vous marcher à Nyons pour le climat, le vivant, la paix et la justice sociale ?",
+      "seo_title": "Marche pour le Climat : un rendez-vous à Nyons",
+      "meta_description": "À Nyons, la Marche pour le Climat porte le vivant, la paix et la justice sociale, samedi 26 septembre 2026 de 9h30 à 12h.",
+      "intro": "La Marche pour le Climat se déroule à Nyons le samedi 26 septembre 2026. Cette matinée de marche place le climat au cœur d’un message plus large, tourné aussi vers le vivant, la paix et la justice sociale. L’événement s’inscrit dans les thèmes du cadre de vie et de la solidarité / santé.",
+      "story": "Sous le nom de Marche pour le Climat, ce rendez-vous nyonsais associe quatre dimensions : le climat, le vivant, la paix et la justice sociale. La marche se tient sur la matinée du samedi 26 septembre, de 09h30 à 12h00. C’est une sortie qui relie des préoccupations environnementales et sociales, dans l’esprit des catégories « Cadre de vie » et « Solidarité / Santé » auxquelles elle est rattachée.",
+      "why_it_matters": "Cette marche donne une place concrète, dans l’agenda de Nyons, à des sujets qui touchent à la fois au cadre de vie, au vivant et à la solidarité. Son intitulé rappelle que les questions climatiques peuvent aussi se penser avec la paix et la justice sociale.",
+      "practical": "Samedi 26 septembre 2026, de 09h30 à 12h00, à Nyons. Marche pour le Climat, le vivant, la paix et la justice sociale.",
+      "reader_question": "Participerez-vous à la Marche pour le Climat à Nyons le 26 septembre ?",
       "_fallback": false
     },
     "practical": {
@@ -352,7 +353,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:32:59.121638+00:00",
+    "generated_at": "2026-09-26T12:50:43.753154+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/": {
@@ -394,7 +395,7 @@
       "email": "laruchedenoe@mailo.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:07.810307+00:00",
+    "generated_at": "2026-09-26T12:50:44.003014+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-animees-6/": {
@@ -430,7 +431,7 @@
       "email": "cms.nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:16.084546+00:00",
+    "generated_at": "2026-09-26T12:50:44.003120+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
@@ -465,7 +466,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:27.525424+00:00",
+    "generated_at": "2026-09-26T12:50:44.003194+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
@@ -502,7 +503,7 @@
       "email": "ceder@ceder-provence.org",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:33.736606+00:00",
+    "generated_at": "2026-09-26T12:50:44.707756+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
@@ -537,7 +538,7 @@
       "email": "librairie-pinet@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:41.533092+00:00",
+    "generated_at": "2026-09-26T12:50:44.707851+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
@@ -572,7 +573,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:51.014024+00:00",
+    "generated_at": "2026-09-26T12:50:44.707916+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
@@ -607,7 +608,7 @@
       "email": "jimmy26110@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:33:58.249690+00:00",
+    "generated_at": "2026-09-26T12:50:44.707975+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
@@ -644,7 +645,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:07.074625+00:00",
+    "generated_at": "2026-09-26T12:50:45.279384+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
@@ -681,7 +682,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:19.119671+00:00",
+    "generated_at": "2026-09-26T12:50:45.279527+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
@@ -715,7 +716,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:27.239404+00:00",
+    "generated_at": "2026-09-26T12:50:45.279657+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
@@ -757,7 +758,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:35.864465+00:00",
+    "generated_at": "2026-09-26T12:50:45.279736+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
@@ -793,7 +794,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:43.913606+00:00",
+    "generated_at": "2026-09-26T12:50:45.279818+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
@@ -829,7 +830,7 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:50.945222+00:00",
+    "generated_at": "2026-09-26T12:50:45.279894+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
@@ -865,7 +866,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:34:58.462323+00:00",
+    "generated_at": "2026-09-26T12:50:45.279961+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
@@ -902,7 +903,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:35:06.297389+00:00",
+    "generated_at": "2026-09-26T12:50:45.280028+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
@@ -936,7 +937,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:35:13.366439+00:00",
+    "generated_at": "2026-09-26T12:50:45.280103+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
@@ -970,7 +971,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:35:21.294109+00:00",
+    "generated_at": "2026-09-26T12:50:45.280171+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
@@ -1004,7 +1005,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:35:28.339029+00:00",
+    "generated_at": "2026-09-26T12:50:45.280233+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
@@ -1039,7 +1040,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:35:37.743373+00:00",
+    "generated_at": "2026-09-26T12:50:45.837198+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
@@ -1075,7 +1076,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:35:45.727531+00:00",
+    "generated_at": "2026-09-26T12:50:45.837355+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
@@ -1111,7 +1112,7 @@
       "email": "tontonsriders26@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:00.726797+00:00",
+    "generated_at": "2026-09-26T12:50:46.379805+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
@@ -1148,7 +1149,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:08.442691+00:00",
+    "generated_at": "2026-09-26T12:50:46.379898+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
@@ -1184,7 +1185,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:16.639925+00:00",
+    "generated_at": "2026-09-26T12:50:46.379964+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
@@ -1218,7 +1219,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:24.017483+00:00",
+    "generated_at": "2026-09-26T12:50:46.380061+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
@@ -1252,7 +1253,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:33.283078+00:00",
+    "generated_at": "2026-09-26T12:50:46.380124+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
@@ -1288,7 +1289,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:40.628525+00:00",
+    "generated_at": "2026-09-26T12:50:46.380188+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
@@ -1323,7 +1324,7 @@
       "email": "contact@larboretum.co",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:46.857681+00:00",
+    "generated_at": "2026-09-26T12:50:46.976200+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
@@ -1359,7 +1360,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:36:57.022026+00:00",
+    "generated_at": "2026-09-26T12:50:46.976306+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
@@ -1395,7 +1396,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:04.650058+00:00",
+    "generated_at": "2026-09-26T12:50:46.976381+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
@@ -1437,7 +1438,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:16.781185+00:00",
+    "generated_at": "2026-09-26T12:50:46.976453+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
@@ -1473,7 +1474,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:26.893648+00:00",
+    "generated_at": "2026-09-26T12:50:46.976531+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
@@ -1508,7 +1509,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:40.917053+00:00",
+    "generated_at": "2026-09-26T12:50:47.514091+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
@@ -1550,7 +1551,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:47.253289+00:00",
+    "generated_at": "2026-09-26T12:50:47.514213+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
@@ -1582,7 +1583,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:53.474720+00:00",
+    "generated_at": "2026-09-26T12:50:48.405062+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
@@ -1616,7 +1617,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:37:59.606609+00:00",
+    "generated_at": "2026-09-26T12:50:48.405228+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
@@ -1651,7 +1652,7 @@
       "email": "indigolive@hotmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:38:10.456845+00:00",
+    "generated_at": "2026-09-26T12:50:48.405349+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
@@ -1687,7 +1688,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:38:20.265105+00:00",
+    "generated_at": "2026-09-26T12:50:48.405426+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
@@ -1722,7 +1723,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:38:27.947145+00:00",
+    "generated_at": "2026-09-26T12:50:48.405488+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
@@ -1756,7 +1757,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:38:37.654775+00:00",
+    "generated_at": "2026-09-26T12:50:48.405573+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
@@ -1791,11 +1792,11 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:38:51.461089+00:00",
+    "generated_at": "2026-09-26T12:50:48.405665+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
-    "hash": "5f26fd61197282d912adfcdb9eb5bc201ac32fe912dabd3230de65bd39447047",
+    "hash": "3567785b6b649b1b07a290a8213ce800181d89472f1e95f403df47ee1e27ae17",
     "slug": "atelier-dart-therapie-2026-10-17",
     "event": {
       "title": "Atelier d’Art-Thérapie",
@@ -1810,28 +1811,28 @@
       "url": "https://www.nyons.com/agenda/atelier-dart-therapie/"
     },
     "editorial": {
-      "seo_title": "Atelier d’art-thérapie à Nyons avec Anaïs Marino",
-      "meta_description": "À Nyons, Anaïs Marino propose un atelier d’art-thérapie במסגרת des semaines d’information sur la santé mentale, le 17 octobre 2026.",
-      "intro": "Le 17 octobre 2026, Nyons accueille un atelier d’art-thérapie animé par Anaïs Marino, art-thérapeute. Ce rendez-vous s’inscrit dans le cadre des semaines d’information sur la santé mentale et place la pratique artistique au cœur d’un temps consacré à la santé mentale.",
-      "story": "L’atelier est conduit par Anaïs Marino, art-thérapeute. Il fait partie des semaines d’information sur la santé mentale, un cadre qui relie ici culture vivante, solidarité et santé. L’art-thérapie est au centre de ce rendez-vous : une proposition culturelle portée par une professionnelle de cette discipline, organisée à Nyons le temps d’une journée.",
-      "why_it_matters": "Cette sortie met en avant l’art-thérapie dans le cadre d’une initiative consacrée à la santé mentale. À Nyons, elle offre un rendez-vous qui croise pratique artistique, culture et attention portée aux enjeux de santé.",
-      "practical": "Atelier d’art-thérapie le 17 octobre 2026 à Nyons, avec Anaïs Marino, dans le cadre des semaines d’information sur la santé mentale. Informations : mediatheque.ladrome.fr.",
-      "reader_question": "Souhaitez-vous découvrir un atelier d’art-thérapie avec Anaïs Marino à Nyons ?",
+      "seo_title": "Atelier d’art-thérapie à la médiathèque de Nyons",
+      "meta_description": "Participez à un atelier d’art-thérapie avec Anaïs Marino à la médiathèque de Nyons, samedi 17 octobre 2026, de 15h à 17h.",
+      "intro": "La médiathèque de Nyons accueille un atelier d’art-thérapie animé par Anaïs Marino, art-thérapeute. Ce rendez-vous s’inscrit dans le cadre des semaines d’information sur la santé mentale. Pendant deux heures, il propose un temps consacré à l’art-thérapie, au cœur de Nyons.",
+      "story": "L’atelier est conduit par Anaïs Marino, art-thérapeute, le samedi 17 octobre 2026. Il prend place dans le programme des semaines d’information sur la santé mentale, une occasion de mettre cette pratique au centre d’un rendez-vous local. La rencontre se déroule à la médiathèque, rue Albin Vilhet, de 15h à 17h. Un créneau d’après-midi pour découvrir ou retrouver l’art-thérapie dans un lieu culturel bien connu des Nyonsais.",
+      "why_it_matters": "Cet atelier relie culture et santé mentale à travers une proposition d’art-thérapie portée par une professionnelle. Organisé à la médiathèque de Nyons dans le cadre des semaines d’information sur la santé mentale, il donne une place concrète à ce sujet dans la vie locale.",
+      "practical": "Samedi 17 octobre 2026, de 15h à 17h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Contact : 04 75 26 48 26 ou mddp-nyons@ladrome.fr.",
+      "reader_question": "Avez-vous envie de participer à cet atelier d’art-thérapie à Nyons ?",
       "_fallback": false
     },
     "practical": {
-      "date_time": "",
-      "location_name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      "date_time": "Samedi 17 octobre 2026 de 15h00 à 17h00",
+      "location_name": "Médiathèque",
+      "address": "9 rue Albin Vilhet, à Nyons",
+      "phone": "04 75 26 48 26",
+      "email": "mddp-nyons@ladrome.fr",
+      "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:03:22.124505+00:00",
+    "generated_at": "2026-09-26T12:50:56.497388+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
-    "hash": "ce63315473c812b92b44821005922d29f1c79b35ace743d79859460fa1ecd702",
+    "hash": "467472113550ac0e66a039401c1b2a855fae73b81d76b80d350fcd034c89dce1",
     "slug": "journee-de-cloture-des-vendanges-2026-10-17",
     "event": {
       "title": "Journée de clôture des vendanges",
@@ -1852,24 +1853,24 @@
       "url": "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/"
     },
     "editorial": {
-      "seo_title": "Vendanges : journée de clôture à Nyons au domaine Rocheville",
-      "meta_description": "À Nyons, le 17 octobre 2026, le domaine Rocheville accueille la journée de clôture des vendanges et « Vignoble en Scène ».",
-      "intro": "Le samedi 17 octobre 2026, le domaine Rocheville accueille une journée de clôture des vendanges. Cette date réunit également « Vignoble en Scène », dans le cadre de ce rendez-vous consacré à la fin des vendanges. Une sortie inscrite à l’agenda de Nyons autour du vignoble, de la culture et des loisirs.",
-      "story": "La journée porte un intitulé clair : célébrer la clôture des vendanges au domaine Rocheville. « Vignoble en Scène » fait partie de ce même rendez-vous, programmé le 17 octobre 2026. L’événement se situe ainsi au croisement du patrimoine et de la culture vivante, avec une place donnée au vignoble dans l’agenda local. Le domaine Rocheville en est le cadre pour cette journée dédiée à la conclusion des vendanges.",
-      "why_it_matters": "Cette journée donne un repère dans le calendrier automnal de Nyons : la clôture des vendanges. Elle associe ce temps du vignoble à « Vignoble en Scène », au sein du domaine Rocheville, dans une programmation relevant aussi de la culture et des loisirs.",
-      "practical": "Journée de clôture des vendanges et « Vignoble en Scène » le 17 octobre 2026, au domaine Rocheville.",
+      "seo_title": "Clôture des vendanges au domaine Rocheville à Nyons",
+      "meta_description": "Le 17 octobre 2026, le domaine Rocheville à Nyons accueille une journée de clôture des vendanges, avec « Vignoble en Scène ».",
+      "intro": "Le domaine Rocheville accueille à Nyons une journée de clôture des vendanges, samedi 17 octobre 2026. Ce rendez-vous associe la fin des vendanges à « Vignoble en Scène », au sein du domaine situé route de Montélimar. Une date bien ancrée dans le temps des vignes et du territoire nyonsais.",
+      "story": "De 9h à 16h, la journée de clôture des vendanges se déroule au domaine Rocheville. L’événement porte aussi le nom de « Vignoble en Scène » et prend place au 117 route de Montélimar, à Nyons. Il s’agit d’un rendez-vous consacré à la clôture de cette période importante du calendrier viticole, dans un domaine implanté sur la commune.",
+      "why_it_matters": "Les vendanges marquent un moment fort de la vie des domaines viticoles. Cette journée au domaine Rocheville donne un repère local pour accompagner leur clôture, avec « Vignoble en Scène », à Nyons même.",
+      "practical": "Samedi 17 octobre 2026, de 9h à 16h. Domaine Rocheville, 117 route de Montélimar, 26110 Nyons. Tél. 04 75 26 35 20. Contact : contact@domainerocheville.com.",
       "reader_question": "Souhaitez-vous marquer la clôture des vendanges au domaine Rocheville ?",
       "_fallback": false
     },
     "practical": {
-      "date_time": "",
-      "location_name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "website": ""
+      "date_time": "Samedi 17 octobre 2026 de 09h00 à 16h00",
+      "location_name": "Domaine Rocheville,",
+      "address": "117 route de Montélimar, 26110 Nyons",
+      "phone": "0475263520",
+      "email": "contact@domainerocheville.com",
+      "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:03:22.356357+00:00",
+    "generated_at": "2026-09-26T12:51:06.416092+00:00",
     "model": "gpt-5.6-terra"
   }
 }
