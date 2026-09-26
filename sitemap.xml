@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://agenda.vivreanyons.fr/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://agenda.vivreanyons.fr/semaines/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://agenda.vivreanyons.fr/semaines/semaine-12-octobre-2026/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://agenda.vivreanyons.fr/semaines/semaine-16-novembre-2026/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://agenda.vivreanyons.fr/semaines/semaine-19-octobre-2026/</loc><lastmod>2026-09-26</lastmod></url>
@@ -13,4 +14,54 @@
   <url><loc>https://agenda.vivreanyons.fr/semaines/semaine-5-octobre-2026/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://agenda.vivreanyons.fr/semaines/semaine-7-decembre-2026/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://agenda.vivreanyons.fr/semaines/semaine-9-novembre-2026/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/4-seasons-jam-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/a-vos-cartes-prets-jouez-2026-10-07/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/agriculture-en-surchauffe-on-en-parle-2026-10-14/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-culinaire-gnocchis-2026-10-08/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-culinaire-risotto-panacotta-2026-10-03/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-culinaire-street-food-party-2026-09-26/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-dart-therapie-2026-10-17/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-jardin-zen-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-lactofermentation-2026-09-30/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-sur-les-rituels-funeraires-2026-10-16/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-thematique-sur-la-legislation-funeraire-2026-10-05/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/ceremonie-de-cacao-2026-09-26/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/cine-debat-sur-ladamant-2026-10-11/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/cocktail-dimpro-2026-10-11/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/comtessa-concert-de-samuel-cattiau-pierre-baillot-2026-09-26/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/concert-bouda-omg-2026-10-02/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/concert-de-demi-mondaine-2026-10-09/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-chagall-2026-10-12/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-le-gres-turonien-de-venterol-2026-10-07/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-10-03/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/decouvrez-solidarite-paysans-2026-08-01/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/dedicace-francoise-bourdon-2026-10-01/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/exposition-urbain-urbex-2026-09-02/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/fete-de-la-science-2026-excursion-a-venterol-avec-luntl-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/grande-braderie-2026-10-02/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/journee-de-cloture-des-vendanges-2026-10-17/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/journee-decouverte-materiautheque-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/la-vie-en-couleur-exposition-de-cecile-allex-2026-09-22/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/lectures-animees-2026-09-28/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/les-8-jours-de-la-ville-de-nyons-2026-09-25/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel-2026-10-14/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/les-journees-nationales-des-artistes-a-nyons-2026-10-02/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/linstant-papillon-2026-10-08/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/marche-pour-le-climat-2026-09-26/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/reprise-des-ateliers-yoga-du-chant-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/soiree-100-agriculture-viticulture-2026-09-28/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/spectacle-papillon-noir-2026-10-10/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-2026-10-08/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-et-mad-pride-2026-10-15/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/theatre-sur-la-sante-mentale-2026-10-08/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/tsart-une-histoire-de-paradis-2026-10-07/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/une-ruche-dans-mon-jardin-2026-09-26/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://agenda.vivreanyons.fr/evenements/une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11/</loc><lastmod>2026-09-26</lastmod></url>
 </urlset>
