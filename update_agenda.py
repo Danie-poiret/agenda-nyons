@@ -50,7 +50,7 @@ SEO_WEEKS_AHEAD = 12
 ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
-EVENT_PROMPT_VERSION = 1
+EVENT_PROMPT_VERSION = 3
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -475,7 +475,8 @@ def rolling_events(events):
     )[:ROLLING_EVENT_LIMIT]
 
 
-def event_facts(event, detail_text=""):
+def event_facts(event, detail_text="", practical=None):
+    practical = practical or {}
     return {
         "title": event["title"],
         "start_date": event["start_date"],
@@ -483,13 +484,21 @@ def event_facts(event, detail_text=""):
         "categories": event.get("categories") or [],
         "summary_source": clean(event.get("summary", ""))[:700],
         "detail_source": clean(detail_text)[:4200],
+        "practical": {
+            "date_time": clean(practical.get("date_time", "")),
+            "location_name": clean(practical.get("location_name", "")),
+            "address": clean(practical.get("address", "")),
+            "phone": clean(practical.get("phone", "")),
+            "email": clean(practical.get("email", "")),
+            "website": clean(practical.get("website", "")),
+        },
         "official_url": event["url"],
     }
 
 
-def event_hash(event, detail_text=""):
+def event_hash(event, detail_text="", practical=None):
     payload = {
-        "event": event_facts(event, detail_text),
+        "event": event_facts(event, detail_text, practical),
         "prompt_version": EVENT_PROMPT_VERSION,
         "model": OPENAI_MODEL,
     }
@@ -511,70 +520,274 @@ def detail_cache_fresh(entry) -> bool:
         return False
 
 
-def extract_detail_text(html_text: str) -> str:
+def _jsonld_objects(soup):
+    """Retourne les objets JSON-LD présents dans la fiche."""
+    objects = []
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        raw = script.string or script.get_text(" ", strip=True)
+        if not raw:
+            continue
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+
+        stack = data if isinstance(data, list) else [data]
+        while stack:
+            obj = stack.pop(0)
+            if isinstance(obj, dict):
+                objects.append(obj)
+                graph = obj.get("@graph")
+                if isinstance(graph, list):
+                    stack.extend(graph)
+            elif isinstance(obj, list):
+                stack.extend(obj)
+    return objects
+
+
+def extract_event_detail_data(html_text: str, source_url: str):
+    """Extrait le texte source et les infos pratiques de la fiche officielle."""
     soup = BeautifulSoup(html_text, "html.parser")
+
+    practical = {
+        "date_time": "",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": "",
+    }
+
+    # JSON-LD Event si disponible.
+    json_event = {}
+    for obj in _jsonld_objects(soup):
+        obj_type = obj.get("@type")
+        types = obj_type if isinstance(obj_type, list) else [obj_type]
+        if "Event" in types:
+            json_event = obj
+            break
+
+    location = json_event.get("location")
+    if isinstance(location, dict):
+        practical["location_name"] = clean(location.get("name", ""))
+        address = location.get("address")
+        if isinstance(address, dict):
+            parts = [
+                address.get("streetAddress"),
+                address.get("postalCode"),
+                address.get("addressLocality"),
+            ]
+            practical["address"] = clean(" ".join(str(x) for x in parts if x))
+        elif isinstance(address, str):
+            practical["address"] = clean(address)
+
+    # Liens explicites email / téléphone.
+    mail = soup.find("a", href=re.compile(r"^mailto:", re.I))
+    if mail:
+        practical["email"] = clean(
+            mail.get("href", "").split(":", 1)[-1].split("?", 1)[0]
+        )
+
+    tel = soup.find("a", href=re.compile(r"^tel:", re.I))
+    if tel:
+        practical["phone"] = clean(tel.get("href", "").split(":", 1)[-1])
+
+    # Nettoyage DOM puis extraction ligne par ligne.
     for tag in soup(["script", "style", "noscript", "svg"]):
         tag.decompose()
     for tag in soup.find_all(["nav", "footer"]):
         tag.decompose()
 
     root = soup.find("main") or soup.find("article") or soup.body or soup
-    text = clean(root.get_text(" ", strip=True))
-    return text[:5200]
+
+    raw_lines = [clean(x) for x in root.get_text("\n", strip=True).splitlines()]
+    lines = []
+    seen = set()
+    for line in raw_lines:
+        if line and line not in seen:
+            lines.append(line)
+            seen.add(line)
+
+    # Dates + horaires complets.
+    candidates = []
+    for line in lines:
+        low = line.lower()
+        has_month = any(month in low for month in MONTHS)
+        has_year = bool(re.search(r"\b20\d{2}\b", line))
+        has_time = bool(re.search(r"\b\d{1,2}\s*h\s*\d{0,2}\b", low))
+        looks_range = low.startswith("du ") or " au " in low or "jusqu" in low
+        if has_month and has_year and (has_time or looks_range):
+            candidates.append(line)
+
+    if candidates:
+        practical["date_time"] = max(candidates, key=len)[:320]
+
+    # Adresse à Nyons.
+    address_idx = None
+    for i, line in enumerate(lines):
+        if re.search(r"\b26110\b", line) and re.search(r"\bnyons\b", line, re.I):
+            if not practical["address"]:
+                practical["address"] = line[:300]
+            address_idx = i
+            break
+
+    # Sépare "Nom du lieu, adresse" si possible.
+    if practical["address"] and "," in practical["address"] and not practical["location_name"]:
+        first, rest = practical["address"].split(",", 1)
+        if len(first) > 4 and not re.search(r"\d", first):
+            practical["location_name"] = clean(first)
+            practical["address"] = clean(rest)
+
+    # Sinon, ligne précédente = lieu probable.
+    if address_idx is not None and not practical["location_name"] and address_idx > 0:
+        prev = lines[address_idx - 1]
+        if 3 < len(prev) < 140 and not re.search(
+            r"\b(?:tél|tel|mail|email|www|http)\b", prev, re.I
+        ):
+            practical["location_name"] = prev
+
+    joined = "\n".join(lines)
+
+    # Téléphone si pas de href tel:.
+    if not practical["phone"]:
+        m = re.search(
+            r"(?<!\d)(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}(?!\d)",
+            joined,
+        )
+        if m:
+            practical["phone"] = clean(m.group(0))
+
+    # Email si pas de mailto:.
+    if not practical["email"]:
+        m = re.search(
+            r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b",
+            joined,
+            re.I,
+        )
+        if m:
+            practical["email"] = clean(m.group(0))
+
+    # Premier vrai site externe (hors nyons.com et réseaux sociaux).
+    blocked = (
+        "nyons.com", "facebook.com", "instagram.com",
+        "twitter.com", "x.com", "youtube.com",
+    )
+    for a in soup.find_all("a", href=True):
+        href = clean(a.get("href", ""))
+        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+            continue
+        absolute = urljoin(source_url, href)
+        parsed = urlparse(absolute)
+        host = parsed.netloc.lower()
+        if parsed.scheme not in ("http", "https"):
+            continue
+        if any(host == b or host.endswith("." + b) for b in blocked):
+            continue
+        practical["website"] = absolute
+        break
+
+    detail_text = clean(root.get_text(" ", strip=True))[:5200]
+
+    return {
+        "text": detail_text,
+        "practical": {k: clean(v) for k, v in practical.items()},
+    }
 
 
 def get_event_detail(session, event, detail_cache):
     key = event["url"]
     cached = detail_cache.get(key, {})
-    if cached.get("text") and detail_cache_fresh(cached):
-        return cached["text"]
+
+    if (
+        cached.get("text")
+        and detail_cache_fresh(cached)
+        and isinstance(cached.get("practical"), dict)
+    ):
+        return {
+            "text": cached.get("text", ""),
+            "practical": cached.get("practical") or {},
+        }
 
     try:
         r = session.get(event["url"], headers=HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
-        detail = extract_detail_text(r.text)
+
+        data = extract_event_detail_data(r.text, event["url"])
+        detail = data.get("text", "")
+        practical = data.get("practical") or {}
+
         if len(detail) < 80:
             detail = clean(event.get("summary", ""))
+
         detail_cache[key] = {
             "text": detail,
+            "practical": practical,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
         }
+
         time.sleep(0.12)
-        return detail
+
+        return {
+            "text": detail,
+            "practical": practical,
+        }
+
     except Exception as exc:
-        print(f"Détail {event['title']}: erreur ({exc}), résumé de liste utilisé.", file=sys.stderr)
-        return cached.get("text") or clean(event.get("summary", ""))
+        print(
+            f"Détail {event['title']}: erreur ({exc}), résumé de liste utilisé.",
+            file=sys.stderr,
+        )
+        return {
+            "text": cached.get("text") or clean(event.get("summary", "")),
+            "practical": cached.get("practical") or {},
+        }
 
 
 def fallback_event_editorial(event):
     title = event["title"]
     when = format_event_date(event)
     summary = clean(event.get("summary", ""))
-    intro = (
-        f"{title} fait partie des rendez-vous annoncés à Nyons {when}. "
-        + (summary if summary else "Cette fiche rassemble les informations essentielles disponibles pour préparer votre sortie.")
-    )
+
+    if summary:
+        intro = (
+            f"{title} est annoncé à Nyons {when}. "
+            f"{summary} "
+            "Cette fiche rassemble les informations utiles disponibles afin de retrouver rapidement "
+            "ce rendez-vous sans parcourir l'ensemble de l'agenda."
+        )
+    else:
+        intro = (
+            f"{title} est annoncé à Nyons {when}. "
+            "Cette fiche rassemble les éléments factuels actuellement disponibles pour préparer la sortie "
+            "et retrouver facilement la source officielle."
+        )
+
     return {
-        "seo_title": f"{title} à Nyons : date et infos",
-        "meta_description": trim_meta(f"{title} à Nyons : {when}. Retrouvez les informations utiles et le lien vers la fiche officielle."),
+        "seo_title": f"{title} à Nyons",
+        "meta_description": trim_meta(
+            f"{title} à Nyons : {when}. Dates, informations pratiques et source officielle de l'événement."
+        ),
         "intro": intro,
         "story": (
-            "À Nyons, les sorties prennent des formes très différentes selon les semaines. "
-            "Cette page permet de retrouver ce rendez-vous sans avoir à parcourir tout l’agenda. "
-            "Les informations ci-dessous restent volontairement limitées aux éléments publiés par l’organisateur."
+            "L'intérêt de cette page est de remettre les informations essentielles dans leur contexte "
+            "sans ajouter de détails non publiés. Le titre, la période et les éléments de la fiche source "
+            "permettent déjà de situer clairement le rendez-vous dans l'agenda de Nyons."
         ),
         "why_it_matters": (
-            "Si ce rendez-vous correspond à vos envies du moment, gardez surtout la date en tête et consultez la fiche officielle avant de vous déplacer."
+            "Pour choisir une sortie, les informations les plus utiles sont souvent très simples : "
+            "la date, le lieu, la durée et les conditions pratiques. Cette fiche les regroupe afin de "
+            "faciliter la décision avant de consulter, si besoin, la source officielle."
         ),
         "practical": (
-            "Horaires, tarifs, réservation et éventuels changements de dernière minute sont à vérifier sur la source officielle lorsqu’ils ne figurent pas ici."
+            "Avant le déplacement, vérifiez les horaires, tarifs, conditions d'accès ou éventuelles "
+            "modifications sur la fiche officielle lorsqu'ils ne sont pas explicitement indiqués ici."
         ),
-        "reader_question": "Et vous, ce rendez-vous vous donne-t-il envie de sortir à Nyons ?",
+        "reader_question": f"Qu'est-ce qui vous attire le plus dans « {title} » ?",
         "_fallback": True,
     }
 
 
-def generate_event_editorial(event, detail_text):
+def generate_event_editorial(event, detail_text, practical=None):
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     if not api_key or OpenAI is None:
         print(f"Événement {event['title']}: OpenAI indisponible, texte de secours.")
@@ -598,30 +811,61 @@ def generate_event_editorial(event, detail_text):
         "additionalProperties": False,
     }
 
-    facts = event_facts(event, detail_text)
+    facts = event_facts(event, detail_text, practical)
     system = (
-        "Tu es un chroniqueur local qui écrit pour Vivre à Nyons. "
-        "Le style recherché est chaleureux, direct et vivant, avec une petite voix de chronique locale : "
-        "des phrases de longueurs variées, des transitions naturelles, parfois une question au lecteur, "
-        "sans ton publicitaire et sans formules SEO répétitives. "
-        "Le propriétaire du site appelle ce ton 'à la Papy'. "
-        "Le but est d'apporter une vraie valeur éditoriale originale, pas de paraphraser mécaniquement la source. "
-        "N'invente JAMAIS de souvenir personnel, témoignage, fréquentation, ambiance constatée, horaire, prix, lieu, "
-        "programme, réservation, public cible, organisateur ou détail absent des faits fournis. "
-        "Ne prétends jamais avoir assisté à l'événement. Ne reproduis pas de longues phrases de la source. "
-        "Évite le bourrage de mots-clés, les superlatifs automatiques et les débuts identiques d'une fiche à l'autre. "
-        "Quand les faits sont peu nombreux, reste plus court plutôt que de meubler."
+        "Tu écris pour Vivre à Nyons comme un chroniqueur local expérimenté. "
+        "Le propriétaire du site appelle ce ton 'à la Papy' : chaleureux, direct, vivant, "
+        "avec une vraie intelligence locale, mais jamais bavard pour remplir. "
+        "Avant d'écrire, identifie mentalement CE QUI REND CET ÉVÉNEMENT PARTICULIER : "
+        "son lieu, sa période, sa durée, son thème, son organisation, ses horaires, "
+        "son caractère sportif, culturel, associatif ou pratique. "
+        "Commence par l'angle le plus intéressant, pas par une formule générale sur Nyons. "
+        "Chaque fiche doit être reconnaissable et différente des autres. "
+        "Tu peux faire des rapprochements simples avec Nyons, la saison ou la vie locale "
+        "uniquement quand ils découlent logiquement des faits fournis. "
+        "Tu dois aider le lecteur à comprendre rapidement pourquoi cette sortie mérite son attention, "
+        "ce qu'il faut retenir et ce qu'il doit vérifier avant de se déplacer. "
+        "Utilise intelligemment les informations pratiques structurées quand elles existent : "
+        "horaires, lieu, adresse, téléphone, email et site. "
+        "Ne recopie pas mécaniquement ces informations dans tous les paragraphes : "
+        "elles sont déjà affichées dans un bloc pratique sur la page. "
+        "Évite absolument les phrases passe-partout et les formulations interchangeables. "
+        "Évite notamment : 'ce rendez-vous s'inscrit dans', 'fait partie de la vie locale', "
+        "'une belle occasion de', 'un moment à ne pas manquer', 'il y en a pour tous les goûts', "
+        "'que vous soyez habitant ou visiteur', sauf si une formulation est réellement nécessaire. "
+        "Varie les rythmes de phrases et les transitions. "
+        "Le ton peut être légèrement complice, comme quelqu'un qui connaît bien Nyons, "
+        "sans inventer de souvenir personnel ni prétendre avoir assisté à l'événement. "
+        "RÈGLE ABSOLUE : n'invente jamais une ambiance constatée, une fréquentation, un tarif, "
+        "un programme, un public officiel, une réservation, un organisateur, un lieu, un horaire, "
+        "un historique ou un témoignage absent des faits fournis. "
+        "Quand les faits sont limités, écris moins mais écris mieux."
     )
+
     user = (
         "Rédige la fiche éditoriale d'un événement de Nyons à partir UNIQUEMENT des faits JSON ci-dessous.\n\n"
-        "Objectif de longueur quand la matière le permet : environ 260 à 430 mots au total.\n"
-        "- seo_title : naturel, précis, idéalement moins de 65 caractères.\n"
-        "- meta_description : 140 à 160 caractères environ.\n"
-        "- intro : 80 à 130 mots. Commence différemment selon l'événement.\n"
-        "- story : 90 à 150 mots. Présente le rendez-vous avec un angle local, sans inventer.\n"
-        "- why_it_matters : 60 à 100 mots. Explique à quel type de recherche ou d'envie de sortie cela peut répondre, sans inventer un public officiel.\n"
-        "- practical : 45 à 80 mots. Distingue ce qui est connu de ce qui doit être vérifié sur la fiche officielle.\n"
-        "- reader_question : une seule question simple et naturelle, liée précisément à cet événement.\n\n"
+        "Objectif : produire un texte utile, local et vraiment spécifique à CET événement, "
+        "sans remplissage SEO.\n"
+        "Longueur cible quand la matière le permet : environ 280 à 460 mots au total.\n\n"
+        "- seo_title : naturel, précis, informatif, idéalement moins de 65 caractères. "
+        "Évite les titres génériques du type 'date et infos' si un angle plus précis est possible.\n"
+        "- meta_description : environ 140 à 160 caractères, factuelle et attirante sans exagération.\n"
+        "- intro : 80 à 130 mots. Ouvre avec l'élément le plus distinctif : date, durée, lieu, "
+        "type d'événement, particularité concrète. Ne commence pas par 'À Nyons, il y a toujours...' "
+        "ni par une généralité touristique.\n"
+        "- story : 100 à 170 mots. Explique ce qui distingue ce rendez-vous des autres événements "
+        "de l'agenda et donne du contexte uniquement à partir des faits disponibles. "
+        "Fais ressortir les éléments précis plutôt que de reformuler le titre.\n"
+        "- why_it_matters : 60 à 110 mots. Donne une lecture utile : quelle envie de sortie cela peut "
+        "satisfaire, ce qu'un lecteur peut chercher à savoir, ce qui rend l'événement notable. "
+        "Ne prétends pas connaître un public officiel s'il n'est pas indiqué.\n"
+        "- practical : 45 à 90 mots. Résume les points utiles à garder en tête et distingue clairement "
+        "ce qui est connu de ce qui doit être vérifié. Ne répète pas toute l'adresse ou tous les contacts "
+        "si le bloc pratique les affiche déjà.\n"
+        "- reader_question : une seule question simple, naturelle et directement liée à cet événement. "
+        "Pas de question passe-partout du type 'Et vous, allez-vous y aller ?' si on peut être plus précis.\n\n"
+        "Cherche de la variété lexicale. Aucun paragraphe ne doit pouvoir être réutilisé tel quel "
+        "pour un autre événement.\n\n"
         f"FAITS:\n{json.dumps(facts, ensure_ascii=False, indent=2)}"
     )
 
@@ -652,8 +896,9 @@ def generate_event_editorial(event, detail_text):
         return fallback_event_editorial(event)
 
 
-def render_event_page(event, editorial, related_events=None):
+def render_event_page(event, editorial, related_events=None, practical=None):
     related_events = related_events or []
+    practical = practical or {}
     canonical = event_local_url(event)
     status = event_status(event)
     cats = " · ".join(event.get("categories") or [])
@@ -670,6 +915,42 @@ def render_event_page(event, editorial, related_events=None):
     archive_note = ""
     if status == "Événement terminé":
         archive_note = '''<div class="archive-note"><strong>📚 Événement terminé.</strong> Cette fiche reste en ligne comme archive locale. Pour les prochains rendez-vous, consultez l’agenda actuel.</div>'''
+
+    date_display = clean(practical.get("date_time", "")) or format_event_date(event)
+
+    info_rows = []
+    if practical.get("location_name"):
+        info_rows.append(
+            f'<div class="info-row"><span>📍</span><div><strong>Lieu</strong><br>{esc(practical["location_name"])}</div></div>'
+        )
+    if practical.get("address"):
+        info_rows.append(
+            f'<div class="info-row"><span>🗺️</span><div><strong>Adresse</strong><br>{esc(practical["address"])}</div></div>'
+        )
+    if practical.get("phone"):
+        phone_href = re.sub(r"[^0-9+]", "", practical["phone"])
+        info_rows.append(
+            f'<div class="info-row"><span>☎️</span><div><strong>Téléphone</strong><br><a href="tel:{esc(phone_href)}">{esc(practical["phone"])}</a></div></div>'
+        )
+    if practical.get("email"):
+        info_rows.append(
+            f'<div class="info-row"><span>✉️</span><div><strong>Email</strong><br><a href="mailto:{esc(practical["email"])}">{esc(practical["email"])}</a></div></div>'
+        )
+    if practical.get("website"):
+        label = urlparse(practical["website"]).netloc or practical["website"]
+        info_rows.append(
+            f'<div class="info-row"><span>🌐</span><div><strong>Site</strong><br><a href="{esc(practical["website"])}" target="_blank" rel="noopener">{esc(label)}</a></div></div>'
+        )
+
+    practical_section = ""
+    if info_rows or practical.get("date_time"):
+        practical_section = (
+            '<section class="section practical-box"><h2>📌 Infos pratiques</h2>'
+            '<div class="info-grid">'
+            f'<div class="info-row info-date"><span>📅</span><div><strong>Dates et horaires</strong><br>{esc(date_display)}</div></div>'
+            + "".join(info_rows)
+            + '</div></section>'
+        )
 
     event_ld = {
         "@context": "https://schema.org",
@@ -720,18 +1001,19 @@ def render_event_page(event, editorial, related_events=None):
     .hero{{background:linear-gradient(125deg,var(--olive-dark),var(--olive) 62%,#788d58);color:#fff;border-radius:24px;padding:clamp(27px,5vw,52px);box-shadow:var(--shadow)}}
     .status{{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.15);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}} h1{{font-size:clamp(31px,5vw,50px);line-height:1.08;margin:.35em 0 .3em}} .date{{font-size:18px;font-weight:800;margin:0 0 8px}} .cats{{opacity:.9;font-size:14px}}
     .lead{{font-size:19px;background:var(--paper);border-left:5px solid var(--terracotta);padding:22px 24px;border-radius:16px;margin:24px 0;box-shadow:0 6px 22px rgba(52,48,38,.055)}}
-    .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}
+    .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}.practical-box{{border-top:5px solid var(--terracotta)}}.info-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}}.info-row{{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}}.info-row span{{flex:0 0 24px;font-size:19px}}.info-row a{{overflow-wrap:anywhere}}.info-date{{grid-column:1/-1;background:#f6f0e4}}
     .question{{background:#efe7cf;border-radius:18px;padding:22px 24px;margin:20px 0;font-weight:800;font-size:18px}} .source{{font-size:13px;color:var(--muted);margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.65)}}
     .archive-note{{padding:14px 17px;margin:20px 0;background:#f2e5df;border-left:5px solid var(--terracotta);border-radius:12px}} .related{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}} .related-card{{display:flex;flex-direction:column;gap:6px;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-decoration:none}} .related-card span{{font-size:13px;color:var(--muted)}}
-    @media(max-width:720px){{.related{{grid-template-columns:1fr}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px;padding:24px 20px}}.lead,.section{{padding:18px}}}}
+    @media(max-width:720px){{.related,.info-grid{{grid-template-columns:1fr}}.info-date{{grid-column:auto}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px;padding:24px 20px}}.lead,.section{{padding:18px}}}}
   </style>
 </head>
 <body>
   <aside class="top" aria-label="Sélection de livres sur Nyons"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside>
   <main class="wrap">
     <nav class="nav"><a href="{SITE}">← Agenda</a><a href="{SITE}evenements/">📌 50 prochains événements</a><a href="{SITE}semaines/">📅 Par semaine</a></nav>
-    <header class="hero"><span class="status">{esc(status)}</span><h1>{esc(event['title'])}</h1><p class="date">📅 {esc(format_event_date(event))}</p>{cats_html}</header>
+    <header class="hero"><span class="status">{esc(status)}</span><h1>{esc(event['title'])}</h1><p class="date">📅 {esc(date_display)}</p>{cats_html}</header>
     {archive_note}
+    {practical_section}
     <div class="lead">{esc(editorial.get('intro',''))}</div>
     <section class="section"><h2>🌿 Le rendez-vous, côté Nyons</h2><p>{esc(editorial.get('story',''))}</p></section>
     <section class="section"><h2>👀 Pourquoi regarder cette sortie de plus près ?</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
@@ -773,8 +1055,10 @@ def generate_event_pages(events):
     ai_calls = 0
 
     for idx, event in enumerate(active, start=1):
-        detail = get_event_detail(session, event, detail_cache)
-        digest = event_hash(event, detail)
+        detail_data = get_event_detail(session, event, detail_cache)
+        detail = detail_data.get("text", "")
+        practical = detail_data.get("practical") or {}
+        digest = event_hash(event, detail, practical)
         cached = event_cache.get(event["url"], {})
 
         if (
@@ -785,7 +1069,7 @@ def generate_event_pages(events):
             editorial = cached["editorial"]
             print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
         elif ai_calls < MAX_EVENT_AI_CALLS:
-            editorial = generate_event_editorial(event, detail)
+            editorial = generate_event_editorial(event, detail, practical)
             ai_calls += 1
             print(f"FICHE {idx:02d}/50: contenu éditorial généré — {event['title']}")
         else:
@@ -797,6 +1081,7 @@ def generate_event_pages(events):
             "slug": event_slug(event),
             "event": event,
             "editorial": editorial,
+            "practical": practical,
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "model": OPENAI_MODEL,
         }
@@ -811,6 +1096,7 @@ def generate_event_pages(events):
     for entry in event_cache.values():
         event = entry.get("event")
         editorial = entry.get("editorial")
+        practical = entry.get("practical") or {}
         if not event or not editorial:
             continue
         nearby = [
@@ -821,7 +1107,7 @@ def generate_event_pages(events):
         folder = EVENTS_DIR / event_slug(event)
         folder.mkdir(parents=True, exist_ok=True)
         (folder / "index.html").write_text(
-            render_event_page(event, editorial, nearby),
+            render_event_page(event, editorial, nearby, practical),
             encoding="utf-8",
         )
 
