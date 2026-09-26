@@ -49,10 +49,10 @@ TIMEOUT = 25
 SEO_WEEKS_AHEAD = 12
 ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
-EVENT_DETAIL_PARSER_VERSION = 2
+EVENT_DETAIL_PARSER_VERSION = 3
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
-EVENT_PROMPT_VERSION = 5
+EVENT_PROMPT_VERSION = 6
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -561,12 +561,12 @@ def _jsonld_objects(soup):
 
 def extract_event_detail_data(html_text: str, source_url: str):
     """
-    Extrait strictement les infos pratiques du bloc événement :
-    horaires, lieu/adresse, email, téléphone, site organisateur.
-    Compatible avec des lignes comme :
-    - "Vendredi 09 octobre 2026 de 16h00 à 18h00"
-    - "Médiathèque 9 rue Albin Vilhet, à Nyons"
-    - "Maison ... - 40 place ..., 26110 Nyons"
+    Extraction robuste des infos pratiques d'une fiche événement Nyons.
+
+    Important :
+    - Les horaires sont recherchés dans le TEXTE NORMALISÉ complet du bloc événement,
+      pas ligne par ligne.
+    - Cela résiste aux balises HTML qui coupent "vendredi", le jour, le mois ou les heures.
     """
     soup = BeautifulSoup(html_text, "html.parser")
 
@@ -579,229 +579,199 @@ def extract_event_detail_data(html_text: str, source_url: str):
         "website": "",
     }
 
-    # JSON-LD si disponible : on s'en sert comme aide, pas comme seule source.
-    json_event = {}
-    for obj in _jsonld_objects(soup):
-        obj_type = obj.get("@type")
-        types = obj_type if isinstance(obj_type, list) else [obj_type]
-        if "Event" in types:
-            json_event = obj
-            break
-
-    location = json_event.get("location")
-    if isinstance(location, dict):
-        practical["location_name"] = clean(location.get("name", ""))
-        address = location.get("address")
-        if isinstance(address, dict):
-            parts = [
-                address.get("streetAddress"),
-                address.get("postalCode"),
-                address.get("addressLocality"),
-            ]
-            practical["address"] = clean(" ".join(str(x) for x in parts if x))
-        elif isinstance(address, str):
-            practical["address"] = clean(address)
-
-    # Nettoyage DOM.
+    # Nettoyage du DOM.
     for tag in soup(["script", "style", "noscript", "svg"]):
         tag.decompose()
 
     root = soup.find("main") or soup.find("article") or soup.body or soup
-    raw_lines = [clean(x) for x in root.get_text("\n", strip=True).splitlines()]
-    lines = [x for x in raw_lines if x]
 
-    # On isole le vrai bloc événement.
-    stop_markers = (
-        "ces événements pourraient vous intéresser",
-        "ces evenements pourraient vous interesser",
-        "abonnement aux informations",
-        "recevez les dernières actualités",
-        "recevez les dernieres actualites",
-        "mairie de nyons",
+    # Texte normalisé : espaces insécables et retours à la ligne deviennent de simples espaces.
+    full_text = clean(root.get_text(" ", strip=True))
+    full_text = full_text.replace("\xa0", " ")
+
+    # Coupe avant recommandations / footer pour ne pas récupérer la mairie.
+    stop_markers = [
+        "Ces événements pourraient vous intéresser",
+        "Ces evenements pourraient vous interesser",
+        "Abonnement aux informations",
+        "Recevez les dernières actualités",
+        "Recevez les dernieres actualites",
+        "Mairie de Nyons",
+    ]
+
+    event_text = full_text
+    lower_full = full_text.lower()
+    cut_positions = []
+
+    for marker in stop_markers:
+        pos = lower_full.find(marker.lower())
+        if pos >= 0:
+            cut_positions.append(pos)
+
+    if cut_positions:
+        event_text = full_text[:min(cut_positions)]
+
+    # ------------------------------------------------------------
+    # 1) HORAIRES : regex sur le texte complet normalisé
+    # ------------------------------------------------------------
+    wd = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
+    month = (
+        r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|"
+        r"août|aout|septembre|octobre|novembre|décembre|decembre)"
     )
+    hour = r"\d{1,2}\s*h\s*\d{2}"
 
-    h1 = soup.find("h1")
-    h1_text = clean(h1.get_text(" ", strip=True)) if h1 else ""
+    date_patterns = [
+        # Du vendredi 25 septembre 2026 de 17h00 au dimanche 04 octobre 2026 à 12h00
+        re.compile(
+            rf"\bDu\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"de\s+{hour}\s+au\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"à\s+{hour}\b",
+            re.I,
+        ),
+        # Vendredi 09 octobre 2026 de 16h00 à 18h00
+        re.compile(
+            rf"\b{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"de\s+{hour}\s+à\s+{hour}\b",
+            re.I,
+        ),
+        # Samedi 26 septembre 2026 de 14h30 à 17h00
+        re.compile(
+            rf"\b(?:Le\s+)?{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"de\s+{hour}\s+à\s+{hour}\b",
+            re.I,
+        ),
+        # Vendredi 09 octobre 2026 à 16h00
+        re.compile(
+            rf"\b(?:Le\s+)?{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"à\s+{hour}\b",
+            re.I,
+        ),
+    ]
 
-    event_lines = []
-    started = False
-
-    for line in lines:
-        low = line.lower()
-
-        if not started:
-            if h1_text and line == h1_text:
-                started = True
-            elif re.search(r"\b20\d{2}\b", line):
-                started = True
-
-        if not started:
-            continue
-
-        if any(marker in low for marker in stop_markers):
+    for pattern in date_patterns:
+        m = pattern.search(event_text)
+        if m:
+            practical["date_time"] = clean(m.group(0))
             break
 
-        event_lines.append(line)
-
-    if len(event_lines) < 3:
-        event_lines = lines[:80]
-
-    joined = "\n".join(event_lines)
-
     # ------------------------------------------------------------
-    # 1) HORAIRES
-    # Accepte lundi...dimanche, "Du ...", "Le ...", etc.
-    # ------------------------------------------------------------
-    weekday_re = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
-    date_candidates = []
-
-    for line in event_lines:
-        low = line.lower()
-        has_month = any(month in low for month in MONTHS)
-        has_year = bool(re.search(r"\b20\d{2}\b", line))
-        has_time = bool(re.search(r"\b\d{1,2}\s*h\s*\d{2}\b", low))
-        begins_like_date = bool(
-            re.match(rf"^(?:du\s+|le\s+)?{weekday_re}\b", low)
-            or re.match(r"^(?:du\s+|le\s+)?\d{1,2}\s+", low)
-        )
-
-        if has_month and has_year and has_time and begins_like_date:
-            date_candidates.append(line)
-
-    if date_candidates:
-        practical["date_time"] = max(date_candidates, key=len)[:320]
-
-    # ------------------------------------------------------------
-    # 2) LIEU / ADRESSE
-    # Priorité à la ligne juste après les horaires.
-    # Elle peut ne PAS contenir 26110.
-    # ------------------------------------------------------------
-    date_idx = None
-    if practical["date_time"]:
-        for i, line in enumerate(event_lines):
-            if line == practical["date_time"]:
-                date_idx = i
-                break
-
-    candidate_location_line = ""
-
-    if date_idx is not None:
-        for line in event_lines[date_idx + 1:date_idx + 6]:
-            low = line.lower()
-
-            if re.search(r"@", line):
-                continue
-            if re.fullmatch(
-                r"(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}",
-                line
-            ):
-                continue
-            if re.match(r"^https?://", line, re.I):
-                continue
-            if "nyons" in low:
-                candidate_location_line = line
-                break
-
-    # Secours : première ligne contenant Nyons dans le bloc, après le titre.
-    if not candidate_location_line:
-        for line in event_lines:
-            if "nyons" in line.lower():
-                if line == h1_text:
-                    continue
-                if re.search(r"\b20\d{2}\b", line):
-                    continue
-                candidate_location_line = line
-                break
-
-    if candidate_location_line:
-        # Forme : "Maison ... - 40 place ..., 26110 Nyons"
-        if " - " in candidate_location_line:
-            left, right = candidate_location_line.split(" - ", 1)
-            practical["location_name"] = clean(left)
-            practical["address"] = clean(right)
-        else:
-            # Forme : "Médiathèque 9 rue Albin Vilhet, à Nyons"
-            # On sépare le nom du lieu de l'adresse dès le premier numéro de voie.
-            m = re.search(r"\b\d+\s+", candidate_location_line)
-            if m:
-                practical["location_name"] = clean(candidate_location_line[:m.start()])
-                practical["address"] = clean(candidate_location_line[m.start():])
-            else:
-                # Si on ne peut pas séparer proprement, on garde la ligne entière en lieu.
-                if not practical["location_name"]:
-                    practical["location_name"] = clean(candidate_location_line)
-                if not practical["address"]:
-                    practical["address"] = clean(candidate_location_line)
-
-    # ------------------------------------------------------------
-    # 3) EMAIL : texte visible prioritaire.
+    # 2) EMAIL
     # ------------------------------------------------------------
     email_match = re.search(
         r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b",
-        joined,
+        event_text,
         re.I,
     )
     if email_match:
         practical["email"] = clean(email_match.group(0))
 
     # ------------------------------------------------------------
-    # 4) TÉLÉPHONE : uniquement dans le bloc événement.
+    # 3) TÉLÉPHONE
     # ------------------------------------------------------------
-    phone_matches = re.findall(
+    phone_match = re.search(
         r"(?<!\d)(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}(?!\d)",
-        joined,
+        event_text,
     )
-    if phone_matches:
-        practical["phone"] = clean(phone_matches[0])
+    if phone_match:
+        practical["phone"] = clean(phone_match.group(0))
 
     # ------------------------------------------------------------
-    # 5) SITE ORGANISATEUR / ÉQUIPEMENT.
+    # 4) LIEU + ADRESSE
+    # Recherche une portion entre les horaires et l'email/téléphone/site.
+    # ------------------------------------------------------------
+    after_time = event_text
+    if practical["date_time"]:
+        idx = event_text.find(practical["date_time"])
+        if idx >= 0:
+            after_time = event_text[idx + len(practical["date_time"]):]
+
+    # On coupe au premier contact.
+    contact_positions = []
+    for value in (practical["email"], practical["phone"]):
+        if value:
+            p = after_time.find(value)
+            if p >= 0:
+                contact_positions.append(p)
+
+    http_pos = after_time.lower().find("http")
+    if http_pos >= 0:
+        contact_positions.append(http_pos)
+
+    place_chunk = after_time[:min(contact_positions)] if contact_positions else after_time[:500]
+    place_chunk = clean(place_chunk).strip(" -–—,;")
+
+    # Évite de garder un gros paragraphe : on prend la fin du chunk,
+    # qui correspond généralement à "Lieu + adresse".
+    if len(place_chunk) > 260:
+        place_chunk = place_chunk[-260:].strip()
+
+    # Cas "Maison ... - 40 place ..., 26110 Nyons"
+    if " - " in place_chunk:
+        left, right = place_chunk.rsplit(" - ", 1)
+        # Le lieu est la fin de la partie gauche.
+        practical["location_name"] = clean(left[-160:])
+        practical["address"] = clean(right)
+
+    else:
+        # Cas "Médiathèque 9 rue Albin Vilhet, à Nyons"
+        # On cherche le dernier segment contenant Nyons.
+        nyons_match = re.search(
+            r"([A-ZÀ-ÖØ-öø-ÿ][^.!?]{0,180}?\bNyons\b)",
+            place_chunk,
+            re.I,
+        )
+        candidate = clean(nyons_match.group(1)) if nyons_match else place_chunk
+
+        # Séparation au premier numéro de voie.
+        num = re.search(r"\b\d+\s+", candidate)
+        if num:
+            practical["location_name"] = clean(candidate[:num.start()])
+            practical["address"] = clean(candidate[num.start():])
+        elif candidate:
+            practical["location_name"] = candidate
+
+    # Nettoyage du nom de lieu : si un reste de description précède,
+    # garde seulement le dernier morceau après ponctuation forte.
+    if practical["location_name"]:
+        loc = practical["location_name"]
+        pieces = re.split(r"[.!?]\s+", loc)
+        practical["location_name"] = clean(pieces[-1])
+
+    # ------------------------------------------------------------
+    # 5) SITE EXTERNE
     # ------------------------------------------------------------
     blocked = (
         "nyons.com", "facebook.com", "instagram.com",
         "twitter.com", "x.com", "youtube.com", "6tematik.fr",
     )
 
-    # D'abord URL visible dans les lignes du bloc.
-    visible_urls = re.findall(r"https?://[^\s<>\"]+", joined, re.I)
+    # Cherche d'abord dans les ancres HTML.
+    for a in soup.find_all("a", href=True):
+        href = clean(a.get("href", ""))
+        label = clean(a.get_text(" ", strip=True))
 
-    for candidate in visible_urls:
-        candidate = candidate.rstrip(").,;]")
-        parsed = urlparse(candidate)
+        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+            continue
+
+        absolute = urljoin(source_url, href.strip(" <>"))
+        parsed = urlparse(absolute)
         host = parsed.netloc.lower()
-        if not host:
+
+        if parsed.scheme not in ("http", "https"):
             continue
         if any(host == b or host.endswith("." + b) for b in blocked):
             continue
-        practical["website"] = candidate
-        break
+        if parsed.path.lower().endswith((".pdf", ".jpg", ".jpeg", ".png", ".webp")):
+            continue
 
-    # Sinon on regarde les ancres, mais uniquement celles dont le libellé
-    # correspond au domaine/site affiché.
-    if not practical["website"]:
-        for a in soup.find_all("a", href=True):
-            href = clean(a.get("href", ""))
-            label = clean(a.get_text(" ", strip=True))
+        # Lien de site affiché : libellé URL/domaine.
+        if "http" in label.lower() or "." in label:
+            practical["website"] = absolute
+            break
 
-            if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
-                continue
-
-            absolute = urljoin(source_url, href)
-            parsed = urlparse(absolute)
-            host = parsed.netloc.lower()
-
-            if parsed.scheme not in ("http", "https"):
-                continue
-            if any(host == b or host.endswith("." + b) for b in blocked):
-                continue
-            if parsed.path.lower().endswith((".pdf", ".jpg", ".jpeg", ".png", ".webp")):
-                continue
-
-            if "http" in label.lower() or "." in label:
-                practical["website"] = absolute
-                break
-
-    detail_text = clean(" ".join(event_lines))[:5200]
+    # Texte destiné à GPT : uniquement le bloc événement.
+    detail_text = event_text[:5200]
 
     return {
         "text": detail_text,
@@ -844,6 +814,16 @@ def get_event_detail(session, event, detail_cache):
         detail = data.get("text", "")
         practical = data.get("practical") or {}
 
+        print(
+            "DETAILS PRATIQUES — "
+            f"{event['title']} | "
+            f"horaire={practical.get('date_time') or 'MANQUANT'} | "
+            f"lieu={practical.get('location_name') or 'MANQUANT'} | "
+            f"adresse={practical.get('address') or 'MANQUANT'} | "
+            f"tel={practical.get('phone') or 'MANQUANT'} | "
+            f"email={practical.get('email') or 'MANQUANT'}"
+        )
+
         if len(detail) < 80:
             detail = clean(event.get("summary", ""))
 
@@ -877,39 +857,26 @@ def fallback_event_editorial(event):
     when = format_event_date(event)
     summary = clean(event.get("summary", ""))
 
+    intro = f"{title} est annoncé à Nyons {when}."
     if summary:
-        intro = (
-            f"{title} est annoncé à Nyons {when}. "
-            f"{summary} "
-            "Cette fiche rassemble les informations utiles disponibles afin de retrouver rapidement "
-            "ce rendez-vous sans parcourir l'ensemble de l'agenda."
-        )
-    else:
-        intro = (
-            f"{title} est annoncé à Nyons {when}. "
-            "Cette fiche rassemble les éléments factuels actuellement disponibles pour préparer la sortie "
-            "et retrouver facilement la source officielle."
-        )
+        intro += f" {summary}"
 
     return {
         "seo_title": f"{title} à Nyons",
         "meta_description": trim_meta(
-            f"{title} à Nyons : {when}. Dates, informations pratiques et source officielle de l'événement."
+            f"{title} à Nyons : dates, informations pratiques et détails utiles pour préparer votre sortie."
         ),
         "intro": intro,
         "story": (
-            "L'intérêt de cette page est de remettre les informations essentielles dans leur contexte "
-            "sans ajouter de détails non publiés. Le titre, la période et les éléments de la fiche source "
-            "permettent déjà de situer clairement le rendez-vous dans l'agenda de Nyons."
+            summary
+            if summary
+            else "Cette fiche rassemble les informations disponibles pour retrouver rapidement ce rendez-vous dans l’agenda de Nyons."
         ),
         "why_it_matters": (
-            "Pour choisir une sortie, les informations les plus utiles sont souvent très simples : "
-            "la date, le lieu, la durée et les conditions pratiques. Cette fiche les regroupe afin de "
-            "faciliter la décision avant de consulter, si besoin, la source officielle."
+            "Si le thème vous intéresse, l’essentiel est ici : la date, le lieu et les informations pratiques utiles pour décider de votre sortie."
         ),
         "practical": (
-            "Avant le déplacement, vérifiez les horaires, tarifs, conditions d'accès ou éventuelles "
-            "modifications sur la fiche officielle lorsqu'ils ne sont pas explicitement indiqués ici."
+            "Pensez à vérifier les éventuelles mises à jour de dernière minute sur la fiche officielle avant de vous déplacer."
         ),
         "reader_question": f"Qu'est-ce qui vous attire le plus dans « {title} » ?",
         "_fallback": True,
@@ -942,59 +909,49 @@ def generate_event_editorial(event, detail_text, practical=None):
 
     facts = event_facts(event, detail_text, practical)
     system = (
-        "Tu écris pour Vivre à Nyons comme un chroniqueur local expérimenté. "
-        "Le propriétaire du site appelle ce ton 'à la Papy' : chaleureux, direct, vivant, "
-        "avec une vraie intelligence locale, mais jamais bavard pour remplir. "
-        "Avant d'écrire, identifie mentalement CE QUI REND CET ÉVÉNEMENT PARTICULIER : "
-        "son lieu, sa période, sa durée, son thème, son organisation, ses horaires, "
-        "son caractère sportif, culturel, associatif ou pratique. "
-        "Commence par l'angle le plus intéressant, pas par une formule générale sur Nyons. "
-        "Chaque fiche doit être reconnaissable et différente des autres. "
-        "Tu peux faire des rapprochements simples avec Nyons, la saison ou la vie locale "
-        "uniquement quand ils découlent logiquement des faits fournis. "
-        "Tu dois aider le lecteur à comprendre rapidement pourquoi cette sortie mérite son attention, "
-        "ce qu'il faut retenir et ce qu'il doit vérifier avant de se déplacer. "
-        "Utilise intelligemment les informations pratiques structurées quand elles existent : "
-        "horaires, lieu, adresse, téléphone, email et site. "
-        "Ne recopie pas mécaniquement ces informations dans tous les paragraphes : "
-        "elles sont déjà affichées dans un bloc pratique sur la page. "
-        "Évite absolument les phrases passe-partout et les formulations interchangeables. "
-        "Évite notamment : 'ce rendez-vous s'inscrit dans', 'fait partie de la vie locale', "
-        "'une belle occasion de', 'un moment à ne pas manquer', 'il y en a pour tous les goûts', "
-        "'que vous soyez habitant ou visiteur', sauf si une formulation est réellement nécessaire. "
-        "Varie les rythmes de phrases et les transitions. "
-        "Le ton peut être légèrement complice, comme quelqu'un qui connaît bien Nyons, "
-        "sans inventer de souvenir personnel ni prétendre avoir assisté à l'événement. "
-        "RÈGLE ABSOLUE : n'invente jamais une ambiance constatée, une fréquentation, un tarif, "
-        "un programme, un public officiel, une réservation, un organisateur, un lieu, un horaire, "
-        "un historique ou un témoignage absent des faits fournis. "
-        "Quand les faits sont limités, écris moins mais écris mieux."
+        "Tu écris pour Vivre à Nyons comme un rédacteur local expérimenté. "
+        "Le style 'à la Papy' doit être chaleureux, vivant, concret et utile. "
+        "Le lecteur doit comprendre rapidement ce qui va réellement se passer, où, quand, "
+        "et pourquoi cela peut l'intéresser. "
+        "Utilise en PRIORITÉ les informations présentes dans practical : "
+        "date_time, location_name, address, phone, email, website. "
+        "N'écris JAMAIS qu'une information manque si elle existe dans practical. "
+        "Ne commente JAMAIS les limites de la source dans le corps éditorial. "
+        "Si une donnée manque réellement, omets-la simplement. "
+        "Évite absolument les formulations robotiques ou creuses comme : "
+        "'ce qui distingue cette date', 'cet événement s'inscrit dans', "
+        "'les informations ne détaillent pas', 'mieux vaut ne pas extrapoler', "
+        "'la promesse connue tient à', 'une belle occasion de', "
+        "'un rendez-vous à ne pas manquer', 'il y en a pour tous les goûts'. "
+        "N'invente jamais d'ambiance constatée, de fréquentation, de programme, de tarif, "
+        "de technique, d'organisation, de public officiel, de réservation, d'historique "
+        "ou de témoignage absent des faits. "
+        "Écris comme quelqu'un qui veut vraiment aider un habitant ou un visiteur à décider "
+        "s'il a envie d'y aller. Quand les faits sont simples, préfère un texte plus court "
+        "et précis à un long texte creux."
     )
 
     user = (
-        "Rédige la fiche éditoriale d'un événement de Nyons à partir UNIQUEMENT des faits JSON ci-dessous.\n\n"
-        "Objectif : produire un texte utile, local et vraiment spécifique à CET événement, "
-        "sans remplissage SEO.\n"
-        "Longueur cible quand la matière le permet : environ 280 à 460 mots au total.\n\n"
-        "- seo_title : naturel, précis, informatif, idéalement moins de 65 caractères. "
-        "Évite les titres génériques du type 'date et infos' si un angle plus précis est possible.\n"
-        "- meta_description : environ 140 à 160 caractères, factuelle et attirante sans exagération.\n"
-        "- intro : 80 à 130 mots. Ouvre avec l'élément le plus distinctif : date, durée, lieu, "
-        "type d'événement, particularité concrète. Ne commence pas par 'À Nyons, il y a toujours...' "
-        "ni par une généralité touristique.\n"
-        "- story : 100 à 170 mots. Explique ce qui distingue ce rendez-vous des autres événements "
-        "de l'agenda et donne du contexte uniquement à partir des faits disponibles. "
-        "Fais ressortir les éléments précis plutôt que de reformuler le titre.\n"
-        "- why_it_matters : 60 à 110 mots. Donne une lecture utile : quelle envie de sortie cela peut "
-        "satisfaire, ce qu'un lecteur peut chercher à savoir, ce qui rend l'événement notable. "
-        "Ne prétends pas connaître un public officiel s'il n'est pas indiqué.\n"
-        "- practical : 45 à 90 mots. Résume les points utiles à garder en tête et distingue clairement "
-        "ce qui est connu de ce qui doit être vérifié. Ne répète pas toute l'adresse ou tous les contacts "
-        "si le bloc pratique les affiche déjà.\n"
-        "- reader_question : une seule question simple, naturelle et directement liée à cet événement. "
-        "Pas de question passe-partout du type 'Et vous, allez-vous y aller ?' si on peut être plus précis.\n\n"
-        "Cherche de la variété lexicale. Aucun paragraphe ne doit pouvoir être réutilisé tel quel "
-        "pour un autre événement.\n\n"
+        "Rédige une fiche éditoriale de Nyons à partir UNIQUEMENT des faits JSON ci-dessous.\n\n"
+        "Objectif : texte naturel, concret, informatif, non publicitaire et différent d'une fiche à l'autre.\n"
+        "Longueur cible : environ 220 à 360 mots quand la matière le permet.\n\n"
+        "- seo_title : précis, naturel, idéalement moins de 65 caractères.\n"
+        "- meta_description : environ 140 à 160 caractères.\n"
+        "- intro : 60 à 100 mots. Commence directement par ce qui se passe réellement. "
+        "Utilise la date et le lieu si cela aide, sans tout répéter mécaniquement.\n"
+        "- story : 80 à 140 mots. Explique le contenu concret de l'événement, ce que le lecteur "
+        "va faire, voir, entendre ou découvrir, uniquement si ces éléments sont fournis. "
+        "Pas d'analyse méta de la source.\n"
+        "- why_it_matters : 50 à 90 mots. Explique simplement pourquoi cela peut intéresser quelqu'un, "
+        "sans inventer un public officiel.\n"
+        "- practical : 35 à 70 mots. Donne seulement les rappels vraiment utiles avant de se déplacer. "
+        "Ne répète pas toute l'adresse, le téléphone, l'email ou le site : ils sont déjà affichés dans le bloc pratique.\n"
+        "- reader_question : une seule question naturelle et spécifique à l'événement.\n\n"
+        "RÈGLES IMPORTANTES :\n"
+        "1. N'écris jamais 'les informations ne détaillent pas...' ni une phrase équivalente.\n"
+        "2. Si practical contient un horaire ou un lieu, respecte-le et ne dis jamais qu'il est inconnu.\n"
+        "3. Aucun paragraphe ne doit pouvoir être copié tel quel sur un autre événement.\n"
+        "4. Pas de remplissage SEO. Pas de conclusion générique.\n\n"
         f"FAITS:\n{json.dumps(facts, ensure_ascii=False, indent=2)}"
     )
 
@@ -1025,9 +982,34 @@ def generate_event_editorial(event, detail_text, practical=None):
         return fallback_event_editorial(event)
 
 
+def event_section_titles(event):
+    """Titres éditoriaux naturels selon le type d'événement."""
+    title = clean(event.get("title", "")).lower()
+    cats = " ".join(event.get("categories") or []).lower()
+    haystack = f"{title} {cats}"
+
+    if any(k in haystack for k in ("atelier", "culinaire", "cuisine", "gastronomie")):
+        return ("🍴 Au programme de cet atelier", "👀 Pourquoi ça peut vous plaire")
+    if any(k in haystack for k in ("lecture", "livre", "médiathèque", "bibliothèque")):
+        return ("📚 Ce qui vous attend", "👀 Pourquoi cette rencontre peut intéresser")
+    if any(k in haystack for k in ("concert", "musique", "chorale", "festival")):
+        return ("🎵 Ce qui est annoncé", "👀 Pourquoi cette sortie peut séduire")
+    if any(k in haystack for k in ("pétanque", "boule", "sport", "tournoi", "course")):
+        return ("🏆 Ce qui est prévu", "👀 Pourquoi regarder ce rendez-vous de près")
+    if any(k in haystack for k in ("exposition", "expo", "musée", "patrimoine")):
+        return ("🖼️ Ce que vous pourrez découvrir", "👀 Pourquoi cette visite peut valoir le détour")
+    if any(k in haystack for k in ("marché", "foire", "vide-grenier", "brocante")):
+        return ("🛍️ Ce que vous trouverez sur place", "👀 Pourquoi y faire un tour")
+    if any(k in haystack for k in ("spectacle", "théâtre", "cinéma", "projection")):
+        return ("🎭 Ce qui est proposé", "👀 Pourquoi cette sortie peut vous intéresser")
+
+    return ("📍 Ce qui est prévu", "👀 Pourquoi cette sortie peut vous intéresser")
+
+
 def render_event_page(event, editorial, related_events=None, practical=None):
     related_events = related_events or []
     practical = practical or {}
+    story_title, why_title = event_section_titles(event)
     canonical = event_local_url(event)
     status = event_status(event)
     cats = " · ".join(event.get("categories") or [])
@@ -1144,8 +1126,8 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     {archive_note}
     {practical_section}
     <div class="lead">{esc(editorial.get('intro',''))}</div>
-    <section class="section"><h2>🌿 Le rendez-vous, côté Nyons</h2><p>{esc(editorial.get('story',''))}</p></section>
-    <section class="section"><h2>👀 Pourquoi regarder cette sortie de plus près ?</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
+    <section class="section"><h2>{esc(story_title)}</h2><p>{esc(editorial.get('story',''))}</p></section>
+    <section class="section"><h2>{esc(why_title)}</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
     <section class="section"><h2>ℹ️ Avant de vous déplacer</h2><p>{esc(editorial.get('practical',''))}</p></section>
     <div class="question">💬 {esc(editorial.get('reader_question',''))}</div>
     {related_section}
