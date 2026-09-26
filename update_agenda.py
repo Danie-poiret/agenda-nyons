@@ -1087,6 +1087,44 @@ def event_section_titles(event):
     return ("📍 Ce qui est prévu", "👀 Pourquoi cette sortie peut vous intéresser")
 
 
+def build_event_location_ld(practical):
+    """
+    Construit schema.org/Place uniquement à partir des infos pratiques
+    déjà extraites et affichées sur la fiche.
+    Aucune seconde extraction et aucune invention.
+    """
+    practical = practical or {}
+    location_name = clean(practical.get("location_name", ""))
+    address_text = clean(practical.get("address", ""))
+
+    if not location_name and not address_text:
+        return None
+
+    place = {
+        "@type": "Place",
+        "name": location_name or "Nyons",
+    }
+
+    if address_text:
+        postal = {
+            "@type": "PostalAddress",
+            "streetAddress": address_text,
+            "addressCountry": "FR",
+        }
+
+        # Ajoute uniquement ce qu'on peut déduire sans risque.
+        cp = re.search(r"\b(\d{5})\b", address_text)
+        if cp:
+            postal["postalCode"] = cp.group(1)
+
+        if re.search(r"\bNyons\b", address_text, re.I):
+            postal["addressLocality"] = "Nyons"
+
+        place["address"] = postal
+
+    return place
+
+
 def render_event_page(event, editorial, related_events=None, practical=None):
     related_events = related_events or []
     practical = practical or {}
@@ -1156,6 +1194,11 @@ def render_event_page(event, editorial, related_events=None, practical=None):
         "eventStatus": "https://schema.org/EventScheduled",
         "description": meta,
     }
+
+    # Google Event : utilise exactement le même lieu que le bloc Infos pratiques.
+    event_location_ld = build_event_location_ld(practical)
+    if event_location_ld:
+        event_ld["location"] = event_location_ld
     breadcrumb_ld = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -1308,6 +1351,14 @@ def generate_event_pages(events):
             render_event_page(event, editorial, nearby, practical),
             encoding="utf-8",
         )
+
+        if practical.get("location_name") or practical.get("address"):
+            print(
+                f"SCHEMA LOCATION OK — {event['title']} | "
+                f"{practical.get('location_name', '')} | {practical.get('address', '')}"
+            )
+        else:
+            print(f"SCHEMA LOCATION ABSENTE — {event['title']} | aucun lieu fiable injecté")
 
     (EVENTS_DIR / "index.html").write_text(
         render_events_index(active, event_cache),
@@ -1526,18 +1577,24 @@ def render_week_page(start: date, events, editorial):
         </article>
         """
 
-    structured_events = []
-    for e in events:
-        structured_events.append({
-            "@type": "Event",
+    # La page hebdomadaire est une liste de navigation.
+    # On évite de déclarer ici des Event incomplets (sans location).
+    # Le balisage Event complet reste sur chaque fiche individuelle.
+    item_list = []
+    for position, e in enumerate(events, start=1):
+        item_list.append({
+            "@type": "ListItem",
+            "position": position,
             "name": e["title"],
-            "startDate": e["start_date"],
-            "endDate": e["end_date"],
-            "url": e["url"],
-            "eventStatus": "https://schema.org/EventScheduled",
+            "url": event_local_url(e),
         })
 
-    json_ld = {"@context": "https://schema.org", "@graph": structured_events}
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": title,
+        "itemListElement": item_list,
+    }
 
     return f"""<!doctype html>
 <html lang="fr">
@@ -2132,4 +2189,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
