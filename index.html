@@ -1,134 +1,643 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Agenda hebdomadaire de Nyons, mis à jour automatiquement à partir de l'agenda officiel de la Ville de Nyons.">
-  <title>Agenda de Nyons — semaine par semaine</title>
+
+  <title>Agenda Nyons 2026 : sorties, événements et idées de week-end</title>
+
+  <meta name="description"
+        content="Agenda de Nyons 2026 : découvrez les prochains événements, sorties, marchés, fêtes, pétanque, expositions, concerts et animations à Nyons dans la Drôme provençale.">
+
+  <meta name="robots" content="index,follow">
+
+  <link rel="canonical" href="https://agenda.vivreanyons.fr/">
+
+  <meta property="og:title"
+        content="Agenda Nyons 2026 : sorties et événements">
+
+  <meta property="og:description"
+        content="Que faire à Nyons ? Retrouvez les prochains événements, animations, marchés, fêtes, pétanque, expositions et sorties.">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url"
+        content="https://agenda.vivreanyons.fr/">
+
   <style>
-    :root{--bg:#f7f3ea;--paper:#fffdf8;--ink:#28231e;--muted:#766c61;--accent:#8b2f24;--olive:#697345;--line:#ded4c6;--shadow:0 8px 28px rgba(43,34,24,.10)}
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(180deg,#efe6d7 0,#f8f4ed 22rem);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-    .wrap{max-width:1050px;margin:auto;padding:24px 16px 44px}
-    header{background:rgba(255,253,248,.94);border:1px solid var(--line);border-radius:22px;padding:26px 22px 20px;box-shadow:var(--shadow);text-align:center}
-    .eyebrow{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--olive);font-weight:800}
-    h1{font-family:Georgia,serif;font-size:clamp(2rem,6vw,4rem);margin:.25rem 0;color:var(--accent);line-height:1}
-    .subtitle{margin:.5rem auto 0;max-width:720px;color:var(--muted)}
-    .toolbar{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin:18px 0 12px}
-    button{border:1px solid var(--line);background:var(--paper);padding:11px 14px;border-radius:999px;font-weight:700;cursor:pointer;color:var(--ink)}
-    button:hover{border-color:#b9a791;transform:translateY(-1px)}
-    #prev{justify-self:start} #next{justify-self:end}
-    #today{background:var(--accent);color:white;border-color:var(--accent)}
-    .week-title{text-align:center;margin:12px 0 18px;font-family:Georgia,serif;font-size:clamp(1.25rem,3vw,1.8rem)}
-    .count{text-align:center;color:var(--muted);margin:-10px 0 18px;font-size:.92rem}
-    .events{display:grid;gap:14px}
-    .event{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 3px 12px rgba(43,34,24,.06);display:grid;grid-template-columns:105px 1fr;gap:18px}
-    .datebox{border-right:1px solid var(--line);padding-right:14px;text-align:center;align-self:stretch;display:flex;flex-direction:column;justify-content:center}
-    .day{font:700 2rem/1 Georgia,serif;color:var(--accent)}
-    .month{text-transform:uppercase;letter-spacing:.08em;font-size:.78rem;font-weight:800;margin-top:5px;color:var(--olive)}
-    .range{font-size:.76rem;color:var(--muted);margin-top:6px}
-    .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:7px}
-    .tag{font-size:.72rem;background:#f1eadf;border:1px solid #e1d5c3;border-radius:999px;padding:4px 8px;color:#65594e}
-    .event h2{font:700 1.25rem/1.2 Georgia,serif;margin:0 0 7px}
-    .event p{margin:0 0 10px;color:#514941;line-height:1.48}
-    .official{display:inline-block;color:#164aa6;text-decoration:underline;font-weight:750}
-    .empty,.error{background:var(--paper);border:1px dashed var(--line);border-radius:18px;padding:28px;text-align:center;color:var(--muted)}
-    footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:22px;line-height:1.5}
-    footer a{color:inherit}
-    .updated{margin-top:5px}
-    @media(max-width:650px){
-      .toolbar{grid-template-columns:1fr 1fr;}.toolbar #today{grid-column:1/-1;grid-row:1}.toolbar #prev{grid-row:2}.toolbar #next{grid-row:2}
-      .event{grid-template-columns:72px 1fr;padding:14px;gap:12px}.datebox{padding-right:10px}.day{font-size:1.6rem}.event h2{font-size:1.1rem}
+
+    :root{
+      --bg:#f5f1e9;
+      --paper:#fffdf8;
+      --ink:#29241f;
+      --muted:#746a60;
+      --accent:#8a3025;
+      --green:#667044;
+      --line:#ddd2c4;
+      --shadow:0 8px 28px rgba(55,42,27,.10);
     }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      background:
+        linear-gradient(180deg,#ece3d5 0,#f7f3ec 440px);
+      color:var(--ink);
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+    }
+
+    a{
+      color:inherit;
+    }
+
+    .wrap{
+      max-width:1080px;
+      margin:auto;
+      padding:22px 16px 50px;
+    }
+
+    header{
+      background:rgba(255,253,248,.97);
+      border:1px solid var(--line);
+      border-radius:26px;
+      padding:38px 24px;
+      text-align:center;
+      box-shadow:var(--shadow);
+    }
+
+    .eyebrow{
+      font-size:.82rem;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:var(--green);
+      font-weight:900;
+    }
+
+    h1{
+      margin:.35rem 0 .7rem;
+      font-family:Georgia,serif;
+      font-size:clamp(2.4rem,7vw,4.7rem);
+      line-height:1;
+      color:var(--accent);
+    }
+
+    .subtitle{
+      max-width:780px;
+      margin:auto;
+      color:var(--muted);
+      line-height:1.65;
+      font-size:1.08rem;
+    }
+
+    .buttons{
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:25px;
+    }
+
+    .btn{
+      display:inline-block;
+      text-decoration:none;
+      padding:14px 21px;
+      border-radius:999px;
+      font-weight:900;
+      border:1px solid var(--line);
+      background:white;
+      transition:.15s;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 5px 16px rgba(0,0,0,.10);
+    }
+
+    .btn-main{
+      background:var(--accent);
+      border-color:var(--accent);
+      color:white;
+    }
+
+    .banner{
+      margin:22px 0;
+      background:white;
+      border:1px solid var(--line);
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow:0 4px 14px rgba(0,0,0,.07);
+    }
+
+    .banner iframe{
+      width:100%;
+      height:190px;
+      display:block;
+      border:0;
+    }
+
+    section{
+      margin-top:22px;
+    }
+
+    .box{
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:25px;
+      box-shadow:0 4px 15px rgba(0,0,0,.05);
+    }
+
+    h2{
+      font-family:Georgia,serif;
+      color:var(--accent);
+      margin-top:0;
+      font-size:1.75rem;
+    }
+
+    .box p{
+      line-height:1.7;
+      color:#4d463f;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:18px;
+    }
+
+    .card{
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:21px;
+      padding:24px;
+      box-shadow:0 4px 14px rgba(0,0,0,.05);
+    }
+
+    .card-icon{
+      font-size:2rem;
+    }
+
+    .card h2{
+      margin:.4rem 0 .5rem;
+      font-size:1.45rem;
+    }
+
+    .card p{
+      color:var(--muted);
+      line-height:1.6;
+    }
+
+    .card-link{
+      display:inline-block;
+      margin-top:5px;
+      color:var(--accent);
+      font-weight:900;
+      text-decoration:none;
+    }
+
+    .card-link:hover{
+      text-decoration:underline;
+    }
+
+    .events{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:14px;
+      margin-top:18px;
+    }
+
+    .event{
+      border:1px solid var(--line);
+      border-radius:17px;
+      padding:18px;
+      background:#fff;
+    }
+
+    .event-date{
+      color:var(--green);
+      font-size:.82rem;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.04em;
+    }
+
+    .event h3{
+      font-family:Georgia,serif;
+      font-size:1.18rem;
+      margin:.4rem 0 .5rem;
+    }
+
+    .event a{
+      color:var(--accent);
+      font-weight:800;
+      text-decoration:none;
+    }
+
+    .event a:hover{
+      text-decoration:underline;
+    }
+
+    .more{
+      text-align:center;
+      margin-top:20px;
+    }
+
+    .local{
+      text-align:center;
+      background:#eee6d9;
+    }
+
+    footer{
+      text-align:center;
+      color:var(--muted);
+      font-size:.85rem;
+      line-height:1.65;
+      margin-top:28px;
+    }
+
+    footer a{
+      color:var(--accent);
+    }
+
+    @media(max-width:720px){
+
+      .cards,
+      .events{
+        grid-template-columns:1fr;
+      }
+
+      header{
+        padding:29px 17px;
+      }
+
+      .btn{
+        width:100%;
+      }
+
+      .banner iframe{
+        height:160px;
+      }
+
+    }
+
   </style>
+
 </head>
+
 <body>
+
 <main class="wrap">
+
   <header>
-    <div class="eyebrow">Sorties • culture • loisirs • vie locale</div>
+
+    <div class="eyebrow">
+      SORTIES • CULTURE • LOISIRS • VIE LOCALE
+    </div>
+
     <h1>AGENDA DE NYONS</h1>
-    <p class="subtitle">Les rendez-vous de la semaine, récupérés automatiquement depuis l’agenda officiel de la Ville de Nyons.</p>
+
+    <p class="subtitle">
+      Que faire à Nyons aujourd’hui, ce week-end ou dans les prochaines semaines ?
+      Retrouvez les fêtes, marchés, expositions, spectacles, concours de pétanque,
+      rendez-vous sportifs et animations de Nyons.
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn btn-main"
+         href="/evenements/">
+         📅 Les 50 prochains événements
+      </a>
+
+      <a class="btn"
+         href="/semaines/">
+         🗓️ Agenda par semaine
+      </a>
+
+    </div>
+
   </header>
 
-  <nav class="toolbar" aria-label="Navigation par semaine">
-    <button id="prev" type="button">← Semaine précédente</button>
-    <button id="today" type="button">Cette semaine</button>
-    <button id="next" type="button">Semaine suivante →</button>
-  </nav>
 
-  <div id="weekTitle" class="week-title"></div>
-  <div id="count" class="count"></div>
-  <section id="events" class="events" aria-live="polite"></section>
+  <!-- BANNIERE PUBLICITAIRE -->
+
+  <div class="banner">
+
+    <iframe
+      src="https://danie-poiret.github.io/banniere-nyons/"
+      title="Livres anciens et souvenirs de Nyons"
+      loading="lazy">
+    </iframe>
+
+  </div>
+
+
+  <section class="box">
+
+    <h2>Que faire à Nyons ?</h2>
+
+    <p>
+      À Nyons, il se passe quelque chose presque toute l’année.
+      Marchés, expositions, concerts, rencontres, fêtes traditionnelles,
+      concours de pétanque, manifestations sportives ou animations
+      dans les rues : cet agenda permet de retrouver facilement
+      les prochains rendez-vous.
+    </p>
+
+    <p>
+      Chaque événement dispose désormais de sa propre fiche,
+      avec les informations disponibles, les dates,
+      les détails pratiques et un lien vers la source officielle
+      lorsque vous souhaitez vérifier les dernières informations.
+    </p>
+
+    <p>
+      Vous préparez un séjour dans la Drôme provençale,
+      un week-end à Nyons ou vous habitez simplement dans le secteur ?
+      Cette page vous permet de voir rapidement ce qui est prévu
+      aujourd’hui et dans les semaines à venir.
+    </p>
+
+  </section>
+
+
+  <section class="cards">
+
+    <article class="card">
+
+      <div class="card-icon">🔥</div>
+
+      <h2>50 prochains événements</h2>
+
+      <p>
+        Les rendez-vous à venir classés par date,
+        avec une fiche détaillée pour chaque événement.
+      </p>
+
+      <a class="card-link"
+         href="/evenements/">
+         Voir les prochains événements →
+      </a>
+
+    </article>
+
+
+    <article class="card">
+
+      <div class="card-icon">📆</div>
+
+      <h2>Agenda semaine par semaine</h2>
+
+      <p>
+        Idéal pour préparer votre week-end :
+        retrouvez les événements regroupés semaine par semaine.
+      </p>
+
+      <a class="card-link"
+         href="/semaines/">
+         Voir les semaines →
+      </a>
+
+    </article>
+
+  </section>
+
+
+  <section class="box">
+
+    <h2>📍 Les prochains rendez-vous à Nyons</h2>
+
+    <p>
+      Voici quelques-uns des prochains événements.
+      La liste complète est disponible dans notre agenda.
+    </p>
+
+    <div id="events" class="events">
+
+      <div class="event">
+        Chargement des prochains événements…
+      </div>
+
+    </div>
+
+    <div class="more">
+
+      <a class="btn btn-main"
+         href="/evenements/">
+         Voir les 50 prochains événements
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <section class="box local">
+
+    <h2>💜 Nyons, toute l’année</h2>
+
+    <p>
+      Le marché, les olives, la pétanque, les fêtes,
+      les expositions, la culture et les nombreuses animations locales
+      font vivre Nyons au fil des saisons.
+    </p>
+
+    <p>
+      Revenez régulièrement : l’agenda est actualisé automatiquement
+      lorsque de nouveaux rendez-vous sont publiés.
+    </p>
+
+  </section>
+
 
   <footer>
-    Source : <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">Ville de Nyons — agenda officiel</a>.<br>
-    Les informations peuvent évoluer : cliquez sur chaque événement pour vérifier le détail officiel.
-    <div id="updated" class="updated"></div>
+
+    Agenda indépendant consacré aux événements de Nyons.
+
+    <br>
+
+    Les informations sont notamment issues de
+    <a href="https://www.nyons.com/sorties-actus/agenda/"
+       target="_blank"
+       rel="noopener">
+      l’agenda officiel de la Ville de Nyons
+    </a>.
+
+    <br>
+
+    Les horaires, tarifs et programmes pouvant évoluer,
+    vérifiez la fiche officielle avant votre déplacement.
+
   </footer>
+
 </main>
 
+
 <script>
-const FR_MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
-let data = {events:[], updated_at:null};
-let weekOffset = 0;
 
-const isoDate = s => new Date(s + 'T12:00:00');
-function mondayOf(d){
-  const x = new Date(d); x.setHours(12,0,0,0);
-  const day = (x.getDay()+6)%7; x.setDate(x.getDate()-day); return x;
-}
-function addDays(d,n){ const x=new Date(d); x.setDate(x.getDate()+n); return x; }
-function ymd(d){ return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; }
-function fmtLong(d){ return d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }
-function fmtShort(d){ return d.toLocaleDateString('fr-FR',{day:'numeric',month:'long'}); }
-function esc(s=''){ return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
-function sameDay(a,b){ return ymd(a)===ymd(b); }
+async function loadEvents(){
 
-function render(){
-  const start = addDays(mondayOf(new Date()), weekOffset*7);
-  const end = addDays(start,6);
-  document.getElementById('weekTitle').textContent = `Du ${fmtShort(start)} au ${fmtLong(end)}`;
+  const zone = document.getElementById("events");
 
-  const evs = (data.events||[]).filter(e => {
-    const s=isoDate(e.start_date), ee=isoDate(e.end_date||e.start_date);
-    return s <= end && ee >= start;
-  }).sort((a,b)=>a.start_date.localeCompare(b.start_date)||a.title.localeCompare(b.title,'fr'));
-
-  document.getElementById('count').textContent = evs.length ? `${evs.length} événement${evs.length>1?'s':''} cette semaine` : '';
-  const root=document.getElementById('events');
-  if(!evs.length){ root.innerHTML='<div class="empty">Aucun événement trouvé pour cette semaine dans les données actuellement récupérées.</div>'; return; }
-
-  root.innerHTML = evs.map(e=>{
-    const s=isoDate(e.start_date), ee=isoDate(e.end_date||e.start_date);
-    const range = sameDay(s,ee) ? '' : `Jusqu’au ${fmtShort(ee)}`;
-    const tags=(e.categories||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
-    return `<article class="event">
-      <div class="datebox"><div class="day">${s.getDate()}</div><div class="month">${FR_MONTHS[s.getMonth()]}</div>${range?`<div class="range">${esc(range)}</div>`:''}</div>
-      <div><div class="tags">${tags}</div><h2>${esc(e.title)}</h2>${e.summary?`<p>${esc(e.summary)}</p>`:''}<a class="official" href="${esc(e.url)}" target="_blank" rel="noopener">Voir l’événement sur nyons.com ↗</a></div>
-    </article>`;
-  }).join('');
-}
-
-async function load(){
   try{
-    const r=await fetch(`agenda.json?t=${Date.now()}`,{cache:'no-store'});
-    if(!r.ok) throw new Error(`HTTP ${r.status}`);
-    data=await r.json();
-    if(data.updated_at){
-      const d=new Date(data.updated_at);
-      document.getElementById('updated').textContent=`Dernière récupération : ${d.toLocaleString('fr-FR',{dateStyle:'long',timeStyle:'short'})}`;
+
+    const response = await fetch("/agenda.json?cache=" + Date.now());
+
+    if(!response.ok){
+      throw new Error("agenda.json inaccessible");
     }
-    render();
-  }catch(err){
-    document.getElementById('events').innerHTML='<div class="error">Impossible de charger l’agenda pour le moment. Réessayez dans quelques minutes.</div>';
-    console.error(err);
+
+    const data = await response.json();
+
+    /*
+      Le fichier agenda.json peut être soit :
+      - un tableau [...]
+      - soit un objet contenant events / evenements
+    */
+
+    let events = [];
+
+    if(Array.isArray(data)){
+      events = data;
+    }
+    else if(Array.isArray(data.events)){
+      events = data.events;
+    }
+    else if(Array.isArray(data.evenements)){
+      events = data.evenements;
+    }
+
+    if(!events.length){
+      throw new Error("Aucun événement");
+    }
+
+
+    /*
+      On prend uniquement quelques événements
+      pour garder une page d'accueil légère.
+    */
+
+    const selected = events.slice(0,6);
+
+    zone.innerHTML = "";
+
+
+    selected.forEach((event) => {
+
+      const title =
+        event.title ||
+        event.titre ||
+        event.name ||
+        "Événement à Nyons";
+
+      const date =
+        event.date_label ||
+        event.date ||
+        event.dates ||
+        event.start_date ||
+        "";
+
+      /*
+        Si update_agenda.py fournit déjà une URL locale,
+        on l'utilise.
+
+        Sinon, on renvoie vers la page des 50 événements,
+        JAMAIS directement vers nyons.com.
+      */
+
+      let url =
+        event.local_url ||
+        event.page_url ||
+        event.internal_url ||
+        event.slug_url ||
+        "/evenements/";
+
+      if(
+        !url ||
+        url.includes("nyons.com") ||
+        url.startsWith("http")
+      ){
+        url = "/evenements/";
+      }
+
+      const card = document.createElement("article");
+
+      card.className = "event";
+
+      card.innerHTML = `
+        <div class="event-date">${escapeHtml(date)}</div>
+
+        <h3>${escapeHtml(title)}</h3>
+
+        <a href="${escapeAttribute(url)}">
+          Voir la fiche →
+        </a>
+      `;
+
+      zone.appendChild(card);
+
+    });
+
   }
+  catch(error){
+
+    zone.innerHTML = `
+      <article class="event">
+
+        <h3>Les prochains événements</h3>
+
+        <p>
+          Retrouvez toutes les prochaines sorties
+          dans notre agenda de Nyons.
+        </p>
+
+        <a href="/evenements/">
+          Voir les 50 prochains événements →
+        </a>
+
+      </article>
+    `;
+
+  }
+
 }
 
-document.getElementById('prev').onclick=()=>{weekOffset--;render();};
-document.getElementById('next').onclick=()=>{weekOffset++;render();};
-document.getElementById('today').onclick=()=>{weekOffset=0;render();};
-load();
+
+function escapeHtml(value){
+
+  return String(value || "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+
+}
+
+
+function escapeAttribute(value){
+
+  return escapeHtml(value);
+
+}
+
+
+loadEvents();
+
 </script>
+
+
 </body>
 </html>
+
