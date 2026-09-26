@@ -1,6 +1,6 @@
 {
   "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/": {
-    "text": "Cadre de vie , Solidarité / Santé Marche pour le Climat Marche pour le Climat, le vivant, la paix et la justice sociale Le samedi 26 septembre 2026",
+    "text": "Solidarité / Santé , Vie associative Grande braderie Grande braderie organisée par les associations Le Vestiaire et le Carrefour des Habitants Du vendredi 02 octobre 2026 au dimanche 04 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -9,10 +9,11 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:37:35.166215+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:48.874615+00:00"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
-    "text": "Les Rencontres Barjavel 2027 Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès. Du vendredi 22 janvier 2027 au samedi 23 janvier 2027",
+    "text": "Patrimoine / Culture vivante Impro ! Improvisation théâtrale pour lancer la saison de l'Electron Libre ! Le samedi 26 septembre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -21,10 +22,11 @@
       "email": "",
       "website": "http://www.gaiadurivau.com"
     },
-    "fetched_at": "2026-09-26T08:37:50.657262+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:49.095168+00:00"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
-    "text": "Patrimoine / Culture vivante Les turlupinades Comédie de la Compagnie du Chien Noir Le samedi 05 décembre 2026",
+    "text": "Patrimoine / Culture vivante , Sport / Loisirs Atelier culinaire – Brownies d’Halloween Atelier culinaire, réalisation de brownies d'Halloween Le samedi 31 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -33,10 +35,11 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:38:04.196184+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:49.350863+00:00"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
-    "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Le grès turonien de Venterol » Conférence gratuite présentée par Jean-Loup Rubino, Université de la Sorbonne, dans le cadre de la Fête de la Science 2026. Le mercredi 07 octobre 2026",
+    "text": "Cadre de vie , Solidarité / Santé , Vie associative Salon Vivre ici Etudier, travailler, habiter Le mercredi 18 novembre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -45,10 +48,11 @@
       "email": "",
       "website": "https://www.nyons-petanque.com/"
     },
-    "fetched_at": "2026-09-26T08:38:17.734776+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:50.069508+00:00"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
-    "text": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi 10 avril 2027 Le samedi 10 avril 2027",
+    "text": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi 9 janvier 2027 Le samedi 09 janvier 2027",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -57,7 +61,8 @@
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "fetched_at": "2026-09-26T08:38:34.379015+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:50.290082+00:00"
   },
   "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur l’intelligence des corbeaux Conférence présentée par Joëlle Vionnet et Bruno Machtelinck. Le lundi 16 novembre 2026",
@@ -69,7 +74,8 @@
       "email": "",
       "website": "https://www.samuelcattiau.com/agenda"
     },
-    "fetched_at": "2026-09-26T08:38:48.851578+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:50.510958+00:00"
   },
   "https://www.nyons.com/agenda/ceremonie-de-cacao/": {
     "text": "Solidarité / Santé Atelier sur les rituels funéraires Dans le cadre de la Semaine Bleue 2026. Le vendredi 16 octobre 2026",
@@ -81,7 +87,8 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:39:08.223953+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:50.730560+00:00"
   },
   "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/": {
     "text": "Patrimoine / Culture vivante , Solidarité / Santé Exposition « Le réel et son double #2 » Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat Du mardi 20 octobre 2026 au samedi 31 octobre 2026",
@@ -92,7 +99,7 @@
     "fetched_at": "2026-09-26T07:08:20.824724+00:00"
   },
   "https://www.nyons.com/agenda/marche-pour-le-climat/": {
-    "text": "Cadre de vie , Vie associative Journée découverte Matériauthèque Ateliers participatifs et présentation Le samedi 10 octobre 2026",
+    "text": "Solidarité / Santé Atelier thématique sur la législation funéraire Dans le cadre de la Semaine Bleue 2026. Le lundi 05 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -101,7 +108,8 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:39:26.603292+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:50.945753+00:00"
   },
   "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/": {
     "text": "Patrimoine / Culture vivante , Vie associative Les documentaires de l’UNTL : « De la libération à l’épuration » Projection de la seconde partie des Messagers de l'ombre\", suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches. Le mercredi 21 octobre 2026",
@@ -113,7 +121,8 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:39:40.472957+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:51.160389+00:00"
   },
   "https://www.nyons.com/agenda/lectures-animees-6/": {
     "text": "Solidarité / Santé Atelier sur les rituels funéraires Dans le cadre de la Semaine Bleue 2026. Le vendredi 16 octobre 2026",
@@ -125,7 +134,8 @@
       "email": "",
       "website": "https://dromeinfos.ladrome.fr/acteur/494/2-cms-nyons.htm"
     },
-    "fetched_at": "2026-09-26T08:39:54.378455+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:51.377868+00:00"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde » Présentée par Jean-Luc Boissel, astrophysicien, professeur à l'INSA de Lyon. Le lundi 07 décembre 2026",
@@ -137,19 +147,21 @@
       "email": "",
       "website": "https://www.cinema-arlequin.fr/"
     },
-    "fetched_at": "2026-09-26T08:40:08.484360+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:51.590351+00:00"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
-    "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne » Conférence présentée par Alain Saint-Denis, historien médiéviste Le lundi 14 décembre 2026",
+    "text": "Sport / Loisirs , Vie associative Puces des couturières Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. Le samedi 14 novembre 2026",
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
+      "address": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
       "phone": "",
       "email": "",
       "website": "https://www.ceder-provence.org/"
     },
-    "fetched_at": "2026-09-26T08:40:23.412864+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:51.807527+00:00"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Guernica » de Pablo Picasso Conférence présentée par Sabine Schütz, historienne et critique d'art Le mercredi 27 janvier 2027",
@@ -161,22 +173,24 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:40:35.770112+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:52.026633+00:00"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
     "text": "Patrimoine / Culture vivante Peter Pan ou l’Enfant Jamais D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ». Le vendredi 18 décembre 2026",
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
+      "address": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "fetched_at": "2026-09-26T08:40:50.940619+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:52.279405+00:00"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
-    "text": "Solidarité / Santé , Sport / Loisirs , Vie associative Atelier lactofermentation Atelier lactofermentation proposé par le CEDER. Le mercredi 30 septembre 2026",
+    "text": "Sport / Loisirs , Vie associative Reprise des Ateliers Yoga du Chant Le deuxième samedi de chaque mois de 10h à 12h. Le samedi 10 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -185,7 +199,8 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:41:03.862264+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:52.488199+00:00"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
     "text": "Patrimoine / Culture vivante Journée de clôture des vendanges Journée de clôture des vendanges et « Vignoble en Scène » au domaine Rocheville Le samedi 17 octobre 2026",
@@ -197,7 +212,8 @@
       "email": "",
       "website": "https://lesjourneesnationalesdesartistes.fr/site/jna2026/"
     },
-    "fetched_at": "2026-09-26T08:41:19.403024+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:52.702063+00:00"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi » Conférence présentée par Michel Moreau, agrégé de mathématiques. Le dimanche 14 mars 2027",
@@ -209,7 +225,8 @@
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "fetched_at": "2026-09-26T08:41:32.669115+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:52.916140+00:00"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
     "text": "Cadre de vie , Solidarité / Santé , Vie associative Salon Vivre ici Etudier, travailler, habiter Le mercredi 18 novembre 2026",
@@ -221,10 +238,11 @@
       "email": "",
       "website": "https://associationlepapillon.fr/"
     },
-    "fetched_at": "2026-09-26T08:41:47.046175+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:53.127682+00:00"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
-    "text": "Patrimoine / Culture vivante , Solidarité / Santé « Ts’art : Une histoire de Paradis ! » Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue. Le mercredi 07 octobre 2026",
+    "text": "Solidarité / Santé Spectacle « Papillon noir » Dans le cadre de la Semaine Bleue 2026. Le samedi 10 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -233,10 +251,11 @@
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "fetched_at": "2026-09-26T08:41:59.960055+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:53.347229+00:00"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
-    "text": "Patrimoine / Culture vivante On a perdu les clés du traîneau Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ». Le mardi 29 décembre 2026",
+    "text": "Patrimoine / Culture vivante De l’île Noire au Montbrun Concert \"De l'Ile Noire au Mont Brun\" Le samedi 21 novembre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -245,7 +264,8 @@
       "email": "",
       "website": "http://www.untl.net"
     },
-    "fetched_at": "2026-09-26T08:42:12.720061+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:53.562600+00:00"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
     "text": "Cadre de vie , Solidarité / Santé Marche pour le Climat Marche pour le Climat, le vivant, la paix et la justice sociale Le samedi 26 septembre 2026",
@@ -257,22 +277,24 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:42:27.685266+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:53.776948+00:00"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
-    "text": "Solidarité / Santé Stands sur la santé mentale Stands des associations et des structures du territoire, œuvre participative dans le cadre des semaines d'information sur la santé mentale. Le jeudi 08 octobre 2026",
+    "text": "Patrimoine / Culture vivante Peter Pan ou l’Enfant Jamais D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ». Le vendredi 18 décembre 2026",
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
+      "address": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "fetched_at": "2026-09-26T08:42:56.620165+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:53.994838+00:00"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
-    "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Essai de toponymie locale » Conférence présentée par Robert Gleize, agrégé de physique Le lundi 04 janvier 2027",
+    "text": "Patrimoine / Culture vivante , Solidarité / Santé Exposition « Le réel et son double #2 » Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat Du mardi 20 octobre 2026 au samedi 31 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -281,10 +303,11 @@
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "fetched_at": "2026-09-26T08:43:09.457957+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:54.210968+00:00"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
-    "text": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi 13 février 2027 Le samedi 13 février 2027",
+    "text": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi 9 janvier 2027 Le samedi 09 janvier 2027",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -293,10 +316,11 @@
       "email": "",
       "website": "https://associationlepapillon.fr/"
     },
-    "fetched_at": "2026-09-26T08:43:24.188549+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:54.430019+00:00"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
-    "text": "Patrimoine / Culture vivante , Solidarité / Santé Exposition « Le réel et son double #2 » Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat Du mardi 20 octobre 2026 au samedi 31 octobre 2026",
+    "text": "Patrimoine / Culture vivante , Solidarité / Santé Atelier d’Art-Thérapie Atelier d'Art-Thérapie avec Anaïs Marino, Art-thérapeute, dans le cadre des semaines d'information sur la santé mentale. Le samedi 17 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -305,10 +329,11 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "fetched_at": "2026-09-26T08:43:37.661148+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:54.698478+00:00"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
-    "text": "Solidarité / Santé Atelier thématique sur la législation funéraire Dans le cadre de la Semaine Bleue 2026. Le lundi 05 octobre 2026",
+    "text": "Solidarité / Santé Atelier sur les rituels funéraires Dans le cadre de la Semaine Bleue 2026. Le vendredi 16 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -317,7 +342,8 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "fetched_at": "2026-09-26T08:43:53.605924+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:54.917306+00:00"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
     "text": "Patrimoine / Culture vivante Blue Maqam de Renaud Garcia-Fons Un trait d’union entre jazz et musiques orientales. Le vendredi 19 février 2027",
@@ -329,7 +355,8 @@
       "email": "",
       "website": "https://labaronne.org/"
     },
-    "fetched_at": "2026-09-26T08:44:08.587090+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:55.138360+00:00"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana » Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne. Le mercredi 24 mars 2027",
@@ -341,7 +368,8 @@
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "fetched_at": "2026-09-26T08:44:23.837469+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:55.360432+00:00"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
     "text": "Sport / Loisirs , Vie associative Reprise des Ateliers Yoga du Chant Le deuxième samedi de chaque mois de 10h à 12h. Le samedi 10 octobre 2026",
@@ -353,7 +381,8 @@
       "email": "",
       "website": "https://4seasonsbikepark.fr/"
     },
-    "fetched_at": "2026-09-26T08:44:39.161094+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:55.578116+00:00"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
     "text": "Cadre de vie , Sécurité , Solidarité / Santé Agriculture en surchauffe, on en parle ? Une saison agricole bouleversée par la fournaise. Le mercredi 14 octobre 2026",
@@ -365,7 +394,8 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "fetched_at": "2026-09-26T08:44:52.403514+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:55.794460+00:00"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi » Conférence présentée par Michel Moreau, agrégé de mathématiques. Le dimanche 14 mars 2027",
@@ -377,7 +407,8 @@
       "email": "",
       "website": "https://ghischec.wixsite.com/amate"
     },
-    "fetched_at": "2026-09-26T08:45:09.542926+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:56.009042+00:00"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
     "text": "Solidarité / Santé Atelier thématique sur la législation funéraire Dans le cadre de la Semaine Bleue 2026. Le lundi 05 octobre 2026",
@@ -389,7 +420,8 @@
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "fetched_at": "2026-09-26T08:45:25.313736+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:56.224638+00:00"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
     "text": "Constellations familiales Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres... Le samedi 03 octobre 2026",
@@ -401,7 +433,8 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:45:39.682783+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:56.444217+00:00"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
     "text": "Patrimoine / Culture vivante Impro ! Improvisation théâtrale pour lancer la saison de l'Electron Libre ! Le samedi 26 septembre 2026",
@@ -413,7 +446,8 @@
       "email": "",
       "website": "http://www.untl.net"
     },
-    "fetched_at": "2026-09-26T08:45:53.229598+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:56.665680+00:00"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana » Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne. Le mercredi 24 mars 2027",
@@ -425,10 +459,11 @@
       "email": "",
       "website": "https://www.larboretum.co/projets/"
     },
-    "fetched_at": "2026-09-26T08:46:07.538661+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:56.877709+00:00"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
-    "text": "Sport / Loisirs , Vie associative Puces des couturières Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. Le samedi 14 novembre 2026",
+    "text": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi 13 février 2027 Le samedi 13 février 2027",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -437,10 +472,11 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:46:24.341779+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:57.141940+00:00"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
-    "text": "Patrimoine / Culture vivante « La Vie en Couleur » : Exposition de Cécile Allex Exposition artistique de Cécile Allex, à l'Espace Roumanille, Draye de Meyne. Du mardi 22 septembre 2026 au dimanche 27 septembre 2026",
+    "text": "Patrimoine / Culture vivante Les turlupinades Comédie de la Compagnie du Chien Noir Le samedi 05 décembre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -449,10 +485,11 @@
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "fetched_at": "2026-09-26T08:46:36.690582+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:57.357525+00:00"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
-    "text": "Patrimoine / Culture vivante , Solidarité / Santé « Ts’art : Une histoire de Paradis ! » Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue. Le lundi 19 octobre 2026",
+    "text": "Solidarité / Santé , Sport / Loisirs , Vie associative Atelier lactofermentation Atelier lactofermentation proposé par le CEDER. Le mercredi 30 septembre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -461,10 +498,11 @@
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "fetched_at": "2026-09-26T08:46:50.848772+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:57.568004+00:00"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
-    "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Sapienza Galiarda » Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire Le mercredi 31 mars 2027",
+    "text": "Cadre de vie , Sécurité , Solidarité / Santé Agriculture en surchauffe, on en parle ? Une saison agricole bouleversée par la fournaise. Le mercredi 14 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -473,7 +511,8 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "fetched_at": "2026-09-26T08:47:07.332916+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:57.783128+00:00"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
     "text": "Patrimoine / Culture vivante Les Grands Chemins Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque. Le samedi 06 février 2027",
@@ -485,10 +524,11 @@
       "email": "",
       "website": "https://www.lelectron.fr"
     },
-    "fetched_at": "2026-09-26T08:47:21.889222+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:57.999213+00:00"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
-    "text": "Patrimoine / Culture vivante , Solidarité / Santé À vos cartes, prêts, jouez ! Un voyage souvenir à travers la France Le mercredi 07 octobre 2026",
+    "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur Albert Camus, la voix de la pauvreté Conférence présentée par Jean-Michel Wavelet, instituteur, inspecteur d'Académie et écrivain Le lundi 11 janvier 2027",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -497,22 +537,24 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:47:36.762693+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:58.216867+00:00"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
-    "text": "Partager sur Search for: Accueil / Événements / Conférence de l’UNTL sur Chagall Conférence de l’UNTL sur Chagall Exporter l'événement lundi 12 octobre 2026 Retour Conférence proposée par l’UNTL, lundi 12 octobre à la Maison de Pays, 15h. Né en Biélorussie, Chagall étudie à l’école des beaux-arts de Saint-Pétersbourg. En 1910, il part pour Paris. Il y côtoie le fauvisme et le cubisme naissant. Lors de son séjour à La Ruche, il rencontre également des poètes et des écrivains comme Blaise Cendrars. Mais jamais Chagall n’adhèrera pleinement à un mouvement ou à une école. En 1914, la guerre le contraint à rester à Vitebsk et l’empêche de revenir à Paris avant 1922. L’artiste traverse les horreurs du XXe siècle (exil, antisémitisme, persécution), qu’il transfigure en les imprégnant de son amour de la vie. Citoyen déraciné, il vivra à Paris, Berlin, Moscou, New York, Vence… et décèdera finalement en 1985 à Saint-Paul-de-Vence. Il a laissé une œuvre considérable inspirée par la tradition juive, le folklore russe et imprégnée de poésie. Adhérents 5 € sur présentation de la carte de membre Non adhérents 8 €. Lundi 12 octobre 2026 de 15h00 à 17h00 Maison de Pays 128 Promenade de la Digue - 26110 Nyons agenda@untl.net 0475264137 http://www.untl.net Ces événements pourraient vous intéresser Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 15.8°C / 15.8°C Contact Recherche Mentions légales Politique de confidentialité Plan du site Accessibilité © Nyons Made by 6tematik",
+    "text": "Conférence de l’UNTL sur Chagall Conférence de l’UNTL sur Chagall Exporter l'événement lundi 12 octobre 2026 Retour Conférence proposée par l’UNTL, lundi 12 octobre à la Maison de Pays, 15h. Né en Biélorussie, Chagall étudie à l’école des beaux-arts de Saint-Pétersbourg. En 1910, il part pour Paris. Il y côtoie le fauvisme et le cubisme naissant. Lors de son séjour à La Ruche, il rencontre également des poètes et des écrivains comme Blaise Cendrars. Mais jamais Chagall n’adhèrera pleinement à un mouvement ou à une école. En 1914, la guerre le contraint à rester à Vitebsk et l’empêche de revenir à Paris avant 1922. L’artiste traverse les horreurs du XXe siècle (exil, antisémitisme, persécution), qu’il transfigure en les imprégnant de son amour de la vie. Citoyen déraciné, il vivra à Paris, Berlin, Moscou, New York, Vence… et décèdera finalement en 1985 à Saint-Paul-de-Vence. Il a laissé une œuvre considérable inspirée par la tradition juive, le folklore russe et imprégnée de poésie. Adhérents 5 € sur présentation de la carte de membre Non adhérents 8 €. Lundi 12 octobre 2026 de 15h00 à 17h00 Maison de Pays 128 Promenade de la Digue - 26110 Nyons agenda@untl.net 0475264137 http://www.untl.net",
     "practical": {
       "date_time": "Lundi 12 octobre 2026 de 15h00 à 17h00",
-      "location_name": "Lundi 12 octobre 2026 de 15h00 à 17h00",
-      "address": "Maison de Pays 128 Promenade de la Digue - 26110 Nyons",
-      "phone": "0475265000",
+      "location_name": "Maison de Pays 128 Promenade de la Digue",
+      "address": "26110 Nyons",
+      "phone": "0475264137",
       "email": "agenda@untl.net",
       "website": "http://www.untl.net"
     },
-    "fetched_at": "2026-09-26T08:21:26.270702+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:58.431906+00:00"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
-    "text": "Solidarité / Santé Stands sur la santé mentale Stands des associations et des structures du territoire, œuvre participative dans le cadre des semaines d'information sur la santé mentale. Le jeudi 08 octobre 2026",
+    "text": "Solidarité / Santé Atelier sur les rituels funéraires Dans le cadre de la Semaine Bleue 2026. Le vendredi 16 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -521,10 +563,11 @@
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "fetched_at": "2026-09-26T08:48:04.169570+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:58.645319+00:00"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
-    "text": "Patrimoine / Culture vivante , Solidarité / Santé Lectures par la MARPA de Rémuzat et Antoine Picard Lectures par la MARPA de Rémuzat et Antoine Picard Le vendredi 09 octobre 2026",
+    "text": "Solidarité / Santé Distribution gratuite de compost La CCBDP propose une distribution gratuite de compost réservé aux particuliers. Le samedi 26 septembre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -533,10 +576,11 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:48:18.447911+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:58.858322+00:00"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
-    "text": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi 9 janvier 2027 Le samedi 09 janvier 2027",
+    "text": "Sport / Loisirs , Vie associative Reprise des Ateliers Yoga du Chant Le deuxième samedi de chaque mois de 10h à 12h. Le samedi 10 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -545,10 +589,11 @@
       "email": "",
       "website": "http://www.untl.net"
     },
-    "fetched_at": "2026-09-26T08:48:32.643811+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:59.076041+00:00"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
-    "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Pour une histoire de l’éducation populaire » Conférence présentée par Philippe Fréchet, enseignant spécialisé, conférencier de l’histoire de la pensée et de l’histoire sociale et politique. Le lundi 26 avril 2027",
+    "text": "Patrimoine / Culture vivante , Solidarité / Santé Atelier d’Art-Thérapie Atelier d'Art-Thérapie avec Anaïs Marino, Art-thérapeute, dans le cadre des semaines d'information sur la santé mentale. Le samedi 17 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -557,10 +602,11 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "fetched_at": "2026-09-26T08:48:46.103030+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:59.289821+00:00"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
-    "text": "Patrimoine / Culture vivante , Solidarité / Santé « Ts’art : Une histoire de Paradis ! » Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue. Le lundi 19 octobre 2026",
+    "text": "Solidarité / Santé Spectacle « Papillon noir » Dans le cadre de la Semaine Bleue 2026. Le samedi 10 octobre 2026",
     "practical": {
       "date_time": "",
       "location_name": "",
@@ -569,7 +615,8 @@
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "fetched_at": "2026-09-26T08:48:59.497372+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:59.546815+00:00"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
     "text": "Patrimoine / Culture vivante , Sport / Loisirs Atelier culinaire – Risotto & panacotta Atelier culinaire Italien \"Risotto & Panacotta\" Le samedi 03 octobre 2026",
@@ -581,7 +628,8 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:49:14.016699+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:03:59.761665+00:00"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
     "text": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur la domesticité, entre servilité et fidélité Conférence présentée par Michèle Margain, généalogiste, écrivaine, passionnée des terroirs et de ceux qui y vivent. Le mercredi 17 mars 2027",
@@ -593,7 +641,8 @@
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "fetched_at": "2026-09-26T08:49:31.102512+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:04:00.274605+00:00"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
     "text": "Patrimoine / Culture vivante Concert Bouda OMG ! Concert Bouda OMG - Dispositif Miz’Ampli Le vendredi 02 octobre 2026",
@@ -605,6 +654,7 @@
       "email": "",
       "website": ""
     },
-    "fetched_at": "2026-09-26T08:49:44.777189+00:00"
+    "parser_version": 2,
+    "fetched_at": "2026-09-26T09:04:00.696874+00:00"
   }
 }
