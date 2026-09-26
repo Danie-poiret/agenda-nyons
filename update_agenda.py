@@ -50,7 +50,7 @@ SEO_WEEKS_AHEAD = 12
 ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
-EVENT_PROMPT_VERSION = 3
+EVENT_PROMPT_VERSION = 4
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -546,7 +546,11 @@ def _jsonld_objects(soup):
 
 
 def extract_event_detail_data(html_text: str, source_url: str):
-    """Extrait le texte source et les infos pratiques de la fiche officielle."""
+    """
+    Extrait uniquement le bloc de l'événement :
+    dates/horaires, lieu, adresse, téléphone, email et site organisateur.
+    Évite les blocs 'événements similaires', abonnement et coordonnées mairie.
+    """
     soup = BeautifulSoup(html_text, "html.parser")
 
     practical = {
@@ -581,112 +585,158 @@ def extract_event_detail_data(html_text: str, source_url: str):
         elif isinstance(address, str):
             practical["address"] = clean(address)
 
-    # Liens explicites email / téléphone.
-    mail = soup.find("a", href=re.compile(r"^mailto:", re.I))
-    if mail:
-        practical["email"] = clean(
-            mail.get("href", "").split(":", 1)[-1].split("?", 1)[0]
-        )
-
-    tel = soup.find("a", href=re.compile(r"^tel:", re.I))
-    if tel:
-        practical["phone"] = clean(tel.get("href", "").split(":", 1)[-1])
-
-    # Nettoyage DOM puis extraction ligne par ligne.
+    # Nettoyage du DOM.
     for tag in soup(["script", "style", "noscript", "svg"]):
-        tag.decompose()
-    for tag in soup.find_all(["nav", "footer"]):
         tag.decompose()
 
     root = soup.find("main") or soup.find("article") or soup.body or soup
 
     raw_lines = [clean(x) for x in root.get_text("\n", strip=True).splitlines()]
-    lines = []
-    seen = set()
-    for line in raw_lines:
-        if line and line not in seen:
-            lines.append(line)
-            seen.add(line)
+    lines = [x for x in raw_lines if x]
 
-    # Dates + horaires complets.
-    candidates = []
+    # Coupe AVANT les recommandations / abonnement / pied de page.
+    stop_markers = (
+        "ces événements pourraient vous intéresser",
+        "ces evenements pourraient vous interesser",
+        "abonnement aux informations",
+        "recevez les dernières actualités",
+        "recevez les dernieres actualites",
+        "mairie de nyons",
+    )
+
+    event_lines = []
+    started = False
+
     for line in lines:
+        low = line.lower()
+
+        # Commence au H1 / titre de fiche, ou à défaut au premier contenu daté.
+        if not started:
+            if soup.find("h1") and clean(soup.find("h1").get_text(" ", strip=True)) == line:
+                started = True
+            elif re.search(r"\b20\d{2}\b", line):
+                started = True
+
+        if not started:
+            continue
+
+        if any(marker in low for marker in stop_markers):
+            break
+
+        event_lines.append(line)
+
+    # Sécurité : si le découpage a raté, prend seulement les premières lignes utiles.
+    if len(event_lines) < 3:
+        event_lines = lines[:80]
+
+    joined = "\n".join(event_lines)
+
+    # 1) Date + horaires complets.
+    date_candidates = []
+    for line in event_lines:
         low = line.lower()
         has_month = any(month in low for month in MONTHS)
         has_year = bool(re.search(r"\b20\d{2}\b", line))
-        has_time = bool(re.search(r"\b\d{1,2}\s*h\s*\d{0,2}\b", low))
-        looks_range = low.startswith("du ") or " au " in low or "jusqu" in low
-        if has_month and has_year and (has_time or looks_range):
-            candidates.append(line)
+        has_time = bool(re.search(r"\b\d{1,2}\s*h\s*\d{2}\b", low))
+        looks_range = low.startswith("du ") or low.startswith("le ") or " au " in low
 
-    if candidates:
-        practical["date_time"] = max(candidates, key=len)[:320]
+        if has_month and has_year and has_time and looks_range:
+            date_candidates.append(line)
 
-    # Adresse à Nyons.
-    address_idx = None
-    for i, line in enumerate(lines):
+    if date_candidates:
+        practical["date_time"] = max(date_candidates, key=len)[:320]
+
+    # 2) Lieu + adresse.
+    address_line = ""
+    for line in event_lines:
         if re.search(r"\b26110\b", line) and re.search(r"\bnyons\b", line, re.I):
-            if not practical["address"]:
-                practical["address"] = line[:300]
-            address_idx = i
+            address_line = line
             break
 
-    # Sépare "Nom du lieu, adresse" si possible.
-    if practical["address"] and "," in practical["address"] and not practical["location_name"]:
-        first, rest = practical["address"].split(",", 1)
-        if len(first) > 4 and not re.search(r"\d", first):
-            practical["location_name"] = clean(first)
-            practical["address"] = clean(rest)
+    if address_line:
+        # Cas réel Nyons :
+        # "Maison ... - 40 place de la Libération, 26110 Nyons"
+        if " - " in address_line:
+            left, right = address_line.split(" - ", 1)
+            if not practical["location_name"]:
+                practical["location_name"] = clean(left)
+            if not practical["address"]:
+                practical["address"] = clean(right)
+        else:
+            if not practical["address"]:
+                practical["address"] = clean(address_line)
 
-    # Sinon, ligne précédente = lieu probable.
-    if address_idx is not None and not practical["location_name"] and address_idx > 0:
-        prev = lines[address_idx - 1]
-        if 3 < len(prev) < 140 and not re.search(
-            r"\b(?:tél|tel|mail|email|www|http)\b", prev, re.I
-        ):
-            practical["location_name"] = prev
+    # 3) Email : priorité au TEXTE visible, car le mailto du site Nyons
+    # peut être un lien de partage sans l'adresse dans href.
+    m = re.search(
+        r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b",
+        joined,
+        re.I,
+    )
+    if m:
+        practical["email"] = clean(m.group(0))
 
-    joined = "\n".join(lines)
+    # 4) Téléphone : cherche uniquement AVANT la zone recommandations/mairie.
+    phone_matches = re.findall(
+        r"(?<!\d)(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}(?!\d)",
+        joined,
+    )
+    if phone_matches:
+        practical["phone"] = clean(phone_matches[0])
 
-    # Téléphone si pas de href tel:.
-    if not practical["phone"]:
-        m = re.search(
-            r"(?<!\d)(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}(?!\d)",
-            joined,
-        )
-        if m:
-            practical["phone"] = clean(m.group(0))
-
-    # Email si pas de mailto:.
-    if not practical["email"]:
-        m = re.search(
-            r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b",
-            joined,
-            re.I,
-        )
-        if m:
-            practical["email"] = clean(m.group(0))
-
-    # Premier vrai site externe (hors nyons.com et réseaux sociaux).
+    # 5) Site organisateur externe.
+    # On filtre nyons.com, réseaux sociaux et liens techniques.
     blocked = (
         "nyons.com", "facebook.com", "instagram.com",
-        "twitter.com", "x.com", "youtube.com",
+        "twitter.com", "x.com", "youtube.com", "6tematik.fr",
     )
-    for a in soup.find_all("a", href=True):
-        href = clean(a.get("href", ""))
-        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
-            continue
-        absolute = urljoin(source_url, href)
-        parsed = urlparse(absolute)
+
+    # Domaines visibles dans le bloc événement : très fiable.
+    visible_urls = re.findall(
+        r"https?://[^\s<>\"]+",
+        joined,
+        re.I,
+    )
+    for candidate in visible_urls:
+        candidate = candidate.rstrip(").,;]")
+        parsed = urlparse(candidate)
         host = parsed.netloc.lower()
-        if parsed.scheme not in ("http", "https"):
+        if not host:
             continue
         if any(host == b or host.endswith("." + b) for b in blocked):
             continue
-        practical["website"] = absolute
+        practical["website"] = candidate
         break
 
-    detail_text = clean(root.get_text(" ", strip=True))[:5200]
+    # Si le texte rendu ne contient pas l'URL brute, cherche dans les <a>.
+    if not practical["website"]:
+        for a in soup.find_all("a", href=True):
+            href = clean(a.get("href", ""))
+            label = clean(a.get_text(" ", strip=True))
+
+            if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+                continue
+
+            absolute = urljoin(source_url, href)
+            parsed = urlparse(absolute)
+            host = parsed.netloc.lower()
+
+            if parsed.scheme not in ("http", "https"):
+                continue
+            if any(host == b or host.endswith("." + b) for b in blocked):
+                continue
+
+            # Évite PDF / documents et liens sans rapport.
+            if parsed.path.lower().endswith((".pdf", ".jpg", ".jpeg", ".png", ".webp")):
+                continue
+
+            # Préfère les liens dont le libellé ressemble à une URL/site.
+            if "http" in label.lower() or "." in label:
+                practical["website"] = absolute
+                break
+
+    # Texte destiné à GPT = uniquement le bloc événement, sans recommandations ni mairie.
+    detail_text = clean(" ".join(event_lines))[:5200]
 
     return {
         "text": detail_text,
@@ -698,14 +748,22 @@ def get_event_detail(session, event, detail_cache):
     key = event["url"]
     cached = detail_cache.get(key, {})
 
+    cached_practical = cached.get("practical") or {}
+    practical_complete_enough = (
+        isinstance(cached_practical, dict)
+        and bool(cached_practical.get("date_time"))
+        and bool(cached_practical.get("address"))
+        and bool(cached_practical.get("phone"))
+    )
+
     if (
         cached.get("text")
         and detail_cache_fresh(cached)
-        and isinstance(cached.get("practical"), dict)
+        and practical_complete_enough
     ):
         return {
             "text": cached.get("text", ""),
-            "practical": cached.get("practical") or {},
+            "practical": cached_practical,
         }
 
     try:
