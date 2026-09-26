@@ -1,28 +1,28 @@
 {
   "2026-09-21": {
-    "hash": "8edb284d9f6fbc6f767e541ff36d07463b7797953c52645376394eca9c70a3d5",
+    "hash": "10d5bfd959b11dd3f44f6083063bc4e6042575459a06416ac2d1085c4f9ae00a",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, concert, improvisation, atelier culinaire, climat, compost et découverte des abeilles.",
-      "intro": "La semaine du 21 au 27 septembre 2026 offre à Nyons un agenda particulièrement varié, entre culture, initiatives citoyennes et loisirs. Les amateurs d’expositions peuvent encore découvrir « Découvrez Solidarité Paysans ! » et « Exposition « Urbain Urbex » », toutes deux proposées jusqu’au 30 septembre. À partir du 22 septembre, l’exposition de Cécile Allex rejoint également la programmation pour quelques jours. Le samedi 26 septembre concentre de nombreux rendez-vous : atelier consacré aux tacos au poulet et aux burritos au bœuf maison, concert mêlant musique médiévale, musiques du monde, jazz et improvisations, théâtre d’improvisation, cérémonie de cacao, marche pour le climat, distribution de compost et découverte de l’apiculture. La période marque aussi le début des 8 jours de la Ville de Nyons, lancés le 25 septembre et prévus jusqu’au 4 octobre.",
-      "weekend": "Pour composer votre week-end à Nyons, le samedi 26 septembre est la date à regarder en priorité. La journée permet de choisir entre une sortie culturelle, avec le concert COMTESSA ! ou Impro !, une activité gourmande autour de la street food, ou encore des rendez-vous liés au cadre de vie et à la solidarité. La Marche pour le Climat porte sur le vivant, la paix et la justice sociale, tandis que la distribution de compost s’adresse aux particuliers. Les curieux des abeilles peuvent aussi se tourner vers la journée dédiée à l’apiculture. Côté expositions, plusieurs propositions restent accessibles durant cette période.",
-      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement : les informations disponibles ici ne précisent pas systématiquement les horaires, les conditions d’accès ou les modalités d’inscription. Vérifiez aussi les dates de fin des expositions : « La Vie en Couleur » se termine le 27 septembre, alors que deux autres expositions se poursuivent jusqu’au 30 septembre. Pour la distribution de compost, retenez qu’elle est réservée aux particuliers.",
-      "conclusion": "Cette semaine de septembre met en lumière la diversité des rendez-vous nyonsais. Expositions, musique, improvisation, cuisine, apiculture et actions autour du climat se côtoient, avec une forte concentration d’initiatives le 26 septembre. Que l’on privilégie une découverte artistique, un moment participatif ou une démarche liée à l’environnement, l’agenda permet de sélectionner une sortie en fonction de ses envies, tout en prenant le temps de vérifier les informations pratiques auprès des organisateurs.",
+      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, rencontre culturelle et sorties du 25 au 27, entre cuisine, concert, climat et apiculture.",
+      "intro": "La semaine du 21 au 27 septembre 2026 dessine un agenda varié à Nyons, avec plusieurs rendez-vous culturels et des propositions concentrées à partir du vendredi. Les expositions offrent un fil rouge sur plusieurs jours : « Découvrez Solidarité Paysans ! » et « Exposition « Urbain Urbex » » se poursuivent jusqu’au 30 septembre, tandis que « La Vie en Couleur » : Exposition de Cécile Allex est proposée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne. Le 25 septembre, la rencontre avec Régis PENET invite à un voyage entre mythologie, science-fiction et réflexions existentielles. Le samedi 26 rassemble des formats très différents : cuisine, musique, découverte de l’apiculture, cérémonie de cacao et marche pour le climat. Les 8 jours de la Ville de Nyons débutent également le 25 septembre et se prolongent au-delà de cette semaine.",
+      "weekend": "Pour composer votre week-end, commencez par repérer le type d’expérience qui vous attire. Le vendredi 25 septembre, la rencontre avec Régis PENET s’adresse aux curieux de dessin et de récit. Le samedi 26, l’offre se diversifie nettement : l’atelier culinaire propose de préparer tacos au poulet et burritos au bœuf maison, tandis que le concert COMTESSA ! associe répertoire médiéval, musiques du monde, jazz et improvisations. La journée « Une ruche dans mon jardin ? » permet quant à elle de découvrir les abeilles et l’apiculture. Pour une visite culturelle sur plusieurs jours, l’exposition de Cécile Allex reste accessible jusqu’au 27 septembre.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement : les informations utiles qui ne figurent pas dans cet agenda, comme les horaires précis, les conditions d’accès ou d’éventuelles modalités de participation, doivent être vérifiées directement auprès de l’organisateur. Cette précaution est particulièrement utile le samedi 26 septembre, où plusieurs rendez-vous sont annoncés le même jour. Pensez aussi à confirmer les dates de fin des expositions.",
+      "conclusion": "Entre expositions, création artistique, rencontre d’auteur et rendez-vous de loisirs, Nyons propose une semaine aux tonalités multiples. Le dernier week-end de septembre se distingue par la diversité des choix possibles le 26 septembre, de la musique à l’apiculture en passant par la cuisine et la marche pour le climat. Les expositions permettent aussi de prolonger la découverte à un rythme plus libre, selon leurs dates annoncées.",
       "highlights": [
         {
           "event_title": "« La Vie en Couleur » : Exposition de Cécile Allex",
-          "reason": "Une exposition artistique proposée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne."
+          "reason": "Une exposition artistique présentée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne."
         },
         {
           "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-          "reason": "Un concert annoncé autour de la musique médiévale, des musiques du monde, du jazz et de l’improvisation."
+          "reason": "Un concert annoncé à la croisée du médiéval, des musiques du monde, du jazz et de l’improvisation."
         },
         {
           "event_title": "Une ruche dans mon jardin ?",
-          "reason": "Une journée de découverte consacrée aux abeilles et à l’apiculture."
+          "reason": "Une journée consacrée à la découverte des abeilles et de l’apiculture."
         }
       ]
     },
-    "generated_at": "2026-09-26T10:06:45.396078+00:00",
+    "generated_at": "2026-09-26T10:48:07.424565+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
