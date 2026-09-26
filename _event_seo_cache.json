@@ -1,6 +1,6 @@
 {
   "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/": {
-    "hash": "24946e6585697e63f23f25acbed96f9d8f56bfd21a0ede275d276f9f2e8dc7ae",
+    "hash": "fa064f2e10c680df8419cd30cc0583318d21da27d13834484c347f8af05ff760",
     "slug": "decouvrez-solidarite-paysans-2026-08-01",
     "event": {
       "title": "Découvrez Solidarité Paysans !",
@@ -32,17 +32,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Cadre de vie , Solidarité / Santé Marche pour le Climat Marche pour le Climat, le vivant, la paix et la justice sociale Le samedi",
+      "address": "26 septembre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:48.994838+00:00",
+    "generated_at": "2026-09-26T09:16:23.792414+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
-    "hash": "0a4d26b21494940269655b198543b45b676d835d2eff111ba969f2111c4a59a1",
+    "hash": "964afc5b125a49975a92631f10eaebc45eafb2225f2d060b72490e7f22d5f439",
     "slug": "exposition-urbain-urbex-2026-09-02",
     "event": {
       "title": "Exposition « Urbain Urbex »",
@@ -67,17 +67,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante Les Rencontres Barjavel",
+      "address": "2027 Nyons",
       "phone": "",
       "email": "",
       "website": "http://www.gaiadurivau.com"
     },
-    "generated_at": "2026-09-26T09:03:49.215320+00:00",
+    "generated_at": "2026-09-26T09:16:24.021463+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
-    "hash": "cfaf324841d4feb4d3eff2977dce1fd1f3b254788dc672d3009f257f324195f0",
+    "hash": "4700d980329af36e4ff3b730fcf82034e1624d7ae04a6a2e378837dc674a1f9d",
     "slug": "la-vie-en-couleur-exposition-de-cecile-allex-2026-09-22",
     "event": {
       "title": "« La Vie en Couleur » : Exposition de Cécile Allex",
@@ -102,17 +102,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante Les turlupinades Comédie de la Compagnie du Chien Noir Le samedi",
+      "address": "05 décembre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:49.471068+00:00",
+    "generated_at": "2026-09-26T09:16:24.300517+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
-    "hash": "fa0993f3065b089fbbadeaeca6da20f011ae67fdab7f50b6b9a71cc8f33c36d6",
+    "hash": "f522b4d49e3aac4b660edec7523c574a37af3f8b6d38d606f4b9e662d1b885b8",
     "slug": "les-8-jours-de-la-ville-de-nyons-2026-09-25",
     "event": {
       "title": "Les 8 jours de la Ville de Nyons",
@@ -138,17 +138,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "07 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.nyons-petanque.com/"
     },
-    "generated_at": "2026-09-26T09:03:50.189660+00:00",
+    "generated_at": "2026-09-26T09:16:24.530834+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
-    "hash": "bca0265dcf00be1f5cba6cdfa51732d3c65ad322b6cd99db5b1661c9b1d21458",
+    "hash": "5b34f13538b99b989fba2007bc9330ba40f4dc8951e91d9c27af5c119da57e8e",
     "slug": "atelier-culinaire-street-food-party-2026-09-26",
     "event": {
       "title": "Atelier culinaire – Street food party",
@@ -173,17 +173,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi",
+      "address": "10 avril 2027 Le samedi 10 avril 2027",
       "phone": "",
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-09-26T09:03:50.410237+00:00",
+    "generated_at": "2026-09-26T09:16:24.762347+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/": {
-    "hash": "c31af527881c09614c764a73a515e5c9a0a805e8f3d10c0ef69af221a1fc3389",
+    "hash": "5f3dd2deedb59a18310551d4f21c7a95a4274fd2f134a7f2fb191bb46666e526",
     "slug": "comtessa-concert-de-samuel-cattiau-pierre-baillot-2026-09-26",
     "event": {
       "title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
@@ -208,17 +208,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "16 novembre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.samuelcattiau.com/agenda"
     },
-    "generated_at": "2026-09-26T09:03:50.631108+00:00",
+    "generated_at": "2026-09-26T09:16:24.992851+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/ceremonie-de-cacao/": {
-    "hash": "30791d29f7fca898574d927a660e2507a1d6a2868e730aaece7308beaa021a56",
+    "hash": "59401c99439bfd7bc0e4333dc697660b0a9355c09b698456cc91d20657f7eec6",
     "slug": "ceremonie-de-cacao-2026-09-26",
     "event": {
       "title": "Cérémonie de cacao",
@@ -243,13 +243,13 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le vendredi",
+      "address": "16 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:50.850711+00:00",
+    "generated_at": "2026-09-26T09:16:25.219868+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/": {
@@ -306,7 +306,7 @@
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/marche-pour-le-climat/": {
-    "hash": "c0fac28c496057a6302960c6debf3ae8b548b125ca5bbc607d3dd28c99f753ba",
+    "hash": "ab5a8e9653d828e0de493b2def7c3b7e679263034ba9920da11884d644e03f0c",
     "slug": "marche-pour-le-climat-2026-09-26",
     "event": {
       "title": "Marche pour le Climat",
@@ -331,17 +331,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Cadre de vie , Vie associative Journée découverte Matériauthèque Ateliers participatifs et présentation Le samedi",
+      "address": "10 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:51.065919+00:00",
+    "generated_at": "2026-09-26T09:16:25.444855+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/": {
-    "hash": "ad5e27566a334d7edb3d910c8af429cab82cfcd0e1a756fb83340c43a9057235",
+    "hash": "0ca66de9a77d17831be1b69aaf264e61e69443125e1fdd0d3a97b14163311cae",
     "slug": "une-ruche-dans-mon-jardin-2026-09-26",
     "event": {
       "title": "Une ruche dans mon jardin ?",
@@ -373,17 +373,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "21 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:51.280556+00:00",
+    "generated_at": "2026-09-26T09:16:25.673080+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-animees-6/": {
-    "hash": "37713798c5060c34e417a5e54e04c9752f3d796b0477b1400058ff5f22942261",
+    "hash": "a4e7fdef44765925b44b8f4f42722bc0266840e0cab9cdf040bcce8f69bd2246",
     "slug": "lectures-animees-2026-09-28",
     "event": {
       "title": "Lectures animées",
@@ -409,17 +409,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le vendredi",
+      "address": "16 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://dromeinfos.ladrome.fr/acteur/494/2-cms-nyons.htm"
     },
-    "generated_at": "2026-09-26T09:03:51.498011+00:00",
+    "generated_at": "2026-09-26T09:16:25.899381+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
-    "hash": "95750684b32f48985bd612f3247617d4ef49551e7c19496c015568f47a832785",
+    "hash": "cb8cbf57fec7ede9df5ad82f35d737833edfcc9874aceddfc55444045d4fbdfd",
     "slug": "soiree-100-agriculture-viticulture-2026-09-28",
     "event": {
       "title": "Soirée 100% Agriculture / Viticulture",
@@ -444,17 +444,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "07 décembre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.cinema-arlequin.fr/"
     },
-    "generated_at": "2026-09-26T09:03:51.710509+00:00",
+    "generated_at": "2026-09-26T09:16:26.126921+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
-    "hash": "629d454b4f4a88e456bd9d5447cc6c5bb4c0586692916c39a786e79193cf3f77",
+    "hash": "09063be3f707ef8813e5032261184020ef6121bda27cf31a42664e839285281e",
     "slug": "atelier-lactofermentation-2026-09-30",
     "event": {
       "title": "Atelier lactofermentation",
@@ -481,17 +481,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
-      "address": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
+      "location_name": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne » Conférence présentée par Alain Saint-Denis, historien médiéviste Le lundi",
+      "address": "14 décembre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.ceder-provence.org/"
     },
-    "generated_at": "2026-09-26T09:03:51.927676+00:00",
+    "generated_at": "2026-09-26T09:16:26.353354+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
-    "hash": "0672a5c6dd53d1810ab5b8dfb709c8227c36643706a91efdd29a6f500fc8d82e",
+    "hash": "d8c71d44e88b24cac539bfe7da68616c33d692243445ec5d89a53af3772fb6ba",
     "slug": "dedicace-francoise-bourdon-2026-10-01",
     "event": {
       "title": "Dédicace Françoise Bourdon",
@@ -516,17 +516,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Guernica » de Pablo Picasso Conférence présentée par Sabine Schütz, historienne et critique d'art Le mercredi",
+      "address": "27 janvier 2027",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:52.146780+00:00",
+    "generated_at": "2026-09-26T09:16:26.582767+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
-    "hash": "2d697cdc4fc87fec46342ca76b7c61abea46807b63c1191a423ab59c145df0a0",
+    "hash": "21218de3ffba5d42b5a39f2c285910303278ff09c0e2381b8dccf01594b7aaca",
     "slug": "concert-bouda-omg-2026-10-02",
     "event": {
       "title": "Concert Bouda OMG !",
@@ -551,17 +551,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
-      "address": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
+      "location_name": "Patrimoine / Culture vivante Peter Pan ou l’Enfant Jamais D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons",
+      "address": "",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-26T09:03:52.399598+00:00",
+    "generated_at": "2026-09-26T09:16:26.873754+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
-    "hash": "6495df1b65891b96621fd38cdc9906eb3c48fcbdb01c7ea3976dc7088e994965",
+    "hash": "4005cb40c50071f75be15405961aea2af8cf58218bbe0daaf5004f1e2bb87c27",
     "slug": "grande-braderie-2026-10-02",
     "event": {
       "title": "Grande braderie",
@@ -586,17 +586,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "30 septembre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:52.608366+00:00",
+    "generated_at": "2026-09-26T09:16:27.097741+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
-    "hash": "62ccee8e7af848519e0e237f04d9ce9fbfe05999c1f08ef648754e682f795199",
+    "hash": "12d6a9896cce3a23e4562cfa464eb5f0a4cbfb334d08a7e2fd0503bc1ab000b5",
     "slug": "les-journees-nationales-des-artistes-a-nyons-2026-10-02",
     "event": {
       "title": "Les Journées Nationales des Artistes à Nyons",
@@ -623,17 +623,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante Journée de clôture des vendanges Journée de clôture des vendanges et « Vignoble en Scène » au domaine Rocheville Le samedi",
+      "address": "17 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://lesjourneesnationalesdesartistes.fr/site/jna2026/"
     },
-    "generated_at": "2026-09-26T09:03:52.822222+00:00",
+    "generated_at": "2026-09-26T09:16:27.331971+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
-    "hash": "5981483533cfb8431e49957c19dc6ac7ad80dd55552bebd99540a7728598722d",
+    "hash": "74fe1f91f7a1c7dda5331e522d3733353c808db9e1b6a6fb567099dba2f76d8d",
     "slug": "atelier-culinaire-risotto-panacotta-2026-10-03",
     "event": {
       "title": "Atelier culinaire – Risotto & panacotta",
@@ -660,17 +660,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le dimanche",
+      "address": "14 mars 2027",
       "phone": "",
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-09-26T09:03:53.036246+00:00",
+    "generated_at": "2026-09-26T09:16:27.557133+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
-    "hash": "58d3e17088b1e7851239e474225a02b0c9c2625f0b4452ff872b7677598a52f4",
+    "hash": "aae97eb8427f22d7a573050472009597286b828384eef9942ba506aec8456bed",
     "slug": "constellations-familiales-2026-10-03",
     "event": {
       "title": "Constellations familiales",
@@ -694,17 +694,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Cadre de vie , Solidarité / Santé , Vie associative Salon Vivre ici Etudier, travailler, habiter Le mercredi",
+      "address": "18 novembre 2026",
       "phone": "",
       "email": "",
       "website": "https://associationlepapillon.fr/"
     },
-    "generated_at": "2026-09-26T09:03:53.247836+00:00",
+    "generated_at": "2026-09-26T09:16:27.782437+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
-    "hash": "89d7909436f899b7f8bbcc91ac4238ebf6248e22b1ebeaf05d179312481c5df3",
+    "hash": "054b00ddf6a62285676d974065d68c3294b171b0aadddd15ac7649131f1c35ad",
     "slug": "atelier-thematique-sur-la-legislation-funeraire-2026-10-05",
     "event": {
       "title": "Atelier thématique sur la législation funéraire",
@@ -736,17 +736,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "07 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-26T09:03:53.467379+00:00",
+    "generated_at": "2026-09-26T09:16:28.017968+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
-    "hash": "bd4dde9c565a5dc7184451e6fff9d0c4b85fb60d6542570e747451598b3b8c2c",
+    "hash": "f366df7af769888349eb9ca9c36ffe0e6674b386404bc67519a49a1744b21550",
     "slug": "conference-de-luntl-sur-le-gres-turonien-de-venterol-2026-10-07",
     "event": {
       "title": "Conférence de l’UNTL sur « Le grès turonien de Venterol »",
@@ -772,17 +772,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
+      "location_name": "Patrimoine / Culture vivante On a perdu les clés du traîneau Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons",
       "address": "",
       "phone": "",
       "email": "",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-26T09:03:53.682761+00:00",
+    "generated_at": "2026-09-26T09:16:28.239205+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
-    "hash": "232a5241140a1e0da9d641dc3da88279bce7cd52fae78cf6a454623595430245",
+    "hash": "37554ff5d4d25aea1c707a6e81282d3bbba454b7377495418a217619b5f42f0a",
     "slug": "tsart-une-histoire-de-paradis-2026-10-07",
     "event": {
       "title": "« Ts’art : Une histoire de Paradis ! »",
@@ -808,17 +808,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Cadre de vie , Solidarité / Santé Marche pour le Climat Marche pour le Climat, le vivant, la paix et la justice sociale Le samedi",
+      "address": "26 septembre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:53.897096+00:00",
+    "generated_at": "2026-09-26T09:16:28.462842+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
-    "hash": "ad07dab09135d3e5a67c93b73492c9b1b12cebb3ed827dd06515154a6acf355b",
+    "hash": "27ddcd92566220a60e22a337e7e2c4f0d754f85ee4f3726d06cd6a3f0a13ede2",
     "slug": "a-vos-cartes-prets-jouez-2026-10-07",
     "event": {
       "title": "À vos cartes, prêts, jouez !",
@@ -844,17 +844,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
-      "address": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
+      "location_name": "Le jeudi",
+      "address": "08 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-26T09:03:54.114992+00:00",
+    "generated_at": "2026-09-26T09:16:28.685348+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
-    "hash": "df4eda8a03dd6bd3e38c6513e872d958e32a83abfeae18899b93490ce5874e95",
+    "hash": "22b616afd65589822a506090327fc01a6f48cb0788a9611b936f2fb95d5bbbd8",
     "slug": "atelier-culinaire-gnocchis-2026-10-08",
     "event": {
       "title": "Atelier culinaire – Gnocchis",
@@ -881,17 +881,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Essai de toponymie locale » Conférence présentée par Robert Gleize, agrégé de physique Le lundi",
+      "address": "04 janvier 2027",
       "phone": "",
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-09-26T09:03:54.331116+00:00",
+    "generated_at": "2026-09-26T09:16:28.912517+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
-    "hash": "a44e0eead9a920d93fd1e32b06212e4ade6b926a2d26d2d097e0ba9e247850e3",
+    "hash": "1c951d2a7e4d188afb8621a2d6ef8e360f0df31a4e5d9659bf256a5afb543ee1",
     "slug": "linstant-papillon-2026-10-08",
     "event": {
       "title": "L’instant Papillon",
@@ -915,17 +915,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi",
+      "address": "13 février 2027 Le samedi 13 février 2027",
       "phone": "",
       "email": "",
       "website": "https://associationlepapillon.fr/"
     },
-    "generated_at": "2026-09-26T09:03:54.550188+00:00",
+    "generated_at": "2026-09-26T09:16:29.143788+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
-    "hash": "78047a3a37621da85afe958f0e219ea40217cbaa832694a555fa062e039585c5",
+    "hash": "a9556a6430bf6d59a31a3f1c656a9adaa257ab240cda3e3755a9a4f63de2e185",
     "slug": "stands-sur-la-sante-mentale-2026-10-08",
     "event": {
       "title": "Stands sur la santé mentale",
@@ -949,17 +949,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante , Solidarité / Santé Exposition « Le réel et son double #",
+      "address": "2 » Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat Du mardi 20 octobre 2026 au samedi 31 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-26T09:03:54.818681+00:00",
+    "generated_at": "2026-09-26T09:16:29.419514+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
-    "hash": "51f9259579d04486a32c08b59fd68a8db89d52231e01b192459d4862084a9cb4",
+    "hash": "aeafa0b2a20668f93dd690fdb1c28c5d3feb71c83fb2febbe333cb59c1285657",
     "slug": "theatre-sur-la-sante-mentale-2026-10-08",
     "event": {
       "title": "Théâtre sur la santé mentale",
@@ -983,17 +983,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "05 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-26T09:03:55.037454+00:00",
+    "generated_at": "2026-09-26T09:16:29.646145+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
-    "hash": "98c4e3b3772462e25ebdb28a388ae92da21a4533e8e2c2f8885371aedf3f9822",
+    "hash": "87151ad7bcaac2b29781c3eb11a24e6b516e8c4530adbca9d211616f14c36e9b",
     "slug": "concert-de-demi-mondaine-2026-10-09",
     "event": {
       "title": "Concert de Demi Mondaine",
@@ -1018,17 +1018,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le vendredi",
+      "address": "19 février 2027",
       "phone": "",
       "email": "",
       "website": "https://labaronne.org/"
     },
-    "generated_at": "2026-09-26T09:03:55.258507+00:00",
+    "generated_at": "2026-09-26T09:16:29.873850+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
-    "hash": "39d2c92ba6f152d7f6fad53b4bd2e12730ab5966e658de3ab701d4a001fd4ee8",
+    "hash": "f17c5ea5a8fddd514579a9e48db28e13ca0a169c1af648bb54bc2ed9cdbea4d2",
     "slug": "lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09",
     "event": {
       "title": "Lectures par la MARPA de Rémuzat et Antoine Picard",
@@ -1054,17 +1054,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "24 mars 2027",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-26T09:03:55.480596+00:00",
+    "generated_at": "2026-09-26T09:16:30.101062+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
-    "hash": "947609139c3b10ead57d409ddcc5b81c2f8c4495afb6fdc9c52b81ed5dd7827b",
+    "hash": "4774a2dbffa4b5be6f28fd03b3f46484460aeb03500d81b78b1fc9acec80855d",
     "slug": "4-seasons-jam-2026-10-10",
     "event": {
       "title": "4 Seasons Jam",
@@ -1090,17 +1090,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le samedi",
+      "address": "10 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://4seasonsbikepark.fr/"
     },
-    "generated_at": "2026-09-26T09:03:55.698266+00:00",
+    "generated_at": "2026-09-26T09:16:30.326094+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
-    "hash": "d87c6c738f498971ded9f0a58e2e9f85376a557042376beaccb335cd4deec75f",
+    "hash": "2847689b0441d2ac18e447f12d369811cb345f12dd084667a6cd1959407df4fe",
     "slug": "atelier-jardin-zen-2026-10-10",
     "event": {
       "title": "Atelier Jardin Zen",
@@ -1127,17 +1127,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "14 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-26T09:03:55.914605+00:00",
+    "generated_at": "2026-09-26T09:16:30.551925+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
-    "hash": "917b9ffcb566c87bea42ff9aa7f9a1402a936b39f84a961c77ab9ebdd12ae535",
+    "hash": "c5c298d4776bdb24b633722b5a7f03311485d981d30cf81eec1425e902b0abf0",
     "slug": "atelier-yoga-du-chant-2026-10-10",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -1163,17 +1163,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le dimanche",
+      "address": "14 mars 2027",
       "phone": "",
       "email": "",
       "website": "https://ghischec.wixsite.com/amate"
     },
-    "generated_at": "2026-09-26T09:03:56.129201+00:00",
+    "generated_at": "2026-09-26T09:16:30.781581+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
-    "hash": "fd5c4408f463e52fb3b8e04d65e91eafe77643b229375c2327bab6e91bb23fdb",
+    "hash": "ea737c1420639e0270b48fa841918ded4b53750b48eab8f936c860f65aae06c9",
     "slug": "conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes-2026-10-10",
     "event": {
       "title": "Conférence-discussion sur les directives anticipées et les dernières volontés",
@@ -1197,17 +1197,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "05 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-26T09:03:56.344802+00:00",
+    "generated_at": "2026-09-26T09:16:31.004684+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
-    "hash": "03d25ee03055e52f4c5bf8a14dc1ca8881d059a38ce28638dd32bef49f9e7b91",
+    "hash": "8ed4aafca43a67577390cf3b23b4ae528cf7ecbaff8ea59891a720dbf1c3fa68",
     "slug": "constellations-familiales-2026-10-10",
     "event": {
       "title": "Constellations familiales",
@@ -1231,17 +1231,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le samedi",
+      "address": "03 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:56.564368+00:00",
+    "generated_at": "2026-09-26T09:16:31.228834+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
-    "hash": "de030940af9a0d81ec914511e1ce0b6ca277a0374ac2d558fb278d7364b211d9",
+    "hash": "1c41d2af2552dd0eb0cdc195ef90605e1a6c70dd0a05d18768ff30b51f19cb01",
     "slug": "fete-de-la-science-2026-excursion-a-venterol-avec-luntl-2026-10-10",
     "event": {
       "title": "Fête de la Science 2026 : excursion à Venterol avec l’UNTL",
@@ -1267,17 +1267,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le samedi",
+      "address": "26 septembre 2026",
       "phone": "",
       "email": "",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-26T09:03:56.785824+00:00",
+    "generated_at": "2026-09-26T09:16:31.455246+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
-    "hash": "b6b0972d8c9c933be98a4507673a5d9eb2e3a8dc249ad5bf80e329b4e2f95e5a",
+    "hash": "433d239f69da58d70db9ff3be25cca890ab8120878ee2a541ab13c427e61bf7a",
     "slug": "journee-decouverte-materiautheque-2026-10-10",
     "event": {
       "title": "Journée découverte Matériauthèque",
@@ -1302,17 +1302,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "24 mars 2027",
       "phone": "",
       "email": "",
       "website": "https://www.larboretum.co/projets/"
     },
-    "generated_at": "2026-09-26T09:03:56.997860+00:00",
+    "generated_at": "2026-09-26T09:16:31.681674+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
-    "hash": "ba6411ee53b3d11922d519090b9e1d7f7a787c8be061c155a960bd1350ed3133",
+    "hash": "286c483c3cf247b9ab293908234945d8ee6e691bfc8f4f7547c91924a08fc51f",
     "slug": "reprise-des-ateliers-yoga-du-chant-2026-10-10",
     "event": {
       "title": "Reprise des Ateliers Yoga du Chant",
@@ -1338,17 +1338,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
+      "location_name": "Sport / Loisirs , Vie associative Puces des couturières Puces des couturières du Comité des Fêtes et des Loisirs de Nyons",
       "address": "",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:57.262154+00:00",
+    "generated_at": "2026-09-26T09:16:31.977211+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
-    "hash": "aa72abb17f61629ede6f873a76098d3a2b4c13dfba2d1fd6e3af7d217d0c6337",
+    "hash": "7d3597a15eb73e61f87d93f6ae245393972bcde92d5d2cb23f7acaf5e7883273",
     "slug": "samedi-ca-me-dit-2026-10-10",
     "event": {
       "title": "Samedi, ça me dit !",
@@ -1374,17 +1374,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Du mardi",
+      "address": "22 septembre 2026 au dimanche 27 septembre 2026",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-26T09:03:57.477669+00:00",
+    "generated_at": "2026-09-26T09:16:32.203598+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
-    "hash": "02c1c377cfdf96f19f788ef5ac4bd83f889f6780323cc4ac9ada6082808bd462",
+    "hash": "639e9c7ba6cd6f1db0bd8f8d187f4d3b9dc1b4b08afa5b8f899f7e13499380b7",
     "slug": "spectacle-papillon-noir-2026-10-10",
     "event": {
       "title": "Spectacle « Papillon noir »",
@@ -1416,17 +1416,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "19 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-26T09:03:57.688162+00:00",
+    "generated_at": "2026-09-26T09:16:32.429750+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
-    "hash": "a8165cb094986657ee3028b08ca1e8b48c9fc30006ca7b501d9747c2494f2480",
+    "hash": "46313630a4bbd732fc73737c9840ba078956b9e03fac2b94f9cc42b8b59ec87d",
     "slug": "cine-debat-sur-ladamant-2026-10-11",
     "event": {
       "title": "Ciné-débat « Sur l’Adamant »",
@@ -1452,17 +1452,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante , Vie associative Conférence de l’UNTL sur « Sapienza Galiarda » Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire Le mercredi",
+      "address": "31 mars 2027",
       "phone": "",
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-26T09:03:57.903290+00:00",
+    "generated_at": "2026-09-26T09:16:32.661222+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
-    "hash": "847a381ef9fde103412ecd7b8a4e49a1685c83db9e5f4d5ab911d13aadb1354a",
+    "hash": "f6617bbee75401bcddc9d1be2e26c28e50f9c4ebbc47425c0189796f5e99c513",
     "slug": "cocktail-dimpro-2026-10-11",
     "event": {
       "title": "Cocktail d’impro",
@@ -1487,17 +1487,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le samedi",
+      "address": "06 février 2027",
       "phone": "",
       "email": "",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-26T09:03:58.119361+00:00",
+    "generated_at": "2026-09-26T09:16:32.886349+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
-    "hash": "c71f5f9d4c9b69363fe8c80add30db5ec6e1a3ce8b1027d4d7ae11a43f78d25c",
+    "hash": "cde535762e5d6d4f59b6f5173c78f1a7b3f1a3e764556fed84e0e44a6dfe5cc3",
     "slug": "une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11",
     "event": {
       "title": "« Une soirée à Vienne » : concert du « Page Blanche Quartet »",
@@ -1529,17 +1529,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Un voyage souvenir à travers la France Le mercredi",
+      "address": "07 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:58.337023+00:00",
+    "generated_at": "2026-09-26T09:16:33.114756+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
-    "hash": "c15624c8661647a513d205db7df3fde1df19d8413d38a4f9a152b5774ef925a4",
+    "hash": "91db0425a7686bb174174add4b434489b48eb49127bb2dae3842646950ed8ec9",
     "slug": "conference-de-luntl-sur-chagall-2026-10-12",
     "event": {
       "title": "Conférence de l’UNTL sur Chagall",
@@ -1567,11 +1567,11 @@
       "email": "agenda@untl.net",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-26T09:03:58.552088+00:00",
+    "generated_at": "2026-09-26T09:16:33.342419+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
-    "hash": "c1c4724600bceada3108a543e950a951986c0eab3831194412c5f9a04b578571",
+    "hash": "77329c3b107ed6a16a7289d49e55fb5c2caee24760c97c084a36beab6eaa748c",
     "slug": "atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13",
     "event": {
       "title": "Atelier sur les directives anticipées et dernières volontés",
@@ -1595,17 +1595,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le jeudi",
+      "address": "08 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-26T09:03:58.765467+00:00",
+    "generated_at": "2026-09-26T09:16:33.569183+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
-    "hash": "3b4553cd20332d4da73672cedd1f82d277ac62ce00071e68e702978f09450460",
+    "hash": "b648546b134840df490a340859324200de7199ee59a32a1c70db5601d62e83cb",
     "slug": "agriculture-en-surchauffe-on-en-parle-2026-10-14",
     "event": {
       "title": "Agriculture en surchauffe, on en parle ?",
@@ -1630,17 +1630,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante , Solidarité / Santé Lectures par la MARPA de Rémuzat et Antoine Picard Lectures par la MARPA de Rémuzat et Antoine Picard Le vendredi",
+      "address": "09 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:58.978467+00:00",
+    "generated_at": "2026-09-26T09:16:33.795054+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
-    "hash": "461c23e8930ac8be39b0f8a4f5eb138a721e1a6fec34679c2b9b4e50708d3d7d",
+    "hash": "a481f7704f27a50eb5ce692d6b11d46ee5e3b6676bb0c1d34e6e27eca1b4a19f",
     "slug": "les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel-2026-10-14",
     "event": {
       "title": "Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »",
@@ -1666,17 +1666,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Sport / Loisirs , Vie associative Atelier Yoga du Chant Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini, samedi",
+      "address": "9 janvier 2027 Le samedi 09 janvier 2027",
       "phone": "",
       "email": "",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-26T09:03:59.196196+00:00",
+    "generated_at": "2026-09-26T09:16:34.031106+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
-    "hash": "f13d9f00b9ca1c7799df7c36ba628e14c971c59c10f36610a7f89beffdb5a3ec",
+    "hash": "2816b5f06d335e445ed5c3bae52e3218894c00a2fd4ef9fe8ef9e6a5e7a287c5",
     "slug": "stands-sur-la-sante-mentale-et-mad-pride-2026-10-15",
     "event": {
       "title": "Stands sur la santé mentale et « Mad Pride »",
@@ -1701,17 +1701,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "26 avril 2027",
       "phone": "",
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-26T09:03:59.409971+00:00",
+    "generated_at": "2026-09-26T09:16:34.266734+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
-    "hash": "1dcc3e07bf64b4d7600e6b953c25c4a6ded5c15ae7f320294d496201d81cfee9",
+    "hash": "bd98694825216f576b574a760c8581f945743fe1e4895733436a28f2c022ec8c",
     "slug": "atelier-sur-les-rituels-funeraires-2026-10-16",
     "event": {
       "title": "Atelier sur les rituels funéraires",
@@ -1735,17 +1735,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le lundi",
+      "address": "19 octobre 2026",
       "phone": "",
       "email": "",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-26T09:03:59.667010+00:00",
+    "generated_at": "2026-09-26T09:16:34.559877+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
-    "hash": "d0ccc7547f0181577b60d53bff50301f99d5a0d3f148fd26618d12f5b5dda3d6",
+    "hash": "771cb2bfca600800ef13ff6116cb97427b92d1b8e41ade9c994ce0b0789ef209",
     "slug": "soiree-de-presentation-de-nyons-en-scene-2026-10-16",
     "event": {
       "title": "Soirée de présentation de « Nyons en scène »",
@@ -1770,17 +1770,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Patrimoine / Culture vivante , Sport / Loisirs Atelier culinaire – Risotto & panacotta Atelier culinaire Italien \"Risotto & Panacotta\" Le samedi",
+      "address": "03 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:03:59.881826+00:00",
+    "generated_at": "2026-09-26T09:16:34.788469+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
-    "hash": "b0cef0cf552451210df7fa98ac489be9d53d93bd1c20b0839846ebb194454d64",
+    "hash": "667060686794f79186d51ae2e35f0a74c824791d26109b3c2becb27a3c9f5621",
     "slug": "atelier-dart-therapie-2026-10-17",
     "event": {
       "title": "Atelier d’Art-Thérapie",
@@ -1806,17 +1806,17 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Le mercredi",
+      "address": "17 mars 2027",
       "phone": "",
       "email": "",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-26T09:04:00.394759+00:00",
+    "generated_at": "2026-09-26T09:16:35.015851+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
-    "hash": "7eed6b538d65661930dccdd7c5d18223be1866a7a4e5eff2c7f1e611d5332eea",
+    "hash": "06df22aae29fee4c027b12bf450a25cb62c1699037e5b9e6023e6766146c131e",
     "slug": "journee-de-cloture-des-vendanges-2026-10-17",
     "event": {
       "title": "Journée de clôture des vendanges",
@@ -1848,13 +1848,13 @@
     },
     "practical": {
       "date_time": "",
-      "location_name": "",
-      "address": "",
+      "location_name": "Concert Bouda OMG",
+      "address": "Dispositif Miz’Ampli Le vendredi 02 octobre 2026",
       "phone": "",
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-26T09:04:00.817024+00:00",
+    "generated_at": "2026-09-26T09:16:35.245555+00:00",
     "model": "gpt-5.6-terra"
   }
 }
