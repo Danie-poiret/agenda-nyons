@@ -49,8 +49,10 @@ TIMEOUT = 25
 SEO_WEEKS_AHEAD = 12
 ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
+EVENT_DETAIL_PARSER_VERSION = 2
+PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
-EVENT_PROMPT_VERSION = 4
+EVENT_PROMPT_VERSION = 5
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -497,8 +499,20 @@ def event_facts(event, detail_text="", practical=None):
 
 
 def event_hash(event, detail_text="", practical=None):
+    # IMPORTANT :
+    # Les infos pratiques (horaire, téléphone, adresse, email, site)
+    # ne déclenchent PAS une nouvelle génération GPT.
+    # Elles sont affichées directement dans le HTML.
     payload = {
-        "event": event_facts(event, detail_text, practical),
+        "event": {
+            "title": event["title"],
+            "start_date": event["start_date"],
+            "end_date": event["end_date"],
+            "categories": event.get("categories") or [],
+            "summary_source": clean(event.get("summary", ""))[:700],
+            "detail_source": clean(detail_text)[:4200],
+            "official_url": event["url"],
+        },
         "prompt_version": EVENT_PROMPT_VERSION,
         "model": OPENAI_MODEL,
     }
@@ -547,9 +561,12 @@ def _jsonld_objects(soup):
 
 def extract_event_detail_data(html_text: str, source_url: str):
     """
-    Extrait uniquement le bloc de l'événement :
-    dates/horaires, lieu, adresse, téléphone, email et site organisateur.
-    Évite les blocs 'événements similaires', abonnement et coordonnées mairie.
+    Extrait strictement les infos pratiques du bloc événement :
+    horaires, lieu/adresse, email, téléphone, site organisateur.
+    Compatible avec des lignes comme :
+    - "Vendredi 09 octobre 2026 de 16h00 à 18h00"
+    - "Médiathèque 9 rue Albin Vilhet, à Nyons"
+    - "Maison ... - 40 place ..., 26110 Nyons"
     """
     soup = BeautifulSoup(html_text, "html.parser")
 
@@ -562,7 +579,7 @@ def extract_event_detail_data(html_text: str, source_url: str):
         "website": "",
     }
 
-    # JSON-LD Event si disponible.
+    # JSON-LD si disponible : on s'en sert comme aide, pas comme seule source.
     json_event = {}
     for obj in _jsonld_objects(soup):
         obj_type = obj.get("@type")
@@ -585,16 +602,15 @@ def extract_event_detail_data(html_text: str, source_url: str):
         elif isinstance(address, str):
             practical["address"] = clean(address)
 
-    # Nettoyage du DOM.
+    # Nettoyage DOM.
     for tag in soup(["script", "style", "noscript", "svg"]):
         tag.decompose()
 
     root = soup.find("main") or soup.find("article") or soup.body or soup
-
     raw_lines = [clean(x) for x in root.get_text("\n", strip=True).splitlines()]
     lines = [x for x in raw_lines if x]
 
-    # Coupe AVANT les recommandations / abonnement / pied de page.
+    # On isole le vrai bloc événement.
     stop_markers = (
         "ces événements pourraient vous intéresser",
         "ces evenements pourraient vous interesser",
@@ -604,15 +620,17 @@ def extract_event_detail_data(html_text: str, source_url: str):
         "mairie de nyons",
     )
 
+    h1 = soup.find("h1")
+    h1_text = clean(h1.get_text(" ", strip=True)) if h1 else ""
+
     event_lines = []
     started = False
 
     for line in lines:
         low = line.lower()
 
-        # Commence au H1 / titre de fiche, ou à défaut au premier contenu daté.
         if not started:
-            if soup.find("h1") and clean(soup.find("h1").get_text(" ", strip=True)) == line:
+            if h1_text and line == h1_text:
                 started = True
             elif re.search(r"\b20\d{2}\b", line):
                 started = True
@@ -625,58 +643,110 @@ def extract_event_detail_data(html_text: str, source_url: str):
 
         event_lines.append(line)
 
-    # Sécurité : si le découpage a raté, prend seulement les premières lignes utiles.
     if len(event_lines) < 3:
         event_lines = lines[:80]
 
     joined = "\n".join(event_lines)
 
-    # 1) Date + horaires complets.
+    # ------------------------------------------------------------
+    # 1) HORAIRES
+    # Accepte lundi...dimanche, "Du ...", "Le ...", etc.
+    # ------------------------------------------------------------
+    weekday_re = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
     date_candidates = []
+
     for line in event_lines:
         low = line.lower()
         has_month = any(month in low for month in MONTHS)
         has_year = bool(re.search(r"\b20\d{2}\b", line))
         has_time = bool(re.search(r"\b\d{1,2}\s*h\s*\d{2}\b", low))
-        looks_range = low.startswith("du ") or low.startswith("le ") or " au " in low
+        begins_like_date = bool(
+            re.match(rf"^(?:du\s+|le\s+)?{weekday_re}\b", low)
+            or re.match(r"^(?:du\s+|le\s+)?\d{1,2}\s+", low)
+        )
 
-        if has_month and has_year and has_time and looks_range:
+        if has_month and has_year and has_time and begins_like_date:
             date_candidates.append(line)
 
     if date_candidates:
         practical["date_time"] = max(date_candidates, key=len)[:320]
 
-    # 2) Lieu + adresse.
-    address_line = ""
-    for line in event_lines:
-        if re.search(r"\b26110\b", line) and re.search(r"\bnyons\b", line, re.I):
-            address_line = line
-            break
+    # ------------------------------------------------------------
+    # 2) LIEU / ADRESSE
+    # Priorité à la ligne juste après les horaires.
+    # Elle peut ne PAS contenir 26110.
+    # ------------------------------------------------------------
+    date_idx = None
+    if practical["date_time"]:
+        for i, line in enumerate(event_lines):
+            if line == practical["date_time"]:
+                date_idx = i
+                break
 
-    if address_line:
-        # Cas réel Nyons :
-        # "Maison ... - 40 place de la Libération, 26110 Nyons"
-        if " - " in address_line:
-            left, right = address_line.split(" - ", 1)
-            if not practical["location_name"]:
-                practical["location_name"] = clean(left)
-            if not practical["address"]:
-                practical["address"] = clean(right)
+    candidate_location_line = ""
+
+    if date_idx is not None:
+        for line in event_lines[date_idx + 1:date_idx + 6]:
+            low = line.lower()
+
+            if re.search(r"@", line):
+                continue
+            if re.fullmatch(
+                r"(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}",
+                line
+            ):
+                continue
+            if re.match(r"^https?://", line, re.I):
+                continue
+            if "nyons" in low:
+                candidate_location_line = line
+                break
+
+    # Secours : première ligne contenant Nyons dans le bloc, après le titre.
+    if not candidate_location_line:
+        for line in event_lines:
+            if "nyons" in line.lower():
+                if line == h1_text:
+                    continue
+                if re.search(r"\b20\d{2}\b", line):
+                    continue
+                candidate_location_line = line
+                break
+
+    if candidate_location_line:
+        # Forme : "Maison ... - 40 place ..., 26110 Nyons"
+        if " - " in candidate_location_line:
+            left, right = candidate_location_line.split(" - ", 1)
+            practical["location_name"] = clean(left)
+            practical["address"] = clean(right)
         else:
-            if not practical["address"]:
-                practical["address"] = clean(address_line)
+            # Forme : "Médiathèque 9 rue Albin Vilhet, à Nyons"
+            # On sépare le nom du lieu de l'adresse dès le premier numéro de voie.
+            m = re.search(r"\b\d+\s+", candidate_location_line)
+            if m:
+                practical["location_name"] = clean(candidate_location_line[:m.start()])
+                practical["address"] = clean(candidate_location_line[m.start():])
+            else:
+                # Si on ne peut pas séparer proprement, on garde la ligne entière en lieu.
+                if not practical["location_name"]:
+                    practical["location_name"] = clean(candidate_location_line)
+                if not practical["address"]:
+                    practical["address"] = clean(candidate_location_line)
 
-    # 3) Email : priorité au TEXTE visible, car le mailto du site Nyons
-    # peut être un lien de partage sans l'adresse dans href.
-    m = re.search(
+    # ------------------------------------------------------------
+    # 3) EMAIL : texte visible prioritaire.
+    # ------------------------------------------------------------
+    email_match = re.search(
         r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b",
         joined,
         re.I,
     )
-    if m:
-        practical["email"] = clean(m.group(0))
+    if email_match:
+        practical["email"] = clean(email_match.group(0))
 
-    # 4) Téléphone : cherche uniquement AVANT la zone recommandations/mairie.
+    # ------------------------------------------------------------
+    # 4) TÉLÉPHONE : uniquement dans le bloc événement.
+    # ------------------------------------------------------------
     phone_matches = re.findall(
         r"(?<!\d)(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}(?!\d)",
         joined,
@@ -684,19 +754,17 @@ def extract_event_detail_data(html_text: str, source_url: str):
     if phone_matches:
         practical["phone"] = clean(phone_matches[0])
 
-    # 5) Site organisateur externe.
-    # On filtre nyons.com, réseaux sociaux et liens techniques.
+    # ------------------------------------------------------------
+    # 5) SITE ORGANISATEUR / ÉQUIPEMENT.
+    # ------------------------------------------------------------
     blocked = (
         "nyons.com", "facebook.com", "instagram.com",
         "twitter.com", "x.com", "youtube.com", "6tematik.fr",
     )
 
-    # Domaines visibles dans le bloc événement : très fiable.
-    visible_urls = re.findall(
-        r"https?://[^\s<>\"]+",
-        joined,
-        re.I,
-    )
+    # D'abord URL visible dans les lignes du bloc.
+    visible_urls = re.findall(r"https?://[^\s<>\"]+", joined, re.I)
+
     for candidate in visible_urls:
         candidate = candidate.rstrip(").,;]")
         parsed = urlparse(candidate)
@@ -708,7 +776,8 @@ def extract_event_detail_data(html_text: str, source_url: str):
         practical["website"] = candidate
         break
 
-    # Si le texte rendu ne contient pas l'URL brute, cherche dans les <a>.
+    # Sinon on regarde les ancres, mais uniquement celles dont le libellé
+    # correspond au domaine/site affiché.
     if not practical["website"]:
         for a in soup.find_all("a", href=True):
             href = clean(a.get("href", ""))
@@ -725,17 +794,13 @@ def extract_event_detail_data(html_text: str, source_url: str):
                 continue
             if any(host == b or host.endswith("." + b) for b in blocked):
                 continue
-
-            # Évite PDF / documents et liens sans rapport.
             if parsed.path.lower().endswith((".pdf", ".jpg", ".jpeg", ".png", ".webp")):
                 continue
 
-            # Préfère les liens dont le libellé ressemble à une URL/site.
             if "http" in label.lower() or "." in label:
                 practical["website"] = absolute
                 break
 
-    # Texte destiné à GPT = uniquement le bloc événement, sans recommandations ni mairie.
     detail_text = clean(" ".join(event_lines))[:5200]
 
     return {
@@ -752,14 +817,19 @@ def get_event_detail(session, event, detail_cache):
     practical_complete_enough = (
         isinstance(cached_practical, dict)
         and bool(cached_practical.get("date_time"))
-        and bool(cached_practical.get("address"))
-        and bool(cached_practical.get("phone"))
+        and bool(cached_practical.get("location_name") or cached_practical.get("address"))
+        and bool(cached_practical.get("phone") or cached_practical.get("email"))
+    )
+
+    parser_is_current = (
+        cached.get("parser_version") == EVENT_DETAIL_PARSER_VERSION
     )
 
     if (
         cached.get("text")
         and detail_cache_fresh(cached)
         and practical_complete_enough
+        and parser_is_current
     ):
         return {
             "text": cached.get("text", ""),
@@ -780,6 +850,7 @@ def get_event_detail(session, event, detail_cache):
         detail_cache[key] = {
             "text": detail,
             "practical": practical,
+            "parser_version": EVENT_DETAIL_PARSER_VERSION,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
         }
 
@@ -1119,17 +1190,26 @@ def generate_event_pages(events):
         digest = event_hash(event, detail, practical)
         cached = event_cache.get(event["url"], {})
 
-        if (
-            cached.get("hash") == digest
-            and cached.get("editorial")
+        has_good_cached_editorial = (
+            cached.get("editorial")
             and not cached.get("editorial", {}).get("_fallback", False)
-        ):
+        )
+
+        if has_good_cached_editorial:
             editorial = cached["editorial"]
-            print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
+            if cached.get("hash") == digest:
+                print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
+            else:
+                print(
+                    f"FICHE {idx:02d}/50: infos pratiques/détails actualisés, "
+                    f"texte GPT conservé — {event['title']}"
+                )
+
         elif ai_calls < MAX_EVENT_AI_CALLS:
             editorial = generate_event_editorial(event, detail, practical)
             ai_calls += 1
             print(f"FICHE {idx:02d}/50: contenu éditorial généré — {event['title']}")
+
         else:
             editorial = cached.get("editorial") or fallback_event_editorial(event)
             print(f"FICHE {idx:02d}/50: limite API atteinte, texte conservé/secours — {event['title']}")
