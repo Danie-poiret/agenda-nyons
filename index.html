@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="fr">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,22 +10,14 @@
         content="Agenda de Nyons 2026 : découvrez les prochains événements, sorties, marchés, fêtes, pétanque, expositions, concerts et animations à Nyons dans la Drôme provençale.">
 
   <meta name="robots" content="index,follow">
-
   <link rel="canonical" href="https://agenda.vivreanyons.fr/">
 
-  <meta property="og:title"
-        content="Agenda Nyons 2026 : sorties et événements">
-
-  <meta property="og:description"
-        content="Que faire à Nyons ? Retrouvez les prochains événements, animations, marchés, fêtes, pétanque, expositions et sorties.">
-
+  <meta property="og:title" content="Agenda Nyons 2026 : sorties et événements">
+  <meta property="og:description" content="Que faire à Nyons ? Retrouvez les prochains événements, animations, marchés, fêtes, pétanque, expositions et sorties.">
   <meta property="og:type" content="website">
-
-  <meta property="og:url"
-        content="https://agenda.vivreanyons.fr/">
+  <meta property="og:url" content="https://agenda.vivreanyons.fr/">
 
   <style>
-
     :root{
       --bg:#f5f1e9;
       --paper:#fffdf8;
@@ -38,28 +29,16 @@
       --shadow:0 8px 28px rgba(55,42,27,.10);
     }
 
-    *{
-      box-sizing:border-box;
-    }
+    *{box-sizing:border-box}
 
     body{
       margin:0;
-      background:
-        linear-gradient(180deg,#ece3d5 0,#f7f3ec 440px);
+      background:linear-gradient(180deg,#ece3d5 0,#f7f3ec 440px);
       color:var(--ink);
-      font-family:
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Arial,
-        sans-serif;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
     }
 
-    a{
-      color:inherit;
-    }
+    a{color:inherit}
 
     .wrap{
       max-width:1080px;
@@ -146,9 +125,7 @@
       border:0;
     }
 
-    section{
-      margin-top:22px;
-    }
+    section{margin-top:22px}
 
     .box{
       background:var(--paper);
@@ -184,9 +161,7 @@
       box-shadow:0 4px 14px rgba(0,0,0,.05);
     }
 
-    .card-icon{
-      font-size:2rem;
-    }
+    .card-icon{font-size:2rem}
 
     .card h2{
       margin:.4rem 0 .5rem;
@@ -206,9 +181,7 @@
       text-decoration:none;
     }
 
-    .card-link:hover{
-      text-decoration:underline;
-    }
+    .card-link:hover{text-decoration:underline}
 
     .events{
       display:grid;
@@ -238,14 +211,25 @@
       margin:.4rem 0 .5rem;
     }
 
+    .event-links{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+
     .event a{
       color:var(--accent);
       font-weight:800;
       text-decoration:none;
     }
 
-    .event a:hover{
-      text-decoration:underline;
+    .event a:hover{text-decoration:underline}
+
+    .source-link{
+      color:var(--muted)!important;
+      font-weight:700!important;
+      font-size:.92rem;
     }
 
     .more{
@@ -266,44 +250,22 @@
       margin-top:28px;
     }
 
-    footer a{
-      color:var(--accent);
-    }
+    footer a{color:var(--accent)}
 
     @media(max-width:720px){
-
-      .cards,
-      .events{
-        grid-template-columns:1fr;
-      }
-
-      header{
-        padding:29px 17px;
-      }
-
-      .btn{
-        width:100%;
-      }
-
-      .banner iframe{
-        height:160px;
-      }
-
+      .cards,.events{grid-template-columns:1fr}
+      header{padding:29px 17px}
+      .btn{width:100%}
+      .banner iframe{height:160px}
     }
-
   </style>
-
 </head>
 
 <body>
-
 <main class="wrap">
 
   <header>
-
-    <div class="eyebrow">
-      SORTIES • CULTURE • LOISIRS • VIE LOCALE
-    </div>
+    <div class="eyebrow">SORTIES • CULTURE • LOISIRS • VIE LOCALE</div>
 
     <h1>AGENDA DE NYONS</h1>
 
@@ -314,137 +276,112 @@
     </p>
 
     <div class="buttons">
-
-      <a class="btn btn-main"
-         href="/evenements/">
-         📅 Les 50 prochains événements
-      </a>
-
-      <a class="btn"
-         href="/semaines/">
-         🗓️ Agenda par semaine
-      </a>
-
+      <a class="btn btn-main" href="/evenements/">📅 Les 50 prochains événements</a>
+      <a class="btn" href="/semaines/">🗓️ Agenda par semaine</a>
+      <a class="btn" href="https://www.vivreanyons.fr/">🏡 Vivre à Nyons</a>
     </div>
-
   </header>
 
-
-  <!-- BANNIERE PUBLICITAIRE -->
-
   <div class="banner">
-
     <iframe
       src="https://danie-poiret.github.io/banniere-nyons/"
       title="Livres anciens et souvenirs de Nyons"
       loading="lazy">
     </iframe>
-
   </div>
 
-
   <section class="box">
-
     <h2>Que faire à Nyons ?</h2>
 
     <p>
       À Nyons, il se passe quelque chose presque toute l’année.
       Marchés, expositions, concerts, rencontres, fêtes traditionnelles,
       concours de pétanque, manifestations sportives ou animations
-      dans les rues : cet agenda permet de retrouver facilement
-      les prochains rendez-vous.
+      dans les rues : cet agenda permet de retrouver facilement les prochains rendez-vous.
     </p>
 
     <p>
-      Chaque événement dispose désormais de sa propre fiche,
-      avec les informations disponibles, les dates,
-      les détails pratiques et un lien vers la source officielle
-      lorsque vous souhaitez vérifier les dernières informations.
+      Chaque événement dispose de sa propre fiche avec les informations disponibles,
+      les dates, les détails pratiques et un lien vers la source officielle.
     </p>
 
     <p>
       Vous préparez un séjour dans la Drôme provençale,
       un week-end à Nyons ou vous habitez simplement dans le secteur ?
-      Cette page vous permet de voir rapidement ce qui est prévu
-      aujourd’hui et dans les semaines à venir.
+      Cette page vous permet de voir rapidement ce qui est prévu aujourd’hui et dans les semaines à venir.
     </p>
-
   </section>
-
 
   <section class="cards">
-
     <article class="card">
-
       <div class="card-icon">🔥</div>
-
       <h2>50 prochains événements</h2>
-
-      <p>
-        Les rendez-vous à venir classés par date,
-        avec une fiche détaillée pour chaque événement.
-      </p>
-
-      <a class="card-link"
-         href="/evenements/">
-         Voir les prochains événements →
-      </a>
-
+      <p>Les rendez-vous à venir classés par date, avec une fiche détaillée pour chaque événement.</p>
+      <a class="card-link" href="/evenements/">Voir les prochains événements →</a>
     </article>
-
 
     <article class="card">
-
       <div class="card-icon">📆</div>
-
       <h2>Agenda semaine par semaine</h2>
-
-      <p>
-        Idéal pour préparer votre week-end :
-        retrouvez les événements regroupés semaine par semaine.
-      </p>
-
-      <a class="card-link"
-         href="/semaines/">
-         Voir les semaines →
-      </a>
-
+      <p>Idéal pour préparer votre week-end : retrouvez les événements regroupés semaine par semaine.</p>
+      <a class="card-link" href="/semaines/">Voir les semaines →</a>
     </article>
-
   </section>
 
-
   <section class="box">
-
     <h2>📍 Les prochains rendez-vous à Nyons</h2>
 
     <p>
       Voici quelques-uns des prochains événements.
-      La liste complète est disponible dans notre agenda.
+      Cliquez sur un rendez-vous pour ouvrir notre fiche détaillée.
     </p>
 
     <div id="events" class="events">
-
-      <div class="event">
-        Chargement des prochains événements…
-      </div>
-
+      <div class="event">Chargement des prochains événements…</div>
     </div>
 
     <div class="more">
-
-      <a class="btn btn-main"
-         href="/evenements/">
-         Voir les 50 prochains événements
-      </a>
-
+      <a class="btn btn-main" href="/evenements/">Voir les 50 prochains événements</a>
     </div>
-
   </section>
 
+  <section class="box">
+    <h2>🌿 Découvrir Nyons au-delà de l’agenda</h2>
+
+    <p>
+      Vous préparez une journée, un week-end ou un séjour à Nyons ?
+      Retrouvez aussi sur <a href="https://www.vivreanyons.fr/"><strong>Vivre à Nyons</strong></a>
+      des idées de balades, le patrimoine, le marché, les bonnes adresses et la vie locale.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-icon">🏡</div>
+        <h2>Vivre à Nyons</h2>
+        <p>
+          Le guide principal pour découvrir la ville, ses lieux emblématiques,
+          son art de vivre et les informations utiles au quotidien.
+        </p>
+        <a class="card-link" href="https://www.vivreanyons.fr/">
+          Découvrir Vivre à Nyons →
+        </a>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">☀️</div>
+        <h2>Que faire à Nyons ?</h2>
+        <p>
+          Marché, Pont Roman, balades, patrimoine, visites et idées de sorties :
+          retrouvez le guide pour profiter de Nyons en dehors des événements.
+        </p>
+        <a class="card-link" href="https://www.vivreanyons.fr/que-faire-nyons">
+          Voir les idées à Nyons →
+        </a>
+      </article>
+    </div>
+  </section>
 
   <section class="box local">
-
     <h2>💜 Nyons, toute l’année</h2>
 
     <p>
@@ -457,41 +394,76 @@
       Revenez régulièrement : l’agenda est actualisé automatiquement
       lorsque de nouveaux rendez-vous sont publiés.
     </p>
-
   </section>
 
-
   <footer>
-
-    Agenda indépendant consacré aux événements de Nyons.
-
-    <br>
+    Agenda indépendant consacré aux événements de Nyons.<br>
 
     Les informations sont notamment issues de
-    <a href="https://www.nyons.com/sorties-actus/agenda/"
-       target="_blank"
-       rel="noopener">
+    <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">
       l’agenda officiel de la Ville de Nyons
-    </a>.
-
-    <br>
+    </a>.<br>
 
     Les horaires, tarifs et programmes pouvant évoluer,
-    vérifiez la fiche officielle avant votre déplacement.
+    vérifiez la fiche officielle lorsque cela est nécessaire.<br>
 
+    Pour découvrir la ville, ses balades, son patrimoine et sa vie locale :
+    <a href="https://www.vivreanyons.fr/">Vivre à Nyons</a>.
   </footer>
 
 </main>
 
-
 <script>
+function slugifyEvent(text){
+  return String(text || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g,"-")
+    .replace(/^-+|-+$/g,"")
+    .slice(0,82)
+    .replace(/-+$/,"");
+}
+
+function localEventUrl(event){
+  const title = event.title || event.titre || event.name || "";
+  const startDate = event.start_date || event.date || "";
+
+  if(!title || !startDate){
+    return "/evenements/";
+  }
+
+  return `/evenements/${slugifyEvent(title)}-${startDate}/`;
+}
+
+function escapeHtml(value){
+  return String(value || "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
+
+function escapeAttribute(value){
+  return escapeHtml(value);
+}
+
+function formatDate(event){
+  if(event.date_label) return event.date_label;
+  if(event.dates) return event.dates;
+
+  if(event.start_date && event.end_date && event.start_date !== event.end_date){
+    return `${event.start_date} → ${event.end_date}`;
+  }
+
+  return event.start_date || event.date || "";
+}
 
 async function loadEvents(){
-
   const zone = document.getElementById("events");
 
   try{
-
     const response = await fetch("/agenda.json?cache=" + Date.now());
 
     if(!response.ok){
@@ -500,21 +472,13 @@ async function loadEvents(){
 
     const data = await response.json();
 
-    /*
-      Le fichier agenda.json peut être soit :
-      - un tableau [...]
-      - soit un objet contenant events / evenements
-    */
-
     let events = [];
 
     if(Array.isArray(data)){
       events = data;
-    }
-    else if(Array.isArray(data.events)){
+    } else if(Array.isArray(data.events)){
       events = data.events;
-    }
-    else if(Array.isArray(data.evenements)){
+    } else if(Array.isArray(data.evenements)){
       events = data.evenements;
     }
 
@@ -522,122 +486,78 @@ async function loadEvents(){
       throw new Error("Aucun événement");
     }
 
+    const today = new Date();
+    today.setHours(0,0,0,0);
 
-    /*
-      On prend uniquement quelques événements
-      pour garder une page d'accueil légère.
-    */
+    const upcoming = events.filter(event => {
+      const endRaw = event.end_date || event.start_date || event.date;
 
-    const selected = events.slice(0,6);
-
-    zone.innerHTML = "";
-
-
-    selected.forEach((event) => {
-
-      const title =
-        event.title ||
-        event.titre ||
-        event.name ||
-        "Événement à Nyons";
-
-      const date =
-        event.date_label ||
-        event.date ||
-        event.dates ||
-        event.start_date ||
-        "";
-
-      /*
-        Si update_agenda.py fournit déjà une URL locale,
-        on l'utilise.
-
-        Sinon, on renvoie vers la page des 50 événements,
-        JAMAIS directement vers nyons.com.
-      */
-
-      let url =
-        event.local_url ||
-        event.page_url ||
-        event.internal_url ||
-        event.slug_url ||
-        "/evenements/";
-
-      if(
-        !url ||
-        url.includes("nyons.com") ||
-        url.startsWith("http")
-      ){
-        url = "/evenements/";
+      if(!endRaw){
+        return true;
       }
 
-      const card = document.createElement("article");
+      const end = new Date(endRaw + "T23:59:59");
+      return isNaN(end.getTime()) || end >= today;
+    });
 
+    const selected = upcoming.slice(0,6);
+    zone.innerHTML = "";
+
+    selected.forEach((event) => {
+      const title = event.title || event.titre || event.name || "Événement à Nyons";
+      const date = formatDate(event);
+      const localUrl = localEventUrl(event);
+      const officialUrl = event.url || event.official_url || "";
+
+      const card = document.createElement("article");
       card.className = "event";
+
+      let officialLink = "";
+
+      if(officialUrl){
+        officialLink = `
+          <a class="source-link"
+             href="${escapeAttribute(officialUrl)}"
+             target="_blank"
+             rel="noopener">
+            Source officielle ↗
+          </a>
+        `;
+      }
 
       card.innerHTML = `
         <div class="event-date">${escapeHtml(date)}</div>
 
-        <h3>${escapeHtml(title)}</h3>
+        <h3>
+          <a href="${escapeAttribute(localUrl)}">
+            ${escapeHtml(title)}
+          </a>
+        </h3>
 
-        <a href="${escapeAttribute(url)}">
-          Voir la fiche →
-        </a>
+        <div class="event-links">
+          <a href="${escapeAttribute(localUrl)}">
+            Lire notre fiche →
+          </a>
+          ${officialLink}
+        </div>
       `;
 
       zone.appendChild(card);
-
     });
 
-  }
-  catch(error){
-
+  } catch(error){
     zone.innerHTML = `
       <article class="event">
-
         <h3>Les prochains événements</h3>
-
-        <p>
-          Retrouvez toutes les prochaines sorties
-          dans notre agenda de Nyons.
-        </p>
-
-        <a href="/evenements/">
-          Voir les 50 prochains événements →
-        </a>
-
+        <p>Retrouvez toutes les prochaines sorties dans notre agenda de Nyons.</p>
+        <a href="/evenements/">Voir les 50 prochains événements →</a>
       </article>
     `;
-
   }
-
 }
-
-
-function escapeHtml(value){
-
-  return String(value || "")
-    .replace(/&/g,"&amp;")
-    .replace(/</g,"&lt;")
-    .replace(/>/g,"&gt;")
-    .replace(/"/g,"&quot;")
-    .replace(/'/g,"&#039;");
-
-}
-
-
-function escapeAttribute(value){
-
-  return escapeHtml(value);
-
-}
-
 
 loadEvents();
-
 </script>
-
 
 </body>
 </html>
-
