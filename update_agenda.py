@@ -49,7 +49,7 @@ TIMEOUT = 25
 SEO_WEEKS_AHEAD = 12
 ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
-EVENT_DETAIL_PARSER_VERSION = 6
+EVENT_DETAIL_PARSER_VERSION = 7
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
 EVENT_PROMPT_VERSION = 10
@@ -556,13 +556,15 @@ def _jsonld_objects(soup):
 
 def extract_event_detail_data(html_text: str, source_url: str):
     """
-    Extraction fiable des informations pratiques.
+    Extraction robuste des informations pratiques depuis la page officielle.
 
-    Principe :
-    1. on commence STRICTEMENT au H1 de l'événement ;
-    2. on s'arrête AVANT "Ces événements pourraient vous intéresser" ;
-    3. les horaires, lieu, adresse et contacts sont extraits uniquement
-       dans ce bloc, jamais dans le menu, le footer ou un autre événement.
+    Méthode :
+    - on convertit la page en lignes propres ;
+    - on repère le titre exact de la fiche ;
+    - on prend le bloc qui suit ce titre ;
+    - on coupe AVANT les recommandations / footer ;
+    - on extrait horaires, lieu, adresse, téléphone, email et site
+      uniquement dans ce bloc.
     """
     soup = BeautifulSoup(html_text, "html.parser")
 
@@ -578,61 +580,69 @@ def extract_event_detail_data(html_text: str, source_url: str):
     for tag in soup(["script", "style", "noscript", "svg"]):
         tag.decompose()
 
-    root = soup.find("main") or soup.find("article") or soup.body or soup
-
-    raw_lines = [
-        clean(x.replace("\xa0", " "))
-        for x in root.get_text("\n", strip=True).splitlines()
-    ]
-    lines = [x for x in raw_lines if x]
-
     h1 = soup.find("h1")
-    h1_text = clean(h1.get_text(" ", strip=True)) if h1 else ""
+    title = clean(h1.get_text(" ", strip=True)) if h1 else ""
 
+    # Texte visible complet, ligne par ligne.
+    full_lines = [
+        clean(x.replace("\xa0", " "))
+        for x in soup.get_text("\n", strip=True).splitlines()
+    ]
+    full_lines = [x for x in full_lines if x]
+
+    # Marqueurs de fin.
     stop_markers = (
         "ces événements pourraient vous intéresser",
         "ces evenements pourraient vous interesser",
+        "vous aimerez aussi",
+        "agenda",
         "abonnement aux informations",
         "recevez les dernières actualités",
         "recevez les dernieres actualites",
-        "mairie de nyons",
+        "mentions légales",
+        "mentions legales",
+        "politique de confidentialité",
+        "politique de confidentialite",
     )
 
     # ------------------------------------------------------------
-    # ISOLE LE BLOC DE LA FICHE : H1 -> recommandations/footer
+    # BLOC FICHE : à partir du titre exact
     # ------------------------------------------------------------
-    event_lines = []
-    started = False
+    start_idx = None
 
-    for line in lines:
+    if title:
+        # cherche d'abord l'égalité exacte
+        for i, line in enumerate(full_lines):
+            if line == title:
+                start_idx = i
+                break
+
+        # secours : ligne contenant le titre
+        if start_idx is None:
+            title_low = title.lower()
+            for i, line in enumerate(full_lines):
+                if title_low in line.lower():
+                    start_idx = i
+                    break
+
+    # Si aucun H1 exploitable, on prend tout mais on garde les coupe-fous.
+    if start_idx is None:
+        start_idx = 0
+
+    event_lines = []
+    for line in full_lines[start_idx:]:
         low = line.lower()
 
-        if not started:
-            if h1_text and line == h1_text:
-                started = True
-                event_lines.append(line)
-            continue
-
-        if any(marker in low for marker in stop_markers):
+        # Ne coupe jamais sur "agenda" si on est encore dans les 12 premières lignes :
+        # certains contenus ont ce mot près du haut de la page.
+        if len(event_lines) > 12 and any(marker in low for marker in stop_markers):
             break
 
         event_lines.append(line)
 
-    # Secours si le H1 n'a pas été repéré dans le texte de root.
-    if len(event_lines) < 2 and h1_text:
-        full = clean(root.get_text(" ", strip=True).replace("\xa0", " "))
-        pos = full.find(h1_text)
-        if pos >= 0:
-            block = full[pos:]
-            low_block = block.lower()
-            cuts = []
-            for marker in stop_markers:
-                p = low_block.find(marker)
-                if p >= 0:
-                    cuts.append(p)
-            if cuts:
-                block = block[:min(cuts)]
-            event_lines = [clean(block)]
+        # Garde-fou anti-footer géant.
+        if len(event_lines) >= 120:
+            break
 
     event_text = clean(" ".join(event_lines))
 
@@ -644,38 +654,45 @@ def extract_event_detail_data(html_text: str, source_url: str):
         r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|"
         r"août|aout|septembre|octobre|novembre|décembre|decembre)"
     )
-    hour = r"\d{1,2}\s*h\s*\d{2}"
+    hh = r"\d{1,2}\s*h(?:\s*\d{2})?"
 
-    patterns = [
+    date_patterns = [
         re.compile(
             rf"\bDu\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
-            rf"de\s+{hour}\s+au\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
-            rf"à\s+{hour}\b", re.I
+            rf"de\s+{hh}\s+au\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"à\s+{hh}\b",
+            re.I,
+        ),
+        re.compile(
+            rf"\bDu\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
+            rf"au\s+{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\b",
+            re.I,
         ),
         re.compile(
             rf"\b(?:Le\s+)?{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
-            rf"de\s+{hour}\s+à\s+{hour}\b", re.I
+            rf"de\s+{hh}\s+à\s+{hh}\b",
+            re.I,
         ),
         re.compile(
             rf"\b(?:Le\s+)?{wd}\s+\d{{1,2}}\s+{month}\s+20\d{{2}}\s+"
-            rf"à\s+{hour}\b", re.I
+            rf"à\s+{hh}\b",
+            re.I,
         ),
     ]
 
-    for pattern in patterns:
+    for pattern in date_patterns:
         m = pattern.search(event_text)
         if m:
             practical["date_time"] = clean(m.group(0))
             break
 
-    # Ligne contenant date + heure : point d'ancrage pour le lieu.
+    # Repère la ligne date / horaire pour chercher le lieu juste après.
     date_line_idx = None
     for i, line in enumerate(event_lines):
         low = line.lower()
-        if (
-            re.search(r"\b20\d{2}\b", line)
-            and re.search(r"\b\d{1,2}\s*h\s*\d{2}\b", low)
-            and any(day in low for day in (
+        if re.search(r"\b20\d{2}\b", line) and (
+            re.search(r"\b\d{1,2}\s*h(?:\s*\d{2})?\b", low)
+            or any(day in low for day in (
                 "lundi", "mardi", "mercredi", "jeudi",
                 "vendredi", "samedi", "dimanche"
             ))
@@ -686,90 +703,7 @@ def extract_event_detail_data(html_text: str, source_url: str):
             break
 
     # ------------------------------------------------------------
-    # LIEU + ADRESSE : seulement juste après les horaires
-    # ------------------------------------------------------------
-    candidate_lines = []
-
-    if date_line_idx is not None:
-        for line in event_lines[date_line_idx + 1:date_line_idx + 6]:
-            low = line.lower()
-
-            if any(marker in low for marker in stop_markers):
-                break
-
-            if re.search(r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b", line, re.I):
-                break
-
-            if re.fullmatch(
-                r"(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}",
-                line
-            ):
-                break
-
-            if re.match(r"^https?://", line, re.I):
-                break
-
-            if low in (
-                "sport / loisirs", "culture", "vie associative",
-                "patrimoine / culture vivante", "retour"
-            ):
-                continue
-
-            candidate_lines.append(line)
-
-    candidate_lines = candidate_lines[:2]
-
-    if candidate_lines:
-        candidate = clean(" ".join(candidate_lines))
-
-        # Ex:
-        # "Centre Régional des Sports Boule et Pétanque, 125 rue Félix-Maurent - 26110 NYONS"
-        comma_street = re.match(
-            r"^(.*?),\s*(\d+\s+.+)$",
-            candidate
-        )
-
-        # Ex:
-        # "Maison des Huiles ... - 40 place de la Libération, 26110 Nyons"
-        dash_street = re.match(
-            r"^(.*?)\s+-\s+(\d+\s+.+)$",
-            candidate
-        )
-
-        if comma_street:
-            practical["location_name"] = clean(comma_street.group(1))
-            practical["address"] = clean(comma_street.group(2))
-
-        elif dash_street:
-            practical["location_name"] = clean(dash_street.group(1))
-            practical["address"] = clean(dash_street.group(2))
-
-        else:
-            # Ex: "Médiathèque 9 rue Albin Vilhet, à Nyons"
-            num = re.search(r"\b\d+\s+", candidate)
-            if num:
-                practical["location_name"] = clean(candidate[:num.start()])
-                practical["address"] = clean(candidate[num.start():])
-            elif len(candidate_lines) >= 2:
-                practical["location_name"] = clean(candidate_lines[0])
-                practical["address"] = clean(candidate_lines[1])
-            else:
-                practical["location_name"] = clean(candidate_lines[0])
-
-    # Validation prudente.
-    loc = practical.get("location_name", "")
-    if loc:
-        bad_location = (
-            len(loc) > 150
-            or bool(re.search(r"\b20\d{2}\b", loc))
-            or "pourraient vous intéresser" in loc.lower()
-        )
-        if bad_location:
-            practical["location_name"] = ""
-            practical["address"] = ""
-
-    # ------------------------------------------------------------
-    # EMAIL / TÉLÉPHONE : seulement dans le bloc de la fiche
+    # CONTACTS sur tout le bloc, avant recommandations
     # ------------------------------------------------------------
     email_match = re.search(
         r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b",
@@ -787,28 +721,158 @@ def extract_event_detail_data(html_text: str, source_url: str):
         practical["phone"] = clean(phone_match.group(0))
 
     # ------------------------------------------------------------
-    # SITE : uniquement lien externe présent dans le bloc événement
+    # LIEU / ADRESSE
     # ------------------------------------------------------------
-    blocked = (
+    def looks_like_contact(line):
+        low = line.lower()
+
+        if re.search(r"\b[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}\b", line, re.I):
+            return True
+
+        if re.search(
+            r"(?<!\d)(?:\+33\s*[1-9]|0[1-9])(?:[\s.\-]*\d{2}){4}(?!\d)",
+            line
+        ):
+            return True
+
+        if "http://" in low or "https://" in low or "www." in low:
+            return True
+
+        return False
+
+    def looks_like_address(line):
+        low = line.lower()
+
+        street_words = (
+            "rue ", "avenue ", "av. ", "boulevard ", "place ",
+            "chemin ", "route ", "promenade ", "allée ", "allee ",
+            "impasse ", "quai ", "cours "
+        )
+
+        return bool(
+            re.search(r"\b\d{1,4}\s+", line)
+            and any(word in low for word in street_words)
+        ) or bool(re.search(r"\b26110\b", line))
+
+    search_from = date_line_idx + 1 if date_line_idx is not None else 1
+    search_to = min(len(event_lines), search_from + 12)
+
+    place_candidates = []
+    for line in event_lines[search_from:search_to]:
+        low = line.lower()
+
+        if looks_like_contact(line):
+            continue
+
+        if low in (
+            "gratuit", "payant", "tarif", "tarifs", "réservation",
+            "reservation", "sur inscription", "tout public",
+            "culture", "sport / loisirs", "vie associative",
+        ):
+            continue
+
+        # Ignore les longs paragraphes descriptifs.
+        if len(line) > 180:
+            continue
+
+        place_candidates.append(line)
+
+    # Cas 1 : une ligne contient déjà nom + adresse
+    for line in place_candidates:
+        if looks_like_address(line):
+            # "Maison de Pays 128 Promenade de la Digue"
+            m = re.search(
+                r"\b\d{1,4}\s+(?:rue|avenue|av\.|boulevard|place|chemin|route|promenade|allée|allee|impasse|quai|cours)\b",
+                line,
+                re.I,
+            )
+            if m:
+                practical["location_name"] = clean(line[:m.start()])
+                practical["address"] = clean(line[m.start():])
+            else:
+                # "125 rue ... - 26110 Nyons" seul
+                practical["address"] = clean(line)
+            break
+
+    # Cas 2 : nom de lieu sur une ligne, adresse sur la suivante.
+    if not practical["location_name"]:
+        for idx, line in enumerate(place_candidates):
+            if looks_like_address(line):
+                if idx > 0:
+                    prev = place_candidates[idx - 1]
+                    if prev and not looks_like_address(prev) and not looks_like_contact(prev):
+                        practical["location_name"] = clean(prev)
+                if not practical["address"]:
+                    practical["address"] = clean(line)
+                break
+
+    # Cas 3 : une ligne compacte "Lieu, 125 rue ..."
+    if not practical["location_name"] or not practical["address"]:
+        for line in place_candidates:
+            m = re.match(
+                r"^(.*?)[,\-]\s*(\d{1,4}\s+"
+                r"(?:rue|avenue|av\.|boulevard|place|chemin|route|promenade|"
+                r"allée|allee|impasse|quai|cours)\b.*)$",
+                line,
+                re.I,
+            )
+            if m:
+                practical["location_name"] = clean(m.group(1))
+                practical["address"] = clean(m.group(2))
+                break
+
+    # Cas 4 : on connaît l'adresse mais pas le nom ; prend la ligne précédente
+    # seulement si elle ressemble à un nom de lieu.
+    if practical["address"] and not practical["location_name"]:
+        for idx, line in enumerate(place_candidates):
+            if line == practical["address"] and idx > 0:
+                prev = clean(place_candidates[idx - 1])
+                if 2 <= len(prev) <= 120:
+                    practical["location_name"] = prev
+                break
+
+    # Nettoyage / sécurité
+    for key in ("location_name", "address"):
+        val = clean(practical.get(key, ""))
+        if len(val) > 180:
+            val = ""
+        if "pourraient vous intéresser" in val.lower():
+            val = ""
+        practical[key] = val
+
+    # ------------------------------------------------------------
+    # SITE WEB EXTERNE : href présents dans la page, mais seulement
+    # domaines qui ne sont pas la ville / réseaux sociaux.
+    # ------------------------------------------------------------
+    blocked_hosts = (
         "nyons.com", "facebook.com", "instagram.com",
         "twitter.com", "x.com", "youtube.com", "6tematik.fr",
     )
 
-    # Pour éviter de récupérer un lien hors fiche, on utilise d'abord
-    # les URL visibles dans le texte de l'événement.
-    visible_urls = re.findall(r"https?://[^\s<>\"]+", event_text, re.I)
+    # On parcourt les liens de la page ; on garde seulement les liens externes
+    # raisonnables. Comme les autres champs sont déjà bornés par le bloc fiche,
+    # le site web est facultatif : s'il y a doute, il reste vide.
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "").strip()
+        if not href.startswith(("http://", "https://")):
+            continue
 
-    for candidate in visible_urls:
-        candidate = candidate.strip(" <>").rstrip(").,;]")
-        parsed = urlparse(candidate)
+        parsed = urlparse(href)
         host = parsed.netloc.lower()
 
         if not host:
             continue
-        if any(host == b or host.endswith("." + b) for b in blocked):
+
+        if any(host == b or host.endswith("." + b) for b in blocked_hosts):
             continue
 
-        practical["website"] = candidate
+        anchor = clean(a.get_text(" ", strip=True)).lower()
+
+        # Évite des liens institutionnels génériques parasites.
+        if anchor in ("", "en savoir plus", "cliquez ici"):
+            continue
+
+        practical["website"] = href
         break
 
     detail_text = event_text[:5200]
