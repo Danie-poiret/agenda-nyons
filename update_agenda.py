@@ -1354,7 +1354,8 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     <section class="section"><h2>{esc(why_title)}</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
     <section class="section"><h2>ℹ️ Informations pratiques</h2>
       <p>{esc(editorial.get('practical',''))}</p>
-      {f'<p class="official-note"><strong>👉 À vérifier :</strong> {esc(source_notice)} <a href="{esc(event["url"])}" target="_blank" rel="noopener">Voir la fiche officielle</a>.</p>' if source_notice else ''}
+      <p class="official-note">🔗 <a href="{esc(event['url'])}" target="_blank" rel="noopener"><strong>Voir la fiche officielle de l’événement sur nyons.com</strong></a></p>
+      {f'<p class="official-note"><strong>👉 À vérifier :</strong> {esc(source_notice)}</p>' if source_notice else ''}
     </section>
     <div class="question">💬 {esc(editorial.get('reader_question',''))}</div>
     {related_section}
@@ -2288,3 +2289,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
