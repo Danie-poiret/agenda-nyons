@@ -52,7 +52,7 @@ EVENT_DETAIL_TTL_HOURS = 48
 EVENT_DETAIL_PARSER_VERSION = 5
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
-EVENT_PROMPT_VERSION = 9
+EVENT_PROMPT_VERSION = 10
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -867,7 +867,7 @@ def fallback_event_editorial(event):
         intro += f" {summary}"
 
     return {
-        "seo_title": f"{title} à Nyons",
+        "seo_title": (f"{title} à Nyons" if "nyons" not in title.lower() else title),
         "meta_description": trim_meta(
             f"{title} à Nyons : dates, informations pratiques et détails utiles pour préparer votre sortie."
         ),
@@ -996,8 +996,8 @@ def generate_event_editorial(event, detail_text, practical=None):
     user = (
         "Rédige la fiche éditoriale de cet événement à partir UNIQUEMENT du JSON ci-dessous.\n\n"
         "Longueur cible : 180 à 320 mots selon la quantité réelle d'information.\n\n"
-        "- seo_title : clair, précis, naturel, idéalement moins de 65 caractères.\n"
-        "- meta_description : 140 à 160 caractères environ.\n"
+        "- seo_title : clair, précis, naturel, idéalement entre 45 et 65 caractères. ""Il doit contenir le mot Nyons de façon naturelle. ""Ne recopie pas simplement le titre officiel : reformule intelligemment selon le type d’événement. ""Varie la structure : parfois le nom de l’événement d’abord, parfois le type de sortie d’abord.\n"
+        "- meta_description : 140 à 160 caractères environ. ""Elle doit mentionner Nyons naturellement au moins une fois, sans bourrage de mots-clés.\n"
         "- intro : 50 à 90 mots. Présente directement ce qu'est l'événement.\n"
         "- story : 70 à 120 mots. Développe uniquement les éléments concrets du résumé et du titre.\n"
         "- why_it_matters : 40 à 80 mots. Explique simplement l'intérêt de la sortie sans inventer.\n"
@@ -1044,6 +1044,18 @@ def generate_event_editorial(event, detail_text, practical=None):
         data["meta_description"] = trim_meta(
             sanitize_editorial_text(data.get("meta_description", ""))
         )
+
+        seo_title = clean(data.get("seo_title", ""))
+        if "nyons" not in seo_title.lower():
+            # Ajout sobre de Nyons si GPT l'a oublié.
+            candidate = f"{seo_title} à Nyons" if seo_title else f"{event['title']} à Nyons"
+            if len(candidate) <= 68:
+                seo_title = candidate
+            else:
+                base = seo_title[:56].rstrip(" ,;:-")
+                seo_title = f"{base} à Nyons"
+
+        data["seo_title"] = seo_title
         data["_fallback"] = False
         return data
     except Exception as exc:
@@ -2120,3 +2132,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
