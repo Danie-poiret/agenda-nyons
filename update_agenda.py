@@ -4,6 +4,7 @@
 - Récupère l'agenda public de la Ville de Nyons.
 - Met à jour agenda.json.
 - Génère des pages HTML semaine par semaine dans /semaines/.
+- Génère les 50 prochains événements dans /evenements/ avec une fiche éditoriale par événement.
 - Utilise OpenAI uniquement si OPENAI_API_KEY est disponible.
 - Ne rappelle l'API que lorsqu'une semaine change.
 - En cas d'échec de l'API, la publication continue avec un texte de secours.
@@ -17,6 +18,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -35,13 +37,20 @@ BANNER_URL = "https://danie-poiret.github.io/banniere-nyons/"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "agenda.json"
 WEEKS_DIR = ROOT / "semaines"
+EVENTS_DIR = ROOT / "evenements"
 CACHE_FILE = ROOT / "_seo_cache.json"
+EVENT_CACHE_FILE = ROOT / "_event_seo_cache.json"
+EVENT_DETAIL_CACHE_FILE = ROOT / "_event_detail_cache.json"
 SITEMAP = ROOT / "sitemap.xml"
 ROBOTS = ROOT / "robots.txt"
 
 MAX_PAGES = 15
 TIMEOUT = 25
 SEO_WEEKS_AHEAD = 12
+ROLLING_EVENT_LIMIT = 50
+EVENT_DETAIL_TTL_HOURS = 48
+MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
+EVENT_PROMPT_VERSION = 1
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -410,6 +419,423 @@ def save_cache(cache):
     )
 
 
+def load_json_file(path: Path):
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_json_file(path: Path, data):
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def slugify(text: str, max_len=82) -> str:
+    raw = unicodedata.normalize("NFKD", str(text or ""))
+    raw = "".join(ch for ch in raw if not unicodedata.combining(ch))
+    raw = raw.encode("ascii", "ignore").decode("ascii").lower()
+    raw = re.sub(r"[^a-z0-9]+", "-", raw).strip("-")
+    return (raw[:max_len].rstrip("-") or "evenement")
+
+
+def event_slug(event) -> str:
+    return f"{slugify(event['title'])}-{event['start_date']}"
+
+
+def event_local_url(event) -> str:
+    return f"{SITE}evenements/{event_slug(event)}/"
+
+
+def event_page_path(event) -> Path:
+    return EVENTS_DIR / event_slug(event) / "index.html"
+
+
+def event_status(event) -> str:
+    today = date.today()
+    start = parse_iso(event["start_date"])
+    end = parse_iso(event["end_date"])
+    if today < start:
+        return "À venir"
+    if start <= today <= end:
+        return "En cours"
+    return "Événement terminé"
+
+
+def rolling_events(events):
+    today = date.today()
+    future = [e for e in events if parse_iso(e["end_date"]) >= today]
+    return sorted(
+        future,
+        key=lambda e: (e["start_date"], e["title"].lower()),
+    )[:ROLLING_EVENT_LIMIT]
+
+
+def event_facts(event, detail_text=""):
+    return {
+        "title": event["title"],
+        "start_date": event["start_date"],
+        "end_date": event["end_date"],
+        "categories": event.get("categories") or [],
+        "summary_source": clean(event.get("summary", ""))[:700],
+        "detail_source": clean(detail_text)[:4200],
+        "official_url": event["url"],
+    }
+
+
+def event_hash(event, detail_text=""):
+    payload = {
+        "event": event_facts(event, detail_text),
+        "prompt_version": EVENT_PROMPT_VERSION,
+        "model": OPENAI_MODEL,
+    }
+    raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def detail_cache_fresh(entry) -> bool:
+    stamp = entry.get("fetched_at")
+    if not stamp:
+        return False
+    try:
+        fetched = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+        if fetched.tzinfo is None:
+            fetched = fetched.replace(tzinfo=timezone.utc)
+        age = datetime.now(timezone.utc) - fetched.astimezone(timezone.utc)
+        return age <= timedelta(hours=EVENT_DETAIL_TTL_HOURS)
+    except Exception:
+        return False
+
+
+def extract_detail_text(html_text: str) -> str:
+    soup = BeautifulSoup(html_text, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg"]):
+        tag.decompose()
+    for tag in soup.find_all(["nav", "footer"]):
+        tag.decompose()
+
+    root = soup.find("main") or soup.find("article") or soup.body or soup
+    text = clean(root.get_text(" ", strip=True))
+    return text[:5200]
+
+
+def get_event_detail(session, event, detail_cache):
+    key = event["url"]
+    cached = detail_cache.get(key, {})
+    if cached.get("text") and detail_cache_fresh(cached):
+        return cached["text"]
+
+    try:
+        r = session.get(event["url"], headers=HEADERS, timeout=TIMEOUT)
+        r.raise_for_status()
+        detail = extract_detail_text(r.text)
+        if len(detail) < 80:
+            detail = clean(event.get("summary", ""))
+        detail_cache[key] = {
+            "text": detail,
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+        }
+        time.sleep(0.12)
+        return detail
+    except Exception as exc:
+        print(f"Détail {event['title']}: erreur ({exc}), résumé de liste utilisé.", file=sys.stderr)
+        return cached.get("text") or clean(event.get("summary", ""))
+
+
+def fallback_event_editorial(event):
+    title = event["title"]
+    when = format_event_date(event)
+    summary = clean(event.get("summary", ""))
+    intro = (
+        f"{title} fait partie des rendez-vous annoncés à Nyons {when}. "
+        + (summary if summary else "Cette fiche rassemble les informations essentielles disponibles pour préparer votre sortie.")
+    )
+    return {
+        "seo_title": f"{title} à Nyons : date et infos",
+        "meta_description": trim_meta(f"{title} à Nyons : {when}. Retrouvez les informations utiles et le lien vers la fiche officielle."),
+        "intro": intro,
+        "story": (
+            "À Nyons, les sorties prennent des formes très différentes selon les semaines. "
+            "Cette page permet de retrouver ce rendez-vous sans avoir à parcourir tout l’agenda. "
+            "Les informations ci-dessous restent volontairement limitées aux éléments publiés par l’organisateur."
+        ),
+        "why_it_matters": (
+            "Si ce rendez-vous correspond à vos envies du moment, gardez surtout la date en tête et consultez la fiche officielle avant de vous déplacer."
+        ),
+        "practical": (
+            "Horaires, tarifs, réservation et éventuels changements de dernière minute sont à vérifier sur la source officielle lorsqu’ils ne figurent pas ici."
+        ),
+        "reader_question": "Et vous, ce rendez-vous vous donne-t-il envie de sortir à Nyons ?",
+        "_fallback": True,
+    }
+
+
+def generate_event_editorial(event, detail_text):
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    if not api_key or OpenAI is None:
+        print(f"Événement {event['title']}: OpenAI indisponible, texte de secours.")
+        return fallback_event_editorial(event)
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "seo_title": {"type": "string"},
+            "meta_description": {"type": "string"},
+            "intro": {"type": "string"},
+            "story": {"type": "string"},
+            "why_it_matters": {"type": "string"},
+            "practical": {"type": "string"},
+            "reader_question": {"type": "string"},
+        },
+        "required": [
+            "seo_title", "meta_description", "intro", "story",
+            "why_it_matters", "practical", "reader_question",
+        ],
+        "additionalProperties": False,
+    }
+
+    facts = event_facts(event, detail_text)
+    system = (
+        "Tu es un chroniqueur local qui écrit pour Vivre à Nyons. "
+        "Le style recherché est chaleureux, direct et vivant, avec une petite voix de chronique locale : "
+        "des phrases de longueurs variées, des transitions naturelles, parfois une question au lecteur, "
+        "sans ton publicitaire et sans formules SEO répétitives. "
+        "Le propriétaire du site appelle ce ton 'à la Papy'. "
+        "Le but est d'apporter une vraie valeur éditoriale originale, pas de paraphraser mécaniquement la source. "
+        "N'invente JAMAIS de souvenir personnel, témoignage, fréquentation, ambiance constatée, horaire, prix, lieu, "
+        "programme, réservation, public cible, organisateur ou détail absent des faits fournis. "
+        "Ne prétends jamais avoir assisté à l'événement. Ne reproduis pas de longues phrases de la source. "
+        "Évite le bourrage de mots-clés, les superlatifs automatiques et les débuts identiques d'une fiche à l'autre. "
+        "Quand les faits sont peu nombreux, reste plus court plutôt que de meubler."
+    )
+    user = (
+        "Rédige la fiche éditoriale d'un événement de Nyons à partir UNIQUEMENT des faits JSON ci-dessous.\n\n"
+        "Objectif de longueur quand la matière le permet : environ 260 à 430 mots au total.\n"
+        "- seo_title : naturel, précis, idéalement moins de 65 caractères.\n"
+        "- meta_description : 140 à 160 caractères environ.\n"
+        "- intro : 80 à 130 mots. Commence différemment selon l'événement.\n"
+        "- story : 90 à 150 mots. Présente le rendez-vous avec un angle local, sans inventer.\n"
+        "- why_it_matters : 60 à 100 mots. Explique à quel type de recherche ou d'envie de sortie cela peut répondre, sans inventer un public officiel.\n"
+        "- practical : 45 à 80 mots. Distingue ce qui est connu de ce qui doit être vérifié sur la fiche officielle.\n"
+        "- reader_question : une seule question simple et naturelle, liée précisément à cet événement.\n\n"
+        f"FAITS:\n{json.dumps(facts, ensure_ascii=False, indent=2)}"
+    )
+
+    try:
+        client = OpenAI(api_key=api_key)
+        response = client.responses.create(
+            model=OPENAI_MODEL,
+            store=False,
+            input=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "agenda_nyons_event_page",
+                    "strict": True,
+                    "schema": schema,
+                }
+            },
+        )
+        data = json.loads(response.output_text)
+        data["meta_description"] = trim_meta(data.get("meta_description", ""))
+        data["_fallback"] = False
+        return data
+    except Exception as exc:
+        print(f"Événement {event['title']}: OpenAI erreur ({exc}), texte de secours.", file=sys.stderr)
+        return fallback_event_editorial(event)
+
+
+def render_event_page(event, editorial, related_events=None):
+    related_events = related_events or []
+    canonical = event_local_url(event)
+    status = event_status(event)
+    cats = " · ".join(event.get("categories") or [])
+    meta = trim_meta(editorial.get("meta_description", ""))
+    seo_title = clean(editorial.get("seo_title", "")) or f"{event['title']} à Nyons"
+
+    related_html = ""
+    for other in related_events[:3]:
+        related_html += f'''<a class="related-card" href="{esc(event_local_url(other))}">
+          <strong>{esc(other['title'])}</strong>
+          <span>{esc(format_event_date(other))}</span>
+        </a>'''
+
+    archive_note = ""
+    if status == "Événement terminé":
+        archive_note = '''<div class="archive-note"><strong>📚 Événement terminé.</strong> Cette fiche reste en ligne comme archive locale. Pour les prochains rendez-vous, consultez l’agenda actuel.</div>'''
+
+    event_ld = {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": event["title"],
+        "startDate": event["start_date"],
+        "endDate": event["end_date"],
+        "url": canonical,
+        "sameAs": event["url"],
+        "eventStatus": "https://schema.org/EventScheduled",
+        "description": meta,
+    }
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Agenda de Nyons", "item": SITE},
+            {"@type": "ListItem", "position": 2, "name": "Événements", "item": f"{SITE}evenements/"},
+            {"@type": "ListItem", "position": 3, "name": event["title"], "item": canonical},
+        ],
+    }
+
+    cats_html = f'<div class="cats">{esc(cats)}</div>' if cats else ""
+    related_section = ""
+    if related_html:
+        related_section = f'<section class="section"><h2>📍 D’autres rendez-vous proches</h2><div class="related">{related_html}</div></section>'
+
+    return f'''<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{esc(seo_title)}</title>
+  <meta name="description" content="{esc(meta)}">
+  <link rel="canonical" href="{esc(canonical)}">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{esc(seo_title)}">
+  <meta property="og:description" content="{esc(meta)}">
+  <meta property="og:url" content="{esc(canonical)}">
+  <script type="application/ld+json">{json.dumps(event_ld, ensure_ascii=False)}</script>
+  <script type="application/ld+json">{json.dumps(breadcrumb_ld, ensure_ascii=False)}</script>
+  <style>
+    *{{box-sizing:border-box}} :root{{--olive:#566b3a;--olive-dark:#354622;--terracotta:#a94f35;--cream:#f6f1e8;--paper:#fffdf9;--ink:#262722;--muted:#686b63;--line:#e4dccd;--shadow:0 12px 34px rgba(52,48,38,.10)}}
+    body{{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.72}} a{{color:var(--olive-dark)}}
+    .top{{max-width:1180px;margin:auto;padding:15px 18px 0}} .ad-shell{{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}} .ad-frame{{display:block;width:100%;aspect-ratio:3/1;border:0}} .ad-note{{font-size:11px;text-align:right;color:#777;margin:6px 4px 0}}
+    .wrap{{max-width:980px;margin:auto;padding:18px 18px 64px}} .nav{{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0 18px}} .nav a{{padding:9px 13px;background:#fff;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-weight:800;font-size:13px}}
+    .hero{{background:linear-gradient(125deg,var(--olive-dark),var(--olive) 62%,#788d58);color:#fff;border-radius:24px;padding:clamp(27px,5vw,52px);box-shadow:var(--shadow)}}
+    .status{{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.15);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}} h1{{font-size:clamp(31px,5vw,50px);line-height:1.08;margin:.35em 0 .3em}} .date{{font-size:18px;font-weight:800;margin:0 0 8px}} .cats{{opacity:.9;font-size:14px}}
+    .lead{{font-size:19px;background:var(--paper);border-left:5px solid var(--terracotta);padding:22px 24px;border-radius:16px;margin:24px 0;box-shadow:0 6px 22px rgba(52,48,38,.055)}}
+    .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}
+    .question{{background:#efe7cf;border-radius:18px;padding:22px 24px;margin:20px 0;font-weight:800;font-size:18px}} .source{{font-size:13px;color:var(--muted);margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.65)}}
+    .archive-note{{padding:14px 17px;margin:20px 0;background:#f2e5df;border-left:5px solid var(--terracotta);border-radius:12px}} .related{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}} .related-card{{display:flex;flex-direction:column;gap:6px;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-decoration:none}} .related-card span{{font-size:13px;color:var(--muted)}}
+    @media(max-width:720px){{.related{{grid-template-columns:1fr}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px;padding:24px 20px}}.lead,.section{{padding:18px}}}}
+  </style>
+</head>
+<body>
+  <aside class="top" aria-label="Sélection de livres sur Nyons"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside>
+  <main class="wrap">
+    <nav class="nav"><a href="{SITE}">← Agenda</a><a href="{SITE}evenements/">📌 50 prochains événements</a><a href="{SITE}semaines/">📅 Par semaine</a></nav>
+    <header class="hero"><span class="status">{esc(status)}</span><h1>{esc(event['title'])}</h1><p class="date">📅 {esc(format_event_date(event))}</p>{cats_html}</header>
+    {archive_note}
+    <div class="lead">{esc(editorial.get('intro',''))}</div>
+    <section class="section"><h2>🌿 Le rendez-vous, côté Nyons</h2><p>{esc(editorial.get('story',''))}</p></section>
+    <section class="section"><h2>👀 Pourquoi regarder cette sortie de plus près ?</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
+    <section class="section"><h2>ℹ️ Avant de vous déplacer</h2><p>{esc(editorial.get('practical',''))}</p></section>
+    <div class="question">💬 {esc(editorial.get('reader_question',''))}</div>
+    {related_section}
+    <div class="source"><strong>Source factuelle :</strong> <a href="{esc(event['url'])}" target="_blank" rel="noopener">fiche officielle de l’événement sur nyons.com</a>. Le texte de cette page est une présentation éditoriale originale construite à partir des informations publiées. Les informations pratiques peuvent évoluer.</div>
+  </main>
+</body>
+</html>'''
+
+
+def render_events_index(active_events, event_cache):
+    cards = []
+    for e in active_events:
+        entry = event_cache.get(e["url"], {})
+        editorial = entry.get("editorial") or fallback_event_editorial(e)
+        intro = clean(editorial.get("intro", ""))
+        excerpt = intro[:190]
+        if len(intro) > 190:
+            excerpt = excerpt.rsplit(" ", 1)[0] + "…"
+        cards.append(f'''<a class="card" href="{esc(event_local_url(e))}">
+          <div class="datebox"><strong>{parse_iso(e['start_date']).day}</strong><span>{esc(MONTH_NAMES[parse_iso(e['start_date']).month][:3].upper())}</span></div>
+          <div><h2>{esc(e['title'])}</h2><p class="when">{esc(format_event_date(e))}</p><p>{esc(excerpt)}</p><b>Lire la fiche →</b></div>
+        </a>''')
+
+    return f'''<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>50 prochains événements à Nyons</title><meta name="description" content="Les 50 prochains événements à Nyons : sorties, culture, loisirs et rendez-vous locaux avec une fiche détaillée pour chacun."><link rel="canonical" href="{SITE}evenements/"><meta name="robots" content="index,follow"><style>
+*{{box-sizing:border-box}}:root{{--olive:#566b3a;--olive-dark:#354622;--terracotta:#a94f35;--cream:#f6f1e8;--paper:#fffdf9;--ink:#262722;--muted:#6b6d65;--line:#e4dccd;--shadow:0 12px 34px rgba(52,48,38,.10)}}body{{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.62}}.top{{max-width:1180px;margin:auto;padding:15px 18px 0}}.ad-shell{{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}}.ad-frame{{display:block;width:100%;aspect-ratio:3/1;border:0}}.ad-note{{font-size:11px;text-align:right;color:#777;margin:6px 4px 0}}.wrap{{max-width:1080px;margin:auto;padding:18px 18px 60px}}.nav{{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0 18px}}.nav a{{padding:9px 13px;background:#fff;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-weight:800;font-size:13px;color:var(--olive-dark)}}.hero{{background:linear-gradient(125deg,var(--olive-dark),var(--olive) 62%,#788d58);color:#fff;border-radius:24px;padding:clamp(28px,5vw,52px);box-shadow:var(--shadow)}}h1{{font-size:clamp(32px,5vw,52px);line-height:1.08;margin:.15em 0 .3em}}.hero p{{max-width:800px;margin:0;font-size:18px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:22px}}.card{{display:flex;gap:15px;background:var(--paper);border:1px solid var(--line);border-radius:17px;padding:18px;color:var(--ink);text-decoration:none;box-shadow:0 6px 22px rgba(52,48,38,.055)}}.card:hover{{transform:translateY(-2px)}}.card h2{{margin:0 0 6px;font-size:19px;line-height:1.25}}.card p{{margin:5px 0;color:var(--muted)}}.card b{{color:var(--olive-dark);font-size:14px}}.datebox{{flex:0 0 58px;height:64px;background:var(--terracotta);color:#fff;border-radius:13px;text-align:center;padding:8px 3px;line-height:1}}.datebox strong{{display:block;font-size:24px}}.datebox span{{display:block;margin-top:6px;font-size:11px;font-weight:900;letter-spacing:.08em}}.when{{font-weight:800!important;color:var(--ink)!important;font-size:13px}}@media(max-width:760px){{.grid{{grid-template-columns:1fr}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px}}}}
+</style></head><body><aside class="top"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside><main class="wrap"><nav class="nav"><a href="{SITE}">← Agenda interactif</a><a href="{SITE}semaines/">📅 Agenda par semaine</a></nav><section class="hero"><div>NYONS · SORTIES À VENIR</div><h1>Les 50 prochains événements à Nyons</h1><p>Une sélection roulante : lorsqu’un rendez-vous passe, le suivant entre automatiquement dans la liste. Chaque événement dispose de sa propre fiche éditoriale.</p></section><section class="grid">{''.join(cards)}</section></main></body></html>'''
+
+
+def generate_event_pages(events):
+    EVENTS_DIR.mkdir(exist_ok=True)
+    active = rolling_events(events)
+    event_cache = load_json_file(EVENT_CACHE_FILE)
+    detail_cache = load_json_file(EVENT_DETAIL_CACHE_FILE)
+    session = requests.Session()
+    ai_calls = 0
+
+    for idx, event in enumerate(active, start=1):
+        detail = get_event_detail(session, event, detail_cache)
+        digest = event_hash(event, detail)
+        cached = event_cache.get(event["url"], {})
+
+        if (
+            cached.get("hash") == digest
+            and cached.get("editorial")
+            and not cached.get("editorial", {}).get("_fallback", False)
+        ):
+            editorial = cached["editorial"]
+            print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
+        elif ai_calls < MAX_EVENT_AI_CALLS:
+            editorial = generate_event_editorial(event, detail)
+            ai_calls += 1
+            print(f"FICHE {idx:02d}/50: contenu éditorial généré — {event['title']}")
+        else:
+            editorial = cached.get("editorial") or fallback_event_editorial(event)
+            print(f"FICHE {idx:02d}/50: limite API atteinte, texte conservé/secours — {event['title']}")
+
+        event_cache[event["url"]] = {
+            "hash": digest,
+            "slug": event_slug(event),
+            "event": event,
+            "editorial": editorial,
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "model": OPENAI_MODEL,
+        }
+
+    cached_events = []
+    for entry in event_cache.values():
+        e = entry.get("event")
+        if e and entry.get("editorial"):
+            cached_events.append(e)
+    cached_events.sort(key=lambda e: (e["start_date"], e["title"].lower()))
+
+    for entry in event_cache.values():
+        event = entry.get("event")
+        editorial = entry.get("editorial")
+        if not event or not editorial:
+            continue
+        nearby = [
+            other for other in cached_events
+            if other["url"] != event["url"]
+            and abs((parse_iso(other["start_date"]) - parse_iso(event["start_date"])).days) <= 10
+        ][:3]
+        folder = EVENTS_DIR / event_slug(event)
+        folder.mkdir(parents=True, exist_ok=True)
+        (folder / "index.html").write_text(
+            render_event_page(event, editorial, nearby),
+            encoding="utf-8",
+        )
+
+    (EVENTS_DIR / "index.html").write_text(
+        render_events_index(active, event_cache),
+        encoding="utf-8",
+    )
+    save_json_file(EVENT_CACHE_FILE, event_cache)
+    save_json_file(EVENT_DETAIL_CACHE_FILE, detail_cache)
+    print(
+        f"OK: {len(active)} événement(s) dans la sélection roulante, "
+        f"{len(cached_events)} fiche(s) conservée(s), {ai_calls} appel(s) API ce passage."
+    )
+
 def fallback_editorial(start: date, events):
     label = week_label(start)
     titles = [e["title"] for e in events[:3]]
@@ -594,15 +1020,23 @@ def render_week_page(start: date, events, editorial):
             f'<div class="date-badge"><span>{event_start.day}</span>'
             f'<small>{esc(MONTH_NAMES[event_start.month][:3].upper())}</small></div>'
         )
+        local_exists = event_page_path(e).exists()
+        title_url = event_local_url(e) if local_exists else e["url"]
+        title_attrs = "" if local_exists else ' target="_blank" rel="noopener"'
+        local_cta = (
+            f'<a class="official" href="{esc(event_local_url(e))}">Lire notre fiche <span aria-hidden="true">→</span></a>'
+            if local_exists else ""
+        )
         events_html += f"""
         <article class="event">
           {date_badge}
           <div class="event-content">
-            <h3><a href="{esc(e['url'])}" target="_blank" rel="noopener">{esc(e['title'])}</a></h3>
+            <h3><a href="{esc(title_url)}"{title_attrs}>{esc(e['title'])}</a></h3>
             <p class="date-line">📅 {esc(format_event_date(e))}</p>
             {cats_html}
+            {local_cta}
             <a class="official" href="{esc(e['url'])}" target="_blank" rel="noopener">
-              Voir la fiche officielle <span aria-hidden="true">→</span>
+              Source officielle <span aria-hidden="true">↗</span>
             </a>
           </div>
         </article>
@@ -881,6 +1315,7 @@ def render_week_page(start: date, events, editorial):
     <nav class="nav">
       <a href="{SITE}">← Agenda interactif</a>
       <a href="{SITE}semaines/">📅 Toutes les semaines</a>
+      <a href="{SITE}evenements/">📌 50 prochains événements</a>
     </nav>
 
     <section class="hero">
@@ -1116,6 +1551,7 @@ def render_weeks_index(weeks):
 
   <main class="wrap">
     <a class="back" href="{SITE}">← Agenda interactif</a>
+    <a class="back" href="{SITE}evenements/">📌 50 prochains événements</a>
 
     <section class="hero">
       <div class="kicker">Sorties · animations · vie locale</div>
@@ -1138,10 +1574,13 @@ def render_weeks_index(weeks):
 """
 
 def write_sitemap():
-    urls = [SITE, f"{SITE}semaines/"]
+    urls = [SITE, f"{SITE}semaines/", f"{SITE}evenements/"]
     if WEEKS_DIR.exists():
         for p in sorted(WEEKS_DIR.glob("semaine-*/index.html")):
             urls.append(f"{SITE}semaines/{p.parent.name}/")
+    if EVENTS_DIR.exists():
+        for p in sorted(EVENTS_DIR.glob("*/index.html")):
+            urls.append(f"{SITE}evenements/{p.parent.name}/")
 
     today = date.today().isoformat()
     entries = "\n".join(
@@ -1203,6 +1642,7 @@ def generate_seo_pages(events):
 def main():
     events = scrape_all()
     write_agenda(events)
+    generate_event_pages(events)
     generate_seo_pages(events)
 
 
