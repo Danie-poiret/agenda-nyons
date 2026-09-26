@@ -30,7 +30,7 @@
       "reader_question": "Connaissiez-vous déjà Solidarité Paysans Drôme-Ardèche ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:06:47.714087+00:00",
+    "generated_at": "2026-09-26T07:41:51.800417+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
@@ -57,7 +57,7 @@
       "reader_question": "Le thème « Urbain Urbex » vous donne-t-il envie d’en savoir plus sur le contenu de cette exposition ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:07:00.628878+00:00",
+    "generated_at": "2026-09-26T07:41:51.800484+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
@@ -84,7 +84,7 @@
       "reader_question": "Irez-vous découvrir « La Vie en Couleur » de Cécile Allex pendant ses six jours d’exposition à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:07:12.950079+00:00",
+    "generated_at": "2026-09-26T07:41:51.800547+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
@@ -112,7 +112,7 @@
       "reader_question": "Quels détails du programme aimeriez-vous connaître pour ces 8 jours de la Ville de Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:07:29.686525+00:00",
+    "generated_at": "2026-09-26T07:41:51.800595+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
@@ -139,7 +139,7 @@
       "reader_question": "Vous tenteriez plutôt les tacos au poulet ou les burritos au bœuf ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:07:42.502288+00:00",
+    "generated_at": "2026-09-26T07:41:51.800649+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/": {
@@ -166,11 +166,11 @@
       "reader_question": "Les croisements entre musique médiévale, jazz et improvisation vous donnent-ils envie de découvrir COMTESSA ! ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:07:55.425209+00:00",
+    "generated_at": "2026-09-26T07:41:51.800698+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/ceremonie-de-cacao/": {
-    "hash": "5428d677ed926c2b40d6d53f0926ff60208f21611ef23d8b90a4da8871267f69",
+    "hash": "af86b7967adc0cfe4ba796864de2ee3fbad4a78e2edc1dfb7a1c0faf57ab9c3a",
     "slug": "ceremonie-de-cacao-2026-09-26",
     "event": {
       "title": "Cérémonie de cacao",
@@ -178,21 +178,22 @@
       "end_date": "2026-09-26",
       "summary": "Les cérémonies de cacao s'inspirent de l'usage spirituel de cette plante par le peuple Maya du Guatemala. Le cacao connecte au coeur, à la joie, à la créativité, il aide à relâcher les tensions.",
       "categories": [
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
     },
     "editorial": {
-      "seo_title": "Cérémonie de cacao à Nyons : date à confirmer",
-      "meta_description": "Une cérémonie de cacao annoncée à Nyons autour d’une tradition inspirée des Mayas du Guatemala. Attention, les informations de date se contredisent.",
-      "intro": "Le cacao ne se résume pas toujours à une tablette ou à une boisson chaude. Cette cérémonie annoncée à Nyons propose de regarder cette plante sous un autre angle, inspiré de son usage spirituel chez le peuple Maya du Guatemala. La présentation évoque un temps tourné vers le cœur, la joie, la créativité et le relâchement des tensions. C’est donc un rendez-vous qui semble s’inscrire davantage dans une démarche de bien-être et d’exploration personnelle que dans une simple dégustation. Mais avant de noter la date dans l’agenda, un point mérite d’être éclairci.",
-      "story": "La fiche porte le titre « Cérémonie de cacao » et la classe dans la rubrique Solidarité / Santé. Son texte de présentation met en avant les rituels liés au cacao, avec une référence à la tradition maya du Guatemala. Voilà pour le fil annoncé. Toutefois, les informations associées à l’événement ne racontent pas toutes la même chose : le détail mentionne un atelier sur les rituels funéraires, dans le cadre de la Semaine Bleue 2026, prévu le vendredi 16 octobre 2026. Cette indication ne correspond ni au titre ni à la date affichée du 26 septembre 2026. Il est donc préférable de considérer cette fiche comme une annonce à vérifier directement auprès de sa source officielle.",
-      "why_it_matters": "Cette proposition peut intéresser celles et ceux qui cherchent à Nyons une activité autour du bien-être, des pratiques symboliques ou du rapport aux traditions du cacao. Elle peut aussi éveiller la curiosité de personnes souhaitant comprendre ce que recouvre l’expression « cérémonie de cacao ». En revanche, la contradiction entre les contenus publiés rend indispensable une vérification : difficile, en l’état, de savoir quel rendez-vous précis est effectivement annoncé.",
-      "practical": "La date affichée pour la Cérémonie de cacao est le 26 septembre 2026. La fiche détail mentionne pourtant un autre rendez-vous, un atelier sur les rituels funéraires, daté du 16 octobre 2026 dans le cadre de la Semaine Bleue. Le lieu, les horaires, les modalités d’inscription et le déroulé ne sont pas fournis ici. Consultez la fiche officielle pour confirmation.",
-      "reader_question": "Laquelle des deux dates allez-vous vérifier en premier sur la fiche officielle ?",
+      "seo_title": "Cérémonie de cacao à Nyons le 26 septembre 2026",
+      "meta_description": "Une cérémonie de cacao annoncée à Nyons le 26 septembre 2026, autour d’une pratique inspirée de l’usage spirituel maya du Guatemala.",
+      "intro": "Le cacao ne se limite pas à la tasse du matin ou à la tablette du goûter. À Nyons, une cérémonie de cacao est annoncée le 26 septembre 2026. La présentation de ce rendez-vous le rattache à des usages spirituels de cette plante chez le peuple Maya du Guatemala. Le cacao y est associé au cœur, à la joie et à la créativité, ainsi qu’à l’idée de relâcher les tensions. Une proposition à découvrir avec curiosité, en prenant le temps de vérifier les modalités précises auprès de l’organisateur.",
+      "story": "Derrière l’intitulé « Cérémonie de cacao », c’est donc une approche rituelle et culturelle qui est évoquée, plutôt qu’un simple atelier autour du chocolat. Le texte de présentation met en avant les liens symboliques prêtés au cacao : ouvrir un espace tourné vers le cœur, la joie, la créativité et le relâchement des tensions. Ces références sont présentées comme inspirées de pratiques du peuple Maya du Guatemala. Pour les Nyonsais qui croisent cette date dans l’agenda, l’enjeu est surtout de bien identifier le cadre proposé : le contenu détaillé publié comporte en effet des informations qui ne semblent pas correspondre au titre ni à la date de la cérémonie.",
+      "why_it_matters": "Ce rendez-vous peut intéresser celles et ceux qui cherchent à Nyons une sortie davantage tournée vers les pratiques de bien-être, les rituels ou les références culturelles liées aux plantes. Il donne aussi matière à s’interroger sur la façon dont des traditions spirituelles sont présentées aujourd’hui dans un agenda local. Avant de se décider, mieux vaut regarder les précisions fournies par la fiche officielle, afin de savoir exactement ce qui est proposé.",
+      "practical": "La cérémonie de cacao est annoncée à Nyons le samedi 26 septembre 2026, dans les rubriques Solidarité / Santé et Culture. Attention : le détail associé à la fiche évoque aussi un atelier sur les rituels funéraires, dans le cadre de la Semaine Bleue, le 16 octobre 2026. Il faut donc vérifier sur la fiche officielle le lieu, l’horaire, le contenu et les éventuelles modalités de participation.",
+      "reader_question": "Cette cérémonie de cacao vous donne-t-elle envie d’en savoir plus sur le rituel proposé ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:08:09.988220+00:00",
+    "generated_at": "2026-09-26T07:42:06.382361+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/": {
@@ -249,13 +250,13 @@
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/marche-pour-le-climat/": {
-    "hash": "69bf0c8de86fb4ff852ce4cf859649cfd1e342e0f1cf13be86b410feaadd6f65",
+    "hash": "260d0ce9d6aabd49b74c3d8ff182e2cb7b87e61fcd68941f10f1b159ffd9a79e",
     "slug": "marche-pour-le-climat-2026-09-26",
     "event": {
       "title": "Marche pour le Climat",
       "start_date": "2026-09-26",
       "end_date": "2026-09-26",
-      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale",
+      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 20.4°C / 20.4°C Contact Recherche Mentions légal",
       "categories": [
         "Cadre de vie",
         "Solidarité / Santé"
@@ -263,16 +264,16 @@
       "url": "https://www.nyons.com/agenda/marche-pour-le-climat/"
     },
     "editorial": {
-      "seo_title": "Marche pour le Climat à Nyons le 26 septembre 2026",
-      "meta_description": "À Nyons, la Marche pour le Climat est annoncée le 26 septembre 2026 autour du climat, du vivant, de la paix et de la justice sociale.",
-      "intro": "Le 26 septembre 2026, Nyons annonce une Marche pour le Climat. Son intitulé élargit d’emblée le propos : il est aussi question du vivant, de la paix et de la justice sociale. Voilà donc un rendez-vous placé sous le signe des grands sujets qui traversent notre époque et nos territoires. La fiche disponible donne peu d’éléments sur le déroulé concret, mais la date est bien indiquée. Pour celles et ceux qui cherchent à repérer les initiatives citoyennes annoncées dans la commune, c’est un rendez-vous à garder en vue.",
-      "story": "Une marche, ce n’est pas seulement un déplacement d’un point à un autre : c’est aussi une façon de rendre une cause visible dans l’espace public. Ici, le mot « climat » est associé au vivant, à la paix et à la justice sociale, dessinant un cadre volontairement large. Cette articulation peut parler à celles et ceux qui relient les enjeux environnementaux aux questions de société. À Nyons, l’événement est référencé dans les rubriques « Cadre de vie » et « Solidarité / Santé ». En revanche, les informations fournies ne précisent ni parcours, ni horaire, ni modalités de participation. Mieux vaut donc ne pas tirer de conclusions trop vite et consulter la page officielle avant de s’organiser.",
-      "why_it_matters": "Cette annonce peut intéresser les personnes en quête d’une sortie à dimension citoyenne à Nyons, ou celles qui suivent les rendez-vous liés au cadre de vie et à la solidarité. Elle peut aussi servir de point de départ pour s’informer sur une mobilisation locale annoncée à l’automne. Comme les détails pratiques ne figurent pas clairement dans les éléments disponibles, l’intérêt est autant de repérer la date que de vérifier les informations actualisées avant de prévoir sa participation.",
-      "practical": "La Marche pour le Climat est annoncée à Nyons le samedi 26 septembre 2026. Le thème mentionné associe climat, vivant, paix et justice sociale. L’horaire, le lieu de rendez-vous, le parcours, les conditions de participation et l’organisateur ne sont pas précisés dans les faits fournis. À vérifier sur la fiche officielle, dont le contenu semble comporter des informations ne correspondant pas clairement à cette marche.",
-      "reader_question": "Souhaitez-vous suivre les précisions qui seront publiées pour cette Marche pour le Climat à Nyons ?",
+      "seo_title": "Marche pour le Climat à Nyons, le 26 septembre 2026",
+      "meta_description": "Nyons accueille une Marche pour le Climat le 26 septembre 2026, autour du climat, du vivant, de la paix et de la justice sociale.",
+      "intro": "Le samedi 26 septembre 2026, une Marche pour le Climat est annoncée à Nyons. Son intitulé donne le fil de la journée : le climat, mais aussi le vivant, la paix et la justice sociale. Voilà un rendez-vous qui inscrit les enjeux environnementaux dans une réflexion plus large sur notre manière de vivre ensemble. Les informations disponibles ne précisent pas encore le parcours ni le déroulé, mais la date est bien posée dans l’agenda de la ville.",
+      "story": "À Nyons, cette marche relie plusieurs préoccupations souvent abordées séparément : la protection du climat et du vivant, la paix, ainsi que la justice sociale. Le rapprochement n’est pas anodin : il invite à regarder ces questions comme un même sujet de société, à l’échelle d’une ville et de son territoire. La forme choisie, la marche, laisse aussi entendre une présence dans l’espace public plutôt qu’une simple information à consulter chez soi. Pour connaître les modalités concrètes de ce rendez-vous du 26 septembre, il faudra toutefois se reporter à la fiche officielle.",
+      "why_it_matters": "Cette date peut intéresser celles et ceux qui cherchent une sortie citoyenne à Nyons, liée aux questions écologiques et sociales. Elle peut aussi offrir un point de départ pour suivre l’actualité locale autour du climat, sans réduire le sujet à sa seule dimension environnementale. Si vous aimez les rendez-vous qui mettent en mouvement des idées autant que des personnes, gardez ce samedi de septembre en tête.",
+      "practical": "La Marche pour le Climat est annoncée à Nyons le samedi 26 septembre 2026. Les thèmes mentionnés sont le climat, le vivant, la paix et la justice sociale. L’horaire, le lieu de départ, l’itinéraire, les éventuelles consignes de participation et les informations d’organisation ne figurent pas dans les éléments disponibles : vérifiez-les sur la fiche officielle de la Ville de Nyons avant de vous déplacer.",
+      "reader_question": "Quels liens faites-vous, à Nyons, entre le climat, le vivant et la justice sociale ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:08:48.548768+00:00",
+    "generated_at": "2026-09-26T07:42:18.402111+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/": {
@@ -306,7 +307,7 @@
       "reader_question": "L’idée d’une journée pour découvrir les abeilles et l’apiculture vous intrigue-t-elle ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:09:03.474552+00:00",
+    "generated_at": "2026-09-26T07:42:18.402239+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-animees-6/": {
@@ -334,7 +335,7 @@
       "reader_question": "Cherchez-vous une occasion d’ouvrir les plus jeunes aux histoires à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:09:16.691280+00:00",
+    "generated_at": "2026-09-26T07:42:18.402304+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
@@ -361,7 +362,7 @@
       "reader_question": "Quel sujet aimeriez-vous voir abordé lors d’une soirée consacrée à l’agriculture et à la viticulture ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:09:29.909249+00:00",
+    "generated_at": "2026-09-26T07:42:18.402367+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
@@ -390,7 +391,7 @@
       "reader_question": "La lactofermentation est-elle une pratique que vous aimeriez découvrir lors d’un atelier à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:09:43.918361+00:00",
+    "generated_at": "2026-09-26T07:42:18.402414+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
@@ -417,7 +418,7 @@
       "reader_question": "Quel livre aimeriez-vous faire dédicacer par Françoise Bourdon ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:09:58.814397+00:00",
+    "generated_at": "2026-09-26T07:42:18.402464+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
@@ -444,7 +445,7 @@
       "reader_question": "Avez-vous déjà noté le 2 octobre 2026 pour ce concert annoncé à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:10:16.504129+00:00",
+    "generated_at": "2026-09-26T07:42:18.402509+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
@@ -471,7 +472,7 @@
       "reader_question": "Comptez-vous noter ce rendez-vous associatif des 2, 3 et 4 octobre dans votre agenda ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:10:31.907312+00:00",
+    "generated_at": "2026-09-26T07:42:18.402551+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
@@ -500,17 +501,17 @@
       "reader_question": "Quel type de proposition artistique aimeriez-vous voir précisé pour ces Journées à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:10:46.279279+00:00",
+    "generated_at": "2026-09-26T07:42:18.402596+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
-    "hash": "c1502f335c6ef47ca8e0fbe4678d5e691e1feaf927efaa47831c4f0bf32b0d4d",
+    "hash": "029d6a0f77155e57cbb6c9573f3fe2698b5aa68b8540afcce082cf06e5425c01",
     "slug": "atelier-culinaire-risotto-panacotta-2026-10-03",
     "event": {
       "title": "Atelier culinaire – Risotto & panacotta",
       "start_date": "2026-10-03",
       "end_date": "2026-10-03",
-      "summary": "Atelier culinaire Italien \"Risotto & Panacotta\" 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 15.8°C / 15.8°C Contact Recherche Mentions légales Politique de ",
+      "summary": "Atelier culinaire Italien \"Risotto & Panacotta\" 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 18°C / 18°C Contact Recherche Mentions légales Politique de conf",
       "categories": [
         "Patrimoine / Culture vivante",
         "Sport / Loisirs",
@@ -520,16 +521,16 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/"
     },
     "editorial": {
-      "seo_title": "Atelier risotto et panacotta à Nyons le 3 octobre 2026",
-      "meta_description": "Le 3 octobre 2026, Nyons annonce un atelier culinaire autour du risotto et de la panacotta. Les modalités sont à vérifier en ligne.",
-      "intro": "Un risotto d’un côté, une panacotta de l’autre : l’intitulé donne tout de suite la couleur de cet atelier culinaire annoncé à Nyons le samedi 3 octobre 2026. Le rendez-vous est rattaché aux rubriques culture, loisirs et patrimoine / culture vivante dans l’agenda de la ville. Peu de précisions accompagnent pour l’instant cette annonce, mais le thème mérite le détour pour celles et ceux qui aiment passer par la cuisine pour découvrir ou retrouver des recettes italiennes bien connues. Ici, le menu tient en deux mots gourmands et très concrets.",
-      "story": "L’atelier « Risotto & Panacotta » propose un fil rouge simple : réunir un plat salé emblématique et un dessert tout en douceur. Ce genre de rendez-vous trouve naturellement sa place dans un agenda local : il met la cuisine au centre, non comme un simple sujet, mais comme une pratique à partager autour de recettes précises.\n\nLa fiche disponible ne détaille ni le déroulé ni les techniques abordées. Inutile donc de lui prêter un programme qu’elle n’annonce pas. On sait en revanche que la date est fixée au 3 octobre 2026 et que l’événement est présenté comme un atelier culinaire italien. Pour le reste, mieux vaut garder un œil sur la page officielle au fil des mises à jour.",
-      "why_it_matters": "Voilà une piste pour qui cherche une sortie de loisirs à Nyons avec un thème concret, loin d’une simple dégustation ou d’une conférence. Le tandem risotto-panacotta peut aussi intéresser les curieux de cuisine italienne et les personnes qui préfèrent repartir d’un rendez-vous avec des idées à mettre en pratique chez elles. La classification parmi les rendez-vous de culture vivante rappelle, au passage, que les savoir-faire culinaires ont toute leur place dans la vie locale.",
-      "practical": "L’atelier est annoncé à Nyons le samedi 3 octobre 2026, sous le titre « Atelier culinaire – Risotto & Panacotta ». La source le rattache notamment aux loisirs et à la culture vivante. Le lieu exact, les horaires, les conditions de participation, le tarif éventuel et les modalités d’inscription ne sont pas indiqués dans les éléments fournis : vérifiez-les sur la fiche officielle de la ville avant de vous organiser.",
-      "reader_question": "Le risotto ou la panacotta : lequel vous donnerait le plus envie de participer à cet atelier ?",
+      "seo_title": "Atelier culinaire Risotto & Panacotta à Nyons",
+      "meta_description": "Un atelier culinaire consacré au risotto et à la panacotta est annoncé à Nyons le samedi 3 octobre 2026. Les modalités restent à vérifier.",
+      "intro": "Le samedi 3 octobre 2026, l’agenda de Nyons annonce un atelier culinaire italien autour de deux grands classiques : le risotto et la panacotta. Le titre donne le fil rouge du rendez-vous, entre préparation salée et note sucrée, sans en dire davantage sur son déroulement. Classé à la fois dans les rubriques culture, loisirs et patrimoine / culture vivante, l’événement s’inscrit dans ces propositions où la cuisine devient aussi un sujet de découverte. Pour les amateurs de gastronomie italienne, c’est une date à garder en tête dans le calendrier nyonsais.",
+      "story": "Risotto & Panacotta : l’intitulé est simple, et il pose d’emblée une cuisine italienne reconnaissable entre toutes. Ce type d’atelier peut intéresser celles et ceux qui aiment aborder la gastronomie par la pratique, ou simplement retrouver un thème culinaire précis dans l’agenda local. Ici, les informations disponibles confirment le nom de l’atelier et sa date, mais ne précisent ni le contenu détaillé, ni les conditions de participation. Un point mérite donc attention : les éléments complémentaires associés à la fiche évoquent un autre rendez-vous. Mieux vaut s’en tenir aux données clairement annoncées et consulter la page officielle avant de prévoir sa sortie.",
+      "why_it_matters": "Cette proposition peut répondre à l’envie d’une activité de loisirs liée à la cuisine, avec un thème italien bien identifié. Elle peut aussi être une piste pour qui cherche, à Nyons, un rendez-vous qui ne soit ni un spectacle ni une exposition. Le classement dans plusieurs rubriques rappelle que les pratiques culinaires peuvent trouver leur place dans la vie culturelle locale. Mais les attentes concrètes devront être ajustées après vérification des modalités.",
+      "practical": "Date connue : samedi 3 octobre 2026, à Nyons. L’événement est annoncé sous le titre « Atelier culinaire – Risotto & Panacotta ». Le lieu, l’horaire, le tarif, les inscriptions et le format précis de l’atelier ne sont pas indiqués dans les faits fournis. Consultez la fiche officielle de la Ville de Nyons pour confirmer ces informations, d’autant que son contenu associé semble mentionner un autre événement.",
+      "reader_question": "Le risotto ou la panacotta : lequel vous donne le plus envie de passer derrière les fourneaux ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:11:00.748893+00:00",
+    "generated_at": "2026-09-26T07:42:35.212897+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
@@ -555,7 +556,7 @@
       "reader_question": "Cette rencontre autour des histoires et transmissions familiales vous interpelle-t-elle ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:11:19.285413+00:00",
+    "generated_at": "2026-09-26T07:42:35.212993+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
@@ -589,7 +590,7 @@
       "reader_question": "Cherchez-vous l’atelier sur la législation funéraire ou le spectacle « Papillon noir » annoncé dans la même fiche ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:11:32.909637+00:00",
+    "generated_at": "2026-09-26T07:42:35.213052+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
@@ -617,7 +618,7 @@
       "reader_question": "Que savez-vous déjà des roches et de l’histoire géologique autour de Venterol ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:11:49.601548+00:00",
+    "generated_at": "2026-09-26T07:42:35.213113+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
@@ -645,7 +646,7 @@
       "reader_question": "Avez-vous envie de découvrir cette représentation théâtrale portée par les adhérents des GEM le Soleil et l’Oasis ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:12:03.421903+00:00",
+    "generated_at": "2026-09-26T07:42:35.213165+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
@@ -673,7 +674,7 @@
       "reader_question": "Le descriptif officiel a-t-il été mis à jour pour préciser ce qui se jouera réellement le 7 octobre ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:12:21.888553+00:00",
+    "generated_at": "2026-09-26T07:42:35.213237+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
@@ -702,7 +703,7 @@
       "reader_question": "Avez-vous déjà goûté des gnocchis préparés avec des pois cassés ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:12:34.249073+00:00",
+    "generated_at": "2026-09-26T07:42:35.213296+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
@@ -728,7 +729,7 @@
       "reader_question": "Quelles pratiques proposées par le collectif Papillon aurez-vous envie de découvrir ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:12:48.693373+00:00",
+    "generated_at": "2026-09-26T07:42:35.213352+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
@@ -754,7 +755,7 @@
       "reader_question": "Irez-vous rencontrer les associations et structures du territoire présentes lors de ces stands ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:13:06.676220+00:00",
+    "generated_at": "2026-09-26T07:42:35.213403+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
@@ -780,7 +781,7 @@
       "reader_question": "Le Théâtre Forum vous semble-t-il une manière intéressante d’aborder la santé mentale à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:13:22.339491+00:00",
+    "generated_at": "2026-09-26T07:42:35.213445+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
@@ -807,17 +808,17 @@
       "reader_question": "Irez-vous vérifier cette sortie de résidence de Demi Mondaine, Mystic Gordon et Clément Bouet une fois la date confirmée ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:13:36.881163+00:00",
+    "generated_at": "2026-09-26T07:42:35.213489+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
-    "hash": "abc68db5eb6d5894dc5a33776a8de9fbd9c95d0abcdb4f51e16d484b1f8e901a",
+    "hash": "8bd31f9814b8e11ad0c2e4adf29c02d7b79e8718de04f032ccd9d007d4c16957",
     "slug": "lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09",
     "event": {
       "title": "Lectures par la MARPA de Rémuzat et Antoine Picard",
       "start_date": "2026-10-09",
       "end_date": "2026-10-09",
-      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 15.8°C / 15.8°C Contact Recherche Mentions légales Politique ",
+      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 18°C / 18°C Contact Recherche Mentions légales Politique de c",
       "categories": [
         "Patrimoine / Culture vivante",
         "Solidarité / Santé",
@@ -826,16 +827,16 @@
       "url": "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/"
     },
     "editorial": {
-      "seo_title": "Lectures par la MARPA de Rémuzat à Nyons",
-      "meta_description": "Le 9 octobre 2026, Nyons accueille des lectures proposées par la MARPA de Rémuzat et Antoine Picard. Les modalités sont à vérifier.",
-      "intro": "Le vendredi 9 octobre 2026, l’agenda de Nyons annonce un rendez-vous intitulé « Lectures par la MARPA de Rémuzat et Antoine Picard ». Classé à la croisée de la culture, du patrimoine et de la culture vivante, il fait aussi apparaître une dimension solidarité et santé dans les rubriques de l’événement. Le titre donne une place claire à la MARPA de Rémuzat et à Antoine Picard ; en revanche, les informations transmises ne précisent ni les textes lus, ni le déroulé de cette rencontre. Une date à noter, donc, en attendant les précisions de la fiche officielle.",
-      "story": "Il y a des rendez-vous dont l’intitulé suffit à dessiner une intention : ici, celle de se retrouver autour de lectures, avec la MARPA de Rémuzat et Antoine Picard. L’annonce figure dans l’agenda municipal de Nyons pour une seule journée, le 9 octobre 2026. Elle est rattachée aux thèmes « Patrimoine / Culture vivante », « Solidarité / Santé » et « Culture », un voisinage de catégories qui invite à regarder la lecture comme un possible espace de partage autant que comme une proposition culturelle. Prudence toutefois : aucune indication fiable n’est fournie sur le lieu, les horaires ou la forme précise des lectures. Mieux vaut ne pas tirer de conclusions hâtives à partir du seul titre.",
-      "why_it_matters": "Cette date peut intéresser celles et ceux qui cherchent une sortie culturelle annoncée à Nyons pour l’automne 2026, ou qui suivent les initiatives où la lecture rencontre la vie locale et les liens entre générations. Elle peut aussi retenir l’attention des personnes sensibles aux propositions associées, dans l’agenda, aux thématiques de solidarité et de santé. Avec les éléments disponibles, c’est avant tout un rendez-vous à surveiller plutôt qu’un programme détaillé.",
-      "practical": "La date connue est le vendredi 9 octobre 2026. Le titre associe la MARPA de Rémuzat et Antoine Picard. Le lieu, l’horaire, les conditions d’accès, une éventuelle réservation et le contenu des lectures ne sont pas précisés dans les faits fournis. Consultez la fiche officielle de la Ville de Nyons avant de prévoir votre venue.",
-      "reader_question": "Quels textes aimeriez-vous entendre lors de ces lectures portées par la MARPA de Rémuzat et Antoine Picard ?",
+      "seo_title": "Lectures avec la MARPA de Rémuzat à Nyons",
+      "meta_description": "Le 9 octobre 2026, Nyons inscrit à son agenda des lectures avec la MARPA de Rémuzat et Antoine Picard. Informations pratiques à vérifier.",
+      "intro": "Le 9 octobre 2026, l’agenda de Nyons annonce un rendez-vous simplement intitulé « Lectures par la MARPA de Rémuzat et Antoine Picard ». Une proposition placée sous les rubriques patrimoine, culture vivante, solidarité-santé et culture : un croisement qui donne déjà une couleur particulière à cette date. Le titre met côte à côte la MARPA de Rémuzat et Antoine Picard, autour de la lecture. Pour le reste, mieux vaut garder la curiosité en éveil : les informations disponibles ne précisent ni le contenu des textes, ni le déroulé de la rencontre.",
+      "story": "Ce rendez-vous rappelle que la lecture peut aussi prendre place dans la vie locale, à plusieurs voix et au fil des liens entre communes voisines. La présence de la MARPA de Rémuzat dans l’intitulé inscrit l’événement dans une dimension humaine, tandis que le nom d’Antoine Picard laisse entendre une participation identifiée, sans que son rôle soit détaillé dans les éléments transmis.\n\nL’annonce reste volontairement sobre. On ne sait pas encore quels textes seront lus, quelle forme prendra la séance ou combien de temps elle durera. Ce manque de précisions n’enlève rien à l’intérêt de noter la date, mais il invite à consulter la page officielle avant de prévoir sa sortie.",
+      "why_it_matters": "Voilà une piste pour celles et ceux qui cherchent, à Nyons, une sortie culturelle davantage tournée vers les mots que vers le spectacle au sens habituel. Les catégories associées à l’événement peuvent aussi intéresser les personnes attentives aux initiatives où culture et vie sociale se rencontrent. C’est un rendez-vous à envisager si l’idée d’écouter des lectures proposées avec la MARPA de Rémuzat vous parle, tout en sachant que son contenu précis reste à confirmer.",
+      "practical": "La date annoncée est le vendredi 9 octobre 2026, à Nyons. Le titre mentionne la MARPA de Rémuzat et Antoine Picard. En revanche, le lieu, l’horaire, les modalités d’accès et le programme ne figurent pas dans les faits disponibles. Le détail actuellement associé à la page évoque un autre événement : vérifiez donc ces informations directement sur la fiche officielle avant de vous déplacer.",
+      "reader_question": "Quels textes aimeriez-vous entendre lors de ces lectures avec la MARPA de Rémuzat et Antoine Picard ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:13:50.165945+00:00",
+    "generated_at": "2026-09-26T07:42:50.377606+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
@@ -863,7 +864,7 @@
       "reader_question": "Avez-vous repéré les précisions de programme de cette 7e 4 Seasons Jam ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:14:07.165756+00:00",
+    "generated_at": "2026-09-26T07:42:50.377697+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
@@ -892,7 +893,7 @@
       "reader_question": "Le cadre des semaines d’information sur la santé mentale vous donne-t-il envie d’en savoir plus sur cet Atelier Jardin Zen ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:14:25.327157+00:00",
+    "generated_at": "2026-09-26T07:42:50.377752+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
@@ -920,17 +921,17 @@
       "reader_question": "Le Yoga du Chant fait-il partie des activités que vous aimeriez découvrir à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:14:37.526740+00:00",
+    "generated_at": "2026-09-26T07:42:50.377811+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
-    "hash": "499757f4d78ae7c9d8544bded9918ec5b4f208a4d0c6f31eee584c974da5773c",
+    "hash": "07f1b5ccd42f8a656359dfe2fb394a6b550908f54a44d3290fb070c1b6443c71",
     "slug": "conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes-2026-10-10",
     "event": {
       "title": "Conférence-discussion sur les directives anticipées et les dernières volontés",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 15.8°C / 15.8°C Contact Recherche Mentions légales Politique de confiden",
+      "summary": "Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 18°C / 18°C Contact Recherche Mentions légales Politique de confidential",
       "categories": [
         "Solidarité / Santé"
       ],
@@ -938,15 +939,15 @@
     },
     "editorial": {
       "seo_title": "Directives anticipées et dernières volontés à Nyons",
-      "meta_description": "À Nyons, un rendez-vous de la Semaine Bleue 2026 autour des directives anticipées et dernières volontés. Date et format à vérifier.",
-      "intro": "Parler des directives anticipées et des dernières volontés n’est pas toujours simple. Pourtant, ce sont des sujets qui touchent à des choix très concrets : ce que l’on souhaite prévoir, faire connaître ou laisser par écrit. Inscrit dans le cadre de la Semaine Bleue 2026 à Nyons, ce rendez-vous est annoncé comme une conférence-discussion. La page officielle mentionne aussi un atelier thématique consacré à la législation funéraire. Deux formulations qui donnent le cap d’un temps d’information et d’échange autour de ces questions sensibles.",
-      "story": "L’intérêt de cette rencontre tient d’abord au sujet abordé, souvent repoussé parce qu’il paraît administratif, intime ou difficile à mettre en mots. Les directives anticipées concernent les volontés d’une personne concernant sa prise en charge médicale future ; les dernières volontés renvoient, elles, à d’autres décisions à préparer. La mention d’un atelier sur la législation funéraire suggère une approche également attentive au cadre légal. Dans le programme de la Semaine Bleue, cette proposition ouvre ainsi un espace pour mieux repérer les démarches et les questions à poser. Les modalités précises ne figurent toutefois pas clairement dans les éléments transmis.",
-      "why_it_matters": "Cette date peut intéresser celles et ceux qui cherchent à comprendre des démarches de prévoyance, sans forcément savoir par où commencer. Elle peut aussi nourrir une réflexion familiale, à un moment où l’on souhaite mettre de l’ordre dans ses souhaits ou simplement disposer de repères sur la législation. Le sujet appelle de la précision : mieux vaut donc venir avec ses interrogations et vérifier le contenu annoncé avant de se déplacer.",
-      "practical": "Le rendez-vous est rattaché à la Semaine Bleue 2026 et à la rubrique Solidarité / Santé de Nyons. Une incohérence existe dans les informations fournies : la date affichée est le 10 octobre 2026, tandis que le détail indique le lundi 5 octobre 2026. Le format est lui aussi présenté comme conférence-discussion puis comme atelier. Consultez la fiche officielle pour confirmer date, horaire, lieu et modalités.",
-      "reader_question": "Quelles questions aimeriez-vous éclaircir sur les directives anticipées ou les dernières volontés ?",
+      "meta_description": "À Nyons, une conférence-discussion aborde directives anticipées et dernières volontés, dans le cadre de la Semaine Bleue 2026.",
+      "intro": "Parler des directives anticipées et des dernières volontés n’est pas toujours simple. Cet événement inscrit à l’agenda de Nyons propose justement d’ouvrir la discussion sur ces sujets, à la croisée de la santé, de la solidarité et de la législation funéraire. Annoncé dans le cadre de la Semaine Bleue 2026, le rendez-vous porte le titre de « conférence-discussion » ; sa présentation officielle évoque aussi un atelier thématique. Une manière de prendre connaissance des questions que ces démarches peuvent soulever, sans les laisser de côté jusqu’au dernier moment.",
+      "story": "Les informations publiées par la Ville de Nyons restent brèves, mais elles donnent le fil conducteur : les directives anticipées et les dernières volontés seront au centre de ce temps d’échange. La rubrique « Solidarité / Santé » replace le sujet dans une approche concrète, tandis que la mention de la législation funéraire élargit la réflexion aux dispositions qui entourent la fin de vie et les volontés exprimées.\n\nDans le cadre de la Semaine Bleue 2026, ce rendez-vous apporte donc un espace identifié pour aborder un thème souvent délicat. Conférence, discussion ou atelier : le format exact est à préciser auprès de la source officielle, mais le sujet, lui, est clairement annoncé.",
+      "why_it_matters": "Cette rencontre peut intéresser celles et ceux qui cherchent un temps d’information autour des démarches liées aux volontés de fin de vie ou aux questions funéraires. Elle peut aussi répondre à l’envie de mieux comprendre des termes parfois connus de nom, mais moins bien dans leur portée concrète. Le fait qu’elle s’inscrive dans la Semaine Bleue donne un repère dans l’agenda nyonsais d’octobre.",
+      "practical": "L’événement est référencé à Nyons dans la catégorie « Solidarité / Santé » et rattaché à la Semaine Bleue 2026. Attention : les données transmises indiquent le 10 octobre 2026, tandis que le détail officiel mentionne le lundi 5 octobre 2026. L’horaire, le lieu, les éventuelles modalités d’accès et la date définitive sont à vérifier sur la fiche officielle de la Ville de Nyons.",
+      "reader_question": "Avez-vous déjà réfléchi à la manière de formaliser vos directives anticipées ou vos dernières volontés ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:14:51.641743+00:00",
+    "generated_at": "2026-09-26T07:43:03.741553+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
@@ -972,7 +973,7 @@
       "reader_question": "Que vous évoque l’idée des histoires et schémas transmis au sein d’une famille ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:15:06.629213+00:00",
+    "generated_at": "2026-09-26T07:43:03.741655+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
@@ -1000,7 +1001,7 @@
       "reader_question": "Quel thème aimeriez-vous découvrir lors de cette excursion à Venterol ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:15:22.235769+00:00",
+    "generated_at": "2026-09-26T07:43:03.741717+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
@@ -1027,7 +1028,7 @@
       "reader_question": "Avez-vous envie d’en savoir plus sur ce que la matériauthèque proposera lors de cette journée de découverte ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:15:37.825848+00:00",
+    "generated_at": "2026-09-26T07:43:03.741772+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
@@ -1055,7 +1056,7 @@
       "reader_question": "Cherchez-vous une activité mensuelle autour de la voix et du yoga du chant ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:15:53.372026+00:00",
+    "generated_at": "2026-09-26T07:43:03.741822+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
@@ -1083,7 +1084,7 @@
       "reader_question": "Vous cherchiez plutôt l’atelier de jardin zen ou la comédie des Turlupinades ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:16:09.183800+00:00",
+    "generated_at": "2026-09-26T07:43:03.741864+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
@@ -1117,7 +1118,7 @@
       "reader_question": "Avez-vous déjà repéré d’autres rendez-vous de la Semaine Bleue 2026 à Nyons ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:16:23.162287+00:00",
+    "generated_at": "2026-09-26T07:43:03.741909+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
@@ -1145,7 +1146,7 @@
       "reader_question": "Quel regard attendez-vous d’un débat après la projection de « Sur l’Adamant » ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:16:37.517016+00:00",
+    "generated_at": "2026-09-26T07:43:03.741961+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
@@ -1172,7 +1173,7 @@
       "reader_question": "L’improvisation théâtrale vous donne-t-elle envie de noter cette date du 11 octobre ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:16:52.872392+00:00",
+    "generated_at": "2026-09-26T07:43:03.742007+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
@@ -1206,7 +1207,7 @@
       "reader_question": "Le thème d’une soirée à Vienne vous donne-t-il envie de découvrir ce concert du Page Blanche Quartet ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:17:11.264074+00:00",
+    "generated_at": "2026-09-26T07:43:03.742067+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
@@ -1230,7 +1231,7 @@
       "reader_question": "Quelle facette de Chagall aimeriez-vous mieux comprendre : son univers poétique ou son parcours d’exilé ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:17:25.177387+00:00",
+    "generated_at": "2026-09-26T07:43:03.742201+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
@@ -1256,7 +1257,7 @@
       "reader_question": "Cherchez-vous des informations sur les directives anticipées ou plutôt sur les rituels funéraires ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:17:42.619411+00:00",
+    "generated_at": "2026-09-26T07:43:03.742275+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
@@ -1283,7 +1284,7 @@
       "reader_question": "Qu’aimeriez-vous voir abordé autour d’une saison agricole bouleversée par la chaleur ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:17:58.957230+00:00",
+    "generated_at": "2026-09-26T07:43:03.742321+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
@@ -1311,7 +1312,7 @@
       "reader_question": "Qu’aimeriez-vous demander au réalisateur Michel Van Zèle après ce documentaire sur l’Opéra de Lyon ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:18:13.345187+00:00",
+    "generated_at": "2026-09-26T07:43:03.742375+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
@@ -1338,7 +1339,7 @@
       "reader_question": "Connaissez-vous les associations et structures qui agissent autour de la santé mentale sur le territoire nyonsais ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:18:28.044172+00:00",
+    "generated_at": "2026-09-26T07:43:03.742429+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
@@ -1364,17 +1365,17 @@
       "reader_question": "Le programme officiel précisera-t-il s’il s’agit bien de l’atelier du 16 octobre ou du spectacle « Papillon noir » du 10 octobre ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:18:41.575020+00:00",
+    "generated_at": "2026-09-26T07:43:03.742470+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
-    "hash": "e96ae091924f0887a64611051681c47ef7aa85d2ee4b96eca9d8aa4c1599db7e",
+    "hash": "7a7a825eca5a46b266d4db66888eb60b307e0bf14ac7e93b36b2693a4ea75203",
     "slug": "soiree-de-presentation-de-nyons-en-scene-2026-10-16",
     "event": {
       "title": "Soirée de présentation de « Nyons en scène »",
       "start_date": "2026-10-16",
       "end_date": "2026-10-16",
-      "summary": "Présentation de la nouvelle saison culturelle municipale. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 15.8°C / 15.8°C Contact Recherche Mentions légales Pol",
+      "summary": "Présentation de la nouvelle saison culturelle municipale. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 18°C / 18°C Contact Recherche Mentions légales Politiq",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -1382,16 +1383,78 @@
       "url": "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/"
     },
     "editorial": {
-      "seo_title": "Présentation de la saison « Nyons en scène » à Nyons",
-      "meta_description": "Le 16 octobre 2026, Nyons présente sa nouvelle saison culturelle municipale lors d’une soirée dédiée à « Nyons en scène ».",
-      "intro": "Une nouvelle saison culturelle se dessine à Nyons. Le 16 octobre 2026, une soirée est annoncée pour présenter « Nyons en scène », la saison culturelle municipale. C’est un rendez-vous de lancement, pensé autour de ce qui fera vivre la programmation à venir. Les informations disponibles ne détaillent pas encore le contenu de cette présentation, mais l’intitulé donne le cap : culture vivante et rendez-vous municipal sont au cœur de la soirée. Une date à garder sous le coude pour celles et ceux qui aiment savoir ce qui se prépare dans la ville.",
-      "story": "Cette présentation de « Nyons en scène » s’inscrit dans les rubriques Patrimoine / Culture vivante et Culture de l’agenda municipal. Elle marque donc un temps consacré à la nouvelle saison, plutôt qu’un spectacle dont le programme serait déjà précisé.\n\nL’intérêt d’une telle soirée tient souvent à cette vue d’ensemble : elle permet de repérer les futurs rendez-vous culturels et de mieux comprendre la ligne de la saison annoncée par la Ville. Ici, les éléments transmis ne donnent ni la liste des propositions présentées, ni le déroulé de la rencontre. Inutile d’en rajouter : le plus sûr est de suivre la fiche officielle au fil de ses mises à jour.",
-      "why_it_matters": "Vous cherchez les rendez-vous culturels à venir à Nyons, ou vous préférez connaître la saison avant de choisir vos sorties ? Cette soirée de présentation peut répondre à cette envie de prendre un peu d’avance. Elle concerne aussi les personnes attentives à la vie culturelle municipale et à ce qui se construit localement. Avec une seule date annoncée, elle constitue surtout un point de repère dans l’agenda d’octobre.",
-      "practical": "La soirée de présentation de « Nyons en scène » est annoncée le 16 octobre 2026 à Nyons. La fiche la classe dans les catégories Culture et Patrimoine / Culture vivante. L’horaire, le lieu précis, les modalités d’accès et le contenu de la présentation ne sont pas indiqués dans les informations fournies : vérifiez-les sur la fiche officielle de la Ville de Nyons avant de vous déplacer.",
-      "reader_question": "Avez-vous envie de découvrir ce que la nouvelle saison « Nyons en scène » prépare pour Nyons ?",
+      "seo_title": "Présentation de la saison Nyons en scène, le 16 octobre",
+      "meta_description": "Le 16 octobre 2026, Nyons présente sa nouvelle saison culturelle municipale avec la soirée « Nyons en scène ». Informations à vérifier en ligne.",
+      "intro": "La saison culturelle municipale se dévoile à Nyons le vendredi 16 octobre 2026. Baptisée « Nyons en scène », cette soirée de présentation est annoncée comme un temps consacré à la nouvelle saison. C’est l’occasion de prendre connaissance de ce que la programmation municipale prévoit pour les mois à venir, sans avoir à attendre chaque rendez-vous au fil de l’année. Le titre donne le ton : la scène, mais aussi plus largement la culture vivante, sont au cœur de cette date inscrite à l’agenda local.",
+      "story": "Une présentation de saison n’est pas un spectacle comme les autres : elle sert avant tout de point de départ. À Nyons, « Nyons en scène » doit permettre de découvrir la nouvelle saison culturelle portée par la municipalité. Pour les habitants qui suivent l’agenda culturel de près, c’est un repère utile dans le calendrier d’automne. Pour les autres, cela peut être une manière simple de voir ce qui se prépare dans la ville et de noter quelques idées de sorties à venir. Les informations fournies ne détaillent toutefois ni le contenu précis de la soirée ni les rendez-vous qui seront annoncés. Mieux vaut donc garder un œil sur la fiche officielle avant de s’organiser.",
+      "why_it_matters": "Ce rendez-vous peut intéresser celles et ceux qui cherchent à anticiper leurs sorties culturelles à Nyons plutôt qu’à les découvrir au dernier moment. Il répond aussi à une envie toute simple : comprendre comment va se dessiner la saison municipale et repérer les dates à suivre. Si vous aimez choisir vos spectacles, rencontres ou propositions culturelles au fil d’un programme global, cette présentation peut être un bon premier jalon.",
+      "practical": "La soirée de présentation « Nyons en scène » est annoncée le 16 octobre 2026, à Nyons, autour de la nouvelle saison culturelle municipale. Les éléments transmis ne précisent pas l’horaire, le lieu exact, les conditions d’accès ni le déroulé. Consultez la fiche officielle de la Ville de Nyons avant votre venue pour vérifier ces informations et les éventuelles mises à jour.",
+      "reader_question": "Quel type de rendez-vous culturel aimeriez-vous voir apparaître dans la prochaine saison nyonsaise ?",
       "_fallback": false
     },
-    "generated_at": "2026-09-26T07:18:56.524048+00:00",
+    "generated_at": "2026-09-26T07:43:16.555347+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/atelier-dart-therapie/": {
+    "hash": "4ac71efb002dedb84153e801a3f4c2da75114d87c57007daffb0660a1b948c26",
+    "slug": "atelier-dart-therapie-2026-10-17",
+    "event": {
+      "title": "Atelier d’Art-Thérapie",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "summary": "Atelier d'Art-Thérapie avec Anaïs Marino, Art-thérapeute, dans le cadre des semaines d'information sur la santé mentale.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-dart-therapie/"
+    },
+    "editorial": {
+      "seo_title": "Atelier d’Art-Thérapie à Nyons le 17 octobre 2026",
+      "meta_description": "Un atelier d’art-thérapie avec Anaïs Marino est annoncé à Nyons le 17 octobre 2026, dans le cadre des semaines santé mentale.",
+      "intro": "Le 17 octobre 2026, Nyons annonce un atelier d’art-thérapie avec Anaïs Marino, art-thérapeute. Ce rendez-vous s’inscrit dans le cadre des semaines d’information sur la santé mentale. L’art, ici, entre donc dans la conversation autour de la santé mentale : une approche qui trouve sa place parmi les propositions culturelles et solidaires de l’agenda local. Les informations disponibles ne précisent pas encore le déroulé de l’atelier, mais le thème et le cadre sont bien posés.",
+      "story": "Ce rendez-vous relie deux entrées que l’on ne pense pas toujours à rapprocher : la pratique artistique et l’information autour de la santé mentale. Il est porté par Anaïs Marino, présentée comme art-thérapeute, et figure dans les rubriques culture, culture vivante et solidarité/santé. À Nyons, cette date du 17 octobre se distingue ainsi des simples sorties culturelles : elle invite à regarder l’art sous un autre angle, dans le contexte particulier des semaines dédiées à l’information sur la santé mentale. Pour connaître la forme concrète de la séance, il faudra toutefois se reporter à la fiche officielle.",
+      "why_it_matters": "Cette proposition peut intéresser celles et ceux qui cherchent une activité culturelle liée à un sujet de santé mentale, ou qui souhaitent repérer les initiatives locales inscrites dans ces semaines d’information. C’est aussi une date à noter pour qui s’intéresse à l’art-thérapie et veut en savoir davantage sur cette approche. Les modalités n’étant pas détaillées dans les informations fournies, mieux vaut vérifier avant de prévoir sa venue.",
+      "practical": "L’atelier d’art-thérapie est annoncé à Nyons le samedi 17 octobre 2026, avec Anaïs Marino, dans le cadre des semaines d’information sur la santé mentale. L’horaire, le lieu précis, les conditions de participation et une éventuelle inscription ne sont pas indiqués ici. Vérifiez ces éléments sur la fiche officielle de l’événement avant de vous déplacer.",
+      "reader_question": "L’art-thérapie est-elle une approche que vous aimeriez découvrir à Nyons ?",
+      "_fallback": false
+    },
+    "generated_at": "2026-09-26T07:43:29.758254+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
+    "hash": "4005462e09b742b0fd5fd81adac0ce25649a2c7d3bfdb928e34c9700a5770f48",
+    "slug": "journee-de-cloture-des-vendanges-2026-10-17",
+    "event": {
+      "title": "Journée de clôture des vendanges",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "summary": "Journée de clôture des vendanges et « Vignoble en Scène » au domaine Rocheville",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/"
+    },
+    "editorial": {
+      "seo_title": "Clôture des vendanges 2026 à Nyons",
+      "meta_description": "Le 17 octobre 2026, une journée de clôture des vendanges est annoncée à Nyons, autour de « Vignoble en Scène » au domaine Rocheville.",
+      "intro": "Quand les vendanges arrivent à leur terme, Nyons annonce une journée de clôture le samedi 17 octobre 2026. Le rendez-vous est associé à « Vignoble en Scène » et au domaine Rocheville dans les informations transmises. Son intitulé relie clairement l’événement au temps fort viticole de l’automne, tout en le plaçant dans l’agenda culturel et de loisirs local. Une date à noter pour celles et ceux qui aiment suivre les rendez-vous ancrés dans les saisons du territoire.",
+      "story": "Cette journée figure sous le nom de « Journée de clôture des vendanges ». C’est une formule courte, mais elle dit déjà quelque chose du calendrier local : le 17 octobre vient marquer la fin d’une période importante de l’année viticole. La mention de « Vignoble en Scène » donne aussi une couleur culturelle à l’annonce, sans que les éléments fournis ne détaillent encore son contenu.\n\nAttention toutefois à ne pas mélanger les informations : un texte associé à la fiche évoque un concert de Bouda OMG! le 2 octobre 2026, dans le cadre du dispositif Miz’Ampli. Cette date ne correspond pas à celle de la journée de clôture ; il faudra donc se référer à la page officielle pour connaître le programme propre au 17 octobre.",
+      "why_it_matters": "Voilà un repère intéressant si vous cherchez une sortie d’automne liée aux vendanges et à la vie culturelle du Nyonsais. L’événement peut aussi retenir l’attention de celles et ceux qui suivent « Vignoble en Scène » ou souhaitent inscrire une date locale dans leur agenda d’octobre. Les informations disponibles ne permettent pas, en revanche, de préciser les animations, les intervenants ou le déroulé de la journée.",
+      "practical": "La journée est annoncée le samedi 17 octobre 2026, sous le titre « Journée de clôture des vendanges », avec une association à « Vignoble en Scène » et au domaine Rocheville. Le contenu détaillé, les horaires, les conditions d’accès et les éventuelles modalités d’inscription ne sont pas précisés dans les faits fournis. Vérifiez-les directement sur la fiche officielle avant de vous déplacer.",
+      "reader_question": "Cette clôture des vendanges du 17 octobre trouvera-t-elle une place dans votre agenda d’automne à Nyons ?",
+      "_fallback": false
+    },
+    "generated_at": "2026-09-26T07:43:45.368314+00:00",
     "model": "gpt-5.6-terra"
   }
 }
