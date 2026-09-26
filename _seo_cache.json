@@ -1,12 +1,12 @@
 {
   "2026-09-21": {
-    "hash": "10d5bfd959b11dd3f44f6083063bc4e6042575459a06416ac2d1085c4f9ae00a",
+    "hash": "8edb284d9f6fbc6f767e541ff36d07463b7797953c52645376394eca9c70a3d5",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, rencontre culturelle et sorties du 25 au 27, entre cuisine, concert, climat et apiculture.",
-      "intro": "La semaine du 21 au 27 septembre 2026 dessine un agenda varié à Nyons, avec plusieurs rendez-vous culturels et des propositions concentrées à partir du vendredi. Les expositions offrent un fil rouge sur plusieurs jours : « Découvrez Solidarité Paysans ! » et « Exposition « Urbain Urbex » » se poursuivent jusqu’au 30 septembre, tandis que « La Vie en Couleur » : Exposition de Cécile Allex est proposée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne. Le 25 septembre, la rencontre avec Régis PENET invite à un voyage entre mythologie, science-fiction et réflexions existentielles. Le samedi 26 rassemble des formats très différents : cuisine, musique, découverte de l’apiculture, cérémonie de cacao et marche pour le climat. Les 8 jours de la Ville de Nyons débutent également le 25 septembre et se prolongent au-delà de cette semaine.",
-      "weekend": "Pour composer votre week-end, commencez par repérer le type d’expérience qui vous attire. Le vendredi 25 septembre, la rencontre avec Régis PENET s’adresse aux curieux de dessin et de récit. Le samedi 26, l’offre se diversifie nettement : l’atelier culinaire propose de préparer tacos au poulet et burritos au bœuf maison, tandis que le concert COMTESSA ! associe répertoire médiéval, musiques du monde, jazz et improvisations. La journée « Une ruche dans mon jardin ? » permet quant à elle de découvrir les abeilles et l’apiculture. Pour une visite culturelle sur plusieurs jours, l’exposition de Cécile Allex reste accessible jusqu’au 27 septembre.",
-      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement : les informations utiles qui ne figurent pas dans cet agenda, comme les horaires précis, les conditions d’accès ou d’éventuelles modalités de participation, doivent être vérifiées directement auprès de l’organisateur. Cette précaution est particulièrement utile le samedi 26 septembre, où plusieurs rendez-vous sont annoncés le même jour. Pensez aussi à confirmer les dates de fin des expositions.",
-      "conclusion": "Entre expositions, création artistique, rencontre d’auteur et rendez-vous de loisirs, Nyons propose une semaine aux tonalités multiples. Le dernier week-end de septembre se distingue par la diversité des choix possibles le 26 septembre, de la musique à l’apiculture en passant par la cuisine et la marche pour le climat. Les expositions permettent aussi de prolonger la découverte à un rythme plus libre, selon leurs dates annoncées.",
+      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, concert, atelier culinaire, initiatives citoyennes et rendez-vous du 26 septembre.",
+      "intro": "Du 21 au 27 septembre 2026, Nyons propose une semaine où les expositions tiennent une place importante, tandis que plusieurs rendez-vous se concentrent le samedi 26 septembre. Les visiteurs peuvent découvrir l’exposition consacrée à Solidarité Paysans Drôme-Ardèche et « Urbain Urbex », toutes deux programmées jusqu’au 30 septembre. À partir du 22 septembre, « La Vie en Couleur » : Exposition de Cécile Allex complète ce parcours culturel jusqu’au 27 septembre. La fin de semaine marque aussi le début des Les 8 jours de la Ville de Nyons, le 25 septembre. Le samedi, le choix s’étend d’un atelier culinaire à un concert, de l’improvisation théâtrale à une journée autour des abeilles et de l’apiculture, sans oublier des initiatives liées au climat, au compost ou à une cérémonie de cacao. Une sélection variée pour organiser ses sorties selon ses envies.",
+      "weekend": "Pour le week-end, les informations disponibles se concentrent surtout sur le samedi 26 septembre. Ceux qui recherchent une sortie culturelle peuvent regarder du côté du concert COMTESSA ! ou d’Impro !. L’atelier culinaire – Street food party propose pour sa part de réaliser des tacos au poulet et des burritos au bœuf maison. Les personnes attirées par les sujets environnementaux ou de cadre de vie peuvent s’orienter vers la Marche pour le Climat, la distribution gratuite de compost ou la journée « Une ruche dans mon jardin ? ». Les expositions en cours restent également une option sur cette période, selon leurs dates de fin.",
+      "practical": "Avant de vous déplacer, consultez la fiche officielle de chaque événement : les informations fournies ici ne précisent pas les horaires, les modalités d’accès ni les éventuelles conditions de participation. Vérifiez aussi les dates de fin des expositions et la période des Les 8 jours de la Ville de Nyons, qui se poursuit au-delà de cette semaine. Pour le 26 septembre, comparez les rendez-vous afin de construire votre programme.",
+      "conclusion": "Cette semaine de septembre à Nyons permet d’alterner entre découvertes culturelles, activités de loisirs et initiatives citoyennes. Les expositions offrent un fil conducteur sur plusieurs jours, tandis que le samedi 26 rassemble de nombreuses propositions ponctuelles. Consultez les pages officielles avant votre sortie pour retenir les informations actualisées et choisir les rendez-vous qui correspondent le mieux à votre programme.",
       "highlights": [
         {
           "event_title": "« La Vie en Couleur » : Exposition de Cécile Allex",
@@ -14,15 +14,15 @@
         },
         {
           "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-          "reason": "Un concert annoncé à la croisée du médiéval, des musiques du monde, du jazz et de l’improvisation."
+          "reason": "Un concert annoncé autour de musiques médiévales, du monde, jazz et improvisations, le 26 septembre."
         },
         {
           "event_title": "Une ruche dans mon jardin ?",
-          "reason": "Une journée consacrée à la découverte des abeilles et de l’apiculture."
+          "reason": "Une journée de découverte consacrée aux abeilles et à l’apiculture, le 26 septembre."
         }
       ]
     },
-    "generated_at": "2026-09-26T10:48:07.424565+00:00",
+    "generated_at": "2026-09-26T12:23:55.185713+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
