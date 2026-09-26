@@ -49,10 +49,10 @@ TIMEOUT = 25
 SEO_WEEKS_AHEAD = 12
 ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
-EVENT_DETAIL_PARSER_VERSION = 4
+EVENT_DETAIL_PARSER_VERSION = 5
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
-EVENT_PROMPT_VERSION = 7
+EVENT_PROMPT_VERSION = 9
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -479,13 +479,18 @@ def rolling_events(events):
 
 def event_facts(event, detail_text="", practical=None):
     practical = practical or {}
+
+    # IMPORTANT :
+    # GPT ne reçoit plus le gros texte brut de la page.
+    # On lui donne uniquement les faits propres et structurés.
+    clean_summary = clean(event.get("summary", ""))[:1200]
+
     return {
         "title": event["title"],
         "start_date": event["start_date"],
         "end_date": event["end_date"],
         "categories": event.get("categories") or [],
-        "summary_source": clean(event.get("summary", ""))[:700],
-        "detail_source": clean(detail_text)[:4200],
+        "summary_source": clean_summary,
         "practical": {
             "date_time": clean(practical.get("date_time", "")),
             "location_name": clean(practical.get("location_name", "")),
@@ -498,26 +503,16 @@ def event_facts(event, detail_text="", practical=None):
     }
 
 
+
 def event_hash(event, detail_text="", practical=None):
-    # IMPORTANT :
-    # Les infos pratiques (horaire, téléphone, adresse, email, site)
-    # ne déclenchent PAS une nouvelle génération GPT.
-    # Elles sont affichées directement dans le HTML.
     payload = {
-        "event": {
-            "title": event["title"],
-            "start_date": event["start_date"],
-            "end_date": event["end_date"],
-            "categories": event.get("categories") or [],
-            "summary_source": clean(event.get("summary", ""))[:700],
-            "detail_source": clean(detail_text)[:4200],
-            "official_url": event["url"],
-        },
+        "event": event_facts(event, "", practical),
         "prompt_version": EVENT_PROMPT_VERSION,
         "model": OPENAI_MODEL,
     }
     raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
 
 
 def detail_cache_fresh(entry) -> bool:
@@ -886,7 +881,7 @@ def fallback_event_editorial(event):
             "Si le thème vous intéresse, l’essentiel est ici : la date, le lieu et les informations pratiques utiles pour décider de votre sortie."
         ),
         "practical": (
-            "Les coordonnées et informations pratiques utiles figurent dans le bloc ci-dessus."
+            ""
         ),
         "reader_question": f"Qu'est-ce qui vous attire le plus dans « {title} » ?",
         "_fallback": True,
@@ -894,13 +889,7 @@ def fallback_event_editorial(event):
 
 
 def sanitize_editorial_text(value: str) -> str:
-    """
-    Supprime les phrases méta inutiles du type :
-    - manque d'informations
-    - horaires non indiqués
-    - lieu non précisé
-    - informations à vérifier avant déplacement
-    """
+    """Supprime les phrases méta, négatives ou spéculatives."""
     value = clean(value)
     if not value:
         return value
@@ -908,27 +897,54 @@ def sanitize_editorial_text(value: str) -> str:
     forbidden_patterns = [
         r"\bmanque d['’]indications\b",
         r"\bmanque d['’]informations\b",
-        r"\binformations? .*?(?:pas|non) (?:précisées?|indiquées?|détaillées?)\b",
-        r"\bhoraires? .*?(?:pas|non) (?:précisés?|indiqués?|détaillés?)\b",
-        r"\blieu .*?(?:pas|non) (?:précisé|indiqué|détaillé)\b",
-        r"\bcontenu exact .*?(?:pas|non) (?:précisé|indiqué|détaillé)\b",
-        r"\bvérifier les informations actualisées\b",
+        r"\baucun horaire\b",
+        r"\baucun lieu\b",
+        r"\baucune adresse\b",
+        r"\baucun téléphone\b",
+        r"\bles informations .*? ne (?:donnent|détaillent|précisent|mentionnent) pas\b",
+        r"\bles modalités .*? ne sont pas précisées\b",
         r"\bmieux vaut .*?extrapoler\b",
-        r"\bles informations fournies ne détaillent\b",
-        r"\ben revanche, le manque\b",
+        r"\bvérifier les informations actualisées\b",
+        r"\bà surveiller\b",
+        r"\ble classement .*? laisse entendre\b",
+        r"\bon peut supposer\b",
+        r"\bsemble être une information distincte\b",
+        r"\bne permet pas d['’]établir un lien\b",
+        r"\bil ne faut donc pas le considérer\b",
+        r"\ben revanche, .*?(?:manque|aucun|aucune|ne sont pas|ne donne pas|ne précise pas)\b",
     ]
 
     parts = re.split(r"(?<=[.!?])\s+", value)
     kept = []
-
     for sentence in parts:
         low = sentence.lower()
         if any(re.search(pattern, low, re.I) for pattern in forbidden_patterns):
             continue
         kept.append(sentence.strip())
 
-    result = clean(" ".join(kept))
-    return result or value
+    return clean(" ".join(kept))
+
+
+
+def official_fallback_notice(event, practical):
+    """
+    Si les infos pratiques importantes sont insuffisantes,
+    renvoie une phrase simple et utile vers la fiche officielle.
+    """
+    has_when = bool(clean(practical.get("date_time", "")))
+    has_where = bool(
+        clean(practical.get("location_name", ""))
+        or clean(practical.get("address", ""))
+    )
+
+    if has_when and has_where:
+        return ""
+
+    return (
+        "Pour les horaires, le lieu exact et les éventuelles conditions d’accès, "
+        "consultez la fiche officielle de l’événement sur le site de la Ville de Nyons."
+    )
+
 
 
 def generate_event_editorial(event, detail_text, practical=None):
@@ -955,52 +971,46 @@ def generate_event_editorial(event, detail_text, practical=None):
         "additionalProperties": False,
     }
 
-    facts = event_facts(event, detail_text, practical)
+    facts = event_facts(event, "", practical)
     system = (
         "Tu écris pour Vivre à Nyons comme un rédacteur local expérimenté. "
-        "Le style 'à la Papy' doit être chaleureux, vivant, concret et utile. "
-        "Le lecteur doit comprendre rapidement ce qui va réellement se passer, où, quand, "
-        "et pourquoi cela peut l'intéresser. "
-        "Utilise en PRIORITÉ les informations présentes dans practical : "
-        "date_time, location_name, address, phone, email, website. "
-        "N'écris JAMAIS qu'une information manque si elle existe dans practical. "
-        "Ne commente JAMAIS les limites de la source dans le corps éditorial. ""Il est INTERDIT de signaler qu’une information, un lieu, un horaire ou un contenu manque. ""Si une donnée n’est pas fournie, ignore-la simplement et continue avec les faits disponibles. "
-        "Si une donnée manque réellement, omets-la simplement. "
-        "Évite absolument les formulations robotiques ou creuses comme : "
-        "'ce qui distingue cette date', 'cet événement s'inscrit dans', "
-        "'les informations ne détaillent pas', 'mieux vaut ne pas extrapoler', "
-        "'la promesse connue tient à', 'une belle occasion de', "
-        "'un rendez-vous à ne pas manquer', 'il y en a pour tous les goûts'. "
-        "N'invente jamais d'ambiance constatée, de fréquentation, de programme, de tarif, "
-        "de technique, d'organisation, de public officiel, de réservation, d'historique "
-        "ou de témoignage absent des faits. "
-        "Écris comme quelqu'un qui veut vraiment aider un habitant ou un visiteur à décider "
-        "s'il a envie d'y aller. Quand les faits sont simples, préfère un texte plus court "
-        "et précis à un long texte creux."
+        "Tu dois écrire UNIQUEMENT à partir des faits structurés fournis. "
+        "Tu ne disposes volontairement d'aucun texte brut de page web, pour éviter les informations parasites. "
+        "Le style 'à la Papy' doit être chaleureux, concret, local, vivant et utile. "
+        "Tu dois comprendre ce qu'est réellement l'événement à partir du titre, du résumé, des catégories "
+        "et du bloc practical. "
+        "Si le titre indique clairement pétanque, atelier culinaire, lecture, exposition, concert, etc., "
+        "tu dois le traiter comme tel, sans le rendre vague. "
+        "N'invente jamais de programme, de tarif, d'ambiance, de fréquentation, de public, d'historique "
+        "ou de contenu non présent dans les faits. "
+        "N'écris JAMAIS qu'une information manque. Si une donnée n'est pas fournie, tu l'ignores simplement. "
+        "N'écris JAMAIS 'les informations ne détaillent pas', 'mieux vaut ne pas extrapoler', "
+        "'aucun horaire', 'aucun lieu', 'à surveiller', 'le classement laisse entendre', "
+        "'on peut supposer', ou toute formule équivalente. "
+        "Ne commente jamais les limites de la source. "
+        "Aucun événement extérieur au titre/résumé/practical ne doit être mentionné. "
+        "Si le résumé est court, écris court. "
+        "Le lecteur doit repartir avec une idée claire de ce qui se passe, sans remplissage."
     )
 
     user = (
-        "Rédige une fiche éditoriale de Nyons à partir UNIQUEMENT des faits JSON ci-dessous.\n\n"
-        "Objectif : texte naturel, concret, informatif, non publicitaire et différent d'une fiche à l'autre.\n"
-        "Longueur cible : environ 220 à 360 mots quand la matière le permet.\n\n"
-        "- seo_title : précis, naturel, idéalement moins de 65 caractères.\n"
-        "- meta_description : environ 140 à 160 caractères.\n"
-        "- intro : 60 à 100 mots. Commence directement par ce qui se passe réellement. "
-        "Utilise la date et le lieu si cela aide, sans tout répéter mécaniquement.\n"
-        "- story : 80 à 140 mots. Explique le contenu concret de l'événement, ce que le lecteur "
-        "va faire, voir, entendre ou découvrir, uniquement si ces éléments sont fournis. "
-        "Pas d'analyse méta de la source.\n"
-        "- why_it_matters : 50 à 90 mots. Explique simplement pourquoi cela peut intéresser quelqu'un, "
-        "sans inventer un public officiel.\n"
-        "- practical : 35 à 70 mots. Donne seulement les rappels vraiment utiles avant de se déplacer. "
-        "Ne répète pas toute l'adresse, le téléphone, l'email ou le site : ils sont déjà affichés dans le bloc pratique.\n"
-        "- reader_question : une seule question naturelle et spécifique à l'événement.\n\n"
-        "RÈGLES IMPORTANTES :\n"
-        "1. N'écris jamais 'les informations ne détaillent pas...' ni une phrase équivalente.\n"
-        "2. Si practical contient un horaire ou un lieu, respecte-le et ne dis jamais qu'il est inconnu.\n"
-        "3. Aucun paragraphe ne doit pouvoir être copié tel quel sur un autre événement.\n"
-        "4. Pas de remplissage SEO. Pas de conclusion générique.\n\n"
-        f"FAITS:\n{json.dumps(facts, ensure_ascii=False, indent=2)}"
+        "Rédige la fiche éditoriale de cet événement à partir UNIQUEMENT du JSON ci-dessous.\n\n"
+        "Longueur cible : 180 à 320 mots selon la quantité réelle d'information.\n\n"
+        "- seo_title : clair, précis, naturel, idéalement moins de 65 caractères.\n"
+        "- meta_description : 140 à 160 caractères environ.\n"
+        "- intro : 50 à 90 mots. Présente directement ce qu'est l'événement.\n"
+        "- story : 70 à 120 mots. Développe uniquement les éléments concrets du résumé et du titre.\n"
+        "- why_it_matters : 40 à 80 mots. Explique simplement l'intérêt de la sortie sans inventer.\n"
+        "- practical : 25 à 55 mots maximum. Ne parle jamais d'informations manquantes. "
+        "Si practical est pauvre, reste très bref ou vide.\n"
+        "- reader_question : une seule question simple et spécifique.\n\n"
+        "RÈGLES ABSOLUES :\n"
+        "1. Aucun fait qui n'est pas dans le JSON.\n"
+        "2. Aucun événement parasite ou autre date extérieure.\n"
+        "3. Aucun commentaire sur ce qui manque.\n"
+        "4. Si le titre dit pétanque, tu écris sur la pétanque ; ne transforme pas cela en événement vague.\n"
+        "5. Pas de remplissage SEO.\n\n"
+        f"FAITS PROPRES:\n{json.dumps(facts, ensure_ascii=False, indent=2)}"
     )
 
     try:
@@ -1025,6 +1035,11 @@ def generate_event_editorial(event, detail_text, practical=None):
 
         for field in ("intro", "story", "why_it_matters", "practical", "reader_question"):
             data[field] = sanitize_editorial_text(data.get(field, ""))
+
+        # Si GPT n'a plus rien d'utile à dire côté pratique après filtrage,
+        # on laisse vide : la page ajoutera éventuellement le renvoi officiel.
+        if not data.get("practical"):
+            data["practical"] = ""
 
         data["meta_description"] = trim_meta(
             sanitize_editorial_text(data.get("meta_description", ""))
@@ -1064,6 +1079,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     related_events = related_events or []
     practical = practical or {}
     story_title, why_title = event_section_titles(event)
+    source_notice = official_fallback_notice(event, practical)
     canonical = event_local_url(event)
     status = event_status(event)
     cats = " · ".join(event.get("categories") or [])
@@ -1167,7 +1183,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     .status{{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.15);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}} h1{{font-size:clamp(31px,5vw,50px);line-height:1.08;margin:.35em 0 .3em}} .date{{font-size:18px;font-weight:800;margin:0 0 8px}} .cats{{opacity:.9;font-size:14px}}
     .lead{{font-size:19px;background:var(--paper);border-left:5px solid var(--terracotta);padding:22px 24px;border-radius:16px;margin:24px 0;box-shadow:0 6px 22px rgba(52,48,38,.055)}}
     .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}.practical-box{{border-top:5px solid var(--terracotta)}}.info-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}}.info-row{{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}}.info-row span{{flex:0 0 24px;font-size:19px}}.info-row a{{overflow-wrap:anywhere}}.info-date{{grid-column:1/-1;background:#f6f0e4}}
-    .question{{background:#efe7cf;border-radius:18px;padding:22px 24px;margin:20px 0;font-weight:800;font-size:18px}} .source{{font-size:13px;color:var(--muted);margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.65)}}
+    .official-note{{margin-top:12px!important;padding:14px 16px;background:#f3eee3;border-left:4px solid var(--terracotta);border-radius:10px}}.question{{background:#efe7cf;border-radius:18px;padding:22px 24px;margin:20px 0;font-weight:800;font-size:18px}} .source{{font-size:13px;color:var(--muted);margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.65)}}
     .archive-note{{padding:14px 17px;margin:20px 0;background:#f2e5df;border-left:5px solid var(--terracotta);border-radius:12px}} .related{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}} .related-card{{display:flex;flex-direction:column;gap:6px;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-decoration:none}} .related-card span{{font-size:13px;color:var(--muted)}}
     @media(max-width:720px){{.related,.info-grid{{grid-template-columns:1fr}}.info-date{{grid-column:auto}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px;padding:24px 20px}}.lead,.section{{padding:18px}}}}
   </style>
@@ -1182,7 +1198,10 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     <div class="lead">{esc(editorial.get('intro',''))}</div>
     <section class="section"><h2>{esc(story_title)}</h2><p>{esc(editorial.get('story',''))}</p></section>
     <section class="section"><h2>{esc(why_title)}</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
-    <section class="section"><h2>ℹ️ Avant de vous déplacer</h2><p>{esc(editorial.get('practical',''))}</p></section>
+    <section class="section"><h2>ℹ️ Informations pratiques</h2>
+      <p>{esc(editorial.get('practical',''))}</p>
+      {f'<p class="official-note"><strong>👉 À vérifier :</strong> {esc(source_notice)} <a href="{esc(event["url"])}" target="_blank" rel="noopener">Voir la fiche officielle</a>.</p>' if source_notice else ''}
+    </section>
     <div class="question">💬 {esc(editorial.get('reader_question',''))}</div>
     {related_section}
     <div class="source"><strong>Source factuelle :</strong> <a href="{esc(event['url'])}" target="_blank" rel="noopener">fiche officielle de l’événement sur nyons.com</a>. Le texte de cette page est une présentation éditoriale originale construite à partir des informations publiées. Les informations pratiques peuvent évoluer.</div>
@@ -1226,20 +1245,13 @@ def generate_event_pages(events):
         digest = event_hash(event, detail, practical)
         cached = event_cache.get(event["url"], {})
 
-        has_good_cached_editorial = (
-            cached.get("editorial")
+        if (
+            cached.get("hash") == digest
+            and cached.get("editorial")
             and not cached.get("editorial", {}).get("_fallback", False)
-        )
-
-        if has_good_cached_editorial:
+        ):
             editorial = cached["editorial"]
-            if cached.get("hash") == digest:
-                print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
-            else:
-                print(
-                    f"FICHE {idx:02d}/50: infos pratiques/détails actualisés, "
-                    f"texte GPT conservé — {event['title']}"
-                )
+            print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
 
         elif ai_calls < MAX_EVENT_AI_CALLS:
             editorial = generate_event_editorial(event, detail, practical)
