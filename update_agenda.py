@@ -841,24 +841,21 @@ def extract_event_detail_data(html_text: str, source_url: str):
         practical[key] = val
 
     # ------------------------------------------------------------
-    # SITE WEB EXTERNE : href présents dans la page, mais seulement
-    # domaines qui ne sont pas la ville / réseaux sociaux.
+    # SITE WEB EXTERNE : uniquement une URL réellement présente
+    # dans le bloc texte de CET événement. On ne parcourt plus tous
+    # les liens du site nyons.com, ce qui évite de récupérer par erreur
+    # service-public.gouv.fr ou un lien du menu/footer.
     # ------------------------------------------------------------
     blocked_hosts = (
         "nyons.com", "facebook.com", "instagram.com",
         "twitter.com", "x.com", "youtube.com", "6tematik.fr",
+        "service-public.gouv.fr", "wponetap.com",
     )
 
-    # On parcourt les liens de la page ; on garde seulement les liens externes
-    # raisonnables. Comme les autres champs sont déjà bornés par le bloc fiche,
-    # le site web est facultatif : s'il y a doute, il reste vide.
-    for a in soup.find_all("a", href=True):
-        href = a.get("href", "").strip()
-        if not href.startswith(("http://", "https://")):
-            continue
-
-        parsed = urlparse(href)
-        host = parsed.netloc.lower()
+    for candidate in re.findall(r"https?://[^\s<>\"']+", event_text, re.I):
+        candidate = candidate.rstrip(".,;:!?)]]}")
+        parsed = urlparse(candidate)
+        host = parsed.netloc.lower().split(":", 1)[0]
 
         if not host:
             continue
@@ -866,13 +863,7 @@ def extract_event_detail_data(html_text: str, source_url: str):
         if any(host == b or host.endswith("." + b) for b in blocked_hosts):
             continue
 
-        anchor = clean(a.get_text(" ", strip=True)).lower()
-
-        # Évite des liens institutionnels génériques parasites.
-        if anchor in ("", "en savoir plus", "cliquez ici"):
-            continue
-
-        practical["website"] = href
+        practical["website"] = candidate
         break
 
     detail_text = event_text[:5200]
@@ -1224,6 +1215,42 @@ def build_event_location_ld(practical):
     return place
 
 
+def corrected_website_for_display(practical, detail_text):
+    """Corrige uniquement le site web affiché à partir du texte déjà mis en cache."""
+    practical = dict(practical or {})
+    blocked_hosts = (
+        "nyons.com", "facebook.com", "instagram.com",
+        "twitter.com", "x.com", "youtube.com", "6tematik.fr",
+        "service-public.gouv.fr", "wponetap.com",
+    )
+
+    found = ""
+    for candidate in re.findall(r"https?://[^\s<>\"']+", detail_text or "", re.I):
+        candidate = candidate.rstrip(".,;:!?)]]}")
+        parsed = urlparse(candidate)
+        host = parsed.netloc.lower().split(":", 1)[0]
+        if not host:
+            continue
+        if any(host == b or host.endswith("." + b) for b in blocked_hosts):
+            continue
+        found = candidate
+        break
+
+    current = clean(practical.get("website", ""))
+    current_host = urlparse(current).netloc.lower().split(":", 1)[0] if current else ""
+    current_bad = bool(current_host and any(
+        current_host == b or current_host.endswith("." + b)
+        for b in blocked_hosts
+    ))
+
+    if found:
+        practical["website"] = found
+    elif current_bad:
+        practical["website"] = ""
+
+    return practical
+
+
 def render_event_page(event, editorial, related_events=None, practical=None):
     related_events = related_events or []
     practical = practical or {}
@@ -1380,9 +1407,9 @@ def render_events_index(active_events, event_cache):
         </a>''')
 
     return f'''<!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agenda Nyons : tous les événements à venir</title><meta name="description" content="Tous les événements à venir à Nyons : sorties, culture, loisirs et rendez-vous locaux avec une fiche détaillée pour chacun."><link rel="canonical" href="{SITE}evenements/"><meta name="robots" content="index,follow"><style>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tous les événements à Nyons</title><meta name="description" content="Tous les événements à venir à Nyons : sorties, culture, loisirs et rendez-vous locaux avec une fiche détaillée pour chacun."><link rel="canonical" href="{SITE}evenements/"><meta name="robots" content="index,follow"><style>
 *{{box-sizing:border-box}}:root{{--olive:#566b3a;--olive-dark:#354622;--terracotta:#a94f35;--cream:#f6f1e8;--paper:#fffdf9;--ink:#262722;--muted:#6b6d65;--line:#e4dccd;--shadow:0 12px 34px rgba(52,48,38,.10)}}body{{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.62}}.top{{max-width:1180px;margin:auto;padding:15px 18px 0}}.ad-shell{{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}}.ad-frame{{display:block;width:100%;aspect-ratio:3/1;border:0}}.ad-note{{font-size:11px;text-align:right;color:#777;margin:6px 4px 0}}.wrap{{max-width:1080px;margin:auto;padding:18px 18px 60px}}.nav{{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0 18px}}.nav a{{padding:9px 13px;background:#fff;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-weight:800;font-size:13px;color:var(--olive-dark)}}.hero{{background:linear-gradient(125deg,var(--olive-dark),var(--olive) 62%,#788d58);color:#fff;border-radius:24px;padding:clamp(28px,5vw,52px);box-shadow:var(--shadow)}}h1{{font-size:clamp(32px,5vw,52px);line-height:1.08;margin:.15em 0 .3em}}.hero p{{max-width:800px;margin:0;font-size:18px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:22px}}.card{{display:flex;gap:15px;background:var(--paper);border:1px solid var(--line);border-radius:17px;padding:18px;color:var(--ink);text-decoration:none;box-shadow:0 6px 22px rgba(52,48,38,.055)}}.card:hover{{transform:translateY(-2px)}}.card h2{{margin:0 0 6px;font-size:19px;line-height:1.25}}.card p{{margin:5px 0;color:var(--muted)}}.card b{{color:var(--olive-dark);font-size:14px}}.datebox{{flex:0 0 58px;height:64px;background:var(--terracotta);color:#fff;border-radius:13px;text-align:center;padding:8px 3px;line-height:1}}.datebox strong{{display:block;font-size:24px}}.datebox span{{display:block;margin-top:6px;font-size:11px;font-weight:900;letter-spacing:.08em}}.when{{font-weight:800!important;color:var(--ink)!important;font-size:13px}}@media(max-width:760px){{.grid{{grid-template-columns:1fr}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px}}}}
-</style></head><body><aside class="top"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside><main class="wrap"><nav class="nav"><a href="{SITE}">← Agenda interactif</a><a href="{SITE}semaines/">📅 Agenda par semaine</a></nav><section class="hero"><div>NYONS · SORTIES À VENIR</div><h1>Tous les événements à venir à Nyons</h1><p>Retrouvez tous les rendez-vous actuellement publiés dans l’agenda de Nyons, sans limite à 50. Chaque événement dispose de sa propre fiche éditoriale.</p></section><section class="grid">{''.join(cards)}</section></main></body></html>'''
+</style></head><body><aside class="top"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside><main class="wrap"><nav class="nav"><a href="{SITE}">← Agenda interactif</a><a href="{SITE}semaines/">📅 Agenda par semaine</a></nav><section class="hero"><div>NYONS · SORTIES À VENIR</div><h1>Tous les prochains événements à Nyons</h1><p>Retrouvez tous les événements actuellement annoncés à Nyons, classés par date, avec une fiche détaillée pour chacun.</p></section><section class="grid">{''.join(cards)}</section></main></body></html>'''
 
 
 def generate_event_pages(events):
@@ -1442,6 +1469,11 @@ def generate_event_pages(events):
         practical = entry.get("practical") or {}
         if not event or not editorial:
             continue
+
+        # Correction d'affichage du site web uniquement, sans modifier le hash GPT.
+        cached_detail_text = (detail_cache.get(event["url"], {}) or {}).get("text", "")
+        practical = corrected_website_for_display(practical, cached_detail_text)
+
         nearby = [
             other for other in cached_events
             if other["url"] != event["url"]
