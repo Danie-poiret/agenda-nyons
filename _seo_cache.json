@@ -1,54 +1,54 @@
 {
   "2026-09-21": {
-    "hash": "3e82bf7d6bc21cae1a368eacb4c3243e39f71458eb4a1f3f4a5d477d055526da",
+    "hash": "aed5cc250e82fc026df8fe84b5e242685523046ff6e6c242bcf754cd5ca147d7",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions, atelier culinaire, concert, improvisation, marche et vie associative.",
-      "intro": "La semaine du 21 au 27 septembre 2026 offre à Nyons un agenda particulièrement varié, entre propositions culturelles, initiatives citoyennes et rendez-vous de loisirs. Plusieurs expositions sont à découvrir durant cette période : « Découvrez Solidarité Paysans ! » et Exposition « Urbain Urbex » se poursuivent jusqu’au 30 septembre, tandis que « La Vie en Couleur » : Exposition de Cécile Allex est programmée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne. À partir du 25 septembre, Les 8 jours de la Ville de Nyons ouvrent une séquence dédiée aux loisirs et à la vie associative. Le samedi 26 concentre de nombreuses possibilités, avec un atelier culinaire, un concert, de l’improvisation théâtrale, une marche et une distribution gratuite de compost réservée aux particuliers. De quoi composer une sortie selon ses envies, entre découverte artistique, musique, participation et cadre de vie.",
-      "weekend": "Pour organiser votre week-end, le samedi 26 septembre est la journée la plus dense de la semaine. Les amateurs de cuisine peuvent se tourner vers l’Atelier culinaire – Street food party, consacré à la réalisation de tacos au poulet et de burritos au bœuf maison. Côté culture, COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot associe musiques médiévales, musiques du monde, jazz et improvisations, tandis qu’Impro ! lance la saison de l’Electron Libre. La Marche pour le Climat propose quant à elle un temps autour du climat, du vivant, de la paix et de la justice sociale. Le dimanche permet encore de voir l’exposition de Cécile Allex, qui s’achève le 27 septembre.",
-      "practical": "Avant de vous déplacer, consultez la fiche officielle de chaque événement : les informations utiles qui ne figurent pas ici peuvent y être précisées. Vérifiez notamment les modalités de participation, les éventuelles conditions d’accès et toute mise à jour. Pour les expositions, gardez en tête leurs dates de fin : celle de Cécile Allex se termine le 27 septembre, tandis que les deux autres se poursuivent jusqu’au 30 septembre.",
-      "conclusion": "Cette fin septembre à Nyons se distingue par la diversité de ses rendez-vous. Les expositions permettent d’étaler ses découvertes sur plusieurs jours, alors que le 26 septembre rassemble des propositions très différentes, de la cuisine au spectacle vivant en passant par l’engagement citoyen. Prenez le temps de comparer les fiches des événements afin de retenir les sorties qui correspondent le mieux à votre programme.",
+      "meta_description": "Agenda de Nyons du 21 au 27 septembre 2026 : expositions culturelles, découverte associative et lancement des 8 jours de la Ville.",
+      "intro": "Du 21 au 27 septembre 2026, l’agenda de Nyons met en avant plusieurs propositions à parcourir au fil de la semaine. Les amateurs de culture peuvent s’orienter vers trois expositions : « Urbain Urbex », présentée aux 3 Platanes, « La Vie en Couleur » de Cécile Allex, à l’Espace Roumanille, Draye de Meyne, ainsi que « Découvrez Solidarité Paysans ! ». Cette dernière invite à mieux connaître l’association Solidarité Paysans Drôme-Ardèche. La fin de semaine marque aussi le début des 8 jours de la Ville de Nyons, programmés à partir du vendredi 25 septembre et jusqu’au 4 octobre. Entre rendez-vous culturels, vie associative et loisirs, cette sélection permet de composer un programme selon ses envies, tout en profitant d’événements dont plusieurs se poursuivent au-delà de cette semaine.",
+      "weekend": "Pour organiser vos sorties des 26 et 27 septembre, commencez par repérer les événements dont les dates couvrent le week-end. « La Vie en Couleur » : Exposition de Cécile Allex se termine le 27 septembre, ce qui en fait une priorité pour les personnes souhaitant la découvrir avant sa clôture. Les expositions « Urbain Urbex » et « Découvrez Solidarité Paysans ! » restent quant à elles programmées jusqu’au 30 septembre. Vous pouvez également tenir compte du lancement des 8 jours de la Ville de Nyons, commencé le 25 septembre. Le choix dépendra surtout de votre intérêt pour la culture, la découverte associative ou les loisirs.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement afin de vérifier les informations utiles à votre visite. Les données disponibles indiquent les périodes de programmation et, pour certaines expositions, leur lieu, mais ne précisent pas tous les détails pratiques. Pensez notamment à confirmer les conditions d’accès et toute éventuelle mise à jour. Pour les événements qui se prolongent après le 27 septembre, vous pouvez aussi envisager une visite en semaine.",
+      "conclusion": "Cette semaine de septembre offre une sélection resserrée, avec une place importante accordée aux expositions et à la vie locale. Elle convient aussi bien à une visite culturelle qu’à une découverte de l’engagement associatif. Le démarrage des 8 jours de la Ville de Nyons apporte par ailleurs un rendez-vous qui se poursuivra au début d’octobre. Consultez les pages officielles avant votre sortie pour préparer votre programme avec les informations les plus récentes.",
       "highlights": [
         {
           "event_title": "« La Vie en Couleur » : Exposition de Cécile Allex",
-          "reason": "Une exposition artistique programmée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne."
+          "reason": "Une exposition artistique de Cécile Allex, programmée du 22 au 27 septembre à l’Espace Roumanille, Draye de Meyne."
         },
         {
-          "event_title": "Atelier culinaire – Street food party",
-          "reason": "Un atelier du 26 septembre pour réaliser des tacos au poulet et des burritos au bœuf maison."
+          "event_title": "Découvrez Solidarité Paysans !",
+          "reason": "Une exposition consacrée à la découverte de l’association Solidarité Paysans Drôme-Ardèche, visible jusqu’au 30 septembre."
         },
         {
-          "event_title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-          "reason": "Un concert le 26 septembre mêlant musiques médiévales, musiques du monde, jazz et improvisations."
+          "event_title": "Les 8 jours de la Ville de Nyons",
+          "reason": "Le rendez-vous débute le 25 septembre et se poursuit jusqu’au 4 octobre, dans les catégories loisirs et vie associative."
         }
       ]
     },
-    "generated_at": "2026-09-27T08:17:11.088838+00:00",
+    "generated_at": "2026-09-27T13:38:52.060026+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
-    "hash": "cd97bae0b9b8e7815354c9cafa2412f37821892a7281219e9c46a7d3dee0e7c2",
+    "hash": "0dbb10d6bf1b914ba1ae71a14ac17f599e7a3a392ae3ab5747938b3a3c19d6b4",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : expositions, 8 jours de la Ville, Journées des Artistes et atelier culinaire cette semaine.",
-      "intro": "Du lundi 28 septembre au dimanche 4 octobre 2026, l’agenda de Nyons réunit des propositions qui se croisent entre la fin septembre et le début octobre. Les expositions « Découvrez Solidarité Paysans ! » et « Exposition « Urbain Urbex » » se terminent le 30 septembre : c’est le moment de les repérer pour une sortie en semaine. « Les 8 jours de la Ville de Nyons », commencé le 25 septembre, se poursuit jusqu’au 4 octobre. Le programme s’étoffe ensuite à partir du vendredi avec « Les Journées Nationales des Artistes à Nyons », annoncées du 2 au 4 octobre. Le samedi 3 octobre, deux rendez-vous ponctuels figurent également à l’agenda : l’« Atelier culinaire – Risotto & panacotta » et « Constellations familiales ». Une semaine aux formats variés, à organiser selon les dates de fin de chaque événement.",
-      "weekend": "Pour le week-end des 3 et 4 octobre, commencez par distinguer les rendez-vous proposés sur une seule journée de ceux qui couvrent plusieurs jours. L’« Atelier culinaire – Risotto & panacotta » et « Constellations familiales » ont tous deux lieu le samedi 3 octobre. « Les Journées Nationales des Artistes à Nyons » se déroulent du vendredi 2 au dimanche 4 octobre, tandis que « Les 8 jours de la Ville de Nyons » s’achèvent le dimanche. Ce découpage permet de privilégier un événement précis le samedi, puis de garder le dimanche pour un rendez-vous encore en cours.",
-      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement : les informations disponibles dans l’agenda peuvent préciser les modalités utiles. Vérifiez particulièrement la date concernée, car plusieurs propositions se terminent le 30 septembre ou le 4 octobre, et deux rendez-vous sont annoncés uniquement le 3 octobre. Les liens officiels permettent aussi de suivre d’éventuelles mises à jour.",
-      "conclusion": "Cette semaine à Nyons invite autant à profiter des derniers jours des deux expositions qu’à regarder vers les rendez-vous du début octobre. Entre l’événement municipal qui se poursuit, les Journées Nationales des Artistes et les propositions du samedi, l’agenda offre plusieurs repères sans imposer un seul parcours. Consultez les fiches officielles pour choisir les sorties correspondant à vos dates disponibles.",
+      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : lectures, atelier, dédicace, concert, braderie et rendez-vous artistiques.",
+      "intro": "La semaine du 28 septembre au 4 octobre 2026 propose à Nyons un agenda aux formats variés, entre culture, initiatives associatives et activités de loisirs. Dès le début de semaine, les plus jeunes peuvent profiter de Lectures animées, tandis qu’une soirée consacrée à l’agriculture et à la viticulture est annoncée au cinéma l’Arlequin. La fin septembre marque aussi les derniers jours de deux expositions : Découvrez Solidarité Paysans ! et Exposition « Urbain Urbex ». Le 30 septembre, l’Atelier lactofermentation offre un autre rendez-vous à noter. En octobre, la programmation se poursuit avec une dédicace de Françoise Bourdon, le concert de Bouda OMG ! et plusieurs propositions qui se déploient jusqu’au dimanche. Les 8 jours de la Ville de Nyons accompagnent également cette période, du 25 septembre au 4 octobre.",
+      "weekend": "Pour organiser ses sorties du week-end à Nyons, commencez par repérer les rendez-vous qui s’étendent du 2 au 4 octobre. La Grande braderie et Les Journées Nationales des Artistes à Nyons se déroulent sur ces trois journées, ce qui laisse davantage de souplesse dans le choix du moment. Le vendredi, le Concert Bouda OMG ! complète l’agenda culturel. Le samedi 3 octobre, l’Atelier culinaire – Risotto & panacotta et Constellations familiales ajoutent deux propositions distinctes. Selon vos envies, vous pouvez donc privilégier un événement ponctuel ou retenir une manifestation présente sur l’ensemble du week-end.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement pour confirmer les informations utiles : horaires, lieu exact, éventuelles conditions d’accès ou modalités propres à l’organisateur. Cette vérification est particulièrement recommandée pour les rendez-vous d’une seule journée, comme la dédicace, le concert ou les ateliers. Pour les événements organisés sur plusieurs jours, vérifiez aussi les dates qui correspondent à votre venue.",
+      "conclusion": "Entre les derniers rendez-vous de septembre et un premier week-end d’octobre bien rempli, cette semaine offre plusieurs occasions de composer son propre programme à Nyons. Expositions, lecture pour enfants, cinéma, rencontre littéraire, musique, initiatives associatives et ateliers se côtoient sans imposer un seul parcours. Prenez le temps de vérifier les informations de chaque proposition afin de préparer vos sorties sereinement.",
       "highlights": [
         {
-          "event_title": "Les 8 jours de la Ville de Nyons",
-          "reason": "Cet événement se poursuit pendant toute la semaine et se termine le 4 octobre."
+          "event_title": "Dédicace Françoise Bourdon",
+          "reason": "Une rencontre avec Françoise Bourdon est annoncée le 1er octobre, de 10h à 16h30, à la Libraire Pinet."
+        },
+        {
+          "event_title": "Grande braderie",
+          "reason": "Cette braderie, organisée par les associations Le Vestiaire et le Carrefour des Habitants, se tient du 2 au 4 octobre."
         },
         {
           "event_title": "Les Journées Nationales des Artistes à Nyons",
-          "reason": "Elles sont programmées du 2 au 4 octobre, au cœur du week-end."
-        },
-        {
-          "event_title": "Atelier culinaire – Risotto & panacotta",
-          "reason": "Cet atelier culinaire italien est annoncé le samedi 3 octobre."
+          "reason": "Un rendez-vous artistique programmé à Nyons du 2 au 4 octobre, dans le cadre d’une fête de l’art organisée dans toute la France."
         }
       ]
     },
-    "generated_at": "2026-09-27T08:17:24.686347+00:00",
+    "generated_at": "2026-09-27T13:39:10.230492+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-05": {

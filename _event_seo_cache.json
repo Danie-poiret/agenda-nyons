@@ -1,6 +1,6 @@
 {
   "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/": {
-    "hash": "8c343a0fb4a5444a069f99c3c2614ba48d328196c4bc96442022510ca09bed28",
+    "hash": "81f28b77a994bd1f3ff620716a3878f1570a55254c496d75c5ca46d963c1c036",
     "slug": "decouvrez-solidarite-paysans-2026-08-01",
     "event": {
       "title": "Découvrez Solidarité Paysans !",
@@ -21,13 +21,13 @@
       "url": "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/"
     },
     "editorial": {
-      "seo_title": "À Nyons, une exposition sur Solidarité Paysans",
-      "meta_description": "Découvrez à Nyons une exposition consacrée à l’association Solidarité Paysans Drôme-Ardèche, proposée du 1er août au 30 septembre 2026.",
-      "intro": "Du 1er août au 30 septembre 2026, Nyons accueille une exposition dédiée à Solidarité Paysans Drôme-Ardèche. Cette proposition invite à découvrir l’association à travers un rendez-vous culturel et associatif ouvert sur le territoire.",
-      "story": "Intitulée « Découvrez Solidarité Paysans ! », l’exposition met en lumière l’association Solidarité Paysans Drôme-Ardèche. Elle se tient sur une longue période, de début août à la fin septembre, et offre ainsi plusieurs semaines pour aller à la rencontre de cette structure associative. Entre culture vivante, solidarité et vie locale, cette exposition donne un cadre simple pour mieux connaître Solidarité Paysans et son ancrage Drôme-Ardèche.",
-      "why_it_matters": "Une exposition est une occasion directe de prendre le temps de découvrir une association et son identité. À Nyons, ce rendez-vous met la solidarité associative au premier plan, dans un format accessible au fil de l’été et jusqu’aux premiers jours de l’automne.",
-      "practical": "Exposition du samedi 1er août 2026 à 9h30 au mercredi 30 septembre 2026 à 19h. Contact : r.viarsac@nyons.com.",
-      "reader_question": "Connaissiez-vous l’association Solidarité Paysans Drôme-Ardèche ?",
+      "seo_title": "À Nyons, découvrez l’exposition Solidarité Paysans",
+      "meta_description": "À Nyons, une exposition invite à découvrir Solidarité Paysans Drôme-Ardèche, du 1er août au 30 septembre 2026, entre 9h30 et 19h.",
+      "intro": "À Nyons, l’exposition « Découvrez Solidarité Paysans ! » propose de faire connaissance avec Solidarité Paysans Drôme-Ardèche. Ce rendez-vous consacré à la vie associative et à la solidarité se déroule du début août à la fin septembre 2026. Une occasion de découvrir cette association au fil d’une exposition.",
+      "story": "Cette exposition est entièrement consacrée à Solidarité Paysans Drôme-Ardèche. Elle met l’association au centre du rendez-vous et invite le public à la découvrir à Nyons. Programmée sur la période allant d’août à la fin septembre, elle s’inscrit à la fois dans les thèmes de la solidarité, de la vie associative et de la culture. Le format choisi est celui d’une exposition, pour une découverte dédiée à Solidarité Paysans Drôme-Ardèche.",
+      "why_it_matters": "Pour celles et ceux qui souhaitent mieux connaître Solidarité Paysans Drôme-Ardèche, cette exposition offre un rendez-vous simple et consacré à l’association. Installée dans l’agenda nyonsais pendant deux mois, elle permet de prendre le temps de la découvrir.",
+      "practical": "L’exposition se tient du samedi 1er août 2026 à 9h30 au mercredi 30 septembre à 19h. Pour tout renseignement : r.viarsac@nyons.com.",
+      "reader_question": "Connaissez-vous déjà Solidarité Paysans Drôme-Ardèche ?",
       "_fallback": false
     },
     "practical": {
@@ -36,9 +36,9 @@
       "address": "",
       "phone": "",
       "email": "r.viarsac@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:06.277320+00:00",
+    "generated_at": "2026-09-27T13:33:08.266852+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
@@ -73,7 +73,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.277433+00:00",
+    "generated_at": "2026-09-27T13:33:08.266976+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
@@ -108,7 +108,7 @@
       "email": "celice@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.277513+00:00",
+    "generated_at": "2026-09-27T13:33:08.267053+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
@@ -144,7 +144,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.277591+00:00",
+    "generated_at": "2026-09-27T13:33:08.267116+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
@@ -429,7 +429,7 @@
       "email": "cms.nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:13:37.355697+00:00",
+    "generated_at": "2026-09-27T13:33:08.267178+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
@@ -464,11 +464,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:13:37.355775+00:00",
+    "generated_at": "2026-09-27T13:33:08.267240+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
-    "hash": "e6f45c432c30d7bd43347f009bbe8207ec3ec21a494d9d647a541d753295f4b2",
+    "hash": "c0a6b2038cd64b59e233739ec242910bfe31cc21ef402cefff9e07bced116c68",
     "slug": "atelier-lactofermentation-2026-09-30",
     "event": {
       "title": "Atelier lactofermentation",
@@ -485,13 +485,13 @@
       "url": "https://www.nyons.com/agenda/atelier-lactofermentation/"
     },
     "editorial": {
-      "seo_title": "Atelier de lactofermentation à Nyons avec le CEDER",
-      "meta_description": "Le CEDER propose un atelier de lactofermentation à Nyons, mercredi 30 septembre 2026, de 16h à 17h.",
-      "intro": "Le CEDER propose à Nyons un atelier consacré à la lactofermentation. Ce rendez-vous d’une heure invite à découvrir cette pratique au sein d’un format d’atelier, le mercredi 30 septembre 2026 de 16h à 17h.",
-      "story": "La lactofermentation est au cœur de ce rendez-vous proposé par le CEDER. L’atelier se tient le mercredi 30 septembre 2026 et dure une heure, de 16h à 17h. Inscrit dans les thématiques loisirs, culture, santé et vie associative, il offre un temps dédié à cette pratique alimentaire.",
-      "why_it_matters": "Cet atelier met la lactofermentation à l’honneur dans un cadre proposé par le CEDER. C’est une sortie ciblée pour les personnes qui souhaitent consacrer un moment à ce sujet, au cours d’un rendez-vous organisé à Nyons.",
-      "practical": "Mercredi 30 septembre 2026, de 16h à 17h. Atelier proposé par le CEDER. Renseignements : 04 75 26 22 53 ou ceder@ceder-provence.org.",
-      "reader_question": "Avez-vous déjà participé à un atelier de lactofermentation ?",
+      "seo_title": "Atelier lactofermentation à Nyons avec le CEDER",
+      "meta_description": "Le CEDER propose un atelier de lactofermentation à Nyons, mercredi 30 septembre 2026, pour découvrir cette pratique culinaire.",
+      "intro": "Le CEDER propose un atelier de lactofermentation à Nyons, mercredi 30 septembre 2026. Ce rendez-vous d’une heure met à l’honneur la lactofermentation, une pratique culinaire à découvrir dans le cadre d’un atelier.",
+      "story": "Prévu de 16h à 17h, l’atelier est proposé par le CEDER. La lactofermentation est au centre de ce temps consacré à la pratique et à la découverte. Inscrit parmi les rendez-vous de loisirs, de culture, de vie associative et liés à la santé, cet atelier offre une occasion de s’intéresser concrètement à cette méthode de fermentation.",
+      "why_it_matters": "La lactofermentation fait partie de ces pratiques culinaires qui se découvrent volontiers en atelier. Ce rendez-vous porté par le CEDER ajoute une proposition pratique au calendrier nyonsais, autour de l’alimentation et du savoir-faire.",
+      "practical": "Mercredi 30 septembre 2026, de 16h à 17h. Renseignements auprès du CEDER : 04 75 26 22 53 · ceder@ceder-provence.org · ceder-provence.org.",
+      "reader_question": "Avez-vous déjà essayé la lactofermentation chez vous ?",
       "_fallback": false
     },
     "practical": {
@@ -500,9 +500,9 @@
       "address": "",
       "phone": "04 75 26 22 53",
       "email": "ceder@ceder-provence.org",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.ceder-provence.org/"
     },
-    "generated_at": "2026-09-27T07:13:37.587367+00:00",
+    "generated_at": "2026-09-27T13:33:13.914545+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
@@ -537,7 +537,7 @@
       "email": "librairie-pinet@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:13:37.587490+00:00",
+    "generated_at": "2026-09-27T13:33:13.914675+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
@@ -572,7 +572,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:13:37.587575+00:00",
+    "generated_at": "2026-09-27T13:33:13.914743+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
@@ -607,11 +607,11 @@
       "email": "jimmy26110@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:13:37.587656+00:00",
+    "generated_at": "2026-09-27T13:33:13.914806+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
-    "hash": "3fda1da7191afa73cb99bea4f4ee95f8e536a2b296d25cd947d062e7492ee844",
+    "hash": "c689f35ccef6c8688ab2a60e175101e051ed9c38e2e461ed7a4e9e2d4922256b",
     "slug": "les-journees-nationales-des-artistes-a-nyons-2026-10-02",
     "event": {
       "title": "Les Journées Nationales des Artistes à Nyons",
@@ -632,13 +632,13 @@
       "url": "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/"
     },
     "editorial": {
-      "seo_title": "Journées nationales des artistes : la fête de l’art à Nyons",
-      "meta_description": "Du 2 au 4 octobre 2026, Nyons accueille les Journées Nationales des Artistes, un rendez-vous inscrit dans une fête de l’art menée dans toute la France.",
-      "intro": "Les Journées Nationales des Artistes arrivent à Nyons du vendredi 2 au dimanche 4 octobre 2026. Ce rendez-vous s’inscrit dans une fête de l’art organisée dans toute la France. Trois journées placées sous le signe des artistes et de la création, avec Nyons au cœur de cette initiative nationale.",
-      "story": "À Nyons, les Journées Nationales des Artistes se déroulent sur trois jours, du 2 au 4 octobre 2026. Leur nom annonce un rendez-vous consacré aux artistes, tandis que leur présentation les inscrit dans une fête de l’art à l’échelle de toute la France. L’événement relie ainsi la ville à ces journées nationales dédiées à la création artistique.",
-      "why_it_matters": "Cette date donne une place à Nyons dans une initiative nationale consacrée à l’art. C’est un rendez-vous culturel identifié sur le calendrier d’octobre, porté par l’idée d’une fête de l’art partagée dans toute la France.",
-      "practical": "Du vendredi 2 octobre à 00h00 au dimanche 4 octobre 2026 à 23h59. Contact : 06 20 04 60 99 ou gaia.durivau@wanadoo.fr. Site indiqué : service-public.gouv.fr.",
-      "reader_question": "Comptez-vous noter les Journées Nationales des Artistes à Nyons dans votre agenda d’octobre ?",
+      "seo_title": "Les Journées Nationales des Artistes reviennent à Nyons",
+      "meta_description": "Du 2 au 4 octobre 2026, Nyons participe aux Journées Nationales des Artistes, une fête de l’art organisée dans toute la France.",
+      "intro": "Du vendredi 2 au dimanche 4 octobre 2026, Nyons accueille les Journées Nationales des Artistes. Ce rendez-vous s’inscrit dans une fête de l’art menée à l’échelle de toute la France. Trois jours placés sous le signe de la création et de la présence artistique à Nyons.",
+      "story": "Les Journées Nationales des Artistes proposent à Nyons de prendre part à un événement national consacré à l’art. Organisée du 2 au 4 octobre 2026, cette édition nyonsaise rejoint une fête qui se déploie dans toute la France. Le rendez-vous trouve naturellement sa place parmi les propositions culturelles et de loisirs de la ville, avec une attention portée à l’art et à la création.",
+      "why_it_matters": "C’est une occasion de noter un rendez-vous culturel inscrit dans un mouvement national, tout en le vivant à Nyons. Les Journées Nationales des Artistes mettent l’art au premier plan pendant un week-end entier, du vendredi au dimanche.",
+      "practical": "Du vendredi 2 octobre 2026 à 00h00 au dimanche 4 octobre 2026 à 23h59. Contact : 06 20 04 60 99 · gaia.durivau@wanadoo.fr. Site : lesjourneesnationalesdesartistes.fr.",
+      "reader_question": "Prévoyez-vous de profiter de ce week-end consacré à l’art à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -647,9 +647,9 @@
       "address": "",
       "phone": "06 20 04 60 99",
       "email": "gaia.durivau@wanadoo.fr",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://lesjourneesnationalesdesartistes.fr/site/jna2026/"
     },
-    "generated_at": "2026-09-27T08:16:06.508423+00:00",
+    "generated_at": "2026-09-27T13:33:20.936613+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
@@ -686,7 +686,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.508538+00:00",
+    "generated_at": "2026-09-27T13:33:20.936749+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
@@ -720,7 +720,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.508668+00:00",
+    "generated_at": "2026-09-27T13:33:20.936821+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
@@ -754,7 +754,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.508759+00:00",
+    "generated_at": "2026-09-27T13:33:20.936882+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
@@ -790,7 +790,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.508847+00:00",
+    "generated_at": "2026-09-27T13:33:20.936949+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
@@ -826,7 +826,7 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.508911+00:00",
+    "generated_at": "2026-09-27T13:33:20.937009+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
@@ -862,7 +862,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.508968+00:00",
+    "generated_at": "2026-09-27T13:33:20.937062+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
@@ -899,7 +899,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.509025+00:00",
+    "generated_at": "2026-09-27T13:33:20.937121+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
@@ -933,7 +933,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.509104+00:00",
+    "generated_at": "2026-09-27T13:33:20.937194+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
@@ -967,7 +967,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.509165+00:00",
+    "generated_at": "2026-09-27T13:33:20.937247+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
@@ -1009,11 +1009,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.509226+00:00",
+    "generated_at": "2026-09-27T13:33:20.937301+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
-    "hash": "905e804168e172f15934d54b2c2072fc4e11de5c9e330ef2b0088cc21b347a1f",
+    "hash": "6b77517e0ef5c383f80dcdb25a4192f6ef360637b0e75093d7c7a785d3268443",
     "slug": "concert-de-demi-mondaine-2026-10-09",
     "event": {
       "title": "Concert de Demi Mondaine",
@@ -1029,11 +1029,11 @@
     "editorial": {
       "seo_title": "Demi Mondaine en concert à Nyons, sortie de résidence",
       "meta_description": "À Nyons, Demi Mondaine présente une sortie de résidence avec Mystic Gordon et Clément Bouet, vendredi 9 octobre 2026 de 19h à 22h.",
-      "intro": "Demi Mondaine sera en concert à Nyons le vendredi 9 octobre 2026. Cette soirée prend la forme d’une sortie de résidence réunissant Demi Mondaine, Mystic Gordon et Clément Bouet. Un rendez-vous culturel annoncé de 19h à 22h, autour du travail mené par les trois artistes durant cette résidence.",
-      "story": "Le concert de Demi Mondaine s’inscrit dans une sortie de résidence, avec la participation de Mystic Gordon et de Clément Bouet. La résidence, souvent vécue comme un temps de création et de préparation, trouve ici son prolongement public à travers ce rendez-vous du 9 octobre. La soirée est proposée dans le cadre de l’agenda culturel nyonsais et rassemble ces trois noms autour d’un même concert. Elle se déroulera sur trois heures, de 19h à 22h.",
-      "why_it_matters": "Cette sortie de résidence offre un rendez-vous de culture vivante à Nyons, porté par Demi Mondaine avec Mystic Gordon et Clément Bouet. C’est une occasion de découvrir un concert directement lié à un temps de résidence artistique.",
-      "practical": "Vendredi 9 octobre 2026, de 19h à 22h. Renseignements en ligne : https://www.service-public.gouv.fr/",
-      "reader_question": "Connaissez-vous déjà l’univers de Demi Mondaine ?",
+      "intro": "Demi Mondaine sera en concert à Nyons le vendredi 9 octobre 2026. Cette soirée prend la forme d’une sortie de résidence réunissant Demi Mondaine, Mystic Gordon et Clément Bouet. Un rendez-vous culturel programmé de 19h à 22h, pour découvrir ce travail présenté à l’issue de la résidence.",
+      "story": "Au cœur de cette date, il y a Demi Mondaine, accompagnée de Mystic Gordon et de Clément Bouet. Le concert est annoncé comme une sortie de résidence : une occasion de retrouver sur scène le travail mené par les trois artistes dans ce cadre. Inscrit dans les rendez-vous de culture vivante à Nyons, l’événement se déroule le temps d’une soirée, le vendredi 9 octobre 2026, entre 19h et 22h.",
+      "why_it_matters": "Cette sortie de résidence propose un concert porté par trois artistes : Demi Mondaine, Mystic Gordon et Clément Bouet. C’est un rendez-vous culturel à Nyons pour découvrir leur travail présenté dans le cadre de cette résidence.",
+      "practical": "Vendredi 9 octobre 2026, de 19h à 22h. Informations complémentaires : https://labaronne.org/",
+      "reader_question": "Souhaitez-vous découvrir Demi Mondaine, Mystic Gordon et Clément Bouet lors de cette sortie de résidence ?",
       "_fallback": false
     },
     "practical": {
@@ -1042,9 +1042,9 @@
       "address": "",
       "phone": "",
       "email": "",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://labaronne.org/"
     },
-    "generated_at": "2026-09-27T08:16:06.734542+00:00",
+    "generated_at": "2026-09-27T13:33:28.034975+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
@@ -1080,11 +1080,11 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:06.734702+00:00",
+    "generated_at": "2026-09-27T13:33:28.035087+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
-    "hash": "516a6ba4ff9be24ae111f28d1deb2d645223ab8cacc21ab551bba2bd026b1596",
+    "hash": "3d14d9ec6fd381504a9981cd7df216735e52d39c53c51c5bf321ab03707d31ee",
     "slug": "4-seasons-jam-2026-10-10",
     "event": {
       "title": "4 Seasons Jam",
@@ -1099,13 +1099,13 @@
       "url": "https://www.nyons.com/agenda/4-seasons-jam/"
     },
     "editorial": {
-      "seo_title": "4 Seasons Jam : descente VTT à Nyons en octobre",
-      "meta_description": "La 4 Seasons Jam revient à Nyons les 10 et 11 octobre 2026 pour sa 7e édition, un week-end consacré à la descente VTT.",
-      "intro": "La 4 Seasons Jam est un rendez-vous de descente VTT prévu les samedi 10 et dimanche 11 octobre 2026. Cette 7e édition prend la forme d’un week-end entier consacré à cette discipline de vélo tout-terrain, entre sport et loisirs.",
-      "story": "Le nom 4 Seasons Jam revient pour une 7e édition annoncée comme un week-end de descente VTT. L’événement se tient sur deux jours, du samedi 10 octobre à 10h au dimanche 11 octobre à 18h. Son programme s’inscrit clairement dans l’univers du VTT de descente, avec un rendez-vous identifié à la fois dans les catégories sport, loisirs et vie associative.",
-      "why_it_matters": "La 4 Seasons Jam met la descente VTT à l’honneur durant tout un week-end. Pour les amateurs de cette pratique, c’est une date bien identifiée dans l’agenda nyonsais, portée par une édition déjà établie.",
-      "practical": "Du samedi 10 octobre 2026 à 10h au dimanche 11 octobre à 18h. Contact : 06 78 61 46 31 ou tontonsriders26@gmail.com.",
-      "reader_question": "La descente VTT fait-elle partie de vos sorties préférées ?",
+      "seo_title": "4 Seasons Jam : week-end de descente VTT à Nyons",
+      "meta_description": "La 4 Seasons Jam revient à Nyons les 10 et 11 octobre 2026 pour sa 7e édition, un week-end entièrement consacré à la descente VTT.",
+      "intro": "La 4 Seasons Jam donne rendez-vous à Nyons pour sa 7e édition, les samedi 10 et dimanche 11 octobre 2026. Ce week-end de sport et de loisirs est consacré à la descente VTT, sous le signe de la pratique du vélo tout-terrain et de la vie associative.",
+      "story": "Pendant deux jours, la 4 Seasons Jam place la descente VTT au cœur du week-end. Cette 7e édition se déroule du samedi 10 octobre à 10h au dimanche 11 octobre à 18h. Inscrite dans les rendez-vous sportifs et de loisirs, elle porte aussi la dimension associative annoncée par l’événement. Un temps dédié au VTT de descente, à noter dans l’agenda nyonsais d’octobre.",
+      "why_it_matters": "La 4 Seasons Jam propose à Nyons un rendez-vous clairement tourné vers la descente VTT. Sa 7e édition inscrit ce week-end dans une continuité, avec deux journées consacrées à une pratique sportive de plein air et aux loisirs associatifs.",
+      "practical": "Du samedi 10 octobre 2026 à 10h au dimanche 11 octobre à 18h. Contact : 06 78 61 46 31 ; tontonsriders26@gmail.com. Site : 4seasonsbikepark.fr.",
+      "reader_question": "Prévoyez-vous de participer à cette 7e édition de la 4 Seasons Jam ?",
       "_fallback": false
     },
     "practical": {
@@ -1114,19 +1114,19 @@
       "address": "",
       "phone": "06 78 61 46 31",
       "email": "tontonsriders26@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://4seasonsbikepark.fr/"
     },
-    "generated_at": "2026-09-27T08:16:07.006946+00:00",
+    "generated_at": "2026-09-27T13:33:36.127793+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
-    "hash": "6322da91f490eaf72392d498392aba3278383844cab7579b90d156e3b031a9be",
+    "hash": "ca7fcb3075de738bb2f7cdd108bba65928b4bebdedd74a681cb680a1008ff852",
     "slug": "atelier-jardin-zen-2026-10-10",
     "event": {
       "title": "Atelier Jardin Zen",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Atelier Jardin Zen dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 20.5°C / 20.5°C Contact Recher",
+      "summary": "Atelier Jardin Zen dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 27°C / 27°C Contact Recherche ",
       "categories": [
         "Enfance / Jeunesse",
         "Solidarité / Santé",
@@ -1136,13 +1136,13 @@
       "url": "https://www.nyons.com/agenda/atelier-jardin-zen/"
     },
     "editorial": {
-      "seo_title": "Atelier Jardin Zen à Nyons autour de la santé mentale",
-      "meta_description": "À Nyons, l’Atelier Jardin Zen s’inscrit dans les Semaines d’information sur la santé mentale, samedi 10 octobre 2026 de 10h30 à 12h.",
-      "intro": "L’Atelier Jardin Zen est un rendez-vous organisé dans le cadre des Semaines d’information sur la santé mentale. Il se tient à Nyons le samedi 10 octobre 2026, de 10h30 à 12h. Inscrit parmi les loisirs et les rendez-vous liés à l’enfance, à la jeunesse, à la solidarité et à la santé, il porte un intitulé calme et évocateur.",
-      "story": "L’Atelier Jardin Zen s’inscrit dans les Semaines d’information sur la santé mentale. Il est proposé à Nyons le samedi 10 octobre 2026, de 10h30 à 12h. Son intitulé associe le jardin et le zen, tandis que son cadre le relie explicitement à l’information sur la santé mentale. La rencontre est classée dans les rubriques Enfance / Jeunesse, Solidarité / Santé, Sport / Loisirs et Loisirs de l’agenda de la ville de Nyons.",
-      "why_it_matters": "Cette sortie propose un temps dédié à la santé mentale dans le cadre des semaines qui lui sont consacrées. À Nyons, elle réunit dans un même rendez-vous les thématiques des loisirs, de l’enfance et de la jeunesse, ainsi que de la solidarité et de la santé.",
-      "practical": "Samedi 10 octobre 2026, de 10h30 à 12h. Médiathèque Drôme Provençale, 9 rue Albin Vilhet, et Cinéma Arlequin, place de la Libération, 26110 Nyons. Tél. 07 88 94 04 08.",
-      "reader_question": "Participerez-vous à l’Atelier Jardin Zen à Nyons ?",
+      "seo_title": "Atelier Jardin Zen à Nyons, autour de la santé mentale",
+      "meta_description": "À Nyons, l’Atelier Jardin Zen s’inscrit dans les semaines d’information sur la santé mentale, samedi 10 octobre à la médiathèque de Nyons.",
+      "intro": "À Nyons, l’Atelier Jardin Zen est proposé dans le cadre des semaines d’information sur la santé mentale. Classé parmi les rendez-vous enfance et jeunesse, solidarité et santé, sport et loisirs et loisirs, il se tient le samedi 10 octobre 2026 à la Médiathèque Drôme Provençale. L’atelier est programmé en matinée, de 10h30 à 12h00.",
+      "story": "Cette séance, annoncée sous le titre Atelier Jardin Zen, est organisée sur une durée d’une heure et demie. Le rendez-vous se tient à la Médiathèque Drôme Provençale. L’adresse communiquée mentionne le 9 rue Albin Vilhet et le Cinéma Arlequin, place de la Libération, à Nyons. Pour un contact, le numéro indiqué est le 07 88 94 04 08.",
+      "why_it_matters": "Cet atelier s’inscrit explicitement dans les semaines d’information sur la santé mentale. Sa programmation à Nyons rassemble, dans les catégories annoncées, les thèmes de l’enfance et de la jeunesse, de la solidarité et de la santé, ainsi que des loisirs.",
+      "practical": "Samedi 10 octobre 2026, de 10h30 à 12h00, à la Médiathèque Drôme Provençale. Adresse : 9 rue Albin Vilhet et Cinéma Arlequin, place de la Libération, Nyons. Tél. 07 88 94 04 08.",
+      "reader_question": "Souhaitez-vous participer à l’Atelier Jardin Zen le samedi 10 octobre à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -1153,7 +1153,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:21.985565+00:00",
+    "generated_at": "2026-09-27T13:33:57.286684+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
@@ -1189,7 +1189,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:21.985710+00:00",
+    "generated_at": "2026-09-27T13:33:57.286788+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
@@ -1223,7 +1223,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:21.985801+00:00",
+    "generated_at": "2026-09-27T13:33:57.286858+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
@@ -1265,7 +1265,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:21.985873+00:00",
+    "generated_at": "2026-09-27T13:33:57.286925+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
@@ -1301,11 +1301,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:21.985937+00:00",
+    "generated_at": "2026-09-27T13:33:57.286989+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
-    "hash": "964d3ea925f8e2da8e058ecba21cd6f6430d8a2246598725df50b1468840e49b",
+    "hash": "c39b8302d473aaf18d7342e1100e2db7be99a278bb16b38056c0a2c289087cae",
     "slug": "journee-decouverte-materiautheque-2026-10-10",
     "event": {
       "title": "Journée découverte Matériauthèque",
@@ -1321,11 +1321,11 @@
     "editorial": {
       "seo_title": "Découvrir la Matériauthèque à Nyons le 10 octobre",
       "meta_description": "À Nyons, la Journée découverte Matériauthèque propose ateliers participatifs et présentation, samedi 10 octobre 2026, de 10h à 18h.",
-      "intro": "La Journée découverte Matériauthèque se tient à Nyons le samedi 10 octobre 2026. Cette rendez-vous, inscrit dans le cadre de vie et la vie associative, associe une présentation à des ateliers participatifs. Une journée pour découvrir la Matériauthèque en prenant part aux activités proposées.",
-      "story": "De 10h à 18h, la Journée découverte Matériauthèque invite à une approche concrète, entre temps de présentation et ateliers participatifs. Le format permet de découvrir la Matériauthèque tout en participant directement à la journée. L’événement s’inscrit à la fois dans les thématiques du cadre de vie et de la vie associative, deux dimensions réunies pour cette date d’octobre à Nyons.",
-      "why_it_matters": "Cette journée donne une place active aux participants grâce aux ateliers proposés, tout en offrant un temps de présentation. C’est une occasion de découvrir la Matériauthèque dans un cadre lié à la vie associative et au cadre de vie à Nyons.",
-      "practical": "Samedi 10 octobre 2026, de 10h à 18h. Renseignements : 06 74 23 88 04 ou contact@larboretum.co.",
-      "reader_question": "Participerez-vous aux ateliers de la Journée découverte Matériauthèque ?",
+      "intro": "La Journée découverte Matériauthèque se tient à Nyons le samedi 10 octobre 2026. Cette journée, inscrite dans les thèmes du cadre de vie et de la vie associative, associe une présentation à des ateliers participatifs. Un rendez-vous en journée complète, de 10h à 18h, pour découvrir la Matériauthèque par l’échange et la participation.",
+      "story": "Au programme de cette Journée découverte Matériauthèque : une présentation et des ateliers participatifs. Le format permet d’entrer directement dans le sujet, avec un temps consacré à la découverte et d’autres moments où chacun peut prendre part aux ateliers. Portée par les thématiques du cadre de vie et de la vie associative, cette journée se déroule à Nyons le samedi 10 octobre, de 10h à 18h.",
+      "why_it_matters": "Cette journée offre une occasion concrète de découvrir la Matériauthèque autrement qu’à travers une simple présentation. Les ateliers participatifs donnent une place active aux personnes présentes, dans un rendez-vous lié à la vie associative et au cadre de vie à Nyons.",
+      "practical": "Samedi 10 octobre 2026, de 10h à 18h. Contact : 06 74 23 88 04 ou contact@larboretum.co. Plus d’informations : larboretum.co/projets/.",
+      "reader_question": "Souhaitez-vous participer aux ateliers de la Journée découverte Matériauthèque ?",
       "_fallback": false
     },
     "practical": {
@@ -1334,9 +1334,9 @@
       "address": "",
       "phone": "0674238804",
       "email": "contact@larboretum.co",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.larboretum.co/projets/"
     },
-    "generated_at": "2026-09-27T08:16:22.223393+00:00",
+    "generated_at": "2026-09-27T13:34:04.905991+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
@@ -1372,7 +1372,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:22.223502+00:00",
+    "generated_at": "2026-09-27T13:34:04.906096+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
@@ -1408,7 +1408,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:22.223581+00:00",
+    "generated_at": "2026-09-27T13:34:04.906158+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
@@ -1442,7 +1442,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:22.223711+00:00",
+    "generated_at": "2026-09-27T13:34:04.906213+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
@@ -1478,11 +1478,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:22.223804+00:00",
+    "generated_at": "2026-09-27T13:34:04.906275+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
-    "hash": "f148a5dbb8dc74e0a66dc1af62cbfea4ae5a40657e7c2cf234cd6c5d76412cc1",
+    "hash": "0489ca8eca5ffca3e8846f938224a9e1614775797688a5306c3c4cfb9ddeee40",
     "slug": "cocktail-dimpro-2026-10-11",
     "event": {
       "title": "Cocktail d’impro",
@@ -1496,13 +1496,13 @@
       "url": "https://www.nyons.com/agenda/cocktail-dimpro-2/"
     },
     "editorial": {
-      "seo_title": "Cocktail d’impro : théâtre improvisé à Nyons",
-      "meta_description": "À Nyons, le Cocktail d’impro propose un rendez-vous d’improvisation théâtrale le dimanche 11 octobre 2026, de 17h à 18h30.",
-      "intro": "Le Cocktail d’impro est un rendez-vous consacré à l’improvisation théâtrale, proposé à Nyons le dimanche 11 octobre 2026. Classé dans les rubriques Culture et Patrimoine / Culture vivante, il se déroule de 17h à 18h30. Une sortie culturelle autour du théâtre improvisé, à inscrire dans son dimanche de début d’automne.",
-      "story": "Sous le titre Cocktail d’impro, l’événement annonce clairement une proposition d’improvisation théâtrale. Le rendez-vous prend place le dimanche 11 octobre 2026, sur un créneau d’une heure et demie, de 17h à 18h30. Son inscription dans la culture vivante souligne la place du théâtre dans cette programmation nyonsaise. Ici, l’improvisation théâtrale est le cœur même de la sortie : un format culturel identifié, proposé en fin de journée.",
-      "why_it_matters": "Le Cocktail d’impro offre à Nyons une occasion de choisir une sortie tournée vers le théâtre et la culture vivante. Programmé un dimanche de 17h à 18h30, ce rendez-vous s’inscrit simplement dans le calendrier culturel local autour de l’improvisation théâtrale.",
-      "practical": "Dimanche 11 octobre 2026, de 17h à 18h30, à Nyons. Contact : electron.nyons@gmail.com.",
-      "reader_question": "L’improvisation théâtrale vous tente-t-elle pour ce dimanche d’octobre à Nyons ?",
+      "seo_title": "Cocktail d’impro : théâtre spontané à Nyons",
+      "meta_description": "Rendez-vous à Nyons pour Cocktail d’impro, un temps d’improvisation théâtrale dimanche 11 octobre 2026, de 17h à 18h30.",
+      "intro": "Cocktail d’impro propose un rendez-vous consacré à l’improvisation théâtrale à Nyons. Le dimanche 11 octobre 2026, cette sortie culturelle invite à découvrir le théâtre dans sa forme spontanée, de 17h à 18h30. Un moment inscrit dans l’agenda culturel et de patrimoine vivant de la ville.",
+      "story": "L’improvisation théâtrale est au cœur de Cocktail d’impro. Le principe annoncé est simple : le théâtre se construit dans l’instant, au fil de l’improvisation. Programmé un dimanche en fin d’après-midi, ce rendez-vous offre une place à la culture vivante à Nyons. Son format d’une heure et demie permet de s’accorder une parenthèse théâtrale avant la soirée, autour d’une proposition dédiée à l’impro.",
+      "why_it_matters": "Cocktail d’impro met en avant une pratique théâtrale vivante, fondée sur la spontanéité. C’est une occasion de choisir une sortie culturelle à Nyons le dimanche 11 octobre, dans un créneau de fin d’après-midi facile à intégrer à la journée.",
+      "practical": "Dimanche 11 octobre 2026, de 17h à 18h30. Contact : electron.nyons@gmail.com. Site : lelectron.fr.",
+      "reader_question": "Avez-vous déjà assisté à une représentation d’improvisation théâtrale à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -1511,9 +1511,9 @@
       "address": "",
       "phone": "",
       "email": "electron.nyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-27T08:16:22.447597+00:00",
+    "generated_at": "2026-09-27T13:34:14.913871+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
@@ -1548,11 +1548,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:22.447763+00:00",
+    "generated_at": "2026-09-27T13:34:14.913988+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
-    "hash": "738994bc69027e5402160425909a0fb6de03e220222d97895c30a4fe55bae1d0",
+    "hash": "819db55263530269eb1aad20ebd9c2836d3315f714cc2db8d74b41b9e1ae65ed",
     "slug": "conference-de-luntl-sur-chagall-2026-10-12",
     "event": {
       "title": "Conférence de l’UNTL sur Chagall",
@@ -1565,11 +1565,11 @@
     "editorial": {
       "seo_title": "Conférence sur Chagall à la Maison de Pays de Nyons",
       "meta_description": "À Nyons, l’UNTL propose une conférence consacrée à Chagall, animée par Marie-Christine Haussy, le lundi 12 octobre 2026.",
-      "intro": "L’UNTL consacre une conférence à Chagall, lundi 12 octobre 2026, à la Maison de Pays de Nyons. Cette rencontre sera animée par Marie-Christine Haussy, ancienne élève de l’École du Louvre. Un rendez-vous dédié à l’artiste, proposé dans le cadre des conférences de l’UNTL.",
-      "story": "La conférence portera sur Chagall et sera présentée par Marie-Christine Haussy. Ancienne élève de l’École du Louvre, elle animera cette séance organisée par l’UNTL à Nyons. Le rendez-vous se tiendra à la Maison de Pays, sur la promenade de la Digue, durant l’après-midi du lundi 12 octobre.",
-      "why_it_matters": "Cette conférence offre un temps consacré à Chagall, avec l’intervention de Marie-Christine Haussy. C’est une occasion de se retrouver à la Maison de Pays autour d’une proposition culturelle portée par l’UNTL.",
-      "practical": "Lundi 12 octobre 2026, de 15h à 17h. Maison de Pays, 128 promenade de la Digue, 26110 Nyons.",
-      "reader_question": "Connaissez-vous déjà l’œuvre de Chagall ?",
+      "intro": "L’UNTL consacre une conférence à Chagall, lundi 12 octobre 2026 à Nyons. Ce rendez-vous sera animé par Marie-Christine Haussy, ancienne élève de l’École du Louvre, à la Maison de Pays. Deux heures pour se retrouver autour de l’œuvre de cet artiste majeur.",
+      "story": "La conférence de l’UNTL met Chagall au centre de l’après-midi. Marie-Christine Haussy, ancienne élève de l’École du Louvre, en assurera l’animation à la Maison de Pays de Nyons. Le rendez-vous est prévu le lundi 12 octobre, de 15h à 17h. Une proposition culturelle consacrée à l’artiste, dans un format de conférence ouvert sur deux heures.",
+      "why_it_matters": "Cette conférence offre un temps dédié à Chagall, porté par l’intervention de Marie-Christine Haussy. C’est une sortie culturelle de l’après-midi à Nyons, à inscrire pour celles et ceux qui souhaitent se retrouver autour de l’œuvre d’un artiste.",
+      "practical": "Lundi 12 octobre 2026, de 15h à 17h, à la Maison de Pays, 128 promenade de la Digue, 26110 Nyons.",
+      "reader_question": "Avez-vous envie de découvrir Chagall à travers cette conférence de l’UNTL ?",
       "_fallback": false
     },
     "practical": {
@@ -1578,9 +1578,9 @@
       "address": "128 Promenade de la Digue - 26110 Nyons",
       "phone": "",
       "email": "",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:23.101817+00:00",
+    "generated_at": "2026-09-27T13:34:21.700389+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
@@ -1614,7 +1614,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.101938+00:00",
+    "generated_at": "2026-09-27T13:34:21.700498+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
@@ -1649,7 +1649,7 @@
       "email": "indigolive@hotmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102025+00:00",
+    "generated_at": "2026-09-27T13:34:21.700573+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
@@ -1685,7 +1685,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102140+00:00",
+    "generated_at": "2026-09-27T13:34:21.700685+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
@@ -1727,7 +1727,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102208+00:00",
+    "generated_at": "2026-09-27T13:34:21.700751+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
@@ -1762,7 +1762,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102267+00:00",
+    "generated_at": "2026-09-27T13:34:21.700808+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
@@ -1797,7 +1797,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102325+00:00",
+    "generated_at": "2026-09-27T13:34:21.700865+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
@@ -1833,7 +1833,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102386+00:00",
+    "generated_at": "2026-09-27T13:34:21.700921+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
@@ -1868,11 +1868,11 @@
       "email": "contact@domainerocheville.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.102444+00:00",
+    "generated_at": "2026-09-27T13:34:21.700974+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/": {
-    "hash": "cfecd487d36547a5d3677566bb285c33d3f8ee3f1c1eb39714f622ea709f0e38",
+    "hash": "1283fbe62ad8f8d1b2408b88bd2b7adafa4b7982446a015838f2a4012e727ce4",
     "slug": "tournoi-de-belote-du-comite-des-fetes-2026-10-17",
     "event": {
       "title": "Tournoi de belote du Comité des Fêtes",
@@ -1888,11 +1888,11 @@
     },
     "editorial": {
       "seo_title": "Tournoi de belote du Comité des Fêtes à Nyons",
-      "meta_description": "Le Comité des Fêtes organise un tournoi de belote à Nyons, samedi 17 octobre 2026, de 13h30 à 16h00.",
-      "intro": "Les cartes seront sur la table à Nyons avec le tournoi de belote proposé par le Comité des Fêtes. Ce rendez-vous de loisirs et de vie associative se tient le samedi 17 octobre 2026, de 13h30 à 16h00. Une après-midi consacrée à la belote, portée par le Comité des Fêtes.",
-      "story": "Le tournoi de belote du Comité des Fêtes est un rendez-vous dédié au jeu de cartes. Inscrit à la fois dans les loisirs, le sport et la vie associative, il rassemble l’activité autour d’une même partie : jouer à la belote dans le cadre d’un tournoi. L’événement est organisé par le Comité des Fêtes et se déroule sur l’après-midi du samedi 17 octobre 2026.",
-      "why_it_matters": "La belote reste un jeu simple à partager, où l’attention se porte sur les annonces, les plis et le plaisir de la partie. Ce tournoi donne au Comité des Fêtes l’occasion de proposer un rendez-vous de loisirs associatif à Nyons.",
-      "practical": "Samedi 17 octobre 2026, de 13h30 à 16h00. Renseignements auprès du Comité des Fêtes : 06 15 30 89 47 ou comitedesfetesetdeloisirs@sfr.fr.",
+      "meta_description": "Le Comité des Fêtes propose un tournoi de belote à Nyons, samedi 17 octobre 2026, de 13h30 à 16h00.",
+      "intro": "Le Comité des Fêtes organise un tournoi de belote à Nyons, le samedi 17 octobre 2026. Ce rendez-vous de loisirs réunit les amateurs de cartes autour d’un après-midi consacré à la belote, de 13h30 à 16h00.",
+      "story": "La belote sera au centre de ce tournoi porté par le Comité des Fêtes. Inscrit dans la vie associative et les loisirs à Nyons, l’événement propose un temps dédié à ce jeu de cartes bien connu, sur une plage horaire d’après-midi. Les participants sont attendus samedi 17 octobre 2026, à partir de 13h30 et jusqu’à 16h00.",
+      "why_it_matters": "Ce tournoi donne une place à la belote dans le calendrier des loisirs nyonsais. C’est aussi une initiative du Comité des Fêtes, associant jeu de cartes et vie locale le temps d’un après-midi.",
+      "practical": "Samedi 17 octobre 2026, de 13h30 à 16h00. Renseignements : 06 15 30 89 47 • comitedesfetesetdeloisirs@sfr.fr • comitefetesloisirsnyons.fr",
       "reader_question": "Serez-vous de la partie pour ce tournoi de belote à Nyons ?",
       "_fallback": false
     },
@@ -1902,13 +1902,13 @@
       "address": "",
       "phone": "0615308947",
       "email": "comitedesfetesetdeloisirs@sfr.fr",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.comitefetesloisirsnyons.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.505425+00:00",
+    "generated_at": "2026-09-27T13:34:28.097499+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/": {
-    "hash": "18e5fb64381759bc7e450701534ab1a0eecf46efd4084416bfab2be54977143e",
+    "hash": "7effab89f05fd96c4cc29392d6c1aa114fe40e118916ecbab2add89fe3e66e7e",
     "slug": "trail-de-nyons-et-baronnies-2026-10-17",
     "event": {
       "title": "Trail de Nyons et Baronnies",
@@ -1922,13 +1922,13 @@
       "url": "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/"
     },
     "editorial": {
-      "seo_title": "Trail de Nyons et des Baronnies : courses et randonnées",
-      "meta_description": "À Nyons, le Trail de Nyons et Baronnies propose des courses de 40 km, 22 km et 9,5 km, ainsi qu’une randonnée et de la marche nordique.",
-      "intro": "Le Trail de Nyons et Baronnies revient sur deux journées dédiées aux pratiques de plein air. Au programme, trois formats de courses de trail — 40 km, 22 km et 9,5 km — mais aussi une randonnée de 9,5 km et de la marche nordique. Une sortie sportive qui réunit plusieurs façons de marcher ou courir.",
-      "story": "Les coureurs peuvent choisir entre trois distances de trail : 40 km pour le format le plus long, 22 km ou 9,5 km. L’événement accueille également une randonnée de 9,5 km, proposée à deux reprises dans le programme, ainsi que la marche nordique. Le Trail de Nyons et Baronnies s’adresse ainsi autant à celles et ceux qui veulent prendre le départ d’une course qu’aux amateurs de randonnée et de marche nordique.",
-      "why_it_matters": "Ce rendez-vous donne une place à plusieurs pratiques sportives : trail, randonnée et marche nordique. Les différents formats permettent de choisir une activité parmi des distances de course distinctes ou une randonnée de 9,5 km.",
-      "practical": "Du samedi 17 octobre 2026 à 10h au dimanche 18 octobre à 18h. Contact : couriranyons@gmail.com.",
-      "reader_question": "Quelle distance de trail vous attire le plus : 40 km, 22 km ou 9,5 km ?",
+      "seo_title": "Trail de Nyons et Baronnies : courses et randonnées",
+      "meta_description": "Le Trail de Nyons et Baronnies réunit des courses de 40, 22 et 9,5 km, ainsi qu’une randonnée et de la marche nordique les 17 et 18 octobre 2026.",
+      "intro": "Le Trail de Nyons et Baronnies revient sur deux journées, les 17 et 18 octobre 2026. Cette sortie sportive propose plusieurs formats de trail, avec des courses de 40 km, 22 km et 9,5 km. Une randonnée de 9,5 km et de la marche nordique complètent le rendez-vous, pour choisir sa manière de participer.",
+      "story": "Le programme du Trail de Nyons et Baronnies s’adresse aux amateurs de course nature comme à celles et ceux qui préfèrent avancer à leur rythme. Trois distances de trail sont proposées : 40 km, 22 km et 9,5 km. La randonnée de 9,5 km offre une autre façon de prendre part à l’événement, tandis que la marche nordique figure également au programme. Le rendez-vous se déroule du samedi 17 octobre à 10h au dimanche 18 octobre 2026 à 18h.",
+      "why_it_matters": "C’est un rendez-vous sportif qui laisse le choix entre plusieurs distances et plusieurs pratiques : trail, randonnée ou marche nordique. Chacun peut ainsi retenir la formule qui lui convient parmi les parcours annoncés, du format de 9,5 km aux courses plus longues.",
+      "practical": "Du samedi 17 octobre 2026 à 10h au dimanche 18 octobre à 18h. Contact : couriranyons@gmail.com. Informations : www.couriranyons.fr.",
+      "reader_question": "Quelle formule vous tenterait le plus : trail, randonnée ou marche nordique ?",
       "_fallback": false
     },
     "practical": {
@@ -1937,9 +1937,9 @@
       "address": "",
       "phone": "",
       "email": "couriranyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.couriranyons.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729239+00:00",
+    "generated_at": "2026-09-27T13:34:36.838025+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/": {
@@ -1973,7 +1973,7 @@
       "email": "accueil@asoft-nyons.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729352+00:00",
+    "generated_at": "2026-09-27T13:34:36.838135+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/": {
@@ -2009,7 +2009,7 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729437+00:00",
+    "generated_at": "2026-09-27T13:34:36.838206+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/": {
@@ -2045,7 +2045,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729516+00:00",
+    "generated_at": "2026-09-27T13:34:36.838269+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conseil-municipal-4/": {
@@ -2087,7 +2087,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729688+00:00",
+    "generated_at": "2026-09-27T13:34:36.838332+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/": {
@@ -2123,7 +2123,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729866+00:00",
+    "generated_at": "2026-09-27T13:34:36.838402+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/": {
@@ -2158,11 +2158,11 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:23.729967+00:00",
+    "generated_at": "2026-09-27T13:34:36.838466+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/": {
-    "hash": "86df65ea537b707c4335e2518ec2221251145fb122f42b3e683f5d41b0212cd5",
+    "hash": "51ec4615283a701d24e8ce97f9d9128cf434544a87d176f3521239bab264c0bf",
     "slug": "saison-4-de-romuald-maufras-2026-10-23",
     "event": {
       "title": "« SAISON 4 » de Romuald Maufras",
@@ -2176,13 +2176,13 @@
       "url": "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/"
     },
     "editorial": {
-      "seo_title": "« Saison 4 » de Romuald Maufras, spectacle à Nyons",
-      "meta_description": "Romuald Maufras présente « Saison 4 », son nouveau spectacle en tournée, à Nyons vendredi 23 octobre 2026 à 20h.",
-      "intro": "Romuald Maufras arrive à Nyons avec « Saison 4 », son nouveau spectacle actuellement en tournée dans toute la France. Cette date culturelle est programmée le vendredi 23 octobre 2026, pour une représentation de 20h à 21h30. Une soirée consacrée à l’univers de l’artiste et à son quatrième spectacle.",
-      "story": "« Saison 4 » est le nouveau spectacle de Romuald Maufras. En tournée à travers la France, il s’arrête à Nyons le temps d’une représentation unique, inscrite dans l’agenda culturel de la ville. Le rendez-vous se tient en soirée, le vendredi 23 octobre 2026. Le titre du spectacle annonce cette quatrième saison, portée ici par Romuald Maufras dans le cadre de sa tournée nationale.",
-      "why_it_matters": "Cette représentation apporte à Nyons une date de tournée nationale et un rendez-vous de culture vivante. C’est l’occasion de découvrir sur place le nouveau spectacle de Romuald Maufras, « Saison 4 », lors d’une soirée programmée à l’automne.",
-      "practical": "Vendredi 23 octobre 2026, de 20h à 21h30. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Avez-vous envie de découvrir « Saison 4 » de Romuald Maufras à Nyons ?",
+      "seo_title": "Romuald Maufras présente « Saison 4 » à Nyons",
+      "meta_description": "Le nouveau spectacle « Saison 4 » de Romuald Maufras fait étape à Nyons, vendredi 23 octobre 2026, dans le cadre de sa tournée française.",
+      "intro": "Romuald Maufras arrive à Nyons avec « Saison 4 », son nouveau spectacle actuellement en tournée dans toute la France. Ce rendez-vous culturel se tiendra le vendredi 23 octobre 2026, en soirée. Une date à noter pour découvrir sur scène cette nouvelle création de l’artiste.",
+      "story": "« Saison 4 » est le nouveau spectacle de Romuald Maufras. En tournée à travers la France, il fait étape à Nyons pour une représentation unique le vendredi 23 octobre 2026. Inscrite dans la programmation culturelle locale, cette soirée propose de retrouver l’univers de l’artiste à travers ce spectacle portant le titre « Saison 4 ». La représentation est annoncée de 20h à 21h30.",
+      "why_it_matters": "Accueillir une étape de tournée à Nyons permet de profiter localement d’un nouveau spectacle présenté dans plusieurs villes de France. « Saison 4 » offre ainsi une sortie culturelle du vendredi soir, centrée sur Romuald Maufras et sa création récente.",
+      "practical": "Vendredi 23 octobre 2026, de 20h à 21h30, à Nyons. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
+      "reader_question": "Connaissez-vous déjà les spectacles de Romuald Maufras ?",
       "_fallback": false
     },
     "practical": {
@@ -2191,13 +2191,13 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:24.133297+00:00",
+    "generated_at": "2026-09-27T13:34:45.502139+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journees-jeux-de-societe/": {
-    "hash": "fc6d67b1dad39dea00309299a1318056f6ed37fc3e7dedeb81e56294cb63d739",
+    "hash": "e6ecb2c2f6b9b576eb097dae0acdc6f63afdf7c626a7324f40695aed384d791a",
     "slug": "journee-jeux-de-societe-2026-10-24",
     "event": {
       "title": "Journée Jeux de société",
@@ -2212,13 +2212,13 @@
       "url": "https://www.nyons.com/agenda/journees-jeux-de-societe/"
     },
     "editorial": {
-      "seo_title": "Journée jeux de société à Nyons le 24 octobre",
-      "meta_description": "Le Service Jeunesse organise une journée de jeux de société à Nyons, samedi 24 octobre 2026, de 10h à 21h.",
-      "intro": "Les jeux de société prennent place à Nyons le samedi 24 octobre 2026, à l’occasion d’une journée organisée par le Service Jeunesse. De 10h à 21h, ce rendez-vous est consacré au plaisir de jouer autour des jeux de société, dans le cadre des loisirs et de la jeunesse.",
-      "story": "La Journée Jeux de société est un temps dédié aux jeux de plateau et aux moments partagés autour d’une table. Portée par le Service Jeunesse, elle se déroule sur une large amplitude, du matin jusqu’en soirée. Inscrite parmi les rendez-vous enfance, jeunesse et loisirs, cette journée met simplement le jeu de société au centre de l’attention à Nyons.",
-      "why_it_matters": "C’est une sortie locale centrée sur une activité simple et rassembleuse : jouer à des jeux de société. Avec une journée entière prévue, le rendez-vous offre un cadre dédié aux loisirs, proposé par le Service Jeunesse.",
-      "practical": "Samedi 24 octobre 2026, de 10h à 21h. Journée Jeux de société organisée par le Service Jeunesse à Nyons.",
-      "reader_question": "Quel jeu de société aurez-vous envie de retrouver lors de cette journée ?",
+      "seo_title": "Jeux de société à Nyons : une journée jeunesse",
+      "meta_description": "Le Service Jeunesse propose une journée consacrée aux jeux de société à Nyons, samedi 24 octobre 2026, de 10 h à 21 h.",
+      "intro": "Les jeux de société prennent la journée à Nyons, samedi 24 octobre 2026. Organisé par le Service Jeunesse, ce rendez-vous s’inscrit dans les loisirs et s’adresse au temps partagé autour des jeux, de 10 h à 21 h.",
+      "story": "Cette Journée Jeux de société est proposée par le Service Jeunesse. Elle se déroule sur une seule journée, le samedi 24 octobre, avec une large amplitude horaire allant de 10 h à 21 h. Son intitulé donne le ton : les jeux de société sont au cœur de ce rendez-vous inscrit dans les catégories enfance et jeunesse, sport et loisirs, ainsi que loisirs.",
+      "why_it_matters": "C’est une sortie clairement dédiée aux jeux de société, portée par le Service Jeunesse à Nyons. La journée offre un créneau étendu, du matin jusqu’en soirée, pour faire une place à ce loisir dans l’agenda du samedi.",
+      "practical": "Samedi 24 octobre 2026, de 10 h à 21 h. Journée organisée par le Service Jeunesse.",
+      "reader_question": "Quel jeu de société auriez-vous envie de retrouver lors de cette journée ?",
       "_fallback": false
     },
     "practical": {
@@ -2227,9 +2227,9 @@
       "address": "",
       "phone": "",
       "email": "",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:24.361870+00:00",
+    "generated_at": "2026-09-27T13:34:53.373284+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/": {
@@ -2267,7 +2267,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:24.361982+00:00",
+    "generated_at": "2026-09-27T13:34:53.373388+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/": {
@@ -2302,7 +2302,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:24.362069+00:00",
+    "generated_at": "2026-09-27T13:34:53.373457+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/": {
@@ -2338,7 +2338,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:24.362156+00:00",
+    "generated_at": "2026-09-27T13:34:53.373524+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/": {
@@ -2373,17 +2373,17 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:24.362230+00:00",
+    "generated_at": "2026-09-27T13:34:53.373580+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/": {
-    "hash": "3f22bf518d80fd9e518a5e63570aaf28ce007761988979aeb06425b160c9dddb",
+    "hash": "08871c8976a08b4876a8f9a77ceb576937878cb986abc743179e01ca6f21e48f",
     "slug": "atelier-culinaire-tapenades-tartinables-2026-10-29",
     "event": {
       "title": "Atelier culinaire – Tapenades & tartinables",
       "start_date": "2026-10-29",
       "end_date": "2026-10-29",
-      "summary": "Atelier culinaire, réalisation de tapenades et tartinables 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 20.5°C / 20.5°C Contact Recherche Mentions légales Po",
+      "summary": "Atelier culinaire, réalisation de tapenades et tartinables 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 27°C / 27°C Contact Recherche Mentions légales Politi",
       "categories": [
         "Patrimoine / Culture vivante",
         "Sport / Loisirs",
@@ -2393,13 +2393,13 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/"
     },
     "editorial": {
-      "seo_title": "Tapenades et tartinables : atelier culinaire à Nyons",
-      "meta_description": "À Nyons, un atelier culinaire propose de réaliser tapenades et tartinables le jeudi 29 octobre 2026, à la Maison des Huiles d’Olives.",
-      "intro": "La Maison des Huiles d’Olives & Olives de France accueille à Nyons un atelier culinaire consacré aux tapenades et aux tartinables. Le rendez-vous invite à passer en cuisine pour réaliser ces préparations, le jeudi 29 octobre 2026, en plein centre-ville, place de la Libération.",
-      "story": "Tapenades et tartinables sont au cœur de cet atelier culinaire organisé à Nyons. Pendant une heure et demie, de 16h30 à 18h, les participants réalisent ces préparations dans le cadre de la Maison des Huiles d’Olives & Olives de France. Une sortie qui s’inscrit dans les rendez-vous de culture vivante et de loisirs proposés dans la ville.",
-      "why_it_matters": "C’est une occasion concrète de consacrer un moment à la réalisation de tapenades et de tartinables, dans un lieu nyonsais dédié aux huiles d’olive et aux olives de France. Un rendez-vous culinaire simple, directement lié aux produits et aux savoir-faire mis en avant sur place.",
-      "practical": "Jeudi 29 octobre 2026, de 16h30 à 18h. Maison des Huiles d’Olives & Olives de France, 40 place de la Libération, 26110 Nyons. Tél. : 04 75 26 90 90. contact@maisondeshuilesetolives.fr",
-      "reader_question": "Avez-vous envie de réaliser vos propres tapenades et tartinables à Nyons ?",
+      "seo_title": "Tapenades et tartinables : un atelier culinaire à Nyons",
+      "meta_description": "À Nyons, la Maison des Huiles d’Olives & Olives de France propose un atelier culinaire dédié à la réalisation de tapenades et tartinables.",
+      "intro": "La Maison des Huiles d’Olives & Olives de France accueille à Nyons un atelier culinaire consacré aux tapenades et aux tartinables. Cette rencontre propose de réaliser ces préparations, emblématiques d’une cuisine à partager et à décliner au fil des envies. L’atelier se tient le jeudi 29 octobre 2026, en fin d’après-midi.",
+      "story": "Au programme de cet atelier culinaire : la réalisation de tapenades et de tartinables. Le rendez-vous prend place à la Maison des Huiles d’Olives & Olives de France, sur la place de la Libération à Nyons. Pendant une heure et demie, les participants sont invités à se consacrer à ces préparations culinaires, entre 16h30 et 18h. Une proposition directement centrée sur le faire en cuisine et sur deux incontournables à servir sur une table conviviale.",
+      "why_it_matters": "Les tapenades et tartinables font partie de ces préparations simples à mettre au centre d’un apéritif ou d’un repas. Cet atelier offre un temps dédié à leur réalisation, dans un lieu nyonsais consacré aux huiles d’olive et aux olives de France.",
+      "practical": "Jeudi 29 octobre 2026, de 16h30 à 18h00. Maison des Huiles d’Olives & Olives de France, 40 place de la Libération, 26110 Nyons. Tél. : 04 75 26 90 90.",
+      "reader_question": "Quelle tapenade ou quel tartinable aimeriez-vous réaliser lors de cet atelier ?",
       "_fallback": false
     },
     "practical": {
@@ -2410,7 +2410,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:30.419516+00:00",
+    "generated_at": "2026-09-27T13:35:00.978644+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/": {
@@ -2452,7 +2452,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:30.419650+00:00",
+    "generated_at": "2026-09-27T13:35:00.978759+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/": {
@@ -2489,7 +2489,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:30.419721+00:00",
+    "generated_at": "2026-09-27T13:35:00.978825+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/": {
@@ -2523,11 +2523,11 @@
       "email": "drambure@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:30.419783+00:00",
+    "generated_at": "2026-09-27T13:35:00.978884+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/droles-de-coincidences-2/": {
-    "hash": "416db925144c2fb64bb35b54669ec2354f884694c6b67c4995f500543969571a",
+    "hash": "00c78a661135d814444479e04d732116d6a1b73116577b2f12d119edb331a06a",
     "slug": "droles-de-coincidences-2026-11-07",
     "event": {
       "title": "Drôles de Coïncidences",
@@ -2541,13 +2541,13 @@
       "url": "https://www.nyons.com/agenda/droles-de-coincidences-2/"
     },
     "editorial": {
-      "seo_title": "Drôles de Coïncidences, comédie d’intrigue à Nyons",
-      "meta_description": "À Nyons, découvrez Drôles de Coïncidences, une comédie d’intrigue de Maxence Descamps, samedi 7 novembre 2026 à 20h30.",
-      "intro": "Drôles de Coïncidences arrive à Nyons le samedi 7 novembre 2026. Cette proposition culturelle prend la forme d’une comédie d’intrigue signée Maxence Descamps. Un rendez-vous du soir, programmé de 20h30 à 22h00, pour retrouver le plaisir du théâtre et d’une histoire construite autour des coïncidences annoncées par son titre.",
-      "story": "Présenté dans les rubriques « Patrimoine / Culture vivante » et « Culture », Drôles de Coïncidences est bien une comédie d’intrigue. Le texte est de Maxence Descamps. La représentation est prévue en une seule soirée, le samedi 7 novembre 2026, avec un créneau de une heure et demie, de 20h30 à 22h00. Le titre donne à cette sortie une tonalité légère et théâtrale, tandis que la mention de comédie d’intrigue en précise clairement le genre.",
-      "why_it_matters": "Cette date offre à Nyons une soirée consacrée au théâtre, autour d’une comédie d’intrigue contemporaine. C’est une proposition culturelle identifiée, portée par un auteur nommé et inscrite dans la catégorie de la culture vivante. De quoi choisir une sortie du samedi soir avec un rendez-vous précisément daté.",
-      "practical": "Samedi 7 novembre 2026, de 20h30 à 22h00. Contact : electron.nyons@gmail.com.",
-      "reader_question": "Envie de découvrir cette comédie d’intrigue de Maxence Descamps à Nyons ?",
+      "seo_title": "« Drôles de Coïncidences », une comédie à Nyons",
+      "meta_description": "À Nyons, découvrez « Drôles de Coïncidences », une comédie d’intrigue de Maxence Descamps, samedi 7 novembre 2026 à 20h30.",
+      "intro": "« Drôles de Coïncidences » est une comédie d’intrigue de Maxence Descamps proposée à Nyons le samedi 7 novembre 2026. Le rendez-vous se tient en soirée, de 20h30 à 22h00, pour découvrir cette œuvre placée sous le signe du théâtre et de la culture vivante.",
+      "story": "Le titre annonce des rencontres inattendues et des situations qui se croisent : « Drôles de Coïncidences » prend la forme d’une comédie d’intrigue écrite par Maxence Descamps. Cette représentation s’inscrit dans les rendez-vous culturels de Nyons, avec un format de soirée de 1h30. Une occasion de retrouver le plaisir d’une comédie construite autour de son intrigue, le temps d’un samedi soir de novembre.",
+      "why_it_matters": "Une comédie d’intrigue offre une sortie culturelle simple et directe à Nyons. « Drôles de Coïncidences » met à l’honneur un texte de Maxence Descamps dans le cadre d’un rendez-vous consacré à la culture vivante.",
+      "practical": "Samedi 7 novembre 2026, de 20h30 à 22h00. Renseignements : electron.nyons@gmail.com. Site : www.lelectron.fr.",
+      "reader_question": "Envie de découvrir « Drôles de Coïncidences » à Nyons ce samedi soir ?",
       "_fallback": false
     },
     "practical": {
@@ -2556,9 +2556,9 @@
       "address": "",
       "phone": "",
       "email": "electron.nyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-27T08:16:30.696095+00:00",
+    "generated_at": "2026-09-27T13:35:07.511654+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/": {
@@ -2594,11 +2594,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:30.696218+00:00",
+    "generated_at": "2026-09-27T13:35:07.511768+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/opera-follies/": {
-    "hash": "684e82c4debe4a4afc179aa00e475282fa9d383c36e41c94f54a690d0e3886e8",
+    "hash": "0cb34f58a1f20682fd45cc318151ef617b36bf6546bb149e5f8a66ae96448d88",
     "slug": "opera-follies-2026-11-11",
     "event": {
       "title": "Opera follies",
@@ -2612,13 +2612,13 @@
       "url": "https://www.nyons.com/agenda/opera-follies/"
     },
     "editorial": {
-      "seo_title": "Opera follies à Nyons avec l’Ensemble Cant’Ouvèze",
-      "meta_description": "À Nyons, le rendez-vous culturel Opera follies, proposé par l’Ensemble Vocal Cant’Ouvèze, se tient le 11 novembre 2026, de 18 h à 19 h 30, pendant une heure…",
-      "intro": "Opera follies arrive dans l’agenda culturel de Nyons avec l’Ensemble Vocal Cant’Ouvèze. Cette proposition, classée entre patrimoine, culture vivante et culture, se déroule en une seule séance le mercredi 11 novembre 2026. Elle offre un temps consacré à Opera follies, de 18 h à 19 h 30.",
-      "story": "Opera follies est annoncé comme une proposition de l’Ensemble Vocal Cant’Ouvèze. Inscrit dans les catégories « Patrimoine / Culture vivante » et « Culture », l’événement prend place le mercredi 11 novembre 2026. Son créneau, de 18 h à 19 h 30, donne un rendez-vous précis pour découvrir cette date portée par l’ensemble vocal. Le nom Opera follies est celui retenu pour cette proposition culturelle à l’agenda de Nyons.",
-      "why_it_matters": "Pour qui souhaite suivre l’activité culturelle de Nyons, cette date réunit Opera follies et l’Ensemble Vocal Cant’Ouvèze. Son format d’une heure trente permet de prévoir simplement ce rendez-vous du 11 novembre en début de soirée.",
-      "practical": "Mercredi 11 novembre 2026, de 18 h à 19 h 30. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Souhaitez-vous assister à Opera follies le 11 novembre ?",
+      "seo_title": "Opera follies à Nyons avec l’Ensemble Vocal Cant’Ouvèze",
+      "meta_description": "À Nyons, l’Ensemble Vocal Cant’Ouvèze présente Opera follies, mercredi 11 novembre 2026, de 18h à 19h30.",
+      "intro": "Opera follies est un rendez-vous culturel porté par l’Ensemble Vocal Cant’Ouvèze à Nyons. Cette proposition de culture vivante se tiendra le mercredi 11 novembre 2026, de 18h à 19h30. Un moment consacré à l’univers de l’opéra, présenté par un ensemble vocal bien ancré dans le paysage culturel local.",
+      "story": "Avec Opera follies, l’Ensemble Vocal Cant’Ouvèze donne rendez-vous au public nyonsais pour une soirée placée sous le signe du chant et de l’opéra. Inscrit dans les catégories Patrimoine / Culture vivante et Culture, l’événement met à l’honneur une pratique artistique collective : la voix portée par un ensemble vocal. Le rendez-vous se déroule en début de soirée, sur un créneau d’une heure trente, le mercredi 11 novembre 2026.",
+      "why_it_matters": "Cette sortie offre une place à la musique vocale dans l’agenda culturel de Nyons. Opera follies permet de retrouver l’Ensemble Vocal Cant’Ouvèze autour d’un rendez-vous consacré à l’opéra, dans un format adapté à une soirée culturelle.",
+      "practical": "Mercredi 11 novembre 2026, de 18h à 19h30. Renseignements : 04 75 26 50 10, l.flouret@nyons.com. Site : cantouveze.com.",
+      "reader_question": "Avez-vous envie de découvrir Opera follies avec l’Ensemble Vocal Cant’Ouvèze ?",
       "_fallback": false
     },
     "practical": {
@@ -2627,13 +2627,13 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.cantouveze.com/"
     },
-    "generated_at": "2026-09-27T08:16:30.920875+00:00",
+    "generated_at": "2026-09-27T13:35:15.453093+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-femme-moustique/": {
-    "hash": "227b3996c7041ce62a75fa293d509951bfc26b209fb4715cfe0170d9114e7ed3",
+    "hash": "f372a2780a1505ad5bf1ab33fa63ec4c9bdf2d397428812f46bec2d71add93d1",
     "slug": "la-femme-moustique-2026-11-13",
     "event": {
       "title": "La Femme Moustique",
@@ -2648,12 +2648,12 @@
     },
     "editorial": {
       "seo_title": "La Femme Moustique, un conte vivant à Nyons",
-      "meta_description": "À Nyons, Mélancolie Motte présente « La Femme Moustique », un conte monstrueux et merveilleux pour oser s’exprimer et grandir.",
-      "intro": "« La Femme Moustique » est un conte monstrueux du merveilleux, proposé à Nyons par Mélancolie Motte. Cette création invite à oser s’exprimer et à prendre le risque de grandir, à travers un récit porté directement par son autrice et interprète.",
-      "story": "De et par Mélancolie Motte, « La Femme Moustique » prend la forme d’un conte où le monstrueux rencontre le merveilleux. Le spectacle place l’expression au cœur de son propos : oser dire, oser prendre sa place, et accepter le risque que représente le fait de grandir. Une proposition de culture vivante inscrite dans l’agenda culturel nyonsais, le temps d’une soirée.",
-      "why_it_matters": "Cette sortie met à l’honneur l’art du conte et une parole incarnée par Mélancolie Motte. Avec son titre singulier et son thème de l’expression, « La Femme Moustique » propose un rendez-vous culturel autour du merveilleux, du monstrueux et du chemin pour grandir.",
-      "practical": "Vendredi 13 novembre 2026, de 20h à 21h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Prendrez-vous place pour découvrir « La Femme Moustique » à Nyons ?",
+      "meta_description": "À Nyons, Mélancolie Motte présente La Femme Moustique, un conte monstrueux du merveilleux pour oser s’exprimer et grandir.",
+      "intro": "La Femme Moustique est un conte monstrueux du merveilleux, proposé à Nyons par Mélancolie Motte. Cette création invite à oser s’exprimer et à prendre le risque de grandir, à travers une parole portée directement par son autrice et interprète. Un rendez-vous culturel vivant, à découvrir le vendredi 13 novembre 2026 au soir.",
+      "story": "De et par Mélancolie Motte, La Femme Moustique prend la forme d’un conte où le monstrueux rencontre le merveilleux. Au cœur de cette proposition, une invitation claire : trouver la force de s’exprimer et accepter le risque que représente le fait de grandir. La parole du conte devient ici le fil de la soirée, avec une artiste qui signe et porte elle-même cette œuvre. La représentation se déroule en une heure, de 20h à 21h.",
+      "why_it_matters": "Les contes ouvrent parfois un chemin direct vers des sujets qui comptent. Avec La Femme Moustique, Mélancolie Motte aborde l’expression de soi et le passage vers le fait de grandir par l’univers du merveilleux et du monstrueux. Une sortie culturelle singulière à Nyons.",
+      "practical": "Vendredi 13 novembre 2026, de 20h à 21h. Renseignements : 04 75 26 50 10, l.flouret@nyons.com. Site : melancolie.org/moustique.",
+      "reader_question": "Envie de découvrir ce conte monstrueux du merveilleux porté par Mélancolie Motte ?",
       "_fallback": false
     },
     "practical": {
@@ -2662,9 +2662,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.melancolie.org/moustique"
     },
-    "generated_at": "2026-09-27T08:16:31.146224+00:00",
+    "generated_at": "2026-09-27T13:35:23.687996+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/": {
@@ -2700,7 +2700,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:31.146331+00:00",
+    "generated_at": "2026-09-27T13:35:23.688098+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/": {
@@ -2734,11 +2734,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:31.146413+00:00",
+    "generated_at": "2026-09-27T13:35:23.688166+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/petits-crimes-conjugaux/": {
-    "hash": "636c0026359596e12041a35ef9391285be8dcbc2049dbc6489781b351ac04a60",
+    "hash": "34cc8390c354bafc1e5cc45ab2b0933e3e5224cb0a096f2eb6da8ece969cb6cb",
     "slug": "petits-crimes-conjugaux-2026-11-14",
     "event": {
       "title": "Petits crimes conjugaux",
@@ -2752,13 +2752,13 @@
       "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/"
     },
     "editorial": {
-      "seo_title": "Petits crimes conjugaux, une pièce à découvrir à Nyons",
-      "meta_description": "À Nyons, la Compagnie L’Épopée Belle présente Petits crimes conjugaux, une pièce de théâtre d’Éric-Emmanuel Schmitt.",
-      "intro": "Petits crimes conjugaux arrive à Nyons sous la forme d’une représentation théâtrale portée par la Compagnie L’Épopée Belle. Cette pièce est signée Éric-Emmanuel Schmitt et s’inscrit dans la programmation culturelle locale du samedi 14 novembre 2026.",
-      "story": "La soirée est consacrée à Petits crimes conjugaux, une œuvre d’Éric-Emmanuel Schmitt présentée par la Compagnie L’Épopée Belle. Le rendez-vous propose de retrouver le théâtre sur scène à Nyons, avec une représentation programmée en soirée. Entre culture et spectacle vivant, cette date met à l’honneur le travail d’une compagnie autour d’un texte d’auteur contemporain.",
-      "why_it_matters": "C’est une occasion de voir à Nyons une pièce d’Éric-Emmanuel Schmitt interprétée par la Compagnie L’Épopée Belle. Une sortie culturelle centrée sur le théâtre et le spectacle vivant, le temps d’une soirée.",
-      "practical": "Samedi 14 novembre 2026, de 20h30 à 22h00. Contact : electron.nyons@gmail.com.",
-      "reader_question": "Envie de découvrir Petits crimes conjugaux avec la Compagnie L’Épopée Belle ?",
+      "seo_title": "Petits crimes conjugaux, théâtre à Nyons en novembre",
+      "meta_description": "À Nyons, la Compagnie L’Épopée Belle joue « Petits crimes conjugaux », une pièce de théâtre d’Éric-Emmanuel Schmitt, le 14 novembre 2026.",
+      "intro": "« Petits crimes conjugaux » arrive à Nyons pour une soirée de théâtre portée par la Compagnie L’Épopée Belle. Cette pièce d’Éric-Emmanuel Schmitt est programmée le samedi 14 novembre 2026, de 20h30 à 22h00. Un rendez-vous culturel consacré au texte théâtral et à son interprétation sur scène.",
+      "story": "La Compagnie L’Épopée Belle propose « Petits crimes conjugaux », une pièce écrite par Éric-Emmanuel Schmitt. Inscrite dans les rendez-vous de culture vivante à Nyons, cette représentation se tient en une soirée, du début à la fin du créneau annoncé. Le titre de la pièce est au cœur de ce rendez-vous théâtral, présenté par la compagnie dans le cadre de la programmation culturelle locale.",
+      "why_it_matters": "Cette sortie met à l’affiche une œuvre d’Éric-Emmanuel Schmitt interprétée par la Compagnie L’Épopée Belle. C’est une occasion de retrouver le théâtre dans la programmation culturelle de Nyons, le temps d’une représentation en soirée.",
+      "practical": "Samedi 14 novembre 2026, de 20h30 à 22h00. Renseignements : electron.nyons@gmail.com. Site : www.lelectron.fr.",
+      "reader_question": "Irez-vous voir « Petits crimes conjugaux » à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -2767,13 +2767,13 @@
       "address": "",
       "phone": "",
       "email": "electron.nyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-27T08:16:31.373278+00:00",
+    "generated_at": "2026-09-27T13:35:33.471467+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/puces-des-couturieres/": {
-    "hash": "748de5188020df5106ee4c0bd859f7ad19f56608a9136cf2e764f87001aee945",
+    "hash": "eec80d8e9915caac4085bb46eb81459e8fb0d825e25034e42d78b2cf58cdd870",
     "slug": "puces-des-couturieres-2026-11-14",
     "event": {
       "title": "Puces des couturières",
@@ -2795,12 +2795,12 @@
     },
     "editorial": {
       "seo_title": "Puces des couturières et loisirs créatifs à Nyons",
-      "meta_description": "Les Puces des couturières réunissent à Nyons couture et loisirs créatifs, samedi 14 novembre 2026, avec le Comité des Fêtes et des Loisirs.",
-      "intro": "Les Puces des couturières s’installent à Nyons le samedi 14 novembre 2026. Porté par le Comité des Fêtes et des Loisirs de Nyons, ce rendez-vous met la couture à l’honneur et ouvre aussi la porte aux loisirs créatifs. Une journée dédiée aux activités manuelles, à découvrir de 9 heures à 19 heures.",
-      "story": "Sous le nom des Puces des couturières, cette journée rassemble deux univers qui se répondent naturellement : la couture et les loisirs créatifs. Le Comité des Fêtes et des Loisirs de Nyons est à l’initiative de ce rendez-vous inscrit dans la vie associative locale. Sur une large plage horaire, du matin jusqu’en début de soirée, l’événement donne une place particulière aux pratiques créatives et au savoir-faire manuel.",
-      "why_it_matters": "Cette sortie propose à Nyons un temps consacré à la couture et aux loisirs créatifs, deux activités qui trouvent leur place dans la vie culturelle et associative. C’est une occasion de prendre part à un rendez-vous local organisé par le Comité des Fêtes et des Loisirs.",
-      "practical": "Samedi 14 novembre 2026, de 9h à 19h. Contact : 06 15 30 89 47 ou comitedesfetesetdeloisirs@sfr.fr.",
-      "reader_question": "La couture ou les loisirs créatifs font-ils partie de vos passions ?",
+      "meta_description": "Les Puces des couturières reviennent à Nyons le samedi 14 novembre 2026, avec le Comité des Fêtes et des Loisirs et les loisirs créatifs.",
+      "intro": "Les Puces des couturières s’installent à Nyons le samedi 14 novembre 2026. Porté par le Comité des Fêtes et des Loisirs de Nyons, ce rendez-vous est consacré à l’univers des couturières et aux loisirs créatifs. Une journée entière, de 9 heures à 19 heures, pour retrouver cette initiative locale placée sous le signe des activités manuelles.",
+      "story": "Le Comité des Fêtes et des Loisirs de Nyons organise les Puces des couturières, associées aux loisirs créatifs. L’événement rassemble ainsi, dans un même rendez-vous, la couture et les pratiques créatives. Son intitulé donne le ton : une journée dédiée à ces univers, proposée dans le cadre des loisirs à Nyons. Les Puces des couturières se déroulent le samedi 14 novembre 2026, avec une amplitude horaire allant du matin jusqu’en début de soirée.",
+      "why_it_matters": "Cette date offre une place aux loisirs créatifs dans le calendrier nyonsais, autour d’un événement identifié par les couturières. C’est aussi une initiative du Comité des Fêtes et des Loisirs de Nyons, acteur de la vie associative locale.",
+      "practical": "Samedi 14 novembre 2026, de 9h à 19h. Renseignements : 06 15 30 89 47 ou comitedesfetesetdeloisirs@sfr.fr. Site : comitefetesloisirsnyons.fr.",
+      "reader_question": "La couture ou les loisirs créatifs font-ils partie de vos passe-temps ?",
       "_fallback": false
     },
     "practical": {
@@ -2809,9 +2809,9 @@
       "address": "",
       "phone": "0615308947",
       "email": "comitedesfetesetdeloisirs@sfr.fr",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.comitefetesloisirsnyons.fr/"
     },
-    "generated_at": "2026-09-27T08:16:31.851869+00:00",
+    "generated_at": "2026-09-27T13:35:41.671930+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/": {
@@ -2848,11 +2848,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:31.851989+00:00",
+    "generated_at": "2026-09-27T13:35:41.672038+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/salon-vivre-ici/": {
-    "hash": "c897e5a8529e924e29dd4bb3197f2268b1b592a3d9bea87d935c72d4751ae3f4",
+    "hash": "ad4e304b9fe8d67eed20b35111cae08938ffa46e0f7d213c9b508b02287918c7",
     "slug": "salon-vivre-ici-2026-11-18",
     "event": {
       "title": "Salon Vivre ici",
@@ -2868,12 +2868,12 @@
     },
     "editorial": {
       "seo_title": "Salon Vivre ici à Nyons : étudier, travailler, habiter",
-      "meta_description": "Le Salon Vivre ici se tient à Nyons le 18 novembre 2026, autour de trois thèmes concrets : étudier, travailler et habiter.",
-      "intro": "Le Salon Vivre ici s’installe à Nyons le mercredi 18 novembre 2026. Cette journée s’articule autour de trois sujets qui touchent directement la vie quotidienne : étudier, travailler et habiter. Inscrit dans les thématiques du cadre de vie, de la solidarité et de la vie associative, le rendez-vous propose de réunir ces questions en un même salon.",
-      "story": "Étudier, travailler, habiter : le titre du Salon Vivre ici annonce clairement son fil conducteur. Organisé sur une journée à Nyons, il met en avant des thèmes liés à l’installation et à la vie sur le territoire. Le cadre de vie, la solidarité et la santé, ainsi que la vie associative font partie des catégories associées à l’événement. Une occasion de s’intéresser concrètement aux grands repères qui accompagnent le quotidien, des études au logement en passant par le travail.",
-      "why_it_matters": "Le Salon Vivre ici rassemble des sujets essentiels pour celles et ceux qui réfléchissent à leur parcours ou à leur quotidien à Nyons. Études, travail, habitat, solidarité et vie associative : autant de facettes locales réunies dans une même journée.",
-      "practical": "Mercredi 18 novembre 2026, de 9h à 20h. Contact : campuscedille@asoft-nyons.net. Site indiqué : service-public.gouv.fr.",
-      "reader_question": "Parmi les thèmes étudier, travailler et habiter, lequel vous concerne le plus ?",
+      "meta_description": "Le Salon Vivre ici se tient à Nyons le 18 novembre 2026 autour de trois repères concrets : étudier, travailler et habiter.",
+      "intro": "Le Salon Vivre ici donne rendez-vous à Nyons le mercredi 18 novembre 2026. Cette journée s’articule autour de trois grands repères du quotidien : étudier, travailler et habiter. Elle s’inscrit dans les thèmes du cadre de vie, de la solidarité et de la santé, ainsi que de la vie associative.",
+      "story": "Étudier, travailler, habiter : le Salon Vivre ici rassemble ces trois dimensions sous un même intitulé. À Nyons, il place le cadre de vie au cœur de la journée, avec une attention portée aussi à la solidarité, à la santé et à la vie associative. Le salon se déroule sur une seule journée, du matin jusqu’en soirée, le 18 novembre 2026. C’est un rendez-vous clairement tourné vers la vie locale et les sujets qui accompagnent les parcours de vie.",
+      "why_it_matters": "Le Salon Vivre ici relie des sujets très concrets : les études, le travail, l’habitat et le cadre de vie. Sa place accordée à la solidarité, à la santé et à la vie associative en fait un rendez-vous ancré dans les réalités locales de Nyons.",
+      "practical": "Mercredi 18 novembre 2026, de 9 h à 20 h. Renseignements : campuscedille@asoft-nyons.net. Site : https://salonvivreici.fr/",
+      "reader_question": "Quel aspect vous intéresse le plus : étudier, travailler ou habiter à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -2882,13 +2882,13 @@
       "address": "",
       "phone": "",
       "email": "campuscedille@asoft-nyons.net",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://salonvivreici.fr/"
     },
-    "generated_at": "2026-09-27T08:16:32.081066+00:00",
+    "generated_at": "2026-09-27T13:35:52.655208+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/": {
-    "hash": "c03355ecb572a9364f26235d4f62d3a13249ed097c94085c572285ff6bf2d34b",
+    "hash": "36e5971141a81cc39793084761147ab41e3868d3290defb139ab5ae9f9551d67",
     "slug": "de-lile-noire-au-montbrun-2026-11-21",
     "event": {
       "title": "De l’île Noire au Montbrun",
@@ -2902,13 +2902,13 @@
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/"
     },
     "editorial": {
-      "seo_title": "Concert De l’île Noire au Montbrun à Nyons",
-      "meta_description": "À Nyons, le concert « De l’île Noire au Montbrun » se tient samedi 21 novembre 2026, de 20h30 à 22h.",
-      "intro": "Nyons accueille le concert « De l’île Noire au Montbrun » le samedi 21 novembre 2026. Inscrit dans les rendez-vous culturels de la ville, ce concert se déroule en soirée, de 20h30 à 22h. Une sortie musicale à noter pour qui souhaite profiter d’un moment de culture vivante à Nyons.",
-      "story": "« De l’île Noire au Montbrun » est annoncé comme un concert, proposé à Nyons le temps d’une soirée. Son titre trace un chemin singulier, de l’île Noire au Montbrun, et donne son nom à ce rendez-vous culturel. La rencontre est programmée le samedi 21 novembre 2026, avec un créneau de 20h30 à 22h. Elle figure dans les catégories Patrimoine / Culture vivante et Culture.",
-      "why_it_matters": "Ce concert offre un rendez-vous culturel bien identifié dans l’agenda nyonsais. Programmé sur une soirée de novembre, il donne l’occasion de se retrouver autour de la musique et d’un projet portant le nom évocateur « De l’île Noire au Montbrun ».",
-      "practical": "Samedi 21 novembre 2026, de 20h30 à 22h. Contact : electron.nyons@gmail.com.",
-      "reader_question": "Serez-vous au concert « De l’île Noire au Montbrun » à Nyons ?",
+      "seo_title": "Concert « De l’île Noire au Montbrun » à Nyons",
+      "meta_description": "Le concert « De l’île Noire au Montbrun » se tient à Nyons samedi 21 novembre 2026, de 20h30 à 22h00.",
+      "intro": "Nyons accueille le concert « De l’île Noire au Montbrun », une soirée inscrite dans l’agenda culturel local. Le rendez-vous est donné le samedi 21 novembre 2026, de 20h30 à 22h00, pour découvrir ce concert au titre évocateur.",
+      "story": "« De l’île Noire au Montbrun » est annoncé comme un concert à Nyons. Son intitulé trace un chemin entre l’Île Noire et le Montbrun, tandis que la soirée prend place dans le cadre culturel de la ville. Pendant une heure et demie, de 20h30 à 22h00, ce rendez-vous propose un temps consacré à la musique, le samedi 21 novembre 2026.",
+      "why_it_matters": "Ce concert offre une sortie culturelle à Nyons un samedi soir de novembre. Pour les habitants comme pour les visiteurs de passage, c’est l’occasion de réserver un moment pour la musique dans l’agenda local.",
+      "practical": "Samedi 21 novembre 2026, de 20h30 à 22h00. Contact : electron.nyons@gmail.com. Site : www.lelectron.fr.",
+      "reader_question": "Prévoyez-vous de passer votre samedi soir au concert « De l’île Noire au Montbrun » ?",
       "_fallback": false
     },
     "practical": {
@@ -2917,9 +2917,9 @@
       "address": "",
       "phone": "",
       "email": "electron.nyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-27T08:16:32.301873+00:00",
+    "generated_at": "2026-09-27T13:35:58.586354+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/": {
@@ -2953,11 +2953,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:32.301968+00:00",
+    "generated_at": "2026-09-27T13:35:58.586459+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-turlupinades/": {
-    "hash": "daa6f1df319843ae37101b6846e8ca9642fe734f86378b505a11040f55dbf232",
+    "hash": "51db9327dbfcdf1f2aefe547495f8ba24d664882124e85a3c3a98a0e8e1d2faf",
     "slug": "les-turlupinades-2026-12-05",
     "event": {
       "title": "Les turlupinades",
@@ -2973,11 +2973,11 @@
     },
     "editorial": {
       "seo_title": "Les Turlupinades, une comédie à voir à Nyons",
-      "meta_description": "La Compagnie du Chien Noir présente Les Turlupinades, une comédie programmée à Nyons le samedi 5 décembre 2026 à 20h30.",
-      "intro": "Les Turlupinades est une comédie proposée par la Compagnie du Chien Noir à Nyons. Rendez-vous le samedi 5 décembre 2026, de 20h30 à 22h, pour cette sortie culturelle inscrite entre patrimoine, culture vivante et loisirs.",
-      "story": "Avec Les Turlupinades, la Compagnie du Chien Noir présente une comédie à Nyons. Le rendez-vous se tient en soirée, le samedi 5 décembre 2026, avec une représentation annoncée de 20h30 à 22h. L’événement rejoint l’agenda culturel nyonsais sous les thèmes du patrimoine, de la culture vivante, de la culture et des loisirs.",
-      "why_it_matters": "Cette représentation met la comédie à l’honneur dans l’agenda de Nyons. Les Turlupinades offre un rendez-vous culturel en soirée autour du travail de la Compagnie du Chien Noir.",
-      "practical": "Samedi 5 décembre 2026, de 20h30 à 22h. Contact : electron.nyons@gmail.com. Site indiqué : https://www.service-public.gouv.fr/",
+      "meta_description": "À Nyons, Les Turlupinades propose une soirée de comédie par la Compagnie du Chien Noir, le samedi 5 décembre 2026 de 20h30 à 22h.",
+      "intro": "Les Turlupinades est une comédie proposée par la Compagnie du Chien Noir à Nyons. Cette soirée culturelle se tient le samedi 5 décembre 2026, de 20h30 à 22h. Un rendez-vous placé sous le signe du théâtre et du rire, porté par une compagnie dont le nom accompagne directement le spectacle.",
+      "story": "Avec Les Turlupinades, la Compagnie du Chien Noir présente une comédie à Nyons. Inscrite dans les domaines de la culture, des loisirs et du patrimoine vivant, cette représentation prend la forme d’une soirée de théâtre. Le titre donne le ton d’un spectacle qui s’annonce volontiers joueur, tandis que la mention de comédie en précise clairement la nature. Le rendez-vous est prévu sur un créneau de une heure trente, le temps d’entrer dans l’univers de la compagnie.",
+      "why_it_matters": "Les Turlupinades offre une occasion de retrouver la comédie dans l’agenda culturel nyonsais. C’est une sortie clairement identifiée comme théâtrale, proposée par la Compagnie du Chien Noir, pour celles et ceux qui souhaitent consacrer leur soirée du 5 décembre à un spectacle vivant.",
+      "practical": "Samedi 5 décembre 2026, de 20h30 à 22h. Renseignements : electron.nyons@gmail.com. Site : https://www.lelectron.fr",
       "reader_question": "Envie de découvrir Les Turlupinades avec la Compagnie du Chien Noir ?",
       "_fallback": false
     },
@@ -2987,13 +2987,13 @@
       "address": "",
       "phone": "",
       "email": "electron.nyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-27T08:16:32.780363+00:00",
+    "generated_at": "2026-09-27T13:36:09.058996+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/telethon-2026/": {
-    "hash": "caecf03d74af88cc893d4fd5d90c30e0725a205358d247da50531ff96a83a1c9",
+    "hash": "0d36f01cdc6be4faa03bb575c74baa1326495f5427f2e8fdbc482f3da2f8a313",
     "slug": "telethon-2026-2026-12-05",
     "event": {
       "title": "Téléthon 2026",
@@ -3007,12 +3007,12 @@
     },
     "editorial": {
       "seo_title": "Téléthon 2026 : un week-end solidaire à Nyons",
-      "meta_description": "Le Téléthon 2026 se déroule à Nyons les 5 et 6 décembre, pour un rendez-vous placé sous le signe de la solidarité et de la santé.",
-      "intro": "Le Téléthon 2026 est inscrit à l’agenda de Nyons pour le week-end des samedi 5 et dimanche 6 décembre. Ce rendez-vous relève de la solidarité et de la santé, deux repères qui donnent tout son sens à cette mobilisation organisée sur deux journées entières.",
-      "story": "À Nyons, le Téléthon 2026 se tient du samedi 5 décembre à 0h00 au dimanche 6 décembre à 23h59. L’événement porte le nom du Téléthon et s’inscrit dans la catégorie « Solidarité / Santé ». Il prend ainsi place sur l’ensemble du premier week-end de décembre, avec une présence annoncée sur deux jours.",
-      "why_it_matters": "Le Téléthon est ici proposé comme un temps de solidarité à Nyons. Inscrit dans le champ de la santé, ce rendez-vous donne une place concrète à la mobilisation collective durant le week-end des 5 et 6 décembre 2026.",
-      "practical": "Téléthon 2026, du samedi 5 décembre 2026 à 0h00 au dimanche 6 décembre à 23h59, à Nyons.",
-      "reader_question": "Serez-vous au rendez-vous du Téléthon à Nyons les 5 et 6 décembre ?",
+      "meta_description": "Le Téléthon 2026 se tient à Nyons les 5 et 6 décembre, un rendez-vous placé sous le signe de la solidarité et de la santé.",
+      "intro": "Le Téléthon 2026 donne rendez-vous à Nyons durant tout le week-end des samedi 5 et dimanche 6 décembre. Inscrit dans les domaines de la solidarité et de la santé, cet événement porte un élan collectif autour du Téléthon, à l’échelle de la commune.",
+      "story": "Pendant deux jours, Nyons accueille l’édition 2026 du Téléthon. Le rendez-vous s’étend du samedi 5 décembre à 00h00 au dimanche 6 décembre à 23h59. Son intitulé, tout simple et immédiatement reconnaissable, place ce week-end dans la dynamique nationale du Téléthon, avec une présence locale à Nyons. C’est une date à retenir pour celles et ceux qui souhaitent marquer ce temps fort solidaire de début décembre.",
+      "why_it_matters": "Le Téléthon est ici identifié comme un rendez-vous lié à la solidarité et à la santé. Sa tenue sur un week-end entier en fait un temps fort inscrit dans l’agenda nyonsais, les 5 et 6 décembre 2026.",
+      "practical": "Téléthon 2026 à Nyons, du samedi 5 décembre 2026 à 00h00 au dimanche 6 décembre 2026 à 23h59.",
+      "reader_question": "Serez-vous à Nyons pour le week-end du Téléthon 2026 ?",
       "_fallback": false
     },
     "practical": {
@@ -3021,9 +3021,9 @@
       "address": "",
       "phone": "",
       "email": "",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:33.000865+00:00",
+    "generated_at": "2026-09-27T13:36:15.783744+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/": {
@@ -3059,7 +3059,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:33.000999+00:00",
+    "generated_at": "2026-09-27T13:36:15.783856+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/": {
@@ -3095,17 +3095,17 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:33.001086+00:00",
+    "generated_at": "2026-09-27T13:36:15.783920+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cher-edouard/": {
-    "hash": "9a9eb623eb63cbba97c15bd16887dd7d0b024e307495a2a0486fdeead06c9fd1",
+    "hash": "1b7624d26ac7cc00d402cd4b40c8ece16be714fccf23f2e0043ef0fc87f1ff1a",
     "slug": "cher-edouard-2026-12-13",
     "event": {
       "title": "Cher Edouard",
       "start_date": "2026-12-13",
       "end_date": "2026-12-13",
-      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 20.5°C / 20.5°C Contact Recherche Mentions légales Politique de confiden",
+      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 27°C / 27°C Contact Recherche Mentions légales Politique de confidential",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -3113,13 +3113,13 @@
       "url": "https://www.nyons.com/agenda/cher-edouard/"
     },
     "editorial": {
-      "seo_title": "Cher Edouard : une comédie de théâtre à Nyons",
-      "meta_description": "À Nyons, la Cie d’ici ou d’Ailleurs présente « Cher Edouard », une comédie programmée le dimanche 13 décembre 2026, de 17 h à 18 h 30.",
-      "intro": "À Nyons, « Cher Edouard » est une comédie proposée par la Cie d’ici ou d’Ailleurs. Le rendez-vous se tient le dimanche 13 décembre 2026, de 17 h à 18 h 30. Cette date culturelle invite à retrouver la compagnie autour de son spectacle intitulé « Cher Edouard », inscrit à l’agenda nyonsais.",
-      "story": "« Cher Edouard » prend la forme d’une comédie portée par la Cie d’ici ou d’Ailleurs. Le spectacle est programmé à Nyons sur un créneau d’une heure et demie, le dimanche 13 décembre 2026. Son titre, simple et direct, donne son nom à cette proposition théâtrale présentée par la compagnie. Une sortie culturelle à noter pour cette fin d’après-midi de décembre, autour d’une comédie annoncée dans l’agenda de la ville.",
-      "why_it_matters": "Cette programmation met la comédie à l’honneur dans l’agenda culturel de Nyons. « Cher Edouard » permet de découvrir le travail de la Cie d’ici ou d’Ailleurs lors d’un rendez-vous théâtral fixé un dimanche en fin d’après-midi.",
-      "practical": "« Cher Edouard », comédie de la Cie d’ici ou d’Ailleurs, dimanche 13 décembre 2026, de 17 h à 18 h 30. Contact : electron.nyons@gmail.com.",
-      "reader_question": "Connaissez-vous déjà la Cie d’ici ou d’Ailleurs ?",
+      "seo_title": "Cher Edouard, une comédie à Nyons en décembre 2026",
+      "meta_description": "À Nyons, la Cie d’ici ou d’Ailleurs présente la comédie Cher Edouard, dimanche 13 décembre 2026, de 17 h à 18 h 30, pour une sortie culturelle.",
+      "intro": "À Nyons, « Cher Edouard » est une comédie proposée par la Cie « d’ici ou d’Ailleurs ». Elle est programmée le dimanche 13 décembre 2026, de 17 h à 18 h 30. Ce rendez-vous s’inscrit dans l’agenda culturel de la ville, entre culture et patrimoine vivant.",
+      "story": "Le titre « Cher Edouard » désigne ici une représentation de comédie portée par la Cie « d’ici ou d’Ailleurs ». La séance du 13 décembre est prévue sur une durée d’une heure et demie, de 17 h à 18 h 30. L’événement figure dans les catégories « Patrimoine / Culture vivante » et « Culture », qui accompagnent cette proposition théâtrale à Nyons.",
+      "why_it_matters": "Cette date offre un temps consacré à la comédie et à la culture vivante à Nyons. La présence de la Cie « d’ici ou d’Ailleurs » donne un repère clair pour choisir cette sortie du dimanche en fin d’après-midi.",
+      "practical": "Dimanche 13 décembre 2026, de 17 h à 18 h 30. Contact : electron.nyons@gmail.com. Site : https://www.lelectron.fr",
+      "reader_question": "Irez-vous voir la comédie « Cher Edouard » le 13 décembre à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -3128,9 +3128,9 @@
       "address": "",
       "phone": "",
       "email": "electron.nyons@gmail.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-27T08:16:45.115797+00:00",
+    "generated_at": "2026-09-27T13:36:37.103010+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/": {
@@ -3172,11 +3172,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:45.115918+00:00",
+    "generated_at": "2026-09-27T13:36:37.103122+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/": {
-    "hash": "6894c48e92c94edb0223a345bb6c2cf25cb4f4bffd900087d88324ef6d8d4a15",
+    "hash": "1f43bee1db0d03ba9443ae9c596ee3cdeb009afa367e08522f6216b0fea0fcf4",
     "slug": "peter-pan-ou-lenfant-jamais-2026-12-18",
     "event": {
       "title": "Peter Pan ou l’Enfant Jamais",
@@ -3190,13 +3190,13 @@
       "url": "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/"
     },
     "editorial": {
-      "seo_title": "Peter Pan par le TRAC à Nyons en décembre 2026",
-      "meta_description": "À Nyons, le TRAC de Beaumes-de-Venise présente « Peter Pan ou l’Enfant Jamais », d’après James Matthew Barrie, le 18 décembre 2026.",
-      "intro": "« Peter Pan ou l’Enfant Jamais » arrive à Nyons le vendredi 18 décembre 2026. Proposée dans le cadre de « Nyons en Fête », cette présentation s’appuie sur « Peter pan » de James Matthew Barrie et est portée par le TRAC de Beaumes-de-Venise. Un rendez-vous culturel prévu en soirée, de 20h à 22h.",
-      "story": "Le personnage de Peter Pan, l’enfant qui ne grandit jamais, est au cœur de cette proposition intitulée « Peter Pan ou l’Enfant Jamais ». Le TRAC de Beaumes-de-Venise en propose une version d’après l’œuvre de James Matthew Barrie. La date s’inscrit dans le cadre de « Nyons en Fête », avec un créneau de deux heures le vendredi soir. Voilà une sortie consacrée à un grand nom de la littérature jeunesse, présentée par une compagnie venue de Beaumes-de-Venise.",
-      "why_it_matters": "Cette date ajoute un rendez-vous de culture vivante à « Nyons en Fête ». Elle permet de retrouver l’univers de Peter Pan à travers le travail du TRAC de Beaumes-de-Venise, dans une proposition directement inspirée de James Matthew Barrie.",
-      "practical": "Vendredi 18 décembre 2026, de 20h à 22h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Connaissez-vous déjà l’histoire de Peter Pan de James Matthew Barrie ?",
+      "seo_title": "Peter Pan ou l’Enfant Jamais, une soirée culture à Nyons",
+      "meta_description": "À Nyons, découvrez Peter Pan ou l’Enfant Jamais, une adaptation d’après James Matthew Barrie proposée par le TRAC le 18 décembre 2026.",
+      "intro": "« Peter Pan ou l’Enfant Jamais » s’invite à Nyons le vendredi 18 décembre 2026. Proposée par le TRAC de Beaumes-de-Venise, cette adaptation d’après « Peter Pan » de James Matthew Barrie prend place dans le cadre de « Nyons en Fête ». Une soirée culturelle consacrée à l’univers de l’enfant qui ne grandit jamais.",
+      "story": "Le TRAC de Beaumes-de-Venise présente « Peter Pan ou l’Enfant Jamais », d’après l’œuvre de James Matthew Barrie. Le rendez-vous s’inscrit dans « Nyons en Fête » et met à l’honneur un grand nom de la littérature, Peter Pan. Le titre annonce une approche centrée sur cet enfant éternel, figure emblématique imaginée par l’auteur écossais. La représentation est programmée le temps d’une soirée, à Nyons.",
+      "why_it_matters": "Cette proposition rejoint les rendez-vous de culture vivante de Nyons en Fête. C’est l’occasion de retrouver l’univers de Peter Pan à travers le travail du TRAC de Beaumes-de-Venise, lors d’une soirée dédiée à cette adaptation de l’œuvre de James Matthew Barrie.",
+      "practical": "Vendredi 18 décembre 2026, de 20h à 22h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Informations : https://www.le-trac.org/event-details/peter-pan-ou-lenfant-jamais-11",
+      "reader_question": "Envie de retrouver l’univers de Peter Pan à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -3205,13 +3205,13 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.le-trac.org/event-details/peter-pan-ou-lenfant-jamais-11"
     },
-    "generated_at": "2026-09-27T08:16:45.346863+00:00",
+    "generated_at": "2026-09-27T13:36:46.949342+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/": {
-    "hash": "2b39d17a234028d402d0ce7ba1780e6221b7ee92fa0d823edbae4864f23232bc",
+    "hash": "165801f5c143ac335a814721111b4694603ec945a7ad1fc7ccb28c18145aa370",
     "slug": "on-a-perdu-les-cles-du-traineau-2026-12-29",
     "event": {
       "title": "On a perdu les clés du traîneau",
@@ -3227,11 +3227,11 @@
     "editorial": {
       "seo_title": "Théâtre à Nyons : On a perdu les clés du traîneau",
       "meta_description": "À Nyons, la cie RêVOLT présente « On a perdu les clés du traîneau », une comédie théâtrale magique et drôle, le 29 décembre 2026.",
-      "intro": "« On a perdu les clés du traîneau » est une comédie théâtrale magique et drôle proposée par la cie RêVOLT. Ce spectacle s’inscrit dans le cadre de « Nyons en Fête » et donne rendez-vous au public le mardi 29 décembre 2026, pour une heure de théâtre en plein après-midi.",
-      "story": "Avec son titre qui évoque un traîneau aux clés égarées, « On a perdu les clés du traîneau » prend la forme d’une comédie portée par la cie RêVOLT. La proposition mêle théâtre, magie et humour, dans le programme de « Nyons en Fête ». Une sortie culturelle à noter pendant les fêtes, le temps d’un spectacle programmé de 15h à 16h.",
-      "why_it_matters": "Cette représentation apporte une touche de théâtre, de magie et de rire à « Nyons en Fête ». Son format d’une heure en après-midi en fait un rendez-vous culturel bien identifié dans la journée du 29 décembre.",
-      "practical": "Mardi 29 décembre 2026, de 15h à 16h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Envie de retrouver la cie RêVOLT pour cette comédie théâtrale magique ?",
+      "intro": "« On a perdu les clés du traîneau » arrive à Nyons avec la cie RêVOLT. Cette comédie théâtrale, annoncée comme magique et drôle, s’inscrit dans le programme de « Nyons en Fête ». Un rendez-vous culturel proposé le mardi 29 décembre 2026, pour une heure de théâtre autour d’un titre qui donne déjà le ton.",
+      "story": "La cie RêVOLT présente « On a perdu les clés du traîneau », une comédie théâtrale où le magique rencontre le drôle. Le spectacle prend place dans le cadre de « Nyons en Fête », avec une représentation programmée en après-midi. Son titre, aussi intrigant que souriant, ouvre la porte à un moment de théâtre porté par une compagnie identifiée : RêVOLT. À Nyons, cette proposition vient ainsi rejoindre les rendez-vous culturels de la fin décembre.",
+      "why_it_matters": "Parce qu’il s’agit d’une véritable sortie théâtre au cœur de « Nyons en Fête ». La proposition de la cie RêVOLT associe comédie, magie et humour dans un format d’une heure, idéal pour glisser un rendez-vous culturel dans l’après-midi du 29 décembre.",
+      "practical": "Mardi 29 décembre 2026, de 15h à 16h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site de la compagnie : theatrerevolt.com/jeune-public.php.",
+      "reader_question": "Envie de suivre la cie RêVOLT pour cette comédie théâtrale à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -3240,13 +3240,13 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.theatrerevolt.com/jeune-public.php"
     },
-    "generated_at": "2026-09-27T08:16:45.902740+00:00",
+    "generated_at": "2026-09-27T13:36:55.803545+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/": {
-    "hash": "e7d32ead468e62f9049aad1c1ddc29395b87089906a0a638ad5e51a6e5b60e3d",
+    "hash": "4a650fc9a8f3469bc6d80a5c65d72d225a6797dde838aaec04035a2a4c706c1f",
     "slug": "concert-de-rebecca-chaillot-2027-01-01",
     "event": {
       "title": "Concert de Rebecca Chaillot",
@@ -3261,12 +3261,12 @@
     },
     "editorial": {
       "seo_title": "Rebecca Chaillot en concert du Nouvel An à Nyons",
-      "meta_description": "À Nyons, Rebecca Chaillot propose un concerto pour piano et quatuor à cordes dans le cadre de Nyons en Fête, le 1er janvier 2027.",
-      "intro": "Pour le Nouvel An, le concert de Rebecca Chaillot s’inscrit dans « Nyons en Fête ». Cette proposition culturelle réunit un piano et un quatuor à cordes autour d’un concerto, le vendredi 1er janvier 2027. Un rendez-vous musical programmé en fin d’après-midi, de 17 h à 18 h 10.",
-      "story": "Le concert de Rebecca Chaillot propose un concerto pour piano et quatuor à cordes. Il prend place à l’occasion du Nouvel An, dans le cadre de « Nyons en Fête ». Pendant 1 h 10, le piano dialogue avec la formation de quatre instruments à cordes, selon la formule annoncée. Cette date du 1er janvier installe la musique classique au cœur des rendez-vous culturels de début d’année à Nyons.",
-      "why_it_matters": "C’est une occasion de commencer l’année avec une proposition musicale construite autour d’un concerto et de la rencontre entre piano et quatuor à cordes. Le concert s’inscrit pleinement dans le temps fort de « Nyons en Fête ».",
-      "practical": "Vendredi 1er janvier 2027, de 17 h à 18 h 10. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Avez-vous envie d’ouvrir l’année en musique avec ce concerto pour piano et quatuor à cordes ?",
+      "meta_description": "À Nyons, Rebecca Chaillot propose un concerto pour piano et quatuor à cordes le 1er janvier 2027, dans le cadre de Nyons en Fête.",
+      "intro": "Le concert de Rebecca Chaillot ouvre l’année à Nyons avec un concerto pour piano et quatuor à cordes. Proposé à l’occasion du Nouvel An, ce rendez-vous s’inscrit dans la programmation de « Nyons en Fête » et place la musique au cœur de ce premier après-midi de janvier.",
+      "story": "Rebecca Chaillot propose une rencontre entre le piano et le quatuor à cordes, autour d’un concerto présenté pour le Nouvel An. Ce concert fait partie de « Nyons en Fête », avec un format d’un peu plus d’une heure. Une occasion de commencer le 1er janvier par un moment consacré à la musique, dans le cadre culturel vivant de la ville.",
+      "why_it_matters": "Ce concert réunit piano et quatuor à cordes pour une proposition musicale dédiée au premier jour de l’année. Intégré à « Nyons en Fête », il offre un rendez-vous culturel précis pour marquer le passage au Nouvel An à Nyons.",
+      "practical": "Vendredi 1er janvier 2027, de 17h à 18h10. Renseignements : 04 75 26 50 10, l.flouret@nyons.com. Site de Rebecca Chaillot : rebeccachaillot.fr.",
+      "reader_question": "Envie de commencer l’année 2027 en musique avec ce concerto à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -3275,9 +3275,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.rebeccachaillot.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.310464+00:00",
+    "generated_at": "2026-09-27T13:37:03.064790+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/": {
@@ -3313,11 +3313,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.310583+00:00",
+    "generated_at": "2026-09-27T13:37:03.064901+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/": {
-    "hash": "b3848b3b81ead9c4c07fa948c024f2355d779a300173635c98798740df9c5481",
+    "hash": "9f986596d93dafd3e72c89695ded417d609cbefca9710961f342eb6208eb1a5f",
     "slug": "au-nom-du-pere-du-fils-et-de-jackie-chan-2027-01-08",
     "event": {
       "title": "Au Nom du Père, du Fils et de Jackie Chan",
@@ -3331,13 +3331,13 @@
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/"
     },
     "editorial": {
-      "seo_title": "À Nyons, une renaissance racontée par Matthias Fortune",
-      "meta_description": "À Nyons, Matthias Fortune, de la Cie Le Homard Bleu, raconte une histoire vraie de renaissance entre enfance, kung-fu, santé mentale et pop cantonaise.",
-      "intro": "« Au Nom du Père, du Fils et de Jackie Chan » est un rendez-vous culturel porté par Matthias Fortune, de la Cie Le Homard Bleu. Cette histoire vraie de renaissance traverse l’enfance, le kung-fu, la santé mentale et la pop cantonaise. Une proposition singulière à découvrir à Nyons, le vendredi 8 janvier 2027 en soirée.",
-      "story": "Au cœur de « Au Nom du Père, du Fils et de Jackie Chan », il y a le récit d’une renaissance. Matthias Fortune y fait se croiser des thèmes intimes et populaires : l’enfance, les arts martiaux, la santé mentale et la pop cantonaise. Le titre annonce d’emblée une place particulière accordée à Jackie Chan, tandis que le récit s’ancre dans une histoire vraie. La Cie Le Homard Bleu signe cette proposition culturelle.",
-      "why_it_matters": "Cette sortie met en regard des sujets personnels, comme l’enfance et la santé mentale, avec des références fortes de la culture populaire. Le kung-fu et la pop cantonaise donnent à ce récit de renaissance une couleur bien à lui.",
-      "practical": "Vendredi 8 janvier 2027, de 20h à 21h20. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Quel écho vous inspire ce récit mêlant enfance, kung-fu et pop cantonaise ?",
+      "seo_title": "Renaissance et pop cantonaise avec Jackie Chan à Nyons",
+      "meta_description": "À Nyons, découvrez Au Nom du Père, du Fils et de Jackie Chan, l’histoire vraie d’une renaissance entre enfance, kung-fu et pop cantonaise.",
+      "intro": "Au Nom du Père, du Fils et de Jackie Chan raconte une histoire vraie de renaissance. Portée par Matthias Fortune, de la Cie Le Homard Bleu, cette proposition culturelle traverse l’enfance, le kung-fu, la santé mentale et la pop cantonaise. Un rendez-vous singulier à Nyons, où le nom de Jackie Chan ouvre la voie à un récit personnel.",
+      "story": "Le fil de cette histoire passe par plusieurs repères : l’enfance, la pratique du kung-fu, la santé mentale et la pop cantonaise. Ces éléments composent le récit d’une renaissance, signé Matthias Fortune avec la Cie Le Homard Bleu. Le titre, volontairement ample et décalé, réunit le père, le fils et Jackie Chan autour d’une même histoire vraie. La pop cantonaise y prend place aux côtés du kung-fu et des souvenirs d’enfance.",
+      "why_it_matters": "Cette sortie propose de découvrir un récit de renaissance à travers des thèmes concrets et personnels. L’enfance, la santé mentale, le kung-fu et la pop cantonaise s’y croisent dans une création portée par Matthias Fortune.",
+      "practical": "Vendredi 8 janvier 2027, de 20h à 21h20. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : compagnielehomardbleu.com/jackiechan.",
+      "reader_question": "Quel écho vous inspire ce lien entre kung-fu, enfance et pop cantonaise ?",
       "_fallback": false
     },
     "practical": {
@@ -3346,9 +3346,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.compagnielehomardbleu.com/jackiechan"
     },
-    "generated_at": "2026-09-27T08:16:46.538469+00:00",
+    "generated_at": "2026-09-27T13:37:15.876541+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/": {
@@ -3384,7 +3384,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.538581+00:00",
+    "generated_at": "2026-09-27T13:37:15.876665+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/": {
@@ -3420,7 +3420,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.538741+00:00",
+    "generated_at": "2026-09-27T13:37:15.876741+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/": {
@@ -3456,11 +3456,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.538833+00:00",
+    "generated_at": "2026-09-27T13:37:15.876809+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/": {
-    "hash": "c08b88af91294a3abab37137107acd51b6975299094d5bec39ccf1f39d711cca",
+    "hash": "854abd354b059ab332e70bccbdfdabd19074b4c14d9a957cc47c06c46908cf77",
     "slug": "les-rencontres-barjavel-2027-2027-01-22",
     "event": {
       "title": "Les Rencontres Barjavel 2027",
@@ -3474,13 +3474,13 @@
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/"
     },
     "editorial": {
-      "seo_title": "Les Rencontres Barjavel 2027 célèbrent Nyons",
-      "meta_description": "Les Rencontres Barjavel 2027 à Nyons célèbrent René Barjavel, né dans la cité en 1911, journaliste puis écrivain à succès.",
-      "intro": "Les Rencontres Barjavel 2027 invitent Nyons à célébrer René Barjavel les 22 et 23 janvier. Né dans la cité en 1911, fils de boulanger, il est devenu journaliste avant de connaître le succès comme écrivain. Ces rencontres mettent ainsi à l’honneur une figure profondément liée à Nyons et à son histoire culturelle.",
-      "story": "René Barjavel est au cœur de ces Rencontres organisées à Nyons. Son parcours commence dans la cité, où il naît en 1911 dans une famille de boulanger. Il devient ensuite journaliste, puis écrivain à succès. À travers son nom et son itinéraire, l’événement rappelle l’attachement de Nyons à l’un de ses enfants, dont le chemin littéraire est parti d’ici. Inscrites dans les rendez-vous de patrimoine et de culture vivante, ces deux journées portent un regard local sur cet écrivain né à Nyons.",
-      "why_it_matters": "C’est une occasion de retrouver René Barjavel par son ancrage nyonsais : un fils de boulanger né dans la ville, devenu journaliste puis écrivain. Les Rencontres Barjavel donnent une place à cette histoire locale et culturelle au cœur de janvier.",
-      "practical": "Du vendredi 22 janvier 2027 à 9h au samedi 23 janvier à 19h. Renseignements : 04 75 26 50 36 ou l.flouret@nyons.com.",
-      "reader_question": "Connaissiez-vous les origines nyonsaises de René Barjavel ?",
+      "seo_title": "Les Rencontres Barjavel célèbrent l’écrivain à Nyons",
+      "meta_description": "À Nyons, les Rencontres Barjavel 2027 célèbrent René Barjavel, né dans la cité en 1911, journaliste puis écrivain à succès, les 22 et 23 janvier.",
+      "intro": "Les Rencontres Barjavel 2027 invitent Nyons à célébrer René Barjavel. Né dans la cité en 1911, ce fils de boulanger est devenu journaliste, puis écrivain à succès. Inscrite dans les rendez-vous de patrimoine et de culture vivante, cette rencontre se tient les vendredi 22 et samedi 23 janvier 2027.",
+      "story": "René Barjavel est au cœur de ces rencontres à Nyons. Son parcours relie la cité où il est né en 1911, le métier de journaliste et une œuvre d’écrivain à succès. Fils de boulanger, il appartient à l’histoire locale tout en portant un nom reconnu dans la littérature. Pendant deux jours, les Rencontres Barjavel 2027 mettent cette figure nyonsaise à l’honneur, dans le cadre d’un rendez-vous consacré à la culture et au patrimoine vivant.",
+      "why_it_matters": "C’est une occasion de revenir à un lien fort entre Nyons et René Barjavel : celui de sa naissance dans la cité, en 1911. En réunissant patrimoine, culture vivante et littérature autour de son nom, les Rencontres replacent son itinéraire de journaliste et d’écrivain dans son ancrage nyonsais.",
+      "practical": "Les Rencontres Barjavel ont lieu du vendredi 22 janvier à 9 h au samedi 23 janvier 2027 à 19 h. Contact : 04 75 26 50 36 ou l.flouret@nyons.com.",
+      "reader_question": "Connaissiez-vous les liens de René Barjavel avec Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -3489,9 +3489,9 @@
       "address": "",
       "phone": "0475265036",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:46.767295+00:00",
+    "generated_at": "2026-09-27T13:37:32.567002+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/": {
@@ -3533,7 +3533,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.767401+00:00",
+    "generated_at": "2026-09-27T13:37:32.567120+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/": {
@@ -3569,11 +3569,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:46.767482+00:00",
+    "generated_at": "2026-09-27T13:37:32.567223+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-grands-chemins/": {
-    "hash": "428fcc28a76a442326a3c0355ddb757dc4554da135d5b7e19593fed9707249e0",
+    "hash": "e190f5075d9fa6e27f99f6977c9c5b70f15a4d0473efd4cab1755ad1bf05a44d",
     "slug": "les-grands-chemins-2027-02-06",
     "event": {
       "title": "Les Grands Chemins",
@@ -3587,13 +3587,13 @@
       "url": "https://www.nyons.com/agenda/les-grands-chemins/"
     },
     "editorial": {
-      "seo_title": "Les Grands Chemins, conte musical à Nyons avec Yohann Villanua",
-      "meta_description": "À Nyons, Les Grands Chemins propose un conte musical et théâtralisé, librement inspiré du livre de Jean Giono, avec Yohann Villanua.",
-      "intro": "Les Grands Chemins arrive à Nyons sous la forme d’un conte musical et théâtralisé. Libremente inspiré du livre « Les grands chemins » de Jean Giono, ce rendez-vous réunit la musique, le théâtre et l’univers de l’écrivain. Yohann Villanua est associé à cette proposition programmée dans le cadre de l’Alicoque.",
-      "story": "Le point de départ de la soirée est le livre « Les grands chemins » de Jean Giono, dont le conte proposé s’inspire librement. La forme annoncée est à la fois musicale et théâtralisée, pour une approche portée par le récit autant que par la scène. Avec Yohann Villanua, Les Grands Chemins s’inscrit dans la programmation de l’Alicoque et prend place à Nyons le temps d’une heure.",
-      "why_it_matters": "Cette sortie propose de retrouver Jean Giono dans une forme vivante, entre conte, musique et théâtre. C’est un rendez-vous culturel resserré, d’une heure, qui met en avant une inspiration littéraire à travers une proposition scénique.",
-      "practical": "Samedi 6 février 2027, de 19h à 20h. Dans le cadre de l’Alicoque. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Connaissez-vous le livre « Les grands chemins » de Jean Giono ?",
+      "seo_title": "Les Grands Chemins, conte musical à Nyons",
+      "meta_description": "À Nyons, Les Grands Chemins propose un conte musical et théâtralisé inspiré de Jean Giono, avec Yohann Villanua, dans le cadre de l’Alicoque.",
+      "intro": "Les Grands Chemins arrive à Nyons sous la forme d’un conte musical et théâtralisé. Librement inspiré du livre du même nom de Jean Giono, ce rendez-vous réunit musique et théâtre avec Yohann Villanua. Il s’inscrit dans le cadre de l’Alicoque, pour une heure consacrée à cette adaptation scénique.",
+      "story": "Le point de départ est l’œuvre « Les grands chemins » de Jean Giono, revisitée ici avec liberté dans un format de conte. La proposition est à la fois musicale et théâtralisée, portée par Yohann Villanua. Le spectacle se déroule sur une heure, de 19h à 20h, et prend place dans la programmation de l’Alicoque. Une façon de retrouver l’univers d’un livre à travers une forme vivante, où le récit rencontre la scène et la musique.",
+      "why_it_matters": "Cette soirée met à l’honneur un texte de Jean Giono dans une adaptation qui ne se limite pas à la lecture. Le format de conte musical et théâtralisé donne une place conjointe aux mots, à la musique et au jeu, dans le cadre de l’Alicoque.",
+      "practical": "Samedi 6 février 2027, de 19h à 20h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
+      "reader_question": "Avez-vous envie de découvrir Jean Giono à travers un conte musical et théâtralisé ?",
       "_fallback": false
     },
     "practical": {
@@ -3602,9 +3602,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": ""
     },
-    "generated_at": "2026-09-27T08:16:47.180136+00:00",
+    "generated_at": "2026-09-27T13:37:39.387268+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/": {
@@ -3640,11 +3640,11 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:47.180245+00:00",
+    "generated_at": "2026-09-27T13:37:39.387370+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/": {
-    "hash": "41af852d6692e6b61b344a85957c1128e66231903adbdb1701037fd877b2ce0e",
+    "hash": "96222163e2fc3f3e130151571722f6473d34cc90d95e3f8e03bcf2c5e94ca475",
     "slug": "blue-maqam-de-renaud-garcia-fons-2027-02-19",
     "event": {
       "title": "Blue Maqam de Renaud Garcia-Fons",
@@ -3658,13 +3658,13 @@
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/"
     },
     "editorial": {
-      "seo_title": "Blue Maqam, jazz et musiques orientales à Nyons",
-      "meta_description": "À Nyons, Blue Maqam de Renaud Garcia-Fons propose un trait d’union entre jazz et musiques orientales, le 19 février 2027.",
-      "intro": "Blue Maqam de Renaud Garcia-Fons s’invite à Nyons le vendredi 19 février 2027. Ce rendez-vous culturel se place à la rencontre de երկու univers musicaux : le jazz et les musiques orientales. Une proposition annoncée comme un trait d’union, pour une soirée consacrée aux sonorités et aux dialogues entre ces deux horizons.",
-      "story": "Le titre Blue Maqam réunit le nom de Renaud Garcia-Fons et l’idée d’un passage entre les styles. Ici, le fil conducteur est clairement celui d’un rapprochement entre jazz et musiques orientales. L’événement est inscrit dans les catégories « Patrimoine / Culture vivante » et « Culture », soulignant cette place accordée aux expressions musicales vivantes. Il se déroulera en une seule soirée, le vendredi 19 février, de 20h à 21h15.",
-      "why_it_matters": "Pour les habitants de Nyons et des environs, Blue Maqam offre un temps culturel centré sur le dialogue entre deux traditions musicales. Le rendez-vous met en avant une approche ouverte, où jazz et musiques orientales se rejoignent dans une même proposition.",
-      "practical": "Vendredi 19 février 2027, de 20h à 21h15. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Avez-vous envie de découvrir ce dialogue entre jazz et musiques orientales à Nyons ?",
+      "seo_title": "À Nyons, Blue Maqam de Renaud Garcia-Fons",
+      "meta_description": "À Nyons, Blue Maqam de Renaud Garcia-Fons trace un trait d’union entre jazz et musiques orientales, vendredi 19 février 2027 de 20h à 21h15.",
+      "intro": "Blue Maqam de Renaud Garcia-Fons s’invite à Nyons le vendredi 19 février 2027. Ce rendez-vous culturel propose un trait d’union entre le jazz et les musiques orientales, à travers l’univers de Blue Maqam. Une rencontre musicale annoncée de 20h à 21h15.",
+      "story": "Avec Blue Maqam, Renaud Garcia-Fons place le dialogue entre jazz et musiques orientales au cœur de la soirée. Le titre même du projet donne sa couleur à ce rendez-vous : une musique pensée comme un passage entre deux univers, sans les opposer. À Nyons, la proposition tient en une heure et quart, le temps de suivre cette ligne artistique singulière portée par Blue Maqam.",
+      "why_it_matters": "Cette date offre à Nyons une sortie culturelle centrée sur un croisement musical précis : le jazz et les musiques orientales. Blue Maqam met en avant cette rencontre d’influences, pour un moment dédié à l’écoute et à la découverte d’un univers musical identifié.",
+      "practical": "Vendredi 19 février 2027, de 20h à 21h15. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : renaudgarciafons.com.",
+      "reader_question": "Avez-vous envie de découvrir Blue Maqam et son dialogue entre jazz et musiques orientales ?",
       "_fallback": false
     },
     "practical": {
@@ -3673,13 +3673,13 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.renaudgarciafons.com/discographie/blue-maqam"
     },
-    "generated_at": "2026-09-27T08:16:47.579286+00:00",
+    "generated_at": "2026-09-27T13:37:50.205303+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/": {
-    "hash": "d7cb41c7700a9d67cd8ac416daa414a88d064eaef5fdbe9981d912b18c70e518",
+    "hash": "d62ba91f3d7d09d04ad736b75a8f43ad8da14a6a77adfbc6e3babc08bf2a202e",
     "slug": "quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10",
     "event": {
       "title": "Quand je serai grande, je serai Patrick Swayze",
@@ -3693,13 +3693,13 @@
       "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/"
     },
     "editorial": {
-      "seo_title": "À Nyons, Quand je serai grande, je serai Patrick Swayze",
-      "meta_description": "À Nyons, « Quand je serai grande, je serai Patrick Swayze » propose un rendez-vous culturel qui bouscule l’idée des histoires d’amour de conte de fées.",
-      "intro": "« Quand je serai grande, je serai Patrick Swayze » est un rendez-vous culturel proposé à Nyons le mercredi 10 mars 2027. Son point de départ tient en une phrase qui donne le ton : si les histoires d’amour ressemblaient vraiment aux contes de fées, cela se saurait. Un intitulé marquant, pour une soirée placée sous le signe de l’amour loin des images toutes faites.",
-      "story": "Derrière ce titre, « Quand je serai grande, je serai Patrick Swayze », l’événement invite à regarder les histoires d’amour sans les habiller des recettes habituelles du conte de fées. La phrase annoncée pose d’emblée un regard franc : les récits amoureux ne suivent pas toujours les chemins rêvés, ni les fins parfaitement dessinées. Inscrit dans les catégories Patrimoine / Culture vivante et Culture, ce rendez-vous se tiendra en soirée, le temps d’une proposition annoncée de 20h à 21h10.",
-      "why_it_matters": "C’est une sortie culturelle à Nyons pour celles et ceux que le titre intrigue autant que la promesse : parler d’amour sans reprendre les contours trop lisses des contes de fées. Le rendez-vous offre un moment concentré, en une heure dix, autour de cette idée simple et bien envoyée.",
-      "practical": "Mercredi 10 mars 2027, de 20h à 21h10. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Les histoires d’amour vous semblent-elles parfois bien loin des contes de fées ?",
+      "seo_title": "Patrick Swayze : une soirée culture à Nyons",
+      "meta_description": "À Nyons, « Quand je serai grande, je serai Patrick Swayze » pose un regard décalé sur les histoires d’amour et les contes de fées.",
+      "intro": "« Quand je serai grande, je serai Patrick Swayze » est au programme à Nyons le mercredi 10 mars 2027. Ce rendez-vous culturel s’appuie sur une idée aussi simple que parlante : si les histoires d’amour ressemblaient vraiment aux contes de fées, cela se saurait. Un titre singulier pour une soirée qui invite à regarder l’amour autrement.",
+      "story": "Derrière « Quand je serai grande, je serai Patrick Swayze », il est question d’histoires d’amour, mais sans les ranger du côté des récits trop parfaits. La promesse annoncée prend le contre-pied des contes de fées et de leurs fins idéales. Le titre, volontairement inattendu, donne à cette proposition culturelle une tonalité décalée, tandis que son résumé rappelle une évidence : dans la vraie vie, les histoires d’amour ne suivent pas toujours les chemins tracés par les contes.",
+      "why_it_matters": "Cette sortie offre à Nyons une soirée culturelle autour d’un sujet universel : l’amour et l’écart entre les rêves racontés et la réalité. Le titre comme le propos annoncé donnent une couleur originale à ce rendez-vous du mois de mars.",
+      "practical": "Mercredi 10 mars 2027, de 20h à 21h10. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Informations complémentaires sur le site de la Comédie de Valence.",
+      "reader_question": "Les histoires d’amour vous font-elles davantage penser aux contes de fées ou à la vraie vie ?",
       "_fallback": false
     },
     "practical": {
@@ -3708,9 +3708,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.comediedevalence.com/saison_26-27/quand-je-serai-grande-je-serai-patrick-swayze"
     },
-    "generated_at": "2026-09-27T08:16:47.806433+00:00",
+    "generated_at": "2026-09-27T13:38:00.143997+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/": {
@@ -3746,7 +3746,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:47.806538+00:00",
+    "generated_at": "2026-09-27T13:38:00.144098+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/": {
@@ -3782,7 +3782,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:47.806681+00:00",
+    "generated_at": "2026-09-27T13:38:00.144176+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/": {
@@ -3818,11 +3818,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:47.806766+00:00",
+    "generated_at": "2026-09-27T13:38:00.144242+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/au-nom-de-lamour/": {
-    "hash": "932fbc6dc5eac517420c2e66f0c8c137e00d75cb6664dc2409bdbcbb257ad47f",
+    "hash": "6248ed0c9516f4daf45f7a69fa97f76efdd386d193a4a071fe92d4e2f24ea5da",
     "slug": "au-nom-de-lamour-2027-03-19",
     "event": {
       "title": "Au nom de l’amour",
@@ -3837,12 +3837,12 @@
     },
     "editorial": {
       "seo_title": "« Au nom de l’amour », rituel théâtral à Nyons",
-      "meta_description": "À Nyons, « Au nom de l’amour » propose un rituel théâtral insolent, drôle et troublant pour regarder l’amour en face.",
-      "intro": "« Au nom de l’amour » est un rendez-vous théâtral proposé à Nyons le vendredi 19 mars 2027. Créé par Charlotte Adrien en collaboration avec le CCDV, ce spectacle prend la forme d’un rituel théâtral, à la fois insolent, drôle et troublant, pour regarder l’amour en face.",
-      "story": "Le spectacle « Au nom de l’amour » invite à aborder l’amour sans détour, par le théâtre et dans une forme annoncée comme un rituel. Charlotte Adrien signe cette proposition réalisée en collaboration avec le CCDV. Entre insolence, humour et trouble, la représentation place ce grand sujet au centre de la scène et propose de le regarder en face. Le rendez-vous se tient en soirée, pour une durée d’une heure trente.",
-      "why_it_matters": "L’amour est un sujet qui traverse les vies et nourrit bien des questions. Cette proposition théâtrale choisit de s’y confronter avec une tonalité drôle autant que troublante, dans une forme de rituel portée par Charlotte Adrien et le CCDV.",
-      "practical": "Vendredi 19 mars 2027, de 20h à 21h30. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Envie de regarder l’amour en face à travers un rituel théâtral ?",
+      "meta_description": "À Nyons, « Au nom de l’amour » propose un rituel théâtral insolent, drôle et troublant de Charlotte Adrien, le 19 mars 2027.",
+      "intro": "« Au nom de l’amour » est un rituel théâtral de Charlotte Adrien, créé en collaboration avec le CCDV. Proposé à Nyons le vendredi 19 mars 2027, ce rendez-vous invite à regarder l’amour en face, dans une forme annoncée comme insolente, drôle et troublante.",
+      "story": "Ici, l’amour est placé au centre de la scène. Charlotte Adrien en fait la matière d’un rituel théâtral qui assume une tonalité à la fois insolente, drôle et troublante. La collaboration avec le CCDV accompagne cette proposition culturelle présentée à Nyons. Le spectacle se déroule en une soirée, avec une durée prévue d’une heure trente, de 20h à 21h30.",
+      "why_it_matters": "Cette sortie offre une approche théâtrale de l’amour, sans l’aborder de façon lisse ou convenue. Le caractère de rituel annoncé donne à la proposition une couleur particulière, entre humour, trouble et regard frontal sur ce thème universel.",
+      "practical": "Vendredi 19 mars 2027, de 20h à 21h30. Contact : 04 75 26 50 10 ou l.flouret@nyons.com. Site : cddv-vaucluse.com.",
+      "reader_question": "Envie de regarder l’amour en face au théâtre ?",
       "_fallback": false
     },
     "practical": {
@@ -3851,9 +3851,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://cddv-vaucluse.com/"
     },
-    "generated_at": "2026-09-27T08:16:48.215114+00:00",
+    "generated_at": "2026-09-27T13:38:07.790244+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/": {
@@ -3895,7 +3895,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:48.215251+00:00",
+    "generated_at": "2026-09-27T13:38:07.790364+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/": {
@@ -3931,11 +3931,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:48.215339+00:00",
+    "generated_at": "2026-09-27T13:38:07.790433+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/et-maintenant-jattends/": {
-    "hash": "783d1f8ac1b922abb3201d53060c1fd17fd19a2b969239bef55667b1c40f8b96",
+    "hash": "0a0722793ee49ed0442ec5365c62a54410403ad90c7f7dcec7e2e87c8dfb4409",
     "slug": "et-maintenant-jattends-2027-04-02",
     "event": {
       "title": "Et maintenant j’attends",
@@ -3949,13 +3949,13 @@
       "url": "https://www.nyons.com/agenda/et-maintenant-jattends/"
     },
     "editorial": {
-      "seo_title": "« Et maintenant j’attends » : poésie vivante à Nyons",
-      "meta_description": "À Nyons, « Et maintenant j’attends » réunit poésie, accordéon, violoncelle et voix avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth.",
-      "intro": "« Et maintenant j’attends » propose une soirée de poésie vivante à Nyons, portée par le dialogue entre la voix, l’accordéon et le violoncelle. Sabine Venaruzzo, Daniel Mille et Eric Longsworth se retrouvent pour ce rendez-vous inscrit dans le cadre du Printemps des Poètes.",
-      "story": "Ici, la poésie ne reste pas seulement sur la page : elle prend place dans une rencontre artistique où les mots côtoient les sonorités de l’accordéon et du violoncelle. Sabine Venaruzzo est accompagnée de Daniel Mille et d’Eric Longsworth pour donner corps à « Et maintenant j’attends ». Le spectacle s’inscrit dans le Printemps des Poètes et met en avant une poésie vivante, portée par trois interprètes et leurs instruments.",
-      "why_it_matters": "Cette soirée offre une façon sensible d’aller à la rencontre de la poésie, à travers la voix et la musique. L’accordéon et le violoncelle accompagnent cette proposition culturelle où les textes et les sonorités se répondent.",
-      "practical": "Vendredi 2 avril 2027, de 20h30 à 21h30. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Avez-vous envie de découvrir la poésie portée par la voix, l’accordéon et le violoncelle ?",
+      "seo_title": "« Et maintenant j’attends », poésie vivante à Nyons",
+      "meta_description": "À Nyons, « Et maintenant j’attends » réunit Sabine Venaruzzo, Daniel Mille et Eric Longsworth pour une poésie en voix, accordéon et violoncelle.",
+      "intro": "« Et maintenant j’attends » propose une soirée de poésie vivante à Nyons, dans le cadre du Printemps des Poètes. La voix de Sabine Venaruzzo rencontre l’accordéon de Daniel Mille et le violoncelle d’Eric Longsworth, pour une forme où les mots et les instruments se répondent.",
+      "story": "Cette proposition rassemble trois artistes autour de la poésie : Sabine Venaruzzo à la voix, Daniel Mille à l’accordéon et Eric Longsworth au violoncelle. Intitulé « Et maintenant j’attends », le rendez-vous s’inscrit dans le Printemps des Poètes et fait entendre une poésie portée à la fois par la parole et la musique. L’accordéon et le violoncelle accompagnent ainsi cette présence vivante des textes.",
+      "why_it_matters": "C’est une occasion de découvrir la poésie dans une forme scénique et musicale, avec trois interprètes réunis autour de la voix, de l’accordéon et du violoncelle. Un rendez-vous culturel inscrit dans le Printemps des Poètes à Nyons.",
+      "practical": "Vendredi 2 avril 2027, de 20h30 à 21h30. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : sabinevenaruzzo.com.",
+      "reader_question": "Avez-vous envie de découvrir cette poésie vivante en voix, accordéon et violoncelle ?",
       "_fallback": false
     },
     "practical": {
@@ -3964,9 +3964,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.sabinevenaruzzo.com/copie-de-maintenant-j-attends"
     },
-    "generated_at": "2026-09-27T08:16:48.613390+00:00",
+    "generated_at": "2026-09-27T13:38:17.328037+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/": {
@@ -4002,7 +4002,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:48.613510+00:00",
+    "generated_at": "2026-09-27T13:38:17.328147+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/": {
@@ -4038,11 +4038,11 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:48.613594+00:00",
+    "generated_at": "2026-09-27T13:38:17.328213+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/landing/": {
-    "hash": "a7b52ba90cfbfcd280d5ee359b1f64919818ab733f312d23e5430f4720e4074a",
+    "hash": "53748ca6961bf0d6969e3c546a3ebad86da9c28c2362c5ee1d3a2effef19b7e7",
     "slug": "landing-2027-04-23",
     "event": {
       "title": "Landing",
@@ -4056,13 +4056,13 @@
       "url": "https://www.nyons.com/agenda/landing/"
     },
     "editorial": {
-      "seo_title": "Landing, un rendez-vous culturel à Nyons le 23 avril",
-      "meta_description": "Découvrez Landing à Nyons, vendredi 23 avril 2027 : un rendez-vous culturel porté par cette phrase, « Tomber n’est pas la fin du mouvement ».",
-      "intro": "Landing est un rendez-vous culturel proposé à Nyons le vendredi 23 avril 2027. Son intitulé s’accompagne d’une phrase qui en donne le fil : « Tomber n’est pas la fin du mouvement. » Une invitation à s’arrêter sur cette idée, le temps d’une soirée.",
-      "story": "Classé dans les rendez-vous de patrimoine, culture vivante et culture, Landing se déroule de 20h30 à 21h40. Le titre, bref et ouvert, est associé à une affirmation simple : tomber ne marque pas la fin du mouvement. C’est autour de cette phrase que se présente cette proposition inscrite à l’agenda nyonsais.",
-      "why_it_matters": "Landing offre une sortie culturelle en soirée à Nyons, centrée sur une idée forte : le mouvement continue, même après la chute. Un rendez-vous court, placé sous le signe d’une réflexion à la fois simple et évocatrice.",
-      "practical": "Vendredi 23 avril 2027, de 20h30 à 21h40. Contact : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Que vous inspire la phrase « Tomber n’est pas la fin du mouvement » ?",
+      "seo_title": "Landing à Nyons : un rendez-vous culturel en mouvement",
+      "meta_description": "À Nyons, Landing propose un rendez-vous culturel le vendredi 23 avril 2027, autour d’une phrase forte : « Tomber n’est pas la fin du mouvement. »",
+      "intro": "Landing est un rendez-vous culturel programmé à Nyons le vendredi 23 avril 2027. Son propos tient en une phrase, courte et saisissante : « Tomber n’est pas la fin du mouvement. » Une invitation à regarder le mouvement autrement, dans un temps dédié à la culture vivante.",
+      "story": "Le titre, Landing, évoque l’arrivée, l’atterrissage ou le contact avec le sol. La phrase associée donne la direction : tomber ne marque pas la fin du mouvement. Cette idée est au cœur de ce rendez-vous inscrit dans les catégories « Patrimoine / Culture vivante » et « Culture ». Pendant 1 h 10, de 20h30 à 21h40, Landing propose à Nyons un moment culturel construit autour de cette formule qui transforme la chute en continuité plutôt qu’en arrêt.",
+      "why_it_matters": "Landing offre une sortie culturelle du soir à Nyons, portée par une idée simple : un mouvement peut se poursuivre même après une chute. Le format d’1 h 10 permet de réserver un vrai temps pour ce rendez-vous, sans y consacrer toute la soirée.",
+      "practical": "Vendredi 23 avril 2027, de 20h30 à 21h40. Renseignements : 04 75 26 50 10, l.flouret@nyons.com. Site : cie-xpress.org/landingf.",
+      "reader_question": "Cette phrase, « Tomber n’est pas la fin du mouvement », vous parle-t-elle ?",
       "_fallback": false
     },
     "practical": {
@@ -4071,9 +4071,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.cie-xpress.org/landingf"
     },
-    "generated_at": "2026-09-27T08:16:49.010122+00:00",
+    "generated_at": "2026-09-27T13:38:25.195788+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/": {
@@ -4109,7 +4109,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:49.010234+00:00",
+    "generated_at": "2026-09-27T13:38:25.195900+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/": {
@@ -4145,11 +4145,11 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T08:16:49.010300+00:00",
+    "generated_at": "2026-09-27T13:38:25.195964+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/boite-a-cordees/": {
-    "hash": "a3dc070f884e2f64b9a1f9891f23c2d6e10de3da520a740fe304caaf4405896e",
+    "hash": "d973214784b71f784bb55a53e681e89aacbe357c90ef6c286120c0adaa5d910d",
     "slug": "boite-a-cordees-2027-05-14",
     "event": {
       "title": "Boite à cordées",
@@ -4163,13 +4163,13 @@
       "url": "https://www.nyons.com/agenda/boite-a-cordees/"
     },
     "editorial": {
-      "seo_title": "Boîte à cordées : laboratoire musical à Nyons",
-      "meta_description": "À Nyons, Boîte à cordées propose des vibrations musicales en laboratoire, en partenariat avec les Jeunesses Musicales de France.",
-      "intro": "Boîte à cordées s’installe à Nyons le vendredi 14 mai 2027 pour une proposition placée sous le signe des vibrations musicales en laboratoire. Inscrit dans les rendez-vous de culture vivante, cet événement est proposé en partenariat avec les Jeunesses Musicales de France.",
-      "story": "Le titre, Boîte à cordées, annonce une exploration musicale portée par l’idée de laboratoire : un espace consacré aux vibrations et à l’écoute. La rencontre prend place dans le cadre d’un partenariat avec les Jeunesses Musicales de France. À Nyons, cette proposition rejoint les rendez-vous culturels qui donnent une place vivante à la musique et à ses résonances.",
-      "why_it_matters": "C’est une occasion de découvrir une proposition musicale centrée sur les vibrations, dans un format identifié comme un laboratoire. Le partenariat avec les Jeunesses Musicales de France inscrit aussi ce rendez-vous dans une démarche culturelle tournée vers la musique.",
-      "practical": "Vendredi 14 mai 2027, de 10h30 à 15h20. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Envie de découvrir ces vibrations musicales en laboratoire à Nyons ?",
+      "seo_title": "Boite à cordées, vibrations musicales à Nyons",
+      "meta_description": "À Nyons, Boite à cordées propose des vibrations musicales en laboratoire, en partenariat avec les Jeunesses Musicales de France.",
+      "intro": "Boite à cordées s’installe à Nyons pour une proposition placée sous le signe des vibrations musicales en laboratoire. Présenté en partenariat avec les Jeunesses Musicales de France, ce rendez-vous culturel invite à découvrir un univers musical porté par son titre évocateur et par cette approche de laboratoire.",
+      "story": "Le vendredi 14 mai 2027, Boite à cordées donne rendez-vous autour de vibrations musicales en laboratoire. L’événement s’inscrit dans les catégories Patrimoine / Culture vivante et Culture, avec un partenariat des Jeunesses Musicales de France. Son nom, Boite à cordées, accompagne une proposition musicale conçue comme un terrain de vibrations et d’exploration.",
+      "why_it_matters": "C’est une sortie culturelle qui met la musique au premier plan, dans un format annoncé comme un laboratoire de vibrations. Le partenariat avec les Jeunesses Musicales de France inscrit aussi ce rendez-vous dans une démarche de diffusion musicale vivante à Nyons.",
+      "practical": "Vendredi 14 mai 2027, de 10h30 à 15h20. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : jmfrance.org/spectacles/boite-a-cordees.",
+      "reader_question": "Quelle vibration musicale vous intrigue le plus dans cette Boite à cordées ?",
       "_fallback": false
     },
     "practical": {
@@ -4178,19 +4178,19 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.jmfrance.org/spectacles/boite-a-cordees"
     },
-    "generated_at": "2026-09-27T08:16:49.480318+00:00",
+    "generated_at": "2026-09-27T13:38:32.453189+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/": {
-    "hash": "eac28f86ab5fad80a4703b7349a6be3e6d2ce52ed8a1a3679b342169598b0737",
+    "hash": "1ea2c09bc6c8c726395a467ee697a383e171f4e7ad7d906e1ec192dfc9c03784",
     "slug": "on-ne-badine-pas-avec-lamour-2027-05-20",
     "event": {
       "title": "On ne badine pas avec l’amour",
       "start_date": "2027-05-20",
       "end_date": "2027-05-20",
-      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 20.5°C / 20.5°C Contact",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 27°C / 27°C Contact Rec",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -4198,13 +4198,13 @@
       "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/"
     },
     "editorial": {
-      "seo_title": "« On ne badine pas avec l’amour » à Nyons",
-      "meta_description": "À Nyons, la compagnie Capharnaüm présente « On ne badine pas avec l’amour » d’Alfred de Musset, jeudi 20 mai 2027 à 20h30.",
-      "intro": "La compagnie Capharnaüm présente à Nyons « On ne badine pas avec l’amour », d’Alfred de Musset. Cette proposition culturelle donne rendez-vous au public le jeudi 20 mai 2027 en soirée, autour d’une œuvre où l’amour se joue sur un fil, du rire au drame.",
-      "story": "« On ne badine pas avec l’amour » porte bien son titre : les personnages jouent à s’aimer, et le mouvement glisse du rire au drame. La compagnie Capharnaüm s’empare de l’œuvre d’Alfred de Musset pour cette soirée inscrite dans l’agenda culturel nyonsais. Une occasion de retrouver ce texte sur scène et de suivre cette histoire d’amour dont la légèreté apparente prend une tournure plus grave.",
-      "why_it_matters": "Cette soirée met à l’honneur Alfred de Musset à Nyons, avec la compagnie Capharnaüm. Le passage du rire au drame annoncé donne une couleur particulière à cette représentation, centrée sur les jeux et les enjeux de l’amour.",
-      "practical": "Jeudi 20 mai 2027, de 20h30 à 22h00. Contact : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Envie de retrouver Alfred de Musset sur scène à Nyons ?",
+      "seo_title": "Théâtre à Nyons : On ne badine pas avec l’amour",
+      "meta_description": "À Nyons, la compagnie Capharnaüm joue On ne badine pas avec l’amour d’Alfred de Musset, jeudi 20 mai 2027 à 20h30.",
+      "intro": "La compagnie Capharnaüm présente à Nyons « On ne badine pas avec l’amour », la pièce d’Alfred de Musset. Cette proposition théâtrale suit un jeu amoureux qui glisse du rire au drame, dans toute la force du texte de Musset.",
+      "story": "« On ne badine pas avec l’amour » est porté par la compagnie Capharnaüm. D’Alfred de Musset, la pièce met en scène des personnages qui jouent à s’aimer, jusqu’à ce que ce jeu prenne une tournure dramatique. Le titre annonce la couleur : avec les sentiments, la légèreté peut avoir un prix. Une soirée de théâtre consacrée à cette œuvre du répertoire, entre rire et drame.",
+      "why_it_matters": "C’est l’occasion de retrouver à Nyons un grand texte d’Alfred de Musset dans une interprétation proposée par la compagnie Capharnaüm. Le passage du rire au drame donne à la pièce une tension particulière, au cœur même de son histoire d’amour et de jeu.",
+      "practical": "Jeudi 20 mai 2027, de 20h30 à 22h00. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site de la compagnie : compagniecapharnaum.com.",
+      "reader_question": "Avez-vous envie de revoir le texte de Musset porté par la compagnie Capharnaüm ?",
       "_fallback": false
     },
     "practical": {
@@ -4213,9 +4213,9 @@
       "address": "",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
-      "website": "https://www.service-public.gouv.fr/"
+      "website": "https://www.compagniecapharnaum.com/"
     },
-    "generated_at": "2026-09-27T08:16:57.230661+00:00",
+    "generated_at": "2026-09-27T13:38:39.614324+00:00",
     "model": "gpt-5.6-terra"
   }
 }
