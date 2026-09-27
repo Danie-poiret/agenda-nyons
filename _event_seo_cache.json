@@ -38,7 +38,7 @@
       "email": "r.viarsac@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:11.945512+00:00",
+    "generated_at": "2026-09-27T07:13:37.355270+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
@@ -73,7 +73,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:11.945576+00:00",
+    "generated_at": "2026-09-27T07:13:37.355420+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
@@ -108,7 +108,7 @@
       "email": "celice@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:11.945618+00:00",
+    "generated_at": "2026-09-27T07:13:37.355524+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
@@ -144,7 +144,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:11.945650+00:00",
+    "generated_at": "2026-09-27T07:13:37.355613+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
@@ -429,7 +429,7 @@
       "email": "cms.nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T06:48:32.950875+00:00",
+    "generated_at": "2026-09-27T07:13:37.355697+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
@@ -464,7 +464,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T06:48:32.950989+00:00",
+    "generated_at": "2026-09-27T07:13:37.355775+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
@@ -502,7 +502,7 @@
       "email": "ceder@ceder-provence.org",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T06:48:38.527167+00:00",
+    "generated_at": "2026-09-27T07:13:37.587367+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
@@ -537,7 +537,7 @@
       "email": "librairie-pinet@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T06:48:38.527274+00:00",
+    "generated_at": "2026-09-27T07:13:37.587490+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
@@ -572,7 +572,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T06:48:38.527339+00:00",
+    "generated_at": "2026-09-27T07:13:37.587575+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
@@ -607,7 +607,7 @@
       "email": "jimmy26110@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T06:48:38.527399+00:00",
+    "generated_at": "2026-09-27T07:13:37.587656+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
@@ -649,7 +649,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166529+00:00",
+    "generated_at": "2026-09-27T07:13:37.815859+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
@@ -686,7 +686,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166584+00:00",
+    "generated_at": "2026-09-27T07:13:37.816011+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
@@ -720,7 +720,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166619+00:00",
+    "generated_at": "2026-09-27T07:13:37.816091+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
@@ -754,7 +754,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166649+00:00",
+    "generated_at": "2026-09-27T07:13:37.816156+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
@@ -790,7 +790,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166683+00:00",
+    "generated_at": "2026-09-27T07:13:37.816229+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
@@ -826,7 +826,7 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166713+00:00",
+    "generated_at": "2026-09-27T07:13:37.816305+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
@@ -862,7 +862,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166740+00:00",
+    "generated_at": "2026-09-27T07:13:37.816364+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
@@ -899,7 +899,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166767+00:00",
+    "generated_at": "2026-09-27T07:13:37.816423+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
@@ -933,7 +933,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166808+00:00",
+    "generated_at": "2026-09-27T07:13:37.816510+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
@@ -967,7 +967,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166835+00:00",
+    "generated_at": "2026-09-27T07:13:37.816571+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
@@ -1009,7 +1009,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.166861+00:00",
+    "generated_at": "2026-09-27T07:13:37.816630+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
@@ -1044,7 +1044,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.411964+00:00",
+    "generated_at": "2026-09-27T07:13:38.106073+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
@@ -1080,7 +1080,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.412025+00:00",
+    "generated_at": "2026-09-27T07:13:38.106187+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
@@ -1116,7 +1116,7 @@
       "email": "tontonsriders26@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.691778+00:00",
+    "generated_at": "2026-09-27T07:13:38.330710+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
@@ -1153,7 +1153,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.691845+00:00",
+    "generated_at": "2026-09-27T07:13:38.330845+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
@@ -1189,7 +1189,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.691878+00:00",
+    "generated_at": "2026-09-27T07:13:38.330965+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
@@ -1223,7 +1223,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.691928+00:00",
+    "generated_at": "2026-09-27T07:13:38.331052+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
@@ -1265,7 +1265,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.691959+00:00",
+    "generated_at": "2026-09-27T07:13:38.331124+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
@@ -1301,7 +1301,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.691991+00:00",
+    "generated_at": "2026-09-27T07:13:38.331196+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
@@ -1336,7 +1336,7 @@
       "email": "contact@larboretum.co",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.932216+00:00",
+    "generated_at": "2026-09-27T07:13:38.560095+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
@@ -1372,7 +1372,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.932274+00:00",
+    "generated_at": "2026-09-27T07:13:38.560228+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
@@ -1408,7 +1408,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.932307+00:00",
+    "generated_at": "2026-09-27T07:13:38.560312+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
@@ -1442,7 +1442,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.932336+00:00",
+    "generated_at": "2026-09-27T07:13:38.560447+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
@@ -1478,7 +1478,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:12.932370+00:00",
+    "generated_at": "2026-09-27T07:13:38.560604+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
@@ -1513,7 +1513,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.171600+00:00",
+    "generated_at": "2026-09-27T07:13:38.793465+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
@@ -1548,7 +1548,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.171661+00:00",
+    "generated_at": "2026-09-27T07:13:38.793604+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
@@ -1580,7 +1580,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.396865+00:00",
+    "generated_at": "2026-09-27T07:13:39.020053+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
@@ -1614,7 +1614,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.396932+00:00",
+    "generated_at": "2026-09-27T07:13:39.020174+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
@@ -1649,7 +1649,7 @@
       "email": "indigolive@hotmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.396969+00:00",
+    "generated_at": "2026-09-27T07:13:39.020262+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
@@ -1685,7 +1685,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.397016+00:00",
+    "generated_at": "2026-09-27T07:13:39.020390+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
@@ -1727,7 +1727,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.397049+00:00",
+    "generated_at": "2026-09-27T07:13:39.020476+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
@@ -1762,7 +1762,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.397077+00:00",
+    "generated_at": "2026-09-27T07:13:39.020551+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
@@ -1797,7 +1797,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.397105+00:00",
+    "generated_at": "2026-09-27T07:13:39.020627+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
@@ -1833,7 +1833,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.397133+00:00",
+    "generated_at": "2026-09-27T07:13:39.020704+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
@@ -1868,7 +1868,7 @@
       "email": "contact@domainerocheville.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:13.397160+00:00",
+    "generated_at": "2026-09-27T07:13:39.020779+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/": {
@@ -1904,7 +1904,7 @@
       "email": "comitedesfetesetdeloisirs@sfr.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.334849+00:00",
+    "generated_at": "2026-09-27T07:13:39.252938+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/": {
@@ -1939,7 +1939,7 @@
       "email": "couriranyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856538+00:00",
+    "generated_at": "2026-09-27T07:13:39.919138+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/": {
@@ -1973,7 +1973,7 @@
       "email": "accueil@asoft-nyons.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856590+00:00",
+    "generated_at": "2026-09-27T07:13:39.919258+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/": {
@@ -2009,7 +2009,7 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856625+00:00",
+    "generated_at": "2026-09-27T07:13:39.919346+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/": {
@@ -2045,7 +2045,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856657+00:00",
+    "generated_at": "2026-09-27T07:13:39.919440+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conseil-municipal-4/": {
@@ -2087,7 +2087,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856718+00:00",
+    "generated_at": "2026-09-27T07:13:39.919528+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/": {
@@ -2123,7 +2123,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856755+00:00",
+    "generated_at": "2026-09-27T07:13:39.919611+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/": {
@@ -2158,7 +2158,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:14.856783+00:00",
+    "generated_at": "2026-09-27T07:13:39.919675+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/": {
@@ -2193,7 +2193,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.374350+00:00",
+    "generated_at": "2026-09-27T07:13:40.146693+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journees-jeux-de-societe/": {
@@ -2229,7 +2229,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913623+00:00",
+    "generated_at": "2026-09-27T07:13:40.371070+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/": {
@@ -2267,7 +2267,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913675+00:00",
+    "generated_at": "2026-09-27T07:13:40.371191+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/": {
@@ -2302,7 +2302,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913711+00:00",
+    "generated_at": "2026-09-27T07:13:40.371282+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/": {
@@ -2338,7 +2338,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913746+00:00",
+    "generated_at": "2026-09-27T07:13:40.371375+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/": {
@@ -2373,7 +2373,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913773+00:00",
+    "generated_at": "2026-09-27T07:13:40.371441+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/": {
@@ -2410,7 +2410,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913814+00:00",
+    "generated_at": "2026-09-27T07:13:40.371585+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/": {
@@ -2452,7 +2452,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913845+00:00",
+    "generated_at": "2026-09-27T07:13:40.371657+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/": {
@@ -2489,7 +2489,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913871+00:00",
+    "generated_at": "2026-09-27T07:13:40.371715+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/": {
@@ -2523,7 +2523,7 @@
       "email": "drambure@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:15.913916+00:00",
+    "generated_at": "2026-09-27T07:13:40.371775+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/droles-de-coincidences-2/": {
@@ -2558,7 +2558,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:16.444778+00:00",
+    "generated_at": "2026-09-27T07:13:41.021955+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/": {
@@ -2594,7 +2594,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:16.444840+00:00",
+    "generated_at": "2026-09-27T07:13:41.022092+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/opera-follies/": {
@@ -2629,7 +2629,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:16.945439+00:00",
+    "generated_at": "2026-09-27T07:13:41.542557+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-femme-moustique/": {
@@ -2664,7 +2664,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:17.456138+00:00",
+    "generated_at": "2026-09-27T07:13:42.146497+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/": {
@@ -2700,7 +2700,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:17.456195+00:00",
+    "generated_at": "2026-09-27T07:13:42.146613+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/": {
@@ -2734,7 +2734,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:17.456231+00:00",
+    "generated_at": "2026-09-27T07:13:42.146698+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/petits-crimes-conjugaux/": {
@@ -2769,7 +2769,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:18.015341+00:00",
+    "generated_at": "2026-09-27T07:13:42.669583+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/puces-des-couturieres/": {
@@ -2811,7 +2811,7 @@
       "email": "comitedesfetesetdeloisirs@sfr.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:18.547795+00:00",
+    "generated_at": "2026-09-27T07:13:43.178448+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/": {
@@ -2848,7 +2848,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:18.547861+00:00",
+    "generated_at": "2026-09-27T07:13:43.178569+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/salon-vivre-ici/": {
@@ -2884,7 +2884,7 @@
       "email": "campuscedille@asoft-nyons.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:19.099875+00:00",
+    "generated_at": "2026-09-27T07:13:43.693425+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/": {
@@ -2919,7 +2919,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:19.648547+00:00",
+    "generated_at": "2026-09-27T07:13:44.212537+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/": {
@@ -2953,7 +2953,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:19.648606+00:00",
+    "generated_at": "2026-09-27T07:13:44.212653+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-turlupinades/": {
@@ -2989,7 +2989,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:20.188992+00:00",
+    "generated_at": "2026-09-27T07:13:44.732615+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/telethon-2026/": {
@@ -3023,7 +3023,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:20.645244+00:00",
+    "generated_at": "2026-09-27T07:13:45.230940+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/": {
@@ -3059,7 +3059,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:20.645303+00:00",
+    "generated_at": "2026-09-27T07:13:45.231092+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/": {
@@ -3095,7 +3095,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:20.645337+00:00",
+    "generated_at": "2026-09-27T07:13:45.231182+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cher-edouard/": {
@@ -3130,7 +3130,7 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:21.144347+00:00",
+    "generated_at": "2026-09-27T07:13:45.455198+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/": {
@@ -3172,7 +3172,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:21.144415+00:00",
+    "generated_at": "2026-09-27T07:13:45.455317+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/": {
@@ -3207,7 +3207,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:21.752537+00:00",
+    "generated_at": "2026-09-27T07:13:45.967375+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/": {
@@ -3242,7 +3242,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:22.319003+00:00",
+    "generated_at": "2026-09-27T07:13:46.193306+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/": {
@@ -3277,7 +3277,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:22.860913+00:00",
+    "generated_at": "2026-09-27T07:13:46.700240+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/": {
@@ -3313,7 +3313,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:22.860969+00:00",
+    "generated_at": "2026-09-27T07:13:46.700353+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/": {
@@ -3348,7 +3348,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.365764+00:00",
+    "generated_at": "2026-09-27T07:13:47.298382+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/": {
@@ -3384,7 +3384,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.365816+00:00",
+    "generated_at": "2026-09-27T07:13:47.298496+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/": {
@@ -3420,7 +3420,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.365853+00:00",
+    "generated_at": "2026-09-27T07:13:47.298586+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/": {
@@ -3456,7 +3456,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.365887+00:00",
+    "generated_at": "2026-09-27T07:13:47.298671+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/": {
@@ -3491,7 +3491,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.831319+00:00",
+    "generated_at": "2026-09-27T07:13:47.817313+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/": {
@@ -3533,7 +3533,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.831386+00:00",
+    "generated_at": "2026-09-27T07:13:47.817434+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/": {
@@ -3569,7 +3569,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:23.831424+00:00",
+    "generated_at": "2026-09-27T07:13:47.817529+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-grands-chemins/": {
@@ -3604,7 +3604,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:24.317390+00:00",
+    "generated_at": "2026-09-27T07:13:48.316990+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/": {
@@ -3640,7 +3640,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:24.317449+00:00",
+    "generated_at": "2026-09-27T07:13:48.317104+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/": {
@@ -3675,7 +3675,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:24.871382+00:00",
+    "generated_at": "2026-09-27T07:13:48.815136+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/": {
@@ -3710,7 +3710,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.418208+00:00",
+    "generated_at": "2026-09-27T07:13:49.322568+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/": {
@@ -3746,7 +3746,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.418265+00:00",
+    "generated_at": "2026-09-27T07:13:49.322684+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/": {
@@ -3782,7 +3782,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.418310+00:00",
+    "generated_at": "2026-09-27T07:13:49.322789+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/": {
@@ -3818,7 +3818,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.418343+00:00",
+    "generated_at": "2026-09-27T07:13:49.322927+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/au-nom-de-lamour/": {
@@ -3853,7 +3853,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.931241+00:00",
+    "generated_at": "2026-09-27T07:13:49.830462+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/": {
@@ -3895,7 +3895,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.931314+00:00",
+    "generated_at": "2026-09-27T07:13:49.830589+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/": {
@@ -3931,7 +3931,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:25.931351+00:00",
+    "generated_at": "2026-09-27T07:13:49.830679+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/et-maintenant-jattends/": {
@@ -3966,7 +3966,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:26.450227+00:00",
+    "generated_at": "2026-09-27T07:13:50.331621+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/": {
@@ -4002,7 +4002,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:26.450288+00:00",
+    "generated_at": "2026-09-27T07:13:50.331749+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/": {
@@ -4038,7 +4038,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:26.450322+00:00",
+    "generated_at": "2026-09-27T07:13:50.331835+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/landing/": {
@@ -4073,7 +4073,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:26.958994+00:00",
+    "generated_at": "2026-09-27T07:13:50.843999+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/": {
@@ -4109,7 +4109,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:26.959065+00:00",
+    "generated_at": "2026-09-27T07:13:50.844138+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/": {
@@ -4145,7 +4145,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:26.959099+00:00",
+    "generated_at": "2026-09-27T07:13:50.844221+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/boite-a-cordees/": {
@@ -4180,7 +4180,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:27.378516+00:00",
+    "generated_at": "2026-09-27T07:13:51.352716+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/": {
@@ -4215,7 +4215,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-27T07:06:27.885250+00:00",
+    "generated_at": "2026-09-27T07:13:51.884936+00:00",
     "model": "gpt-5.6-terra"
   }
 }

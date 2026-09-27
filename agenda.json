@@ -1,6 +1,6 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
-  "updated_at": "2026-09-27T07:06:11.285534+00:00",
+  "updated_at": "2026-09-27T07:13:36.934434+00:00",
   "count": 110,
   "events": [
     {
@@ -56,68 +56,73 @@
       "url": "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/"
     },
     {
-      "title": "Atelier culinaire – Street food party",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "Réalisez vos tacos au poulet et burritos au bœuf maison",
+      "title": "Lectures animées",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-28",
+      "summary": "Lectures animées pour les enfants de 0 à 6 ans, pendant le temps de consultation au Centre médico-social 3 Place Joseph Roumanille.",
       "categories": [
+        "Enfance / Jeunesse",
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/lectures-animees-6/"
+    },
+    {
+      "title": "Soirée 100% Agriculture / Viticulture",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-28",
+      "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Agriculture / Viticulture !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/"
+    },
+    {
+      "title": "Atelier lactofermentation",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "summary": "Atelier lactofermentation proposé par le CEDER.",
+      "categories": [
+        "Solidarité / Santé",
         "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/"
+      "url": "https://www.nyons.com/agenda/atelier-lactofermentation/"
     },
     {
-      "title": "COMTESSA ! Concert de Samuel Cattiau & Pierre Baillot",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "Medieval, world music, jazz, improvisations",
+      "title": "Dédicace Françoise Bourdon",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-01",
+      "summary": "Rencontrez Françoise Bourdon à la Libraire Pinet, jeudi 1er octobre de 10h à 16h30.",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/"
+      "url": "https://www.nyons.com/agenda/dedicace-francoise-bourdon/"
     },
     {
-      "title": "Cérémonie de cacao",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "Les cérémonies de cacao s'inspirent de l'usage spirituel de cette plante par le peuple Maya du Guatemala. Le cacao connecte au coeur, à la joie, à la créativité, il aide à relâcher les tensions.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/ceremonie-de-cacao/"
-    },
-    {
-      "title": "Distribution gratuite de compost",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "La CCBDP propose une distribution gratuite de compost réservé aux particuliers.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/"
-    },
-    {
-      "title": "Impro !",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "Improvisation théâtrale pour lancer la saison de l'Electron Libre ! 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 16.1°C / 16.1°C Contact Recherche Mentions l",
+      "title": "Concert Bouda OMG !",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-02",
+      "summary": "Concert Bouda OMG - Dispositif Miz’Ampli",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/impro/"
+      "url": "https://www.nyons.com/agenda/concert-bouda-omg/"
     },
     {
-      "title": "Marche pour le Climat",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-26",
-      "summary": "Marche pour le Climat, le vivant, la paix et la justice sociale",
+      "title": "Grande braderie",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-04",
+      "summary": "Grande braderie organisée par les associations Le Vestiaire et le Carrefour des Habitants",
       "categories": [
-        "Cadre de vie",
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/marche-pour-le-climat/"
+      "url": "https://www.nyons.com/agenda/grande-braderie/"
     },
     {
       "title": "Les Journées Nationales des Artistes à Nyons",
