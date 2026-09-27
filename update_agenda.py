@@ -4,7 +4,7 @@
 - Récupère l'agenda public de la Ville de Nyons.
 - Met à jour agenda.json.
 - Génère des pages HTML semaine par semaine dans /semaines/.
-- Génère les 50 prochains événements dans /evenements/ avec une fiche éditoriale par événement.
+- Génère tous les événements en cours ou à venir dans /evenements/ avec une fiche éditoriale par événement.
 - Utilise OpenAI uniquement si OPENAI_API_KEY est disponible.
 - Ne rappelle l'API que lorsqu'une semaine change.
 - En cas d'échec de l'API, la publication continue avec un texte de secours.
@@ -47,11 +47,10 @@ ROBOTS = ROOT / "robots.txt"
 MAX_PAGES = 15
 TIMEOUT = 25
 SEO_WEEKS_AHEAD = 12
-ROLLING_EVENT_LIMIT = 50
 EVENT_DETAIL_TTL_HOURS = 48
 EVENT_DETAIL_PARSER_VERSION = 7
 PRACTICAL_ONLY_REFRESH_VERSION = 1
-MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "50"))
+MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "100"))
 EVENT_PROMPT_VERSION = 10
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
@@ -469,12 +468,13 @@ def event_status(event) -> str:
 
 
 def rolling_events(events):
+    """Tous les événements en cours ou à venir, sans limite à 50."""
     today = date.today()
     future = [e for e in events if parse_iso(e["end_date"]) >= today]
     return sorted(
         future,
         key=lambda e: (e["start_date"], e["title"].lower()),
-    )[:ROLLING_EVENT_LIMIT]
+    )
 
 
 def event_facts(event, detail_text="", practical=None):
@@ -1345,7 +1345,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
 <body>
   <aside class="top" aria-label="Sélection de livres sur Nyons"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside>
   <main class="wrap">
-    <nav class="nav"><a href="{SITE}">← Agenda</a><a href="{SITE}evenements/">📌 50 prochains événements</a><a href="{SITE}semaines/">📅 Par semaine</a></nav>
+    <nav class="nav"><a href="{SITE}">← Agenda</a><a href="{SITE}evenements/">📌 Tous les événements</a><a href="{SITE}semaines/">📅 Par semaine</a></nav>
     <header class="hero"><span class="status">{esc(status)}</span><h1>{esc(event['title'])}</h1><p class="date">📅 {esc(date_display)}</p>{cats_html}</header>
     {archive_note}
     {practical_section}
@@ -1380,9 +1380,9 @@ def render_events_index(active_events, event_cache):
         </a>''')
 
     return f'''<!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>50 prochains événements à Nyons</title><meta name="description" content="Les 50 prochains événements à Nyons : sorties, culture, loisirs et rendez-vous locaux avec une fiche détaillée pour chacun."><link rel="canonical" href="{SITE}evenements/"><meta name="robots" content="index,follow"><style>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agenda Nyons : tous les événements à venir</title><meta name="description" content="Tous les événements à venir à Nyons : sorties, culture, loisirs et rendez-vous locaux avec une fiche détaillée pour chacun."><link rel="canonical" href="{SITE}evenements/"><meta name="robots" content="index,follow"><style>
 *{{box-sizing:border-box}}:root{{--olive:#566b3a;--olive-dark:#354622;--terracotta:#a94f35;--cream:#f6f1e8;--paper:#fffdf9;--ink:#262722;--muted:#6b6d65;--line:#e4dccd;--shadow:0 12px 34px rgba(52,48,38,.10)}}body{{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.62}}.top{{max-width:1180px;margin:auto;padding:15px 18px 0}}.ad-shell{{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}}.ad-frame{{display:block;width:100%;aspect-ratio:3/1;border:0}}.ad-note{{font-size:11px;text-align:right;color:#777;margin:6px 4px 0}}.wrap{{max-width:1080px;margin:auto;padding:18px 18px 60px}}.nav{{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0 18px}}.nav a{{padding:9px 13px;background:#fff;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-weight:800;font-size:13px;color:var(--olive-dark)}}.hero{{background:linear-gradient(125deg,var(--olive-dark),var(--olive) 62%,#788d58);color:#fff;border-radius:24px;padding:clamp(28px,5vw,52px);box-shadow:var(--shadow)}}h1{{font-size:clamp(32px,5vw,52px);line-height:1.08;margin:.15em 0 .3em}}.hero p{{max-width:800px;margin:0;font-size:18px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:22px}}.card{{display:flex;gap:15px;background:var(--paper);border:1px solid var(--line);border-radius:17px;padding:18px;color:var(--ink);text-decoration:none;box-shadow:0 6px 22px rgba(52,48,38,.055)}}.card:hover{{transform:translateY(-2px)}}.card h2{{margin:0 0 6px;font-size:19px;line-height:1.25}}.card p{{margin:5px 0;color:var(--muted)}}.card b{{color:var(--olive-dark);font-size:14px}}.datebox{{flex:0 0 58px;height:64px;background:var(--terracotta);color:#fff;border-radius:13px;text-align:center;padding:8px 3px;line-height:1}}.datebox strong{{display:block;font-size:24px}}.datebox span{{display:block;margin-top:6px;font-size:11px;font-weight:900;letter-spacing:.08em}}.when{{font-weight:800!important;color:var(--ink)!important;font-size:13px}}@media(max-width:760px){{.grid{{grid-template-columns:1fr}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px}}}}
-</style></head><body><aside class="top"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside><main class="wrap"><nav class="nav"><a href="{SITE}">← Agenda interactif</a><a href="{SITE}semaines/">📅 Agenda par semaine</a></nav><section class="hero"><div>NYONS · SORTIES À VENIR</div><h1>Les 50 prochains événements à Nyons</h1><p>Une sélection roulante : lorsqu’un rendez-vous passe, le suivant entre automatiquement dans la liste. Chaque événement dispose de sa propre fiche éditoriale.</p></section><section class="grid">{''.join(cards)}</section></main></body></html>'''
+</style></head><body><aside class="top"><div class="ad-shell"><iframe class="ad-frame" src="{BANNER_URL}" loading="eager" title="Voir ma sélection de vieux livres sur Nyons"></iframe></div><div class="ad-note">Publicité · lien affilié</div></aside><main class="wrap"><nav class="nav"><a href="{SITE}">← Agenda interactif</a><a href="{SITE}semaines/">📅 Agenda par semaine</a></nav><section class="hero"><div>NYONS · SORTIES À VENIR</div><h1>Tous les événements à venir à Nyons</h1><p>Retrouvez tous les rendez-vous actuellement publiés dans l’agenda de Nyons, sans limite à 50. Chaque événement dispose de sa propre fiche éditoriale.</p></section><section class="grid">{''.join(cards)}</section></main></body></html>'''
 
 
 def generate_event_pages(events):
@@ -1392,6 +1392,8 @@ def generate_event_pages(events):
     detail_cache = load_json_file(EVENT_DETAIL_CACHE_FILE)
     session = requests.Session()
     ai_calls = 0
+
+    total_active = len(active)
 
     for idx, event in enumerate(active, start=1):
         detail_data = get_event_detail(session, event, detail_cache)
@@ -1406,16 +1408,16 @@ def generate_event_pages(events):
             and not cached.get("editorial", {}).get("_fallback", False)
         ):
             editorial = cached["editorial"]
-            print(f"FICHE {idx:02d}/50: inchangée, aucun appel API — {event['title']}")
+            print(f"FICHE {idx:03d}/{total_active}: inchangée, aucun appel API — {event['title']}")
 
         elif ai_calls < MAX_EVENT_AI_CALLS:
             editorial = generate_event_editorial(event, detail, practical)
             ai_calls += 1
-            print(f"FICHE {idx:02d}/50: contenu éditorial généré — {event['title']}")
+            print(f"FICHE {idx:03d}/{total_active}: contenu éditorial généré — {event['title']}")
 
         else:
             editorial = cached.get("editorial") or fallback_event_editorial(event)
-            print(f"FICHE {idx:02d}/50: limite API atteinte, texte conservé/secours — {event['title']}")
+            print(f"FICHE {idx:03d}/{total_active}: limite API atteinte, texte conservé/secours — {event['title']}")
 
         event_cache[event["url"]] = {
             "hash": digest,
@@ -1467,7 +1469,7 @@ def generate_event_pages(events):
     save_json_file(EVENT_CACHE_FILE, event_cache)
     save_json_file(EVENT_DETAIL_CACHE_FILE, detail_cache)
     print(
-        f"OK: {len(active)} événement(s) dans la sélection roulante, "
+        f"OK: {len(active)} événement(s) en cours/à venir, "
         f"{len(cached_events)} fiche(s) conservée(s), {ai_calls} appel(s) API ce passage."
     )
 
@@ -1956,7 +1958,7 @@ def render_week_page(start: date, events, editorial):
     <nav class="nav">
       <a href="{SITE}">← Agenda interactif</a>
       <a href="{SITE}semaines/">📅 Toutes les semaines</a>
-      <a href="{SITE}evenements/">📌 50 prochains événements</a>
+      <a href="{SITE}evenements/">📌 Tous les événements</a>
     </nav>
 
     <section class="hero">
@@ -2192,7 +2194,7 @@ def render_weeks_index(weeks):
 
   <main class="wrap">
     <a class="back" href="{SITE}">← Agenda interactif</a>
-    <a class="back" href="{SITE}evenements/">📌 50 prochains événements</a>
+    <a class="back" href="{SITE}evenements/">📌 Tous les événements</a>
 
     <section class="hero">
       <div class="kicker">Sorties · animations · vie locale</div>
