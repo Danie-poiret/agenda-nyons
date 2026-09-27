@@ -38,7 +38,7 @@
       "email": "r.viarsac@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:35.715356+00:00",
+    "generated_at": "2026-09-27T05:25:56.973023+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
@@ -73,7 +73,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:35.715449+00:00",
+    "generated_at": "2026-09-27T05:25:56.973156+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
@@ -108,7 +108,7 @@
       "email": "celice@hotmail.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:35.715514+00:00",
+    "generated_at": "2026-09-27T05:25:56.973274+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
@@ -144,7 +144,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:35.715568+00:00",
+    "generated_at": "2026-09-27T05:25:56.973350+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
@@ -611,7 +611,7 @@
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
-    "hash": "fbd31a9f266c0ef090f782eabd8e9bd2e194ae0412c7d1376dd5721511235a09",
+    "hash": "3fda1da7191afa73cb99bea4f4ee95f8e536a2b296d25cd947d062e7492ee844",
     "slug": "les-journees-nationales-des-artistes-a-nyons-2026-10-02",
     "event": {
       "title": "Les Journées Nationales des Artistes à Nyons",
@@ -619,21 +619,26 @@
       "end_date": "2026-10-04",
       "summary": "Une fête de l'art dans toute la France.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
+        "Vie associative",
         "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/"
     },
     "editorial": {
-      "seo_title": "Journées Nationales des Artistes 2026 à Nyons",
-      "meta_description": "Nyons accueille les Journées Nationales des Artistes, une fête de l’art organisée dans toute la France, du 2 au 4 octobre 2026.",
-      "intro": "Du vendredi 2 au dimanche 4 octobre 2026, Nyons s’inscrit dans les Journées Nationales des Artistes. Cette manifestation culturelle prend la forme d’une fête de l’art, organisée à l’échelle de toute la France. Trois jours placés sous le signe de la création et de la culture vivante dans la ville.",
-      "story": "Les Journées Nationales des Artistes réunissent à Nyons l’esprit d’une célébration nationale consacrée à l’art. L’événement se déroule sur trois journées, du 2 au 4 octobre 2026, et fait partie d’une fête menée dans toute la France. À Nyons, ce rendez-vous trouve naturellement sa place parmi les sorties culturelles et de loisirs du début d’automne.",
-      "why_it_matters": "C’est un rendez-vous culturel inscrit dans un mouvement national, tout en ayant lieu ici, à Nyons. Pour les habitants comme pour les visiteurs de passage, ces journées donnent une date simple à retenir dans le calendrier culturel d’octobre.",
-      "practical": "Du vendredi 2 octobre 2026 à 00h00 au dimanche 4 octobre à 23h59. Renseignements : 06 20 04 60 99 ou gaia.durivau@wanadoo.fr. Site : service-public.gouv.fr.",
-      "reader_question": "Prévoyez-vous de profiter des Journées Nationales des Artistes à Nyons ?",
+      "seo_title": "Journées nationales des artistes : la fête de l’art à Nyons",
+      "meta_description": "Du 2 au 4 octobre 2026, Nyons accueille les Journées Nationales des Artistes, un rendez-vous inscrit dans une fête de l’art menée dans toute la France.",
+      "intro": "Les Journées Nationales des Artistes arrivent à Nyons du vendredi 2 au dimanche 4 octobre 2026. Ce rendez-vous s’inscrit dans une fête de l’art organisée dans toute la France. Trois journées placées sous le signe des artistes et de la création, avec Nyons au cœur de cette initiative nationale.",
+      "story": "À Nyons, les Journées Nationales des Artistes se déroulent sur trois jours, du 2 au 4 octobre 2026. Leur nom annonce un rendez-vous consacré aux artistes, tandis que leur présentation les inscrit dans une fête de l’art à l’échelle de toute la France. L’événement relie ainsi la ville à ces journées nationales dédiées à la création artistique.",
+      "why_it_matters": "Cette date donne une place à Nyons dans une initiative nationale consacrée à l’art. C’est un rendez-vous culturel identifié sur le calendrier d’octobre, porté par l’idée d’une fête de l’art partagée dans toute la France.",
+      "practical": "Du vendredi 2 octobre à 00h00 au dimanche 4 octobre 2026 à 23h59. Contact : 06 20 04 60 99 ou gaia.durivau@wanadoo.fr. Site indiqué : service-public.gouv.fr.",
+      "reader_question": "Comptez-vous noter les Journées Nationales des Artistes à Nyons dans votre agenda d’octobre ?",
       "_fallback": false
     },
     "practical": {
@@ -644,17 +649,17 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:38.243313+00:00",
+    "generated_at": "2026-09-27T05:26:11.021574+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
-    "hash": "3af045660bf106d0183e742cf478cdbb4c61e7abc7248875c2d0f49648dab326",
+    "hash": "476094e56b4609849c507fc690bb8381b444ae7cc753d7ea8148778e1525809e",
     "slug": "atelier-culinaire-risotto-panacotta-2026-10-03",
     "event": {
       "title": "Atelier culinaire – Risotto & panacotta",
       "start_date": "2026-10-03",
       "end_date": "2026-10-03",
-      "summary": "Atelier culinaire Italien \"Risotto & Panacotta\" 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Partiellement nuageux 17.3°C / 17.3°C Contact Recherche Mentions légales Pol",
+      "summary": "Atelier culinaire Italien \"Risotto & Panacotta\"",
       "categories": [
         "Patrimoine / Culture vivante",
         "Sport / Loisirs",
@@ -664,13 +669,13 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/"
     },
     "editorial": {
-      "seo_title": "Atelier de cuisine italienne à Nyons : risotto et panacotta",
-      "meta_description": "À Nyons, un atelier culinaire italien autour du risotto et de la panacotta se tient le samedi 3 octobre 2026 à la Maison des Huiles.",
-      "intro": "La Maison des Huiles d’Olives & Olives de France accueille à Nyons un atelier culinaire italien consacré au risotto et à la panacotta. Ce rendez-vous réunit, dans un même créneau, deux grands repères de la cuisine italienne : un plat salé et un dessert.",
-      "story": "Prévu le samedi 3 octobre 2026, cet atelier culinaire met à l’honneur le risotto et la panacotta. Il se déroule de 10h à 11h30 à la Maison des Huiles d’Olives & Olives de France, place de la Libération. Une proposition bien identifiée pour celles et ceux qui souhaitent consacrer leur matinée à ces deux spécialités italiennes, au cœur de Nyons.",
-      "why_it_matters": "Le risotto et la panacotta sont les deux fils conducteurs de cet atelier. La formule associe ainsi cuisine italienne, loisir et culture vivante dans un lieu nyonsais dédié aux huiles d’olive et aux olives de France.",
-      "practical": "Samedi 3 octobre 2026, de 10h à 11h30. Maison des Huiles d’Olives & Olives de France, 40 place de la Libération, 26110 Nyons. Tél. : 04 75 26 90 90.",
-      "reader_question": "Préférez-vous le risotto ou la panacotta ?",
+      "seo_title": "Risotto et panacotta : un atelier culinaire à Nyons",
+      "meta_description": "À Nyons, un atelier culinaire italien met à l’honneur le risotto et la panacotta, samedi 3 octobre 2026 à la Maison des Huiles d’Olives.",
+      "intro": "Le samedi 3 octobre 2026, la Maison des Huiles d’Olives & Olives de France accueille à Nyons un atelier culinaire italien consacré au risotto et à la panacotta. Ce rendez-vous réunit, dans un même créneau, deux spécialités bien connues de la cuisine italienne : l’une salée, l’autre sucrée.",
+      "story": "Intitulé « Risotto & Panacotta », cet atelier propose un temps dédié à ces deux préparations italiennes. Il se déroule en matinée, de 10 h à 11 h 30, au 40 place de la Libération à Nyons. Inscrit parmi les rendez-vous de culture, loisirs et culture vivante, il prend place à la Maison des Huiles d’Olives & Olives de France. Une sortie culinaire clairement centrée sur le duo risotto-panacotta.",
+      "why_it_matters": "Pour les amateurs de cuisine italienne, cet atelier offre un rendez-vous thématique autour de deux recettes emblématiques. Son format de 1 h 30 en fait une activité de matinée, au cœur de Nyons, dans un lieu dédié aux huiles d’olive et aux olives de France.",
+      "practical": "Samedi 3 octobre 2026, de 10 h à 11 h 30. Maison des Huiles d’Olives & Olives de France, 40 place de la Libération, 26110 Nyons. Tél. : 04 75 26 90 90. Contact : contact@maisondeshuilesetolives.fr.",
+      "reader_question": "Plutôt risotto ou panacotta pour cet atelier culinaire italien ?",
       "_fallback": false
     },
     "practical": {
@@ -681,7 +686,7 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776099+00:00",
+    "generated_at": "2026-09-27T05:26:18.367648+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
@@ -715,11 +720,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776208+00:00",
+    "generated_at": "2026-09-27T05:26:18.367759+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
-    "hash": "eb299ac2a5c748a57e2213e9b39c313359d82cd93708d0d646a310b41236105b",
+    "hash": "5372cc0b02dfe3f71c68428915225f009f93c5d51ffbb3dbc4336a58e3b58def",
     "slug": "atelier-thematique-sur-la-legislation-funeraire-2026-10-05",
     "event": {
       "title": "Atelier thématique sur la législation funéraire",
@@ -727,26 +732,18 @@
       "end_date": "2026-10-05",
       "summary": "Dans le cadre de la Semaine Bleue 2026.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/"
     },
     "editorial": {
       "seo_title": "Législation funéraire : un atelier à Nyons",
-      "meta_description": "À Nyons, un atelier thématique consacré à la législation funéraire est proposé le 5 octobre 2026, dans le cadre de la Semaine Bleue.",
-      "intro": "La Maison des possilbes accueille à Nyons un atelier thématique consacré à la législation funéraire. Ce rendez-vous se tient dans le cadre de la Semaine Bleue 2026, le lundi 5 octobre après-midi. Une proposition ciblée autour d’un sujet administratif qui concerne les démarches et le cadre funéraire.",
-      "story": "Cet atelier porte précisément sur la législation funéraire. Il est inscrit au programme de la Semaine Bleue 2026 et se déroule à la Maison des possilbes, rue Pierre Toesca à Nyons. Le rendez-vous est prévu sur un créneau de deux heures, de 14 h à 16 h. Les personnes intéressées peuvent prendre contact avec Thanatosphère par téléphone ou par courriel.",
-      "why_it_matters": "La législation funéraire est un sujet concret, à la croisée des démarches administratives et de la vie quotidienne. Cet atelier offre à Nyons un temps dédié à cette thématique, dans le cadre de la Semaine Bleue 2026.",
-      "practical": "Lundi 5 octobre 2026, de 14 h à 16 h. Maison des possilbes, 16-18 rue Pierre Toesca, 26110 Nyons. Contact : 06 03 82 15 00 ou contact@thanatosphere.fr.",
-      "reader_question": "Souhaitez-vous participer à cet atelier sur la législation funéraire ?",
+      "meta_description": "Dans le cadre de la Semaine Bleue 2026, Nyons accueille un atelier thématique consacré à la législation funéraire, le 5 octobre.",
+      "intro": "La Maison des possilbes accueille à Nyons un atelier thématique consacré à la législation funéraire. Ce rendez-vous s’inscrit dans le cadre de la Semaine Bleue 2026 et propose un temps dédié à ce sujet, le lundi 5 octobre après-midi.",
+      "story": "Organisé le 5 octobre 2026, cet atelier porte précisément sur la législation funéraire. Il prend place dans la programmation de la Semaine Bleue 2026, avec un créneau de deux heures prévu à la Maison des possilbes, rue Pierre Toesca à Nyons. La rencontre est annoncée sous la thématique Solidarité / Santé.",
+      "why_it_matters": "La législation funéraire est le sujet central de cet atelier. Inscrit dans la Semaine Bleue 2026, ce rendez-vous local propose un cadre consacré à cette thématique, à Nyons.",
+      "practical": "Lundi 5 octobre 2026, de 14h à 16h. Maison des possilbes, 16-18 rue Pierre Toesca, 26110 Nyons. Contact : 06 03 82 15 00 · contact@thanatosphere.fr.",
+      "reader_question": "Souhaitez-vous participer à cet atelier sur la législation funéraire à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -757,7 +754,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776264+00:00",
+    "generated_at": "2026-09-27T05:26:24.619688+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
@@ -793,7 +790,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776317+00:00",
+    "generated_at": "2026-09-27T05:26:24.619807+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
@@ -829,7 +826,7 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776361+00:00",
+    "generated_at": "2026-09-27T05:26:24.619877+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
@@ -865,7 +862,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776399+00:00",
+    "generated_at": "2026-09-27T05:26:24.619933+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
@@ -902,30 +899,30 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776438+00:00",
+    "generated_at": "2026-09-27T05:26:24.619991+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
-    "hash": "a6c13fab1fa9344d9532106cbcac8b79b4823b1a3f1c548d5435ed19bc16eaff",
+    "hash": "cc99e0ef6cf2fc669545e05f56d8afb649fc847dedf6c51e2911414bb8854532",
     "slug": "linstant-papillon-2026-10-08",
     "event": {
       "title": "L’instant Papillon",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
-      "summary": "Les praticien.nes du Papillon vous invitent à un moment de partage et de bien-être. Lors de cet événement, vous aurez la possibilité de découvrir et de participer à différents ateliers et pratiques proposés par les praticien.nes de notre collectif.",
+      "summary": "Les praticien.nes du Papillon vous invitent à un moment de partage et de bien-être. Lors de cet événement, vous aurez la possibilité de découvrir et de participer à différents ateliers et pratiques proposés par les praticien.nes de notre collectif. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans",
       "categories": [
         "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/linstant-papillon-2/"
     },
     "editorial": {
-      "seo_title": "L’instant Papillon : ateliers bien-être à Nyons",
-      "meta_description": "Découvrez L’instant Papillon à Nyons : un temps de partage et de bien-être avec des ateliers et pratiques proposés par le collectif.",
-      "intro": "L’instant Papillon propose à Nyons un rendez-vous consacré au partage et au bien-être. Les praticien.nes du collectif le Papillon invitent les personnes présentes à découvrir différentes pratiques et à prendre part aux ateliers qu’ils et elles proposent. Un temps ouvert autour de l’approche du collectif.",
-      "story": "Organisé par les praticien.nes du Papillon, L’instant Papillon réunit plusieurs ateliers et pratiques au sein du collectif. Chacun peut y découvrir les propositions portées par les praticien.nes et participer à ce moment conçu comme un espace de partage et de bien-être. Le rendez-vous se tient directement au collectif le Papillon, avenue Jules Bernard, à Nyons.",
-      "why_it_matters": "Cette rencontre permet de découvrir les pratiques proposées par le collectif le Papillon dans un même temps de partage. C’est une occasion concrète de participer à des ateliers de bien-être et de rencontrer les praticien.nes qui les animent.",
-      "practical": "Jeudi 8 octobre 2026, de 17h15 à 19h30, au collectif le Papillon, 10 avenue Jules Bernard à Nyons. Tél. : 06 81 80 05 73.",
-      "reader_question": "Quelle pratique du collectif le Papillon aimeriez-vous découvrir ?",
+      "seo_title": "L’instant Papillon, ateliers bien-être à Nyons",
+      "meta_description": "À Nyons, L’instant Papillon propose un temps de partage et de bien-être avec des ateliers et pratiques animés par le collectif.",
+      "intro": "L’instant Papillon invite à Nyons à un temps placé sous le signe du partage et du bien-être. Le collectif le Papillon ouvre cette rencontre à celles et ceux qui souhaitent découvrir ses pratiques et prendre part aux ateliers proposés par ses praticien.nes. Un rendez-vous associatif pour aller à la rencontre du collectif et de ses approches.",
+      "story": "Au fil de L’instant Papillon, les praticien.nes du collectif proposent différents ateliers et pratiques auxquels il est possible de participer. La rencontre est pensée comme un moment d’échange, permettant de découvrir les propositions portées par le Papillon dans un cadre consacré au bien-être. Organisé au sein du collectif, cet instant rassemble les activités présentées par ses praticien.nes autour d’une même invitation : partager, essayer et découvrir.",
+      "why_it_matters": "Cette rencontre offre une occasion concrète de découvrir les ateliers et pratiques du collectif le Papillon à Nyons. C’est aussi un temps de partage avec les praticien.nes qui portent ces propositions de bien-être.",
+      "practical": "Jeudi 8 octobre 2026, de 17h15 à 19h30, au collectif le Papillon, 10 avenue Jules Bernard à Nyons. Renseignements : 06 81 80 05 73.",
+      "reader_question": "Quelle pratique du collectif le Papillon aurez-vous envie de découvrir ?",
       "_fallback": false
     },
     "practical": {
@@ -936,7 +933,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776483+00:00",
+    "generated_at": "2026-09-27T05:26:31.310350+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
@@ -970,11 +967,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776523+00:00",
+    "generated_at": "2026-09-27T05:26:31.310457+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
-    "hash": "f55c75fc03850e59c0ae3d71ade60daa9b5ea992298c5556dd24f5f650b2eeb6",
+    "hash": "3141c01c033e36edb8b03abfff6fe7ef9f7403c94500818fe9b1b8ccaad098ff",
     "slug": "theatre-sur-la-sante-mentale-2026-10-08",
     "event": {
       "title": "Théâtre sur la santé mentale",
@@ -982,17 +979,25 @@
       "end_date": "2026-10-08",
       "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/"
     },
     "editorial": {
-      "seo_title": "Théâtre Forum sur la santé mentale à Nyons",
+      "seo_title": "Théâtre forum sur la santé mentale à Nyons",
       "meta_description": "À Nyons, l’association Intervalle propose un Théâtre Forum sur la santé mentale, dans le cadre des semaines d’information dédiées.",
-      "intro": "L’association Intervalle propose un Théâtre Forum consacré à la santé mentale, à Nyons. Ce rendez-vous s’inscrit dans le cadre des semaines d’information sur la santé mentale et prend la forme d’un temps de théâtre dédié à ce sujet de santé et de solidarité.",
-      "story": "Le Théâtre Forum est porté par l’association Intervalle. Prévu le jeudi 8 octobre, il se déroule sur l’esplanade de la Médiathèque, à Nyons. La rencontre est organisée dans le cadre des semaines d’information sur la santé mentale, qui placent ce thème au cœur de l’événement. Une proposition théâtrale clairement tournée vers la sensibilisation autour de la santé mentale.",
-      "why_it_matters": "La santé mentale est le thème central de cette sortie proposée à Nyons. En s’appuyant sur le Théâtre Forum, l’association Intervalle inscrit ce rendez-vous dans les semaines d’information consacrées à ce sujet, entre santé et solidarité.",
-      "practical": "Jeudi 8 octobre 2026, de 11h à 12h. Esplanade de la Médiathèque, 26110 Nyons. Renseignements : 07 88 94 04 08.",
+      "intro": "Le Théâtre Forum de l’association Intervalle s’invite à Nyons autour de la santé mentale. Cette proposition culturelle s’inscrit dans le cadre des semaines d’information sur la santé mentale et se tient le jeudi 8 octobre 2026, sur l’esplanade de la Médiathèque.",
+      "story": "Porté par l’association Intervalle, ce Théâtre Forum place la santé mentale au cœur de son sujet. L’événement rejoint les semaines d’information consacrées à cette thématique, avec une représentation programmée en matinée à Nyons. Entre culture et solidarité, ce temps de théâtre trouve sa place sur l’esplanade de la Médiathèque, au centre de la ville.",
+      "why_it_matters": "La santé mentale est le thème central de ce Théâtre Forum. En l’inscrivant dans les semaines d’information dédiées, l’association Intervalle propose à Nyons un rendez-vous culturel directement lié à un sujet de santé et de solidarité.",
+      "practical": "Jeudi 8 octobre 2026, de 11h à 12h, sur l’esplanade de la Médiathèque, 26110 Nyons. Renseignements : 07 88 94 04 08.",
       "reader_question": "Souhaitez-vous assister à ce Théâtre Forum sur la santé mentale à Nyons ?",
       "_fallback": false
     },
@@ -1004,7 +1009,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:45.776558+00:00",
+    "generated_at": "2026-09-27T05:26:38.607360+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
@@ -1039,17 +1044,17 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:46.031167+00:00",
+    "generated_at": "2026-09-27T05:26:38.838127+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
-    "hash": "32529309a36ae7d3918b2dc41f737b5d6de8a66d529cab058d0f94dd0c8d2fba",
+    "hash": "9b68aec7974828a1a12c910f80ad7fac897ec4cefc841aeeb60474de93f9ae31",
     "slug": "lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09",
     "event": {
       "title": "Lectures par la MARPA de Rémuzat et Antoine Picard",
       "start_date": "2026-10-09",
       "end_date": "2026-10-09",
-      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Partiellement nuageux 17.3°C / 17.3°C Contact Recherche Mentions légales ",
+      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard",
       "categories": [
         "Patrimoine / Culture vivante",
         "Solidarité / Santé",
@@ -1058,13 +1063,13 @@
       "url": "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/"
     },
     "editorial": {
-      "seo_title": "Lectures à la Médiathèque de Nyons avec la MARPA",
-      "meta_description": "Le 9 octobre 2026, la Médiathèque de Nyons accueille des lectures proposées par la MARPA de Rémuzat et Antoine Picard, de 16h à 18h.",
-      "intro": "La Médiathèque de Nyons reçoit une séance de lectures proposée par la MARPA de Rémuzat et Antoine Picard. Ce rendez-vous culturel se tient le vendredi 9 octobre 2026, de 16h à 18h, au 9 rue Albin Vilhet. Deux heures autour de la lecture, au cœur de la ville.",
-      "story": "Intitulée « Lectures par la MARPA de Rémuzat et Antoine Picard », cette rencontre place la lecture au premier plan. Elle réunit la MARPA de Rémuzat et Antoine Picard à la Médiathèque de Nyons, dans le cadre d’un après-midi programmé de 16h à 18h. Inscrite à la fois dans les rubriques culture, patrimoine et culture vivante, ainsi que solidarité et santé, cette proposition prend place dans un équipement culturel bien connu des Nyonsais.",
-      "why_it_matters": "Cette séance offre un temps dédié aux textes et à leur partage, porté par la MARPA de Rémuzat et Antoine Picard. C’est une sortie culturelle simple, en centre-ville de Nyons, pour réserver un moment à l’écoute et à la lecture.",
+      "seo_title": "Lectures à Nyons avec la MARPA de Rémuzat",
+      "meta_description": "À Nyons, la Médiathèque accueille des lectures proposées par la MARPA de Rémuzat et Antoine Picard, vendredi 9 octobre 2026.",
+      "intro": "La Médiathèque de Nyons accueille un rendez-vous de lectures avec la MARPA de Rémuzat et Antoine Picard. Inscrite dans les rendez-vous de culture vivante, cette rencontre se tiendra le vendredi 9 octobre 2026, de 16h à 18h.",
+      "story": "Ces lectures réunissent la MARPA de Rémuzat et Antoine Picard à la Médiathèque, au 9 rue Albin Vilhet à Nyons. Pendant deux heures, ce temps culturel associe la lecture à une démarche placée aussi sous les thèmes de la solidarité et de la santé. Un rendez-vous à noter pour retrouver la parole lue au cœur de la ville.",
+      "why_it_matters": "Cette rencontre met la lecture à l’honneur tout en faisant se croiser culture vivante, solidarité et santé. Organisée à la Médiathèque de Nyons, elle propose un temps dédié aux lectures avec la participation de la MARPA de Rémuzat et d’Antoine Picard.",
       "practical": "Vendredi 9 octobre 2026, de 16h à 18h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Renseignements : 04 75 26 48 26 ou mddp-nyons@ladrome.fr.",
-      "reader_question": "Envie de consacrer votre vendredi après-midi à cette séance de lectures à la Médiathèque ?",
+      "reader_question": "Avez-vous envie d’assister à ces lectures avec la MARPA de Rémuzat et Antoine Picard ?",
       "_fallback": false
     },
     "practical": {
@@ -1075,7 +1080,7 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:52.738861+00:00",
+    "generated_at": "2026-09-27T05:26:45.013291+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
@@ -1111,17 +1116,17 @@
       "email": "tontonsriders26@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:53.033171+00:00",
+    "generated_at": "2026-09-27T05:26:45.236589+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
-    "hash": "7380af4e251e35517ffae1a5905fa990867e54f859b30d3b50cf6b6ad27d3657",
+    "hash": "fe12da6b8ed4546f4c8063bc2153ea91499620654d417e8fb4e615b3ba46b069",
     "slug": "atelier-jardin-zen-2026-10-10",
     "event": {
       "title": "Atelier Jardin Zen",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Atelier Jardin Zen dans le cadre des semaines d'information sur la santé mentale.",
+      "summary": "Atelier Jardin Zen dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 15.9°C / 15.9°C Contact Recher",
       "categories": [
         "Enfance / Jeunesse",
         "Solidarité / Santé",
@@ -1132,12 +1137,12 @@
     },
     "editorial": {
       "seo_title": "Atelier Jardin Zen à Nyons, autour de la santé mentale",
-      "meta_description": "À Nyons, l’Atelier Jardin Zen s’inscrit dans les semaines d’information sur la santé mentale, samedi 10 octobre 2026 de 10h30 à 12h.",
-      "intro": "L’Atelier Jardin Zen se tient à Nyons le samedi 10 octobre 2026. Proposé dans le cadre des semaines d’information sur la santé mentale, ce rendez-vous figure parmi les activités de loisirs, avec une place particulière accordée aux thématiques de solidarité et de santé.",
-      "story": "Pendant une heure et demie, de 10h30 à 12h, l’Atelier Jardin Zen prend place à la Médiathèque Drôme Provençale et au Cinéma Arlequin, au cœur de Nyons. Son inscription dans les semaines d’information sur la santé mentale donne à cette proposition un cadre précis : celui d’un temps consacré à cette thématique, dans un format d’atelier.",
-      "why_it_matters": "Cet atelier associe un moment de loisir à la dynamique des semaines d’information sur la santé mentale. C’est une sortie locale inscrite dans un programme qui met cette question au premier plan, à Nyons.",
+      "meta_description": "Participez à l’Atelier Jardin Zen à Nyons, samedi 10 octobre 2026, dans le cadre des semaines d’information sur la santé mentale.",
+      "intro": "L’Atelier Jardin Zen se tient à Nyons le samedi 10 octobre 2026. Proposé dans le cadre des semaines d’information sur la santé mentale, ce rendez-vous invite à prendre part à un atelier consacré au Jardin Zen, à la Médiathèque Drôme Provençale et au Cinéma Arlequin.",
+      "story": "Organisé pendant les semaines d’information sur la santé mentale, l’Atelier Jardin Zen est un rendez-vous inscrit à la fois dans les loisirs, le sport et les thématiques de solidarité et de santé. Il figure également parmi les propositions destinées à l’enfance et à la jeunesse. L’atelier se déroule en matinée, de 10h30 à 12h, à Nyons.",
+      "why_it_matters": "Cet atelier associe une activité de loisir à la thématique de la santé mentale. C’est une proposition locale intégrée aux semaines d’information sur la santé mentale, avec un créneau de 1h30 le samedi matin.",
       "practical": "Samedi 10 octobre 2026, de 10h30 à 12h. Médiathèque Drôme Provençale, 9 rue Albin Vilhet, et Cinéma Arlequin, place de la Libération, 26110 Nyons. Tél. : 07 88 94 04 08.",
-      "reader_question": "Souhaitez-vous participer à l’Atelier Jardin Zen du 10 octobre à Nyons ?",
+      "reader_question": "Souhaitez-vous participer à l’Atelier Jardin Zen du samedi matin ?",
       "_fallback": false
     },
     "practical": {
@@ -1148,7 +1153,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:53.033253+00:00",
+    "generated_at": "2026-09-27T05:26:52.098697+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
@@ -1184,29 +1189,29 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:53.033310+00:00",
+    "generated_at": "2026-09-27T05:26:52.098806+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
-    "hash": "f4e99156d697d9f5fc080a690c1a652047ccf089584d727bb86a44bab726b3f5",
+    "hash": "4ff0efdb389af083e3acba9c1b8d6839334f5f910ee8472d02f6dd0cd037b3c3",
     "slug": "conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes-2026-10-10",
     "event": {
       "title": "Conférence-discussion sur les directives anticipées et les dernières volontés",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Partiellement nuageux 17.3°C / 17.3°C Contact Recherche Mentions légales Politique d",
+      "summary": "Dans le cadre de la Semaine Bleue 2026.",
       "categories": [
         "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/"
     },
     "editorial": {
-      "seo_title": "À Nyons, une conférence sur les directives anticipées",
-      "meta_description": "Une conférence-discussion à Nyons sur les directives anticipées et les dernières volontés, organisée dans le cadre de la Semaine Bleue 2026.",
-      "intro": "La Maison de Pays accueille à Nyons une conférence-discussion consacrée aux directives anticipées et aux dernières volontés. Ce rendez-vous s’inscrit dans le cadre de la Semaine Bleue 2026 et propose un temps dédié à ces deux sujets, le samedi 10 octobre après-midi.",
-      "story": "Cette conférence-discussion porte sur les directives anticipées et les dernières volontés. Organisée pendant la Semaine Bleue 2026, elle se déroule à la Maison de Pays, sur la promenade de la Digue à Nyons. Le format annoncé associe conférence et discussion autour de ces questions. La rencontre est prévue sur un créneau de deux heures, de 14h30 à 16h30.",
-      "why_it_matters": "Les directives anticipées et les dernières volontés sont au cœur de cette rencontre proposée dans le cadre de la Semaine Bleue. C’est un rendez-vous local consacré à des sujets qui touchent aux choix et aux volontés de chacun.",
-      "practical": "Samedi 10 octobre 2026, de 14h30 à 16h30. Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Contact : 06 03 82 15 00 ou contact@thanatosphere.fr.",
+      "seo_title": "Directives anticipées : une conférence à Nyons",
+      "meta_description": "À Nyons, une conférence-discussion de la Semaine Bleue 2026 autour des directives anticipées et des dernières volontés, le 10 octobre.",
+      "intro": "La Maison de Pays accueille à Nyons une conférence-discussion consacrée aux directives anticipées et aux dernières volontés. Ce rendez-vous du samedi 10 octobre 2026 s’inscrit dans le cadre de la Semaine Bleue 2026 et propose deux heures de rencontre autour de ces deux sujets.",
+      "story": "Cette rencontre associe une conférence et un temps de discussion. Son intitulé met au premier plan les directives anticipées ainsi que les dernières volontés. Prévue à Nyons, elle prend place à la Maison de Pays, sur la promenade de la Digue. Le rendez-vous est fixé le samedi 10 octobre 2026, de 14h30 à 16h30, dans le cadre de la Semaine Bleue 2026.",
+      "why_it_matters": "Cette conférence-discussion offre un temps spécifiquement consacré aux directives anticipées et aux dernières volontés. À Nyons, elle s’inscrit dans la programmation de la Semaine Bleue 2026 et rassemble les deux formats annoncés : conférence et discussion.",
+      "practical": "Samedi 10 octobre 2026, de 14h30 à 16h30, à la Maison de Pays, 128 promenade de la Digue à Nyons. Contact : 06 03 82 15 00 — contact@thanatosphere.fr.",
       "reader_question": "Souhaitez-vous participer à cette conférence-discussion sur les directives anticipées ?",
       "_fallback": false
     },
@@ -1218,11 +1223,11 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.069733+00:00",
+    "generated_at": "2026-09-27T05:27:03.641612+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
-    "hash": "ce394806dd2af4892fe07641b8b3d25ce57a4497b60d4a4f57293a802a3d67a9",
+    "hash": "4c7088183b71455e3793d0fa2d138089f6263e5242542444be4da19086696a78",
     "slug": "constellations-familiales-2026-10-10",
     "event": {
       "title": "Constellations familiales",
@@ -1230,18 +1235,26 @@
       "end_date": "2026-10-10",
       "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/constellations-familiales-2/"
     },
     "editorial": {
-      "seo_title": "Constellations familiales à Nyons : une démarche collective",
-      "meta_description": "À Nyons, les constellations familiales proposent un temps autour des histoires, schémas et bagages émotionnels transmis par les ancêtres.",
-      "intro": "Le collectif le Papillon accueille à Nyons une rencontre consacrée aux constellations familiales. Cette démarche s’intéresse à ce que nous recevons de nos ancêtres au-delà des traits physiques : leurs histoires, leurs schémas et leurs bagages émotionnels. Le rendez-vous est présenté comme un moment de libération, tout en laissant une place à l’hommage rendu aux générations qui nous ont précédés.",
-      "story": "Les constellations familiales mettent ici au centre les transmissions familiales. L’événement invite à considérer les héritages qui peuvent circuler d’une génération à l’autre, qu’il s’agisse d’histoires, de schémas ou de charges émotionnelles. Cette rencontre associe deux dimensions indiquées dans sa présentation : la libération et l’hommage aux ancêtres. Elle s’inscrit dans la vie associative locale, au sein du collectif le Papillon, avenue Jules Bernard à Nyons.",
-      "why_it_matters": "C’est une sortie destinée à celles et ceux qui souhaitent prendre un temps autour de l’histoire familiale et des transmissions émotionnelles. L’approche proposée relie le regard porté sur les ancêtres à une démarche de libération, dans un cadre associatif nyonsais.",
+      "seo_title": "Constellations familiales : un temps à Nyons",
+      "meta_description": "À Nyons, les constellations familiales proposent un temps autour des histoires, schémas et bagages émotionnels hérités des ancêtres.",
+      "intro": "Les constellations familiales se tiennent à Nyons le samedi 10 octobre 2026. Ce rendez-vous s’intéresse à ce que chacun peut recevoir de son histoire familiale, au-delà des seuls traits physiques : récits, schémas et bagages émotionnels transmis par les ancêtres. La rencontre est présentée comme un moment de libération, tout en laissant une place à l’hommage.",
+      "story": "Nos ancêtres ne nous transmettent pas seulement une ressemblance ou un nom de famille. L’événement « Constellations familiales » met au centre les histoires familiales, les schémas et les bagages émotionnels qui peuvent se transmettre d’une génération à l’autre. Il propose d’aborder ces héritages dans une double démarche : chercher un espace de libération et rendre hommage à celles et ceux qui nous précèdent. Une rencontre consacrée aux liens entre parcours personnel et histoire familiale.",
+      "why_it_matters": "Cette sortie invite à regarder autrement ce qui vient de la famille : non seulement les traits visibles, mais aussi les récits et les schémas hérités. À Nyons, elle offre un temps dédié à cette réflexion, entre libération et hommage aux ancêtres.",
       "practical": "Samedi 10 octobre 2026, de 13h30 à 19h30. Le collectif le Papillon, 10 avenue Jules Bernard, 26110 Nyons. Tél. : 06 47 18 92 87.",
-      "reader_question": "Quelle place les histoires de vos ancêtres occupent-elles dans votre propre parcours ?",
+      "reader_question": "Quels héritages familiaux aimeriez-vous mieux comprendre ?",
       "_fallback": false
     },
     "practical": {
@@ -1252,7 +1265,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.069832+00:00",
+    "generated_at": "2026-09-27T05:27:11.149471+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
@@ -1288,7 +1301,7 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.069887+00:00",
+    "generated_at": "2026-09-27T05:27:11.149587+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
@@ -1323,7 +1336,7 @@
       "email": "contact@larboretum.co",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.325109+00:00",
+    "generated_at": "2026-09-27T05:27:11.381792+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
@@ -1359,7 +1372,7 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.325214+00:00",
+    "generated_at": "2026-09-27T05:27:11.381902+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
@@ -1395,11 +1408,11 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.325268+00:00",
+    "generated_at": "2026-09-27T05:27:11.381981+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
-    "hash": "0c614c23ccc51e863e0143bb779db7ce8f1a5f0d5dec3ecf25915245500a76b3",
+    "hash": "02b301d6520aede7dfb548cfa260c98612f2dee528f654d8673a88a77e9a3d84",
     "slug": "spectacle-papillon-noir-2026-10-10",
     "event": {
       "title": "Spectacle « Papillon noir »",
@@ -1407,26 +1420,18 @@
       "end_date": "2026-10-10",
       "summary": "Dans le cadre de la Semaine Bleue 2026.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/spectacle-papillon-noir/"
     },
     "editorial": {
-      "seo_title": "« Papillon noir », un spectacle à Nyons en octobre",
-      "meta_description": "À Nyons, le spectacle « Papillon noir » se tient samedi 10 octobre 2026, de 17h à 18h, à la Maison de Pays, dans le cadre de la Semaine Bleue.",
-      "intro": "Le spectacle « Papillon noir » est proposé à Nyons le samedi 10 octobre 2026. Ce rendez-vous culturel s’inscrit dans le cadre de la Semaine Bleue 2026 et se déroule à la Maison de Pays, sur la promenade de la Digue. Une heure est prévue pour découvrir ce spectacle, de 17h à 18h.",
-      "story": "« Papillon noir » figure au programme de la Semaine Bleue 2026 à Nyons. Le spectacle est accueilli à la Maison de Pays, au 128 promenade de la Digue. Il se tient le samedi 10 octobre, en fin d’après-midi, avec un créneau fixé de 17h à 18h. Cette date unique place le rendez-vous au cœur de la programmation locale annoncée pour la Semaine Bleue.",
-      "why_it_matters": "Ce spectacle offre un rendez-vous culturel identifié dans le cadre de la Semaine Bleue 2026. Avec un horaire d’une heure et un lieu central à Nyons, « Papillon noir » constitue une sortie clairement inscrite au programme du samedi 10 octobre.",
+      "seo_title": "Papillon noir, un spectacle à Nyons pour la Semaine Bleue",
+      "meta_description": "Le spectacle « Papillon noir » est proposé à Nyons le samedi 10 octobre 2026, dans le cadre de la Semaine Bleue 2026.",
+      "intro": "Le spectacle « Papillon noir » se tiendra à Nyons le samedi 10 octobre 2026. Ce rendez-vous, inscrit dans le cadre de la Semaine Bleue 2026, prendra place à la Maison de Pays, sur la promenade de la Digue.",
+      "story": "Pendant une heure, de 17h à 18h, la Maison de Pays accueillera « Papillon noir ». Le spectacle s’inscrit dans la programmation de la Semaine Bleue 2026. C’est un rendez-vous fixé au samedi 10 octobre, au cœur de Nyons, à l’adresse de la Maison de Pays : 128 promenade de la Digue.",
+      "why_it_matters": "« Papillon noir » offre un temps de spectacle associé à la Semaine Bleue 2026 à Nyons. Une sortie clairement identifiée dans l’agenda du samedi 10 octobre, à la Maison de Pays.",
       "practical": "Samedi 10 octobre 2026, de 17h à 18h. Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Contact : 06 03 82 15 00 · contact@thanatosphere.fr.",
-      "reader_question": "Prévoyez-vous d’assister à « Papillon noir » à la Maison de Pays ?",
+      "reader_question": "Prévoyez-vous d’assister au spectacle « Papillon noir » à la Maison de Pays ?",
       "_fallback": false
     },
     "practical": {
@@ -1437,7 +1442,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.325316+00:00",
+    "generated_at": "2026-09-27T05:27:17.773356+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
@@ -1473,7 +1478,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.325371+00:00",
+    "generated_at": "2026-09-27T05:27:17.773473+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
@@ -1508,11 +1513,11 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.583426+00:00",
+    "generated_at": "2026-09-27T05:27:18.000271+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
-    "hash": "00be3aeab8e64467ed7d85d2e06d7f64aa75c2d0acae37c7d186ee9132eafea4",
+    "hash": "b4ad2a747bfa1191cfbe5b50d777b73d9aa727fc4ea5bcf3b5b1f0da45bef75d",
     "slug": "une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11",
     "event": {
       "title": "« Une soirée à Vienne » : concert du « Page Blanche Quartet »",
@@ -1520,26 +1525,19 @@
       "end_date": "2026-10-11",
       "summary": "Concert du \"Page Blanche Quartet\" dans le cadre de la 4e édition du Festival Page Blanche, à l'Église Saint-Vincent, 17h.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/"
     },
     "editorial": {
-      "seo_title": "Concert « Une soirée à Vienne » à Nyons",
+      "seo_title": "« Une soirée à Vienne » en concert à Nyons",
       "meta_description": "Le Page Blanche Quartet joue « Une soirée à Vienne » à l’Église Saint-Vincent de Nyons, dimanche 11 octobre 2026 à 17h.",
-      "intro": "Le Page Blanche Quartet donne le concert « Une soirée à Vienne » à Nyons, dans le cadre de la 4e édition du Festival Page Blanche. Le rendez-vous se tient le dimanche 11 octobre 2026 à l’Église Saint-Vincent, pour un concert programmé de 17h à 19h.",
-      "story": "« Une soirée à Vienne » met à l’affiche le Page Blanche Quartet pour une étape du Festival Page Blanche. Cette 4e édition accueille le quartet à l’Église Saint-Vincent de Nyons, un lieu au cœur de la ville pour ce rendez-vous culturel du dimanche après-midi. Le concert débutera à 17h et se poursuivra jusqu’à 19h. Une date à retenir pour entendre le Page Blanche Quartet dans le cadre du festival.",
-      "why_it_matters": "Ce concert réunit à Nyons le Page Blanche Quartet et la 4e édition du Festival Page Blanche. Installé à l’Église Saint-Vincent, « Une soirée à Vienne » propose un rendez-vous culturel dominical, de 17h à 19h.",
-      "practical": "Dimanche 11 octobre 2026, de 17h à 19h. Église Saint-Vincent, 26110 Nyons. Renseignements : 07 72 06 44 86.",
-      "reader_question": "Serez-vous à l’Église Saint-Vincent pour « Une soirée à Vienne » ?",
+      "intro": "Le Page Blanche Quartet donne le concert « Une soirée à Vienne » à Nyons, dans le cadre de la 4e édition du Festival Page Blanche. Le rendez-vous se tient le dimanche 11 octobre 2026 à l’Église Saint-Vincent, pour une soirée placée sous le signe de la culture vivante.",
+      "story": "« Une soirée à Vienne » est le titre du concert proposé par le Page Blanche Quartet lors de cette 4e édition du Festival Page Blanche. Le quartet investit l’Église Saint-Vincent de Nyons le temps d’un rendez-vous musical programmé de 17h à 19h. Inscrit dans les catégories Patrimoine / Culture vivante et Culture, ce concert trouve naturellement sa place dans ce cadre emblématique de la ville.",
+      "why_it_matters": "C’est une occasion de retrouver le Festival Page Blanche à Nyons autour d’un concert porté par le Page Blanche Quartet. Le cadre de l’Église Saint-Vincent ajoute une dimension patrimoniale à cette sortie culturelle du dimanche en fin d’après-midi.",
+      "practical": "Dimanche 11 octobre 2026, de 17h à 19h, à l’Église Saint-Vincent, 26110 Nyons. Renseignements : 07 72 06 44 86.",
+      "reader_question": "Serez-vous au concert « Une soirée à Vienne » du Page Blanche Quartet ?",
       "_fallback": false
     },
     "practical": {
@@ -1550,7 +1548,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:41:59.583549+00:00",
+    "generated_at": "2026-09-27T05:27:25.264585+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
@@ -1582,7 +1580,7 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:00.543495+00:00",
+    "generated_at": "2026-09-27T05:27:26.522600+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
@@ -1616,7 +1614,7 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:00.543563+00:00",
+    "generated_at": "2026-09-27T05:27:26.522711+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
@@ -1651,17 +1649,17 @@
       "email": "indigolive@hotmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:00.543611+00:00",
+    "generated_at": "2026-09-27T05:27:26.522802+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
-    "hash": "a891280ace4a1a2499211a62ea35ad8b8ced0873099990779bdce73296e3beaa",
+    "hash": "51930fa6fc184f14ceb9bea718668e2ddb1deb9f55a4447c856a3a1649e6dbaf",
     "slug": "les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel-2026-10-14",
     "event": {
       "title": "Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »",
       "start_date": "2026-10-14",
       "end_date": "2026-10-14",
-      "summary": "Projection suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque, ayant rencontré tous les protagonistes ou leurs proches",
+      "summary": "Projection suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque, ayant rencontré tous les protagonistes ou leurs proches 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 N",
       "categories": [
         "Patrimoine / Culture vivante",
         "Vie associative",
@@ -1670,13 +1668,13 @@
       "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/"
     },
     "editorial": {
-      "seo_title": "Documentaire sur l’Opéra de Lyon à Nyons avec l’UNTL",
-      "meta_description": "À Nyons, l’UNTL propose la projection du documentaire « L’Opéra de Lyon – Jean Nouvel », suivie d’un échange avec le réalisateur Michel Van Zèle.",
-      "intro": "L’UNTL propose à Nyons une soirée documentaire consacrée à « L’Opéra de Lyon – Jean Nouvel ». La projection sera suivie d’un échange animé par le réalisateur Michel Van Zèle. Un rendez-vous culturel qui associe le regard du film à la parole de celui qui l’a réalisé, autour de l’Opéra de Lyon et de Jean Nouvel.",
-      "story": "Michel Van Zèle animera l’échange après la projection. Le réalisateur est présenté comme un témoin privilégié d’une époque : il a rencontré tous les protagonistes du documentaire ou leurs proches. Cette rencontre prolonge donc la séance par un temps de discussion avec un professionnel directement lié au sujet traité. Dans le cadre des documentaires de l’UNTL, la soirée met en avant un regard de réalisateur sur l’Opéra de Lyon et Jean Nouvel.",
-      "why_it_matters": "Cette projection offre l’occasion de découvrir un documentaire puis d’en parler avec Michel Van Zèle. La présence du réalisateur donne un relief particulier à l’échange, nourri par ses rencontres avec les protagonistes ou leurs proches. Une sortie culturelle à partager à Nyons autour du patrimoine et de la création.",
-      "practical": "Mercredi 14 octobre 2026, de 18h30 à 20h30, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
-      "reader_question": "Souhaitez-vous échanger avec le réalisateur Michel Van Zèle après la projection ?",
+      "seo_title": "Documentaire sur l’Opéra de Lyon à Nyons",
+      "meta_description": "À Nyons, l’UNTL propose le documentaire « L’Opéra de Lyon - Jean Nouvel », suivi d’un échange avec le réalisateur Michel Van Zèle.",
+      "intro": "La Maison de Pays de Nyons accueille une projection des Documentaires de l’UNTL consacrée à « L’Opéra de Lyon - Jean Nouvel ». La séance se prolonge par un échange animé par le réalisateur Michel Van Zèle, témoin privilégié de l’époque évoquée dans le film.",
+      "story": "Ce documentaire s’intéresse à l’Opéra de Lyon et à Jean Nouvel. Après la projection, Michel Van Zèle viendra échanger avec le public. Le réalisateur a rencontré les protagonistes de cette période ou leurs proches, apportant son regard de témoin sur le sujet. Cette rencontre s’inscrit dans les rendez-vous documentaires proposés par l’UNTL à Nyons.",
+      "why_it_matters": "C’est une occasion de découvrir un documentaire consacré à un lieu majeur de la culture et à l’architecte Jean Nouvel, puis de dialoguer directement avec son réalisateur. Le temps d’échange donne toute sa place au regard de Michel Van Zèle sur les personnes liées à cette époque.",
+      "practical": "Mercredi 14 octobre 2026, de 18h30 à 20h30, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
+      "reader_question": "Souhaitez-vous assister à l’échange avec le réalisateur Michel Van Zèle après la projection ?",
       "_fallback": false
     },
     "practical": {
@@ -1687,11 +1685,11 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:00.543664+00:00",
+    "generated_at": "2026-09-27T05:27:32.625531+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
-    "hash": "fdc4a57c8ac53b5a3e526bcb203f6c990c5b522d16eb62df7390b054371284d0",
+    "hash": "303d209ca383ca0fa06176c8a0b29d3d1239a84080940d76d63f6167d5b155d6",
     "slug": "stands-sur-la-sante-mentale-et-mad-pride-2026-10-15",
     "event": {
       "title": "Stands sur la santé mentale et « Mad Pride »",
@@ -1699,19 +1697,26 @@
       "end_date": "2026-10-15",
       "summary": "Stands des associations et des structures du territoire et \"Mad Pride\" dans le cadre des semaines d'information sur la santé mentale.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/"
     },
     "editorial": {
-      "seo_title": "Santé mentale et Mad Pride au marché de Nyons",
-      "meta_description": "Le 15 octobre 2026, retrouvez à Nyons les stands d’associations et structures du territoire, avec une Mad Pride dédiée à la santé mentale.",
-      "intro": "Jeudi 15 octobre, le marché de Nyons accueille des stands consacrés à la santé mentale, portés par des associations et des structures du territoire. La journée comprend aussi une « Mad Pride ». Ce rendez-vous s’inscrit dans le cadre des Semaines d’information sur la santé mentale et rassemble, sur une même matinée, les acteurs locaux concernés par ce sujet.",
-      "story": "De 8h à 13h, les stands prennent place au marché de Nyons. Associations et structures du territoire y participent autour de la santé mentale, dans le cadre des Semaines d’information sur la santé mentale. La « Mad Pride » fait également partie du rendez-vous. L’événement associe ainsi présence associative et information sur un thème de santé, directement au cœur du marché.",
-      "why_it_matters": "Cette matinée met en lumière les associations et structures du territoire engagées autour de la santé mentale. Installée au marché, elle propose un temps identifié dans le cadre des Semaines d’information sur la santé mentale, avec la « Mad Pride » au programme.",
-      "practical": "Jeudi 15 octobre 2026, de 8h à 13h, au marché, 26110 Nyons. Renseignements : 07 88 94 04 08. Site : service-public.gouv.fr.",
-      "reader_question": "Souhaitez-vous rencontrer les associations et structures présentes au marché de Nyons ?",
+      "seo_title": "Stands santé mentale et Mad Pride à Nyons",
+      "meta_description": "À Nyons, stands d’associations et de structures du territoire, avec une Mad Pride, dans le cadre des semaines d’information sur la santé mentale.",
+      "intro": "Jeudi 15 octobre, le marché de Nyons accueille des stands consacrés à la santé mentale. Associations et structures du territoire y prennent place dans le cadre des semaines d’information sur la santé mentale. La matinée comprend également une « Mad Pride », annoncée au programme de ce rendez-vous local.",
+      "story": "Cette initiative rassemble, sur le marché de Nyons, des associations et des structures du territoire autour de la santé mentale. Les stands sont proposés durant les semaines d’information sur la santé mentale, avec une « Mad Pride » associée à la matinée. Le rendez-vous se tient le jeudi 15 octobre, de 8 h à 13 h, au marché de Nyons.",
+      "why_it_matters": "Cette matinée met en avant les acteurs du territoire engagés autour de la santé mentale. Elle inscrit aussi Nyons dans le cadre des semaines d’information dédiées à ce sujet, avec des stands et une « Mad Pride » réunis au marché.",
+      "practical": "Jeudi 15 octobre 2026, de 8 h à 13 h. Marché, 26110 Nyons. Téléphone : 07 88 94 04 08.",
+      "reader_question": "Irez-vous découvrir les stands sur la santé mentale au marché de Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -1722,11 +1727,11 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:00.543707+00:00",
+    "generated_at": "2026-09-27T05:27:40.634147+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
-    "hash": "9bbd1a86045b9804e588d49fd882cec78dca8eb4dd7f60b93374f2df0c5dd82f",
+    "hash": "62a223f5ab5eb67345e50a77ba7489905eb964bbd4ab836a4ce6d3065f257e75",
     "slug": "atelier-sur-les-rituels-funeraires-2026-10-16",
     "event": {
       "title": "Atelier sur les rituels funéraires",
@@ -1734,18 +1739,19 @@
       "end_date": "2026-10-16",
       "summary": "Dans le cadre de la Semaine Bleue 2026.",
       "categories": [
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/"
     },
     "editorial": {
-      "seo_title": "Rituels funéraires : un atelier à Nyons en octobre",
-      "meta_description": "À Nyons, un atelier sur les rituels funéraires s’inscrit dans la Semaine Bleue 2026, vendredi 16 octobre, de 10h à 12h.",
-      "intro": "La Maison des possilbes accueille à Nyons un atelier consacré aux rituels funéraires, le vendredi 16 octobre 2026. Cette rencontre prend place dans le cadre de la Semaine Bleue 2026. Deux heures sont prévues en matinée pour aborder ce thème, de 10h à 12h.",
-      "story": "Intitulé « Atelier sur les rituels funéraires », ce rendez-vous se tient à la Maison des possilbes, rue Pierre Toesca à Nyons. Il est inscrit dans la programmation de la Semaine Bleue 2026, sous la catégorie Solidarité / Santé. L’atelier est programmé sur une seule matinée, le vendredi 16 octobre, avec un créneau allant de 10h à midi.",
-      "why_it_matters": "Les rituels funéraires constituent le sujet central de cet atelier proposé pendant la Semaine Bleue 2026 à Nyons. C’est un rendez-vous local clairement identifié autour d’une question liée à la solidarité et à la santé.",
-      "practical": "Vendredi 16 octobre 2026, de 10h à 12h. Maison des possilbes, 16-18 rue Pierre Toesca, 26110 Nyons. Contact : 06 03 82 15 00 · contact@thanatosphere.fr.",
-      "reader_question": "Souhaitez-vous participer à cet atelier sur les rituels funéraires à Nyons ?",
+      "seo_title": "À Nyons, un atelier sur les rituels funéraires",
+      "meta_description": "Dans le cadre de la Semaine Bleue 2026, Nyons accueille un atelier consacré aux rituels funéraires, vendredi 16 octobre de 10h à 12h.",
+      "intro": "La Semaine Bleue 2026 propose à Nyons un atelier sur les rituels funéraires. Classé dans les rubriques Solidarité / Santé et Culture, ce rendez-vous se tient le vendredi 16 octobre, en matinée, à la Maison des possilbes, rue Pierre Toesca.",
+      "story": "Cet atelier met les rituels funéraires au centre de la rencontre. Il s’inscrit dans le cadre de la Semaine Bleue 2026 et prend place à Nyons le temps d’une matinée, de 10h à 12h. Son intitulé associe une thématique liée à la solidarité et à la santé avec une dimension culturelle, pour un rendez-vous clairement consacré aux rites funéraires.",
+      "why_it_matters": "Les rituels funéraires font partie des sujets qui touchent à la fois à la vie collective, à la santé et à la culture. Cet atelier inscrit dans la Semaine Bleue offre à Nyons un temps spécifiquement dédié à cette thématique.",
+      "practical": "Vendredi 16 octobre 2026, de 10h à 12h. Maison des possilbes, 16-18 rue Pierre Toesca, 26110 Nyons. Contact : 06 03 82 15 00 — contact@thanatosphere.fr.",
+      "reader_question": "Les rituels funéraires sont-ils un sujet que vous souhaitez aborder en atelier ?",
       "_fallback": false
     },
     "practical": {
@@ -1756,17 +1762,17 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:00.543744+00:00",
+    "generated_at": "2026-09-27T05:27:49.165275+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
-    "hash": "012d7186fe31375b3e7623fe7a05dc668b7934c7b41e1c7a895ac00268bde1b0",
+    "hash": "3cafa7b0f69e6bbbc18285e9b8d54e0fca1eeba410e808b24361b3f53ad7b1a9",
     "slug": "soiree-de-presentation-de-nyons-en-scene-2026-10-16",
     "event": {
       "title": "Soirée de présentation de « Nyons en scène »",
       "start_date": "2026-10-16",
       "end_date": "2026-10-16",
-      "summary": "Présentation de la nouvelle saison culturelle municipale. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Partiellement nuageux 17.3°C / 17.3°C Contact Recherche Mentions l",
+      "summary": "Présentation de la nouvelle saison culturelle municipale.",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -1775,12 +1781,12 @@
     },
     "editorial": {
       "seo_title": "Nyons en scène : présentation de la saison culturelle",
-      "meta_description": "Découvrez à Nyons la nouvelle saison culturelle municipale lors de la soirée de présentation de Nyons en scène, le vendredi 16 octobre 2026.",
-      "intro": "La ville de Nyons donne rendez-vous au public pour la soirée de présentation de « Nyons en scène », consacrée à sa nouvelle saison culturelle municipale. Ce temps de rencontre se tiendra le vendredi 16 octobre, à la Maison de Pays, sur la promenade de la Digue. Une soirée dédiée à la culture vivante et aux rendez-vous à venir dans la commune.",
-      "story": "« Nyons en scène » ouvre sa nouvelle saison culturelle municipale avec une présentation organisée en soirée. Inscrit dans les rendez-vous de culture et de patrimoine vivant, l’événement propose de découvrir la saison portée par la ville de Nyons. Le cadre choisi, la Maison de Pays, accueillera ce moment de présentation entre 19 heures et 21 heures. C’est un rendez-vous directement lié à la vie culturelle nyonsaise et à sa programmation municipale.",
-      "why_it_matters": "Cette soirée permet de prendre connaissance de la nouvelle saison culturelle municipale de Nyons. Pour les habitants qui suivent les propositions artistiques et culturelles de la ville, c’est une occasion de se retrouver autour de « Nyons en scène » et de découvrir ce nouvel élan de saison.",
-      "practical": "Vendredi 16 octobre 2026, de 19h à 21h. Maison de Pays, promenade de la Digue, 26110 Nyons. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
-      "reader_question": "Souhaitez-vous découvrir la nouvelle saison culturelle municipale de Nyons ?",
+      "meta_description": "À Nyons, une soirée présente la nouvelle saison culturelle municipale « Nyons en scène », vendredi 16 octobre 2026 à la Maison de Pays.",
+      "intro": "La soirée de présentation de « Nyons en scène » ouvre un rendez-vous consacré à la nouvelle saison culturelle municipale. Organisée à la Maison de Pays, sur la promenade de la Digue à Nyons, elle propose de découvrir cette saison portée par la ville. Un temps dédié à la culture vivante, pour prendre connaissance de « Nyons en scène ».",
+      "story": "« Nyons en scène » est le nom de la saison culturelle municipale présentée lors de cette soirée. Le rendez-vous se tient le vendredi 16 octobre 2026, de 19h à 21h, à la Maison de Pays. Inscrite dans les thématiques Patrimoine / Culture vivante et Culture, cette présentation met la nouvelle saison culturelle de Nyons au premier plan. C’est une soirée clairement tournée vers la découverte de cette programmation municipale.",
+      "why_it_matters": "Cette soirée offre un point d’entrée direct dans la nouvelle saison culturelle municipale de Nyons. Elle réunit, en un même rendez-vous, la présentation de « Nyons en scène » et l’occasion de se familiariser avec cette proposition culturelle locale.",
+      "practical": "Vendredi 16 octobre 2026, de 19h à 21h. Maison de Pays, promenade de la Digue, 26110 Nyons. Contact : 04 75 26 50 10 ou l.flouret@nyons.com.",
+      "reader_question": "Souhaitez-vous découvrir la nouvelle saison culturelle municipale « Nyons en scène » ?",
       "_fallback": false
     },
     "practical": {
@@ -1791,7 +1797,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T23:42:07.788047+00:00",
+    "generated_at": "2026-09-27T05:27:55.996748+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
@@ -1827,17 +1833,229 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:50:56.497388+00:00",
+    "generated_at": "2026-09-27T05:27:55.996860+00:00",
     "model": "gpt-5.6-terra"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
-    "hash": "467472113550ac0e66a039401c1b2a855fae73b81d76b80d350fcd034c89dce1",
+    "hash": "f1c72fb473375beab8174561800e527a461ab694e926b8b8b23c49912cc94ccd",
     "slug": "journee-de-cloture-des-vendanges-2026-10-17",
     "event": {
       "title": "Journée de clôture des vendanges",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
       "summary": "Journée de clôture des vendanges et « Vignoble en Scène » au domaine Rocheville",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/"
+    },
+    "editorial": {
+      "seo_title": "Clôture des vendanges au domaine Rocheville à Nyons",
+      "meta_description": "Le domaine Rocheville à Nyons accueille une journée de clôture des vendanges et « Vignoble en Scène », samedi 17 octobre 2026.",
+      "intro": "Le domaine Rocheville, à Nyons, organise une journée de clôture des vendanges le samedi 17 octobre 2026. Cette rendez-vous associe la fin des vendanges à « Vignoble en Scène », dans le cadre d’une journée consacrée au vignoble et à la culture vivante.",
+      "story": "De 9h à 16h, le domaine Rocheville ouvre cette journée de clôture des vendanges au 117 route de Montélimar. L’événement porte aussi le nom de « Vignoble en Scène », une appellation qui accompagne cette date de fin de vendanges au sein du domaine nyonsais. Inscrite dans les thèmes du patrimoine, de la culture vivante et de la culture, cette journée met le vignoble au centre du rendez-vous.",
+      "why_it_matters": "Les vendanges sont un temps fort dans la vie d’un domaine viticole. À Nyons, cette journée de clôture au domaine Rocheville propose un rendez-vous directement lié au vignoble local et à la culture vivante.",
+      "practical": "Samedi 17 octobre 2026, de 9h à 16h, au domaine Rocheville, 117 route de Montélimar, 26110 Nyons. Contact : 04 75 26 35 20 — contact@domainerocheville.com.",
+      "reader_question": "Avez-vous envie de marquer la fin des vendanges au domaine Rocheville ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Samedi 17 octobre 2026 de 09h00 à 16h00",
+      "location_name": "Domaine Rocheville,",
+      "address": "117 route de Montélimar, 26110 Nyons",
+      "phone": "0475263520",
+      "email": "contact@domainerocheville.com",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:00.991382+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/": {
+    "hash": "cfecd487d36547a5d3677566bb285c33d3f8ee3f1c1eb39714f622ea709f0e38",
+    "slug": "tournoi-de-belote-du-comite-des-fetes-2026-10-17",
+    "event": {
+      "title": "Tournoi de belote du Comité des Fêtes",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "summary": "Tournoi de belote du Comité des Fêtes",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/"
+    },
+    "editorial": {
+      "seo_title": "Tournoi de belote du Comité des Fêtes à Nyons",
+      "meta_description": "Le Comité des Fêtes organise un tournoi de belote à Nyons, samedi 17 octobre 2026, de 13h30 à 16h00.",
+      "intro": "Les cartes seront sur la table à Nyons avec le tournoi de belote proposé par le Comité des Fêtes. Ce rendez-vous de loisirs et de vie associative se tient le samedi 17 octobre 2026, de 13h30 à 16h00. Une après-midi consacrée à la belote, portée par le Comité des Fêtes.",
+      "story": "Le tournoi de belote du Comité des Fêtes est un rendez-vous dédié au jeu de cartes. Inscrit à la fois dans les loisirs, le sport et la vie associative, il rassemble l’activité autour d’une même partie : jouer à la belote dans le cadre d’un tournoi. L’événement est organisé par le Comité des Fêtes et se déroule sur l’après-midi du samedi 17 octobre 2026.",
+      "why_it_matters": "La belote reste un jeu simple à partager, où l’attention se porte sur les annonces, les plis et le plaisir de la partie. Ce tournoi donne au Comité des Fêtes l’occasion de proposer un rendez-vous de loisirs associatif à Nyons.",
+      "practical": "Samedi 17 octobre 2026, de 13h30 à 16h00. Renseignements auprès du Comité des Fêtes : 06 15 30 89 47 ou comitedesfetesetdeloisirs@sfr.fr.",
+      "reader_question": "Serez-vous de la partie pour ce tournoi de belote à Nyons ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Samedi 17 octobre 2026 de 13h30 à 16h00",
+      "location_name": "",
+      "address": "",
+      "phone": "0615308947",
+      "email": "comitedesfetesetdeloisirs@sfr.fr",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:07.694804+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/": {
+    "hash": "18e5fb64381759bc7e450701534ab1a0eecf46efd4084416bfab2be54977143e",
+    "slug": "trail-de-nyons-et-baronnies-2026-10-17",
+    "event": {
+      "title": "Trail de Nyons et Baronnies",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "summary": "Courses de trail 40km, 22km, 9,5 km / Randonnée 9,5 km / Marche nordique / Randonnée 9,5 km",
+      "categories": [
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/"
+    },
+    "editorial": {
+      "seo_title": "Trail de Nyons et des Baronnies : courses et randonnées",
+      "meta_description": "À Nyons, le Trail de Nyons et Baronnies propose des courses de 40 km, 22 km et 9,5 km, ainsi qu’une randonnée et de la marche nordique.",
+      "intro": "Le Trail de Nyons et Baronnies revient sur deux journées dédiées aux pratiques de plein air. Au programme, trois formats de courses de trail — 40 km, 22 km et 9,5 km — mais aussi une randonnée de 9,5 km et de la marche nordique. Une sortie sportive qui réunit plusieurs façons de marcher ou courir.",
+      "story": "Les coureurs peuvent choisir entre trois distances de trail : 40 km pour le format le plus long, 22 km ou 9,5 km. L’événement accueille également une randonnée de 9,5 km, proposée à deux reprises dans le programme, ainsi que la marche nordique. Le Trail de Nyons et Baronnies s’adresse ainsi autant à celles et ceux qui veulent prendre le départ d’une course qu’aux amateurs de randonnée et de marche nordique.",
+      "why_it_matters": "Ce rendez-vous donne une place à plusieurs pratiques sportives : trail, randonnée et marche nordique. Les différents formats permettent de choisir une activité parmi des distances de course distinctes ou une randonnée de 9,5 km.",
+      "practical": "Du samedi 17 octobre 2026 à 10h au dimanche 18 octobre à 18h. Contact : couriranyons@gmail.com.",
+      "reader_question": "Quelle distance de trail vous attire le plus : 40 km, 22 km ou 9,5 km ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Du samedi 17 octobre 2026 de 10h00 au dimanche 18 octobre 2026 à 18h00",
+      "location_name": "",
+      "address": "",
+      "phone": "",
+      "email": "couriranyons@gmail.com",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:14.171924+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/": {
+    "hash": "50f383e6151bb003003b7e34b8dfbe04ca971dd7bfbeaf7d6f273fafb880eae7",
+    "slug": "loto-dasoft-nyons-numerique-2026-10-18",
+    "event": {
+      "title": "Loto d’ASOFT Nyons Numérique",
+      "start_date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "summary": "Loto d'ASOFT Nyons Numérique à la Maison de Pays,14h.",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/"
+    },
+    "editorial": {
+      "seo_title": "Loto d’ASOFT Nyons Numérique à la Maison de Pays",
+      "meta_description": "Le loto d’ASOFT Nyons Numérique se tient dimanche 18 octobre 2026 à 14h, à la Maison de Pays de Nyons, promenade de la Digue.",
+      "intro": "ASOFT Nyons Numérique organise son loto à Nyons, dimanche 18 octobre 2026. Le rendez-vous est donné à 14h à la Maison de Pays, sur la promenade de la Digue. Cette sortie s’inscrit dans la vie associative locale et réunit l’association autour d’un loto.",
+      "story": "Le Loto d’ASOFT Nyons Numérique prend place à la Maison de Pays, au 128 promenade de la Digue à Nyons. Prévu le dimanche 18 octobre à partir de 14h, il porte le nom de l’association ASOFT Nyons Numérique. C’est un rendez-vous associatif clairement identifié, installé dans un lieu bien connu du centre de Nyons. Les personnes intéressées peuvent se rapprocher d’ASOFT Nyons Numérique pour tout renseignement lié à cette journée.",
+      "why_it_matters": "Ce loto donne un rendez-vous concret à Nyons dans le cadre de la vie associative. Organisé par ASOFT Nyons Numérique et accueilli à la Maison de Pays, il offre une occasion de participer à une activité portée localement, un dimanche après-midi.",
+      "practical": "Dimanche 18 octobre 2026 à 14h, à la Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Renseignements : 04 75 27 72 96 ou accueil@asoft-nyons.net.",
+      "reader_question": "Participerez-vous au loto d’ASOFT Nyons Numérique à la Maison de Pays ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Dimanche 18 octobre 2026 de 14h00 à 11h40",
+      "location_name": "Maison de Pays,",
+      "address": "128 promenade de la Digue - 26110 NYONS",
+      "phone": "04 75 27 72 96",
+      "email": "accueil@asoft-nyons.net",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:22.388257+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/": {
+    "hash": "e99bf8bec3950ea4ef9cdf26329bc97f468a9bf552bfc12d2b7406375882fc64",
+    "slug": "tsart-une-histoire-de-paradis-2026-10-19",
+    "event": {
+      "title": "« Ts’art : Une histoire de Paradis ! »",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-19",
+      "summary": "Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/"
+    },
+    "editorial": {
+      "seo_title": "Ts’art à Nyons : une représentation théâtrale vivante",
+      "meta_description": "À Nyons, « Ts’art : Une histoire de Paradis ! » réunit des adhérents des GEM le Soleil et l’Oasis pour une représentation théâtrale.",
+      "intro": "« Ts’art : Une histoire de Paradis ! » est une représentation théâtrale proposée à Nyons dans le cadre de la Semaine Bleue. Une quinzaine d’adhérents des GEM le Soleil et l’Oasis prennent part à ce rendez-vous culturel, placé sous le signe de la scène et de l’expression collective.",
+      "story": "Le lundi 19 octobre, la Maison de Pays accueille « Ts’art : Une histoire de Paradis ! ». Cette représentation théâtrale rassemble des adhérents des GEM le Soleil et l’Oasis. Porté dans le cadre de la Semaine Bleue, le spectacle donne une place centrale à ces participants réunis autour d’un même temps de théâtre. Un après-midi culturel à retrouver sur la Promenade de la Digue, au cœur de Nyons.",
+      "why_it_matters": "Cette sortie met en lumière une pratique théâtrale portée par les adhérents des GEM le Soleil et l’Oasis. Inscrite dans la Semaine Bleue, elle associe culture vivante, solidarité et présence sur scène à Nyons.",
+      "practical": "Lundi 19 octobre 2026, de 15h à 16h, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Contact : 04 75 27 79 27 ou loasisdenyons@orange.fr.",
+      "reader_question": "Viendrez-vous découvrir cette représentation théâtrale des GEM le Soleil et l’Oasis ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Lundi 19 octobre 2026 de 15h00 à 16h00",
+      "location_name": "Maison de Pays,",
+      "address": "128 Promenade de la Digue - 26110 NYONS",
+      "phone": "0475277927",
+      "email": "loasisdenyons@orange.fr",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:30.702641+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/": {
+    "hash": "660a85d7242722356cc5593da718a3b3bca3e086faf4b8ee03fc44f757841654",
+    "slug": "exposition-le-reel-et-son-double-2-2026-10-20",
+    "event": {
+      "title": "Exposition « Le réel et son double #2 »",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-31",
+      "summary": "Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/"
+    },
+    "editorial": {
+      "seo_title": "« Le réel et son double #2 » : exposition à Nyons",
+      "meta_description": "À Nyons, la médiathèque accueille l’exposition « Le réel et son double #2 » avec Antoine Picard et la MARPA de Rémuzat, du 20 au 31 octobre.",
+      "intro": "La médiathèque de Nyons accueille l’exposition « Le réel et son double #2 », proposée avec Antoine Picard et la MARPA de Rémuzat. Ce rendez-vous culturel prend place du 20 au 31 octobre 2026, au cœur de la ville. Une occasion de pousser la porte de la médiathèque pour découvrir cette exposition collective et ses regards croisés.",
+      "story": "« Le réel et son double #2 » réunit Antoine Picard et la MARPA de Rémuzat dans le cadre d’une exposition présentée à Nyons. Inscrite à la fois dans les rubriques culture, patrimoine et culture vivante, ainsi que solidarité et santé, elle fait se rencontrer des participants autour d’un même temps d’exposition. La médiathèque devient ainsi, pendant douze jours, le lieu de présentation de ce second volet intitulé « Le réel et son double ».",
+      "why_it_matters": "Cette exposition offre un rendez-vous culturel local associant Antoine Picard et la MARPA de Rémuzat. Elle trouve naturellement sa place à la médiathèque de Nyons et permet de découvrir un projet partagé entre culture vivante, patrimoine et solidarité.",
+      "practical": "Du mardi 20 octobre à 10h au samedi 31 octobre 2026 à 18h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Renseignements : 04 75 26 48 26 ou mddp-nyons@ladrome.fr.",
+      "reader_question": "Irez-vous découvrir « Le réel et son double #2 » à la médiathèque de Nyons ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Du mardi 20 octobre 2026 de 10h00 au samedi 31 octobre 2026 à 18h00",
+      "location_name": "Médiathèque",
+      "address": "9 rue Albin Vilhet, à Nyons",
+      "phone": "04 75 26 48 26",
+      "email": "mddp-nyons@ladrome.fr",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:37.980192+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/conseil-municipal-4/": {
+    "hash": "6adaecca2af7c067f04065b97543da9c4520af92cd7e30c77761a330d6a73a68",
+    "slug": "conseil-municipal-2026-10-21",
+    "event": {
+      "title": "Conseil Municipal",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "summary": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.",
       "categories": [
         "Administratif",
         "Cadre de vie",
@@ -1849,27 +2067,207 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/"
+      "url": "https://www.nyons.com/agenda/conseil-municipal-4/"
     },
     "editorial": {
-      "seo_title": "Clôture des vendanges au domaine Rocheville à Nyons",
-      "meta_description": "Le 17 octobre 2026, le domaine Rocheville à Nyons accueille une journée de clôture des vendanges, avec « Vignoble en Scène ».",
-      "intro": "Le domaine Rocheville accueille à Nyons une journée de clôture des vendanges, samedi 17 octobre 2026. Ce rendez-vous associe la fin des vendanges à « Vignoble en Scène », au sein du domaine situé route de Montélimar. Une date bien ancrée dans le temps des vignes et du territoire nyonsais.",
-      "story": "De 9h à 16h, la journée de clôture des vendanges se déroule au domaine Rocheville. L’événement porte aussi le nom de « Vignoble en Scène » et prend place au 117 route de Montélimar, à Nyons. Il s’agit d’un rendez-vous consacré à la clôture de cette période importante du calendrier viticole, dans un domaine implanté sur la commune.",
-      "why_it_matters": "Les vendanges marquent un moment fort de la vie des domaines viticoles. Cette journée au domaine Rocheville donne un repère local pour accompagner leur clôture, avec « Vignoble en Scène », à Nyons même.",
-      "practical": "Samedi 17 octobre 2026, de 9h à 16h. Domaine Rocheville, 117 route de Montélimar, 26110 Nyons. Tél. 04 75 26 35 20. Contact : contact@domainerocheville.com.",
-      "reader_question": "Souhaitez-vous marquer la clôture des vendanges au domaine Rocheville ?",
+      "seo_title": "Conseil municipal à Nyons le 21 octobre 2026",
+      "meta_description": "Le conseil municipal de Nyons se réunit le mercredi 21 octobre 2026 : l’assemblée élue délibère sur les affaires de la commune.",
+      "intro": "Le conseil municipal de Nyons se tiendra le mercredi 21 octobre 2026 à l’Hôtel de Ville. Cette réunion rassemble l’assemblée délibérante élue, chargée de gérer les affaires de la commune par ses délibérations. Un rendez-vous directement lié à la vie municipale nyonsaise.",
+      "story": "Le conseil municipal est l’instance où les élus de la commune délibèrent sur les affaires de Nyons. Cette séance s’inscrit dans les différents domaines qui touchent au cadre de vie, à l’enfance et à la jeunesse, à la culture, aux loisirs, à la solidarité, au sport ou encore à la vie associative. Elle constitue un temps de décision municipale, au cœur de la gestion de la commune.",
+      "why_it_matters": "Les délibérations du conseil municipal participent à la gestion concrète de Nyons. Cette réunion donne ainsi sa place au fonctionnement démocratique local et aux sujets qui relèvent des affaires de la commune.",
+      "practical": "Mercredi 21 octobre 2026, de 18h30 à 20h00. Hôtel de Ville, place Buffaven, 26110 Nyons. Tél. : 04 75 26 50 06.",
+      "reader_question": "Quels sujets de la vie communale vous intéressent le plus ?",
       "_fallback": false
     },
     "practical": {
-      "date_time": "Samedi 17 octobre 2026 de 09h00 à 16h00",
-      "location_name": "Domaine Rocheville,",
-      "address": "117 route de Montélimar, 26110 Nyons",
-      "phone": "0475263520",
-      "email": "contact@domainerocheville.com",
+      "date_time": "Mercredi 21 octobre 2026 de 18h30 à 20h00",
+      "location_name": "",
+      "address": "Hôtel de Ville, place Buffaven - 26110 Nyons",
+      "phone": "04 75 26 50 06",
+      "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-26T12:51:06.416092+00:00",
+    "generated_at": "2026-09-27T05:28:44.362848+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/": {
+    "hash": "8567e0ffdfa3e26b8cfaf8adb17a67ecf8a87b33b621e02f128a8ee09fc3d425",
+    "slug": "les-documentaires-de-luntl-de-la-liberation-a-lepuration-2026-10-21",
+    "event": {
+      "title": "Les documentaires de l’UNTL : « De la libération à l’épuration »",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "summary": "Projection de la seconde partie des Messagers de l'ombre\", suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/"
+    },
+    "editorial": {
+      "seo_title": "Documentaire et échange à Nyons : de la Libération à l’épuration",
+      "meta_description": "À Nyons, l’UNTL projette la seconde partie des Messagers de l’ombre, suivie d’un échange avec le réalisateur Michel Van Zèle.",
+      "intro": "L’UNTL propose à Nyons une soirée documentaire autour de « De la libération à l’épuration ». Au programme : la projection de la seconde partie des Messagers de l’ombre, puis un échange animé par son réalisateur, Michel Van Zèle. Une rencontre consacrée à une période historique marquante, portée par le regard d’un témoin privilégié.",
+      "story": "La projection s’inscrit dans le cycle des documentaires de l’UNTL. « Les Messagers de l’ombre » se poursuit ici avec sa seconde partie, consacrée à la période allant de la Libération à l’épuration. Après le film, Michel Van Zèle animera l’échange avec les participants. Le réalisateur a rencontré les protagonistes de cette époque ou leurs proches, apportant à cette séance un éclairage directement lié aux parcours et aux témoignages recueillis.",
+      "why_it_matters": "Cette soirée associe la découverte d’un documentaire à un temps de discussion avec son réalisateur. Elle permet d’aborder, à travers Les Messagers de l’ombre, une séquence précise de l’histoire et d’échanger avec Michel Van Zèle autour de son travail de témoignage.",
+      "practical": "Mercredi 21 octobre 2026, de 18h30 à 20h30, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
+      "reader_question": "Souhaitez-vous échanger avec Michel Van Zèle après la projection des Messagers de l’ombre ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Mercredi 21 octobre 2026 de 18h30 à 20h30",
+      "location_name": "Maison de Pays",
+      "address": "128 Promenade de la Digue - 26110 NYONS",
+      "phone": "0475264137",
+      "email": "contact@untl.net",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:50.633332+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/": {
+    "hash": "b4dc8fdef07248e14247d3dfde1facca9e4a2e426c01995c50fa11c0d588f3be",
+    "slug": "atelier-cosmetique-savon-dhalloween-2026-10-22",
+    "event": {
+      "title": "Atelier cosmétique – Savon d’Halloween",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "summary": "Atelier cosmétique sur le thème d'Halloween",
+      "categories": [
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/"
+    },
+    "editorial": {
+      "seo_title": "Savon d’Halloween : atelier cosmétique à Nyons",
+      "meta_description": "Participez à un atelier cosmétique autour du savon d’Halloween, jeudi 22 octobre 2026 à la Maison des Huiles d’Olives de Nyons.",
+      "intro": "À l’approche d’Halloween, la Maison des Huiles d’Olives & Olives de France accueille un atelier cosmétique consacré au savon d’Halloween. Ce rendez-vous de loisirs propose de découvrir la fabrication d’un savon dans un cadre thématique, au cœur de Nyons.",
+      "story": "L’atelier « Savon d’Halloween » se tient le jeudi 22 octobre 2026, de 10h30 à 11h30. Il s’agit d’un atelier cosmétique placé sous le signe d’Halloween, organisé à la Maison des Huiles d’Olives & Olives de France. Une heure dédiée au savon et à la thématique d’automne, dans ce lieu situé place de la Libération à Nyons.",
+      "why_it_matters": "C’est une sortie de loisirs originale pour aborder la cosmétique par un atelier concret, avec le savon comme fil conducteur. Le thème d’Halloween donne une couleur particulière à ce rendez-vous organisé dans le centre de Nyons.",
+      "practical": "Jeudi 22 octobre 2026, de 10h30 à 11h30, à la Maison des Huiles d’Olives & Olives de France, 40 place de la Libération à Nyons. Tél. 04 75 26 90 90.",
+      "reader_question": "Envie de créer un savon sur le thème d’Halloween à Nyons ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Jeudi 22 octobre 2026 de 10h30 à 11h30",
+      "location_name": "Maison des Huiles d'Olives & Olives de France -",
+      "address": "40 place de la Libération, 26110 Nyons",
+      "phone": "0475269090",
+      "email": "contact@maisondeshuilesetolives.fr",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:28:56.979713+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/": {
+    "hash": "86df65ea537b707c4335e2518ec2221251145fb122f42b3e683f5d41b0212cd5",
+    "slug": "saison-4-de-romuald-maufras-2026-10-23",
+    "event": {
+      "title": "« SAISON 4 » de Romuald Maufras",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "summary": "En tournée dans toute la France avec son nouveau spectacle !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/"
+    },
+    "editorial": {
+      "seo_title": "« Saison 4 » de Romuald Maufras, spectacle à Nyons",
+      "meta_description": "Romuald Maufras présente « Saison 4 », son nouveau spectacle en tournée, à Nyons vendredi 23 octobre 2026 à 20h.",
+      "intro": "Romuald Maufras arrive à Nyons avec « Saison 4 », son nouveau spectacle actuellement en tournée dans toute la France. Cette date culturelle est programmée le vendredi 23 octobre 2026, pour une représentation de 20h à 21h30. Une soirée consacrée à l’univers de l’artiste et à son quatrième spectacle.",
+      "story": "« Saison 4 » est le nouveau spectacle de Romuald Maufras. En tournée à travers la France, il s’arrête à Nyons le temps d’une représentation unique, inscrite dans l’agenda culturel de la ville. Le rendez-vous se tient en soirée, le vendredi 23 octobre 2026. Le titre du spectacle annonce cette quatrième saison, portée ici par Romuald Maufras dans le cadre de sa tournée nationale.",
+      "why_it_matters": "Cette représentation apporte à Nyons une date de tournée nationale et un rendez-vous de culture vivante. C’est l’occasion de découvrir sur place le nouveau spectacle de Romuald Maufras, « Saison 4 », lors d’une soirée programmée à l’automne.",
+      "practical": "Vendredi 23 octobre 2026, de 20h à 21h30. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
+      "reader_question": "Avez-vous envie de découvrir « Saison 4 » de Romuald Maufras à Nyons ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Vendredi 23 octobre 2026 de 20h00 à 21h30",
+      "location_name": "",
+      "address": "",
+      "phone": "04 75 26 50 10",
+      "email": "l.flouret@nyons.com",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:29:07.398858+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/journees-jeux-de-societe/": {
+    "hash": "fc6d67b1dad39dea00309299a1318056f6ed37fc3e7dedeb81e56294cb63d739",
+    "slug": "journee-jeux-de-societe-2026-10-24",
+    "event": {
+      "title": "Journée Jeux de société",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "summary": "Journée Jeux de société organisée par le Service Jeunesse",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Sport / Loisirs",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/journees-jeux-de-societe/"
+    },
+    "editorial": {
+      "seo_title": "Journée jeux de société à Nyons le 24 octobre",
+      "meta_description": "Le Service Jeunesse organise une journée de jeux de société à Nyons, samedi 24 octobre 2026, de 10h à 21h.",
+      "intro": "Les jeux de société prennent place à Nyons le samedi 24 octobre 2026, à l’occasion d’une journée organisée par le Service Jeunesse. De 10h à 21h, ce rendez-vous est consacré au plaisir de jouer autour des jeux de société, dans le cadre des loisirs et de la jeunesse.",
+      "story": "La Journée Jeux de société est un temps dédié aux jeux de plateau et aux moments partagés autour d’une table. Portée par le Service Jeunesse, elle se déroule sur une large amplitude, du matin jusqu’en soirée. Inscrite parmi les rendez-vous enfance, jeunesse et loisirs, cette journée met simplement le jeu de société au centre de l’attention à Nyons.",
+      "why_it_matters": "C’est une sortie locale centrée sur une activité simple et rassembleuse : jouer à des jeux de société. Avec une journée entière prévue, le rendez-vous offre un cadre dédié aux loisirs, proposé par le Service Jeunesse.",
+      "practical": "Samedi 24 octobre 2026, de 10h à 21h. Journée Jeux de société organisée par le Service Jeunesse à Nyons.",
+      "reader_question": "Quel jeu de société aurez-vous envie de retrouver lors de cette journée ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Samedi 24 octobre 2026 de 10h00 à 21h00",
+      "location_name": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:29:15.454130+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/": {
+    "hash": "a8739bbb82d628e8536db395a32984cae4b0eb1ce4e7842d6e7ff6831a012e5a",
+    "slug": "jeux-zen-et-moins-zen-2026-10-27",
+    "event": {
+      "title": "Jeux Zen… et moins zen !",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "summary": "Jeux de société Zen... et moins zen !",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/"
+    },
+    "editorial": {
+      "seo_title": "Jeux de société zen et animés à la médiathèque de Nyons",
+      "meta_description": "Le 27 octobre 2026, la médiathèque de Nyons accueille Jeux Zen… et moins zen !, un après-midi consacré aux jeux de société.",
+      "intro": "La médiathèque de Nyons propose « Jeux Zen… et moins zen ! », un rendez-vous autour des jeux de société. Entre jeux calmes et parties plus animées, l’après-midi invite à se retrouver autour d’une même table pour jouer. Cette proposition s’inscrit dans les rendez-vous loisirs et culture vivante de la ville.",
+      "story": "« Jeux Zen… et moins zen ! » porte bien son nom : les jeux de société sont au cœur de ce temps de loisirs, avec une place pour des rythmes de jeu variés. Organisé à la médiathèque, le rendez-vous réunit l’univers du jeu, de la culture et des loisirs. C’est une occasion de consacrer quelques heures aux jeux de société dans un lieu culturel bien connu du centre de Nyons.",
+      "why_it_matters": "Les jeux de société offrent un moment simple à partager, entre réflexion, échanges et plaisir de jouer. En les accueillant à la médiathèque, Nyons met aussi en lumière le jeu comme une activité culturelle et de loisirs, ouverte à des façons de jouer tantôt tranquilles, tantôt plus mouvementées.",
+      "practical": "Mardi 27 octobre 2026, de 15h à 18h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Renseignements : 04 75 26 48 26 ou mddp-nyons@ladrome.fr.",
+      "reader_question": "Serez-vous plutôt d’humeur zen ou moins zen autour des jeux de société ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Mardi 27 octobre 2026 de 15h00 à 18h00",
+      "location_name": "Médiathèque",
+      "address": "9 rue Albin Vilhet, à Nyons",
+      "phone": "04 75 26 48 26",
+      "email": "mddp-nyons@ladrome.fr",
+      "website": "https://www.service-public.gouv.fr/"
+    },
+    "generated_at": "2026-09-27T05:29:22.629628+00:00",
     "model": "gpt-5.6-terra"
   }
 }
