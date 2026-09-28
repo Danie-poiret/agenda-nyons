@@ -41,6 +41,7 @@ EVENTS_DIR = ROOT / "evenements"
 CACHE_FILE = ROOT / "_seo_cache.json"
 EVENT_CACHE_FILE = ROOT / "_event_seo_cache.json"
 EVENT_DETAIL_CACHE_FILE = ROOT / "_event_detail_cache.json"
+ANECDOTES_FILE = ROOT / "nyons_anecdotes.json"
 SITEMAP = ROOT / "sitemap.xml"
 ROBOTS = ROOT / "robots.txt"
 
@@ -475,6 +476,41 @@ def rolling_events(events):
         future,
         key=lambda e: (e["start_date"], e["title"].lower()),
     )
+
+
+def assign_event_anecdotes(events, event_cache):
+    """Attribue durablement une histoire Terre d'Eygues différente à chaque fiche."""
+    payload = load_json_file(ANECDOTES_FILE)
+    entries = payload.get("entries", []) if isinstance(payload, dict) else []
+    entries = [entry for entry in entries if isinstance(entry, dict) and entry.get("id")]
+    catalog = {entry["id"]: entry for entry in entries}
+    if not entries:
+        raise RuntimeError("nyons_anecdotes.json ne contient aucune histoire locale")
+
+    assigned = {}
+    used = set()
+    for event in events:
+        entry = event_cache.get(event["url"], {})
+        anecdote_id = clean(entry.get("anecdote_id", ""))
+        if anecdote_id in catalog and anecdote_id not in used:
+            assigned[event["url"]] = catalog[anecdote_id]
+            used.add(anecdote_id)
+
+    available = [entry for entry in entries if entry["id"] not in used]
+    missing = [event for event in events if event["url"] not in assigned]
+    if len(available) < len(missing):
+        raise RuntimeError(
+            f"Pas assez d'histoires Terre d'Eygues uniques : {len(events)} fiches "
+            f"pour {len(entries)} histoires"
+        )
+
+    for event, anecdote in zip(missing, available):
+        assigned[event["url"]] = anecdote
+        event_cache[event["url"]]["anecdote_id"] = anecdote["id"]
+
+    if len({entry["id"] for entry in assigned.values()}) != len(events):
+        raise RuntimeError("Une histoire Terre d'Eygues a été attribuée deux fois")
+    return assigned
 
 
 def event_facts(event, detail_text="", practical=None):
@@ -1251,9 +1287,10 @@ def corrected_website_for_display(practical, detail_text):
     return practical
 
 
-def render_event_page(event, editorial, related_events=None, practical=None):
+def render_event_page(event, editorial, related_events=None, practical=None, anecdote=None):
     related_events = related_events or []
     practical = practical or {}
+    anecdote = anecdote or {}
     story_title, why_title = event_section_titles(event)
     source_notice = official_fallback_notice(event, practical)
     canonical = event_local_url(event)
@@ -1340,6 +1377,16 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     if related_html:
         related_section = f'<section class="section"><h2>📍 D’autres rendez-vous proches</h2><div class="related">{related_html}</div></section>'
 
+    anecdote_section = ""
+    if anecdote.get("text") and anecdote.get("source_url"):
+        anecdote_section = (
+            '<section class="section anecdote"><h2>💡 Le savais-tu sur Nyons ?</h2>'
+            f'<p>{esc(anecdote["text"])}</p>'
+            '<p class="heritage-source">Source : '
+            f'<a href="{esc(anecdote["source_url"])}" target="_blank" rel="noopener noreferrer">'
+            f'{esc(anecdote.get("source_label") or "Terre d’Eygues")}</a></p></section>'
+        )
+
     return f'''<!doctype html>
 <html lang="fr">
 <head>
@@ -1365,6 +1412,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     .lead{{font-size:19px;background:var(--paper);border-left:5px solid var(--terracotta);padding:22px 24px;border-radius:16px;margin:24px 0;box-shadow:0 6px 22px rgba(52,48,38,.055)}}
     .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}.practical-box{{border-top:5px solid var(--terracotta)}}.info-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}}.info-row{{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}}.info-row span{{flex:0 0 24px;font-size:19px}}.info-row a{{overflow-wrap:anywhere}}.info-date{{grid-column:1/-1;background:#f6f0e4}}
     .official-note{{margin-top:12px!important;padding:14px 16px;background:#f3eee3;border-left:4px solid var(--terracotta);border-radius:10px}}.question{{background:#efe7cf;border-radius:18px;padding:22px 24px;margin:20px 0;font-weight:800;font-size:18px}} .source{{font-size:13px;color:var(--muted);margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.65)}}
+    .anecdote{{border-left:5px solid var(--terracotta);background:#fff8ec}} .heritage-source{{font-size:12px;color:var(--muted);margin-top:14px!important}} .heritage-source a{{font-weight:700}}
     .archive-note{{padding:14px 17px;margin:20px 0;background:#f2e5df;border-left:5px solid var(--terracotta);border-radius:12px}} .related{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}} .related-card{{display:flex;flex-direction:column;gap:6px;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-decoration:none}} .related-card span{{font-size:13px;color:var(--muted)}}
     @media(max-width:720px){{.related,.info-grid{{grid-template-columns:1fr}}.info-date{{grid-column:auto}}.top{{padding:9px 9px 0}}.wrap{{padding:10px 11px 45px}}.hero{{border-radius:18px;padding:24px 20px}}.lead,.section{{padding:18px}}}}
   </style>
@@ -1379,6 +1427,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     <div class="lead">{esc(editorial.get('intro',''))}</div>
     <section class="section"><h2>{esc(story_title)}</h2><p>{esc(editorial.get('story',''))}</p></section>
     <section class="section"><h2>{esc(why_title)}</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
+    {anecdote_section}
     <section class="section"><h2>ℹ️ Informations pratiques</h2>
       <p>{esc(editorial.get('practical',''))}</p>
       <p class="official-note">🔗 <a href="{esc(event['url'])}" target="_blank" rel="noopener"><strong>Voir la fiche officielle de l’événement sur nyons.com</strong></a></p>
@@ -1454,6 +1503,7 @@ def generate_event_pages(events):
             "practical": practical,
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "model": OPENAI_MODEL,
+            "anecdote_id": clean(cached.get("anecdote_id", "")),
         }
 
     cached_events = []
@@ -1462,6 +1512,7 @@ def generate_event_pages(events):
         if e and entry.get("editorial"):
             cached_events.append(e)
     cached_events.sort(key=lambda e: (e["start_date"], e["title"].lower()))
+    anecdotes = assign_event_anecdotes(cached_events, event_cache)
 
     for entry in event_cache.values():
         event = entry.get("event")
@@ -1482,7 +1533,7 @@ def generate_event_pages(events):
         folder = EVENTS_DIR / event_slug(event)
         folder.mkdir(parents=True, exist_ok=True)
         (folder / "index.html").write_text(
-            render_event_page(event, editorial, nearby, practical),
+            render_event_page(event, editorial, nearby, practical, anecdotes[event["url"]]),
             encoding="utf-8",
         )
 
@@ -2323,4 +2374,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
