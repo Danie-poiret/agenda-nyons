@@ -26,29 +26,29 @@
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
-    "hash": "670e94b4eb4d36889cfe7bf81b57347db1a9cfadced7610e2f17cf0a7ba5ed62",
+    "hash": "3db4e5141b3a316b6d4aaae2dc358dbb32b6e7427321b48bd9480f28ef1ff85a",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : culture, lectures, agriculture, concert, braderie et ateliers à repérer cette semaine.",
-      "intro": "Du 28 septembre au 4 octobre 2026, l’agenda de Nyons propose une semaine aux formats variés, entre culture, vie associative et initiatives autour de l’alimentation. Les deux expositions de fin septembre, consacrées à Solidarité Paysans et à « Urbain Urbex », restent à découvrir jusqu’au 30 septembre. Le lundi rassemble des lectures animées pour les enfants de 0 à 6 ans au Centre médico-social et une soirée consacrée à l’agriculture et à la viticulture au cinéma l’Arlequin. Un atelier lactofermentation est annoncé le mercredi, avant une dédicace de Françoise Bourdon le jeudi. À l’approche du week-end, le concert Bouda OMG !, la Grande braderie et l’Atelier culinaire – Risotto & panacotta complètent le programme. Les 8 jours de la Ville de Nyons se poursuivent quant à eux jusqu’au 4 octobre.",
-      "weekend": "Pour composer son week-end à Nyons, commencez par repérer les rendez-vous répartis sur plusieurs jours : Les 8 jours de la Ville de Nyons se terminent le dimanche 4 octobre, tandis que la Grande braderie est annoncée du 2 au 4 octobre par les associations Le Vestiaire et le Carrefour des Habitants. Le vendredi 2, le programme comprend aussi le Concert Bouda OMG !. Le samedi 3 offre deux pistes distinctes : l’Atelier culinaire – Risotto & panacotta et Constellations familiales. Ces propositions n’ayant pas le même thème, le choix peut simplement se faire selon l’activité que vous souhaitez privilégier.",
-      "practical": "Plusieurs informations essentielles ne figurent pas dans cette sélection, notamment les horaires de certains rendez-vous et leurs modalités d’accès. Consultez la fiche officielle de chaque événement avant de vous déplacer, en particulier pour les activités ponctuelles. La dédicace de Françoise Bourdon est annoncée le 1er octobre, de 10h à 16h30, à la Libraire Pinet. Pour les Lectures animées, le lieu indiqué est le Centre médico-social, 3 place Joseph Roumanille.",
-      "conclusion": "Cette semaine met en regard des expositions qui se terminent fin septembre, des rendez-vous culturels ponctuels et plusieurs propositions associatives durant le week-end. L’agenda permet aussi de passer d’un sujet local, avec la soirée Agriculture / Viticulture, à des activités pratiques comme la lactofermentation ou l’atelier culinaire. Vérifier chaque fiche reste la meilleure manière d’organiser ses sorties à Nyons du 28 septembre au 4 octobre 2026.",
+      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : expositions, rencontre littéraire, concert, ateliers et rendez-vous associatifs.",
+      "intro": "La semaine du 28 septembre au 4 octobre 2026 dessine un agenda varié à Nyons, entre culture, initiatives associatives et propositions de loisirs. Les premiers jours permettent encore de voir l’exposition « Urbain Urbex » et de découvrir Solidarité Paysans, toutes deux annoncées jusqu’au 30 septembre. Le lundi concentre aussi des lectures animées destinées aux enfants de 0 à 6 ans ainsi qu’une soirée consacrée à l’agriculture et à la viticulture. À partir du 1er octobre, une dédicace avec Françoise Bourdon ouvre la séquence culturelle, avant un week-end particulièrement fourni. Concert, grande braderie, Journées Nationales des Artistes, atelier culinaire et constellations familiales composent autant de pistes selon vos envies. Les 8 jours de la Ville de Nyons se poursuivent par ailleurs jusqu’au 4 octobre.",
+      "weekend": "Pour préparer vos sorties des 2, 3 et 4 octobre, commencez par distinguer les rendez-vous étalés sur plusieurs jours de ceux proposés à une seule date. La Grande braderie et Les Journées Nationales des Artistes à Nyons sont annoncées du vendredi au dimanche, tandis que le Concert Bouda OMG ! a lieu le vendredi. Le samedi, l’agenda comprend l’Atelier culinaire – Risotto & panacotta et Constellations familiales. Les 8 jours de la Ville de Nyons restent également au programme jusqu’au dimanche 4 octobre. Ce choix permet de combiner, selon les dates, culture, vie associative et loisirs.",
+      "practical": "Les informations fournies ne précisent pas systématiquement les horaires, les modalités d’accès ni les éventuelles conditions de participation. Avant de vous déplacer, consultez la page officielle de chaque événement, notamment pour confirmer la date, le lieu et toute information pratique disponible. Pour la dédicace Françoise Bourdon, l’annonce indique une présence le 1er octobre de 10h à 16h30. Vérifiez aussi les informations actualisées des rendez-vous sur plusieurs jours.",
+      "conclusion": "Cette semaine de début d’automne offre plusieurs façons de profiter de Nyons, des expositions de fin septembre aux propositions culturelles et associatives du week-end. Les amateurs de rencontres littéraires, de musique, d’art, de cuisine ou d’initiatives solidaires trouveront des rendez-vous répartis sur toute la période. Prenez le temps de consulter les pages officielles avant de composer votre programme.",
       "highlights": [
         {
-          "event_title": "Les 8 jours de la Ville de Nyons",
-          "reason": "Cet événement est en cours sur toute la période et se termine le 4 octobre."
+          "event_title": "Dédicace Françoise Bourdon",
+          "reason": "Une rencontre avec Françoise Bourdon est annoncée le 1er octobre, de 10h à 16h30."
+        },
+        {
+          "event_title": "Les Journées Nationales des Artistes à Nyons",
+          "reason": "Ce rendez-vous lié à une fête de l’art se déroule du 2 au 4 octobre."
         },
         {
           "event_title": "Grande braderie",
-          "reason": "Elle se tient du 2 au 4 octobre et est organisée par Le Vestiaire et le Carrefour des Habitants."
-        },
-        {
-          "event_title": "Atelier culinaire – Risotto & panacotta",
-          "reason": "Un atelier culinaire italien est annoncé le samedi 3 octobre."
+          "reason": "Organisée par les associations Le Vestiaire et le Carrefour des Habitants, elle est prévue du 2 au 4 octobre."
         }
       ]
     },
-    "generated_at": "2026-09-28T14:09:38.859586+00:00",
+    "generated_at": "2026-09-28T16:23:16.336971+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-05": {

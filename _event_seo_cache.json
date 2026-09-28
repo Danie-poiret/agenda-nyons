@@ -38,8 +38,9 @@
       "email": "r.viarsac@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:00:26.852200+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:16.821093+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2ef5632f1041e259"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
     "hash": "99794ca306ec2de524f2812f7666bf60e4d81dc3431b50b270dd7e2f9eca3709",
@@ -73,8 +74,9 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "http://www.gaiadurivau.com"
     },
-    "generated_at": "2026-09-28T14:00:37.292566+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:16.821188+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "37587440dc451a62"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
     "hash": "1e80af9bd15e65740eda2677c328e0e45089fc39fa960a69fa8ed53737a8b6a7",
@@ -109,7 +111,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-27T13:33:08.267053+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2b0abae63a525912"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
     "hash": "e1a2df8bcccd5387880f90fb9b203b676cd789148a6322d75db960f1cd546b9f",
@@ -144,8 +147,9 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "https://www.nyons-petanque.com/"
     },
-    "generated_at": "2026-09-28T14:00:48.984968+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:16.821244+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "7c0ae1bcb98cda59"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
     "hash": "38d156fc516159036a2cffeaa415c7a538dc49728f82f4e9a81c1e5a2820f9d1",
@@ -180,7 +184,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:35.715621+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "59469b95794eafdf"
   },
   "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/": {
     "hash": "4ad89e22db49756c836a58932655dc2cf15594cffb69410ee5c39c16e09970a1",
@@ -215,7 +220,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:35.972389+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "d0845e1253b9f451"
   },
   "https://www.nyons.com/agenda/ceremonie-de-cacao/": {
     "hash": "76995a942452acac298d9fb4b625a7d258682487781476b727a1166c109f07bb",
@@ -249,7 +255,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:36.251902+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "a6aa031c985a1c55"
   },
   "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/": {
     "hash": "81cfd4d5393c7a7380b671f3a56fe0bf785e60371834b131a205dfad028b9483",
@@ -283,7 +290,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:36.251974+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "0267b6536fd13955"
   },
   "https://www.nyons.com/agenda/impro/": {
     "hash": "f8a53a36bd7f8418d6ee0c73ca6a69485c91e86acf50d6356741b824d94ec88d",
@@ -318,7 +326,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:37.214503+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "e988c592d8de991d"
   },
   "https://www.nyons.com/agenda/marche-pour-le-climat/": {
     "hash": "62fb4cf8e4ca4d2a98d003dda5dad52b234e129a9ecda3607be0f8cdcf783cd9",
@@ -353,7 +362,8 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:37.453035+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2f97300d2272af78"
   },
   "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/": {
     "hash": "5fe7906e5815c3408f8dd1df81bc7a35411f229c7d04c73e3f10acc5e55629b0",
@@ -395,10 +405,11 @@
       "website": "https://www.service-public.gouv.fr/"
     },
     "generated_at": "2026-09-26T23:41:37.700939+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "addebdb3b91f4d01"
   },
   "https://www.nyons.com/agenda/lectures-animees-6/": {
-    "hash": "72cecef48f92e46ac9fe877ad165fd8e82c15e48b2efb8ea970692599dd2bfc7",
+    "hash": "5978f38a91864848e90bfc3f7460eafb50add296c6b15464f6b429934b2db8ff",
     "slug": "lectures-animees-2026-09-28",
     "event": {
       "title": "Lectures animées",
@@ -407,18 +418,19 @@
       "summary": "Lectures animées pour les enfants de 0 à 6 ans, pendant le temps de consultation au Centre médico-social 3 Place Joseph Roumanille.",
       "categories": [
         "Enfance / Jeunesse",
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/lectures-animees-6/"
     },
     "editorial": {
-      "seo_title": "Lectures animées pour les 0-6 ans au CMS de Nyons",
-      "meta_description": "À Nyons, des lectures animées sont proposées aux enfants de 0 à 6 ans au Centre médico-social, lundi 28 septembre 2026.",
-      "intro": "Le Centre médico-social de Nyons propose des lectures animées destinées aux enfants de 0 à 6 ans. Ce rendez-vous se déroule pendant le temps de consultation, au CMS PMI situé place Joseph Roumanille. Une matinée consacrée aux histoires pour les tout-petits, dans un lieu bien connu des familles nyonsaises.",
-      "story": "Ces lectures animées s’adressent aux enfants de la naissance jusqu’à 6 ans. Elles prennent place au Centre médico-social de Nyons, au 3 place Joseph Roumanille, pendant le temps de consultation. Le rendez-vous est programmé le lundi 28 septembre 2026, de 9 heures à midi. Il associe ainsi un temps de lecture pour les jeunes enfants à la présence au CMS PMI de Nyons.",
-      "why_it_matters": "Pour les enfants de 0 à 6 ans, les histoires sont une belle porte d’entrée vers les mots, les images et l’écoute. Ces lectures animées proposent un moment pensé pour leur âge, directement au Centre médico-social de Nyons, pendant la matinée de consultation.",
-      "practical": "Lundi 28 septembre 2026, de 9h à 12h, au CMS PMI de Nyons, 3 place Joseph Roumanille, 26110 Nyons. Renseignements : 04 75 79 70 33 ou cms.nyons@ladrome.fr.",
-      "reader_question": "Votre enfant aime-t-il choisir une histoire à écouter ?",
+      "seo_title": "Lectures animées des 0-6 ans au CMS de Nyons",
+      "meta_description": "Des lectures animées pour les enfants de 0 à 6 ans au CMS PMI de Nyons, lundi 28 septembre 2026, pendant les consultations.",
+      "intro": "Le lundi 28 septembre, des lectures animées sont proposées aux enfants de 0 à 6 ans au CMS PMI de Nyons. Ce rendez-vous se tient pendant le temps de consultation, au Centre médico-social situé place Joseph Roumanille. Une matinée dédiée aux tout-petits autour de la lecture.",
+      "story": "Pensées pour les enfants de 0 à 6 ans, ces lectures animées prennent place au Centre médico-social de Nyons, au 3 place Joseph Roumanille. Elles se déroulent le lundi matin, de 9h à 12h, pendant le temps de consultation. L’événement figure parmi les rendez-vous consacrés à l’enfance et à la jeunesse, à la culture, ainsi qu’à la solidarité et à la santé.",
+      "why_it_matters": "Cette proposition réunit dans un même rendez-vous les thématiques de l’enfance, de la culture et de la santé. Elle s’adresse précisément aux enfants de 0 à 6 ans et s’insère dans le temps de consultation du CMS PMI de Nyons.",
+      "practical": "Lundi 28 septembre 2026, de 9h à 12h, au CMS PMI de Nyons, 3 place Joseph Roumanille. Renseignements : 04 75 79 70 33 ou cms.nyons@ladrome.fr.",
+      "reader_question": "Votre enfant a-t-il entre 0 et 6 ans ?",
       "_fallback": false
     },
     "practical": {
@@ -429,8 +441,9 @@
       "email": "cms.nyons@ladrome.fr",
       "website": "https://dromeinfos.ladrome.fr/acteur/494/2-cms-nyons.htm"
     },
-    "generated_at": "2026-09-28T14:00:57.543516+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:31.983030+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "f3e7725b3e215ac6"
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
     "hash": "75618a959ea9bb69f173152aaf0cf7547712ff23a9cf6f05b44f219486c36088",
@@ -464,11 +477,12 @@
       "email": "",
       "website": "https://www.cinema-arlequin.fr/"
     },
-    "generated_at": "2026-09-28T14:01:06.333745+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:31.983140+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b2f772dee64b3be6"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
-    "hash": "c0a6b2038cd64b59e233739ec242910bfe31cc21ef402cefff9e07bced116c68",
+    "hash": "97417023819d8ff3c38085bff04ac64ee5620fce5200f243337596af28a31e8e",
     "slug": "atelier-lactofermentation-2026-09-30",
     "event": {
       "title": "Atelier lactofermentation",
@@ -479,19 +493,18 @@
         "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-lactofermentation/"
     },
     "editorial": {
       "seo_title": "Atelier lactofermentation à Nyons avec le CEDER",
-      "meta_description": "Le CEDER propose un atelier de lactofermentation à Nyons, mercredi 30 septembre 2026, pour découvrir cette pratique culinaire.",
-      "intro": "Le CEDER propose à Nyons un atelier consacré à la lactofermentation, mercredi 30 septembre 2026. Ce rendez-vous d’une heure met à l’honneur cette pratique culinaire, dans le cadre d’un atelier organisé par l’association.",
-      "story": "La lactofermentation sera au cœur de cet atelier proposé par le CEDER. Inscrit parmi les rendez-vous de loisirs, de culture, de santé et de vie associative, il offre un temps dédié à cette méthode de fermentation. L’atelier se déroule le mercredi 30 septembre, de 16h à 17h. Une occasion de s’intéresser concrètement à la lactofermentation avec le CEDER, acteur associatif du territoire.",
-      "why_it_matters": "Cet atelier met en lumière une pratique liée à l’alimentation et à la fermentation, dans un format court d’une heure. C’est un rendez-vous local proposé par le CEDER, à inscrire dans l’agenda nyonsais de la fin septembre.",
-      "practical": "Mercredi 30 septembre 2026, de 16h à 17h. Atelier proposé par le CEDER. Renseignements : 04 75 26 22 53, ceder@ceder-provence.org, ceder-provence.org.",
-      "reader_question": "Avez-vous déjà participé à un atelier de lactofermentation ?",
+      "meta_description": "Le CEDER propose un atelier de lactofermentation à Nyons, mercredi 30 septembre 2026, de 16h à 17h. Une sortie pratique autour des loisirs.",
+      "intro": "Le CEDER propose un atelier consacré à la lactofermentation à Nyons, mercredi 30 septembre 2026. Ce rendez-vous d’une heure, prévu de 16h à 17h, s’inscrit dans les thématiques loisirs, vie associative, solidarité et santé. Une proposition concrète pour s’intéresser à cette pratique au fil d’un atelier.",
+      "story": "La lactofermentation est au cœur de ce rendez-vous proposé par le CEDER. L’atelier se tient le mercredi 30 septembre 2026, de 16h à 17h, à Nyons. Il figure à la fois parmi les sorties de loisirs et les initiatives associatives, avec une place dans les rubriques solidarité et santé. Le format court permet de réserver une heure à cette thématique, dans le cadre d’une activité portée par le CEDER.",
+      "why_it_matters": "Cet atelier met la lactofermentation à l’honneur dans un cadre associatif à Nyons. C’est une occasion de consacrer un temps précis à cette pratique, avec le CEDER, au sein d’un rendez-vous identifié aussi bien dans les loisirs que dans les thématiques santé et solidarité.",
+      "practical": "Mercredi 30 septembre 2026, de 16h à 17h. Atelier proposé par le CEDER. Tél. 04 75 26 22 53 · ceder@ceder-provence.org · ceder-provence.org",
+      "reader_question": "La lactofermentation vous intrigue-t-elle ?",
       "_fallback": false
     },
     "practical": {
@@ -502,8 +515,9 @@
       "email": "ceder@ceder-provence.org",
       "website": "https://www.ceder-provence.org/"
     },
-    "generated_at": "2026-09-28T14:01:13.814858+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.391001+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "64481f4ca5ed87d2"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
     "hash": "3c70ec5ec6d38890da9a7f70804d6edc8ac09714b83c0588c47a039ac279e700",
@@ -537,8 +551,9 @@
       "email": "librairie-pinet@orange.fr",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:01:22.187861+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.391109+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "97732f55dcd505cf"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
     "hash": "8eab47e0bb047c306f6354fb6a5485a8c80fab173f641d70e38e8d9e26fd2d98",
@@ -572,8 +587,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-28T14:01:31.527094+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.391159+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "60a4f00f3426a08a"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
     "hash": "537d93aeab0eb0ae1f6a659299c74a770721e27adb787454bd1c8e2aed1ccc65",
@@ -607,8 +623,9 @@
       "email": "jimmy26110@hotmail.fr",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:01:39.105749+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.391202+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "7897aa6a7f041149"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
     "hash": "ac36ceb6e4adff3753dcd1b9df08ac13bd17b848d7e7f5139e16420918508330",
@@ -644,8 +661,9 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://lesjourneesnationalesdesartistes.fr/site/jna2026/"
     },
-    "generated_at": "2026-09-28T11:17:14.753040+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981585+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "61e53a0917496883"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
     "hash": "87dddeb445889e74c1a1d46d193f37a758a5ecca564fda7d4ef77eb75295dfe1",
@@ -686,8 +704,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-09-28T14:01:49.950498+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981679+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "8c7dc99d1f0fbc80"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
     "hash": "aa2a5689d7cdf4717eb035138188435e5cdfe876561030eb0f3ee92a365e211d",
@@ -720,8 +739,9 @@
       "email": "",
       "website": "https://associationlepapillon.fr/"
     },
-    "generated_at": "2026-09-28T14:02:00.926137+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981746+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9a677e4602e74066"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
     "hash": "3403e502683989cbcb4692c78ab36eca918a0670d54dbd84f88ec36245aa1da6",
@@ -754,8 +774,9 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-28T14:02:08.289330+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981794+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "4124b5ee3aa8201f"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
     "hash": "5d6cdbb9378e0b47764f4e397e03fd2eaaec2395d96e63f97235fd5de91bd4d2",
@@ -790,8 +811,9 @@
       "email": "contact@untl.net",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-28T14:02:19.526411+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981848+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "4c8eb465cf1fa4d8"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
     "hash": "5e24100a9d87772f8b84129832a5b21212a2fd701bdb6ba4ba855d732c969c18",
@@ -826,8 +848,9 @@
       "email": "loasisdenyons@orange.fr",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:02:29.442395+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981892+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2f4bfe4db889b6a6"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
     "hash": "e9fab68569b166ff2eb442677c3011c26eb5e7884e219aebfd8027880fea9a00",
@@ -862,8 +885,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-28T14:02:44.943098+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981932+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "c4547f7d9225164b"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
     "hash": "9c346cca348c17aec0f0b774c652a1c3a90ec978af933528a4716e2464cb7406",
@@ -899,8 +923,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-09-28T14:02:53.425860+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.981971+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "751918e52e514b11"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
     "hash": "2aa4dcdb1c517780c9f7d4ae046bb2bdd53243411579882ba464186b44b23693",
@@ -933,8 +958,9 @@
       "email": "",
       "website": "https://associationlepapillon.fr/"
     },
-    "generated_at": "2026-09-28T14:03:03.846541+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.982015+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "45c15435b75a54b1"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
     "hash": "0e0f1890f2bbdc80dd3d46d8d1bb114b51b39bec6629639964dc9aa51a9bbc65",
@@ -967,17 +993,18 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-28T14:03:12.483428+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:39.982060+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9026798b3187af1d"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
-    "hash": "ee3fe6eb84817685763934421cc8dcbe644f3930220d18aef7f0d29a8dcee98c",
+    "hash": "54810ae76c55ae9b4dee0e3d6deda9bfbc9a842b33845edd310168c01e75c531",
     "slug": "theatre-sur-la-sante-mentale-2026-10-08",
     "event": {
       "title": "Théâtre sur la santé mentale",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
-      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26",
+      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25",
       "categories": [
         "Solidarité / Santé"
       ],
@@ -985,12 +1012,12 @@
     },
     "editorial": {
       "seo_title": "Théâtre Forum sur la santé mentale à Nyons",
-      "meta_description": "À Nyons, l’association Intervalle propose un Théâtre Forum sur la santé mentale, jeudi 8 octobre 2026, dans le cadre des semaines dédiées.",
-      "intro": "L’association Intervalle propose un Théâtre Forum consacré à la santé mentale à Nyons, jeudi 8 octobre 2026. Cette rencontre s’inscrit dans le cadre des Semaines d’information sur la santé mentale et prend la forme d’un rendez-vous théâtral ouvert sur ce sujet de société.",
-      "story": "Le Théâtre Forum est porté par l’association Intervalle, dans le cadre des Semaines d’information sur la santé mentale. Pendant une heure, de 11h à 12h, le théâtre devient le support de cette initiative consacrée à la santé mentale. Le rendez-vous se tient sur l’esplanade de la Médiathèque, à Nyons. Une proposition qui associe expression théâtrale et réflexion autour d’un thème au cœur de ces semaines d’information.",
-      "why_it_matters": "La santé mentale est le sujet central de cette rencontre organisée à Nyons. Le format du Théâtre Forum apporte une approche théâtrale à cette thématique, dans le cadre d’une initiative spécifiquement consacrée à l’information sur la santé mentale.",
+      "meta_description": "À Nyons, l’association Intervalle propose un Théâtre Forum sur la santé mentale, dans le cadre des Semaines d’information sur la santé mentale.",
+      "intro": "Le jeudi 8 octobre 2026, l’association Intervalle présente un Théâtre Forum consacré à la santé mentale à Nyons. Ce rendez-vous s’inscrit dans le cadre des Semaines d’information sur la santé mentale et prend place sur l’esplanade de la Médiathèque.",
+      "story": "Le Théâtre Forum est au cœur de cette proposition portée par l’association Intervalle. Consacrée à la santé mentale, la rencontre s’intègre aux Semaines d’information sur la santé mentale, un cadre dédié à ce sujet. À Nyons, le rendez-vous est prévu en fin de matinée, sur l’esplanade de la Médiathèque. Une sortie locale autour d’un thème de santé et de solidarité, proposée sous la forme du théâtre.",
+      "why_it_matters": "La santé mentale est le sujet central de ce Théâtre Forum organisé à Nyons. En s’inscrivant dans les Semaines d’information sur la santé mentale, cette proposition de l’association Intervalle met le théâtre au service d’un thème qui concerne la vie quotidienne.",
       "practical": "Jeudi 8 octobre 2026, de 11h à 12h. Esplanade de la Médiathèque, 26110 Nyons. Renseignements : 07 88 94 04 08. Site : semaines-sante-mentale.fr.",
-      "reader_question": "Souhaitez-vous découvrir le Théâtre Forum proposé par l’association Intervalle à Nyons ?",
+      "reader_question": "Connaissiez-vous le principe du Théâtre Forum ?",
       "_fallback": false
     },
     "practical": {
@@ -1001,8 +1028,9 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-28T14:03:21.280716+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:47.699002+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "88119d833bae5134"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
     "hash": "0fe86883e73e990f0b0125782dc677f374c2d9836bae362dc7a2af242b477744",
@@ -1043,8 +1071,9 @@
       "email": "",
       "website": "https://labaronne.org/"
     },
-    "generated_at": "2026-09-28T14:03:21.966428+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.272434+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "4508232d2c8de8a9"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
     "hash": "b88f6baa5ad779c1a9868af96874fb1f65bc61e9215c7daaf1a18980026af2fb",
@@ -1079,8 +1108,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-28T14:03:30.585737+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.272526+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "a74a59526b6108a1"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
     "hash": "3d14d9ec6fd381504a9981cd7df216735e52d39c53c51c5bf321ab03707d31ee",
@@ -1115,8 +1145,9 @@
       "email": "tontonsriders26@gmail.com",
       "website": "https://4seasonsbikepark.fr/"
     },
-    "generated_at": "2026-09-28T14:03:31.255548+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.741399+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "c211dbcf89bfd042"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
     "hash": "dbfa36857f7249b5416ddda5243870b86934979a5298968d4e6f166f648073b9",
@@ -1152,8 +1183,9 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-28T14:03:39.707566+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.741494+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b13822e69d9f94f0"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
     "hash": "49d45a25963634e915e1bcca34988d519b8021fea47b5593b02f06dae39b8114",
@@ -1188,8 +1220,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://ghischec.wixsite.com/amate"
     },
-    "generated_at": "2026-09-28T14:04:02.889325+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.741584+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9f01835fdfd3506b"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
     "hash": "5b954be1c1ee46d80203638d880615964c7fe233a6f6fee963822b019a5df9a8",
@@ -1222,8 +1255,9 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-28T14:04:11.598554+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.741642+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "45bda1bff00fabd0"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
     "hash": "90c01f995931a5f2257e75addadb9c39e1415cd4fa8a984394ce1ee348d281de",
@@ -1256,8 +1290,9 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:04:22.181254+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.741695+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "209df21e343e4494"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
     "hash": "a4ca608b27eaeb50844694eaec6aac646d35ebabc7c738b3c0cc163ab753103b",
@@ -1292,17 +1327,18 @@
       "email": "contact@untl.net",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-28T14:04:32.027534+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:21:48.741745+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "bb400ed1f3f6329e"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
-    "hash": "ac8628f89fb9c490e9f618716ba41ccafc4fdcb7de0230040efb15fd51d812e3",
+    "hash": "a738beeaba303acd6009fea73c4bf4c49cf5344549d035c38e225c3430615160",
     "slug": "journee-decouverte-materiautheque-2026-10-10",
     "event": {
       "title": "Journée découverte Matériauthèque",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Ateliers participatifs et présentation 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Recherche Mentions légales Politique de confidentiali",
+      "summary": "Ateliers participatifs et présentation 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Recherche Mentions légales Politique de confidentiali",
       "categories": [
         "Cadre de vie",
         "Vie associative"
@@ -1310,13 +1346,13 @@
       "url": "https://www.nyons.com/agenda/journee-decouverte-materiautheque/"
     },
     "editorial": {
-      "seo_title": "Découvrir la Matériauthèque lors d’une journée à Nyons",
-      "meta_description": "À Nyons, la Journée découverte Matériauthèque réunit une présentation et des ateliers participatifs le samedi 10 octobre 2026.",
-      "intro": "La Journée découverte Matériauthèque propose un temps dédié à la découverte, avec une présentation et des ateliers participatifs. Inscrite dans les thématiques du cadre de vie et de la vie associative, cette journée invite à prendre part aux activités proposées autour de la matériauthèque, le samedi 10 octobre 2026.",
-      "story": "De 10h à 18h, la Journée découverte Matériauthèque alterne présentation et ateliers participatifs. Le rendez-vous s’adresse à celles et ceux qui souhaitent découvrir cette démarche en prenant part aux temps proposés durant la journée. À travers ces deux formats, la présentation et la participation directe, l’événement met la matériauthèque au centre de la rencontre.",
-      "why_it_matters": "Cette journée offre une occasion concrète de découvrir la matériauthèque autrement qu’à travers une simple présentation. Les ateliers participatifs permettent d’entrer dans le sujet en prenant part au rendez-vous, dans un cadre lié au cadre de vie et à la vie associative.",
-      "practical": "Samedi 10 octobre 2026, de 10h à 18h. Contact : 06 74 23 88 04 ou contact@larboretum.co. Informations : https://www.larboretum.co/projets/",
-      "reader_question": "Souhaitez-vous découvrir la matériauthèque à travers ses ateliers participatifs ?",
+      "seo_title": "Matériauthèque : une journée découverte à Nyons",
+      "meta_description": "Le 10 octobre 2026, Nyons accueille une journée découverte de la Matériauthèque, avec des ateliers participatifs de 10h à 18h.",
+      "intro": "La Matériauthèque ouvre sa journée découverte à Nyons, samedi 10 octobre 2026. Au programme : des ateliers participatifs, proposés tout au long de la journée, de 10h à 18h. Cette initiative s’inscrit dans les rendez-vous locaux liés au cadre de vie et à la vie associative.",
+      "story": "Cette journée est dédiée à la découverte de la Matériauthèque. Les ateliers participatifs en constituent le cœur : ils invitent à prendre part au rendez-vous plutôt qu’à le vivre seulement en spectateur. Organisée sur une journée complète, cette proposition offre un temps identifié dans l’agenda nyonsais, entre 10h et 18h, pour découvrir cette démarche et ses ateliers.",
+      "why_it_matters": "Les ateliers participatifs donnent une dimension concrète à cette journée découverte. C’est une occasion de s’intéresser à la Matériauthèque dans un cadre collectif, au croisement du cadre de vie et de la vie associative à Nyons.",
+      "practical": "Samedi 10 octobre 2026, de 10h à 18h. Contact : 06 74 23 88 04 ou contact@larboretum.co. Informations : larboretum.co/projets/.",
+      "reader_question": "Souhaitez-vous participer aux ateliers de la journée découverte de la Matériauthèque ?",
       "_fallback": false
     },
     "practical": {
@@ -1327,8 +1363,9 @@
       "email": "contact@larboretum.co",
       "website": "https://www.larboretum.co/projets/"
     },
-    "generated_at": "2026-09-28T14:04:46.271964+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:00.517661+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "902eb0cdc074591f"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
     "hash": "fd0116b25b930eebed4e13243c666d4f182fae41018c789044d115544c35ebcf",
@@ -1363,8 +1400,9 @@
       "email": "peroliere@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:04:56.491457+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:00.517773+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b73950f66701a05b"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
     "hash": "0881e7e17e447253742a7025090f8554984da3266d34a6d2fb2e67d9e7d6abee",
@@ -1405,8 +1443,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-28T14:05:05.164861+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:00.517839+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "7e945c2c426414b2"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
     "hash": "664a9e6d61c676a5fdd687cc5f706c063424ea6ab64a627ae2cade2a8591d961",
@@ -1439,8 +1478,9 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-28T14:05:15.833349+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:00.517893+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2f371d1d39caf85e"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
     "hash": "7ace64ae2b3056bc8b3e801916aa17d16aca7ed2b3c86d1f18dbcb300a6a6975",
@@ -1475,8 +1515,9 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-28T14:05:23.995302+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:00.517951+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "4dd346e4dd3849a2"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
     "hash": "0489ca8eca5ffca3e8846f938224a9e1614775797688a5306c3c4cfb9ddeee40",
@@ -1510,8 +1551,9 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-28T14:05:24.222205+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:01.621808+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "71ae7a100fd650ff"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
     "hash": "009d236cbdbcf8650d94e90b402154dae72fc754e8efb8b409ff71b486774ab2",
@@ -1545,8 +1587,9 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:05:31.848188+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:01.621916+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "f5de113e7941cfec"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
     "hash": "819db55263530269eb1aad20ebd9c2836d3315f714cc2db8d74b41b9e1ae65ed",
@@ -1577,8 +1620,9 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:05:32.588861+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112442+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b1d1b9cfe438d76d"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
     "hash": "77321f159b0ef22e70ee9602bb37e892886fe09e95542fea23da68a0f4d73bd5",
@@ -1611,8 +1655,9 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-28T14:05:45.142003+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112533+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "30449b31b28fa83b"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
     "hash": "c24072e10722539a5bb25b6bac585334b46ba9dd406a9a103805b5e2bc991eeb",
@@ -1646,8 +1691,9 @@
       "email": "indigolive@hotmail.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:05:59.915035+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112616+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "a5f0ca597c38db36"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
     "hash": "a9ff98cfb3cb57bf217345fd710e571d88373a59e7f92ea5a760abc846e38b38",
@@ -1682,8 +1728,9 @@
       "email": "contact@untl.net",
       "website": "http://www.untl.net"
     },
-    "generated_at": "2026-09-28T14:06:09.823775+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112677+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "85ebbc14892747c4"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
     "hash": "e4e02b5c2e5e2e7f1e3c59b7136d20ffbfac0e82544da9d4e7833b87576991b7",
@@ -1717,8 +1764,9 @@
       "email": "",
       "website": "https://www.semaines-sante-mentale.fr/"
     },
-    "generated_at": "2026-09-28T14:06:19.179822+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112748+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "99e03d2a0982f47e"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
     "hash": "a5d89789a7e5ee6d8895e0ee791f09e1b22ab170d706060e056c5992307474ab",
@@ -1752,8 +1800,9 @@
       "email": "contact@thanatosphere.fr",
       "website": "https://www.thanatosphere.fr"
     },
-    "generated_at": "2026-09-28T14:06:26.983028+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112793+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "c2b2c3d03dc34059"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
     "hash": "2a79e02814bb92abc6f3d09fea3d92926d8b94ee6172ce973c5f1c612a64b920",
@@ -1794,8 +1843,9 @@
       "email": "l.flouret@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:06:35.505611+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112835+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "ea22aa0222d88c3a"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
     "hash": "544175cc7b2092a6846c9942bbf73366a73c945bcb1ea34751eb903bbea25453",
@@ -1830,8 +1880,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
     },
-    "generated_at": "2026-09-28T14:06:42.839660+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112876+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "99a54554072d8698"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
     "hash": "945d5a1098138dd0763ade095191ed70a7ef167ad5a799570449ac018a3b0155",
@@ -1865,8 +1916,9 @@
       "email": "contact@domainerocheville.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:06:53.067287+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.112913+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9c8a7aec3cba7c5a"
   },
   "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/": {
     "hash": "1283fbe62ad8f8d1b2408b88bd2b7adafa4b7982446a015838f2a4012e727ce4",
@@ -1901,8 +1953,9 @@
       "email": "comitedesfetesetdeloisirs@sfr.fr",
       "website": "https://www.comitefetesloisirsnyons.fr/"
     },
-    "generated_at": "2026-09-28T14:06:53.794138+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:02.592064+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "688450d788f28c35"
   },
   "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/": {
     "hash": "7effab89f05fd96c4cc29392d6c1aa114fe40e118916ecbab2add89fe3e66e7e",
@@ -1936,8 +1989,9 @@
       "email": "couriranyons@gmail.com",
       "website": "https://www.couriranyons.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.404757+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059264+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "5776e24ef1e0fabc"
   },
   "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/": {
     "hash": "50f383e6151bb003003b7e34b8dfbe04ca971dd7bfbeaf7d6f273fafb880eae7",
@@ -1970,8 +2024,9 @@
       "email": "accueil@asoft-nyons.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.404926+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059364+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "5f2b4fa95059193e"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/": {
     "hash": "e99bf8bec3950ea4ef9cdf26329bc97f468a9bf552bfc12d2b7406375882fc64",
@@ -2006,8 +2061,9 @@
       "email": "loasisdenyons@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.405066+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059425+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "a635f749785b392b"
   },
   "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/": {
     "hash": "660a85d7242722356cc5593da718a3b3bca3e086faf4b8ee03fc44f757841654",
@@ -2042,8 +2098,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.405181+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059477+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "d0cf2813cb4c2ae4"
   },
   "https://www.nyons.com/agenda/conseil-municipal-4/": {
     "hash": "389f9303a7cb34d37a7897bc03dc12a1e90978e58f05c7ca340e6afc7fd7d24f",
@@ -2076,8 +2133,9 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.405329+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059590+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "5102fdfc046466a8"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/": {
     "hash": "c038e1f4997e81e7f028888521465542c4a03f4db447ad4060fbfde49eabaa19",
@@ -2118,8 +2176,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.405501+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059652+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "511eeef773d392ec"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/": {
     "hash": "b4dc8fdef07248e14247d3dfde1facca9e4a2e426c01995c50fa11c0d588f3be",
@@ -2153,8 +2212,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:54.405610+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.059699+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2550d4cf4c179f95"
   },
   "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/": {
     "hash": "51ec4615283a701d24e8ce97f9d9128cf434544a87d176f3521239bab264c0bf",
@@ -2188,8 +2248,9 @@
       "email": "l.flouret@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:06:54.959925+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:03.561134+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2747d46ef57a958c"
   },
   "https://www.nyons.com/agenda/journees-jeux-de-societe/": {
     "hash": "e6ecb2c2f6b9b576eb097dae0acdc6f63afdf7c626a7324f40695aed384d791a",
@@ -2224,8 +2285,9 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:06:55.509687+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:04.073191+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "eb664fb348af75a6"
   },
   "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/": {
     "hash": "a8739bbb82d628e8536db395a32984cae4b0eb1ce4e7842d6e7ff6831a012e5a",
@@ -2262,8 +2324,9 @@
       "email": "mddp-nyons@ladrome.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:55.509794+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:04.073276+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9c8e2e7c4e804f0d"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/": {
     "hash": "c3fc29ce22379a201048ece30065f5dfd53c17534759e5e93621cc190f379f55",
@@ -2297,8 +2360,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:55.509878+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:04.073331+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "1ede5afa8e9e9ce0"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/": {
     "hash": "be7020773fe2d86b2b9714ca8772714dd4100a8b2ae0b0f959126eea0c972e63",
@@ -2333,8 +2397,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:55.509961+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:04.073384+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "767906214237eaab"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/": {
     "hash": "4d886de0a9ee232a30100d7306318d0a8cfd33da4f7d5e4b2393f286b17c4961",
@@ -2368,8 +2433,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:55.510031+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:04.073433+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "be6292c0c4644d46"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/": {
     "hash": "ba820da4eda108c17ec11271797ee70a1acac31232b1d5d0986bf642c34cd693",
@@ -2405,17 +2471,18 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:06:55.510103+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:04.073475+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "eb55827716eb0bb7"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/": {
-    "hash": "2c24b65061fb691d62dd4caf561a721bed0627944b7991d3aacee0a0fe9b36cf",
+    "hash": "68d8dd8fc3fc01810373f914368d8b6c4f64376dd72d8b5444ea4f4203fef74f",
     "slug": "atelier-cosmetique-maquillage-dhalloween-2026-10-30",
     "event": {
       "title": "Atelier cosmétique – Maquillage d’Halloween",
       "start_date": "2026-10-30",
       "end_date": "2026-10-30",
-      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Recherche Mentions léga",
+      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Recherche Mentions léga",
       "categories": [
         "Sport / Loisirs",
         "Loisirs"
@@ -2424,12 +2491,12 @@
     },
     "editorial": {
       "seo_title": "Maquillage d’Halloween : atelier cosmétique à Nyons",
-      "meta_description": "À Nyons, un atelier cosmétique propose de créer un maquillage d’Halloween le vendredi 30 octobre 2026, à la Maison des Huiles d’Olives.",
-      "intro": "À l’approche d’Halloween, la Maison des Huiles d’Olives & Olives de France accueille à Nyons un atelier cosmétique consacré à la création de maquillage. Ce rendez-vous invite à travailler autour du maquillage d’Halloween, le vendredi 30 octobre 2026, de 14h30 à 15h30.",
-      "story": "L’atelier porte directement sur la création de maquillages pour Halloween. Pendant une heure, de 14h30 à 15h30, ce temps de loisirs se déroule dans le cadre de la Maison des Huiles d’Olives & Olives de France, place de la Libération à Nyons. Le thème annoncé est celui du maquillage d’Halloween : une proposition cosmétique pensée pour cette période de fin octobre.",
-      "why_it_matters": "C’est une sortie locale centrée sur une activité créative bien identifiée : imaginer et réaliser un maquillage d’Halloween. Le créneau d’une heure permet de s’inscrire dans l’esprit de la fête avec un atelier concret, proposé au cœur de Nyons.",
-      "practical": "Vendredi 30 octobre 2026, de 14h30 à 15h30. Maison des Huiles d’Olives & Olives de France, 40 place de la Libération, 26110 Nyons. Tél. : 04 75 26 90 90. Courriel : contact@maisondeshuilesetolives.fr.",
-      "reader_question": "Quel maquillage d’Halloween aimeriez-vous créer lors de cet atelier ?",
+      "meta_description": "À Nyons, la Maison des Huiles d’Olives accueille un atelier cosmétique consacré à la création de maquillages d’Halloween, le 30 octobre 2026.",
+      "intro": "À l’approche d’Halloween, la Maison des Huiles d’Olives & Olives de France propose à Nyons un atelier cosmétique consacré à la création de maquillages pour cette fête. Ce rendez-vous de loisirs se tient le vendredi 30 octobre 2026, durant une heure, place de la Libération.",
+      "story": "L’atelier « Maquillage d’Halloween » met au centre la création de maquillages inspirés par Halloween. Il s’inscrit dans une proposition de loisirs à Nyons, organisée à la Maison des Huiles d’Olives & Olives de France. Le rendez-vous est fixé le vendredi 30 octobre, de 14h30 à 15h30. Une parenthèse créative directement liée à l’univers d’Halloween, à l’avant-veille de la fête.",
+      "why_it_matters": "Cet atelier offre un temps dédié au maquillage d’Halloween, dans un lieu bien identifié du centre de Nyons. C’est une sortie précise et créative pour préparer cette thématique le temps d’une séance d’une heure.",
+      "practical": "Vendredi 30 octobre 2026, de 14h30 à 15h30. Maison des Huiles d’Olives & Olives de France, 40 place de la Libération, 26110 Nyons. Tél. : 04 75 26 90 90. Email : contact@maisondeshuilesetolives.fr.",
+      "reader_question": "Quel maquillage d’Halloween aimeriez-vous créer pendant cet atelier ?",
       "_fallback": false
     },
     "practical": {
@@ -2440,8 +2507,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:04.321079+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:13.442358+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "18cb3479809e43fb"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/": {
     "hash": "6ab6ada69f9bcf0862d831d4a792e673660ad6771e946d7090d87d4461aa297b",
@@ -2482,8 +2550,9 @@
       "email": "contact@maisondeshuilesetolives.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:04.321191+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:13.442466+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "5340a58f055058bc"
   },
   "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/": {
     "hash": "db51e2d27587efb9c1ef399d823c87ac2a598d24419567367434be06218bd59e",
@@ -2516,8 +2585,9 @@
       "email": "drambure@orange.fr",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:04.321257+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:13.442520+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "41b2bd6303fed6cf"
   },
   "https://www.nyons.com/agenda/droles-de-coincidences-2/": {
     "hash": "00c78a661135d814444479e04d732116d6a1b73116577b2f12d119edb331a06a",
@@ -2551,8 +2621,9 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-28T14:07:05.120659+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:14.022464+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9612f42580d6bfb0"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/": {
     "hash": "fd114c4b50b584eedd8d55a60ae655a788f4d8f91b2db3a9e113890f29f4d07f",
@@ -2587,8 +2658,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:05.120780+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:14.022588+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "e5291aabc63dea94"
   },
   "https://www.nyons.com/agenda/opera-follies/": {
     "hash": "0cb34f58a1f20682fd45cc318151ef617b36bf6546bb149e5f8a66ae96448d88",
@@ -2622,8 +2694,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.cantouveze.com/"
     },
-    "generated_at": "2026-09-28T14:07:05.361383+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:14.504772+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "f246b5ec37d51bbf"
   },
   "https://www.nyons.com/agenda/la-femme-moustique/": {
     "hash": "f372a2780a1505ad5bf1ab33fa63ec4c9bdf2d397428812f46bec2d71add93d1",
@@ -2657,8 +2730,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.melancolie.org/moustique"
     },
-    "generated_at": "2026-09-28T14:07:05.958703+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:14.972620+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "d3055cf0373ff41f"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/": {
     "hash": "37570988e14d0a793ff0108ef308241ba6f60e17a9d39a923b7498a3f1505abc",
@@ -2693,8 +2767,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:05.958810+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:14.972712+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "498ee46ad7149556"
   },
   "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/": {
     "hash": "bf038c28d336bdf0045839676cf881b7b1bec247b8208e4549b3aa9d1501b15f",
@@ -2727,8 +2802,9 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:05.958892+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:14.972766+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "5d6d5d3e8d7bc96f"
   },
   "https://www.nyons.com/agenda/petits-crimes-conjugaux/": {
     "hash": "34cc8390c354bafc1e5cc45ab2b0933e3e5224cb0a096f2eb6da8ece969cb6cb",
@@ -2762,17 +2838,18 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-28T14:07:06.551866+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:15.463785+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "fd01ab59c9fc5270"
   },
   "https://www.nyons.com/agenda/puces-des-couturieres/": {
-    "hash": "d724d1eab0a03bbe10c73d5e78a803a8018e1e58bed6862d95a736cfa9734f6e",
+    "hash": "755148ff2a3eee2056b955185bfbb9ed3f141e13c255e8cf75460a4c1a825287",
     "slug": "puces-des-couturieres-2026-11-14",
     "event": {
       "title": "Puces des couturières",
       "start_date": "2026-11-14",
       "end_date": "2026-11-14",
-      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Reche",
+      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Reche",
       "categories": [
         "Sport / Loisirs",
         "Vie associative",
@@ -2781,13 +2858,13 @@
       "url": "https://www.nyons.com/agenda/puces-des-couturieres/"
     },
     "editorial": {
-      "seo_title": "Puces des couturières : loisirs créatifs à Nyons",
-      "meta_description": "Les Puces des couturières réunissent couture et loisirs créatifs à Nyons, samedi 14 novembre 2026, avec le Comité des Fêtes et des Loisirs.",
-      "intro": "Les Puces des couturières prennent place à Nyons le samedi 14 novembre 2026. Ce rendez-vous est proposé par le Comité des Fêtes et des Loisirs de Nyons autour de la couture et des loisirs créatifs. Une journée dédiée à ces pratiques manuelles, de 9h à 19h.",
-      "story": "Portées par le Comité des Fêtes et des Loisirs de Nyons, les Puces des couturières mettent la couture au premier plan, avec les loisirs créatifs. L’événement se déroule sur une seule journée, le samedi 14 novembre 2026, et s’inscrit dans les rendez-vous de loisirs et de vie associative de la ville. De quoi réserver sa journée pour un temps consacré aux créations textiles et aux activités créatives.",
-      "why_it_matters": "Cette sortie donne une place aux amateurs de couture et de loisirs créatifs dans le calendrier nyonsais. Elle est aussi portée par une association locale, le Comité des Fêtes et des Loisirs de Nyons, dans un format concentré sur la journée du 14 novembre.",
+      "seo_title": "Puces des couturières et loisirs créatifs à Nyons",
+      "meta_description": "Les Puces des couturières, organisées par le Comité des Fêtes et des Loisirs de Nyons, se tiennent samedi 14 novembre 2026.",
+      "intro": "Les Puces des couturières arrivent à Nyons le samedi 14 novembre 2026. Porté par le Comité des Fêtes et des Loisirs de Nyons, ce rendez-vous est consacré aux puces des couturières et aux loisirs créatifs. Une journée dédiée à ces pratiques manuelles, à retrouver de 9h à 19h.",
+      "story": "Le Comité des Fêtes et des Loisirs de Nyons propose ses Puces des couturières sur une journée complète, le 14 novembre. L’événement associe les puces des couturières aux loisirs créatifs, au cœur d’un rendez-vous inscrit dans la vie associative et les loisirs à Nyons. De 9h à 19h, cette date donne une place particulière aux activités créatives et à l’univers de la couture.",
+      "why_it_matters": "Cette journée réunit à Nyons deux univers bien identifiés : les puces des couturières et les loisirs créatifs. C’est un rendez-vous associatif local pour celles et ceux qui s’intéressent à ces pratiques manuelles.",
       "practical": "Samedi 14 novembre 2026, de 9h à 19h. Renseignements : 06 15 30 89 47 ou comitedesfetesetdeloisirs@sfr.fr. Site : comitefetesloisirsnyons.fr.",
-      "reader_question": "La couture ou les loisirs créatifs font-ils partie de vos passions ?",
+      "reader_question": "Les puces des couturières font-elles partie de vos sorties créatives préférées à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -2798,8 +2875,9 @@
       "email": "comitedesfetesetdeloisirs@sfr.fr",
       "website": "https://www.comitefetesloisirsnyons.fr/"
     },
-    "generated_at": "2026-09-28T14:07:14.999581+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:24.788767+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "406bb77f652db734"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/": {
     "hash": "3c8f7b85507676c4bcf24b032ff63b04bf6ce1dcc459b37b609ba4c5092645df",
@@ -2840,8 +2918,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:14.999692+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:24.788883+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "0631e789380239cb"
   },
   "https://www.nyons.com/agenda/salon-vivre-ici/": {
     "hash": "ad4e304b9fe8d67eed20b35111cae08938ffa46e0f7d213c9b508b02287918c7",
@@ -2876,8 +2955,9 @@
       "email": "campuscedille@asoft-nyons.net",
       "website": "https://salonvivreici.fr/"
     },
-    "generated_at": "2026-09-28T14:07:15.716795+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:25.390678+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "67f33815837917be"
   },
   "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/": {
     "hash": "36e5971141a81cc39793084761147ab41e3868d3290defb139ab5ae9f9551d67",
@@ -2911,8 +2991,9 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-28T14:07:16.300163+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:25.923392+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "a63517df624a5772"
   },
   "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/": {
     "hash": "cd92d8bde100a1d435f412861723c58cb6ceb4be1ebc87f12314735d55abb44c",
@@ -2945,8 +3026,9 @@
       "email": "",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:16.300268+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:25.923481+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b127ddd3f108c749"
   },
   "https://www.nyons.com/agenda/les-turlupinades/": {
     "hash": "b5563b17732b154456684011d21f8d2bcde78c9fc99920255efab3f59a7b4d5f",
@@ -2980,8 +3062,9 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-28T14:07:33.927864+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:26.877602+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "e7366903d31d92fb"
   },
   "https://www.nyons.com/agenda/telethon-2026/": {
     "hash": "0d36f01cdc6be4faa03bb575c74baa1326495f5427f2e8fdbc482f3da2f8a313",
@@ -3014,8 +3097,9 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:07:34.674210+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:27.331670+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9adc6885419e8c4c"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/": {
     "hash": "cf6b4d84cd78642f904e3deb6e481a9853dbcdb6e5176aeca2b2f51f1b37d723",
@@ -3050,8 +3134,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:34.674336+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:27.331783+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "8c3c6d7f0e78bd02"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/": {
     "hash": "e23457beaaae948fbfa1fa48431f35ab971304f8ce938ddf33519ccc5c5f4f4c",
@@ -3086,17 +3171,18 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:34.674417+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:27.331843+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "6b7034d8c52e0568"
   },
   "https://www.nyons.com/agenda/cher-edouard/": {
-    "hash": "0c2e179a6144eefb586289a9e8092908f75f906faf371acdc5d30351b5b17c75",
+    "hash": "ff11ac06bc2215042e1cdc441b8a5dd850c0878ab352775c7bd17cc7b721755d",
     "slug": "cher-edouard-2026-12-13",
     "event": {
       "title": "Cher Edouard",
       "start_date": "2026-12-13",
       "end_date": "2026-12-13",
-      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Recherche Mentions légales Politique de confidential",
+      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Recherche Mentions légales Politique de confidential",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -3104,13 +3190,13 @@
       "url": "https://www.nyons.com/agenda/cher-edouard/"
     },
     "editorial": {
-      "seo_title": "Cher Edouard, une comédie à découvrir à Nyons",
-      "meta_description": "La Cie d’ici ou d’Ailleurs présente la comédie « Cher Edouard » à Nyons, dimanche 13 décembre 2026, de 17h à 18h30.",
-      "intro": "« Cher Edouard » est une comédie proposée à Nyons par la Cie d’ici ou d’Ailleurs. Ce rendez-vous culturel se tiendra le dimanche 13 décembre 2026, en fin d’après-midi, pour une représentation annoncée de 17h à 18h30.",
-      "story": "La compagnie d’ici ou d’Ailleurs présente « Cher Edouard », une comédie inscrite à l’agenda culturel nyonsais. Le titre donne rendez-vous avec le théâtre et la comédie, le temps d’une représentation de 1h30. La séance est programmée le dimanche 13 décembre, de 17h à 18h30, une plage horaire bien calée pour terminer la journée autour d’un spectacle.",
-      "why_it_matters": "Cette représentation ajoute un rendez-vous de comédie au calendrier culturel de Nyons. « Cher Edouard » permet de retrouver le travail de la Cie d’ici ou d’Ailleurs lors d’une séance unique, programmée un dimanche en fin d’après-midi.",
-      "practical": "Dimanche 13 décembre 2026, de 17h à 18h30. Contact : electron.nyons@gmail.com. Site : https://www.lelectron.fr",
-      "reader_question": "Avez-vous envie de découvrir la comédie « Cher Edouard » avec la Cie d’ici ou d’Ailleurs ?",
+      "seo_title": "Cher Edouard, une comédie de la Cie à Nyons",
+      "meta_description": "À Nyons, Cher Edouard est une comédie proposée par la Cie d’ici ou d’Ailleurs, dimanche 13 décembre 2026, de 17 h à 18 h 30.",
+      "intro": "Cher Edouard est une comédie de la Cie « d’ici ou d’Ailleurs », programmée à Nyons le dimanche 13 décembre 2026. Ce rendez-vous culturel se déroule en fin d’après-midi, de 17 h à 18 h 30. Une occasion de retrouver le théâtre et la comédie au cœur de l’agenda nyonsais.",
+      "story": "Sous le titre Cher Edouard, la Cie « d’ici ou d’Ailleurs » propose une comédie inscrite dans les rubriques Patrimoine / Culture vivante et Culture. La représentation est prévue le dimanche 13 décembre 2026, avec un créneau fixé de 17 h à 18 h 30. Le nom de la pièce, directement adressé à Édouard, donne son identité à ce rendez-vous théâtral porté par la compagnie.",
+      "why_it_matters": "Cette date met la comédie à l’honneur dans l’agenda culturel de Nyons. Cher Edouard rassemble une proposition de la Cie « d’ici ou d’Ailleurs » et un horaire de fin de journée, le temps d’une représentation programmée le dimanche.",
+      "practical": "Dimanche 13 décembre 2026, de 17 h à 18 h 30. Contact : electron.nyons@gmail.com. Site : www.lelectron.fr.",
+      "reader_question": "Connaissez-vous déjà les comédies de la Cie « d’ici ou d’Ailleurs » ?",
       "_fallback": false
     },
     "practical": {
@@ -3121,8 +3207,9 @@
       "email": "electron.nyons@gmail.com",
       "website": "https://www.lelectron.fr"
     },
-    "generated_at": "2026-09-28T14:07:44.992903+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:42.431730+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "3854ffacb9a8b547"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/": {
     "hash": "b53ed493a1bcc499d6e53d8ad127fc292d574a08e0ee82117191abaff11993e1",
@@ -3163,8 +3250,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:07:54.975532+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:42.431842+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "38121831882ddadd"
   },
   "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/": {
     "hash": "1f43bee1db0d03ba9443ae9c596ee3cdeb009afa367e08522f6216b0fea0fcf4",
@@ -3198,8 +3286,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.le-trac.org/event-details/peter-pan-ou-lenfant-jamais-11"
     },
-    "generated_at": "2026-09-28T14:08:06.592937+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:43.023089+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "56fd0d2445ad1dbb"
   },
   "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/": {
     "hash": "165801f5c143ac335a814721111b4694603ec945a7ad1fc7ccb28c18145aa370",
@@ -3233,8 +3322,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.theatrerevolt.com/jeune-public.php"
     },
-    "generated_at": "2026-09-28T14:08:07.289629+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:43.505635+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "abdeb2b9cc7bf3d2"
   },
   "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/": {
     "hash": "4a650fc9a8f3469bc6d80a5c65d72d225a6797dde838aaec04035a2a4c706c1f",
@@ -3268,8 +3358,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.rebeccachaillot.fr/"
     },
-    "generated_at": "2026-09-28T14:08:07.845195+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:43.974263+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "ff71dc4505431d3d"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/": {
     "hash": "15a32d93f218756af10a7ba9997d859f41f4f255ecbca42d823ea6c7c425985f",
@@ -3304,8 +3395,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:07.845310+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:43.974354+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "4e831152e02a0be1"
   },
   "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/": {
     "hash": "9f986596d93dafd3e72c89695ded417d609cbefca9710961f342eb6208eb1a5f",
@@ -3339,8 +3431,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.compagnielehomardbleu.com/jackiechan"
     },
-    "generated_at": "2026-09-28T14:08:08.397370+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.433856+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "dfd5e526b161617b"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/": {
     "hash": "1b066cb96c7c51e6d943ede4dd955b886bbd259aa993dd271a3627a584b2309c",
@@ -3375,8 +3468,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:08.397527+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.433943+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "d102f54332a1df49"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/": {
     "hash": "c3019a7a3077d7b3d1a5b8ec310dbce8b94613c9c2ea469ff127b46232486fbe",
@@ -3411,8 +3505,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:08.397625+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.434000+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "f4c7710a9a33c492"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/": {
     "hash": "599e1cb23a5ab70f697b673575ea7441647748ee43f1cb6aef69a239b8eb3d64",
@@ -3447,8 +3542,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:08.397715+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.434053+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "294e68c21c43dd38"
   },
   "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/": {
     "hash": "854abd354b059ab332e70bccbdfdabd19074b4c14d9a957cc47c06c46908cf77",
@@ -3482,8 +3578,9 @@
       "email": "l.flouret@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:08:08.948613+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.885412+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2edd0bbd9051edcb"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/": {
     "hash": "c43d4419ad4563a79da7680e9b64fb5526f390cfcbe4e932e612ea21d7819452",
@@ -3524,8 +3621,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:18.061390+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.885515+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "80c8544ada64becc"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/": {
     "hash": "ac94edf51b8fc3561bd763330bf4f022eaead3abf65eef97ef92d63f09a9b718",
@@ -3560,8 +3658,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:30.034789+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:44.885612+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "214e9f15a3e3ebb4"
   },
   "https://www.nyons.com/agenda/les-grands-chemins/": {
     "hash": "e190f5075d9fa6e27f99f6977c9c5b70f15a4d0473efd4cab1755ad1bf05a44d",
@@ -3595,8 +3694,9 @@
       "email": "l.flouret@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-09-28T14:08:31.031987+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:45.341576+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "7515de07a6701bf7"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/": {
     "hash": "890037d3fcce846351d10816f9a99ba04e6e36a9ed301470f9d9fbf124a0857c",
@@ -3631,8 +3731,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:31.032096+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:45.341669+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "68541a4ce38985bc"
   },
   "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/": {
     "hash": "96222163e2fc3f3e130151571722f6473d34cc90d95e3f8e03bcf2c5e94ca475",
@@ -3666,8 +3767,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.renaudgarciafons.com/discographie/blue-maqam"
     },
-    "generated_at": "2026-09-28T14:08:31.576666+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:45.794750+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "d23eda230ee48932"
   },
   "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/": {
     "hash": "d62ba91f3d7d09d04ad736b75a8f43ad8da14a6a77adfbc6e3babc08bf2a202e",
@@ -3701,8 +3803,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.comediedevalence.com/saison_26-27/quand-je-serai-grande-je-serai-patrick-swayze"
     },
-    "generated_at": "2026-09-28T14:08:32.117394+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.248340+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "633977dbd7383812"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/": {
     "hash": "db8c454a73e2a65b62db12e8ade67e5e5e4ebc89c69cb7c7e478e34f51ca9c73",
@@ -3737,8 +3840,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:32.117579+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.248429+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "dcda6fb32d4ded46"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/": {
     "hash": "484ed8e8ec4cb0e047b9c7729e33070f539048493813eca17fc9c5c68da30077",
@@ -3773,8 +3877,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:32.117757+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.248494+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b413701522911b05"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/": {
     "hash": "1116da6fd9edda122c82ad71c0c880fc02dfd706c42f25c014003d62ef0822a8",
@@ -3809,8 +3914,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:32.117893+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.248574+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "49e4a1a5598c590b"
   },
   "https://www.nyons.com/agenda/au-nom-de-lamour/": {
     "hash": "6248ed0c9516f4daf45f7a69fa97f76efdd386d193a4a071fe92d4e2f24ea5da",
@@ -3844,8 +3950,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://cddv-vaucluse.com/"
     },
-    "generated_at": "2026-09-28T14:08:47.548562+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.712973+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "9005f2b31bae652f"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/": {
     "hash": "3a2adf20516632ec637f82e64aeed6af4688b5547ab5696a411f64e3e6df65ad",
@@ -3886,8 +3993,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:08:56.723726+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.713070+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "671d77758c9199bc"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/": {
     "hash": "7aa2a9214b15b84f4e600925b7617509895238fa35f99a27a474e2a7a7894ae8",
@@ -3922,8 +4030,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:09:03.972466+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:46.713125+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "c03e2bef64ff7488"
   },
   "https://www.nyons.com/agenda/et-maintenant-jattends/": {
     "hash": "0a0722793ee49ed0442ec5365c62a54410403ad90c7f7dcec7e2e87c8dfb4409",
@@ -3957,8 +4066,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.sabinevenaruzzo.com/copie-de-maintenant-j-attends"
     },
-    "generated_at": "2026-09-28T14:09:04.970057+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:47.165827+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "f313c5351e0c70e3"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/": {
     "hash": "c07e56155d33a51baa6531233a4850cc2eb90fd06705bd32f733a79a7f76b46b",
@@ -3993,8 +4103,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:09:04.970182+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:47.165938+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b8cf0c364a4e92da"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/": {
     "hash": "98ecea19932b577290c82e610099575885a1089b5fd86324ab6963a28a145043",
@@ -4029,8 +4140,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:09:04.970264+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:47.166003+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "a80e402778fd3f18"
   },
   "https://www.nyons.com/agenda/landing/": {
     "hash": "53748ca6961bf0d6969e3c546a3ebad86da9c28c2362c5ee1d3a2effef19b7e7",
@@ -4064,8 +4176,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.cie-xpress.org/landingf"
     },
-    "generated_at": "2026-09-28T14:09:05.519345+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:47.652281+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "fc6e2b2121bbb147"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/": {
     "hash": "3db859f711346d110b4d29a431f1da5960b9e908dc25d14691cee3e110ce00b5",
@@ -4100,8 +4213,9 @@
       "email": "contact@untl.net",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:09:05.519509+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:47.652376+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "948db91cb0adf11c"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/": {
     "hash": "da9b217e47622cdf3de4497d7e348b290c092faed8e01897ce1402e8d4c75425",
@@ -4136,8 +4250,9 @@
       "email": "peroliere@gmail.com",
       "website": "https://www.service-public.gouv.fr/"
     },
-    "generated_at": "2026-09-28T14:09:05.519606+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:47.652427+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "2b0ef777aa0131b9"
   },
   "https://www.nyons.com/agenda/boite-a-cordees/": {
     "hash": "d973214784b71f784bb55a53e681e89aacbe357c90ef6c286120c0adaa5d910d",
@@ -4171,17 +4286,18 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.jmfrance.org/spectacles/boite-a-cordees"
     },
-    "generated_at": "2026-09-28T14:09:06.070816+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:48.082397+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "b49d6078abebf173"
   },
   "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/": {
-    "hash": "f9524fffe3aee732b218eb0d90c2c08e1d0d92139c6bf1e6aa66c5c8fe75ea1d",
+    "hash": "6a65e94817974d632afdb24fbbc2612b189f1ab4e45609f9b6d327fe862274fc",
     "slug": "on-ne-badine-pas-avec-lamour-2027-05-20",
     "event": {
       "title": "On ne badine pas avec l’amour",
       "start_date": "2027-05-20",
       "end_date": "2027-05-20",
-      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Rec",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Rec",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -4189,13 +4305,13 @@
       "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/"
     },
     "editorial": {
-      "seo_title": "On ne badine pas avec l’amour, théâtre à Nyons",
-      "meta_description": "À Nyons, la compagnie Capharnaüm joue On ne badine pas avec l’amour, d’Alfred de Musset, jeudi 20 mai 2027 de 20h30 à 22h.",
-      "intro": "La compagnie Capharnaüm présente à Nyons « On ne badine pas avec l’amour », d’Alfred de Musset. Cette représentation théâtrale se joue jeudi 20 mai 2027, de 20h30 à 22h. Sur scène, les personnages jouent à s’aimer, dans une histoire qui passe du rire au drame.",
-      "story": "« On ne badine pas avec l’amour » est une œuvre d’Alfred de Musset portée ici par la compagnie Capharnaüm. Le spectacle s’appuie sur ce jeu amoureux qui bascule du rire au drame. Une soirée consacrée au théâtre et à un texte où les sentiments ne restent pas longtemps légers. La représentation est programmée en une séance, le jeudi 20 mai, avec un début à 20h30.",
-      "why_it_matters": "Cette sortie met à l’honneur un texte d’Alfred de Musset interprété par la compagnie Capharnaüm. Elle propose à Nyons un rendez-vous de théâtre centré sur une histoire d’amour jouée, entre légèreté et drame.",
-      "practical": "Jeudi 20 mai 2027, de 20h30 à 22h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : compagniecapharnaum.com.",
-      "reader_question": "Avez-vous envie de retrouver Alfred de Musset sur scène à Nyons ?",
+      "seo_title": "Théâtre à Nyons : On ne badine pas avec l’amour",
+      "meta_description": "À Nyons, la compagnie Capharnaüm joue On ne badine pas avec l’amour d’Alfred de Musset, une pièce qui mène du rire au drame.",
+      "intro": "La compagnie Capharnaüm présente à Nyons « On ne badine pas avec l’amour », d’Alfred de Musset. Cette soirée de théâtre donne rendez-vous avec une histoire où les personnages jouent à s’aimer, dans un mouvement qui conduit peu à peu du rire au drame. Une pièce du répertoire à découvrir sur scène le jeudi 20 mai 2027.",
+      "story": "« On ne badine pas avec l’amour » est une œuvre d’Alfred de Musset portée ici par la compagnie Capharnaüm. Au cœur de la pièce, ils jouent à s’aimer : une formule légère en apparence, mais qui ouvre la voie à une trajectoire plus grave. Le spectacle annonce ainsi un passage du rire au drame, avec toute la tension que peut contenir ce jeu amoureux. La représentation est programmée en soirée à Nyons.",
+      "why_it_matters": "Cette représentation met à l’honneur Alfred de Musset et le théâtre vivant, avec la compagnie Capharnaüm. C’est une occasion de retrouver une pièce où les sentiments, le jeu et ses conséquences font basculer l’histoire du rire vers le drame.",
+      "practical": "Jeudi 20 mai 2027, de 20h30 à 22h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site de la compagnie : compagniecapharnaum.com.",
+      "reader_question": "Avez-vous envie de redécouvrir Alfred de Musset sur scène à Nyons ?",
       "_fallback": false
     },
     "practical": {
@@ -4206,8 +4322,9 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.compagniecapharnaum.com/"
     },
-    "generated_at": "2026-09-28T14:09:18.579143+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:23:00.055700+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "558750ddaafe5b30"
   },
   "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/": {
     "hash": "e099430067d3d6dfba8012b0ac270dd3de2dab22e7aff36572e0d369f6c7ffc5",
@@ -4242,7 +4359,8 @@
       "email": "y.crespel@cc-bdp.fr",
       "website": "https://www.cc-bdp.fr/2026/09/les-escales-dautomne-se-deploient-sur-les-baronnies/"
     },
-    "generated_at": "2026-09-28T14:07:24.289195+00:00",
-    "model": "gpt-5.6-terra"
+    "generated_at": "2026-09-28T16:22:26.404745+00:00",
+    "model": "gpt-5.6-terra",
+    "anecdote_id": "8c91631caaf4e3f5"
   }
 }

@@ -1,6 +1,6 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
-  "updated_at": "2026-09-28T14:00:25.643177+00:00",
+  "updated_at": "2026-09-28T16:21:15.712929+00:00",
   "count": 110,
   "events": [
     {
@@ -33,17 +33,6 @@
       "url": "https://www.nyons.com/agenda/exposition-urbain-urbex/"
     },
     {
-      "title": "« La Vie en Couleur » : Exposition de Cécile Allex",
-      "start_date": "2026-09-22",
-      "end_date": "2026-09-27",
-      "summary": "Exposition artistique de Cécile Allex, à l'Espace Roumanille, Draye de Meyne.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/"
-    },
-    {
       "title": "Les 8 jours de la Ville de Nyons",
       "start_date": "2026-09-25",
       "end_date": "2026-10-04",
@@ -62,7 +51,8 @@
       "summary": "Lectures animées pour les enfants de 0 à 6 ans, pendant le temps de consultation au Centre médico-social 3 Place Joseph Roumanille.",
       "categories": [
         "Enfance / Jeunesse",
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/lectures-animees-6/"
     },
@@ -86,7 +76,6 @@
         "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-lactofermentation/"
@@ -123,6 +112,19 @@
         "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/grande-braderie/"
+    },
+    {
+      "title": "Les Journées Nationales des Artistes à Nyons",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-04",
+      "summary": "Une fête de l'art dans toute la France.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/"
     },
     {
       "title": "Atelier culinaire – Risotto & panacotta",
@@ -235,7 +237,7 @@
       "title": "Théâtre sur la santé mentale",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
-      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26",
+      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25",
       "categories": [
         "Solidarité / Santé"
       ],
@@ -344,7 +346,7 @@
       "title": "Journée découverte Matériauthèque",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Ateliers participatifs et présentation 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Recherche Mentions légales Politique de confidentiali",
+      "summary": "Ateliers participatifs et présentation 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Recherche Mentions légales Politique de confidentiali",
       "categories": [
         "Cadre de vie",
         "Vie associative"
@@ -713,7 +715,7 @@
       "title": "Atelier cosmétique – Maquillage d’Halloween",
       "start_date": "2026-10-30",
       "end_date": "2026-10-30",
-      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Recherche Mentions léga",
+      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Recherche Mentions léga",
       "categories": [
         "Sport / Loisirs",
         "Loisirs"
@@ -830,7 +832,7 @@
       "title": "Puces des couturières",
       "start_date": "2026-11-14",
       "end_date": "2026-11-14",
-      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Reche",
+      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Reche",
       "categories": [
         "Sport / Loisirs",
         "Vie associative",
@@ -950,7 +952,7 @@
       "title": "Cher Edouard",
       "start_date": "2026-12-13",
       "end_date": "2026-12-13",
-      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Recherche Mentions légales Politique de confidential",
+      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Recherche Mentions légales Politique de confidential",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -1315,7 +1317,7 @@
       "title": "On ne badine pas avec l’amour",
       "start_date": "2027-05-20",
       "end_date": "2027-05-20",
-      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 26.8°C / 26.8°C Contact Rec",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 25.3°C / 25.3°C Contact Rec",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
