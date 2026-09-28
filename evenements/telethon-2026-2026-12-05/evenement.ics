@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:telethon-2026-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261205T000000
+DTEND;TZID=Europe/Paris:20261206T235900
+SUMMARY:Téléthon 2026
+DESCRIPTION:Téléthon 2026\nhttps://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/
+END:VEVENT
+END:VCALENDAR

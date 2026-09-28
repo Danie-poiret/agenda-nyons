@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire-2027-04-26@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20270426T150000
+DTEND;TZID=Europe/Paris:20270426T170000
+SUMMARY:Conférence de l’UNTL sur « Pour une histoire de l’éducation populaire »
+DESCRIPTION:Conférence présentée par Philippe Fréchet\, enseignant spécialisé\, conférencier de l’histoire de la pensée et de l’histoire sociale et politique.\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire-2027-04-26/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire-2027-04-26/
+END:VEVENT
+END:VCALENDAR

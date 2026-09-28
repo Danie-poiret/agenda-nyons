@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne-2026-12-14@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261214T150000
+DTEND;TZID=Europe/Paris:20261214T170000
+SUMMARY:Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne »
+DESCRIPTION:Conférence présentée par Alain Saint-Denis\, historien médiéviste\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne-2026-12-14/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne-2026-12-14/
+END:VEVENT
+END:VCALENDAR

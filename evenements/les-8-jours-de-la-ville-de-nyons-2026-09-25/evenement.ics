@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:les-8-jours-de-la-ville-de-nyons-2026-09-25@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260925T170000
+DTEND;TZID=Europe/Paris:20261004T120000
+SUMMARY:Les 8 jours de la Ville de Nyons
+DESCRIPTION:Du vendredi 25 septembre au\nhttps://agenda.vivreanyons.fr/evenements/les-8-jours-de-la-ville-de-nyons-2026-09-25/
+LOCATION:Centre Régional des Sports Boule et Pétanque\, — 125 rue Félix-Maurent - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/les-8-jours-de-la-ville-de-nyons-2026-09-25/
+END:VEVENT
+END:VCALENDAR

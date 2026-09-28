@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:on-a-perdu-les-cles-du-traineau-2026-12-29@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261229T150000
+DTEND;TZID=Europe/Paris:20261229T160000
+SUMMARY:On a perdu les clés du traîneau
+DESCRIPTION:Une comédie théâtrale magique et drôle de la cie RêVOLT\, proposée dans le cadre de « Nyons en Fête ».\nhttps://agenda.vivreanyons.fr/evenements/on-a-perdu-les-cles-du-traineau-2026-12-29/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/on-a-perdu-les-cles-du-traineau-2026-12-29/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261009T160000
+DTEND;TZID=Europe/Paris:20261009T180000
+SUMMARY:Lectures par la MARPA de Rémuzat et Antoine Picard
+DESCRIPTION:Lectures par la MARPA de Rémuzat et Antoine Picard\nhttps://agenda.vivreanyons.fr/evenements/lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09/
+LOCATION:Médiathèque — 9 rue Albin Vilhet\, à Nyons
+URL:https://agenda.vivreanyons.fr/evenements/lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09/
+END:VEVENT
+END:VCALENDAR

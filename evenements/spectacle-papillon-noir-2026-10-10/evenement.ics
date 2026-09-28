@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:spectacle-papillon-noir-2026-10-10@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261010T170000
+DTEND;TZID=Europe/Paris:20261010T180000
+SUMMARY:Spectacle « Papillon noir »
+DESCRIPTION:Dans le cadre de la Semaine Bleue 2026.\nhttps://agenda.vivreanyons.fr/evenements/spectacle-papillon-noir-2026-10-10/
+LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/spectacle-papillon-noir-2026-10-10/
+END:VEVENT
+END:VCALENDAR

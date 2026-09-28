@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:de-lile-noire-au-montbrun-2026-11-21@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261121T203000
+DTEND;TZID=Europe/Paris:20261121T220000
+SUMMARY:De l’île Noire au Montbrun
+DESCRIPTION:Concert "De l'Ile Noire au Mont Brun"\nhttps://agenda.vivreanyons.fr/evenements/de-lile-noire-au-montbrun-2026-11-21/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/de-lile-noire-au-montbrun-2026-11-21/
+END:VEVENT
+END:VCALENDAR

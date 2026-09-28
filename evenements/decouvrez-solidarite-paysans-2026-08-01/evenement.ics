@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:decouvrez-solidarite-paysans-2026-08-01@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260801T093000
+DTEND;TZID=Europe/Paris:20260930T190000
+SUMMARY:Découvrez Solidarité Paysans !
+DESCRIPTION:Une exposition pour découvrir l'association Solidarité Paysans Drôme-Ardèche.\nhttps://agenda.vivreanyons.fr/evenements/decouvrez-solidarite-paysans-2026-08-01/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/decouvrez-solidarite-paysans-2026-08-01/
+END:VEVENT
+END:VCALENDAR

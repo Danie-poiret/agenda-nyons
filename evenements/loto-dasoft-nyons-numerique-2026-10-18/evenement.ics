@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:loto-dasoft-nyons-numerique-2026-10-18@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261018T140000
+DTEND;TZID=Europe/Paris:20261018T150000
+SUMMARY:Loto d’ASOFT Nyons Numérique
+DESCRIPTION:Loto d'ASOFT Nyons Numérique à la Maison de Pays\,14h.\nhttps://agenda.vivreanyons.fr/evenements/loto-dasoft-nyons-numerique-2026-10-18/
+LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/loto-dasoft-nyons-numerique-2026-10-18/
+END:VEVENT
+END:VCALENDAR

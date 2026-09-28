@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exposition-le-reel-et-son-double-2-2026-10-20@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261020T100000
+DTEND;TZID=Europe/Paris:20261031T180000
+SUMMARY:Exposition « Le réel et son double #2 »
+DESCRIPTION:Exposition "Le réel et son double #2" avec Antoine Picard et la MARPA de Rémuzat\nhttps://agenda.vivreanyons.fr/evenements/exposition-le-reel-et-son-double-2-2026-10-20/
+LOCATION:Médiathèque — 9 rue Albin Vilhet\, à Nyons
+URL:https://agenda.vivreanyons.fr/evenements/exposition-le-reel-et-son-double-2-2026-10-20/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tournoi-de-belote-du-comite-des-fetes-2026-10-17@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261017T133000
+DTEND;TZID=Europe/Paris:20261017T160000
+SUMMARY:Tournoi de belote du Comité des Fêtes
+DESCRIPTION:Tournoi de belote du Comité des Fêtes\nhttps://agenda.vivreanyons.fr/evenements/tournoi-de-belote-du-comite-des-fetes-2026-10-17/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/tournoi-de-belote-du-comite-des-fetes-2026-10-17/
+END:VEVENT
+END:VCALENDAR

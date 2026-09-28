@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-lactofermentation-2026-09-30@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260930T160000
+DTEND;TZID=Europe/Paris:20260930T170000
+SUMMARY:Atelier lactofermentation
+DESCRIPTION:Atelier lactofermentation proposé par le CEDER.\nhttps://agenda.vivreanyons.fr/evenements/atelier-lactofermentation-2026-09-30/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/atelier-lactofermentation-2026-09-30/
+END:VEVENT
+END:VCALENDAR

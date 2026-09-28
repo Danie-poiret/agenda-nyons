@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:soiree-de-presentation-de-nyons-en-scene-2026-10-16@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261016T190000
+DTEND;TZID=Europe/Paris:20261016T210000
+SUMMARY:Soirée de présentation de « Nyons en scène »
+DESCRIPTION:Présentation de la nouvelle saison culturelle municipale.\nhttps://agenda.vivreanyons.fr/evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/
+LOCATION:Maison de Pays\, promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ceremonie-de-cacao-2026-09-26@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260926T140000
+DTEND;TZID=Europe/Paris:20260926T180000
+SUMMARY:Cérémonie de cacao
+DESCRIPTION:Les cérémonies de cacao s'inspirent de l'usage spirituel de cette plante par le peuple Maya du Guatemala. Le cacao connecte au coeur\, à la joie\, à la créativité\, il aide à relâcher les tensions.\nhttps://agenda.vivreanyons.fr/evenements/ceremonie-de-cacao-2026-09-26/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/ceremonie-de-cacao-2026-09-26/
+END:VEVENT
+END:VCALENDAR

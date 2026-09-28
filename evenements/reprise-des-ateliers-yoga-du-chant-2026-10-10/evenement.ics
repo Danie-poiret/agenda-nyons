@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:reprise-des-ateliers-yoga-du-chant-2026-10-10@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261010T100000
+DTEND;TZID=Europe/Paris:20261010T120000
+SUMMARY:Reprise des Ateliers Yoga du Chant
+DESCRIPTION:Le deuxième samedi de chaque mois de 10h à 12h.\nhttps://agenda.vivreanyons.fr/evenements/reprise-des-ateliers-yoga-du-chant-2026-10-10/
+LOCATION:L'ile verte - — 1 rue Frédéric Mistral - 26110 Nyons
+URL:https://agenda.vivreanyons.fr/evenements/reprise-des-ateliers-yoga-du-chant-2026-10-10/
+END:VEVENT
+END:VCALENDAR

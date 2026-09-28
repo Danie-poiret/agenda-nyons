@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lectures-animees-2026-09-28@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260928T090000
+DTEND;TZID=Europe/Paris:20260928T120000
+SUMMARY:Lectures animées
+DESCRIPTION:Lectures animées pour les enfants de 0 à 6 ans\, pendant le temps de consultation au Centre médico-social 3 Place Joseph Roumanille.\nhttps://agenda.vivreanyons.fr/evenements/lectures-animees-2026-09-28/
+LOCATION:CMS PMI de Nyons - — 3 Place Joseph Roumanille 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/lectures-animees-2026-09-28/
+END:VEVENT
+END:VCALENDAR

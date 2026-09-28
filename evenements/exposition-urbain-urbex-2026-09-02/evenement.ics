@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exposition-urbain-urbex-2026-09-02@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260902T100000
+DTEND;TZID=Europe/Paris:20260930T183000
+SUMMARY:Exposition « Urbain Urbex »
+DESCRIPTION:Exposition aux 3 Platanes.\nhttps://agenda.vivreanyons.fr/evenements/exposition-urbain-urbex-2026-09-02/
+LOCATION:Les 3 Platanes\, — 63 rue de la Maladrerie - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/exposition-urbain-urbex-2026-09-02/
+END:VEVENT
+END:VCALENDAR

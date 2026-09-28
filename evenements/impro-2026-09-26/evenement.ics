@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:impro-2026-09-26@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260926T203000
+DTEND;TZID=Europe/Paris:20260926T220000
+SUMMARY:Impro !
+DESCRIPTION:Improvisation théâtrale pour lancer la saison de l'Electron Libre ! 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 16.1°C / 16.1°C Contact Recherche Mentions l\nhttps://agenda.vivreanyons.fr/evenements/impro-2026-09-26/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/impro-2026-09-26/
+END:VEVENT
+END:VCALENDAR

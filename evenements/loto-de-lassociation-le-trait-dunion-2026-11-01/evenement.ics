@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:loto-de-lassociation-le-trait-dunion-2026-11-01@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261101T140000
+DTEND;TZID=Europe/Paris:20261101T170000
+SUMMARY:Loto de l’association « Le Trait d’Union »
+DESCRIPTION:Loto de l'association "Le Trait d'Union" dimanche 1er novembre à la Maison de Pays.De nombreux...\nhttps://agenda.vivreanyons.fr/evenements/loto-de-lassociation-le-trait-dunion-2026-11-01/
+LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/loto-de-lassociation-le-trait-dunion-2026-11-01/
+END:VEVENT
+END:VCALENDAR

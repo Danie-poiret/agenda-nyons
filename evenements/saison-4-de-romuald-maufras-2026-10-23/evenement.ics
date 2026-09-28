@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:saison-4-de-romuald-maufras-2026-10-23@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261023T200000
+DTEND;TZID=Europe/Paris:20261023T213000
+SUMMARY:« SAISON 4 » de Romuald Maufras
+DESCRIPTION:En tournée dans toute la France avec son nouveau spectacle !\nhttps://agenda.vivreanyons.fr/evenements/saison-4-de-romuald-maufras-2026-10-23/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/saison-4-de-romuald-maufras-2026-10-23/
+END:VEVENT
+END:VCALENDAR

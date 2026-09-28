@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:distribution-gratuite-de-compost-2026-09-26@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260926T090000
+DTEND;TZID=Europe/Paris:20260926T170000
+SUMMARY:Distribution gratuite de compost
+DESCRIPTION:La CCBDP propose une distribution gratuite de compost réservé aux particuliers.\nhttps://agenda.vivreanyons.fr/evenements/distribution-gratuite-de-compost-2026-09-26/
+LOCATION:Déchèteries intercommunales de Nyons\, ZA des Laurons - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/distribution-gratuite-de-compost-2026-09-26/
+END:VEVENT
+END:VCALENDAR

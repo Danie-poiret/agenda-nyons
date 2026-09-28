@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-bouda-omg-2026-10-02@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261002T180000
+DTEND;TZID=Europe/Paris:20261002T200000
+SUMMARY:Concert Bouda OMG !
+DESCRIPTION:Concert Bouda OMG - Dispositif Miz’Ampli\nhttps://agenda.vivreanyons.fr/evenements/concert-bouda-omg-2026-10-02/
+LOCATION:Médiathèque — 9 rue Albin Vilhet\, à Nyons
+URL:https://agenda.vivreanyons.fr/evenements/concert-bouda-omg-2026-10-02/
+END:VEVENT
+END:VCALENDAR

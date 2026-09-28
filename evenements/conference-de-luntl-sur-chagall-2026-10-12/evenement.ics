@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conference-de-luntl-sur-chagall-2026-10-12@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261012T150000
+DTEND;TZID=Europe/Paris:20261012T170000
+SUMMARY:Conférence de l’UNTL sur Chagall
+DESCRIPTION:Par Marie-Christine Haussy\, ancienne élève de l'École du Louvre\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-chagall-2026-10-12/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 Nyons
+URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-chagall-2026-10-12/
+END:VEVENT
+END:VCALENDAR

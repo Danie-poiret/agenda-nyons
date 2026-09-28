@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:opera-follies-2026-11-11@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261111T180000
+DTEND;TZID=Europe/Paris:20261111T193000
+SUMMARY:Opera follies
+DESCRIPTION:De l’Ensemble Vocal Cant’Ouvèze\nhttps://agenda.vivreanyons.fr/evenements/opera-follies-2026-11-11/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/opera-follies-2026-11-11/
+END:VEVENT
+END:VCALENDAR

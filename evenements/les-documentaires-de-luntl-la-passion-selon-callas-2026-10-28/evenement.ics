@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261028T183000
+DTEND;TZID=Europe/Paris:20261028T203000
+SUMMARY:Les documentaires de l’UNTL : « La Passion selon Callas »
+DESCRIPTION:Projection suivie d'un échange animé par le réalisateur\, Michel Van Zèle\, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches.\nhttps://agenda.vivreanyons.fr/evenements/les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28/
+END:VEVENT
+END:VCALENDAR

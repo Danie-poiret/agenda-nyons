@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-culinaire-street-food-party-2026-09-26@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260926T143000
+DTEND;TZID=Europe/Paris:20260926T170000
+SUMMARY:Atelier culinaire – Street food party
+DESCRIPTION:Réalisez vos tacos au poulet et burritos au bœuf maison\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-street-food-party-2026-09-26/
+LOCATION:Maison des Huiles d'Olives & Olives de France - — 40 place de la Libération\, 26110 Nyons
+URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-street-food-party-2026-09-26/
+END:VEVENT
+END:VCALENDAR

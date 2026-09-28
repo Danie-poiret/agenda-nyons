@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-jardin-zen-2026-10-10@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261010T103000
+DTEND;TZID=Europe/Paris:20261010T120000
+SUMMARY:Atelier Jardin Zen
+DESCRIPTION:Atelier Jardin Zen dans le cadre des semaines d'information sur la santé mentale.\nhttps://agenda.vivreanyons.fr/evenements/atelier-jardin-zen-2026-10-10/
+LOCATION:Médiathèque Drôme Provençale\, — 9 rue Albin Vilhet et Cinéma Arlequin\, place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/atelier-jardin-zen-2026-10-10/
+END:VEVENT
+END:VCALENDAR

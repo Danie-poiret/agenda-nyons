@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:droles-de-coincidences-2026-11-07@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261107T203000
+DTEND;TZID=Europe/Paris:20261107T220000
+SUMMARY:Drôles de Coïncidences
+DESCRIPTION:Comédie d'intrigue de Maxence Descamps\nhttps://agenda.vivreanyons.fr/evenements/droles-de-coincidences-2026-11-07/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/droles-de-coincidences-2026-11-07/
+END:VEVENT
+END:VCALENDAR

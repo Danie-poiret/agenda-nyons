@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a-vos-cartes-prets-jouez-2026-10-07@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261007T160000
+DTEND;TZID=Europe/Paris:20261007T180000
+SUMMARY:À vos cartes\, prêts\, jouez !
+DESCRIPTION:Un voyage souvenir à travers la France\nhttps://agenda.vivreanyons.fr/evenements/a-vos-cartes-prets-jouez-2026-10-07/
+LOCATION:Médiathèque — 9 rue Albin Vilhet\, à Nyons
+URL:https://agenda.vivreanyons.fr/evenements/a-vos-cartes-prets-jouez-2026-10-07/
+END:VEVENT
+END:VCALENDAR

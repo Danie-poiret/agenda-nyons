@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:constellations-familiales-2026-10-10@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261010T133000
+DTEND;TZID=Europe/Paris:20261010T193000
+SUMMARY:Constellations familiales
+DESCRIPTION:Nous n'héritons pas uniquement des traits physiques de nos ancêtres\, mais également de leurs histoires\, schémas et bagages émotionnels. C'est un moment de libération\, mais aussi d'hommage à nos ancêtres...\nhttps://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-10-10/
+LOCATION:Le collectif le Papillon: 10\, Avenue Jules Bernard 26110 Nyons
+URL:https://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-10-10/
+END:VEVENT
+END:VCALENDAR

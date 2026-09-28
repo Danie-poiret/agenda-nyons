@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:les-turlupinades-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261205T203000
+DTEND;TZID=Europe/Paris:20261205T220000
+SUMMARY:Les turlupinades
+DESCRIPTION:Comédie de la Compagnie du Chien Noir\nhttps://agenda.vivreanyons.fr/evenements/les-turlupinades-2026-12-05/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/les-turlupinades-2026-12-05/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:soiree-100-agriculture-viticulture-2026-09-28@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20260928T190000
+DTEND;TZID=Europe/Paris:20260928T231000
+SUMMARY:Soirée 100% Agriculture / Viticulture
+DESCRIPTION:Le cinéma l’Arlequin vous propose une soirée spéciale 100% Agriculture / Viticulture !\nhttps://agenda.vivreanyons.fr/evenements/soiree-100-agriculture-viticulture-2026-09-28/
+LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/soiree-100-agriculture-viticulture-2026-09-28/
+END:VEVENT
+END:VCALENDAR

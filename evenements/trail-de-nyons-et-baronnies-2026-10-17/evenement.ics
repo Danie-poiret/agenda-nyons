@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:trail-de-nyons-et-baronnies-2026-10-17@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261017T100000
+DTEND;TZID=Europe/Paris:20261018T180000
+SUMMARY:Trail de Nyons et Baronnies
+DESCRIPTION:Courses de trail 40km\, 22km\, 9\,5 km / Randonnée 9\,5 km / Marche nordique / Randonnée 9\,5 km\nhttps://agenda.vivreanyons.fr/evenements/trail-de-nyons-et-baronnies-2026-10-17/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/trail-de-nyons-et-baronnies-2026-10-17/
+END:VEVENT
+END:VCALENDAR

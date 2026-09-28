@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:grande-braderie-2026-10-02@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261002T090000
+DTEND;TZID=Europe/Paris:20261004T160000
+SUMMARY:Grande braderie
+DESCRIPTION:Grande braderie organisée par les associations Le Vestiaire et le Carrefour des Habitants\nhttps://agenda.vivreanyons.fr/evenements/grande-braderie-2026-10-02/
+LOCATION:Centre Saint-Vincent\, — 30 rue Henri Debiez - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/grande-braderie-2026-10-02/
+END:VEVENT
+END:VCALENDAR

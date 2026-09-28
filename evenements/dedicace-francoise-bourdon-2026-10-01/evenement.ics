@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dedicace-francoise-bourdon-2026-10-01@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261001T100000
+DTEND;TZID=Europe/Paris:20261001T163000
+SUMMARY:Dédicace Françoise Bourdon
+DESCRIPTION:Rencontrez Françoise Bourdon à la Libraire Pinet\, jeudi 1er octobre de 10h à 16h30.\nhttps://agenda.vivreanyons.fr/evenements/dedicace-francoise-bourdon-2026-10-01/
+LOCATION:Librairie Pinet\, — 18 place du Dr Bourdongle - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/dedicace-francoise-bourdon-2026-10-01/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:agriculture-en-surchauffe-on-en-parle-2026-10-14@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261014T180000
+DTEND;TZID=Europe/Paris:20261014T200000
+SUMMARY:Agriculture en surchauffe\, on en parle ?
+DESCRIPTION:Une saison agricole bouleversée par la fournaise.\nhttps://agenda.vivreanyons.fr/evenements/agriculture-en-surchauffe-on-en-parle-2026-10-14/
+LOCATION:Manufacture des Arts – — 17 chemin des Vivandes\, Nyons
+URL:https://agenda.vivreanyons.fr/evenements/agriculture-en-surchauffe-on-en-parle-2026-10-14/
+END:VEVENT
+END:VCALENDAR

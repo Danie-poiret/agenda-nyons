@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261207T150000
+DTEND;TZID=Europe/Paris:20261207T170000
+SUMMARY:Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »
+DESCRIPTION:Présentée par Jean-Luc Boissel\, astrophysicien\, professeur à l'INSA de Lyon.\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:boite-a-cordees-2027-05-14@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20270514T103000
+DTEND;TZID=Europe/Paris:20270514T152000
+SUMMARY:Boite à cordées
+DESCRIPTION:Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.\nhttps://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:salon-vivre-ici-2026-11-18@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261118T090000
+DTEND;TZID=Europe/Paris:20261118T200000
+SUMMARY:Salon Vivre ici
+DESCRIPTION:Etudier\, travailler\, habiter\nhttps://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/
+END:VEVENT
+END:VCALENDAR

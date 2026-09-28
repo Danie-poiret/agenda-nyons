@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:journee-jeux-de-societe-2026-10-24@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261024T100000
+DTEND;TZID=Europe/Paris:20261024T210000
+SUMMARY:Journée Jeux de société
+DESCRIPTION:Journée Jeux de société organisée par le Service Jeunesse\nhttps://agenda.vivreanyons.fr/evenements/journee-jeux-de-societe-2026-10-24/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/journee-jeux-de-societe-2026-10-24/
+END:VEVENT
+END:VCALENDAR

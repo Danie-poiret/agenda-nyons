@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:la-femme-moustique-2026-11-13@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261113T200000
+DTEND;TZID=Europe/Paris:20261113T210000
+SUMMARY:La Femme Moustique
+DESCRIPTION:Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.\nhttps://agenda.vivreanyons.fr/evenements/la-femme-moustique-2026-11-13/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/la-femme-moustique-2026-11-13/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tsart-une-histoire-de-paradis-2026-10-07@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261007T150000
+DTEND;TZID=Europe/Paris:20261007T160000
+SUMMARY:« Ts’art : Une histoire de Paradis ! »
+DESCRIPTION:Représentation théâtrale\, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis\, dans le cadre de la Semaine Bleue.\nhttps://agenda.vivreanyons.fr/evenements/tsart-une-histoire-de-paradis-2026-10-07/
+LOCATION:Hôpital de Nyons\, — 11 avenue Jules Bernard - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/tsart-une-histoire-de-paradis-2026-10-07/
+END:VEVENT
+END:VCALENDAR

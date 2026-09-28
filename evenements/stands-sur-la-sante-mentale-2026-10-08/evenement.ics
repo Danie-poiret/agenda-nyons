@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:stands-sur-la-sante-mentale-2026-10-08@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261008T080000
+DTEND;TZID=Europe/Paris:20261008T130000
+SUMMARY:Stands sur la santé mentale
+DESCRIPTION:Stands des associations et des structures du territoire\, œuvre participative dans le cadre des semaines d'information sur la santé mentale.\nhttps://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-2026-10-08/
+LOCATION:Marché - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-2026-10-08/
+END:VEVENT
+END:VCALENDAR

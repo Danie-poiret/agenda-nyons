@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:peter-pan-ou-lenfant-jamais-2026-12-18@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261218T200000
+DTEND;TZID=Europe/Paris:20261218T220000
+SUMMARY:Peter Pan ou l’Enfant Jamais
+DESCRIPTION:D’après « Peter pan » de James Matthew Barrie\, par le TRAC de Beaumes de Venise\, dans le cadre de « Nyons en Fête ».\nhttps://agenda.vivreanyons.fr/evenements/peter-pan-ou-lenfant-jamais-2026-12-18/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/peter-pan-ou-lenfant-jamais-2026-12-18/
+END:VEVENT
+END:VCALENDAR

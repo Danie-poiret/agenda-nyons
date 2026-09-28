@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4-seasons-jam-2026-10-10@agenda.vivreanyons.fr
+DTSTAMP:20260928T175504Z
+DTSTART;TZID=Europe/Paris:20261010T100000
+DTEND;TZID=Europe/Paris:20261011T180000
+SUMMARY:4 Seasons Jam
+DESCRIPTION:7e édition du week-end descente VTT.\nhttps://agenda.vivreanyons.fr/evenements/4-seasons-jam-2026-10-10/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/4-seasons-jam-2026-10-10/
+END:VEVENT
+END:VCALENDAR
