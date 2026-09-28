@@ -30,6 +30,30 @@ jobs:
           OPENAI_MODEL: gpt-5.6-terra
         run: python update_agenda.py
 
+      - name: Nettoyer les fiches evenements
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          for p in Path("evenements").glob("*/index.html"):
+              s = p.read_text(encoding="utf-8")
+
+              s = re.sub(
+                  r'\s*<p class="official-note">🔗\s*<a[^>]*><strong>Voir la fiche officielle de l’événement sur nyons\.com</strong></a></p>',
+                  '',
+                  s,
+              )
+
+              s = s.replace(
+                  "Le texte de cette page est une présentation éditoriale originale construite à partir des informations publiées. Les informations pratiques peuvent évoluer.",
+                  "",
+              )
+
+              p.write_text(s, encoding="utf-8")
+          PY
+
       - name: Enregistrer les changements
         shell: bash
         run: |
