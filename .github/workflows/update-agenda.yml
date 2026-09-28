@@ -30,12 +30,29 @@ jobs:
           OPENAI_MODEL: gpt-5.6-terra
         run: python update_agenda.py
 
-      - name: Nettoyer les fiches evenements
+      - name: Nettoyer les fiches et ajouter des liens Vivre a Nyons
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
+          import hashlib
+          import random
           import re
+
+          links = [
+              ("Vivre à Nyons", "https://www.vivreanyons.fr/", "Le guide local de Nyons"),
+              ("Que faire à Nyons ?", "https://www.vivreanyons.fr/que-faire-nyons", "Idées de visites, balades et sorties"),
+              ("15 incontournables à Nyons", "https://www.vivreanyons.fr/que-faire-nyons/visiter-nyons", "Les lieux et activités à ne pas manquer"),
+              ("Nyons, que voir à pied ?", "https://www.vivreanyons.fr/que-faire-nyons/nyons-que-voir", "Une découverte tranquille de la ville"),
+              ("Que faire autour de Nyons ?", "https://www.vivreanyons.fr/a-faire-autour-de-Nyons", "Villages, balades et idées autour de Nyons"),
+              ("5 choses gratuites à Nyons", "https://www.vivreanyons.fr/infos-pratiques-nyons/faire-gratuitement-a-nyons", "Des idées sans dépenser"),
+              ("Visiter Nyons en une journée", "https://www.vivreanyons.fr/que-faire-nyons/nyons-1-jour", "Un itinéraire simple pour découvrir Nyons"),
+          ]
+
+          marker_re = re.compile(
+              r'\s*<!-- VIVREANYONS_LINKS_START -->.*?<!-- VIVREANYONS_LINKS_END -->\s*',
+              re.S,
+          )
 
           for p in Path("evenements").glob("*/index.html"):
               s = p.read_text(encoding="utf-8")
@@ -50,6 +67,29 @@ jobs:
                   "Le texte de cette page est une présentation éditoriale originale construite à partir des informations publiées. Les informations pratiques peuvent évoluer.",
                   "",
               )
+
+              s = marker_re.sub("\n", s)
+
+              seed = int(hashlib.sha256(str(p).encode("utf-8")).hexdigest(), 16)
+              rng = random.Random(seed)
+              chosen = rng.sample(links, 2)
+
+              cards = "".join(
+                  f'<a class="related-card" href="{url}"><strong>{title}</strong><span>{desc}</span></a>'
+                  for title, url, desc in chosen
+              )
+
+              block = (
+                  '\n<!-- VIVREANYONS_LINKS_START -->\n'
+                  '<section class="section"><h2>🌿 À découvrir aussi sur Vivre à Nyons</h2>'
+                  f'<div class="related">{cards}</div></section>\n'
+                  '<!-- VIVREANYONS_LINKS_END -->\n'
+              )
+
+              if "</main>" in s:
+                  s = s.replace("</main>", block + "</main>", 1)
+              else:
+                  s = s.replace("</body>", block + "</body>", 1)
 
               p.write_text(s, encoding="utf-8")
           PY
