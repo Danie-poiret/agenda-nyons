@@ -312,5 +312,369 @@
     },
     "generated_at": "2026-09-28T14:09:48.862333+00:00",
     "model": "gpt-5.6-terra"
+  },
+  "2026-12-28": {
+    "hash": "a8890685016eff7c92b6022f9703768bc917b609c3ca92956e22b4f7ceaf77d7",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 28 décembre 2026 au 3 janvier 2027 : théâtre le 29 décembre et concert du Nouvel An le 1er janvier.",
+      "intro": "La semaine du 28 décembre 2026 au 3 janvier 2027 propose à Nyons deux rendez-vous culturels inscrits dans le cadre de « Nyons en Fête ». Le mardi 29 décembre, « On a perdu les clés du traîneau » met à l’affiche une comédie théâtrale de la compagnie RêVOLT, annoncée comme magique et drôle. Puis, le vendredi 1er janvier, le Concert de Rebecca Chaillot accompagne le passage à la nouvelle année avec une proposition réunissant piano et quatuor à cordes. Cette sélection resserrée permet de repérer facilement les sorties de la période : une date dédiée au théâtre en fin d’année, puis un concert programmé le jour du Nouvel An. Consultez les pages officielles des événements pour compléter votre organisation avant de vous déplacer.",
+      "weekend": "Pour choisir une sortie durant cette semaine de fêtes, commencez par regarder la date qui correspond à votre présence à Nyons. Le programme fourni distingue clairement deux ambiances : le théâtre le 29 décembre avec « On a perdu les clés du traîneau », et la musique classique le 1er janvier avec le Concert de Rebecca Chaillot. Le week-end allant jusqu’au 3 janvier ne comporte pas d’autre rendez-vous dans cette sélection. Le concert du Nouvel An peut ainsi constituer le principal repère culturel de cette fin de semaine.",
+      "practical": "Avant votre sortie, vérifiez les informations actualisées sur la page officielle de chaque événement : horaires, lieu précis, modalités d’accès et éventuelles conditions de participation ne sont pas indiqués ici. Pensez aussi à contrôler que la programmation est maintenue, notamment à l’approche du Nouvel An. Les deux rendez-vous sont annoncés dans le cadre de « Nyons en Fête ».",
+      "conclusion": "Entre le 29 décembre et le 1er janvier, Nyons propose deux occasions de prolonger les fêtes par la culture. La comédie de la compagnie RêVOLT offre un rendez-vous théâtral, tandis que Rebecca Chaillot est annoncée dans un programme pour piano et quatuor à cordes. Une courte sélection à consulter directement auprès des organisateurs pour préparer sa venue.",
+      "highlights": [
+        {
+          "event_title": "On a perdu les clés du traîneau",
+          "reason": "Une comédie théâtrale de la compagnie RêVOLT, présentée comme magique et drôle, le 29 décembre."
+        },
+        {
+          "event_title": "Concert de Rebecca Chaillot",
+          "reason": "Un rendez-vous du Nouvel An autour d’un concerto pour piano et quatuor à cordes, le 1er janvier."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:28:58.661143+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-01-04": {
+    "hash": "5161b53891030f251422a8223462ff712f61805547aef0eabc0efbaeaf3edf89",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 4 au 10 janvier 2027 : conférence sur la toponymie, création autour de Jackie Chan et atelier Yoga du Chant à découvrir.",
+      "intro": "La première semaine complète de janvier propose à Nyons trois rendez-vous aux univers distincts, répartis entre culture, vie associative et loisirs. Dès le lundi 4 janvier, l’UNTL met à l’honneur la toponymie locale à travers une conférence présentée par Robert Gleize, agrégé de physique. Le vendredi 8 janvier, la programmation culturelle se poursuit avec une création de Matthias Fortune, de la Cie Le Homard Bleu, qui mêle notamment récit personnel, kung-fu et références à la culture cantonaise. Enfin, le samedi 9 janvier, l’association Amate organise un Atelier Yoga du Chant animé par Ghislaine Checchini. Cette sélection courte permet de composer sa semaine selon ses envies : approfondir un sujet lié au territoire, découvrir une proposition artistique contemporaine ou participer à une activité de loisir.",
+      "weekend": "Pour le week-end, deux approches se dessinent sans se recouper. Le vendredi 8 janvier, « Au Nom du Père, du Fils et de Jackie Chan » s’adresse à celles et ceux qui souhaitent découvrir l’univers porté par Matthias Fortune et la Cie Le Homard Bleu, autour d’un parcours de renaissance évoquant l’enfance, la santé mentale, le kung-fu et la pop cantonaise. Le samedi 9 janvier, l’Atelier Yoga du Chant offre une autre option, dans le cadre associatif d’Amate et avec l’animation de Ghislaine Checchini. Le choix peut donc se faire entre une sortie culturelle et un atelier de loisirs.",
+      "practical": "Avant de prévoir votre sortie, consultez la page officielle de chaque événement pour disposer des informations actualisées. Vérifiez notamment les indications propres au rendez-vous choisi et conservez le lien correspondant. La conférence de l’UNTL a lieu le 4 janvier, la création de Matthias Fortune le 8 janvier et l’atelier proposé par Amate le 9 janvier 2027.",
+      "conclusion": "Du 4 au 10 janvier, l’agenda nyonsais réunit une conférence liée aux noms de lieux, une proposition culturelle portée par la Cie Le Homard Bleu et un atelier associatif autour du chant. Malgré un nombre limité de rendez-vous, la diversité des thématiques permet d’envisager une sortie différente selon ses centres d’intérêt. Pensez à vous référer aux pages officielles avant votre venue.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « Essai de toponymie locale »",
+          "reason": "Une conférence sur la toponymie locale présentée par Robert Gleize, agrégé de physique."
+        },
+        {
+          "event_title": "Au Nom du Père, du Fils et de Jackie Chan",
+          "reason": "Une création de Matthias Fortune, de la Cie Le Homard Bleu, entre récit de renaissance, kung-fu et pop cantonaise."
+        },
+        {
+          "event_title": "Atelier Yoga du Chant",
+          "reason": "Un atelier de l’association Amate animé par Ghislaine Checchini."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:29:18.810255+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-01-11": {
+    "hash": "17b8f730512ffe8605d5c7a1348f759656b98b77f89821a863cfe7efc41b4d47",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 11 au 17 janvier 2027 : une conférence de l’UNTL consacrée à Albert Camus et à la voix de la pauvreté.",
+      "intro": "La semaine du 11 au 17 janvier 2027 à Nyons s’annonce sous le signe de la culture et de la réflexion. L’agenda recense une conférence proposée par l’UNTL autour d’Albert Camus, dont le thème porte sur « la voix de la pauvreté ». Ce rendez-vous offre une occasion de se pencher sur l’œuvre et les enjeux associés à cet écrivain majeur, à travers l’intervention de Jean-Michel Wavelet. Instituteur, inspecteur d’Académie et écrivain, il apporte un parcours particulièrement lié aux questions de transmission et de littérature. Pour les habitants comme pour les visiteurs souhaitant intégrer une sortie culturelle à leur séjour, cette rencontre constitue le temps fort identifié de la semaine. Consultez la page officielle de l’événement avant de vous déplacer afin de disposer des informations les plus récentes.",
+      "weekend": "Pour préparer vos sorties du week-end à Nyons, commencez par regarder les événements dont les dates correspondent à vos disponibilités. Cette semaine, la conférence de l’UNTL est annoncée le lundi 11 janvier : elle peut donc intéresser les personnes disponibles en début de semaine plutôt que durant le samedi ou le dimanche. Si vous recherchez spécifiquement une activité de week-end, vérifiez régulièrement l’agenda officiel : d’autres rendez-vous peuvent être ajoutés ou mis à jour. En l’absence d’informations complémentaires dans la fiche, mieux vaut ne pas présumer des conditions d’accès ou du déroulé de la rencontre.",
+      "practical": "Avant votre venue, consultez la fiche officielle de la conférence pour confirmer les informations pratiques disponibles. Vérifiez notamment la date, le lieu éventuel, les horaires, les modalités d’accès et toute indication de dernière minute. L’événement étant proposé par l’UNTL et animé par Jean-Michel Wavelet, la page de l’agenda reste la source à privilégier pour préparer votre déplacement à Nyons.",
+      "conclusion": "Du 11 au 17 janvier 2027, l’agenda de Nyons met en avant une proposition culturelle consacrée à Albert Camus. La conférence de l’UNTL constitue un rendez-vous intéressant pour celles et ceux qui souhaitent découvrir un regard sur l’écrivain et le thème de la pauvreté dans son œuvre. Pensez à consulter le lien officiel avant de programmer votre sortie.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur Albert Camus, la voix de la pauvreté",
+          "reason": "Une conférence culturelle sur Albert Camus, présentée par Jean-Michel Wavelet, instituteur, inspecteur d’Académie et écrivain."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:29:31.904285+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-01-18": {
+    "hash": "0c5b38d317a2c54ad76b6099b8c93ae3a5e0fd302617fc81e01996532ecb35ee",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 18 au 24 janvier 2027 : une conférence sur le Dauphiné du XVIIIe siècle et les Rencontres Barjavel.",
+      "intro": "La semaine du 18 au 24 janvier 2027 à Nyons met la culture et l’histoire locale à l’honneur. Deux rendez-vous se succèdent pour découvrir des regards différents sur le patrimoine : une conférence consacrée aux marchands ruraux dans le Dauphiné au XVIIIe siècle, puis les Rencontres Barjavel 2027. Le premier rendez-vous s’inscrit dans une approche historique, avec l’intervention de Martine Lambert, coprésidente honoraire de l’UNTL. Les Rencontres Barjavel invitent quant à elles à se tourner vers René Barjavel, né à Nyons en 1911 et devenu journaliste puis écrivain. Cette sélection resserrée permet de repérer facilement les sorties culturelles proposées en fin de semaine, entre histoire régionale et hommage à une figure littéraire liée à la ville.",
+      "weekend": "Pour organiser votre week-end des 22 et 23 janvier, les Rencontres Barjavel 2027 constituent le rendez-vous annoncé sur deux jours. Elles offrent une occasion de renouer avec l’itinéraire de René Barjavel, enfant de Nyons devenu une figure reconnue du journalisme et de la littérature. Si vous préférez commencer les sorties culturelles dès le jeudi, la conférence de l’UNTL du 21 janvier ouvre la semaine avec un sujet consacré aux marchands ruraux dans le Dauphiné au XVIIIe siècle. Le choix peut donc se faire selon votre intérêt pour l’histoire régionale ou pour l’héritage littéraire nyonsais.",
+      "practical": "Avant de vous déplacer, consultez les pages officielles de chaque événement : elles permettent de vérifier les informations utiles qui ne figurent pas dans cette sélection, notamment les modalités d’accès ou d’éventuelles précisions d’organisation. Pensez aussi à contrôler la date : la conférence est annoncée le 21 janvier, tandis que les Rencontres Barjavel se déroulent les 22 et 23 janvier 2027.",
+      "conclusion": "Avec une conférence historique et un rendez-vous consacré à René Barjavel, l’agenda de Nyons propose une semaine courte mais cohérente pour les amateurs de culture. Ces deux événements mettent en avant des sujets ancrés dans l’histoire et l’identité du territoire. Consultez les informations officielles avant votre venue afin de préparer votre sortie selon les conditions communiquées par les organisateurs.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL : « Les marchands ruraux dans le Dauphiné au XVIIIe siècle »",
+          "reason": "Une conférence sur l’histoire des échanges ruraux dans le Dauphiné au XVIIIe siècle, présentée par Martine Lambert."
+        },
+        {
+          "event_title": "Les Rencontres Barjavel 2027",
+          "reason": "Deux journées dédiées à René Barjavel, né à Nyons en 1911, devenu journaliste puis écrivain."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:29:48.024988+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-01-25": {
+    "hash": "275ccc8bda75d2b274ea61dac347257ff21c8dcfac126d1fd4572f813bee9828",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 25 au 31 janvier 2027 : une conférence de l’UNTL consacrée à « Guernica » de Pablo Picasso, le 27 janvier.",
+      "intro": "La semaine du 25 au 31 janvier 2027 à Nyons est marquée, dans les informations disponibles, par un rendez-vous culturel autour d’une œuvre majeure de Pablo Picasso. Prévue le 27 janvier, la conférence de l’UNTL sur « Guernica » sera présentée par Sabine Schütz, historienne et critique d’art. C’est une occasion de consacrer une sortie à la découverte ou à l’approfondissement de cette peinture emblématique, à travers le regard d’une spécialiste. L’événement figure à la fois dans les rubriques culture et loisirs de l’agenda. Pour préparer votre semaine, consultez la page officielle associée à la conférence : elle constitue le bon point de repère pour retrouver les informations publiées par l’organisateur. Aucun autre rendez-vous n’est détaillé dans les éléments transmis pour cette période.",
+      "weekend": "Pour organiser vos sorties du week-end des 30 et 31 janvier, commencez par distinguer les événements dont la date est confirmée de ceux qui pourraient être ajoutés ultérieurement. Dans les informations fournies, le seul rendez-vous daté de la semaine se tient le mercredi 27 janvier : il ne permet donc pas de composer un programme de samedi ou de dimanche. La page officielle de l’agenda liée à la conférence reste utile à consulter avant de faire votre choix, notamment si de nouvelles informations sont publiées. Évitez de déduire un programme de week-end à partir des seules catégories de l’événement.",
+      "practical": "Avant de vous déplacer, vérifiez directement la page officielle de la conférence. Les éléments fournis confirment sa date, le 27 janvier, son sujet et l’intervention de Sabine Schütz. En revanche, ils ne précisent ni horaire, ni lieu, ni conditions d’accès. Une consultation récente de l’annonce permet donc de s’appuyer sur les informations effectivement publiées par l’organisateur.",
+      "conclusion": "Cette semaine à Nyons met l’accent sur une proposition culturelle unique dans les informations disponibles. La conférence de l’UNTL offre un temps consacré à « Guernica » de Pablo Picasso, avec l’éclairage de l’historienne et critique d’art Sabine Schütz. Pour une sortie en toute sérénité, retenez la date du 27 janvier et consultez l’annonce officielle avant votre venue.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « Guernica » de Pablo Picasso",
+          "reason": "Une conférence culturelle le 27 janvier, présentée par l’historienne et critique d’art Sabine Schütz."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:30:01.766804+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-02-01": {
+    "hash": "f13fc9422015c9fb164bd26954296c9c033da815f59adf7116d5cba42a2276e6",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 1er au 7 février 2027 : conférence sur la pensée économique et rendez-vous de conte musical et théâtral.",
+      "intro": "La semaine du 1er au 7 février 2027 propose à Nyons deux rendez-vous culturels aux tonalités distinctes. Le mercredi 3 février, l’UNTL organise une conférence consacrée au regard des penseurs économiques sur la situation française. Elle est animée par Gilbert Font, ancien directeur financier. Cette rencontre peut intéresser les personnes souhaitant aborder l’actualité française par le prisme des idées économiques. Le samedi 6 février, place à une proposition scénique avec Les Grands Chemins, un conte mêlant musique et théâtre. Le spectacle s’inspire librement de l’ouvrage de Jean Giono et réunit Yohann Villanua. Il s’inscrit dans le cadre de l’Alicoque. Entre réflexion autour des courants de pensée et découverte d’un univers littéraire porté à la scène, l’agenda de Nyons offre deux possibilités de sortie au cours de cette première semaine de février.",
+      "weekend": "Pour le week-end, le programme se concentre sur le samedi 6 février avec Les Grands Chemins. Ce rendez-vous constitue l’option culturelle annoncée pour la fin de semaine : il associe conte, musique et théâtre, tout en puisant librement son inspiration dans un livre de Jean Giono. La présence de Yohann Villanua et l’inscription de l’événement dans le cadre de l’Alicoque sont également indiquées. Les visiteurs qui recherchent une sortie le week-end peuvent donc retenir cette date, puis consulter la page officielle avant de se déplacer afin de vérifier les informations complémentaires.",
+      "practical": "Les informations fournies ne précisent ni l’horaire, ni le lieu exact, ni les conditions d’accès des deux rendez-vous. Avant de prévoir votre sortie, consultez les pages officielles associées à chaque événement. Vérifiez notamment les éventuelles modalités pratiques, les changements de dernière minute et les informations utiles pour organiser votre venue à Nyons.",
+      "conclusion": "Cette semaine à Nyons alterne une conférence portée sur les idées économiques et une création scénique inspirée de la littérature. Les deux dates, prévues les 3 et 6 février 2027, permettent de choisir selon ses envies entre réflexion et spectacle. Pour préparer votre participation, référez-vous aux informations actualisées publiées par les organisateurs.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « Les penseurs économiques face à la situation française »",
+          "reason": "Une rencontre animée par Gilbert Font, ancien directeur financier, autour des penseurs économiques et de la situation française."
+        },
+        {
+          "event_title": "Les Grands Chemins",
+          "reason": "Un conte musical et théâtralisé librement inspiré d’un livre de Jean Giono, avec Yohann Villanua, dans le cadre de l’Alicoque."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:30:17.554344+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-02-08": {
+    "hash": "7e69ba487555b36f886bcb73f4506db4dbb7d0bf9766e86ce07331c7e6ad93ba",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 8 au 14 février 2027 : un atelier Yoga du Chant proposé le samedi par l’association Amate.",
+      "intro": "La semaine du 8 au 14 février 2027 à Nyons propose un rendez-vous placé sous le signe des loisirs et de la vie associative. Le samedi 13 février, l’association Amate organise l’« Atelier Yoga du Chant », animé par Ghislaine Checchini. Cette proposition s’inscrit dans les catégories Sport / Loisirs, Vie associative et Loisirs, et offre une piste de sortie pour celles et ceux qui souhaitent découvrir une activité associative durant le week-end. Comme l’agenda communiqué ne détaille ni les modalités d’accès ni le déroulement de l’atelier, le plus sûr est de consulter la page officielle avant de prévoir sa venue. Cette sélection hebdomadaire permet ainsi d’identifier simplement l’événement annoncé à Nyons pour cette période, sans ajouter d’informations non confirmées.",
+      "weekend": "Pour organiser votre week-end des 13 et 14 février à Nyons, commencez par repérer la date de l’événement : l’Atelier Yoga du Chant est annoncé le samedi 13 février. Son ancrage dans la vie associative et les loisirs peut guider votre choix si vous recherchez une activité de ce type. Aucun autre rendez-vous n’est indiqué dans les informations transmises pour le dimanche. Il est donc préférable de vous appuyer sur la fiche officielle de l’atelier pour compléter votre organisation et vérifier les informations utiles avant votre déplacement.",
+      "practical": "Avant de vous rendre à l’Atelier Yoga du Chant, consultez la page officielle associée à l’événement. Les informations fournies confirment la date, l’association Amate et l’animation par Ghislaine Checchini, mais ne précisent pas les horaires, le lieu, les conditions de participation ou une éventuelle réservation. Vérifiez ces éléments directement auprès de la source indiquée.",
+      "conclusion": "Du 8 au 14 février 2027, l’agenda de Nyons met en avant un rendez-vous associatif le samedi : l’Atelier Yoga du Chant. C’est une occasion de repérer une activité classée dans les loisirs, tout en prenant le temps de vérifier ses modalités pratiques. Consultez l’annonce officielle pour préparer votre sortie avec des informations à jour.",
+      "highlights": [
+        {
+          "event_title": "Atelier Yoga du Chant",
+          "reason": "Proposé le samedi 13 février par l’association Amate et animé par Ghislaine Checchini."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:30:28.489271+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-02-15": {
+    "hash": "c0c5a5ed17d80cc53004f01178cab5be222b62dab847847abe4d187b51644c8b",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 15 au 21 février 2027 : Blue Maqam de Renaud Garcia-Fons, une rencontre annoncée entre jazz et musiques orientales à découvrir.",
+      "intro": "Du 15 au 21 février 2027, l’agenda de Nyons met en avant un rendez-vous culturel programmé le vendredi 19 février. Blue Maqam de Renaud Garcia-Fons s’inscrit dans un univers présenté comme un lien entre jazz et musiques orientales. Cette date offre un repère pour celles et ceux qui souhaitent prévoir une sortie culturelle pendant la semaine, que ce soit dans le cadre d’un séjour ou d’un programme local. La sélection disponible invite à se concentrer sur cette proposition et à consulter sa fiche dédiée pour réunir les informations utiles à l’organisation. L’événement est classé dans les catégories « Patrimoine / Culture vivante » et « Culture ». Les données transmises indiquent une unique date, le 19 février, pour ce rendez-vous.",
+      "weekend": "Pour préparer le week-end des 20 et 21 février, il est utile de distinguer les sorties prévues pendant la semaine de celles annoncées précisément sur le samedi ou le dimanche. Dans les informations disponibles, Blue Maqam de Renaud Garcia-Fons est programmé le vendredi 19 février. Il peut donc trouver sa place dans un programme de fin de semaine élargi, mais aucune programmation n’est indiquée ici pour les deux jours du week-end eux-mêmes. Avant d’arrêter votre choix, consultez la fiche officielle et adaptez votre organisation aux informations confirmées.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de l’événement pour vérifier les renseignements qui ne figurent pas dans cette sélection, ainsi que d’éventuelles mises à jour. Confirmez notamment que la date du 19 février 2027 correspond à votre programme. La fiche à consulter est disponible sur nyons.com, dans la rubrique agenda consacrée à Blue Maqam de Renaud Garcia-Fons.",
+      "conclusion": "La semaine du 15 au 21 février à Nyons se distingue ici par un rendez-vous culturel le vendredi 19 février. Blue Maqam de Renaud Garcia-Fons propose une rencontre annoncée entre jazz et musiques orientales. Pour préparer cette sortie sereinement, la fiche officielle reste le bon point de référence pour compléter les informations disponibles.",
+      "highlights": [
+        {
+          "event_title": "Blue Maqam de Renaud Garcia-Fons",
+          "reason": "Un rendez-vous culturel du 19 février, présenté comme un trait d’union entre jazz et musiques orientales."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:30:51.933006+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-03-08": {
+    "hash": "d59564fb7a28939e2be23de8362a5c996815671bb66128c1107150de76d24dd1",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 8 au 14 mars 2027 : culture, atelier de Yoga du Chant et conférence autour de Pi pour composer vos sorties.",
+      "intro": "Du 8 au 14 mars 2027, l’agenda de Nyons propose trois rendez-vous répartis entre culture, loisirs et vie associative. La semaine débute avec « Quand je serai grande, je serai Patrick Swayze », programmé le 10 mars dans les catégories Culture et Patrimoine / Culture vivante. Le samedi 13 mars, l’Atelier Yoga du Chant est porté par l’association Amate et animé par Ghislaine Checchini. Le dimanche 14 mars, l’UNTL propose une conférence consacrée à Pi, présentée par Michel Moreau, agrégé de mathématiques. Cette sélection courte permet de repérer facilement une sortie selon ses envies : un rendez-vous culturel en milieu de semaine, un atelier le samedi ou une conférence le dimanche. Pensez à consulter les pages officielles de chaque événement pour préparer votre venue.",
+      "weekend": "Pour le week-end des 13 et 14 mars, deux options se distinguent dans l’agenda de Nyons. Le samedi, l’Atelier Yoga du Chant s’inscrit à la fois dans les loisirs et la vie associative. Le dimanche, la conférence de l’UNTL aborde Pi et relève des catégories Culture, Vie associative et Patrimoine / Culture vivante. Le choix peut donc se faire selon le type de sortie recherché : un atelier animé par Ghislaine Checchini ou une conférence présentée par Michel Moreau. Les deux rendez-vous n’ayant pas le même thème, ils offrent une alternative claire sur les deux journées du week-end.",
+      "practical": "Avant de vous déplacer, ouvrez la fiche officielle correspondant à l’événement choisi. Elle permet de vérifier les informations utiles qui ne figurent pas dans cette sélection, notamment les modalités d’accès ou toute éventuelle mise à jour. Notez aussi la date : le spectacle a lieu le 10 mars, l’atelier le 13 mars et la conférence le 14 mars 2027. Les liens officiels restent la meilleure source pour finaliser votre programme.",
+      "conclusion": "Cette semaine de mars à Nyons réunit trois propositions aux formats différents, entre rendez-vous culturel, atelier associatif et conférence. Avec une date prévue en milieu de semaine puis deux sorties concentrées sur le week-end, chacun peut composer son agenda selon ses disponibilités. Pour retenir l’événement qui vous convient, consultez sa page officielle et vérifiez les informations pratiques avant votre départ.",
+      "highlights": [
+        {
+          "event_title": "Quand je serai grande, je serai Patrick Swayze",
+          "reason": "Un rendez-vous culturel programmé le 10 mars, également classé en Patrimoine / Culture vivante."
+        },
+        {
+          "event_title": "Atelier Yoga du Chant",
+          "reason": "Un atelier du samedi 13 mars, proposé par l’association Amate et animé par Ghislaine Checchini."
+        },
+        {
+          "event_title": "Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi »",
+          "reason": "Une conférence du dimanche 14 mars sur Pi, présentée par Michel Moreau, agrégé de mathématiques."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:31:07.144008+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-03-15": {
+    "hash": "059fe377a7c13d6ad400b5d357cc01242e8d832413708b8ba9251a75b9408fc9",
+    "editorial": {
+      "meta_description": "À Nyons, du 15 au 21 mars 2027, une conférence sur la domesticité et une œuvre théâtrale autour de l’amour rythment la semaine culturelle locale.",
+      "intro": "Du 15 au 21 mars 2027, l’agenda de Nyons réunit deux rendez-vous culturels, programmés le mercredi puis le vendredi. La semaine commence avec une conférence de l’UNTL dédiée à la domesticité, envisagée entre les notions de servilité et de fidélité. Elle est présentée par Michèle Margain, dont le parcours associe généalogie, écriture et intérêt pour les terroirs ainsi que pour celles et ceux qui y vivent. Le vendredi, « Au nom de l’amour » apporte une autre proposition culturelle. Cette œuvre de Charlotte Adrien, conçue avec le CCDV, aborde l’amour dans un cadre théâtral. Avec seulement deux dates à repérer, la sélection permet d’identifier rapidement les sorties de la semaine et d’aller consulter les pages officielles avant de faire son choix.",
+      "weekend": "Les informations fournies ne font apparaître qu’un rendez-vous en fin de semaine : « Au nom de l’amour », daté du vendredi 19 mars. Cette proposition permet de prévoir une sortie culturelle avant le week-end, autour d’une œuvre de Charlotte Adrien réalisée avec le CCDV. La conférence de l’UNTL sur la domesticité se tient quant à elle le mercredi 17 mars : elle s’inscrit donc davantage dans le milieu de semaine. Pour choisir entre les deux, la date constitue le premier repère, suivie de la présentation officielle de chaque événement.",
+      "practical": "Avant tout déplacement, consultez les pages officielles associées aux deux événements. Les informations disponibles indiquent les dates et les thèmes, mais ne précisent ni horaire, ni lieu, ni conditions d’accès. Les liens dédiés permettront de vérifier les modalités pratiques éventuellement publiées. Lors de votre organisation, distinguez bien la conférence du mercredi 17 mars de la proposition théâtrale du vendredi 19 mars.",
+      "conclusion": "Cette semaine de mars propose à Nyons une sélection courte mais contrastée : une conférence consacrée à la domesticité et une œuvre théâtrale autour de l’amour. Le calendrier répartit ces rendez-vous entre le milieu et la fin de semaine. Pour compléter votre choix, les pages officielles restent la source à privilégier afin de vérifier les renseignements absents des informations disponibles.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur la domesticité, entre servilité et fidélité",
+          "reason": "Une conférence du 17 mars présentée par Michèle Margain et consacrée à la domesticité."
+        },
+        {
+          "event_title": "Au nom de l’amour",
+          "reason": "Un rendez-vous du 19 mars : une œuvre de Charlotte Adrien conçue en collaboration avec le CCDV."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:31:38.311398+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-03-22": {
+    "hash": "77e78ba4e993a9c84a0918f585488fa364544d365cbb897a54344121570b2fd9",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 22 au 28 mars 2027 : une conférence de l’UNTL explore la glaciation ordovicienne du Gondwana le 24 mars.",
+      "intro": "La semaine du 22 au 28 mars 2027 à Nyons propose un rendez-vous placé sous le signe de la découverte scientifique et culturelle. Le mercredi 24 mars, l’UNTL organise une conférence consacrée à la glaciation ordovicienne du Gondwana. Présentée par Jean-Loup Rubino, de l’Université de la Sorbonne, cette rencontre invite à s’intéresser à un épisode ancien de l’histoire de la Terre. C’est une idée de sortie pour celles et ceux qui souhaitent enrichir leur semaine par un temps de transmission et de réflexion autour des sciences. L’agenda disponible pour cette période ne mentionne qu’un événement : il peut donc être utile de consulter régulièrement la page officielle afin de suivre d’éventuelles mises à jour ou précisions.",
+      "weekend": "Pour organiser vos sorties du week-end à Nyons, commencez par repérer les rendez-vous annoncés sur les derniers jours de la semaine. Dans les informations disponibles ici, la conférence de l’UNTL est programmée le mercredi 24 mars et ne se déroule donc pas durant le week-end. Elle peut néanmoins constituer une sortie intéressante à prévoir en amont, pour compléter votre programme hebdomadaire. Aucun autre événement n’est indiqué pour les 27 et 28 mars dans la sélection fournie. Avant de vous déplacer, consultez l’agenda officiel pour vérifier si de nouvelles propositions ont été ajoutées.",
+      "practical": "Les informations communiquées ne précisent ni horaire, ni lieu, ni modalités d’accès pour la conférence. Vérifiez ces éléments directement sur la page officielle de l’événement avant votre venue. Pensez aussi à contrôler la date, le 24 mars 2027, et les éventuelles actualisations de l’agenda de Nyons. Cette vérification permet d’organiser votre déplacement avec des informations à jour.",
+      "conclusion": "Cette semaine, Nyons met en avant une rencontre autour de la glaciation ordovicienne du Gondwana. Portée par l’UNTL et présentée par Jean-Loup Rubino, cette conférence offre une parenthèse dédiée aux connaissances scientifiques. Pour profiter au mieux de ce rendez-vous, consultez les informations officielles avant de finaliser votre programme. L’agenda peut évoluer au fil des annonces.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana »",
+          "reason": "Une conférence présentée par Jean-Loup Rubino, de l’Université de la Sorbonne, autour d’un sujet lié à l’histoire de la Terre."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:31:50.538435+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-03-29": {
+    "hash": "58c5fd3ea2f3436b7f7b93ce83365aab96d24e132de7ec6e1dae0fb83ef108b7",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 29 mars au 4 avril 2027 : une conférence culturelle et un rendez-vous de poésie, voix et musique le 2 avril.",
+      "intro": "La semaine du 29 mars au 4 avril 2027 propose à Nyons deux rendez-vous inscrits dans le champ culturel, à des dates distinctes. Le mercredi 31 mars, l’UNTL programme une conférence consacrée à « Sapienza Galiarda », animée par Dominique Phélebon. Cette rencontre relève aussi de la vie associative et du patrimoine culturel vivant. Le vendredi 2 avril, place à « Et maintenant j’attends », une proposition associant poésie, voix, accordéon et violoncelle. Elle réunit Sabine Venaruzzo, Daniel Mille et Eric Longsworth dans le cadre du Printemps des Poètes. Cet agenda court privilégie ainsi deux formats complémentaires : un temps de conférence en milieu de semaine, puis une approche poétique et musicale à l’approche du week-end.",
+      "weekend": "Pour organiser ses sorties de fin de semaine, il est utile de regarder d’abord les dates : parmi les rendez-vous annoncés, « Et maintenant j’attends » se tient le vendredi 2 avril. Ce choix conviendra à celles et ceux qui souhaitent découvrir une forme mêlant texte et musique, avec accordéon, violoncelle et voix. La conférence de l’UNTL, prévue le mercredi 31 mars, offre quant à elle une autre porte d’entrée, davantage tournée vers une thématique culturelle. Les deux propositions ne se déroulent pas le même jour : elles peuvent donc être retenues selon ses disponibilités.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de chaque événement. Les informations fournies ici indiquent les dates et la nature des rendez-vous, mais ne précisent ni horaires ni modalités d’accès. Vérifiez également que l’événement est toujours maintenu, notamment si vous préparez votre venue plusieurs jours à l’avance. Les liens officiels permettent de retrouver les éventuelles informations complémentaires publiées par les organisateurs.",
+      "conclusion": "Cette semaine à Nyons met en avant deux expressions de la culture vivante : une conférence portée par l’UNTL et un rendez-vous poétique accompagné de musique. Entre le 31 mars et le 2 avril, chacun peut choisir le format qui correspond à ses envies, ou suivre les deux propositions. Pensez à consulter les pages dédiées avant votre sortie pour disposer des informations actualisées.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « Sapienza Galiarda »",
+          "reason": "Une conférence culturelle animée par Dominique Phélebon, également inscrite dans la vie associative."
+        },
+        {
+          "event_title": "Et maintenant j’attends",
+          "reason": "Un rendez-vous du Printemps des Poètes associant poésie, voix, accordéon et violoncelle."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:32:03.989449+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-04-05": {
+    "hash": "bef7bd447daa34cb98db2799c8bafc708e7dc7a1766c8e03347510268e98c3a8",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 5 au 11 avril 2027 : une conférence consacrée à Pieter Bruegel l’ancien et un atelier Yoga du Chant à découvrir.",
+      "intro": "La semaine du 5 au 11 avril 2027 à Nyons propose deux rendez-vous aux approches bien distinctes, entre découverte artistique et pratique de loisir. Le 7 avril, l’UNTL consacre une conférence aux « Jeux d’Enfants » de Pieter Bruegel l’ancien. Présentée par Sabine Schütz, historienne et critique d’art, elle offre une occasion de s’intéresser à cette œuvre et à son auteur dans un cadre culturel et associatif. Le 10 avril, l’association Amate propose l’Atelier Yoga du Chant, animé par Ghislaine Checchini. Ce second événement s’inscrit dans les catégories sport, loisirs et vie associative. Avec seulement deux propositions annoncées sur cette période, l’agenda invite à choisir selon ses envies : approfondir une thématique liée à l’histoire de l’art ou participer à un atelier centré sur le chant et le yoga.",
+      "weekend": "Pour organiser vos sorties de week-end à Nyons, l’Atelier Yoga du Chant constitue le rendez-vous programmé le 10 avril. Animé par Ghislaine Checchini pour l’association Amate, il réunit dans son intitulé deux univers, le yoga et le chant, et figure à la fois dans les rubriques loisirs, sport et vie associative. Les personnes davantage attirées par une proposition culturelle pourront plutôt prévoir la conférence de l’UNTL du 7 avril, consacrée aux « Jeux d’Enfants » de Pieter Bruegel l’ancien. Le choix dépend donc avant tout du type d’expérience recherché.",
+      "practical": "Avant de vous déplacer, consultez les pages officielles de chaque événement afin de vérifier les informations susceptibles d’être précisées ou modifiées. La conférence et l’atelier ne se déroulent pas le même jour : notez bien le 7 avril pour le rendez-vous de l’UNTL et le 10 avril pour l’Atelier Yoga du Chant. Les liens officiels permettent aussi de retrouver l’organisateur associé à chaque proposition.",
+      "conclusion": "Cette semaine d’avril à Nyons met en avant deux formats complémentaires : une conférence portée par l’UNTL autour de Pieter Bruegel l’ancien, puis un atelier proposé par l’association Amate. Que votre intérêt aille vers l’histoire de l’art ou vers une activité associant yoga et chant, ces rendez-vous donnent un aperçu ciblé de la programmation locale. Pensez à consulter les informations officielles avant votre venue.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « Les Jeux d’Enfants de Pieter Bruegel l’ancien »",
+          "reason": "Une conférence culturelle présentée par Sabine Schütz, historienne et critique d’art, autour d’une œuvre de Pieter Bruegel l’ancien."
+        },
+        {
+          "event_title": "Atelier Yoga du Chant",
+          "reason": "Un atelier de l’association Amate, animé par Ghislaine Checchini, classé parmi les loisirs, le sport et la vie associative."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:32:17.905142+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-04-19": {
+    "hash": "85aaceb03d468d3909868fe7b55c57291830c24b9766b2ea1efbbb024af01bbf",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 19 au 25 avril 2027 : découvrez Landing, un rendez-vous culturel programmé le vendredi 23 avril.",
+      "intro": "La semaine du 19 au 25 avril 2027 à Nyons compte un rendez-vous culturel identifié dans l’agenda : Landing, prévu le vendredi 23 avril. Classé à la fois dans les rubriques « Patrimoine / Culture vivante » et « Culture », cet événement constitue une piste de sortie pour celles et ceux qui souhaitent intégrer une proposition artistique à leur semaine dans la ville. Avec une programmation recensée sur une seule date, il peut être utile de le repérer en amont afin d’organiser son passage à Nyons ou de compléter un programme de découverte locale. Les informations disponibles invitent surtout à retenir la date et la dimension culturelle de ce rendez-vous. Pour les précisions qui ne figurent pas dans l’agenda synthétique, la page officielle de l’événement reste la référence à consulter avant de préparer sa sortie.",
+      "weekend": "Pour le week-end des 24 et 25 avril, l’agenda fourni ne recense pas d’événement daté sur ces deux journées. Landing a lieu le vendredi 23 avril : il peut donc convenir à celles et ceux qui envisagent de débuter leur parenthèse de fin de semaine dès le vendredi. Le choix est ici simple : privilégier ce rendez-vous si vous recherchez une sortie associée à la culture vivante et à la culture. Avant de construire votre programme, consultez les informations actualisées de l’organisateur, notamment si vous prévoyez votre venue autour de cette date.",
+      "practical": "Retenez la date du vendredi 23 avril 2027 pour Landing. Les éléments transmis ne précisent ni horaires, ni lieu, ni conditions d’accès : vérifiez-les directement sur la page officielle avant de vous déplacer. Cette consultation permet aussi de prendre connaissance d’éventuelles informations mises à jour par l’organisateur. Gardez le lien de l’événement à portée de main lors de la préparation de votre séjour ou de votre sortie à Nyons.",
+      "conclusion": "Du 19 au 25 avril 2027, Landing apporte une proposition culturelle au calendrier nyonsais le vendredi. C’est un rendez-vous à considérer pour ponctuer la semaine ou amorcer le week-end. Les renseignements disponibles permettent d’en identifier la date et les thématiques ; pour préparer votre venue avec précision, appuyez-vous sur la page officielle de l’événement.",
+      "highlights": [
+        {
+          "event_title": "Landing",
+          "reason": "Prévu le 23 avril, ce rendez-vous est répertorié dans les catégories Culture et Patrimoine / Culture vivante."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:32:29.869551+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-04-26": {
+    "hash": "d78b6c4379ef7521cc69cb96cc65aab31463dec1be434aa615fe40b6ad1e4b0e",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 26 avril au 2 mai 2027 : une conférence de l’UNTL consacrée à l’histoire de l’éducation populaire.",
+      "intro": "Pour la semaine du 26 avril au 2 mai 2027, l’agenda de Nyons met en avant un rendez-vous de réflexion autour de l’éducation populaire. Organisée par l’UNTL, la conférence « Pour une histoire de l’éducation populaire » est annoncée le lundi 26 avril. Elle sera présentée par Philippe Fréchet, enseignant spécialisé et conférencier travaillant sur l’histoire de la pensée ainsi que sur les dimensions sociales et politiques de l’histoire. Ce temps culturel et associatif propose ainsi d’aborder l’éducation populaire par le prisme de son histoire. La programmation communiquée pour cette période ne mentionne pas d’autre événement : c’est donc une occasion de repérer ce rendez-vous unique dès le début de semaine et de consulter sa fiche officielle pour préparer sa sortie.",
+      "weekend": "Pour le week-end des 1er et 2 mai, aucun événement n’est indiqué dans les informations disponibles. Les personnes qui souhaitent organiser une sortie à Nyons peuvent donc s’appuyer sur la conférence programmée le lundi 26 avril, ou surveiller les éventuelles mises à jour de l’agenda officiel. La fiche de l’événement reste la source à privilégier pour vérifier si des précisions complémentaires ont été ajoutées. Cette semaine se prête avant tout à une sortie culturelle centrée sur l’histoire de l’éducation populaire, plutôt qu’à un choix entre plusieurs rendez-vous annoncés.",
+      "practical": "Avant de vous déplacer, consultez la page officielle de la conférence de l’UNTL. Les informations fournies ne précisent ni horaire, ni lieu, ni conditions d’accès. Une vérification à l’approche du 26 avril permet donc de confirmer les modalités utiles. Pensez aussi à regarder si l’agenda de Nyons a été complété par de nouveaux rendez-vous pour le week-end.",
+      "conclusion": "L’agenda nyonsais du 26 avril au 2 mai 2027 s’ouvre avec une conférence consacrée à un sujet historique, social et culturel : l’éducation populaire. Portée par l’UNTL et présentée par Philippe Fréchet, elle constitue le seul rendez-vous signalé dans cette sélection. Pour disposer des informations pratiques à jour, le plus sûr reste de consulter l’annonce officielle avant la date prévue.",
+      "highlights": [
+        {
+          "event_title": "Conférence de l’UNTL sur « Pour une histoire de l’éducation populaire »",
+          "reason": "Une conférence le 26 avril autour de l’histoire de l’éducation populaire, présentée par Philippe Fréchet."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:32:42.168530+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-05-03": {
+    "hash": "357607c957ce3008c81661e695d84146d049272c43dbd49c43d2129acc931c03",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 3 au 9 mai 2027 : un atelier Yoga du Chant proposé le samedi 8 mai, à découvrir parmi les loisirs associatifs.",
+      "intro": "Pour la semaine du 3 au 9 mai 2027, l’agenda de Nyons met en avant un rendez-vous placé sous le signe de la pratique et de la vie associative. Prévu le samedi 8 mai, l’« Atelier Yoga du Chant » est proposé par l’association Amate et animé par Ghislaine Checchini. Cette date peut intéresser les personnes qui souhaitent repérer une activité de loisirs différente au cours de leur passage à Nyons ou dans les environs. La programmation communiquée ne détaille ni le déroulement de l’atelier ni ses modalités d’accès : il est donc préférable de considérer cette annonce comme une piste de sortie à approfondir avant de s’organiser. Pour une information locale fiable, la page officielle de l’événement reste le bon point de départ.",
+      "weekend": "Pour composer votre programme du week-end, partez d’abord de la date : cet atelier est annoncé le samedi 8 mai. Il s’inscrit à la fois dans les rubriques sport et loisirs, vie associative et loisirs, ce qui permet de l’envisager comme une idée de sortie centrée sur une pratique collective. Si vous recherchez une activité précise, consultez la fiche de l’événement avant de faire votre choix. Les informations fournies ne précisent pas d’autres rendez-vous pour cette semaine.",
+      "practical": "Avant de prévoir votre venue, vérifiez la fiche officielle de l’« Atelier Yoga du Chant ». Les éléments transmis confirment la date, l’association organisatrice et l’animation par Ghislaine Checchini, mais ne donnent pas d’indication sur le lieu, les horaires, les conditions de participation ou une éventuelle inscription. Une consultation préalable vous aidera à disposer des informations à jour.",
+      "conclusion": "La semaine du 3 au 9 mai 2027 à Nyons comprend ainsi une proposition associative le samedi 8 mai avec l’« Atelier Yoga du Chant ». C’est une option à retenir pour qui souhaite explorer les activités de loisirs annoncées localement. Prenez le temps de consulter le lien officiel avant votre sortie afin de compléter les renseignements non indiqués dans l’agenda.",
+      "highlights": [
+        {
+          "event_title": "Atelier Yoga du Chant",
+          "reason": "Un rendez-vous de loisirs associatifs proposé par l’association Amate et animé par Ghislaine Checchini, le 8 mai."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:32:55.448970+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-05-10": {
+    "hash": "41cc14ed66b813dc26f7c1528630d5d74cb70c487a2f3ad5805c9f46eb4ee677",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 10 au 16 mai 2027 : découvrez Boite à cordées, une proposition musicale menée en partenariat avec les Jeunesses Musicales de France.",
+      "intro": "Pour la semaine du 10 au 16 mai 2027, l’agenda de Nyons met en avant un rendez-vous culturel : Boite à cordées, programmé le 14 mai. Cette proposition s’inscrit à la croisée de la culture vivante et du patrimoine culturel. Elle invite à découvrir un univers musical présenté sous l’angle de l’expérimentation, avec une attention portée aux vibrations et à la recherche sonore. L’événement est organisé en partenariat avec les Jeunesses Musicales de France, un élément utile pour situer son inscription dans le paysage culturel. Si vous cherchez une sortie à Nyons durant cette semaine de mai, cette date constitue le rendez-vous signalé dans la programmation disponible. Avant de vous déplacer, consultez la page officielle de l’événement afin de retrouver les informations actualisées communiquées par l’organisateur.",
+      "weekend": "Pour composer une sortie de week-end autour de Nyons, commencez par repérer la date de Boite à cordées dans votre programme : l’événement est annoncé le 14 mai 2027. Son approche musicale, associée à la culture vivante, peut convenir à celles et ceux qui souhaitent privilégier une découverte artistique plutôt qu’une activité dont les détails ne sont pas indiqués. La programmation fournie ne mentionne pas d’autres rendez-vous pour cette période : il est donc préférable de ne pas supposer de complément de programme. Consultez directement la fiche officielle avant d’organiser votre venue.",
+      "practical": "La fiche disponible indique la date du 14 mai 2027 et le partenariat avec les Jeunesses Musicales de France. Les informations relatives aux horaires, au lieu précis, aux conditions d’accès, aux tarifs ou à une éventuelle réservation ne sont pas fournies ici. Vérifiez-les sur la page officielle de Boite à cordées avant votre déplacement, en particulier si votre organisation dépend de ces éléments.",
+      "conclusion": "Boite à cordées est le rendez-vous culturel signalé à Nyons pour la semaine du 10 au 16 mai 2027. Sa proposition musicale explorant les vibrations, ainsi que son partenariat avec les Jeunesses Musicales de France, en font le point d’attention de cette sélection. Pour préparer votre sortie sans incertitude, référez-vous aux informations actualisées publiées par l’organisateur.",
+      "highlights": [
+        {
+          "event_title": "Boite à cordées",
+          "reason": "Un rendez-vous musical présenté comme une exploration des vibrations, en partenariat avec les Jeunesses Musicales de France."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:33:08.281376+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2027-05-17": {
+    "hash": "e5dc72f7c2a17f21d0473ecf4fe832b30642aeb7074d7a035fd5497700607004",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 17 au 23 mai 2027 : découvrez On ne badine pas avec l’amour, une proposition culturelle de la compagnie Capharnaüm.",
+      "intro": "Pour la semaine du 17 au 23 mai 2027, l’agenda de Nyons met en avant un rendez-vous culturel programmé le 20 mai. « On ne badine pas avec l’amour » propose une approche scénique de l’œuvre d’Alfred de Musset par la compagnie Capharnaüm. Cette date invite à retrouver un texte du patrimoine dramatique dans le cadre d’une proposition de culture vivante. L’événement annonce une évolution du rire vers le drame, un repère utile pour les personnes attirées par le théâtre et la littérature. Avec une seule sortie renseignée dans les informations disponibles pour cette semaine, cette sélection privilégie une lecture claire : noter la date, consulter la fiche officielle et préparer sa venue selon les indications publiées par l’organisateur.",
+      "weekend": "Pour choisir une sortie le week-end, commencez par vérifier les dates : le rendez-vous présenté dans les informations disponibles est fixé au 20 mai, avant les journées de samedi et dimanche. Si vous souhaitez organiser vos activités sur ces deux jours, consultez régulièrement l’agenda officiel de Nyons afin d’identifier d’éventuelles mises à jour ou d’autres propositions. Pour les amateurs de théâtre, la pièce de Musset peut aussi constituer un choix de semaine intéressant, grâce à son passage annoncé du rire au drame.",
+      "practical": "Avant de vous déplacer, ouvrez la fiche officielle de l’événement. Les informations fournies ici ne précisent pas l’horaire, le lieu, les conditions d’accès, les tarifs ni les modalités de réservation. Vérifiez donc ces éléments directement auprès de la source publiée par la ville de Nyons, ainsi que toute éventuelle évolution de dernière minute.",
+      "conclusion": "Cette semaine de mai à Nyons se distingue, dans les données disponibles, par une proposition théâtrale autour d’Alfred de Musset. Portée par la compagnie Capharnaüm, elle s’adresse à celles et ceux qui souhaitent découvrir ou retrouver ce texte sur scène. Gardez la date du 20 mai en tête et consultez la page officielle pour compléter les informations nécessaires à votre sortie.",
+      "highlights": [
+        {
+          "event_title": "On ne badine pas avec l’amour",
+          "reason": "Une mise en scène de l’œuvre d’Alfred de Musset par la compagnie Capharnaüm, annoncée du rire au drame."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T17:33:24.592333+00:00",
+    "model": "gpt-5.6-terra"
   }
 }
