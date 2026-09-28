@@ -1316,13 +1316,13 @@
     "text": "Blue Maqam de Renaud Garcia-Fons Blue Maqam de Renaud Garcia-Fons Exporter l'événement vendredi 19 février 2027 Patrimoine / Culture vivante Retour Un concert proposé dans le cadre de « Nyons en scène ». Un trait d’union entre jazz et musiques orientales. L’artiste Renaud Garcia-Fons est l’un des virtuoses de la contrebasse les plus célèbres au monde. Ce contrebassiste apparait comme l’un des mages de la scène jazz actuelle, l’un de ses passeurs les plus captivants. Il est de ceux qui ont régulièrement sorti la rivière de son lit, dévoyé le langage propre du jazz pour le sublimer aux effluves de fragrances lointaines. Le concert Comme souvent dans l’univers du contrebassiste, les cultures du pourtour Méditerranéen ont une place de choix, mais la route traverse aussi la Perse, et plus inattendu, l’Irlande, insularité oblige ! « Blue Maqam » donne à entendre huit langues chantées, petit Babel, où les paroles de Renaud et Solea évoquent des paysages émotionnels à la manière de haïkus. L’ensemble sonne comme un plaidoyer universaliste audacieux tant les nuages menacent à l’horizon… Tout public Durée : 1h15 Tarif : 15 € Tarif réduit : 10 € Scolaire : 5 € © Photo : Alexandre Lacombe Programme complet de Nyons en scène 2026/2027 [PDF] — 15 Mo >> Accès billetterie << Vendredi 19 février 2027 de 20h00 à 21h15 Maison de Pays, à Nyons l.flouret@nyons.com 04 75 26 50 10 https://www.renaudgarciafons.com/discographie/blue-maqam",
     "practical": {
       "date_time": "Vendredi 19 février 2027 de 20h00 à 21h15",
-      "location_name": "",
-      "address": "",
+            "location_name": "Maison de Pays",
+            "address": "Nyons",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
       "website": "https://www.renaudgarciafons.com/discographie/blue-maqam"
     },
-    "parser_version": 7,
+        "parser_version": 8,
     "fetched_at": "2026-09-28T17:54:54.117970+00:00"
   },
   "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/": {
