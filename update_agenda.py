@@ -48,7 +48,7 @@ ROBOTS = ROOT / "robots.txt"
 MAX_PAGES = 15
 TIMEOUT = 25
 EVENT_DETAIL_TTL_HOURS = 48
-EVENT_DETAIL_PARSER_VERSION = 7
+EVENT_DETAIL_PARSER_VERSION = 8
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "100"))
 EVENT_PROMPT_VERSION = 10
@@ -929,6 +929,19 @@ def extract_event_detail_data(html_text: str, source_url: str):
                 prev = clean(place_candidates[idx - 1])
                 if 2 <= len(prev) <= 120:
                     practical["location_name"] = prev
+                break
+    # Cas 5 : la fiche officielle donne seulement « Lieu, à Nyons ».
+    # Cette formulation est fréquente pour la Maison de Pays. Elle suffit
+    # pour créer un Place fiable sans inventer une adresse de rue.
+    if not practical["location_name"] and not practical["address"]:
+        for line in event_lines:
+            m = re.fullmatch(r"(.{2,100}?),\s*à\s+Nyons", line, re.I)
+            if not m:
+                continue
+            place_name = clean(m.group(1))
+            if len(place_name.split()) <= 10 and not looks_like_contact(place_name):
+                practical["location_name"] = place_name
+                practical["address"] = "Nyons"
                 break
 
     # Nettoyage / sécurité
