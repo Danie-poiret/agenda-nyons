@@ -605,6 +605,22 @@ def event_facts(event, detail_text="", practical=None):
 
 
 def event_hash(event, detail_text="", practical=None):
+    # Le texte editorial depend du titre, des dates, des categories et du resume.
+    # Les informations pratiques sont affichees directement dans la fiche HTML :
+    # leur modification ne doit pas declencher une nouvelle redaction OpenAI.
+    facts = event_facts(event, "", None)
+    facts.pop("practical", None)
+    payload = {
+        "event": facts,
+        "prompt_version": EVENT_PROMPT_VERSION,
+        "model": OPENAI_MODEL,
+    }
+    raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def legacy_event_hash(event, practical=None):
+    """Ancienne empreinte, conservee uniquement pour migrer le cache existant."""
     payload = {
         "event": event_facts(event, "", practical),
         "prompt_version": EVENT_PROMPT_VERSION,
@@ -1568,11 +1584,24 @@ def generate_event_pages(events):
         detail_data = get_event_detail(session, event, detail_cache)
         detail = detail_data.get("text", "")
         practical = detail_data.get("practical") or {}
-        digest = event_hash(event, detail, practical)
+        digest = event_hash(event)
         cached = event_cache.get(event["url"], {})
 
+        # Migration transparente : les anciennes entrees ont une empreinte qui
+        # incluait les infos pratiques. Si leur contenu editorial est toujours
+        # identique, on reutilise le texte et on enregistrera la nouvelle
+        # empreinte sans faire d'appel OpenAI.
+        cached_event = cached.get("event")
+        legacy_cache_matches = False
+        if cached_event:
+            legacy_cache_matches = (
+                cached.get("hash")
+                == legacy_event_hash(cached_event, cached.get("practical") or {})
+                and event_hash(cached_event) == digest
+            )
+
         if (
-            cached.get("hash") == digest
+            (cached.get("hash") == digest or legacy_cache_matches)
             and cached.get("editorial")
             and not cached.get("editorial", {}).get("_fallback", False)
         ):
