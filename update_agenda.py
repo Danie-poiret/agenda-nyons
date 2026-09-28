@@ -21,7 +21,7 @@ import time
 import unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote_plus, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -453,6 +453,72 @@ def event_local_url(event) -> str:
 
 def event_page_path(event) -> Path:
     return EVENTS_DIR / event_slug(event) / "index.html"
+
+
+def ics_escape(value: str) -> str:
+    return (
+        clean(value)
+        .replace("\\", "\\\\")
+        .replace(";", "\\;")
+        .replace(",", "\\,")
+        .replace("\n", "\\n")
+    )
+
+
+def event_calendar_ics(event, practical) -> str:
+    """Construit un fichier calendrier universel (Apple, Google, Outlook)."""
+    start_day = parse_iso(event["start_date"])
+    end_day = parse_iso(event["end_date"])
+    times = re.findall(r"\b([01]?\d|2[0-3])h([0-5]\d)\b", practical.get("date_time", ""))
+
+    if times:
+        start_hour, start_minute = map(int, times[0])
+        start_dt = datetime.combine(start_day, datetime.min.time()).replace(
+            hour=start_hour, minute=start_minute
+        )
+        if len(times) >= 2:
+            end_hour, end_minute = map(int, times[-1])
+            end_dt = datetime.combine(end_day, datetime.min.time()).replace(
+                hour=end_hour, minute=end_minute
+            )
+        else:
+            end_dt = start_dt + timedelta(hours=1)
+        if end_dt <= start_dt:
+            end_dt = start_dt + timedelta(hours=1)
+        date_lines = (
+            f"DTSTART;TZID=Europe/Paris:{start_dt:%Y%m%dT%H%M%S}\r\n"
+            f"DTEND;TZID=Europe/Paris:{end_dt:%Y%m%dT%H%M%S}"
+        )
+    else:
+        date_lines = (
+            f"DTSTART;VALUE=DATE:{start_day:%Y%m%d}\r\n"
+            f"DTEND;VALUE=DATE:{(end_day + timedelta(days=1)):%Y%m%d}"
+        )
+
+    location = " — ".join(filter(None, [
+        clean(practical.get("location_name", "")),
+        clean(practical.get("address", "")),
+    ]))
+    description = clean(event.get("summary", ""))
+    local_url = event_local_url(event)
+    uid = f"{event_slug(event)}@agenda.vivreanyons.fr"
+    return (
+        "BEGIN:VCALENDAR\r\n"
+        "VERSION:2.0\r\n"
+        "PRODID:-//Vivre a Nyons//Agenda de Nyons//FR\r\n"
+        "CALSCALE:GREGORIAN\r\n"
+        "METHOD:PUBLISH\r\n"
+        "BEGIN:VEVENT\r\n"
+        f"UID:{uid}\r\n"
+        f"DTSTAMP:{datetime.now(timezone.utc):%Y%m%dT%H%M%SZ}\r\n"
+        f"{date_lines}\r\n"
+        f"SUMMARY:{ics_escape(event['title'])}\r\n"
+        f"DESCRIPTION:{ics_escape(description)}\\n{ics_escape(local_url)}\r\n"
+        f"LOCATION:{ics_escape(location)}\r\n"
+        f"URL:{local_url}\r\n"
+        "END:VEVENT\r\n"
+        "END:VCALENDAR\r\n"
+    )
 
 
 def event_status(event) -> str:
@@ -1310,6 +1376,22 @@ def render_event_page(event, editorial, related_events=None, practical=None, ane
 
     date_display = clean(practical.get("date_time", "")) or format_event_date(event)
 
+    action_links = []
+    if status != "Événement terminé":
+        action_links.append(
+            '<a class="event-action calendar-action" href="evenement.ics" download>📅 Ajouter à mon calendrier</a>'
+        )
+        if practical.get("address"):
+            map_query = " ".join(filter(None, [
+                clean(practical.get("location_name", "")),
+                clean(practical.get("address", "")),
+            ]))
+            map_url = "https://www.google.com/maps/search/?api=1&query=" + quote_plus(map_query)
+            action_links.append(
+                f'<a class="event-action map-action" href="{esc(map_url)}" target="_blank" rel="noopener">🗺️ Voir l’itinéraire</a>'
+            )
+    actions_html = f'<div class="event-actions">{"".join(action_links)}</div>' if action_links else ""
+
     info_rows = []
     if practical.get("location_name"):
         info_rows.append(
@@ -1341,7 +1423,7 @@ def render_event_page(event, editorial, related_events=None, practical=None, ane
             '<div class="info-grid">'
             f'<div class="info-row info-date"><span>📅</span><div><strong>Dates et horaires</strong><br>{esc(date_display)}</div></div>'
             + "".join(info_rows)
-            + '</div></section>'
+            + f'</div>{actions_html}</section>'
         )
 
     event_ld = {
@@ -1408,7 +1490,7 @@ def render_event_page(event, editorial, related_events=None, practical=None, ane
     .hero{{background:linear-gradient(125deg,var(--olive-dark),var(--olive) 62%,#788d58);color:#fff;border-radius:24px;padding:clamp(27px,5vw,52px);box-shadow:var(--shadow)}}
     .status{{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.15);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}} h1{{font-size:clamp(31px,5vw,50px);line-height:1.08;margin:.35em 0 .3em}} .date{{font-size:18px;font-weight:800;margin:0 0 8px}} .cats{{opacity:.9;font-size:14px}}
     .lead{{font-size:19px;background:var(--paper);border-left:5px solid var(--terracotta);padding:22px 24px;border-radius:16px;margin:24px 0;box-shadow:0 6px 22px rgba(52,48,38,.055)}}
-    .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}.practical-box{{border-top:5px solid var(--terracotta)}}.info-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}}.info-row{{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}}.info-row span{{flex:0 0 24px;font-size:19px}}.info-row a{{overflow-wrap:anywhere}}.info-date{{grid-column:1/-1;background:#f6f0e4}}
+    .section{{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:18px 0}} .section h2{{margin:0 0 9px;font-size:25px;line-height:1.2}} .section p{{margin:0}}.practical-box{{border-top:5px solid var(--terracotta)}}.info-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}}.info-row{{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}}.info-row span{{flex:0 0 24px;font-size:19px}}.info-row a{{overflow-wrap:anywhere}}.info-date{{grid-column:1/-1;background:#f6f0e4}}.event-actions{{display:flex;gap:11px;flex-wrap:wrap;margin-top:16px}}.event-action{{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border-radius:999px;text-decoration:none;font-weight:900;border:2px solid var(--olive);color:var(--olive-dark);background:#fff}}.event-action:hover{{transform:translateY(-1px);box-shadow:0 6px 16px rgba(52,48,38,.12)}}.map-action{{background:var(--olive);color:#fff}}
     .official-note{{margin-top:12px!important;padding:14px 16px;background:#f3eee3;border-left:4px solid var(--terracotta);border-radius:10px}}.question{{background:#efe7cf;border-radius:18px;padding:22px 24px;margin:20px 0;font-weight:800;font-size:18px}} .source{{font-size:13px;color:var(--muted);margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.65)}}
     .anecdote{{border-left:5px solid var(--terracotta);background:#fff8ec}} .heritage-source{{font-size:12px;color:var(--muted);margin-top:14px!important}} .heritage-source a{{font-weight:700}}
     .archive-note{{padding:14px 17px;margin:20px 0;background:#f2e5df;border-left:5px solid var(--terracotta);border-radius:12px}} .related{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}} .related-card{{display:flex;flex-direction:column;gap:6px;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-decoration:none}} .related-card span{{font-size:13px;color:var(--muted)}}
@@ -1533,6 +1615,11 @@ def generate_event_pages(events):
         (folder / "index.html").write_text(
             render_event_page(event, editorial, nearby, practical, anecdotes[event["url"]]),
             encoding="utf-8",
+        )
+        (folder / "evenement.ics").write_text(
+            event_calendar_ics(event, practical),
+            encoding="utf-8",
+            newline="",
         )
 
         if practical.get("location_name") or practical.get("address"):
