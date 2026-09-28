@@ -47,7 +47,6 @@ ROBOTS = ROOT / "robots.txt"
 
 MAX_PAGES = 15
 TIMEOUT = 25
-SEO_WEEKS_AHEAD = 12
 EVENT_DETAIL_TTL_HOURS = 48
 EVENT_DETAIL_PARSER_VERSION = 7
 PRACTICAL_ONLY_REFRESH_VERSION = 1
@@ -359,12 +358,11 @@ def event_weeks(event):
 def group_weeks(events):
     today = date.today()
     first = monday_of(today)
-    last = first + timedelta(days=7 * (SEO_WEEKS_AHEAD - 1))
     weeks = {}
 
     for event in events:
         for w in event_weeks(event):
-            if first <= w <= last:
+            if w >= first:
                 weeks.setdefault(w, []).append(event)
 
     for w in weeks:
