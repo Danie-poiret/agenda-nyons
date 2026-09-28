@@ -26,29 +26,29 @@
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
-    "hash": "3db4e5141b3a316b6d4aaae2dc358dbb32b6e7427321b48bd9480f28ef1ff85a",
+    "hash": "670e94b4eb4d36889cfe7bf81b57347db1a9cfadced7610e2f17cf0a7ba5ed62",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : lectures, exposition, dédicace, concert, braderie, ateliers et rendez-vous artistiques.",
-      "intro": "La semaine du 28 septembre au 4 octobre 2026 offre à Nyons un agenda aux formats variés, entre culture, initiatives associatives, loisirs et temps de rencontre. Les derniers jours de septembre permettent encore de découvrir les expositions consacrées à Solidarité Paysans et à « Urbain Urbex », tandis que les rendez-vous ponctuels se succèdent dès le lundi. Les familles peuvent notamment repérer les Lectures animées, destinées aux enfants de 0 à 6 ans. La programmation aborde aussi l’agriculture et la viticulture, la cuisine, la lactofermentation, la littérature et la musique. En fin de semaine, plusieurs propositions s’installent sur plusieurs jours, dont la Grande braderie et Les Journées Nationales des Artistes à Nyons. Les 8 jours de la Ville de Nyons se poursuivent également jusqu’au dimanche 4 octobre. Une sélection à composer selon ses envies, en vérifiant les informations de chaque organisateur.",
-      "weekend": "Pour organiser le week-end des 3 et 4 octobre, commencez par les rendez-vous qui se déroulent sur plusieurs jours : la Grande braderie, Les Journées Nationales des Artistes à Nyons et Les 8 jours de la Ville de Nyons sont encore annoncés pendant cette période. Le samedi ajoute deux propositions à la journée : l’Atelier culinaire – Risotto & panacotta et Constellations familiales. Les amateurs de culture peuvent aussi garder en tête le concert prévu le vendredi, ainsi que la dédicace organisée le jeudi. Cette diversité permet d’alterner entre une sortie artistique, associative ou un atelier, sans présumer du déroulement précis de chaque événement.",
-      "practical": "Avant de vous déplacer, consultez la page officielle de chaque rendez-vous : les horaires, conditions d’accès et éventuelles modalités pratiques ne figurent pas tous dans cette sélection. Vérifiez aussi les dates de fin des expositions, prévues au 30 septembre. Pour les événements concentrés du 2 au 4 octobre, contrôlez les informations actualisées auprès de leurs organisateurs respectifs.",
-      "conclusion": "Cette semaine nyonsaise réunit des propositions culturelles, solidaires et de loisirs, avec une présence particulière des initiatives associatives et artistiques en fin de période. Entre une exposition à voir avant sa clôture, une rencontre littéraire, un concert ou un atelier, l’agenda laisse place à plusieurs façons de sortir. Prenez le temps de consulter les fiches officielles pour finaliser votre programme.",
+      "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : culture, lectures, agriculture, concert, braderie et ateliers à repérer cette semaine.",
+      "intro": "Du 28 septembre au 4 octobre 2026, l’agenda de Nyons propose une semaine aux formats variés, entre culture, vie associative et initiatives autour de l’alimentation. Les deux expositions de fin septembre, consacrées à Solidarité Paysans et à « Urbain Urbex », restent à découvrir jusqu’au 30 septembre. Le lundi rassemble des lectures animées pour les enfants de 0 à 6 ans au Centre médico-social et une soirée consacrée à l’agriculture et à la viticulture au cinéma l’Arlequin. Un atelier lactofermentation est annoncé le mercredi, avant une dédicace de Françoise Bourdon le jeudi. À l’approche du week-end, le concert Bouda OMG !, la Grande braderie et l’Atelier culinaire – Risotto & panacotta complètent le programme. Les 8 jours de la Ville de Nyons se poursuivent quant à eux jusqu’au 4 octobre.",
+      "weekend": "Pour composer son week-end à Nyons, commencez par repérer les rendez-vous répartis sur plusieurs jours : Les 8 jours de la Ville de Nyons se terminent le dimanche 4 octobre, tandis que la Grande braderie est annoncée du 2 au 4 octobre par les associations Le Vestiaire et le Carrefour des Habitants. Le vendredi 2, le programme comprend aussi le Concert Bouda OMG !. Le samedi 3 offre deux pistes distinctes : l’Atelier culinaire – Risotto & panacotta et Constellations familiales. Ces propositions n’ayant pas le même thème, le choix peut simplement se faire selon l’activité que vous souhaitez privilégier.",
+      "practical": "Plusieurs informations essentielles ne figurent pas dans cette sélection, notamment les horaires de certains rendez-vous et leurs modalités d’accès. Consultez la fiche officielle de chaque événement avant de vous déplacer, en particulier pour les activités ponctuelles. La dédicace de Françoise Bourdon est annoncée le 1er octobre, de 10h à 16h30, à la Libraire Pinet. Pour les Lectures animées, le lieu indiqué est le Centre médico-social, 3 place Joseph Roumanille.",
+      "conclusion": "Cette semaine met en regard des expositions qui se terminent fin septembre, des rendez-vous culturels ponctuels et plusieurs propositions associatives durant le week-end. L’agenda permet aussi de passer d’un sujet local, avec la soirée Agriculture / Viticulture, à des activités pratiques comme la lactofermentation ou l’atelier culinaire. Vérifier chaque fiche reste la meilleure manière d’organiser ses sorties à Nyons du 28 septembre au 4 octobre 2026.",
       "highlights": [
         {
-          "event_title": "Dédicace Françoise Bourdon",
-          "reason": "Une rencontre avec Françoise Bourdon est annoncée le jeudi 1er octobre, de 10h à 16h30."
-        },
-        {
-          "event_title": "Les Journées Nationales des Artistes à Nyons",
-          "reason": "Ce rendez-vous artistique se déroule à Nyons du 2 au 4 octobre."
+          "event_title": "Les 8 jours de la Ville de Nyons",
+          "reason": "Cet événement est en cours sur toute la période et se termine le 4 octobre."
         },
         {
           "event_title": "Grande braderie",
-          "reason": "Cette braderie, portée par Le Vestiaire et le Carrefour des Habitants, est annoncée du 2 au 4 octobre."
+          "reason": "Elle se tient du 2 au 4 octobre et est organisée par Le Vestiaire et le Carrefour des Habitants."
+        },
+        {
+          "event_title": "Atelier culinaire – Risotto & panacotta",
+          "reason": "Un atelier culinaire italien est annoncé le samedi 3 octobre."
         }
       ]
     },
-    "generated_at": "2026-09-28T11:21:37.896891+00:00",
+    "generated_at": "2026-09-28T14:09:38.859586+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-10-05": {
@@ -226,39 +226,39 @@
     "model": "gpt-5.6-terra"
   },
   "2026-11-30": {
-    "hash": "9cc11fbc6d06f6167796de003bb83956835cb54a765bfe8fd1bd80c157172b18",
+    "hash": "5bc12619282a60e82e87c949a8dcd9c1df543dc3de689086622ac7d7c2861481",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 30 novembre au 6 décembre 2026 : une comédie le 5 décembre et le Téléthon 2026, rendez-vous solidaire du week-end.",
-      "intro": "La semaine du 30 novembre au 6 décembre 2026 à Nyons se concentre sur deux propositions prévues au début du week-end. Le samedi 5 décembre, « Les turlupinades » apporte une note culturelle et de loisirs avec une comédie de la Compagnie du Chien Noir. Cette sortie s’inscrit aussi dans les catégories patrimoine et culture vivante. Le même jour débute le Téléthon 2026, inscrit dans le champ de la solidarité et de la santé, et annoncé jusqu’au dimanche 6 décembre. L’agenda offre ainsi deux orientations distinctes : choisir un rendez-vous théâtral sur une seule journée ou suivre un événement solidaire présent sur deux dates. Pour organiser sa sortie, il est utile de consulter les informations actualisées de chaque fiche avant de se déplacer, car les précisions pratiques ne figurent pas dans les éléments disponibles ici.",
-      "weekend": "Pour le week-end des 5 et 6 décembre, le choix dépend avant tout de l’envie du moment. Les amateurs de culture peuvent retenir « Les turlupinades », programmé le samedi 5 décembre et présenté comme une comédie de la Compagnie du Chien Noir. Celles et ceux qui souhaitent privilégier une démarche solidaire peuvent se tourner vers le Téléthon 2026, prévu du samedi au dimanche. Les deux rendez-vous commencent le 5 décembre : consulter leurs fiches respectives permet donc de vérifier les informations nécessaires avant de bâtir son programme.",
-      "practical": "Les éléments fournis indiquent les dates et les thématiques, mais pas les horaires, les lieux, les conditions d’accès ni d’éventuelles modalités de participation. Avant votre venue, consultez la page officielle de l’événement choisi pour contrôler ces informations et vérifier qu’aucune mise à jour n’est intervenue. Si vous hésitez entre les deux rendez-vous du 5 décembre, examinez chaque fiche séparément.",
-      "conclusion": "Cette semaine à Nyons propose un programme resserré autour du samedi 5 décembre, entre comédie et engagement solidaire. « Les turlupinades » se tient sur une journée, tandis que le Téléthon 2026 se poursuit le 6 décembre. Ces deux formats permettent de choisir selon ses centres d’intérêt et ses disponibilités. Pensez à vérifier les détails pratiques auprès des pages officielles avant de préparer votre sortie.",
+      "meta_description": "Du 30 novembre au 6 décembre 2026, Nyons propose une comédie le 5 décembre et le Téléthon 2026 les 5 et 6 décembre, entre culture et solidarité.",
+      "intro": "Du 30 novembre au 6 décembre 2026, l’agenda de Nyons rassemble deux rendez-vous concentrés sur les 5 et 6 décembre. La programmation associe une proposition culturelle, « Les turlupinades », et le « Téléthon 2026 », inscrit dans le champ de la solidarité et de la santé. Le 5 décembre, les amateurs de théâtre peuvent repérer cette comédie proposée par la Compagnie du Chien Noir. Sur deux dates, les 5 et 6 décembre, le Téléthon offre une autre manière de participer à la vie locale autour d’un événement solidaire. Cette sélection courte permet d’identifier rapidement les initiatives annoncées dans la semaine, sans multiplier les choix. Avant de prévoir une sortie, il reste utile de consulter les fiches officielles de chaque rendez-vous pour connaître les informations pratiques absentes de cet aperçu.",
+      "weekend": "Pour le week-end des 5 et 6 décembre, le choix peut se faire selon la durée de chaque rendez-vous. « Les turlupinades » est annoncé uniquement le 5 décembre : cette comédie constitue l’option culturelle de la journée. Le « Téléthon 2026 » se déroule quant à lui sur les 5 et 6 décembre, ce qui laisse deux dates pour s’orienter vers un événement classé dans la solidarité et la santé. Les personnes disponibles seulement le 5 décembre ont donc les deux possibilités, tandis que le 6 décembre est consacré au Téléthon.",
+      "practical": "Les informations fournies ne précisent ni horaires, ni lieux, ni conditions d’accès. Avant de vous déplacer, consultez les pages officielles associées à chaque événement pour vérifier les modalités actualisées. Cette vérification est particulièrement utile pour choisir entre les deux rendez-vous proposés le 5 décembre et pour confirmer les informations du Téléthon sur ses deux journées annoncées.",
+      "conclusion": "Cette semaine à Nyons se concentre sur deux propositions complémentaires : une comédie le 5 décembre et un rendez-vous solidaire programmé sur deux jours. Que vous privilégiez la culture ou la participation au Téléthon, l’agenda permet de repérer simplement les dates concernées. Les fiches officielles restent la meilleure source pour finaliser votre choix et organiser votre venue.",
       "highlights": [
         {
           "event_title": "Les turlupinades",
-          "reason": "Une comédie de la Compagnie du Chien Noir, annoncée le 5 décembre dans les catégories culture, loisirs et patrimoine vivant."
+          "reason": "Une comédie de la Compagnie du Chien Noir annoncée le 5 décembre."
         },
         {
           "event_title": "Téléthon 2026",
-          "reason": "Un rendez-vous classé solidarité et santé, prévu du 5 au 6 décembre."
+          "reason": "Un événement consacré à la solidarité et à la santé, programmé les 5 et 6 décembre."
         }
       ]
     },
-    "generated_at": "2026-09-27T05:31:23.377079+00:00",
+    "generated_at": "2026-09-28T14:10:16.260126+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-12-07": {
-    "hash": "b9beb9308aabc194996bf9b185d5f215d6fe491e801e2c92778a36ec0072c5ec",
+    "hash": "a8e6147a0d716879d97d6a0464dc4f798aef96a09c0dd33ad834670ef2e5efdf",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 7 au 13 décembre 2026 : conférence autour des représentations du monde, Yoga du Chant et comédie le week-end.",
-      "intro": "Du 7 au 13 décembre 2026, l’agenda de Nyons propose trois rendez-vous aux tonalités distinctes, entre réflexion, pratique associative et théâtre. La semaine débute le 7 décembre avec une conférence de l’UNTL consacrée à la recherche d’une représentation du monde, présentée par Jean-Luc Boissel, astrophysicien et professeur à l’INSA de Lyon. Le samedi 12 décembre, l’association Amate organise un Atelier Yoga du Chant animé par Ghislaine Checchini. Enfin, le dimanche 13 décembre, la comédie Cher Edouard est annoncée par la compagnie « d’ici ou d’Ailleurs ». Cette programmation resserrée permet de repérer facilement les sorties qui correspondent le mieux à ses envies : une rencontre culturelle en début de semaine, puis deux propositions différentes pour le week-end.",
-      "weekend": "Pour composer son week-end à Nyons, deux options sont annoncées sur deux journées successives. Le 12 décembre, l’Atelier Yoga du Chant s’inscrit dans les activités de loisirs et de vie associative, sous l’impulsion de l’association Amate. Le 13 décembre, Cher Edouard offre une autre orientation avec une comédie portée par la Cie « d’ici ou d’Ailleurs ». Le choix peut donc se faire selon l’envie de participer à un atelier ou d’assister à une proposition culturelle. Les personnes disponibles sur les deux jours peuvent aussi retenir ces deux rendez-vous complémentaires.",
-      "practical": "Avant de prévoir une sortie, consultez la page officielle de chaque événement. Les informations fournies ne précisent ni les horaires, ni le lieu, ni les conditions d’accès. Vérifiez également les éventuelles modalités pratiques directement auprès de l’organisateur, notamment pour la conférence de l’UNTL, l’atelier proposé par Amate et la comédie du 13 décembre.",
-      "conclusion": "Cette semaine de décembre à Nyons met en avant trois formats différents en quelques jours : une conférence scientifique et culturelle, un atelier associatif et une comédie. C’est une sélection courte, mais variée, qui permet de choisir une sortie en semaine ou de réserver son week-end aux rendez-vous des 12 et 13 décembre. Pensez à consulter les informations actualisées avant votre venue.",
+      "meta_description": "Agenda de Nyons du 7 au 13 décembre 2026 : conférence sur les représentations du monde, Yoga du Chant et comédie Cher Edouard au programme.",
+      "intro": "La semaine du 7 au 13 décembre 2026 propose à Nyons trois rendez-vous aux tonalités distinctes. Elle s’ouvre lundi avec une conférence de l’UNTL consacrée au cheminement « des mythes aux modèles » dans la recherche d’une représentation du monde. Jean-Luc Boissel, astrophysicien et professeur à l’INSA de Lyon, en assure la présentation. Le samedi, l’association Amate propose un Atelier Yoga du Chant animé par Ghislaine Checchini, inscrit dans les loisirs et la vie associative. Enfin, le dimanche met la culture à l’honneur avec Cher Edouard, annoncé comme une comédie. Cette sélection courte permet de composer une semaine entre réflexion scientifique, pratique de loisir et sortie culturelle, en privilégiant un rendez-vous selon ses envies ou en associant plusieurs dates.",
+      "weekend": "Pour le week-end, deux propositions se succèdent sans se confondre. Le samedi 12 décembre, l’Atelier Yoga du Chant s’adresse à celles et ceux qui souhaitent retenir une activité proposée par l’association Amate. Le dimanche 13 décembre, Cher Edouard offre une autre orientation, avec une comédie classée dans la rubrique culture. Le choix peut donc se faire selon le type de sortie recherché : un atelier le samedi ou un spectacle le dimanche. Il est aussi possible de prévoir les deux rendez-vous, puisqu’ils ont lieu sur des journées différentes.",
+      "practical": "Les informations fournies indiquent les dates et la nature des rendez-vous, mais ne précisent ni horaires, ni lieux, ni conditions d’accès. Avant de vous déplacer, consultez la page officielle associée à chaque événement afin de vérifier les modalités utiles. Gardez également les intitulés exacts en tête pour retrouver facilement la conférence, l’atelier ou la comédie dans l’agenda de Nyons.",
+      "conclusion": "Du 7 au 13 décembre, l’agenda nyonsais réunit une conférence portée par un astrophysicien, un atelier associatif autour du chant et une comédie. Cette programmation concentrée sur trois dates laisse la place à des sorties variées tout au long de la semaine. Pour finaliser votre choix, vérifiez les informations pratiques auprès des pages officielles des événements.",
       "highlights": [
         {
           "event_title": "Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »",
-          "reason": "Une conférence présentée par Jean-Luc Boissel, astrophysicien et professeur à l’INSA de Lyon."
+          "reason": "Une intervention présentée par Jean-Luc Boissel, astrophysicien et professeur à l’INSA de Lyon."
         },
         {
           "event_title": "Atelier Yoga du Chant",
@@ -266,33 +266,51 @@
         },
         {
           "event_title": "Cher Edouard",
-          "reason": "Une comédie annoncée par la Cie « d’ici ou d’Ailleurs »."
+          "reason": "Une comédie programmée le dimanche 13 décembre."
         }
       ]
     },
-    "generated_at": "2026-09-28T11:23:26.046795+00:00",
+    "generated_at": "2026-09-28T14:10:33.668211+00:00",
     "model": "gpt-5.6-terra"
   },
   "2026-12-14": {
-    "hash": "7815d372df8358c7036f60e9bfd429c58ba07352ded66a811b29873ad28f4b26",
+    "hash": "a7c819fd7f537926be41757c9c34963eade35eedb13f185f07adcc2470dc2385",
     "editorial": {
-      "meta_description": "Agenda de Nyons du 14 au 20 décembre 2026 : conférence d’histoire sur Louis XI et spectacle Peter Pan dans le cadre de Nyons en Fête.",
-      "intro": "Du 14 au 20 décembre 2026, l’agenda de Nyons réunit deux propositions culturelles aux tonalités bien distinctes. La semaine s’ouvre avec une conférence consacrée à Louis XI, présentée par l’historien médiéviste Alain Saint-Denis : une occasion de se tourner vers l’histoire et le patrimoine. Le 18 décembre, place à l’univers de Peter Pan avec une adaptation inspirée de l’œuvre de James Matthew Barrie, proposée par le TRAC de Beaumes de Venise dans le cadre de « Nyons en Fête ». Ces deux rendez-vous permettent d’alterner entre découverte historique et spectacle. Selon vos envies, vous pourrez privilégier l’éclairage d’un spécialiste sur une figure du passé ou choisir une proposition théâtrale autour d’un imaginaire littéraire connu.",
-      "weekend": "Pour organiser vos sorties autour du week-end, commencez par distinguer le type d’expérience recherché. La conférence sur Louis XI conviendra à celles et ceux qui souhaitent approfondir un sujet historique avec un historien médiéviste. « Peter Pan ou l’Enfant Jamais », programmé le 18 décembre, s’inscrit quant à lui dans « Nyons en Fête » et propose une approche théâtrale d’après James Matthew Barrie. Les informations fournies ne précisent ni horaires ni conditions d’accès : il est donc préférable de consulter les pages officielles avant d’arrêter votre choix.",
-      "practical": "Avant de vous déplacer, vérifiez la date de chaque rendez-vous et consultez son lien officiel pour connaître les informations actualisées. La conférence est annoncée le 14 décembre, tandis que le spectacle « Peter Pan ou l’Enfant Jamais » est indiqué le 18 décembre. Les éléments transmis ne mentionnent pas d’horaire, de tarif, de lieu précis ni de modalités de réservation.",
-      "conclusion": "Cette sélection de décembre propose deux façons de profiter de la vie culturelle nyonsaise : explorer l’histoire de Louis XI ou retrouver Peter Pan sur scène. La programmation disponible reste volontairement resserrée, avec un rendez-vous le 14 décembre et un autre le 18. Pour préparer votre sortie avec des informations complètes, appuyez-vous sur les pages officielles associées à chaque événement.",
+      "meta_description": "Du 14 au 20 décembre 2026, Nyons propose une conférence sur Louis XI et une adaptation de Peter Pan dans Nyons en Fête.",
+      "intro": "Du 14 au 20 décembre 2026, cette sélection de l’agenda de Nyons met en avant deux propositions culturelles aux approches distinctes. Le lundi 14 décembre, une conférence consacrée à Louis XI est présentée par l’historien médiéviste Alain Saint-Denis. Son intitulé, qui évoque « l’Universelle Aragne », invite à aborder cette figure historique à travers le regard d’un spécialiste. Le vendredi 18 décembre, place au théâtre avec Peter Pan ou l’Enfant Jamais, une adaptation d’après l’œuvre de James Matthew Barrie. Le spectacle est proposé par le TRAC de Beaumes de Venise dans le cadre de Nyons en Fête. Cette semaine offre ainsi un choix simple entre une rencontre autour de l’histoire et une proposition scénique inspirée d’un grand récit littéraire.",
+      "weekend": "Pour préparer les sorties à l’approche du week-end, le rendez-vous signalé le vendredi 18 décembre est Peter Pan ou l’Enfant Jamais. Cette adaptation théâtrale, présentée dans le cadre de Nyons en Fête, s’appuie sur l’œuvre de James Matthew Barrie et est portée par le TRAC de Beaumes de Venise. Les personnes davantage attirées par l’histoire peuvent aussi anticiper la conférence du lundi 14 décembre sur Louis XI, animée par Alain Saint-Denis. Les deux événements proposent des univers très différents : le choix peut donc se faire selon l’envie d’une conférence historique ou d’un spectacle théâtral.",
+      "practical": "Avant de vous déplacer, consultez les pages officielles de chaque événement afin de vérifier les informations utiles qui ne figurent pas dans cette sélection. Les liens permettent notamment de retrouver les précisions publiées par les organisateurs. Pensez également à confirmer la date : la conférence sur Louis XI a lieu le 14 décembre, tandis que Peter Pan ou l’Enfant Jamais est annoncé le 18 décembre 2026.",
+      "conclusion": "Entre histoire médiévale et théâtre inspiré de Peter Pan, l’agenda nyonsais de cette semaine de décembre propose deux rendez-vous culturels complémentaires. La conférence sur Louis XI permettra de découvrir le sujet avec un historien médiéviste, tandis que le spectacle du TRAC de Beaumes de Venise s’inscrit dans Nyons en Fête. Consultez les informations officielles avant votre venue.",
       "highlights": [
         {
           "event_title": "Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne »",
-          "reason": "Une conférence présentée par l’historien médiéviste Alain Saint-Denis autour de Louis XI."
+          "reason": "Une conférence sur Louis XI présentée par l’historien médiéviste Alain Saint-Denis."
         },
         {
           "event_title": "Peter Pan ou l’Enfant Jamais",
-          "reason": "Une adaptation d’après James Matthew Barrie par le TRAC de Beaumes de Venise, dans « Nyons en Fête »."
+          "reason": "Une adaptation d’après James Matthew Barrie, proposée par le TRAC de Beaumes de Venise dans le cadre de Nyons en Fête."
         }
       ]
     },
-    "generated_at": "2026-09-28T11:23:41.680192+00:00",
+    "generated_at": "2026-09-28T14:10:48.594366+00:00",
+    "model": "gpt-5.6-terra"
+  },
+  "2026-11-23": {
+    "hash": "6ab95129b4304171a1295cdcd5ae74e428dcf1d83977e0e98be5497296d8ee8c",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 23 au 29 novembre 2026 : découvrez «La Caravane Exquise» : restitution publique, annoncée le samedi 28 novembre.",
+      "intro": "La semaine du 23 au 29 novembre 2026 à Nyons met en avant un rendez-vous culturel programmé le samedi 28 novembre. «La Caravane Exquise» : restitution publique s’inscrit à la fois dans les rubriques patrimoine et culture vivante, culture et loisirs. Cette proposition est présentée comme une escale « toposensible », une indication qui donne une tonalité particulière à l’événement sans en dévoiler davantage que les informations disponibles. Pour celles et ceux qui cherchent une sortie locale en fin de semaine, cet unique rendez-vous annoncé mérite donc d’être repéré dans l’agenda. La page officielle associée reste la meilleure source pour consulter les précisions éventuellement communiquées par l’organisateur.",
+      "weekend": "Le week-end des 28 et 29 novembre, l’agenda transmis signale un événement le samedi : «La Caravane Exquise» : restitution publique. Pour choisir votre sortie, vous pouvez vous appuyer sur sa date et sur ses thématiques, qui croisent culture vivante, patrimoine, culture et loisirs. La notion d’escale toposensible peut également guider les personnes attirées par une proposition culturelle singulière. Aucun autre rendez-vous n’est renseigné dans les informations fournies pour le dimanche : mieux vaut donc consulter la fiche officielle avant de bâtir tout votre programme de week-end.",
+      "practical": "Avant de vous déplacer, vérifiez la fiche officielle de «La Caravane Exquise» : restitution publique. Les informations transmises indiquent la date du 28 novembre 2026, mais ne précisent ni horaire, ni lieu, ni conditions d’accès. Consultez donc les éventuelles mises à jour de l’organisateur, notamment pour préparer votre venue et confirmer les modalités pratiques.",
+      "conclusion": "À Nyons, la semaine se conclut avec une proposition culturelle annoncée le samedi 28 novembre. «La Caravane Exquise» : restitution publique offre un point de repère simple pour organiser une sortie de fin novembre autour de la culture vivante et du patrimoine. Pensez à consulter son lien officiel pour obtenir les informations complémentaires avant votre visite.",
+      "highlights": [
+        {
+          "event_title": "«La Caravane Exquise» : restitution publique",
+          "reason": "Un rendez-vous prévu le 28 novembre, classé entre patrimoine, culture vivante, culture et loisirs."
+        }
+      ]
+    },
+    "generated_at": "2026-09-28T14:09:48.862333+00:00",
     "model": "gpt-5.6-terra"
   }
 }
