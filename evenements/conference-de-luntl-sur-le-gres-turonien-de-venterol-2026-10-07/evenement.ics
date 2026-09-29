@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-le-gres-turonien-de-venterol-2026-10-07@agenda.vivreanyons.fr
-DTSTAMP:20260929T151409Z
+DTSTAMP:20260929T155520Z
 DTSTART;TZID=Europe/Paris:20261007T180000
 DTEND;TZID=Europe/Paris:20261007T200000
 SUMMARY:Conférence de l’UNTL sur « Le grès turonien de Venterol »

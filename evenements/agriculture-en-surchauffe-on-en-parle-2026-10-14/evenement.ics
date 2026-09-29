@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:agriculture-en-surchauffe-on-en-parle-2026-10-14@agenda.vivreanyons.fr
-DTSTAMP:20260929T151409Z
+DTSTAMP:20260929T155520Z
 DTSTART;TZID=Europe/Paris:20261014T180000
 DTEND;TZID=Europe/Paris:20261014T200000
 SUMMARY:Agriculture en surchauffe\, on en parle ?
