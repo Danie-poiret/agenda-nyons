@@ -576,6 +576,13 @@ def semantic_terms(value):
     return terms
 
 
+def normalized_match_text(value):
+    """Texte sans accents ni ponctuation pour les sujets explicitement réservés."""
+    normalized = unicodedata.normalize("NFKD", clean(value).lower())
+    normalized = "".join(c for c in normalized if not unicodedata.combining(c))
+    return " ".join(re.findall(r"[a-z0-9]+", normalized))
+
+
 ANECDOTE_THEME_GROUPS = (
     {"petanque", "boule", "boulodrome"},
     {"musique", "musical", "concert", "chant", "opera", "jazz", "quartet"},
@@ -630,7 +637,30 @@ def assign_event_anecdotes(events, event_cache):
 
     assigned = {}
     used = set()
+
+    # Les sujets très explicites disposent d'un fait documentaire réservé.
+    # Cette étape passe avant le cache afin de corriger une ancienne anecdote
+    # de secours sans bouleverser les autres attributions déjà stables.
     for event in events:
+        editorial = (event_cache.get(event["url"], {}) or {}).get("editorial") or {}
+        subject = normalized_match_text(" ".join([
+            event.get("title", ""),
+            event.get("summary", ""),
+            clean(editorial.get("seo_title", "")),
+            clean(editorial.get("meta_description", "")),
+        ]))
+        for anecdote in entries:
+            phrases = anecdote.get("match_phrases") or []
+            if anecdote["id"] in used:
+                continue
+            if any(normalized_match_text(phrase) in subject for phrase in phrases):
+                assigned[event["url"]] = anecdote
+                used.add(anecdote["id"])
+                break
+
+    for event in events:
+        if event["url"] in assigned:
+            continue
         entry = event_cache.get(event["url"], {})
         anecdote_id = clean(entry.get("anecdote_id", ""))
         if (

@@ -10,8 +10,20 @@
       "publication_year": "2026",
       "issue": "",
       "pdf_page": "",
+      "match_phrases": ["pétanque", "sports boule"],
       "source_label": "Office de tourisme Provence-Alpes-Côte d’Azur — Histoire de la pétanque",
       "source_url": "https://provence-alpes-cotedazur.com/provence/decouvrir/art-de-vivre/la-petanque/"
+    },
+    {
+      "id": "1231f32682cd8b70",
+      "text": "En France, l’éducation populaire trouve notamment ses racines dans le rapport sur l’instruction publique présenté par Condorcet en 1792 ; elle vise l’accès du plus grand nombre aux savoirs, à la culture et à la citoyenneté.",
+      "article_title": "Aux origines de l’éducation populaire",
+      "publication_year": "2019",
+      "issue": "",
+      "pdf_page": "1",
+      "match_phrases": ["éducation populaire"],
+      "source_label": "INJEP — L’éducation populaire en France, fiche repère",
+      "source_url": "https://injep.fr/wp-content/uploads/2019/05/FR44_educ_pop.pdf"
     },
     {
       "id": "dcd6c47e7cadf615",
