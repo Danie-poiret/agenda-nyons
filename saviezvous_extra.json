@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "id": "taco-histoire-smithsonian",
+      "text": "Le taco est bien plus ancien que la restauration rapide : l’historien Jeffrey Pilcher situe probablement ses origines modernes dans le Mexique du XVIIIe siècle, autour des mines d’argent, tandis que les premières mentions écrites apparaissent à la fin du XIXe siècle.",
+      "article_title": "Aux origines du taco",
+      "publication_year": "2012",
+      "issue": "",
+      "pdf_page": "",
+      "match_phrases": ["street food", "taco", "tacos", "burrito", "burritos"],
+      "source_label": "Smithsonian Magazine — Where Did the Taco Come From?",
+      "source_url": "https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+    }
+  ]
+}
