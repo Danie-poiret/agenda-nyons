@@ -52,6 +52,7 @@ EVENT_DETAIL_PARSER_VERSION = 8
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "100"))
 EVENT_PROMPT_VERSION = 10
+WEEK_PROMPT_VERSION = 3
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -393,11 +394,14 @@ def event_facts_for_ai(events):
 
 
 def week_hash(start: date, events):
+    # Le texte editorial d'une semaine est genere une seule fois. Les donnees
+    # factuelles (evenements, dates, categories, lieux...) sont affichees
+    # directement dans le HTML et ne doivent pas provoquer de nouvel appel
+    # OpenAI lorsqu'elles evoluent. Pour forcer volontairement une nouvelle
+    # redaction, il suffit d'augmenter la version du prompt.
     payload = {
         "week": start.isoformat(),
-        "events": event_facts_for_ai(events),
-        "prompt_version": 3,
-        "model": OPENAI_MODEL,
+        "prompt_version": WEEK_PROMPT_VERSION,
     }
     raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
@@ -605,15 +609,14 @@ def event_facts(event, detail_text="", practical=None):
 
 
 def event_hash(event, detail_text="", practical=None):
-    # Le texte editorial depend du titre, des dates, des categories et du resume.
-    # Les informations pratiques sont affichees directement dans la fiche HTML :
-    # leur modification ne doit pas declencher une nouvelle redaction OpenAI.
-    facts = event_facts(event, "", None)
-    facts.pop("practical", None)
+    # Une fiche deja redigee reste en cache, meme si Nyons.com modifie le
+    # resume, les categories, les dates ou les informations pratiques. Ces
+    # donnees factuelles sont affichees directement dans le HTML. Une nouvelle
+    # URL officielle cree une nouvelle fiche ; une hausse volontaire de
+    # EVENT_PROMPT_VERSION force une nouvelle redaction.
     payload = {
-        "event": facts,
+        "official_url": event["url"],
         "prompt_version": EVENT_PROMPT_VERSION,
-        "model": OPENAI_MODEL,
     }
     raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
@@ -1606,34 +1609,36 @@ def generate_event_pages(events):
         digest = event_hash(event)
         cached = event_cache.get(event["url"], {})
 
-        # Migration transparente : les anciennes entrees ont une empreinte qui
-        # incluait les infos pratiques. Si leur contenu editorial est toujours
-        # identique, on reutilise le texte et on enregistrera la nouvelle
-        # empreinte sans faire d'appel OpenAI.
+        # Migration transparente : toute fiche deja redigee est reutilisee,
+        # quelle que soit l'ancienne empreinte. Les variations techniques de
+        # Nyons.com ne doivent jamais provoquer une nouvelle depense. Seule une
+        # hausse volontaire de EVENT_PROMPT_VERSION permet une reecriture.
         cached_event = cached.get("event")
-        legacy_cache_matches = False
-        if cached_event:
-            legacy_cache_matches = (
-                cached.get("hash")
-                == legacy_event_hash(cached_event, cached.get("practical") or {})
-                and event_hash(cached_event) == digest
-            )
-
-        if (
-            (cached.get("hash") == digest or legacy_cache_matches)
+        cached_prompt_version = cached.get("prompt_version")
+        reusable_cached_editorial = (
+            cached_event
+            and cached_event.get("url") == event.get("url")
             and cached.get("editorial")
             and not cached.get("editorial", {}).get("_fallback", False)
+            and cached_prompt_version in (None, EVENT_PROMPT_VERSION)
+        )
+
+        if (
+            reusable_cached_editorial
         ):
             editorial = cached["editorial"]
+            editorial_generated_at = cached.get("generated_at") or datetime.now(timezone.utc).isoformat()
             print(f"FICHE {idx:03d}/{total_active}: inchangée, aucun appel API — {event['title']}")
 
         elif ai_calls < MAX_EVENT_AI_CALLS:
             editorial = generate_event_editorial(event, detail, practical)
+            editorial_generated_at = datetime.now(timezone.utc).isoformat()
             ai_calls += 1
             print(f"FICHE {idx:03d}/{total_active}: contenu éditorial généré — {event['title']}")
 
         else:
             editorial = cached.get("editorial") or fallback_event_editorial(event)
+            editorial_generated_at = cached.get("generated_at") or datetime.now(timezone.utc).isoformat()
             print(f"FICHE {idx:03d}/{total_active}: limite API atteinte, texte conservé/secours — {event['title']}")
 
         event_cache[event["url"]] = {
@@ -1642,8 +1647,9 @@ def generate_event_pages(events):
             "event": event,
             "editorial": editorial,
             "practical": practical,
-            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_at": editorial_generated_at,
             "model": OPENAI_MODEL,
+            "prompt_version": EVENT_PROMPT_VERSION,
             "anecdote_id": clean(cached.get("anecdote_id", "")),
         }
 
@@ -2482,8 +2488,20 @@ def generate_seo_pages(events):
         digest = week_hash(start, week_events)
         cached = cache.get(key, {})
 
-        if cached.get("hash") == digest and cached.get("editorial"):
+        reusable_week_editorial = (
+            cached.get("editorial")
+            and cached.get("prompt_version") in (None, WEEK_PROMPT_VERSION)
+        )
+
+        if reusable_week_editorial:
             editorial = cached["editorial"]
+            # Migration gratuite vers l'empreinte stable : on conserve le
+            # texte et sa date de generation, sans appeler OpenAI.
+            cache[key] = {
+                **cached,
+                "hash": digest,
+                "prompt_version": WEEK_PROMPT_VERSION,
+            }
             print(f"SEO {key}: inchangé, aucun appel API.")
         else:
             editorial = generate_editorial(start, week_events)
@@ -2492,6 +2510,7 @@ def generate_seo_pages(events):
                 "editorial": editorial,
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "model": OPENAI_MODEL,
+                "prompt_version": WEEK_PROMPT_VERSION,
             }
             print(f"SEO {key}: contenu éditorial généré.")
 
