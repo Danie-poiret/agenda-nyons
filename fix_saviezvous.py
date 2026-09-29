@@ -10,8 +10,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / "_event_seo_cache.json"
 ANECDOTES = ROOT / "nyons_anecdotes.json"
+EXTRA_ANECDOTES = ROOT / "saviezvous_extra.json"
 EVENTS = ROOT / "evenements"
-VERSION = 3
+VERSION = 4
 
 STOPWORDS = {
     "administratif", "ancien", "ancienne", "apres", "atelier", "avec", "cadre",
@@ -29,7 +30,7 @@ THEME_GROUPS = (
     {"livre", "lecture", "litterature", "ecrivain", "auteur", "barjavel", "camus"},
     {"peinture", "peintre", "tableau", "artiste", "expo", "exposition", "picasso", "chagall", "bruegel"},
     {"agriculture", "agricole", "paysan", "vendange", "vigne", "vin"},
-    {"cuisine", "culinaire", "tapenade", "olive", "olivier", "gnocchi", "risotto", "gastronomie"},
+    {"cuisine", "culinaire", "tapenade", "olive", "olivier", "gnocchi", "risotto", "gastronomie", "pain", "confiture", "confiturerie", "taco", "tacos", "burrito", "burritos", "food"},
     {"science", "scientifique", "geologie", "gres", "glaciation", "fossile"},
     {"yoga", "meditation", "bienetre", "respiration"},
     {"danse", "danser", "ballet"},
@@ -59,6 +60,18 @@ def terms(value):
     return out
 
 
+def exact_phrase_match(event, anecdote):
+    title_and_summary = norm(" ".join([
+        clean(event.get("title", "")),
+        clean(event.get("summary", "")),
+    ]))
+    for phrase in anecdote.get("match_phrases") or []:
+        p = norm(phrase)
+        if p and p in title_and_summary:
+            return True
+    return False
+
+
 def score(event, anecdote):
     title = clean(event.get("title", ""))
     title_norm = norm(title)
@@ -71,24 +84,20 @@ def score(event, anecdote):
 
     s = 0
 
-    # PRIORITÉ ABSOLUE AU TITRE DE L'ÉVÉNEMENT.
     shared_title = title_terms & a_terms
     shared_titles = title_terms & a_title_terms
     s += len(shared_title) * 30
     s += len(shared_titles) * 45
 
-    # Les match_phrases sont des correspondances documentaires explicites.
     for phrase in anecdote.get("match_phrases") or []:
         p = norm(phrase)
         if p and p in title_norm:
             s += 150
 
-    # Familles sémantiques : pétanque/boule, éducation/instruction, etc.
     for group in THEME_GROUPS:
         if title_terms & group and a_terms & group:
             s += 60
 
-    # Résumé et titre SEO seulement comme second niveau.
     context = " ".join([
         clean(event.get("summary", "")),
         clean(event.get("editorial", {}).get("seo_title", "")),
@@ -100,10 +109,21 @@ def score(event, anecdote):
     return s
 
 
+def load_anecdotes():
+    base = json.loads(ANECDOTES.read_text(encoding="utf-8"))
+    entries = list(base.get("entries", []))
+    if EXTRA_ANECDOTES.exists():
+        extra = json.loads(EXTRA_ANECDOTES.read_text(encoding="utf-8"))
+        entries.extend(extra.get("entries", []))
+    return [
+        a for a in entries
+        if isinstance(a, dict) and a.get("id") and a.get("text")
+    ]
+
+
 def main():
     cache = json.loads(CACHE.read_text(encoding="utf-8"))
-    payload = json.loads(ANECDOTES.read_text(encoding="utf-8"))
-    anecdotes = [a for a in payload.get("entries", []) if isinstance(a, dict) and a.get("id") and a.get("text")]
+    anecdotes = load_anecdotes()
     catalog = {a["id"]: a for a in anecdotes}
 
     entries = []
@@ -114,25 +134,42 @@ def main():
         event["editorial"] = item.get("editorial") or {}
         entries.append((url, item, event))
 
-    # Toutes les attributions sont recalculées : aucune ancienne anecdote générique
-    # n'est conservée simplement parce qu'elle était en cache.
-    candidates = []
-    for url, item, event in entries:
-        for anecdote in anecdotes:
-            candidates.append((score(event, anecdote), url, anecdote["id"]))
-
-    candidates.sort(key=lambda x: (-x[0], x[1], x[2]))
     assigned = {}
     used = set()
 
-    # On retient d'abord les vraies correspondances sémantiques.
+    # 1) Correspondances explicites du titre/résumé : elles passent AVANT tout le reste.
+    # Exemple : street food/tacos -> anecdote sur le taco, pétanque -> pétanque.
+    exact_candidates = []
+    for url, item, event in entries:
+        for anecdote in anecdotes:
+            if exact_phrase_match(event, anecdote):
+                exact_candidates.append((score(event, anecdote), url, anecdote["id"]))
+    exact_candidates.sort(key=lambda x: (-x[0], x[1], x[2]))
+
+    for s, url, anecdote_id in exact_candidates:
+        if url in assigned or anecdote_id in used:
+            continue
+        assigned[url] = anecdote_id
+        used.add(anecdote_id)
+
+    # 2) Puis seulement les rapprochements sémantiques plus larges.
+    candidates = []
+    for url, item, event in entries:
+        if url in assigned:
+            continue
+        for anecdote in anecdotes:
+            if anecdote["id"] in used:
+                continue
+            candidates.append((score(event, anecdote), url, anecdote["id"]))
+
+    candidates.sort(key=lambda x: (-x[0], x[1], x[2]))
     for s, url, anecdote_id in candidates:
         if s <= 0 or url in assigned or anecdote_id in used:
             continue
         assigned[url] = anecdote_id
         used.add(anecdote_id)
 
-    # Si aucun rapport thématique n'existe, on utilise une anecdote unique de secours.
+    # 3) En dernier recours seulement : anecdote unique de Nyons.
     remaining = [a["id"] for a in anecdotes if a["id"] not in used]
     for url, item, event in entries:
         if url in assigned:
@@ -177,13 +214,13 @@ def main():
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Le saviez-vous : {changed} fiche(s) mise(s) à jour.")
-    print(f"Attributions sémantiques recalculées : {len(assigned)}.")
+    print(f"Attributions recalculées : {len(assigned)}.")
 
-    # Contrôle ciblé demandé : éducation populaire doit utiliser son anecdote dédiée.
     for url, item, event in entries:
-        if "education-populaire" in item.get("slug", ""):
+        slug = item.get("slug", "")
+        if "education-populaire" in slug or "street-food-party" in slug:
             a = catalog.get(item.get("anecdote_id"), {})
-            print("CONTROLE EDUCATION POPULAIRE:", clean(a.get("text", "")))
+            print(f"CONTROLE {slug}:", clean(a.get("text", "")))
 
 
 if __name__ == "__main__":
