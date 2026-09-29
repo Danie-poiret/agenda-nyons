@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13@agenda.vivreanyons.fr
-DTSTAMP:20260929T074146Z
+DTSTAMP:20260929T080913Z
 DTSTART;TZID=Europe/Paris:20261013T100000
 DTEND;TZID=Europe/Paris:20261013T120000
 SUMMARY:Atelier sur les directives anticipées et dernières volontés

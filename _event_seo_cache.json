@@ -1,6 +1,6 @@
 {
   "https://www.nyons.com/agenda/decouvrez-solidarite-paysans/": {
-    "hash": "6aab5f80420f25e4a78b3f5540996ee73839a6ca067bfe5bb295bcc2afac8737",
+    "hash": "675d6821113ccef7cb189e1ae8810f95d497af719576536a588f6d742f7a4493",
     "slug": "decouvrez-solidarite-paysans-2026-08-01",
     "event": {
       "title": "Découvrez Solidarité Paysans !",
@@ -40,10 +40,11 @@
     },
     "generated_at": "2026-09-29T07:35:28.914875+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "dcd6c47e7cadf615"
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
-    "hash": "46ea7e8322c5cccdeb4984ca99520423ea47ec707c550686189a04d990972d5c",
+    "hash": "6a191c96c63fbfdb176f2f8a5ed5d7db54f3c0c82e9d0c8e6a9003d5a36392ec",
     "slug": "exposition-urbain-urbex-2026-09-02",
     "event": {
       "title": "Exposition « Urbain Urbex »",
@@ -76,6 +77,7 @@
     },
     "generated_at": "2026-09-29T07:35:30.154538+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "6e8073105cca72df"
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
@@ -115,7 +117,7 @@
     "anecdote_id": "41165ef029088e8e"
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
-    "hash": "d7635787dea531abfacb77023c562ed6dceb301d942a53111eab08051f7cf3a0",
+    "hash": "78e8f73f7d549c4c7db9dd5d80acdf58e6c023c20678bef0095f25f4afae046c",
     "slug": "les-8-jours-de-la-ville-de-nyons-2026-09-25",
     "event": {
       "title": "Les 8 jours de la Ville de Nyons",
@@ -149,6 +151,7 @@
     },
     "generated_at": "2026-09-29T07:35:31.188716+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "a3957c9a5850a746"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
@@ -482,7 +485,7 @@
     "anecdote_id": "9cee700e2de8ac98"
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
-    "hash": "4c011b101de2f23d2c8b17d6ca9bf7d74481e981f734df761dcb5748d4f499b2",
+    "hash": "a3b2168ec83e3cc42015603f5f3144a8dc43e80c40463de5973b3823a6b11522",
     "slug": "atelier-lactofermentation-2026-09-30",
     "event": {
       "title": "Atelier lactofermentation",
@@ -517,10 +520,11 @@
     },
     "generated_at": "2026-09-29T07:35:31.643831+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f792801e6877a632"
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
-    "hash": "013a08754c8c4df09eaf859ffb7e959bbb96576b7691c657c167351f5086d997",
+    "hash": "bf02f0a3ae2a807049d1d7cfbdbcace513931a4cdaaa755869965ab1ad279f12",
     "slug": "dedicace-francoise-bourdon-2026-10-01",
     "event": {
       "title": "Dédicace Françoise Bourdon",
@@ -553,10 +557,11 @@
     },
     "generated_at": "2026-09-29T07:35:32.056259+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f29f6a5cf769fdd3"
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
-    "hash": "39f0362fde9155a25b2e99f3134dcc5dfc40ce86cee9c84af8de4b242f6226b6",
+    "hash": "4d636014885a8443eeb62bf19ec1c39f6f3a2d66f09b80bb6c0576457cd2cee0",
     "slug": "concert-bouda-omg-2026-10-02",
     "event": {
       "title": "Concert Bouda OMG !",
@@ -589,10 +594,11 @@
     },
     "generated_at": "2026-09-29T07:35:32.464120+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "31ccb61f6cef4286"
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
-    "hash": "5498077b578186d5d4c2dbc8210a1ce067b6a12d92ca0b60369317488ca92fd0",
+    "hash": "d03dd62512a7914a22bf9811234eea8c0e8c3fd8373b1c3800398563be6c8c2f",
     "slug": "grande-braderie-2026-10-02",
     "event": {
       "title": "Grande braderie",
@@ -625,10 +631,11 @@
     },
     "generated_at": "2026-09-29T07:35:32.866530+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "0e32a2a3334c696c"
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
-    "hash": "d297e8386820ca7b0ef81eafbb77bd4984f6ce04f1f3ea986b60394d0ea03ed2",
+    "hash": "feae1144893e62e5ec0af939d6b9407b1055cf1a1d9e131e131a3481b3709843",
     "slug": "les-journees-nationales-des-artistes-a-nyons-2026-10-02",
     "event": {
       "title": "Les Journées Nationales des Artistes à Nyons",
@@ -663,10 +670,11 @@
     },
     "generated_at": "2026-09-29T07:35:33.270474+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "1da28eb56b1f12aa"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
-    "hash": "ec08712d9bea8a0ad74b884fd53eb5ceb4a44ff0025762bc04fdb4d3da57de0b",
+    "hash": "5383611239484261359c1bcbc6bc551a101fd6084d3251ba777eb108b9eb8186",
     "slug": "atelier-culinaire-risotto-panacotta-2026-10-03",
     "event": {
       "title": "Atelier culinaire – Risotto & panacotta",
@@ -701,10 +709,11 @@
     },
     "generated_at": "2026-09-29T07:35:42.140134+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "708a7469be8e5208"
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
-    "hash": "fb70ad236e69648a26c5ace423799a08ad8e958e6d9a49c70607ce4d38ecb141",
+    "hash": "2f823e627ef47eab5f9ecbf9b6290816560b67d482622cfe7d049873e3717458",
     "slug": "constellations-familiales-2026-10-03",
     "event": {
       "title": "Constellations familiales",
@@ -736,10 +745,11 @@
     },
     "generated_at": "2026-09-29T07:35:43.065443+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "1923f756ddd58a2d"
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
-    "hash": "fcb289e7038320c1905c5f353c209b9b38854fa046fac7c2c52fe84a98df257a",
+    "hash": "0b812fc8a5faf51f29ba52b8909f4f8e4a5ddd21dcaf0e33ed7647139d1d9e9b",
     "slug": "atelier-thematique-sur-la-legislation-funeraire-2026-10-05",
     "event": {
       "title": "Atelier thématique sur la législation funéraire",
@@ -779,10 +789,11 @@
     },
     "generated_at": "2026-09-29T07:35:56.976093+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "0ab0f2c7eb76267b"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
-    "hash": "f9d57a3836e297c20fce7506dc2be00ecca18b29ac4732fddf5bbb37de6f77dc",
+    "hash": "b5020b29e863db2f58d01577945c5a1c7e7fc4cb2fab153831e15d0fbb56a375",
     "slug": "conference-de-luntl-sur-le-gres-turonien-de-venterol-2026-10-07",
     "event": {
       "title": "Conférence de l’UNTL sur « Le grès turonien de Venterol »",
@@ -816,10 +827,11 @@
     },
     "generated_at": "2026-09-29T07:35:58.017877+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "d91c6c918d62376c"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
-    "hash": "5cc0e51f01090dcd48caf0724c3436d2837e039f0fcc0b43e0705964f924e22b",
+    "hash": "47986defd1e49d1a6a3d85751045e486ceddad94ec77cb27677d29e1dae7c667",
     "slug": "tsart-une-histoire-de-paradis-2026-10-07",
     "event": {
       "title": "« Ts’art : Une histoire de Paradis ! »",
@@ -853,10 +865,11 @@
     },
     "generated_at": "2026-09-29T07:35:59.054791+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8bffd81dec043320"
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
-    "hash": "42f1bcfbb8b56502e441b9cc5362d1fccb48ebbe470315eef7d9d4a09b6472b1",
+    "hash": "6d923ef1e85d2fb5148324a24d59fdcb50c159bfbdde8efd05118844c79c1dca",
     "slug": "a-vos-cartes-prets-jouez-2026-10-07",
     "event": {
       "title": "À vos cartes, prêts, jouez !",
@@ -890,10 +903,11 @@
     },
     "generated_at": "2026-09-29T07:35:59.470972+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "539006b14a706652"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
-    "hash": "cdb943240c969d6b8a6a62e49d584836bd348f4b271828e80bca846f32d8afa7",
+    "hash": "a5255c52e9b0ed45994b7a462f0de3bf7d9d72ae032358056e8676fd581c14e1",
     "slug": "atelier-culinaire-gnocchis-2026-10-08",
     "event": {
       "title": "Atelier culinaire – Gnocchis",
@@ -928,10 +942,11 @@
     },
     "generated_at": "2026-09-29T07:36:00.364217+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "390b971f2f92aabf"
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
-    "hash": "a71dcf875c3cab31476b6e39778001dbd3420280e120f6e142b4528329516b15",
+    "hash": "425593d1c5aaa259db489a7e249ee71aaadb399f6c19db295783576e8f639e28",
     "slug": "linstant-papillon-2026-10-08",
     "event": {
       "title": "L’instant Papillon",
@@ -963,10 +978,11 @@
     },
     "generated_at": "2026-09-29T07:36:01.560693+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8b1f2f8a4f946685"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
-    "hash": "6b3ae34028a79958b845ddf84afc624d13bef7a2b7923c319be6ef5c5c2025ee",
+    "hash": "e6edec7ee99aec22cb3ca181d435ead280b5f4aab7fad91e7f56345f60357d70",
     "slug": "stands-sur-la-sante-mentale-2026-10-08",
     "event": {
       "title": "Stands sur la santé mentale",
@@ -998,10 +1014,11 @@
     },
     "generated_at": "2026-09-29T07:36:01.994757+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "cf539fb6eb665545"
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
-    "hash": "2706b7242edeceba81b7570e9c870523d3a158dea430e678ab5c75b2e2b56605",
+    "hash": "a4da00ff004b4fd991c6fc98416352d6b6cb95622e30999e38c310e159e49496",
     "slug": "theatre-sur-la-sante-mentale-2026-10-08",
     "event": {
       "title": "Théâtre sur la santé mentale",
@@ -1033,16 +1050,17 @@
     },
     "generated_at": "2026-09-29T07:36:09.080132+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "bd986f64dac19c55"
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
-    "hash": "afcf96385ff70158bdaac8b104f08d8201536118d33e14c054cbc438ab919b4d",
+    "hash": "4d12ee1f13c4ff1fd9afe28401435234bfee97d15d057c3d7053e01115a70dad",
     "slug": "concert-de-demi-mondaine-2026-10-09",
     "event": {
       "title": "Concert de Demi Mondaine",
       "start_date": "2026-10-09",
       "end_date": "2026-10-09",
-      "summary": "Sortie de résidence de Demi Mondaine, Mystic Gordon et Clément Bouet 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales ",
+      "summary": "Sortie de résidence de Demi Mondaine, Mystic Gordon et Clément Bouet 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions léga",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -1069,10 +1087,11 @@
     },
     "generated_at": "2026-09-29T07:36:18.963123+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "3fded471a2228ec7"
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
-    "hash": "baebb5fd5507d20ea065b4adf750729fd9334a3437b2ecc9576077746012b922",
+    "hash": "e73311b11e47d763bbd7f38d4924db04de951682b216af92ce243489074d73f8",
     "slug": "lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09",
     "event": {
       "title": "Lectures par la MARPA de Rémuzat et Antoine Picard",
@@ -1106,10 +1125,11 @@
     },
     "generated_at": "2026-09-29T07:36:19.466278+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "5e60a3d9712e64f8"
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
-    "hash": "44a6e1d6ddb46eefb67be791e711600a7209ca3243613ab2e6fab00b9f84bd10",
+    "hash": "fec8f3e2775bdd6333bd7b533d6a05efb4d6c85c4a71566d8c7d2fa783292f34",
     "slug": "4-seasons-jam-2026-10-10",
     "event": {
       "title": "4 Seasons Jam",
@@ -1143,10 +1163,11 @@
     },
     "generated_at": "2026-09-29T07:36:20.407862+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "38e31d0278c22542"
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
-    "hash": "4d9dbc213d876f2eaa0d593dc476f1e5e3b17946380efc654078dbe1bc5af334",
+    "hash": "2824a85286e04f8779edbb530735283750dc177c5e8cf1511f8e402cb68e5e9a",
     "slug": "atelier-jardin-zen-2026-10-10",
     "event": {
       "title": "Atelier Jardin Zen",
@@ -1181,10 +1202,11 @@
     },
     "generated_at": "2026-09-29T07:36:21.352509+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "37ea112d0f22d074"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
-    "hash": "99be1c6e9b62260d71aefdbf16e6df571dee2514bf82df4487014cfb066b7100",
+    "hash": "03e538a3a33a2b8d1b22d895d506e8f514f15422c1e61fa105d54192f40d17e7",
     "slug": "atelier-yoga-du-chant-2026-10-10",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -1224,10 +1246,11 @@
     },
     "generated_at": "2026-09-29T07:36:33.464404+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "6471dcc69f18fdd8"
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
-    "hash": "1f7829e91ee80ca113e8ace3eeb40159b5909d92dc127ef057d2fe977d01f1e5",
+    "hash": "8cdd502f4436191e37c41b2e11effcbd6c1cf27b94694b2f0c34ba4ea022ee16",
     "slug": "conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes-2026-10-10",
     "event": {
       "title": "Conférence-discussion sur les directives anticipées et les dernières volontés",
@@ -1259,10 +1282,11 @@
     },
     "generated_at": "2026-09-29T07:36:34.461043+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f8825bc36884bad6"
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
-    "hash": "6df377500c04756c07c7b990ead150ef58dcad10d661a5dd7799c9f8e9df4d0c",
+    "hash": "e45543f9235a719690a5f7a3d114bfb3d1d932bda2de81409760f9a8e6b07208",
     "slug": "constellations-familiales-2026-10-10",
     "event": {
       "title": "Constellations familiales",
@@ -1294,16 +1318,17 @@
     },
     "generated_at": "2026-09-29T07:36:35.334774+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b688f05c04d76cdd"
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
-    "hash": "3ecdb18abb1a65cadd185431613869ef0eb63e1a3d80c4205e0ff32eb908803b",
+    "hash": "9e1708ca73d22cdde1ddd21ac264478ed7336f34ba734f7c59dcbe1a118a4d00",
     "slug": "fete-de-la-science-2026-excursion-a-venterol-avec-luntl-2026-10-10",
     "event": {
       "title": "Fête de la Science 2026 : excursion à Venterol avec l’UNTL",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Excursion gratuite organisée par l'UNTL et menée par Jean-Loup Rubino 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales",
+      "summary": "Excursion gratuite organisée par l'UNTL et menée par Jean-Loup Rubino 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions lég",
       "categories": [
         "Patrimoine / Culture vivante",
         "Vie associative",
@@ -1331,10 +1356,11 @@
     },
     "generated_at": "2026-09-29T07:36:41.557280+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8c1cc7a145b5da03"
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
-    "hash": "41fc8324f9448c9db4fd74a4268747f0daa261b7fd1d29251e546e1d532141c8",
+    "hash": "32390aba6e5bf63b0bec7e315617d3a0c25512f1c1594cef6ebeca98de946c64",
     "slug": "journee-decouverte-materiautheque-2026-10-10",
     "event": {
       "title": "Journée découverte Matériauthèque",
@@ -1367,10 +1393,11 @@
     },
     "generated_at": "2026-09-29T07:36:50.892005+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "7cf7db0bbfe3bb78"
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
-    "hash": "71ed1aa460631dd4f75ccb1a6443cf5ee21c3ab375ad5d999eb2b5e4ae67747b",
+    "hash": "1b57d367800a95dda9ee4f78f80b5db774dbef1531acb80216d0b4eb2eecccec",
     "slug": "reprise-des-ateliers-yoga-du-chant-2026-10-10",
     "event": {
       "title": "Reprise des Ateliers Yoga du Chant",
@@ -1404,10 +1431,11 @@
     },
     "generated_at": "2026-09-29T07:36:51.876643+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "bf81fe7d5c3e79f9"
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
-    "hash": "189b219a5063845885ddc94217d58bd4b7dda4c462b39d7f51711a3a43094078",
+    "hash": "daec19a8dbc4b42c6609fe540321d4ee78ba28d6025a7dfddeb063a53ef0fcad",
     "slug": "samedi-ca-me-dit-2026-10-10",
     "event": {
       "title": "Samedi, ça me dit !",
@@ -1441,10 +1469,11 @@
     },
     "generated_at": "2026-09-29T07:36:58.621454+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "5a3c6c07a1ba2ac5"
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
-    "hash": "c49a8c189ac6eee369937531caf11d3aea8a43799dbb245606991d84a348b345",
+    "hash": "b3b46a3747fcb3f18865f0a1bb8bdfea67e2d67d69e16aa7ee94c826b0dc6840",
     "slug": "spectacle-papillon-noir-2026-10-10",
     "event": {
       "title": "Spectacle « Papillon noir »",
@@ -1476,10 +1505,11 @@
     },
     "generated_at": "2026-09-29T07:36:59.558809+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "35949f65dbe8c72f"
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
-    "hash": "96d115fdd307cc4316c5fdef6ed51bd86fbd3bff5864616259a4c12413177412",
+    "hash": "b288466feea865a611725d24b94aa131e7cbcb22d99dfebe2787e59eb2ba51fd",
     "slug": "cine-debat-sur-ladamant-2026-10-11",
     "event": {
       "title": "Ciné-débat « Sur l’Adamant »",
@@ -1513,10 +1543,11 @@
     },
     "generated_at": "2026-09-29T07:37:00.493185+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "793cb681267cefed"
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
-    "hash": "a84c12c6f394601aab2bece37c1f91d1d3fb4e862cbb823cde80bc24e5b1af3b",
+    "hash": "440a88d53b84637a7db2ace420466f3d65fbe0f37b946d5a53d1e60c0e44b032",
     "slug": "cocktail-dimpro-2026-10-11",
     "event": {
       "title": "Cocktail d’impro",
@@ -1556,10 +1587,11 @@
     },
     "generated_at": "2026-09-29T07:37:09.253683+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8c244b9c6565f6e5"
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
-    "hash": "66da4eb897c19bb8663b11be1448dee5e579b90ae205ded21cd4895df6883f56",
+    "hash": "45c46ee4c105ad4d3d6615856aa80b85d982e8982c8c5364cb30615f79096d06",
     "slug": "une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11",
     "event": {
       "title": "« Une soirée à Vienne » : concert du « Page Blanche Quartet »",
@@ -1592,10 +1624,11 @@
     },
     "generated_at": "2026-09-29T07:37:09.775395+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f66b32501a22e905"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
-    "hash": "60f81bcef5b43e033d11d7824ddf90927c4aca09ad7f75b0f1b2a0fd16993367",
+    "hash": "2945f47bd8eb724d9a1142fb1b992d88401f6b9092512d5091a50ead191af849",
     "slug": "conference-de-luntl-sur-chagall-2026-10-12",
     "event": {
       "title": "Conférence de l’UNTL sur Chagall",
@@ -1625,10 +1658,11 @@
     },
     "generated_at": "2026-09-29T07:37:10.794719+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "2cfe75f8d57d8acd"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
-    "hash": "737944f0d90830cb085a33534b2f6321efc1679a90343f0f07e871febe8b4082",
+    "hash": "3e44e0e821de4d3ca9fc89420ef876f5df767fc0dc807fc89b7d7dd895c720fc",
     "slug": "atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13",
     "event": {
       "title": "Atelier sur les directives anticipées et dernières volontés",
@@ -1660,10 +1694,11 @@
     },
     "generated_at": "2026-09-29T07:37:11.742067+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "43e362cd09785c01"
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
-    "hash": "b1956763bb9dc71121e1fbb6a65397fd5ecfbed1451b96c7fac976625cdfeeeb",
+    "hash": "d5ad8aba3799ebea42e24b94ec3fe4d2c91d6acef74c03e2fd896795904dfc78",
     "slug": "agriculture-en-surchauffe-on-en-parle-2026-10-14",
     "event": {
       "title": "Agriculture en surchauffe, on en parle ?",
@@ -1696,10 +1731,11 @@
     },
     "generated_at": "2026-09-29T07:37:12.620232+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f211784dcc329002"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
-    "hash": "f014428d4b688b97d3a2066a2b5d66d726239c1011a767d31b81abef205fb04e",
+    "hash": "48a3685a61011afa7ea4b5b32cdecafb8a217aa316fe44c07776866d878542eb",
     "slug": "les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel-2026-10-14",
     "event": {
       "title": "Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »",
@@ -1733,10 +1769,11 @@
     },
     "generated_at": "2026-09-29T07:37:13.035940+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "e8bbcc52c4ec58a4"
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
-    "hash": "d5ca4786d9da6591015ec9e37c28259807341c5bbecc4b253b26e65903544b49",
+    "hash": "4a3230a25ad6fe502724976482b8057cdda637f5bb2b3316453dacde664365ae",
     "slug": "stands-sur-la-sante-mentale-et-mad-pride-2026-10-15",
     "event": {
       "title": "Stands sur la santé mentale et « Mad Pride »",
@@ -1769,16 +1806,17 @@
     },
     "generated_at": "2026-09-29T07:37:19.626130+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "027ecc36e5ab6482"
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
-    "hash": "876bfa93da405fd8637127be4eb93de299a48c873fa5e58b7b7c8886935223b5",
+    "hash": "56ed9e5e4dbfb722d3180277444be848fe84f432bd95da4c861091c361d363c4",
     "slug": "atelier-sur-les-rituels-funeraires-2026-10-16",
     "event": {
       "title": "Atelier sur les rituels funéraires",
       "start_date": "2026-10-16",
       "end_date": "2026-10-16",
-      "summary": "Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales Politique de confidentialité ",
+      "summary": "Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légales Politique de confidential",
       "categories": [
         "Solidarité / Santé",
         "Culture"
@@ -1805,10 +1843,11 @@
     },
     "generated_at": "2026-09-29T07:37:27.833971+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "540f1c69a804b5d1"
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
-    "hash": "b2e691997aa667fabef1c847e5bbb0bc34410bd28b2479eafddb902568324dd2",
+    "hash": "7e83332486639daec545bb77d0939ca154ed0ce229c359889691e091abaab207",
     "slug": "soiree-de-presentation-de-nyons-en-scene-2026-10-16",
     "event": {
       "title": "Soirée de présentation de « Nyons en scène »",
@@ -1841,10 +1880,11 @@
     },
     "generated_at": "2026-09-29T07:37:34.992295+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "775bdd9fcd4c3c7e"
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
-    "hash": "3f2f4b7db2a058972aa4f892e9047dbbd8cd83e04f67b702d088db58bd6e6797",
+    "hash": "11cf1876516e79865e919bda8c2fc8f1e9f2915f72421f8feaa84f4d482ee020",
     "slug": "atelier-dart-therapie-2026-10-17",
     "event": {
       "title": "Atelier d’Art-Thérapie",
@@ -1878,10 +1918,11 @@
     },
     "generated_at": "2026-09-29T07:37:36.019983+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "a33af4aedd740d25"
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
-    "hash": "244f47f71ca55e53dfbeb5fb6422fe64edeedec100a1e94a7d6d87aab3a12f3e",
+    "hash": "ce027d57683800cab2dce5cf921c4a8204bd2c58a5d64db83eb65531745964c1",
     "slug": "journee-de-cloture-des-vendanges-2026-10-17",
     "event": {
       "title": "Journée de clôture des vendanges",
@@ -1921,10 +1962,11 @@
     },
     "generated_at": "2026-09-29T07:37:44.364969+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "cb2cb11268a39180"
   },
   "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/": {
-    "hash": "9f1a03f20558d436b08c2eb4ca8514196ae05ae6a1bfc1bb4e87ebf26c29a28b",
+    "hash": "ed1e314dbd45c8306134d3d8252ba6dfff80356a66d506ee66e5b902f8e130fb",
     "slug": "tournoi-de-belote-du-comite-des-fetes-2026-10-17",
     "event": {
       "title": "Tournoi de belote du Comité des Fêtes",
@@ -1958,10 +2000,11 @@
     },
     "generated_at": "2026-09-29T07:37:45.333235+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "477f085d76d9ab02"
   },
   "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/": {
-    "hash": "c7623d1b3e86c1d26435ed7ad4ca0c1e3df13575cc751634e0fdc88d40b11e54",
+    "hash": "e561f0a9f383cfeddfb74dd0773d66e15627040b32cd6da10295721eef862932",
     "slug": "trail-de-nyons-et-baronnies-2026-10-17",
     "event": {
       "title": "Trail de Nyons et Baronnies",
@@ -1994,10 +2037,11 @@
     },
     "generated_at": "2026-09-29T07:37:46.272574+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "d7c85871f706446f"
   },
   "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/": {
-    "hash": "740f0332fcf8ed7f473182f9ceaff0c47efe0993bfbe4d2912dedbde446527dd",
+    "hash": "09bcd02751ff9c18b497e8b9bd1ece2a24323f5a0035ca64ec7726979c02f386",
     "slug": "loto-dasoft-nyons-numerique-2026-10-18",
     "event": {
       "title": "Loto d’ASOFT Nyons Numérique",
@@ -2029,10 +2073,11 @@
     },
     "generated_at": "2026-09-29T07:37:46.737990+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f9dbd1f9dead56c4"
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/": {
-    "hash": "0170567068bcaee5c484f5844dd147b9c5c349e52632c1cbf1b4795864d6f915",
+    "hash": "985a30284e3159b394d033c122c9a301278daeb0193882079e8eb604368b0996",
     "slug": "tsart-une-histoire-de-paradis-2026-10-19",
     "event": {
       "title": "« Ts’art : Une histoire de Paradis ! »",
@@ -2066,10 +2111,11 @@
     },
     "generated_at": "2026-09-29T07:37:47.540760+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "df20d8bb3e13eb8a"
   },
   "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/": {
-    "hash": "b17ed450b409f1987e1f67e6f8e5ed29c1ae152f4ba2f46e6bf867b536af7f75",
+    "hash": "89cb258e6d39954f39b75e4f49c7323b2585f6eb39f6f3d3929a6f2891da4805",
     "slug": "exposition-le-reel-et-son-double-2-2026-10-20",
     "event": {
       "title": "Exposition « Le réel et son double #2 »",
@@ -2103,10 +2149,11 @@
     },
     "generated_at": "2026-09-29T07:37:47.955395+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "e19ab4d7f7c98ab2"
   },
   "https://www.nyons.com/agenda/conseil-municipal-4/": {
-    "hash": "86e49c1490c83baa6ef29d78b9265e47679b7730a62ca3c7220dbb35bf73a061",
+    "hash": "14a9fe36fc203a94ef3093983889e85df6ef9694d66722e2a6e98ed5934b7a1f",
     "slug": "conseil-municipal-2026-10-21",
     "event": {
       "title": "Conseil Municipal",
@@ -2138,10 +2185,11 @@
     },
     "generated_at": "2026-09-29T07:37:54.937621+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "c084c34d9166c50b"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/": {
-    "hash": "0b419ffd51c6ae17458016dea6024667b3b286b3ecc19627624531019423f363",
+    "hash": "379522623951e2e54a777db566428faaaf688dc4bd1ef5ff732ac91473060a0c",
     "slug": "les-documentaires-de-luntl-de-la-liberation-a-lepuration-2026-10-21",
     "event": {
       "title": "Les documentaires de l’UNTL : « De la libération à l’épuration »",
@@ -2175,16 +2223,17 @@
     },
     "generated_at": "2026-09-29T07:38:03.185205+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "0c9c1cc18c1b600d"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/": {
-    "hash": "5ef8ff1f70f864407d08c7575eab426ac10ba95c0121dbb10131365fc94a20c2",
+    "hash": "c5c38150ce25cd7d1ebf32d3cba18deb8a8ef04c0d7b6d1026fbd14033aad731",
     "slug": "atelier-cosmetique-savon-dhalloween-2026-10-22",
     "event": {
       "title": "Atelier cosmétique – Savon d’Halloween",
       "start_date": "2026-10-22",
       "end_date": "2026-10-22",
-      "summary": "Atelier cosmétique sur le thème d'Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales Politique de confidential",
+      "summary": "Atelier cosmétique sur le thème d'Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légales Politique de confiden",
       "categories": [
         "Sport / Loisirs",
         "Loisirs"
@@ -2211,10 +2260,11 @@
     },
     "generated_at": "2026-09-29T07:38:11.208164+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "ac0286dd718e71a0"
   },
   "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/": {
-    "hash": "42c31588361a04cb8a857e7544745a6106b1693ba74fd1e9acdfec5420249cea",
+    "hash": "51828ebfec1443d4a5dcd4d4e662463b5c3c6d7e7322331e6286e9378067f6b9",
     "slug": "saison-4-de-romuald-maufras-2026-10-23",
     "event": {
       "title": "« SAISON 4 » de Romuald Maufras",
@@ -2254,10 +2304,11 @@
     },
     "generated_at": "2026-09-29T07:38:17.980815+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "e02d377b29a3fd69"
   },
   "https://www.nyons.com/agenda/journees-jeux-de-societe/": {
-    "hash": "1b873e1bb9d94e73b99248eb231cb7956e76027259963e1f19db45efbf9652c8",
+    "hash": "64b2cba66c33e111bb827a61ce4a6a0ebbf29e9176ac2fc52a48eff193efdfc1",
     "slug": "journee-jeux-de-societe-2026-10-24",
     "event": {
       "title": "Journée Jeux de société",
@@ -2291,10 +2342,11 @@
     },
     "generated_at": "2026-09-29T07:38:18.908764+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b347c7ac09599b32"
   },
   "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/": {
-    "hash": "98af65815245076b3b736725e8fcb7859a04f0a6c1d2b7caff8bc9c76d819458",
+    "hash": "beb28e71f4fdf9c6b0249bfa5fc1b4953b73ade31ccb7685d2790055c0d97313",
     "slug": "jeux-zen-et-moins-zen-2026-10-27",
     "event": {
       "title": "Jeux Zen… et moins zen !",
@@ -2330,10 +2382,11 @@
     },
     "generated_at": "2026-09-29T07:38:19.323041+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b756eace5d3b9176"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/": {
-    "hash": "d82e5b4326a552aa06166f800c8d6731e8d6c6417b07702e4a28b7d6f66188a6",
+    "hash": "66398b41f4f95154e76126badb5cfade53ce93622579c7db18cdda0c744280bf",
     "slug": "atelier-cosmetique-maquillage-dhalloween-2026-10-28",
     "event": {
       "title": "Atelier cosmétique – Maquillage d’Halloween",
@@ -2366,10 +2419,11 @@
     },
     "generated_at": "2026-09-29T07:38:19.744251+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "60d1bc9b2b9d02d5"
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/": {
-    "hash": "40808eccbe47fb620ec737518610b505d4fd1c9657977d69f5ea15908399f00d",
+    "hash": "60240930421189b9719aa15e7ad2854029643db51f7ce6f3626b0064ed04fd03",
     "slug": "les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28",
     "event": {
       "title": "Les documentaires de l’UNTL : « La Passion selon Callas »",
@@ -2403,10 +2457,11 @@
     },
     "generated_at": "2026-09-29T07:38:20.600887+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8e3bdca1fdd6b0d1"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/": {
-    "hash": "2f0d7c0d4b11748aa61502160d7c083cd7712507a1d1da065df18ba53b96910b",
+    "hash": "ccac933b1ca121049b3075b304e34b26f8ab0df7db4ce4142c4f3bb34efd7143",
     "slug": "atelier-cosmetique-savon-dhalloween-2026-10-29",
     "event": {
       "title": "Atelier cosmétique – Savon d’Halloween",
@@ -2439,10 +2494,11 @@
     },
     "generated_at": "2026-09-29T07:38:21.463672+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "3fc3ac2c630ebd9e"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/": {
-    "hash": "20e4bb490c84a95f9f3cbbe286d32f493065031fcedddd35b3fc4b33ed0dc969",
+    "hash": "717b8d8d474a794e5b62a902a5158f4e6865db334a350d0e9d8f3efdaf9d5851",
     "slug": "atelier-culinaire-tapenades-tartinables-2026-10-29",
     "event": {
       "title": "Atelier culinaire – Tapenades & tartinables",
@@ -2477,10 +2533,11 @@
     },
     "generated_at": "2026-09-29T07:38:22.440825+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "a4aefe6b13955e73"
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/": {
-    "hash": "9b62722dd787d5b3ff8da0b7f90e0016d3b58bc4524415e8f5239858049578d5",
+    "hash": "6350398b3928c783999102c7cdab904ecfb275cbd4e4cc5fd49c27ddff596745",
     "slug": "atelier-cosmetique-maquillage-dhalloween-2026-10-30",
     "event": {
       "title": "Atelier cosmétique – Maquillage d’Halloween",
@@ -2513,10 +2570,11 @@
     },
     "generated_at": "2026-09-29T07:38:30.953273+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "5200e0c327a13b98"
   },
   "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/": {
-    "hash": "e31fb12e5ce3ae8e2dfd401740d9f869f1dabec0c17926a0e404cfa27e51e658",
+    "hash": "241aec254d0feefb50086c0ca61ca847d5bbacb374183863809738a3caceb199",
     "slug": "atelier-culinaire-brownies-dhalloween-2026-10-31",
     "event": {
       "title": "Atelier culinaire – Brownies d’Halloween",
@@ -2551,16 +2609,17 @@
     },
     "generated_at": "2026-09-29T07:38:38.297289+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "a911696dd5c9262b"
   },
   "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/": {
-    "hash": "62ea9ccd53ed9226529e4408f35d88506533010892b843a4f438ce588d173872",
+    "hash": "79a81e450e6a37f03980f35df31556949bd9d08ac4c6348438148dbaf9c7a370",
     "slug": "loto-de-lassociation-le-trait-dunion-2026-11-01",
     "event": {
       "title": "Loto de l’association « Le Trait d’Union »",
       "start_date": "2026-11-01",
       "end_date": "2026-11-01",
-      "summary": "Loto de l'association \"Le Trait d'Union\" dimanche 1er novembre à la Maison de Pays.De nombreux... 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contac",
+      "summary": "Loto de l'association \"Le Trait d'Union\" dimanche 1er novembre à la Maison de Pays.De nombreux... 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Co",
       "categories": [
         "Vie associative"
       ],
@@ -2586,10 +2645,11 @@
     },
     "generated_at": "2026-09-29T07:38:46.133166+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "0d2c0056463943e2"
   },
   "https://www.nyons.com/agenda/droles-de-coincidences-2/": {
-    "hash": "67c48fe0af663febbc367c2df8bd134919dfc14fef1ed7754c43522c82a04755",
+    "hash": "963dec2dee8a0b32eb787251721f1e225b99ee7a0e061c786ac2b1258ec565e7",
     "slug": "droles-de-coincidences-2026-11-07",
     "event": {
       "title": "Drôles de Coïncidences",
@@ -2629,10 +2689,11 @@
     },
     "generated_at": "2026-09-29T07:38:53.403107+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f64f29fc59e82aac"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/": {
-    "hash": "4b57571219906ad43c8316bb6329e0da11033e8a6bc81007a1e9e4c50ef3909e",
+    "hash": "ba1dac3968e5b278bcfab2d9877329c96f22046b9992566e815d7e26b9f7fee7",
     "slug": "conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes-2026-11-09",
     "event": {
       "title": "Conférence de l’UNTL sur « Le Liban petit pays mais gros problèmes »",
@@ -2666,10 +2727,11 @@
     },
     "generated_at": "2026-09-29T07:38:54.391916+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "e083e5cb92c98f53"
   },
   "https://www.nyons.com/agenda/opera-follies/": {
-    "hash": "fa3c37dd0989114f9ea06a1d5e5f07395ae51daa82183528dd29176a5ac386d3",
+    "hash": "bbce93549ce9a85fd694ad7bc1144e87ba1c5df8c652d4e3c28edba399a20e15",
     "slug": "opera-follies-2026-11-11",
     "event": {
       "title": "Opera follies",
@@ -2702,10 +2764,11 @@
     },
     "generated_at": "2026-09-29T07:38:54.815061+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "71fd2f534aa31671"
   },
   "https://www.nyons.com/agenda/la-femme-moustique/": {
-    "hash": "f1d67be3295aa561ff7a3d77f5351cb036508d6bfacb680fcd33019326e98820",
+    "hash": "949f5d03433f62a4a173dd4aefa01a87cb161c9a41e1de3822263b8d138488ce",
     "slug": "la-femme-moustique-2026-11-13",
     "event": {
       "title": "La Femme Moustique",
@@ -2738,10 +2801,11 @@
     },
     "generated_at": "2026-09-29T07:38:55.983460+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f4157fbf0ca059c3"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/": {
-    "hash": "5a26f03950b3314a70c012345cb8e814dca748a2ed54422e632dd5dee2fd81bd",
+    "hash": "130c43e1db2daeee2c9a82b2b1623a9a815c97268b14fe16f9c124705be105a5",
     "slug": "atelier-yoga-du-chant-2026-11-14",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -2775,10 +2839,11 @@
     },
     "generated_at": "2026-09-29T07:38:56.910828+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "a5996a4e6fbe1041"
   },
   "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/": {
-    "hash": "d6f7f472a21dfc1629e3c05bb55f64b8371ebfbb56622c9645ce0374d9c8eb0e",
+    "hash": "692799490411f5fd0433c61ef36534308899a640a43f9fe729472b9aeab09796",
     "slug": "cafe-rencontre-unafam-2026-11-14",
     "event": {
       "title": "Café-rencontre UNAFAM",
@@ -2810,10 +2875,11 @@
     },
     "generated_at": "2026-09-29T07:38:57.846144+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b0d3ea6489583c05"
   },
   "https://www.nyons.com/agenda/petits-crimes-conjugaux/": {
-    "hash": "e43d42017fb637ce148e42b9e2ff7c40f548feaae52b0133d67977d5d989994b",
+    "hash": "58064522254519e74b21ced42e393f54ff60efe19ceb445d275c69f86ebc4c4b",
     "slug": "petits-crimes-conjugaux-2026-11-14",
     "event": {
       "title": "Petits crimes conjugaux",
@@ -2846,10 +2912,11 @@
     },
     "generated_at": "2026-09-29T07:38:58.810995+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "ade50f3c0baf66fe"
   },
   "https://www.nyons.com/agenda/puces-des-couturieres/": {
-    "hash": "dfa173cadde8c975afc715cf2a09a571a4ef1c07b63148a26bf2eac8e1c387a5",
+    "hash": "a5b3df7b2869a6c9a63283dae4c3fc08e5762a1067aeebec2a5ddec988be0729",
     "slug": "puces-des-couturieres-2026-11-14",
     "event": {
       "title": "Puces des couturières",
@@ -2883,10 +2950,11 @@
     },
     "generated_at": "2026-09-29T07:39:07.563749+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "2b548da235635851"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/": {
-    "hash": "107c2e598b67658b50124715372d8eef613eae214157934751b5bdaaacc1167b",
+    "hash": "db52d65a7c8b45bd1b927c3313090f712ea6c92d3ee144a89abd0a1b172dda5e",
     "slug": "conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16",
     "event": {
       "title": "Conférence de l’UNTL sur l’intelligence des corbeaux",
@@ -2921,16 +2989,17 @@
     },
     "generated_at": "2026-09-29T07:39:15.693178+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "c187ca9793b6db41"
   },
   "https://www.nyons.com/agenda/salon-vivre-ici/": {
-    "hash": "eca92f9f8d74ae1d477e1ee4fc9a840a02aa819fc7e0f4994a2fb17576d22624",
+    "hash": "633b3aa00cfc7e29cf9c5bb17d76a88d09e10c1d5532eb6078c85d8d9c975e07",
     "slug": "salon-vivre-ici-2026-11-18",
     "event": {
       "title": "Salon Vivre ici",
       "start_date": "2026-11-18",
       "end_date": "2026-11-18",
-      "summary": "Etudier, travailler, habiter 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales Politique de confidentialité Plan du sit",
+      "summary": "Etudier, travailler, habiter 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légales Politique de confidentialité Plan du",
       "categories": [
         "Cadre de vie",
         "Solidarité / Santé",
@@ -2958,10 +3027,11 @@
     },
     "generated_at": "2026-09-29T07:39:26.007824+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "e51ca2e2b1260707"
   },
   "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/": {
-    "hash": "b39eb042f2b4083990fc1f52af723860596779376ccecaa97ed6b60492a146b7",
+    "hash": "d67ea97828bf00ee179fa42f56f3a2948b2749dc441b4eb73ae5b3a632be0003",
     "slug": "de-lile-noire-au-montbrun-2026-11-21",
     "event": {
       "title": "De l’île Noire au Montbrun",
@@ -3001,10 +3071,11 @@
     },
     "generated_at": "2026-09-29T07:39:35.915452+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8671cd4311510f3a"
   },
   "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/": {
-    "hash": "c6be6fd027493926bfc964dee51b669d8952f66c646cb50944bff403575e87af",
+    "hash": "c8cc7f609962675848ae069bb99e5afb04b1bc5239503fb985a67a1e6eea6343",
     "slug": "loto-de-detente-et-loisirs-2026-11-22",
     "event": {
       "title": "Loto de « Détente et loisirs »",
@@ -3036,10 +3107,11 @@
     },
     "generated_at": "2026-09-29T07:39:36.967550+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "a18f4379abab372e"
   },
   "https://www.nyons.com/agenda/les-turlupinades/": {
-    "hash": "cb4b0241a95b0f5e315aed08c0c150caa1ba918c78e27582993b59c8e145035a",
+    "hash": "f8ce0873c01c6db5b74e7822981a755eca35af92dd7560dff609d41a57167053",
     "slug": "les-turlupinades-2026-12-05",
     "event": {
       "title": "Les turlupinades",
@@ -3072,10 +3144,11 @@
     },
     "generated_at": "2026-09-29T07:39:38.500233+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "c5e81c572ae50e35"
   },
   "https://www.nyons.com/agenda/telethon-2026/": {
-    "hash": "ca7c3f9a094ab2b05dd59766432fff0ca052f7290c820ca06a66ea67e9d0d7fc",
+    "hash": "aaa48be4dd4e7b54a0ec55fb5c16230135410a79cac5a280d5f61a6a4cf35ce6",
     "slug": "telethon-2026-2026-12-05",
     "event": {
       "title": "Téléthon 2026",
@@ -3107,10 +3180,11 @@
     },
     "generated_at": "2026-09-29T07:39:39.597643+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "37c81c83d4be4ab7"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/": {
-    "hash": "5d23059e3b569a71b00cf503129edbbba417fe924a48b9e88e972d0a4905cc41",
+    "hash": "d239a51079bc6769007706accb0a8732bebad32f7312f8d1c6c1cd23fc000165",
     "slug": "conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07",
     "event": {
       "title": "Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »",
@@ -3144,10 +3218,11 @@
     },
     "generated_at": "2026-09-29T07:39:40.021689+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "176fcbbfe9fb6e71"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/": {
-    "hash": "312d5abda663d3aecd7b4205b740271468a69e710613d425f02f452d54064f9b",
+    "hash": "ad3bcf32c9addec2deb883f20f5b7df154431275bcad405da27347459dde39d3",
     "slug": "atelier-yoga-du-chant-2026-12-12",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -3181,10 +3256,11 @@
     },
     "generated_at": "2026-09-29T07:39:41.076526+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "f46d05a7adcd384e"
   },
   "https://www.nyons.com/agenda/cher-edouard/": {
-    "hash": "cd99ea3039a14fcac9e5e0050ac7e14b5945e559baa37bfbca76abe2152df503",
+    "hash": "0c354024583d940851f2c549c6e82c1fc415af4ab4f40206418c29aba18771e7",
     "slug": "cher-edouard-2026-12-13",
     "event": {
       "title": "Cher Edouard",
@@ -3217,10 +3293,11 @@
     },
     "generated_at": "2026-09-29T07:39:51.976675+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "3cd80e113870c9d8"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/": {
-    "hash": "7f2d34c770ac13bfeaa82f03e42e45420c25a68b8b3f1f1c2fe4571ddac169aa",
+    "hash": "bbe73263bd5d9f0846f6ccac6460f8393266d22e4d8614acb3e88ef679702507",
     "slug": "conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne-2026-12-14",
     "event": {
       "title": "Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne »",
@@ -3254,10 +3331,11 @@
     },
     "generated_at": "2026-09-29T07:39:59.686688+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "847301a0f3e3e001"
   },
   "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/": {
-    "hash": "0564b6e73a4fdd06e8c303ea6f91ef2e20b9a8fad8413b77d56f3190bd83f310",
+    "hash": "2b0a19665ab5945b8ac599197cf098567c7dd85fc351ed0c54c4fc9d4bf1baac",
     "slug": "peter-pan-ou-lenfant-jamais-2026-12-18",
     "event": {
       "title": "Peter Pan ou l’Enfant Jamais",
@@ -3290,10 +3368,11 @@
     },
     "generated_at": "2026-09-29T07:40:07.583706+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "c4de2e5d21eb68c7"
   },
   "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/": {
-    "hash": "c642e052f9f2b5c1dc05cf3ab78ceb01b8f66d6073589339a95a8538307f184f",
+    "hash": "386e9735ce7ed54287efab1cba7fba6a8a9f3938378d8840a24fde47f8e41806",
     "slug": "on-a-perdu-les-cles-du-traineau-2026-12-29",
     "event": {
       "title": "On a perdu les clés du traîneau",
@@ -3333,10 +3412,11 @@
     },
     "generated_at": "2026-09-29T07:40:17.252349+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "172a56acf660f116"
   },
   "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/": {
-    "hash": "dde747acb7eb3230a76458495f5fd2af4e4aa2024d1caf852b1ed7b9e72ad0b1",
+    "hash": "a7d67759d5110a05b6c9cea2c15fb2460ed10edc1c5db4e13592dcbe07ae685d",
     "slug": "concert-de-rebecca-chaillot-2027-01-01",
     "event": {
       "title": "Concert de Rebecca Chaillot",
@@ -3369,10 +3449,11 @@
     },
     "generated_at": "2026-09-29T07:40:18.269506+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "7325e176cf02cfec"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/": {
-    "hash": "9be733b50a78aa65c8a407911ebc37ae9f069ba550e07c3b5ff1e40c6086f465",
+    "hash": "e4d244c72380e2d258842b28540407e551373fede3bf821f8e223c05571a878f",
     "slug": "conference-de-luntl-sur-essai-de-toponymie-locale-2027-01-04",
     "event": {
       "title": "Conférence de l’UNTL sur « Essai de toponymie locale »",
@@ -3406,10 +3487,11 @@
     },
     "generated_at": "2026-09-29T07:40:19.146406+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "6bfc687d8da68561"
   },
   "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/": {
-    "hash": "c9cf306d7a4624dfdfec2eccf7d8776b73bd303ff34f3016499866451528e7c7",
+    "hash": "c947b14c5a1aa5adf6cf08e30bf0d7f85556c5d3a14c39273e23713ab3aadd92",
     "slug": "au-nom-du-pere-du-fils-et-de-jackie-chan-2027-01-08",
     "event": {
       "title": "Au Nom du Père, du Fils et de Jackie Chan",
@@ -3442,10 +3524,11 @@
     },
     "generated_at": "2026-09-29T07:40:20.063524+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b324d48533345a2e"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/": {
-    "hash": "0ecf948c10f99ac6f8bdbad43aef25fcf7a409af28fb66ce4442c1d171a4a69c",
+    "hash": "ec0381ed8664d2ac9f237ca2525edb44e2b1d38e5206c900c1d2cab844a43a87",
     "slug": "atelier-yoga-du-chant-2027-01-09",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -3479,10 +3562,11 @@
     },
     "generated_at": "2026-09-29T07:40:20.912691+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "059b0f41132e8149"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/": {
-    "hash": "c25bafe8600df1bd62b33f8a7160971aebce93b9c226fd511f637cec9a328d2c",
+    "hash": "4e9e3b9b7ff27c6707885dbd5c9bac25860d160801bdda9cd36bd7d285cf207e",
     "slug": "conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete-2027-01-11",
     "event": {
       "title": "Conférence de l’UNTL sur Albert Camus, la voix de la pauvreté",
@@ -3516,10 +3600,11 @@
     },
     "generated_at": "2026-09-29T07:40:21.351417+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "c44dafda09c3487e"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/": {
-    "hash": "6126e655495ffd44b3c348a6ddd5dd5f464e403db5a90bca5138597ba87ac03b",
+    "hash": "0e8bc378d69292016572d1995a005471f734ca0efdff4f7fcbc1b77ffab76319",
     "slug": "conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiie-siecle-2027-01-21",
     "event": {
       "title": "Conférence de l’UNTL : « Les marchands ruraux dans le Dauphiné au XVIIIe siècle »",
@@ -3553,10 +3638,11 @@
     },
     "generated_at": "2026-09-29T07:40:22.127839+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "50036370a28ffd65"
   },
   "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/": {
-    "hash": "da1798b25c26382eddfddb9577d7f896ef28deec72ca1cfc220067170fc31c5a",
+    "hash": "b957d9962587a4f8efe846fa85ce08d1ca6c7a33b0fbdee6bb8650b0fdd062af",
     "slug": "les-rencontres-barjavel-2027-2027-01-22",
     "event": {
       "title": "Les Rencontres Barjavel 2027",
@@ -3589,10 +3675,11 @@
     },
     "generated_at": "2026-09-29T07:40:23.021401+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b5ccb959cf1446cf"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/": {
-    "hash": "82cc108983c7d9bbe89e5130081a8e2430038d5cbd9610e75d2c0d53e45c3439",
+    "hash": "07a35cae41299d4112d2f0e838374f1dd2408cb131c7549960fde8c135cd6c52",
     "slug": "conference-de-luntl-sur-guernica-de-pablo-picasso-2027-01-27",
     "event": {
       "title": "Conférence de l’UNTL sur « Guernica » de Pablo Picasso",
@@ -3626,16 +3713,17 @@
     },
     "generated_at": "2026-09-29T07:40:32.551804+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8a1c1c467779c2ee"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/": {
-    "hash": "6737e012fc2df664e3fa5a777e9a83678f2952023f4d198e9f950af4e1d1d315",
+    "hash": "5a42ee3c097d3b4a299c47a79b26c8c06a6d0699baff789ceabaa57a13b47148",
     "slug": "conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-02-03",
     "event": {
       "title": "Conférence de l’UNTL sur « Les penseurs économiques face à la situation française »",
       "start_date": "2027-02-03",
       "end_date": "2027-02-03",
-      "summary": "Conférence présentée par Gilbert Font, ancien directeur financier. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales Po",
+      "summary": "Conférence présentée par Gilbert Font, ancien directeur financier. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légale",
       "categories": [
         "Patrimoine / Culture vivante",
         "Vie associative",
@@ -3663,10 +3751,11 @@
     },
     "generated_at": "2026-09-29T07:40:40.238332+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "669d572062aac162"
   },
   "https://www.nyons.com/agenda/les-grands-chemins/": {
-    "hash": "d841b40d071da1ae760032703042feb06dd17897587593c6b16509e47cc76c3d",
+    "hash": "c6ec8228feca52205bb0bb2c2487198efaea4b5910824addc9252eee0b7be25f",
     "slug": "les-grands-chemins-2027-02-06",
     "event": {
       "title": "Les Grands Chemins",
@@ -3706,10 +3795,11 @@
     },
     "generated_at": "2026-09-29T07:40:50.133883+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "e7834bbfa10bbb00"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/": {
-    "hash": "51630f3b65079851da5bf5e5f1ce35d79385e2e6f7805f515e6bcd5944b3337b",
+    "hash": "8c4943d202c47ed408bbddb36b195d6724aa92c3b826826aa0ffdf900ac8cc0a",
     "slug": "atelier-yoga-du-chant-2027-02-13",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -3743,10 +3833,11 @@
     },
     "generated_at": "2026-09-29T07:40:51.256650+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "4d4deefdb9a8c35d"
   },
   "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/": {
-    "hash": "1cc684bbafb2f3fff47b3a0155bf1950c36bd2759f7a98157297fc32e9c22778",
+    "hash": "e7d37c260c99aa140dc4e50873a1f0e38a3a39fa0c15eae1e8d971fd636e15e2",
     "slug": "blue-maqam-de-renaud-garcia-fons-2027-02-19",
     "event": {
       "title": "Blue Maqam de Renaud Garcia-Fons",
@@ -3779,10 +3870,11 @@
     },
     "generated_at": "2026-09-29T07:40:51.256803+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b9e48adf80a2ad3c"
   },
   "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/": {
-    "hash": "24da5e81f9256e6cf988802a568efa1c484a379355bb66c1f5a8353210727748",
+    "hash": "7fc8feac7941019fd26f84ab3ecd96b07ce2b0c4f279b4c718addc3251a25d15",
     "slug": "quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10",
     "event": {
       "title": "Quand je serai grande, je serai Patrick Swayze",
@@ -3815,10 +3907,11 @@
     },
     "generated_at": "2026-09-29T07:40:52.223075+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "4132d79f09f8bada"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/": {
-    "hash": "47d4e87748905f01011ee5899a3100661917ac5d86cde8e62d3437cd0de54d89",
+    "hash": "03940769ae9758302b62d708338b47e76ac520719e0782b480f80c9910429d1f",
     "slug": "atelier-yoga-du-chant-2027-03-13",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -3852,10 +3945,11 @@
     },
     "generated_at": "2026-09-29T07:40:53.142653+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "ca5eaab008eba4a9"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/": {
-    "hash": "08916484ffd5c578147ee935e06c7f13c06451e04d0fb362d8b746fdf27fefee",
+    "hash": "282395cfb18bd07ab9e0b3119f823bac3e4f5d7fa27eb48929702b812a770467",
     "slug": "conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-j-2027-03-14",
     "event": {
       "title": "Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi »",
@@ -3889,10 +3983,11 @@
     },
     "generated_at": "2026-09-29T07:40:53.994857+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "7730bf48cbe620c0"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/": {
-    "hash": "3e5c8c4c50e8f60c831e330c4ea2ebe1a237ab1ec90e3a86e594c3ef75957bf1",
+    "hash": "c4fc5569689d855e104261dbc6424d6762550ba46606efbe62ea851eb5dbd3a8",
     "slug": "conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17",
     "event": {
       "title": "Conférence de l’UNTL sur la domesticité, entre servilité et fidélité",
@@ -3926,10 +4021,11 @@
     },
     "generated_at": "2026-09-29T07:40:54.861121+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "b4d3bb779a739ea9"
   },
   "https://www.nyons.com/agenda/au-nom-de-lamour/": {
-    "hash": "d49063f5230b6f9ab3c98a4a3834adb910504a81e4b06e0382494dfa1b9dba91",
+    "hash": "577b84dfcb13dd4477e92cee03b032b795c9541a92ef06593602c65cf4fe99ab",
     "slug": "au-nom-de-lamour-2027-03-19",
     "event": {
       "title": "Au nom de l’amour",
@@ -3962,10 +4058,11 @@
     },
     "generated_at": "2026-09-29T07:41:06.581183+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "043e98133449289c"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/": {
-    "hash": "dcef212b11d4eaf2f0a9ffbe4a58a169cbf89baccbf317bc9e223068f9734c4b",
+    "hash": "ab64f39146cd678486cc9aa0ab8ae102da4f2900533e6ef05a78f54afe055bec",
     "slug": "conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana-2027-03-24",
     "event": {
       "title": "Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana »",
@@ -3999,10 +4096,11 @@
     },
     "generated_at": "2026-09-29T07:41:15.232600+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "8592901b5e3b102f"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/": {
-    "hash": "151d4be0b5e8d780e444cd56d24c945cd889628fbc72b318218647d0853ae359",
+    "hash": "98e0e5dea44434396d5c7fc5260acf06795b7e316c6c28a2c23bab33b908a4fe",
     "slug": "conference-de-luntl-sur-sapienza-galiarda-2027-03-31",
     "event": {
       "title": "Conférence de l’UNTL sur « Sapienza Galiarda »",
@@ -4036,10 +4134,11 @@
     },
     "generated_at": "2026-09-29T07:41:23.931585+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "46bfd49be112cfd3"
   },
   "https://www.nyons.com/agenda/et-maintenant-jattends/": {
-    "hash": "fe7938d3c38be164850fc253afb570784f185496bcaf04069f93bbfc6cdd6521",
+    "hash": "7584558771f983aad63f3524bcfadb8266dff38e9c66c4f286fa9879f6f11ba1",
     "slug": "et-maintenant-jattends-2027-04-02",
     "event": {
       "title": "Et maintenant j’attends",
@@ -4079,10 +4178,11 @@
     },
     "generated_at": "2026-09-29T07:41:31.774075+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "2ac3c08535862a65"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/": {
-    "hash": "0a5afbaa999ab420c916dd808eb1c1ebc224206701a76b7d8893fe86cfd91e89",
+    "hash": "f25547bd0dbab4e85d2d97e378bcb1f38f88a35eb9c4b546f1c20da301482f8a",
     "slug": "conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien-2027-04-07",
     "event": {
       "title": "Conférence de l’UNTL sur « Les Jeux d’Enfants de Pieter Bruegel l’ancien »",
@@ -4116,10 +4216,11 @@
     },
     "generated_at": "2026-09-29T07:41:32.775211+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "6502903d47512819"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/": {
-    "hash": "93c84ba7ad1c8ec00313f65ae28489cfd6bbc683f739b04679b17051a2ac9a67",
+    "hash": "f251a361ccc9c551394fa176419862268b686bf8efbd3797885fa9a160e053f9",
     "slug": "atelier-yoga-du-chant-2027-04-10",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -4153,10 +4254,11 @@
     },
     "generated_at": "2026-09-29T07:41:33.925995+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "fac82303b205d96d"
   },
   "https://www.nyons.com/agenda/landing/": {
-    "hash": "fa7ee8dbeeff70653a9e267f7eb96b8c8efd27eab785d42b1df321a20511a656",
+    "hash": "6da32a35011afa24be8a18d61b807e47ca95c877c3213b0111220d4ecf7ecbb8",
     "slug": "landing-2027-04-23",
     "event": {
       "title": "Landing",
@@ -4189,10 +4291,11 @@
     },
     "generated_at": "2026-09-29T07:41:34.953456+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "6eaca50c352dbd95"
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/": {
-    "hash": "079dcfaee5e8479d9e5c1044f7e4a2038ab928c0d819c17dc583529c69f139e1",
+    "hash": "9ea15646d0b8e9ec879342bc032f8fc03e8c395a625206519a7ae6af54a2e313",
     "slug": "conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire-2027-04-26",
     "event": {
       "title": "Conférence de l’UNTL sur « Pour une histoire de l’éducation populaire »",
@@ -4226,10 +4329,11 @@
     },
     "generated_at": "2026-09-29T07:41:35.808162+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "ab0dd7466f9ec3e1"
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/": {
-    "hash": "d1166448eedb68302e1674a7636f5f19ad5fd6dbde90570ef85fa09cf3a026f9",
+    "hash": "e44e9f88e3605fe5eb1012af4e09d01a674a58e2f2c3ba11e0f35b598ce6cb1b",
     "slug": "atelier-yoga-du-chant-2027-05-08",
     "event": {
       "title": "Atelier Yoga du Chant",
@@ -4263,10 +4367,11 @@
     },
     "generated_at": "2026-09-29T07:41:36.742233+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "c8aeab1c31b3bb72"
   },
   "https://www.nyons.com/agenda/boite-a-cordees/": {
-    "hash": "b5b94bb7fae9e49ef1ff5465daf68501d1907e72f8cbcdea140f42fdeb333d30",
+    "hash": "bc5f4ccb6270e5b94d5d507595b737e46d16e2c50f90258c8538643e1d7ed4c3",
     "slug": "boite-a-cordees-2027-05-14",
     "event": {
       "title": "Boite à cordées",
@@ -4299,16 +4404,17 @@
     },
     "generated_at": "2026-09-29T07:41:37.656728+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "dfb575d4650747ac"
   },
   "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/": {
-    "hash": "f36d50293b145ffbdfe74df7f81a5f509fcb0c57e957d83fdcd03f1f378f6f43",
+    "hash": "96853bb02b0700a720756a3777fe5aac50b6d9286f5d79e4e807a93fa5069280",
     "slug": "on-ne-badine-pas-avec-lamour-2027-05-20",
     "event": {
       "title": "On ne badine pas avec l’amour",
       "start_date": "2027-05-20",
       "end_date": "2027-05-20",
-      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherc",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Rec",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -4335,10 +4441,11 @@
     },
     "generated_at": "2026-09-29T07:41:46.590603+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "156a25d483f6c665"
   },
   "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/": {
-    "hash": "660a71f57b9c1fe15c95311a6ae6f744a6519fb0fde93ee732fe99b5a866ebf6",
+    "hash": "31d73740ada3516e69bcb08633d3d29b9b728c12c9faef6e855e54bba2d1ffe7",
     "slug": "la-caravane-exquise-restitution-publique-2026-11-28",
     "event": {
       "title": "«La Caravane Exquise» : restitution publique",
@@ -4372,6 +4479,7 @@
     },
     "generated_at": "2026-09-29T07:39:37.409915+00:00",
     "model": "gpt-5.6-terra",
+    "prompt_version": 10,
     "anecdote_id": "6ed7ae4325aed23d"
   }
 }

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-j-2027-03-14@agenda.vivreanyons.fr
-DTSTAMP:20260929T074146Z
+DTSTAMP:20260929T080913Z
 DTSTART;TZID=Europe/Paris:20270314T150000
 DTEND;TZID=Europe/Paris:20270314T170000
 SUMMARY:Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi »

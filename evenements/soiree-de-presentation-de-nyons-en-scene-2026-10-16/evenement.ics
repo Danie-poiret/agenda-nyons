@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:soiree-de-presentation-de-nyons-en-scene-2026-10-16@agenda.vivreanyons.fr
-DTSTAMP:20260929T074146Z
+DTSTAMP:20260929T080913Z
 DTSTART;TZID=Europe/Paris:20261016T190000
 DTEND;TZID=Europe/Paris:20261016T210000
 SUMMARY:Soirée de présentation de « Nyons en scène »

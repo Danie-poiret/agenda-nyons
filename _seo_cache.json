@@ -26,7 +26,7 @@
     "model": "gpt-5.6-terra"
   },
   "2026-09-28": {
-    "hash": "49c3d3fda7a775c806c0ffa559b7378e3018a35c6ee9f22e053073228028e554",
+    "hash": "55fa7be15bc5d9fce6c0a11a3b9e70d28707a0a5de00f19213fb7b2f742180ac",
     "editorial": {
       "meta_description": "Agenda de Nyons du 28 septembre au 4 octobre 2026 : expositions, rencontre littéraire, concert, braderie, ateliers et rendez-vous artistiques.",
       "intro": "La semaine du 28 septembre au 4 octobre 2026 offre à Nyons un agenda particulièrement varié, entre culture, vie associative et loisirs. Les expositions « Découvrez Solidarité Paysans ! » et « Urbain Urbex » se poursuivent jusqu’au 30 septembre, tandis que Les 8 jours de la Ville de Nyons accompagnent la période jusqu’au 4 octobre. Le mercredi, l’Atelier lactofermentation proposé par le CEDER apporte un rendez-vous supplémentaire. Jeudi 1er octobre, Françoise Bourdon rencontre le public pour une dédicace à la Libraire Pinet, de 10h à 16h30. À l’approche du week-end, le programme réunit un concert, une grande braderie, les Journées Nationales des Artistes à Nyons et deux propositions organisées le samedi. De quoi composer ses sorties selon ses envies, en prenant le temps de consulter les informations propres à chaque rendez-vous.",
@@ -49,10 +49,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:42:01.013407+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-10-05": {
-    "hash": "92ed8422516a72b2d4708dc7bb037cf27fdbaa9d7ddb2e9987441c5924e36f16",
+    "hash": "7bb8597c2260cf7490e02ae763f3c436c18c2f780fbb31598cedee26b7bfd6b2",
     "editorial": {
       "meta_description": "Agenda de Nyons du 5 au 11 octobre 2026 : culture, santé mentale, ateliers, conférences, VTT et rendez-vous associatifs à découvrir.",
       "intro": "Du 5 au 11 octobre 2026, l’agenda de Nyons réunit des propositions variées, entre culture, vie associative, loisirs et sujets de société. La semaine s’ouvre notamment sur un atelier consacré à la législation funéraire, puis se poursuit avec une conférence de l’UNTL sur le grès turonien de Venterol et plusieurs rendez-vous liés à la Semaine Bleue. Les semaines d’information sur la santé mentale donnent également un fil conducteur à plusieurs initiatives : stands, théâtre forum, atelier Jardin Zen et ciné-débat. Côté pratiques et découvertes, un atelier autour des gnocchis aux pois cassés, une journée consacrée à la matériauthèque et une excursion à Venterol complètent le programme. Le week-end concentre une offre particulièrement dense, avec la 7e édition de la 4 Seasons Jam, des ateliers, des spectacles, de l’improvisation et un concert du Festival Page Blanche.",
@@ -75,10 +76,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:42:13.303179+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-10-12": {
-    "hash": "19a88e1f1b2949b231a35b8c359917db272dd0d2430b990cd68cee9fdaff9b12",
+    "hash": "0be92f5e5907645b1e5e77ffac498a1fdc27e9dcde688be58adbaaa201772450",
     "editorial": {
       "meta_description": "Agenda de Nyons du 12 au 18 octobre 2026 : culture, santé mentale, vendanges, belote et trail rythment une semaine aux rendez-vous variés locaux.",
       "intro": "Du 12 au 18 octobre 2026, l’agenda de Nyons réunit des propositions culturelles, associatives et liées à la santé. La semaine s’ouvre avec une conférence consacrée à Chagall, animée par Marie-Christine Haussy, ancienne élève de l’École du Louvre. Elle se poursuit autour de sujets de société, des directives anticipées à l’impact de la chaleur sur une saison agricole, ainsi que d’un documentaire sur l’Opéra de Lyon et Jean Nouvel. Les rendez-vous consacrés à la santé mentale et les ateliers prévus dans le cadre de la Semaine Bleue complètent ce programme. À l’approche du week-end, la présentation de la saison « Nyons en scène », les vendanges, un tournoi de belote et le Trail de Nyons et Baronnies offrent plusieurs pistes de sortie. Le dimanche, un loto associatif est également annoncé.",
@@ -101,10 +103,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:42:31.943416+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-10-19": {
-    "hash": "fedfe24af85c5c39e2b2e83fe5a6f76f48fbd729f56f4843135cfe1e81431087",
+    "hash": "97e43aa9d28174a8205a7b2370455440fe8cf96176253a565b9ff4726a11d2fb",
     "editorial": {
       "meta_description": "Agenda de Nyons du 19 au 25 octobre 2026 : théâtre, exposition, documentaire, atelier, spectacle et jeux rythment la semaine.",
       "intro": "Du 19 au 25 octobre 2026, l’agenda de Nyons propose des rendez-vous aux formats variés, entre culture, loisirs et vie locale. La semaine s’ouvre avec « Ts’art : Une histoire de Paradis ! », une représentation inscrite dans le cadre de la Semaine Bleue. Dès le lendemain, l’exposition « Le réel et son double #2 » se poursuit jusqu’au 31 octobre avec Antoine Picard et la MARPA de Rémuzat. Le mercredi réunit à la fois un Conseil Municipal et une projection documentaire suivie d’un échange avec le réalisateur Michel Van Zèle. Les propositions continuent avec un atelier cosmétique autour d’Halloween, puis le nouveau spectacle de Romuald Maufras. Enfin, la Journée Jeux de société organisée par le Service Jeunesse offre une idée de sortie pour le samedi. Une programmation diverse, à parcourir selon ses envies de scène, d’image, de discussion ou de jeu.",
@@ -127,10 +130,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:42:47.662612+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-10-26": {
-    "hash": "7a814960abf3193315b38d758cc349afc3312412a5f59601ee79e68e537974b5",
+    "hash": "fe60bc7f7204cce111212c2d065f5bc11e3e77f5f81f40ed3f1aa1ebb462865e",
     "editorial": {
       "meta_description": "Agenda de Nyons du 26 octobre au 1er novembre 2026 : exposition, ateliers d’Halloween, cuisine, documentaire et loto associatif.",
       "intro": "La semaine du 26 octobre au 1er novembre 2026 propose à Nyons un agenda aux formats variés, entre culture, loisirs créatifs, cuisine et vie associative. L’exposition « Le réel et son double #2 » se poursuit jusqu’au 31 octobre, tandis qu’une projection documentaire consacrée à Maria Callas est annoncée le 28 octobre, suivie d’un échange avec le réalisateur Michel Van Zèle. Les 27, 28, 29, 30 et 31 octobre, plusieurs rendez-vous invitent aussi à participer : jeux de société, créations autour du maquillage ou du savon d’Halloween, ainsi que préparation de tapenades, tartinables et brownies. La fin de semaine se conclut le dimanche 1er novembre avec un loto porté par l’association Le Trait d’Union. Un programme qui permet d’alterner découverte culturelle, activités pratiques et temps associatif.",
@@ -153,10 +157,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:43:01.815963+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-11-02": {
-    "hash": "85d1b6fb77d85023a1710f2b4e312f14f25b10c138bc227f13b420a8d285fd90",
+    "hash": "a54d9dfbcc9a8a9785377ec5fc4a5426c1c44082df4c07d3620582da7e033c84",
     "editorial": {
       "meta_description": "Agenda de Nyons du 2 au 8 novembre 2026 : une comédie d’intrigue, « Drôles de Coïncidences », est annoncée le samedi 7 novembre.",
       "intro": "La semaine du 2 au 8 novembre 2026 propose un rendez-vous culturel à Nyons avec « Drôles de Coïncidences », programmé le samedi 7 novembre. Cette comédie d’intrigue de Maxence Descamps offre une idée de sortie pour celles et ceux qui souhaitent ponctuer leur semaine par un spectacle. L’agenda transmis ne mentionne qu’un événement sur cette période : c’est donc une sélection resserrée, facile à repérer pour organiser son temps libre. Que vous habitiez Nyons ou soyez de passage, cette date constitue le point d’attention de la semaine. Les informations communiquées permettent d’identifier le titre, la date et la nature de l’œuvre ; pour le reste, il est préférable de consulter la page officielle associée à l’événement avant de prévoir votre sortie.",
@@ -171,10 +176,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:43:11.598280+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-11-09": {
-    "hash": "d166118135e02d9953ff3631c0eda86c0d22dc755fa4bda7aafbaac44c1d69ee",
+    "hash": "9a2e10a911dfc28b24968715eabcc12b4e53b5ee621502150a4446b3b9a23590",
     "editorial": {
       "meta_description": "Agenda de Nyons du 9 au 15 novembre 2026 : conférence, musique, conte, théâtre, atelier, rencontre et loisirs créatifs le 14 novembre.",
       "intro": "La semaine du 9 au 15 novembre 2026 propose à Nyons un agenda varié, entre culture, vie associative, loisirs et solidarité. Dès le lundi, l’UNTL consacre une conférence au Liban, animée par Vincent Fert, professeur agrégé d’histoire-géographie. La programmation culturelle se poursuit le mercredi avec « Opera follies », porté par l’Ensemble Vocal Cant’Ouvèze, puis le vendredi avec « La Femme Moustique », un conte interprété par Mélancolie Motte. Le samedi 14 novembre concentre plusieurs rendez-vous : un atelier autour du chant, un café-rencontre UNAFAM, une représentation théâtrale et les Puces des couturières. Cette diversité permet de composer une semaine selon ses envies, qu’il s’agisse d’assister à un spectacle, de découvrir une initiative associative ou de s’intéresser aux loisirs créatifs.",
@@ -197,10 +203,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:43:26.570409+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-11-16": {
-    "hash": "615cd186eb18130a603798cc95b52b886a1ca8e4d6d4fa52c300a0c075f1151c",
+    "hash": "51ff3255c078ab5ab59ef308892db6cb6d6d04050548e0745313e6191343d66f",
     "editorial": {
       "meta_description": "Agenda de Nyons du 16 au 22 novembre 2026 : une conférence sur les corbeaux, un salon, un concert et un loto associatif.",
       "intro": "La semaine du 16 au 22 novembre 2026 propose à Nyons plusieurs rendez-vous aux formats bien distincts. Elle débute le lundi avec une conférence consacrée à l’intelligence des corbeaux, présentée par Joëlle Vionnet et Bruno Machtelinck. Le mercredi, le Salon Vivre ici s’inscrit dans les thématiques du cadre de vie, de la solidarité et de la vie associative. Le programme se poursuit le samedi avec le concert « De l’île Noire au Montbrun ». Enfin, le dimanche est marqué par le loto de l’association Détente et loisirs. Cette sélection permet de composer une semaine entre découverte culturelle, rencontres locales et animation associative. Les informations disponibles ne détaillent pas l’ensemble des modalités de chaque événement : il est donc préférable de consulter les pages officielles avant de prévoir sa sortie.",
@@ -223,10 +230,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:43:39.312222+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-11-30": {
-    "hash": "5bc12619282a60e82e87c949a8dcd9c1df543dc3de689086622ac7d7c2861481",
+    "hash": "30e1d8c83f0c1b59564cbab860e726a01943daaf6954994e482041098cebe5e4",
     "editorial": {
       "meta_description": "Du 30 novembre au 6 décembre 2026, Nyons propose une comédie le 5 décembre et le Téléthon 2026 les 5 et 6 décembre, entre culture et solidarité.",
       "intro": "Du 30 novembre au 6 décembre 2026, l’agenda de Nyons rassemble deux rendez-vous concentrés sur les 5 et 6 décembre. La programmation associe une proposition culturelle, « Les turlupinades », et le « Téléthon 2026 », inscrit dans le champ de la solidarité et de la santé. Le 5 décembre, les amateurs de théâtre peuvent repérer cette comédie proposée par la Compagnie du Chien Noir. Sur deux dates, les 5 et 6 décembre, le Téléthon offre une autre manière de participer à la vie locale autour d’un événement solidaire. Cette sélection courte permet d’identifier rapidement les initiatives annoncées dans la semaine, sans multiplier les choix. Avant de prévoir une sortie, il reste utile de consulter les fiches officielles de chaque rendez-vous pour connaître les informations pratiques absentes de cet aperçu.",
@@ -245,10 +253,11 @@
       ]
     },
     "generated_at": "2026-09-28T14:10:16.260126+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-12-07": {
-    "hash": "b9beb9308aabc194996bf9b185d5f215d6fe491e801e2c92778a36ec0072c5ec",
+    "hash": "eda81e6e3fd99a97841e423ac6d1f874004cbaf333a8c9bd6e3306274feb46e8",
     "editorial": {
       "meta_description": "Agenda de Nyons du 7 au 13 décembre 2026 : conférence sur les représentations du monde, atelier Yoga du Chant et comédie Cher Edouard.",
       "intro": "Du 7 au 13 décembre 2026, l’agenda de Nyons propose trois rendez-vous entre culture, vie associative et loisirs. La semaine débute le lundi avec une conférence de l’UNTL consacrée à la manière dont les représentations du monde se sont construites, animée par l’astrophysicien Jean-Luc Boissel, professeur à l’INSA de Lyon. Le samedi, l’association Amate organise un Atelier Yoga du Chant sous l’animation de Ghislaine Checchini. Le programme se poursuit le dimanche avec « Cher Edouard », une comédie proposée par la Cie « d’ici ou d’Ailleurs ». Cette sélection permet ainsi de composer une semaine à Nyons alternant réflexion, pratique collective et spectacle.",
@@ -271,10 +280,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:43:52.479990+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-12-14": {
-    "hash": "2b073d6e30594de07c1515b688b5dc5b7acda166c37ed160e5e94c4da1db041d",
+    "hash": "59fc65746b0d081390f1ccb75bb363d8a18f5fc61121ed946ada23e48c5df64e",
     "editorial": {
       "meta_description": "Agenda de Nyons du 14 au 20 décembre 2026 : une conférence sur Louis XI et une adaptation de Peter Pan à découvrir.",
       "intro": "La semaine du 14 au 20 décembre 2026 propose à Nyons deux rendez-vous culturels aux approches bien différentes. Dès le lundi, une conférence invite à se pencher sur Louis XI, surnommé « l’Universelle Aragne », à travers le regard de l’historien médiéviste Alain Saint-Denis. C’est une occasion de consacrer un temps à l’histoire et au patrimoine culturel. Le vendredi, l’agenda change de registre avec « Peter Pan ou l’Enfant Jamais », une adaptation inspirée de l’œuvre de James Matthew Barrie. Porté par le TRAC de Beaumes de Venise, ce spectacle s’inscrit dans « Nyons en Fête ». Pour composer sa semaine, on peut ainsi choisir entre une rencontre centrée sur l’histoire médiévale et une proposition théâtrale issue d’un grand classique de la littérature.",
@@ -293,10 +303,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:44:04.652509+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-11-23": {
-    "hash": "6ab95129b4304171a1295cdcd5ae74e428dcf1d83977e0e98be5497296d8ee8c",
+    "hash": "5272f7dda7dbae08093686d2bf03d7a3e010595ddff364813922964d20063cd3",
     "editorial": {
       "meta_description": "Agenda de Nyons du 23 au 29 novembre 2026 : découvrez «La Caravane Exquise» : restitution publique, annoncée le samedi 28 novembre.",
       "intro": "La semaine du 23 au 29 novembre 2026 à Nyons met en avant un rendez-vous culturel programmé le samedi 28 novembre. «La Caravane Exquise» : restitution publique s’inscrit à la fois dans les rubriques patrimoine et culture vivante, culture et loisirs. Cette proposition est présentée comme une escale « toposensible », une indication qui donne une tonalité particulière à l’événement sans en dévoiler davantage que les informations disponibles. Pour celles et ceux qui cherchent une sortie locale en fin de semaine, cet unique rendez-vous annoncé mérite donc d’être repéré dans l’agenda. La page officielle associée reste la meilleure source pour consulter les précisions éventuellement communiquées par l’organisateur.",
@@ -311,10 +322,11 @@
       ]
     },
     "generated_at": "2026-09-28T14:09:48.862333+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2026-12-28": {
-    "hash": "ac71a03a85fa88c0460a2ebcae341b274281e7949b3f0c2c3ffbeabbffe0c667",
+    "hash": "5d46a3854a8ef34cfe15cacb26176a872f6d0e60502898fcf7b6d204ebc080a1",
     "editorial": {
       "meta_description": "Agenda de Nyons du 28 décembre 2026 au 3 janvier 2027 : théâtre et concert du Nouvel An au programme de Nyons en Fête.",
       "intro": "La semaine du 28 décembre 2026 au 3 janvier 2027 propose deux rendez-vous culturels à Nyons, dans le cadre de « Nyons en Fête ». Le mardi 29 décembre, la compagnie RêVOLT présente « On a perdu les clés du traîneau », une comédie théâtrale annoncée comme magique et drôle. Une idée de sortie pour prolonger l’atmosphère des fêtes avec du théâtre. Le passage à la nouvelle année se poursuit le 1er janvier avec le Concert de Rebecca Chaillot. Ce rendez-vous de Nouvel An associe un piano et un quatuor à cordes. Avec ces deux propositions, l’agenda de la semaine alterne donc entre spectacle théâtral et musique de chambre. Consultez les pages officielles des événements pour disposer des informations actualisées avant votre venue.",
@@ -333,10 +345,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:44:15.870854+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-01-04": {
-    "hash": "5161b53891030f251422a8223462ff712f61805547aef0eabc0efbaeaf3edf89",
+    "hash": "3a47157e6546300fcef398d22afaabd78a0203b36062a55e213ce172c2dce9fe",
     "editorial": {
       "meta_description": "Agenda de Nyons du 4 au 10 janvier 2027 : conférence sur la toponymie, création autour de Jackie Chan et atelier Yoga du Chant à découvrir.",
       "intro": "La première semaine complète de janvier propose à Nyons trois rendez-vous aux univers distincts, répartis entre culture, vie associative et loisirs. Dès le lundi 4 janvier, l’UNTL met à l’honneur la toponymie locale à travers une conférence présentée par Robert Gleize, agrégé de physique. Le vendredi 8 janvier, la programmation culturelle se poursuit avec une création de Matthias Fortune, de la Cie Le Homard Bleu, qui mêle notamment récit personnel, kung-fu et références à la culture cantonaise. Enfin, le samedi 9 janvier, l’association Amate organise un Atelier Yoga du Chant animé par Ghislaine Checchini. Cette sélection courte permet de composer sa semaine selon ses envies : approfondir un sujet lié au territoire, découvrir une proposition artistique contemporaine ou participer à une activité de loisir.",
@@ -359,10 +372,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:29:18.810255+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-01-11": {
-    "hash": "17b8f730512ffe8605d5c7a1348f759656b98b77f89821a863cfe7efc41b4d47",
+    "hash": "49a99e3f3632f98bd0c96533e37d4ab9dbaa82c940e860aad23f4b5f9b861531",
     "editorial": {
       "meta_description": "Agenda de Nyons du 11 au 17 janvier 2027 : une conférence de l’UNTL consacrée à Albert Camus et à la voix de la pauvreté.",
       "intro": "La semaine du 11 au 17 janvier 2027 à Nyons s’annonce sous le signe de la culture et de la réflexion. L’agenda recense une conférence proposée par l’UNTL autour d’Albert Camus, dont le thème porte sur « la voix de la pauvreté ». Ce rendez-vous offre une occasion de se pencher sur l’œuvre et les enjeux associés à cet écrivain majeur, à travers l’intervention de Jean-Michel Wavelet. Instituteur, inspecteur d’Académie et écrivain, il apporte un parcours particulièrement lié aux questions de transmission et de littérature. Pour les habitants comme pour les visiteurs souhaitant intégrer une sortie culturelle à leur séjour, cette rencontre constitue le temps fort identifié de la semaine. Consultez la page officielle de l’événement avant de vous déplacer afin de disposer des informations les plus récentes.",
@@ -377,10 +391,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:29:31.904285+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-01-18": {
-    "hash": "0c5b38d317a2c54ad76b6099b8c93ae3a5e0fd302617fc81e01996532ecb35ee",
+    "hash": "6e011bdd411f03d011be6ed02bf5e5a86506f1f462303e0eb3d7c4d2a567c261",
     "editorial": {
       "meta_description": "Agenda de Nyons du 18 au 24 janvier 2027 : une conférence sur le Dauphiné du XVIIIe siècle et les Rencontres Barjavel.",
       "intro": "La semaine du 18 au 24 janvier 2027 à Nyons met la culture et l’histoire locale à l’honneur. Deux rendez-vous se succèdent pour découvrir des regards différents sur le patrimoine : une conférence consacrée aux marchands ruraux dans le Dauphiné au XVIIIe siècle, puis les Rencontres Barjavel 2027. Le premier rendez-vous s’inscrit dans une approche historique, avec l’intervention de Martine Lambert, coprésidente honoraire de l’UNTL. Les Rencontres Barjavel invitent quant à elles à se tourner vers René Barjavel, né à Nyons en 1911 et devenu journaliste puis écrivain. Cette sélection resserrée permet de repérer facilement les sorties culturelles proposées en fin de semaine, entre histoire régionale et hommage à une figure littéraire liée à la ville.",
@@ -399,10 +414,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:29:48.024988+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-01-25": {
-    "hash": "6e3c138ed2ef52d2ba291e469305186debc552d23ce10ac805c12dc719f69204",
+    "hash": "2c4ca41aafd8e946c0aab3dd9643214af2b40693a6306f29ff52c94cbf2cce07",
     "editorial": {
       "meta_description": "Agenda de Nyons du 25 au 31 janvier 2027 : une conférence de l’UNTL consacrée à « Guernica » de Pablo Picasso, présentée par Sabine Schütz.",
       "intro": "La semaine du 25 au 31 janvier 2027 à Nyons s’annonce sous le signe de l’art et de la culture. L’agenda communiqué met en avant une conférence de l’UNTL consacrée à « Guernica » de Pablo Picasso. Cette rencontre sera présentée par Sabine Schütz, historienne et critique d’art. C’est une occasion de s’intéresser à une œuvre majeure de Picasso à travers l’éclairage d’une spécialiste. Inscrite à la fois dans les rubriques culture, patrimoine et culture vivante, ainsi que vie associative, cette proposition reflète la place des rendez-vous de transmission et d’échange dans la programmation locale. Pour organiser votre semaine, consultez la page officielle de l’événement : elle reste la référence pour connaître les informations actualisées avant votre venue.",
@@ -417,10 +433,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:44:27.293064+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-02-01": {
-    "hash": "51f995f9ac3f184b48147e68c45818ab24d534d003daa71470d34ab8998852c3",
+    "hash": "b7708d85e529f3132e5da55024170d6e518bae5d58baca889eed0dd823919713",
     "editorial": {
       "meta_description": "Agenda de Nyons du 1er au 7 février 2027 : conférence sur la pensée économique et conte musical théâtralisé autour de Jean Giono.",
       "intro": "La première semaine de février 2027 propose à Nyons deux rendez-vous culturels aux approches bien distinctes. Le mercredi 3 février, l’UNTL organise une conférence consacrée aux penseurs économiques face à la situation française, présentée par Gilbert Font, ancien directeur financier. Une occasion de s’intéresser aux idées économiques et à leur lecture du contexte national. Le samedi 6 février, place à une proposition scénique avec « Les Grands Chemins », un conte musical et théâtralisé librement inspiré de l’œuvre de Jean Giono. Porté par Yohann Villanua et inscrit dans le cadre de l’Alicoque, ce rendez-vous associe littérature, musique et théâtre. Pour composer votre agenda à Nyons, la semaine permet donc d’alterner entre une rencontre de réflexion et une expérience artistique inspirée d’un grand auteur provençal.",
@@ -439,10 +456,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:44:38.597610+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-02-08": {
-    "hash": "7e69ba487555b36f886bcb73f4506db4dbb7d0bf9766e86ce07331c7e6ad93ba",
+    "hash": "107ea05a09938579c108a7286c1f862d3047b59e300ac3eddb154268d4e6f82a",
     "editorial": {
       "meta_description": "Agenda de Nyons du 8 au 14 février 2027 : un atelier Yoga du Chant proposé le samedi par l’association Amate.",
       "intro": "La semaine du 8 au 14 février 2027 à Nyons propose un rendez-vous placé sous le signe des loisirs et de la vie associative. Le samedi 13 février, l’association Amate organise l’« Atelier Yoga du Chant », animé par Ghislaine Checchini. Cette proposition s’inscrit dans les catégories Sport / Loisirs, Vie associative et Loisirs, et offre une piste de sortie pour celles et ceux qui souhaitent découvrir une activité associative durant le week-end. Comme l’agenda communiqué ne détaille ni les modalités d’accès ni le déroulement de l’atelier, le plus sûr est de consulter la page officielle avant de prévoir sa venue. Cette sélection hebdomadaire permet ainsi d’identifier simplement l’événement annoncé à Nyons pour cette période, sans ajouter d’informations non confirmées.",
@@ -457,10 +475,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:30:28.489271+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-02-15": {
-    "hash": "c0c5a5ed17d80cc53004f01178cab5be222b62dab847847abe4d187b51644c8b",
+    "hash": "03b2d245a4385ce72d8343e152bf7c79e10e2f7a8fd940994911ee961874e5fe",
     "editorial": {
       "meta_description": "Agenda de Nyons du 15 au 21 février 2027 : Blue Maqam de Renaud Garcia-Fons, une rencontre annoncée entre jazz et musiques orientales à découvrir.",
       "intro": "Du 15 au 21 février 2027, l’agenda de Nyons met en avant un rendez-vous culturel programmé le vendredi 19 février. Blue Maqam de Renaud Garcia-Fons s’inscrit dans un univers présenté comme un lien entre jazz et musiques orientales. Cette date offre un repère pour celles et ceux qui souhaitent prévoir une sortie culturelle pendant la semaine, que ce soit dans le cadre d’un séjour ou d’un programme local. La sélection disponible invite à se concentrer sur cette proposition et à consulter sa fiche dédiée pour réunir les informations utiles à l’organisation. L’événement est classé dans les catégories « Patrimoine / Culture vivante » et « Culture ». Les données transmises indiquent une unique date, le 19 février, pour ce rendez-vous.",
@@ -475,10 +494,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:30:51.933006+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-03-08": {
-    "hash": "d59564fb7a28939e2be23de8362a5c996815671bb66128c1107150de76d24dd1",
+    "hash": "bbbd5d225a67bac5bc94be7236d78518a67a3ca8bddb598921d0d3274a871500",
     "editorial": {
       "meta_description": "Agenda de Nyons du 8 au 14 mars 2027 : culture, atelier de Yoga du Chant et conférence autour de Pi pour composer vos sorties.",
       "intro": "Du 8 au 14 mars 2027, l’agenda de Nyons propose trois rendez-vous répartis entre culture, loisirs et vie associative. La semaine débute avec « Quand je serai grande, je serai Patrick Swayze », programmé le 10 mars dans les catégories Culture et Patrimoine / Culture vivante. Le samedi 13 mars, l’Atelier Yoga du Chant est porté par l’association Amate et animé par Ghislaine Checchini. Le dimanche 14 mars, l’UNTL propose une conférence consacrée à Pi, présentée par Michel Moreau, agrégé de mathématiques. Cette sélection courte permet de repérer facilement une sortie selon ses envies : un rendez-vous culturel en milieu de semaine, un atelier le samedi ou une conférence le dimanche. Pensez à consulter les pages officielles de chaque événement pour préparer votre venue.",
@@ -501,10 +521,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:31:07.144008+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-03-15": {
-    "hash": "35f55f57055f7868c71376a169e84c2d05a7e59a4b5dee4272c0b6da7ff1c752",
+    "hash": "7616760454a8a54facf97cf7f5252a25cd65e29392f5d5a7185e5b5ae0d3d98b",
     "editorial": {
       "meta_description": "Agenda de Nyons du 15 au 21 mars 2027 : conférence sur la domesticité et proposition théâtrale autour de l’amour cette semaine.",
       "intro": "Du 15 au 21 mars 2027, l’agenda de Nyons réunit deux rendez-vous culturels, programmés le mercredi puis le vendredi. La semaine propose d’abord une conférence consacrée à la domesticité et aux relations qu’elle soulève entre servilité et fidélité. Elle sera présentée par Michèle Margain, mentionnée comme généalogiste et écrivaine, attentive aux terroirs et à celles et ceux qui y vivent. Quelques jours plus tard, le théâtre aborde l’amour avec une proposition de Charlotte Adrien, en collaboration avec le CCDV. Annoncée comme insolente, drôle et troublante, elle invite à envisager ce thème de façon directe. Cet agenda resserré permet ainsi de repérer rapidement une sortie tournée vers la réflexion sur les réalités sociales ou une expérience scénique plus décalée.",
@@ -523,10 +544,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:45:04.166327+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-03-22": {
-    "hash": "eda38323f282097ee8a4b376586c753130dbb5297d4a17539b9f5b467d6e09b0",
+    "hash": "04477d80d46e558bd998ec3c0eab74037d5d6fe41136b5a4857510e1fc377e2f",
     "editorial": {
       "meta_description": "Agenda de Nyons du 22 au 28 mars 2027 : une conférence de l’UNTL consacrée à la glaciation ordovicienne du Gondwana, le 24 mars.",
       "intro": "La semaine du 22 au 28 mars 2027 à Nyons comporte un rendez-vous culturel et associatif autour des sciences de la Terre. Le mercredi 24 mars, l’UNTL propose une conférence consacrée à la glaciation ordovicienne du Gondwana. Présentée par Jean-Loup Rubino, de l’Université de la Sorbonne, cette intervention met en avant un sujet lié à une période ancienne de l’histoire géologique. C’est une idée de sortie à retenir pour celles et ceux qui souhaitent enrichir leur semaine par une rencontre de culture scientifique. L’événement figure à la fois dans les rubriques patrimoine et culture vivante, vie associative et culture, soulignant son inscription dans la programmation locale. Pour préparer votre venue, consultez la page officielle de l’agenda de Nyons, qui reste la source à privilégier pour les éventuelles précisions pratiques.",
@@ -541,10 +563,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:45:16.010987+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-03-29": {
-    "hash": "da86c21d86303b9c3d34cbcbd01dea86b749044baa45111b9dd92e7aa0482b23",
+    "hash": "a79016e2f6c9a08e834cd29017a4230e786e7a9571d33aefe370b2491005edd4",
     "editorial": {
       "meta_description": "Agenda de Nyons du 29 mars au 4 avril 2027 : une conférence culturelle et un rendez-vous du Printemps des Poètes à découvrir.",
       "intro": "Du 29 mars au 4 avril 2027, l’agenda de Nyons propose deux rendez-vous culturels répartis sur la semaine. Le mercredi 31 mars, la conférence de l’UNTL consacrée à « Sapienza Galiarda » sera présentée par Dominique Phélebon, dont le parcours associe les lettres et la direction d’établissement scolaire. Le vendredi 2 avril, « Et maintenant j’attends » s’inscrit dans le cadre du Printemps des Poètes. Cette proposition réunit voix, accordéon et violoncelle, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth. Une semaine courte en nombre d’événements annoncés, mais qui laisse place à deux approches complémentaires : une conférence autour d’un sujet culturel et une rencontre artistique portée par la poésie et la musique.",
@@ -563,10 +586,11 @@
       ]
     },
     "generated_at": "2026-09-29T07:45:27.119628+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-04-05": {
-    "hash": "bef7bd447daa34cb98db2799c8bafc708e7dc7a1766c8e03347510268e98c3a8",
+    "hash": "9a06ec6308ab2083c87379ebaa416f11040323afbc025ff008a2e34375375637",
     "editorial": {
       "meta_description": "Agenda de Nyons du 5 au 11 avril 2027 : une conférence consacrée à Pieter Bruegel l’ancien et un atelier Yoga du Chant à découvrir.",
       "intro": "La semaine du 5 au 11 avril 2027 à Nyons propose deux rendez-vous aux approches bien distinctes, entre découverte artistique et pratique de loisir. Le 7 avril, l’UNTL consacre une conférence aux « Jeux d’Enfants » de Pieter Bruegel l’ancien. Présentée par Sabine Schütz, historienne et critique d’art, elle offre une occasion de s’intéresser à cette œuvre et à son auteur dans un cadre culturel et associatif. Le 10 avril, l’association Amate propose l’Atelier Yoga du Chant, animé par Ghislaine Checchini. Ce second événement s’inscrit dans les catégories sport, loisirs et vie associative. Avec seulement deux propositions annoncées sur cette période, l’agenda invite à choisir selon ses envies : approfondir une thématique liée à l’histoire de l’art ou participer à un atelier centré sur le chant et le yoga.",
@@ -585,10 +609,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:32:17.905142+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-04-19": {
-    "hash": "85aaceb03d468d3909868fe7b55c57291830c24b9766b2ea1efbbb024af01bbf",
+    "hash": "80737253ad086f4dddd67c81223919d3f212c4faab423e2f8ec1578845904258",
     "editorial": {
       "meta_description": "Agenda de Nyons du 19 au 25 avril 2027 : découvrez Landing, un rendez-vous culturel programmé le vendredi 23 avril.",
       "intro": "La semaine du 19 au 25 avril 2027 à Nyons compte un rendez-vous culturel identifié dans l’agenda : Landing, prévu le vendredi 23 avril. Classé à la fois dans les rubriques « Patrimoine / Culture vivante » et « Culture », cet événement constitue une piste de sortie pour celles et ceux qui souhaitent intégrer une proposition artistique à leur semaine dans la ville. Avec une programmation recensée sur une seule date, il peut être utile de le repérer en amont afin d’organiser son passage à Nyons ou de compléter un programme de découverte locale. Les informations disponibles invitent surtout à retenir la date et la dimension culturelle de ce rendez-vous. Pour les précisions qui ne figurent pas dans l’agenda synthétique, la page officielle de l’événement reste la référence à consulter avant de préparer sa sortie.",
@@ -603,10 +628,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:32:29.869551+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-04-26": {
-    "hash": "d78b6c4379ef7521cc69cb96cc65aab31463dec1be434aa615fe40b6ad1e4b0e",
+    "hash": "3cc46e48aded6d12518fc26571a543c84428501accec324fa9d0b41691742141",
     "editorial": {
       "meta_description": "Agenda de Nyons du 26 avril au 2 mai 2027 : une conférence de l’UNTL consacrée à l’histoire de l’éducation populaire.",
       "intro": "Pour la semaine du 26 avril au 2 mai 2027, l’agenda de Nyons met en avant un rendez-vous de réflexion autour de l’éducation populaire. Organisée par l’UNTL, la conférence « Pour une histoire de l’éducation populaire » est annoncée le lundi 26 avril. Elle sera présentée par Philippe Fréchet, enseignant spécialisé et conférencier travaillant sur l’histoire de la pensée ainsi que sur les dimensions sociales et politiques de l’histoire. Ce temps culturel et associatif propose ainsi d’aborder l’éducation populaire par le prisme de son histoire. La programmation communiquée pour cette période ne mentionne pas d’autre événement : c’est donc une occasion de repérer ce rendez-vous unique dès le début de semaine et de consulter sa fiche officielle pour préparer sa sortie.",
@@ -621,10 +647,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:32:42.168530+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-05-03": {
-    "hash": "357607c957ce3008c81661e695d84146d049272c43dbd49c43d2129acc931c03",
+    "hash": "cfc06a7711c7b0909871f6de85684211487976bb613571b259215ae7efb5be90",
     "editorial": {
       "meta_description": "Agenda de Nyons du 3 au 9 mai 2027 : un atelier Yoga du Chant proposé le samedi 8 mai, à découvrir parmi les loisirs associatifs.",
       "intro": "Pour la semaine du 3 au 9 mai 2027, l’agenda de Nyons met en avant un rendez-vous placé sous le signe de la pratique et de la vie associative. Prévu le samedi 8 mai, l’« Atelier Yoga du Chant » est proposé par l’association Amate et animé par Ghislaine Checchini. Cette date peut intéresser les personnes qui souhaitent repérer une activité de loisirs différente au cours de leur passage à Nyons ou dans les environs. La programmation communiquée ne détaille ni le déroulement de l’atelier ni ses modalités d’accès : il est donc préférable de considérer cette annonce comme une piste de sortie à approfondir avant de s’organiser. Pour une information locale fiable, la page officielle de l’événement reste le bon point de départ.",
@@ -639,10 +666,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:32:55.448970+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-05-10": {
-    "hash": "41cc14ed66b813dc26f7c1528630d5d74cb70c487a2f3ad5805c9f46eb4ee677",
+    "hash": "76748519786df113b307926356d4b264feb2caf44fca7cc4fe97e423292e9885",
     "editorial": {
       "meta_description": "Agenda de Nyons du 10 au 16 mai 2027 : découvrez Boite à cordées, une proposition musicale menée en partenariat avec les Jeunesses Musicales de France.",
       "intro": "Pour la semaine du 10 au 16 mai 2027, l’agenda de Nyons met en avant un rendez-vous culturel : Boite à cordées, programmé le 14 mai. Cette proposition s’inscrit à la croisée de la culture vivante et du patrimoine culturel. Elle invite à découvrir un univers musical présenté sous l’angle de l’expérimentation, avec une attention portée aux vibrations et à la recherche sonore. L’événement est organisé en partenariat avec les Jeunesses Musicales de France, un élément utile pour situer son inscription dans le paysage culturel. Si vous cherchez une sortie à Nyons durant cette semaine de mai, cette date constitue le rendez-vous signalé dans la programmation disponible. Avant de vous déplacer, consultez la page officielle de l’événement afin de retrouver les informations actualisées communiquées par l’organisateur.",
@@ -657,10 +685,11 @@
       ]
     },
     "generated_at": "2026-09-28T17:33:08.281376+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   },
   "2027-05-17": {
-    "hash": "e5dc72f7c2a17f21d0473ecf4fe832b30642aeb7074d7a035fd5497700607004",
+    "hash": "262afeb3a90d1cffa6d2dd8260c46eba2e9b5129b203d7d9f4d9cb1077e0aad4",
     "editorial": {
       "meta_description": "Agenda de Nyons du 17 au 23 mai 2027 : découvrez On ne badine pas avec l’amour, une proposition culturelle de la compagnie Capharnaüm.",
       "intro": "Pour la semaine du 17 au 23 mai 2027, l’agenda de Nyons met en avant un rendez-vous culturel programmé le 20 mai. « On ne badine pas avec l’amour » propose une approche scénique de l’œuvre d’Alfred de Musset par la compagnie Capharnaüm. Cette date invite à retrouver un texte du patrimoine dramatique dans le cadre d’une proposition de culture vivante. L’événement annonce une évolution du rire vers le drame, un repère utile pour les personnes attirées par le théâtre et la littérature. Avec une seule sortie renseignée dans les informations disponibles pour cette semaine, cette sélection privilégie une lecture claire : noter la date, consulter la fiche officielle et préparer sa venue selon les indications publiées par l’organisateur.",
@@ -675,6 +704,7 @@
       ]
     },
     "generated_at": "2026-09-28T17:33:24.592333+00:00",
-    "model": "gpt-5.6-terra"
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   }
 }

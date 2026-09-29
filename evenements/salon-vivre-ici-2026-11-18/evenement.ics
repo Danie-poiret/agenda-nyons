@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:salon-vivre-ici-2026-11-18@agenda.vivreanyons.fr
-DTSTAMP:20260929T074146Z
+DTSTAMP:20260929T080913Z
 DTSTART;TZID=Europe/Paris:20261118T090000
 DTEND;TZID=Europe/Paris:20261118T200000
 SUMMARY:Salon Vivre ici
-DESCRIPTION:Etudier\, travailler\, habiter 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales Politique de confidentialité Plan du sit\nhttps://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/
+DESCRIPTION:Etudier\, travailler\, habiter 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légales Politique de confidentialité Plan du\nhttps://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/
 LOCATION:
 URL:https://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/
 END:VEVENT
