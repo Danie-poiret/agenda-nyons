@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "fix_saviezvous.py"
+      - "saviezvous_extra.json"
       - ".github/workflows/fix-saviezvous.yml"
 
 permissions:
