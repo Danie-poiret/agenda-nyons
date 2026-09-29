@@ -4,12 +4,201 @@
       "id": "taco-histoire-smithsonian",
       "text": "Le taco est bien plus ancien que la restauration rapide : l’historien Jeffrey Pilcher situe probablement ses origines modernes dans le Mexique du XVIIIe siècle, autour des mines d’argent, tandis que les premières mentions écrites apparaissent à la fin du XIXe siècle.",
       "article_title": "Aux origines du taco",
-      "publication_year": "2012",
-      "issue": "",
-      "pdf_page": "",
       "match_phrases": ["street food", "taco", "tacos", "burrito", "burritos"],
       "source_label": "Smithsonian Magazine — Where Did the Taco Come From?",
       "source_url": "https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+    },
+    {
+      "id": "loto-associatif-service-public",
+      "text": "En France, un loto traditionnel associatif est un jeu de hasard où les participants remplissent une carte de numéros tirés au sort. Il doit être organisé en présentiel et respecter plusieurs conditions prévues par la réglementation.",
+      "article_title": "Le loto traditionnel associatif",
+      "match_phrases": ["loto"],
+      "source_label": "Service-Public.fr — Loterie, tombola ou loto traditionnel organisé par une association",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21565"
+    },
+    {
+      "id": "compost-ademe",
+      "text": "Environ un tiers des ordures ménagères est composé de déchets organiques : le compostage permet de les recycler et de rendre de la matière organique au sol.",
+      "article_title": "Le compost et les déchets organiques",
+      "match_phrases": ["compost", "distribution gratuite de compost"],
+      "source_label": "ADEME — Comment utiliser son compost au jardin",
+      "source_url": "https://agirpourlatransition.ademe.fr/particuliers/amenager-maison/jardiner/utiliser-compost-au-jardin"
+    },
+    {
+      "id": "cacao-maya-smithsonian",
+      "text": "Chez les anciens Mayas, le cacao occupait une place sociale et rituelle importante. Des boissons au cacao étaient notamment associées à certaines cérémonies et occasions particulières.",
+      "article_title": "Le cacao dans la culture maya",
+      "match_phrases": ["cérémonie de cacao", "cacao"],
+      "source_label": "Smithsonian Magazine — What We Know About the Earliest History of Chocolate",
+      "source_url": "https://www.smithsonianmag.com/history/archaeology-chocolate-180954243/"
+    },
+    {
+      "id": "histoire-familiale-francearchives",
+      "text": "Les registres d’état civil conservent notamment les naissances, mariages et décès : ils constituent des sources essentielles pour retracer les liens et l’histoire d’une famille.",
+      "article_title": "Retrouver l’histoire d’une famille dans les archives",
+      "match_phrases": ["constellations familiales"],
+      "source_label": "FranceArchives — Registres d’état civil et tables",
+      "source_url": "https://francearchives.gouv.fr/fr/facomponent/e63d85ee66ba2ca7a89cf1267c6b54c6b436a9b7/"
+    },
+    {
+      "id": "directives-anticipees-service-public",
+      "text": "Toute personne majeure peut rédiger des directives anticipées pour faire connaître à l’avance ses souhaits concernant les traitements et soins de fin de vie si elle ne peut plus exprimer sa volonté.",
+      "article_title": "Les directives anticipées",
+      "match_phrases": ["directives anticipées", "dernières volontés"],
+      "source_label": "Service-Public.fr — Directives anticipées : dernières volontés sur les soins en fin de vie",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32010"
+    },
+    {
+      "id": "funeraire-service-public",
+      "text": "En France, les funérailles doivent respecter les dernières volontés du défunt lorsqu’elles sont connues, qu’elles concernent notamment l’inhumation, la crémation ou le caractère religieux ou laïc de la cérémonie.",
+      "article_title": "Les dernières volontés en matière de funérailles",
+      "match_phrases": ["législation funéraire", "rituels funéraires"],
+      "source_label": "Service-Public.fr — Organisation des funérailles et dernières volontés",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12695"
+    },
+    {
+      "id": "jeux-societe-british-museum",
+      "text": "Les jeux de société ont une histoire très ancienne : le Jeu royal d’Ur, découvert en Mésopotamie, date d’environ 4 600 ans et figure parmi les plus anciens jeux de plateau encore reconstituables aujourd’hui.",
+      "article_title": "Une très longue histoire des jeux de société",
+      "match_phrases": ["jeux de société", "à vos cartes", "a vos cartes", "jeux zen"],
+      "source_label": "British Museum — Top 10 historical board games",
+      "source_url": "https://www.britishmuseum.org/blog/top-10-historical-board-games"
+    },
+    {
+      "id": "sante-mentale-oms",
+      "text": "Pour l’OMS, la santé mentale est un état de bien-être qui permet notamment de faire face au stress de la vie, d’apprendre, de travailler et de contribuer à la vie de la communauté.",
+      "article_title": "La santé mentale selon l’OMS",
+      "match_phrases": ["stands sur la santé mentale", "mad pride", "sur l’adamant", "sur l'adamant", "art-thérapie", "art-therapie", "l’instant papillon", "l'instant papillon", "au nom du père, du fils et de jackie chan", "au nom du pere, du fils et de jackie chan"],
+      "source_label": "Organisation mondiale de la Santé — Santé mentale",
+      "source_url": "https://www.who.int/fr/news-room/fact-sheets/detail/mental-health-strengthening-our-response"
+    },
+    {
+      "id": "vtt-uci",
+      "text": "Le mountain bike moderne est reconnu comme étant né en Californie dans les années 1970, avant de se décliner en plusieurs disciplines, dont la descente.",
+      "article_title": "Aux origines du VTT moderne",
+      "match_phrases": ["4 seasons jam", "descente vtt", "vtt"],
+      "source_label": "UCI — L’évolution du mountain bike et de ses nombreuses déclinaisons",
+      "source_url": "https://fr.uci.org/article/l-%C3%A9volution-du-mountain-bike-et-de-ses-nombreuses-d%C3%A9clinaisons/34K7lrRAJQ59zzpesagkdX"
+    },
+    {
+      "id": "cosmetiques-dgccrf",
+      "text": "La réglementation européenne définit un produit cosmétique comme une substance ou un mélange destiné notamment à nettoyer, parfumer, protéger ou modifier l’aspect des parties superficielles du corps humain.",
+      "article_title": "Qu’est-ce qu’un produit cosmétique ?",
+      "match_phrases": ["atelier cosmétique", "atelier cosmetique", "savon d’halloween", "savon d'halloween", "maquillage d’halloween", "maquillage d'halloween"],
+      "source_label": "DGCCRF — Les produits cosmétiques",
+      "source_url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques"
+    },
+    {
+      "id": "theatre-populaire-nyonsais",
+      "text": "Roger Pasturel écrivit en 1984 une pastorale provençale mêlant traditions de la Nativité, crèches, Noëls et théâtre populaire.",
+      "article_title": "Théâtre populaire dans le Nyonsais",
+      "match_phrases": ["ts’art", "ts'art", "une histoire de paradis"],
+      "source_label": "Terre d’Eygues n°48, PDF p. 27 — Roger Pasturel",
+      "source_url": "https://terre-eygues.net/wp/wp-content/uploads/2019/08/TE-48-2011-.compressed.pdf#page=27"
+    },
+    {
+      "id": "maria-callas-opera",
+      "text": "Maria Callas a profondément marqué l’opéra du XXe siècle. Elle s’est produite trois fois au Palais Garnier et a contribué à renouveler l’interprétation du grand répertoire lyrique.",
+      "article_title": "Maria Callas et l’opéra",
+      "match_phrases": ["callas", "la passion selon callas"],
+      "source_label": "Opéra national de Paris — Hommage à Maria Callas",
+      "source_url": "https://www.operadeparis.fr/apropos/institution/hommage-a-maria-callas"
+    },
+    {
+      "id": "unafam-1963",
+      "text": "L’Unafam accompagne depuis 1963 les familles et l’entourage des personnes vivant avec des troubles psychiques et agit également contre les préjugés et la stigmatisation.",
+      "article_title": "L’Unafam depuis 1963",
+      "match_phrases": ["unafam", "café-rencontre unafam", "cafe-rencontre unafam"],
+      "source_label": "Unafam — Qui sommes-nous ?",
+      "source_url": "https://www.unafam.org/nous-connaitre/missions-et-organisation/qui-sommes-nous"
+    },
+    {
+      "id": "couture-soie-nyons",
+      "text": "Le soyeux Pierre-Louis Guilliny inventa un régulateur donnant une longueur constante aux flottes de soie, une innovation récompensée par une médaille d’or à Lyon.",
+      "article_title": "Soie et textile dans le Nyonsais",
+      "match_phrases": ["puces des couturières", "puces des couturieres", "couturières", "couturieres"],
+      "source_label": "Terre d’Eygues n°45, PDF p. 34 — Pierre Louis Guilliny",
+      "source_url": "https://terre-eygues.net/wp/wp-content/uploads/2017/06/TE2010_45.pdf#page=34"
+    },
+    {
+      "id": "corbeaux-intelligence-mnhn",
+      "text": "Les corvidés sont réputés pour leurs capacités cognitives : certains savent utiliser des outils, mémoriser des informations et transmettre des techniques à d’autres individus.",
+      "article_title": "L’intelligence remarquable des corvidés",
+      "match_phrases": ["intelligence des corbeaux", "corbeaux"],
+      "source_label": "Muséum national d’Histoire naturelle — Corneille et corbeau",
+      "source_url": "https://www.mnhn.fr/fr/quelles-sont-les-differences-entre-une-corneille-et-un-corbeau"
+    },
+    {
+      "id": "salon-vivre-ici-demographie",
+      "text": "Les études démographiques du canton montrent un contraste persistant entre Nyons et les dix-sept autres communes rurales.",
+      "article_title": "Habiter le canton de Nyons",
+      "match_phrases": ["salon vivre ici", "etudier, travailler, habiter", "étudier, travailler, habiter"],
+      "source_label": "Terre d’Eygues n°35, PDF p. 39 — Aspects récents de la population du canton de Nyons",
+      "source_url": "https://terre-eygues.net/wp/wp-content/uploads/2017/06/TE2005_35.pdf#page=39"
+    },
+    {
+      "id": "telethon-1987",
+      "text": "Le premier Téléthon français a été diffusé le 4 décembre 1987 sur Antenne 2 pendant 28 heures en direct. Il a lancé une mobilisation nationale durable en faveur de la recherche sur les maladies rares.",
+      "article_title": "Le premier Téléthon français",
+      "match_phrases": ["téléthon", "telethon"],
+      "source_label": "AFM-Téléthon — L’histoire du Téléthon",
+      "source_url": "https://www.afm-telethon.fr/fr/le-telethon/le-telethon-c-est-quoi/lhistoire-du-telethon"
+    },
+    {
+      "id": "peter-pan-bnf",
+      "text": "Peter Pan triompha d’abord sur scène à Londres en décembre 1904. J. M. Barrie transforma ensuite cette matière théâtrale en roman en 1911 sous le titre Peter et Wendy.",
+      "article_title": "Peter Pan, du théâtre au roman",
+      "match_phrases": ["peter pan", "l’enfant jamais", "l'enfant jamais"],
+      "source_label": "Bibliothèque nationale de France — Peter Pan, le garçon qui ne voulait pas grandir",
+      "source_url": "https://fantasy.bnf.fr/fr/comprendre/peter-pan-le-garcon-qui-ne-voulait-pas-grandir/"
+    },
+    {
+      "id": "jackie-chan-oscars",
+      "text": "Jackie Chan a été formé pendant dix ans à l’Académie d’art dramatique de Chine, où il apprit l’acrobatie, les arts martiaux, le jeu et le chant avant de devenir acteur et cascadeur.",
+      "article_title": "La formation de Jackie Chan",
+      "match_phrases": ["jackie chan"],
+      "source_label": "Academy of Motion Picture Arts and Sciences — Jackie Chan",
+      "source_url": "https://www.oscars.org/governors-awards/2016/jackie-chan"
+    },
+    {
+      "id": "domesticite-musee-orsay",
+      "text": "Dans la seconde moitié du XIXe siècle, l’essor de la bourgeoisie urbaine fit fortement augmenter la demande de personnel domestique ; la domestique devint l’une des figures majeures du travail féminin.",
+      "article_title": "La domesticité au XIXe siècle",
+      "match_phrases": ["domesticité", "domesticite", "servilité", "servilite"],
+      "source_label": "Musée d’Orsay — 100 œuvres qui racontent le travail",
+      "source_url": "https://www.musee-orsay.fr/en/node/338719"
+    },
+    {
+      "id": "glaciation-ordovicienne",
+      "text": "À la fin de l’Ordovicien, une vaste glaciation affecta le Gondwana. Les dépôts glaciaires retrouvés en Afrique du Nord témoignent de cette période de refroidissement majeur.",
+      "article_title": "La glaciation ordovicienne du Gondwana",
+      "match_phrases": ["glaciation ordovicienne", "gondwana"],
+      "source_label": "U.S. National Park Service — Ordovician Period",
+      "source_url": "https://www.nps.gov/articles/000/ordovician-period.htm"
+    },
+    {
+      "id": "danse-moderne-unesco",
+      "text": "La danse moderne se distingue du ballet classique par une recherche d’expression plus libre : les mouvements du corps peuvent traduire les émotions et les expériences vécues.",
+      "article_title": "La danse moderne comme expression du mouvement",
+      "match_phrases": ["landing", "tomber n’est pas la fin du mouvement", "tomber n'est pas la fin du mouvement"],
+      "source_label": "UNESCO — The practice of Modern Dance in Germany",
+      "source_url": "https://ich.unesco.org/en/RL/the-practice-of-modern-dance-in-germany-01858"
+    },
+    {
+      "id": "liban-france-diplomatie",
+      "text": "Le système politique libanais repose sur un partage confessionnel des principales fonctions : la présidence de la République revient à un chrétien maronite, celle du Conseil des ministres à un sunnite et celle du Parlement à un chiite.",
+      "article_title": "Le système politique confessionnel du Liban",
+      "match_phrases": ["le liban petit pays mais gros problèmes", "liban"],
+      "source_label": "France Diplomatie — Présentation du Liban",
+      "source_url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/liban/presentation-du-liban"
+    },
+    {
+      "id": "malte-union-europeenne",
+      "text": "Malte a rejoint l’Union européenne le 1er mai 2004, lors du plus grand élargissement de l’histoire de l’Union, aux côtés de neuf autres pays.",
+      "article_title": "Malte dans l’Union européenne",
+      "match_phrases": ["100% malte", "malte"],
+      "source_label": "Commission européenne — Malta in the EU",
+      "source_url": "https://malta.representation.ec.europa.eu/about-us/malta-eu_en"
     }
   ]
 }
