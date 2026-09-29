@@ -53,6 +53,7 @@ PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "100"))
 EVENT_PROMPT_VERSION = 10
 WEEK_PROMPT_VERSION = 3
+ANECDOTE_ASSIGNMENT_VERSION = 2
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 MONTHS = {
@@ -546,8 +547,80 @@ def rolling_events(events):
     )
 
 
+ANECDOTE_STOPWORDS = {
+    "administratif", "ancien", "ancienne", "antoine", "apres", "atelier", "aussi", "avec",
+    "cadre", "carte", "cartes", "cette", "concert",
+    "culture", "dans", "depuis", "des", "drome", "enfance", "entre",
+    "evenement", "exposition", "faire", "fete", "histoire", "journee",
+    "grand", "grande", "jean", "jours", "leur", "leurs", "loisirs", "maison",
+    "nyons", "nyonsais", "passion",
+    "marche", "patrimoine", "pendant", "place", "pour", "sante", "selon", "solidarite",
+    "spectacle", "sport", "ville", "vivante", "vous", "famille", "familles",
+    "familial", "familiale",
+}
+
+
+def semantic_terms(value):
+    """Mots utiles pour rapprocher le sujet d'une fiche d'une anecdote."""
+    normalized = unicodedata.normalize("NFKD", clean(value).lower())
+    normalized = "".join(c for c in normalized if not unicodedata.combining(c))
+    words = re.findall(r"[a-z0-9]+", normalized)
+    terms = set()
+    for word in words:
+        if len(word) < 4 or word in ANECDOTE_STOPWORDS:
+            continue
+        terms.add(word)
+        # Rapproche quelques pluriels simples sans transformer le texte affiche.
+        if len(word) > 5 and word.endswith("s"):
+            terms.add(word[:-1])
+    return terms
+
+
+ANECDOTE_THEME_GROUPS = (
+    {"petanque", "boule", "boulodrome"},
+    {"musique", "musical", "concert", "chant", "opera", "jazz", "quartet"},
+    {"theatre", "scene", "comedie", "impro", "spectacle"},
+    {"livre", "lecture", "litterature", "ecrivain", "auteur", "barjavel", "camus"},
+    {"peinture", "peintre", "tableau", "artiste", "picasso", "chagall", "bruegel"},
+    {"agriculture", "agricole", "paysan", "vendange", "vigne", "vin"},
+    {"cuisine", "culinaire", "tapenade", "olive", "olivier", "gnocchi", "risotto"},
+    {"science", "scientifique", "geologie", "gres", "glaciation", "fossile"},
+)
+
+
+def anecdote_semantic_score(event, editorial, anecdote):
+    event_title_terms = semantic_terms(event.get("title", ""))
+    event_theme_terms = event_title_terms | semantic_terms(
+        clean(editorial.get("seo_title", ""))
+    )
+    # Le titre SEO et la meta sont retenus car ils résument le vrai sujet.
+    # Les longs paragraphes et les catégories sont volontairement exclus :
+    # un nom de rue comme « place de la Libération » ne doit pas envoyer un
+    # atelier de cuisine vers une anecdote sur la Seconde Guerre mondiale.
+    event_body = " ".join([
+        event.get("summary", ""),
+        " ".join(clean(editorial.get(key, "")) for key in (
+            "seo_title", "meta_description"
+        )),
+    ])
+    event_terms = event_theme_terms | semantic_terms(event_body)
+    anecdote_title_terms = semantic_terms(anecdote.get("article_title", ""))
+    anecdote_terms = anecdote_title_terms | semantic_terms(anecdote.get("text", ""))
+
+    shared = event_terms & anecdote_terms
+    title_shared = event_title_terms & anecdote_title_terms
+    score = len(shared) * 2 + len(title_shared) * 5
+
+    # Les familles de mots compensent les formulations différentes
+    # (par exemple concert / musicien ou pétanque / boule).
+    for group in ANECDOTE_THEME_GROUPS:
+        if event_theme_terms & group and anecdote_terms & group:
+            score += 7
+    return score
+
+
 def assign_event_anecdotes(events, event_cache):
-    """Attribue durablement une histoire Terre d'Eygues différente à chaque fiche."""
+    """Attribue une anecdote unique, en privilégiant le sujet de chaque fiche."""
     payload = load_json_file(ANECDOTES_FILE)
     entries = payload.get("entries", []) if isinstance(payload, dict) else []
     entries = [entry for entry in entries if isinstance(entry, dict) and entry.get("id")]
@@ -560,21 +633,50 @@ def assign_event_anecdotes(events, event_cache):
     for event in events:
         entry = event_cache.get(event["url"], {})
         anecdote_id = clean(entry.get("anecdote_id", ""))
-        if anecdote_id in catalog and anecdote_id not in used:
+        if (
+            entry.get("anecdote_assignment_version") == ANECDOTE_ASSIGNMENT_VERSION
+            and anecdote_id in catalog
+            and anecdote_id not in used
+        ):
             assigned[event["url"]] = catalog[anecdote_id]
             used.add(anecdote_id)
 
-    available = [entry for entry in entries if entry["id"] not in used]
     missing = [event for event in events if event["url"] not in assigned]
+    available = [entry for entry in entries if entry["id"] not in used]
     if len(available) < len(missing):
         raise RuntimeError(
             f"Pas assez d'histoires Terre d'Eygues uniques : {len(events)} fiches "
             f"pour {len(entries)} histoires"
         )
 
-    for event, anecdote in zip(missing, available):
+    # Premier passage : les meilleurs rapprochements sémantiques globaux.
+    candidates = []
+    for event in missing:
+        editorial = (event_cache.get(event["url"], {}) or {}).get("editorial") or {}
+        for anecdote in available:
+            score = anecdote_semantic_score(event, editorial, anecdote)
+            if score >= 9:
+                candidates.append((score, event["url"], anecdote["id"]))
+    candidates.sort(key=lambda item: (-item[0], item[1], item[2]))
+
+    for score, event_url, anecdote_id in candidates:
+        if event_url in assigned or anecdote_id in used:
+            continue
+        assigned[event_url] = catalog[anecdote_id]
+        used.add(anecdote_id)
+
+    # Second passage : si aucun vrai lien de sujet n'existe, une histoire
+    # nyonsaise distincte sert de secours. Elle ne sera jamais dupliquée.
+    available = [entry for entry in entries if entry["id"] not in used]
+    unresolved = [event for event in missing if event["url"] not in assigned]
+    for event, anecdote in zip(unresolved, available):
         assigned[event["url"]] = anecdote
+        used.add(anecdote["id"])
+
+    for event in events:
+        anecdote = assigned[event["url"]]
         event_cache[event["url"]]["anecdote_id"] = anecdote["id"]
+        event_cache[event["url"]]["anecdote_assignment_version"] = ANECDOTE_ASSIGNMENT_VERSION
 
     if len({entry["id"] for entry in assigned.values()}) != len(events):
         raise RuntimeError("Une histoire Terre d'Eygues a été attribuée deux fois")
@@ -1509,13 +1611,12 @@ def render_event_page(event, editorial, related_events=None, practical=None, ane
         related_section = f'<section class="section"><h2>📍 D’autres rendez-vous proches</h2><div class="related">{related_html}</div></section>'
 
     anecdote_section = ""
-    if anecdote.get("text") and anecdote.get("source_url"):
+    if anecdote.get("text"):
         anecdote_section = (
-            '<section class="section anecdote"><h2>💡 Le savais-tu sur Nyons ?</h2>'
+            '<section class="section anecdote"><h2>💡 Le saviez-vous ?</h2>'
             f'<p>{esc(anecdote["text"])}</p>'
-            '<p class="heritage-source">Source : '
-            f'<a href="{esc(anecdote["source_url"])}" target="_blank" rel="noopener noreferrer">'
-            f'{esc(anecdote.get("source_label") or "Terre d’Eygues")}</a></p></section>'
+            f'<p class="heritage-source">Repère documentaire : '
+            f'{esc(anecdote.get("source_label") or "Terre d’Eygues")}</p></section>'
         )
 
     return f'''<!doctype html>
@@ -1650,6 +1751,7 @@ def generate_event_pages(events):
             "model": OPENAI_MODEL,
             "prompt_version": EVENT_PROMPT_VERSION,
             "anecdote_id": clean(cached.get("anecdote_id", "")),
+            "anecdote_assignment_version": cached.get("anecdote_assignment_version"),
         }
 
     cached_events = []
