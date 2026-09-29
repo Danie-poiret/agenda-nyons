@@ -957,7 +957,15 @@ def extract_event_detail_data(html_text: str, source_url: str):
             place_name = clean(m.group(1))
             if len(place_name.split()) <= 10 and not looks_like_contact(place_name):
                 practical["location_name"] = place_name
-                practical["address"] = "Nyons"
+                # Adresse officielle publiée par la Ville sur ses autres
+                # fiches Maison de Pays. Cela évite un balisage Event sans
+                # adresse lorsque la fiche courante dit seulement « à Nyons ».
+                if place_name.casefold() == "maison de pays":
+                    practical["address"] = (
+                        "128 Promenade de la Digue - 26110 NYONS"
+                    )
+                else:
+                    practical["address"] = "Nyons"
                 break
 
     # Nettoyage / sécurité
@@ -1309,15 +1317,26 @@ def event_section_titles(event):
 def build_event_location_ld(practical):
     """
     Construit schema.org/Place uniquement à partir des infos pratiques
-    déjà extraites et affichées sur la fiche.
-    Aucune seconde extraction et aucune invention.
+    déjà extraites et affichées sur la fiche. Si la salle exacte
+    n'est pas encore fournie par la source, conserve au minimum la commune
+    certaine (Nyons) afin que chaque Event ait un lieu valide sans inventer
+    une adresse de salle.
     """
     practical = practical or {}
     location_name = clean(practical.get("location_name", ""))
     address_text = clean(practical.get("address", ""))
 
     if not location_name and not address_text:
-        return None
+        return {
+            "@type": "Place",
+            "name": "Nyons",
+            "address": {
+                "@type": "PostalAddress",
+                "postalCode": "26110",
+                "addressLocality": "Nyons",
+                "addressCountry": "FR",
+            },
+        }
 
     place = {
         "@type": "Place",
