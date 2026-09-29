@@ -12,30 +12,30 @@ CACHE = ROOT / "_event_seo_cache.json"
 ANECDOTES = ROOT / "nyons_anecdotes.json"
 EXTRA_ANECDOTES = ROOT / "saviezvous_extra.json"
 EVENTS = ROOT / "evenements"
-VERSION = 5
+VERSION = 6
 
 STOPWORDS = {
     "administratif", "ancien", "ancienne", "apres", "atelier", "avec", "cadre",
     "cette", "dans", "depuis", "des", "drome", "enfance", "entre", "evenement",
     "faire", "fete", "histoire", "journee", "jours", "leur", "leurs", "loisirs",
     "maison", "nyons", "nyonsais", "patrimoine", "pendant", "place", "pour",
-    "sante", "selon", "solidarite", "sport", "ville", "vivante", "vous",
+    "selon", "solidarite", "sport", "ville", "vivante", "vous",
 }
 
 THEME_GROUPS = (
     {"petanque", "boule", "boulodrome"},
     {"education", "populaire", "instruction", "ecole", "enseignement", "savoir", "citoyennete"},
-    {"musique", "musical", "concert", "chant", "chorale", "opera", "jazz", "quartet"},
-    {"theatre", "scene", "comedie", "impro", "spectacle"},
-    {"livre", "lecture", "litterature", "ecrivain", "auteur", "barjavel", "camus"},
-    {"peinture", "peintre", "tableau", "artiste", "expo", "exposition", "picasso", "chagall", "bruegel"},
-    {"agriculture", "agricole", "paysan", "vendange", "vigne", "vin"},
-    {"cuisine", "culinaire", "tapenade", "olive", "olivier", "gnocchi", "risotto", "gastronomie", "pain", "confiture", "confiturerie", "taco", "tacos", "burrito", "burritos", "food"},
-    {"science", "scientifique", "geologie", "gres", "glaciation", "fossile"},
-    {"yoga", "meditation", "bienetre", "respiration"},
-    {"danse", "danser", "ballet"},
-    {"photo", "photographie", "photographe"},
-    {"cinema", "film", "projection"},
+    {"musique", "musical", "musicien", "concert", "chant", "chorale", "opera", "jazz", "quartet", "maqam", "accordeon", "violoncelle", "corde", "cordees", "voix"},
+    {"theatre", "theatral", "scene", "comedie", "impro", "spectacle", "piece", "conte", "compagnie", "rituel", "restitution"},
+    {"livre", "lecture", "litterature", "ecrivain", "auteur", "roman", "romans", "poesie", "poete", "dedicace", "barjavel", "camus", "sapienza", "musset"},
+    {"peinture", "peintre", "tableau", "artiste", "expo", "exposition", "picasso", "chagall", "bruegel", "art", "artistique"},
+    {"agriculture", "agricole", "agriculteur", "paysan", "vendange", "vigne", "vin", "jardin", "jardinage"},
+    {"cuisine", "culinaire", "tapenade", "olive", "olivier", "gnocchi", "risotto", "gastronomie", "pain", "confiture", "confiturerie", "taco", "tacos", "burrito", "burritos", "food", "fermentation", "lactofermentation"},
+    {"science", "scientifique", "geologie", "gres", "glaciation", "fossile", "sorbonne"},
+    {"yoga", "meditation", "bienetre", "respiration", "zen"},
+    {"danse", "danser", "ballet", "mouvement", "landing"},
+    {"photo", "photographie", "photographe", "urbex"},
+    {"cinema", "film", "projection", "documentaire", "realisateur", "cine", "debat"},
 )
 
 
@@ -60,14 +60,20 @@ def terms(value):
     return out
 
 
-def exact_phrase_match(event, anecdote):
-    title_and_summary = norm(" ".join([
+def event_context(event):
+    return " ".join([
         clean(event.get("title", "")),
         clean(event.get("summary", "")),
-    ]))
+        clean(event.get("editorial", {}).get("seo_title", "")),
+        clean(event.get("editorial", {}).get("meta_description", "")),
+    ])
+
+
+def exact_phrase_match(event, anecdote):
+    haystack = norm(event_context(event))
     for phrase in anecdote.get("match_phrases") or []:
         p = norm(phrase)
-        if p and p in title_and_summary:
+        if p and p in haystack:
             return True
     return False
 
@@ -75,7 +81,9 @@ def exact_phrase_match(event, anecdote):
 def score(event, anecdote):
     title = clean(event.get("title", ""))
     title_norm = norm(title)
+    context_norm = norm(event_context(event))
     title_terms = terms(title)
+    context_terms = terms(event_context(event))
 
     a_title = clean(anecdote.get("article_title", ""))
     a_text = clean(anecdote.get("text", ""))
@@ -83,29 +91,23 @@ def score(event, anecdote):
     a_title_terms = terms(a_title)
 
     s = 0
-
-    shared_title = title_terms & a_terms
-    shared_titles = title_terms & a_title_terms
-    s += len(shared_title) * 30
-    s += len(shared_titles) * 45
+    s += len(title_terms & a_terms) * 30
+    s += len(title_terms & a_title_terms) * 45
 
     for phrase in anecdote.get("match_phrases") or []:
         p = norm(phrase)
         if p and p in title_norm:
-            s += 150
+            s += 180
+        elif p and p in context_norm:
+            s += 140
 
     for group in THEME_GROUPS:
         if title_terms & group and a_terms & group:
-            s += 60
+            s += 80
+        elif context_terms & group and a_terms & group:
+            s += 65
 
-    context = " ".join([
-        clean(event.get("summary", "")),
-        clean(event.get("editorial", {}).get("seo_title", "")),
-        clean(event.get("editorial", {}).get("meta_description", "")),
-    ])
-    context_terms = terms(context)
     s += len(context_terms & a_terms) * 2
-
     return s
 
 
@@ -115,28 +117,18 @@ def load_anecdotes():
     if EXTRA_ANECDOTES.exists():
         extra = json.loads(EXTRA_ANECDOTES.read_text(encoding="utf-8"))
         entries.extend(extra.get("entries", []))
-    return [
-        a for a in entries
-        if isinstance(a, dict) and a.get("id") and a.get("text")
-    ]
+    return [a for a in entries if isinstance(a, dict) and a.get("id") and a.get("text")]
 
 
 def best_thematic_anecdote(event, anecdotes):
-    exact = []
-    for anecdote in anecdotes:
-        if exact_phrase_match(event, anecdote):
-            exact.append((score(event, anecdote), anecdote["id"]))
+    exact = [(score(event, a), a["id"]) for a in anecdotes if exact_phrase_match(event, a)]
     if exact:
         exact.sort(key=lambda x: (-x[0], x[1]))
         return exact[0][1], "exact"
 
-    ranked = sorted(
-        ((score(event, anecdote), anecdote["id"]) for anecdote in anecdotes),
-        key=lambda x: (-x[0], x[1]),
-    )
-    if ranked and ranked[0][0] >= 60:
+    ranked = sorted(((score(event, a), a["id"]) for a in anecdotes), key=lambda x: (-x[0], x[1]))
+    if ranked and ranked[0][0] >= 65:
         return ranked[0][1], "semantic"
-
     return None, "fallback"
 
 
