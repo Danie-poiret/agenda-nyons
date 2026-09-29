@@ -1159,7 +1159,7 @@ def sanitize_editorial_text(value: str) -> str:
 def official_fallback_notice(event, practical):
     """
     Si les infos pratiques importantes sont insuffisantes,
-    renvoie une phrase simple et utile vers la fiche officielle.
+    renvoie une simple précaution sans lien externe.
     """
     has_when = bool(clean(practical.get("date_time", "")))
     has_where = bool(
@@ -1171,8 +1171,8 @@ def official_fallback_notice(event, practical):
         return ""
 
     return (
-        "Pour les horaires, le lieu exact et les éventuelles conditions d’accès, "
-        "consultez la fiche officielle de l’événement sur le site de la Ville de Nyons."
+        "Les horaires, le lieu exact ou les conditions d’accès peuvent encore évoluer. "
+        "Vérifiez les informations avant de vous déplacer."
     )
 
 
@@ -1561,12 +1561,11 @@ def render_event_page(event, editorial, related_events=None, practical=None, ane
     {anecdote_section}
     <section class="section"><h2>ℹ️ Informations pratiques</h2>
       <p>{esc(editorial.get('practical',''))}</p>
-      <p class="official-note">🔗 <a href="{esc(event['url'])}" target="_blank" rel="noopener"><strong>Voir la fiche officielle de l’événement sur nyons.com</strong></a></p>
       {f'<p class="official-note"><strong>👉 À vérifier :</strong> {esc(source_notice)}</p>' if source_notice else ''}
     </section>
     <div class="question">💬 {esc(editorial.get('reader_question',''))}</div>
     {related_section}
-    <div class="source"><strong>Source factuelle :</strong> <a href="{esc(event['url'])}" target="_blank" rel="noopener">fiche officielle de l’événement sur nyons.com</a>. Le texte de cette page est une présentation éditoriale originale construite à partir des informations publiées. Les informations pratiques peuvent évoluer.</div>
+    <div class="source">DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0</div>
   </main>
 </body>
 </html>'''
@@ -1893,8 +1892,7 @@ def render_week_page(start: date, events, editorial):
             f'<small>{esc(MONTH_NAMES[event_start.month][:3].upper())}</small></div>'
         )
         local_exists = event_page_path(e).exists()
-        title_url = event_local_url(e) if local_exists else e["url"]
-        title_attrs = "" if local_exists else ' target="_blank" rel="noopener"'
+        title_url = event_local_url(e) if local_exists else f"{SITE}evenements/"
         local_cta = (
             f'<a class="official" href="{esc(event_local_url(e))}">Lire notre fiche <span aria-hidden="true">→</span></a>'
             if local_exists else ""
@@ -1903,13 +1901,10 @@ def render_week_page(start: date, events, editorial):
         <article class="event">
           {date_badge}
           <div class="event-content">
-            <h3><a href="{esc(title_url)}"{title_attrs}>{esc(e['title'])}</a></h3>
+            <h3><a href="{esc(title_url)}">{esc(e['title'])}</a></h3>
             <p class="date-line">📅 {esc(format_event_date(e))}</p>
             {cats_html}
             {local_cta}
-            <a class="official" href="{esc(e['url'])}" target="_blank" rel="noopener">
-              Source officielle <span aria-hidden="true">↗</span>
-            </a>
           </div>
         </article>
         """
@@ -2226,11 +2221,7 @@ def render_week_page(start: date, events, editorial):
       <p>{esc(editorial['conclusion'])}</p>
     </section>
 
-    <div class="source">
-      <strong>Source des dates et événements :</strong>
-      <a href="{BASE}" target="_blank" rel="noopener">agenda officiel de la Ville de Nyons</a>.
-      Les textes éditoriaux apportent une présentation complémentaire à partir des informations factuelles disponibles.
-    </div>
+    <div class="source">DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0</div>
   </main>
 </body>
 </html>
@@ -2434,18 +2425,14 @@ def render_weeks_index(weeks):
     <section class="hero">
       <div class="kicker">Sorties · animations · vie locale</div>
       <h1>Agenda de Nyons semaine par semaine</h1>
-      <p>Choisissez une semaine pour découvrir les événements annoncés à Nyons, avec une présentation claire et des liens vers les fiches officielles.</p>
+      <p>Choisissez une semaine pour découvrir les événements annoncés à Nyons, avec une présentation claire et des liens vers nos fiches détaillées.</p>
     </section>
 
     <section class="weeks">
       {''.join(cards)}
     </section>
 
-    <div class="source">
-      <strong>Source :</strong>
-      <a href="{BASE}" target="_blank" rel="noopener">Ville de Nyons — agenda officiel</a>.
-      Mise à jour automatique.
-    </div>
+    <div class="source">DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0</div>
   </main>
 </body>
 </html>

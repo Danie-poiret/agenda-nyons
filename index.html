@@ -226,12 +226,6 @@
 
     .event a:hover{text-decoration:underline}
 
-    .source-link{
-      color:var(--muted)!important;
-      font-weight:700!important;
-      font-size:.92rem;
-    }
-
     .more{
       text-align:center;
       margin-top:20px;
@@ -302,7 +296,7 @@
 
     <p>
       Chaque événement dispose de sa propre fiche avec les informations disponibles,
-      les dates, les détails pratiques et un lien vers la source officielle.
+      les dates et les détails pratiques.
     </p>
 
     <p>
@@ -399,13 +393,10 @@
   <footer>
     Agenda indépendant consacré aux événements de Nyons.<br>
 
-    Les informations sont notamment issues de
-    <a href="https://www.nyons.com/sorties-actus/agenda/" target="_blank" rel="noopener">
-      l’agenda officiel de la Ville de Nyons
-    </a>.<br>
+    DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0<br>
 
     Les horaires, tarifs et programmes pouvant évoluer,
-    vérifiez la fiche officielle lorsque cela est nécessaire.<br>
+    vérifiez les informations avant de vous déplacer.<br>
 
     Pour découvrir la ville, ses balades, son patrimoine et sa vie locale :
     <a href="https://www.vivreanyons.fr/">Vivre à Nyons</a>.
@@ -507,23 +498,8 @@ async function loadEvents(){
       const title = event.title || event.titre || event.name || "Événement à Nyons";
       const date = formatDate(event);
       const localUrl = localEventUrl(event);
-      const officialUrl = event.url || event.official_url || "";
-
       const card = document.createElement("article");
       card.className = "event";
-
-      let officialLink = "";
-
-      if(officialUrl){
-        officialLink = `
-          <a class="source-link"
-             href="${escapeAttribute(officialUrl)}"
-             target="_blank"
-             rel="noopener">
-            Source officielle ↗
-          </a>
-        `;
-      }
 
       card.innerHTML = `
         <div class="event-date">${escapeHtml(date)}</div>
@@ -538,7 +514,6 @@ async function loadEvents(){
           <a href="${escapeAttribute(localUrl)}">
             Lire notre fiche →
           </a>
-          ${officialLink}
         </div>
       `;
 
