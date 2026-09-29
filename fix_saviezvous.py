@@ -156,17 +156,12 @@ def main():
     assigned = {}
     assignment_kind = {}
 
-    # 1) Pour chaque fiche, on choisit d'abord la meilleure anecdote thématique.
-    # Une bonne anecdote thématique PEUT être réutilisée sur plusieurs fiches.
-    # Mieux vaut deux concerts avec un fait musical qu'un concert avec Eylau.
     for url, item, event in entries:
         anecdote_id, kind = best_thematic_anecdote(event, anecdotes)
         if anecdote_id:
             assigned[url] = anecdote_id
             assignment_kind[url] = kind
 
-    # 2) Seulement si aucune vraie correspondance n'existe : anecdote locale de secours.
-    # Les anecdotes de secours restent uniques autant que possible.
     thematic_ids = set(assigned.values())
     fallback_ids = [a["id"] for a in anecdotes if a["id"] not in thematic_ids]
     fallback_index = 0
@@ -230,6 +225,11 @@ def main():
         f"{counts.get('semantic', 0)} sémantiques, "
         f"{counts.get('fallback', 0)} secours."
     )
+
+    print("--- FICHES EN SECOURS ---")
+    for url, item, event in entries:
+        if assignment_kind.get(url) == "fallback":
+            print(f"FALLBACK | {item.get('slug', '')} | {clean(event.get('title', ''))} | {clean(event.get('summary', ''))}")
 
     for url, item, event in entries:
         slug = item.get("slug", "")
