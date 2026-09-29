@@ -1,0 +1,40 @@
+name: Correction Le saviez-vous
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "fix_saviezvous.py"
+      - ".github/workflows/fix-saviezvous.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fix-saviezvous:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Recalculer uniquement les Le saviez-vous
+        run: python fix_saviezvous.py
+
+      - name: Enregistrer uniquement les anecdotes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _event_seo_cache.json
+          git add evenements
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          git commit -m "Corrige les Le saviez-vous par semantique du titre"
+          git push
