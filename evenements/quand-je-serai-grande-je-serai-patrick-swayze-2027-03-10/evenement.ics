@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270310T200000
 DTEND;TZID=Europe/Paris:20270310T211000
 SUMMARY:Quand je serai grande\, je serai Patrick Swayze
 DESCRIPTION:Si les histoires d’amour ressemblaient aux contes de fées\, cela se saurait !\nhttps://agenda.vivreanyons.fr/evenements/quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10/
-LOCATION:
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10/
 END:VEVENT
 END:VCALENDAR

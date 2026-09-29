@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270317T180000
 DTEND;TZID=Europe/Paris:20270317T200000
 SUMMARY:Conférence de l’UNTL sur la domesticité\, entre servilité et fidélité

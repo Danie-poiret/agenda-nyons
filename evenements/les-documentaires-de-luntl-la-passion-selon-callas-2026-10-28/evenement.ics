@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20261028T183000
 DTEND;TZID=Europe/Paris:20261028T203000
 SUMMARY:Les documentaires de l’UNTL : « La Passion selon Callas »

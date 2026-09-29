@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:et-maintenant-jattends-2027-04-02@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270402T203000
 DTEND;TZID=Europe/Paris:20270402T213000
 SUMMARY:Et maintenant j’attends
 DESCRIPTION:Poésie vivante en accordéon\, violoncelle et voix\, avec Sabine Venaruzzo\, Daniel Mille et Eric Longsworth\, dans le cadre du Printemps des Poètes.\nhttps://agenda.vivreanyons.fr/evenements/et-maintenant-jattends-2027-04-02/
-LOCATION:
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/et-maintenant-jattends-2027-04-02/
 END:VEVENT
 END:VCALENDAR

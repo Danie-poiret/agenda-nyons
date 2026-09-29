@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:boite-a-cordees-2027-05-14@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270514T103000
 DTEND;TZID=Europe/Paris:20270514T152000
 SUMMARY:Boite à cordées
 DESCRIPTION:Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.\nhttps://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
-LOCATION:
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
 END:VEVENT
 END:VCALENDAR

@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:les-grands-chemins-2027-02-06@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270206T190000
 DTEND;TZID=Europe/Paris:20270206T200000
 SUMMARY:Les Grands Chemins
 DESCRIPTION:Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.\nhttps://agenda.vivreanyons.fr/evenements/les-grands-chemins-2027-02-06/
-LOCATION:
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/les-grands-chemins-2027-02-06/
 END:VEVENT
 END:VCALENDAR

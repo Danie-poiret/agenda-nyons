@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:concert-de-demi-mondaine-2026-10-09@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20261009T190000
 DTEND;TZID=Europe/Paris:20261009T220000
 SUMMARY:Concert de Demi Mondaine
-DESCRIPTION:Sortie de résidence de Demi Mondaine\, Mystic Gordon et Clément Bouet\nhttps://agenda.vivreanyons.fr/evenements/concert-de-demi-mondaine-2026-10-09/
-LOCATION:
+DESCRIPTION:Sortie de résidence de Demi Mondaine\, Mystic Gordon et Clément Bouet 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18°C / 18°C Contact Recherche Mentions légales\nhttps://agenda.vivreanyons.fr/evenements/concert-de-demi-mondaine-2026-10-09/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/concert-de-demi-mondaine-2026-10-09/
 END:VEVENT
 END:VCALENDAR

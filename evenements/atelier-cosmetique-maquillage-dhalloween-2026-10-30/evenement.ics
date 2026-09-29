@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-cosmetique-maquillage-dhalloween-2026-10-30@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20261030T143000
 DTEND;TZID=Europe/Paris:20261030T153000
 SUMMARY:Atelier cosmétique – Maquillage d’Halloween
-DESCRIPTION:Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.3°C / 22.3°C Contact Recherche Mentions léga\nhttps://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-30/
+DESCRIPTION:Atelier cosmétique atour de la création de maquillage pour Halloween\nhttps://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-30/
 LOCATION:Maison des Huiles d'Olives & Olives de France - — 40 place de la Libération\, 26110 Nyons
 URL:https://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-30/
 END:VEVENT

@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:landing-2027-04-23@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270423T203000
 DTEND;TZID=Europe/Paris:20270423T214000
 SUMMARY:Landing
 DESCRIPTION:Tomber n’est pas la fin du mouvement.\nhttps://agenda.vivreanyons.fr/evenements/landing-2027-04-23/
-LOCATION:
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/landing-2027-04-23/
 END:VEVENT
 END:VCALENDAR

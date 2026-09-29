@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:concert-de-rebecca-chaillot-2027-01-01@agenda.vivreanyons.fr
-DTSTAMP:20260928T175504Z
+DTSTAMP:20260929T074146Z
 DTSTART;TZID=Europe/Paris:20270101T170000
 DTEND;TZID=Europe/Paris:20270101T181000
 SUMMARY:Concert de Rebecca Chaillot
 DESCRIPTION:Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.\nhttps://agenda.vivreanyons.fr/evenements/concert-de-rebecca-chaillot-2027-01-01/
-LOCATION:
+LOCATION:Église Saint-Vincent — Nyons
 URL:https://agenda.vivreanyons.fr/evenements/concert-de-rebecca-chaillot-2027-01-01/
 END:VEVENT
 END:VCALENDAR
