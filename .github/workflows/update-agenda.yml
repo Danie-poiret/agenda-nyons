@@ -94,6 +94,9 @@ jobs:
               p.write_text(s, encoding="utf-8")
           PY
 
+      - name: Corriger uniquement les Le saviez-vous
+        run: python fix_saviezvous.py
+
       - name: Enregistrer les changements
         shell: bash
         run: |
