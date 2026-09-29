@@ -12,7 +12,7 @@ CACHE = ROOT / "_event_seo_cache.json"
 ANECDOTES = ROOT / "nyons_anecdotes.json"
 EXTRA_ANECDOTES = ROOT / "saviezvous_extra.json"
 EVENTS = ROOT / "evenements"
-VERSION = 4
+VERSION = 5
 
 STOPWORDS = {
     "administratif", "ancien", "ancienne", "apres", "atelier", "avec", "cadre",
@@ -121,6 +121,25 @@ def load_anecdotes():
     ]
 
 
+def best_thematic_anecdote(event, anecdotes):
+    exact = []
+    for anecdote in anecdotes:
+        if exact_phrase_match(event, anecdote):
+            exact.append((score(event, anecdote), anecdote["id"]))
+    if exact:
+        exact.sort(key=lambda x: (-x[0], x[1]))
+        return exact[0][1], "exact"
+
+    ranked = sorted(
+        ((score(event, anecdote), anecdote["id"]) for anecdote in anecdotes),
+        key=lambda x: (-x[0], x[1]),
+    )
+    if ranked and ranked[0][0] >= 60:
+        return ranked[0][1], "semantic"
+
+    return None, "fallback"
+
+
 def main():
     cache = json.loads(CACHE.read_text(encoding="utf-8"))
     anecdotes = load_anecdotes()
@@ -135,48 +154,33 @@ def main():
         entries.append((url, item, event))
 
     assigned = {}
-    used = set()
+    assignment_kind = {}
 
-    # 1) Correspondances explicites du titre/résumé : elles passent AVANT tout le reste.
-    # Exemple : street food/tacos -> anecdote sur le taco, pétanque -> pétanque.
-    exact_candidates = []
+    # 1) Pour chaque fiche, on choisit d'abord la meilleure anecdote thématique.
+    # Une bonne anecdote thématique PEUT être réutilisée sur plusieurs fiches.
+    # Mieux vaut deux concerts avec un fait musical qu'un concert avec Eylau.
     for url, item, event in entries:
-        for anecdote in anecdotes:
-            if exact_phrase_match(event, anecdote):
-                exact_candidates.append((score(event, anecdote), url, anecdote["id"]))
-    exact_candidates.sort(key=lambda x: (-x[0], x[1], x[2]))
+        anecdote_id, kind = best_thematic_anecdote(event, anecdotes)
+        if anecdote_id:
+            assigned[url] = anecdote_id
+            assignment_kind[url] = kind
 
-    for s, url, anecdote_id in exact_candidates:
-        if url in assigned or anecdote_id in used:
-            continue
-        assigned[url] = anecdote_id
-        used.add(anecdote_id)
+    # 2) Seulement si aucune vraie correspondance n'existe : anecdote locale de secours.
+    # Les anecdotes de secours restent uniques autant que possible.
+    thematic_ids = set(assigned.values())
+    fallback_ids = [a["id"] for a in anecdotes if a["id"] not in thematic_ids]
+    fallback_index = 0
 
-    # 2) Puis seulement les rapprochements sémantiques plus larges.
-    candidates = []
     for url, item, event in entries:
         if url in assigned:
             continue
-        for anecdote in anecdotes:
-            if anecdote["id"] in used:
-                continue
-            candidates.append((score(event, anecdote), url, anecdote["id"]))
-
-    candidates.sort(key=lambda x: (-x[0], x[1], x[2]))
-    for s, url, anecdote_id in candidates:
-        if s <= 0 or url in assigned or anecdote_id in used:
-            continue
+        if not fallback_ids:
+            fallback_ids = [a["id"] for a in anecdotes]
+            fallback_index = 0
+        anecdote_id = fallback_ids[fallback_index % len(fallback_ids)]
+        fallback_index += 1
         assigned[url] = anecdote_id
-        used.add(anecdote_id)
-
-    # 3) En dernier recours seulement : anecdote unique de Nyons.
-    remaining = [a["id"] for a in anecdotes if a["id"] not in used]
-    for url, item, event in entries:
-        if url in assigned:
-            continue
-        if not remaining:
-            break
-        assigned[url] = remaining.pop(0)
+        assignment_kind[url] = "fallback"
 
     section_re = re.compile(
         r'<section class="section anecdote"><h2>💡 Le saviez-vous \?</h2>.*?</section>',
@@ -184,11 +188,16 @@ def main():
     )
 
     changed = 0
+    counts = {"exact": 0, "semantic": 0, "fallback": 0}
+
     for url, item, event in entries:
         anecdote_id = assigned.get(url)
         anecdote = catalog.get(anecdote_id)
         if not anecdote:
             continue
+
+        kind = assignment_kind.get(url, "fallback")
+        counts[kind] = counts.get(kind, 0) + 1
 
         item["anecdote_id"] = anecdote_id
         item["anecdote_assignment_version"] = VERSION
@@ -215,6 +224,12 @@ def main():
 
     print(f"Le saviez-vous : {changed} fiche(s) mise(s) à jour.")
     print(f"Attributions recalculées : {len(assigned)}.")
+    print(
+        "Répartition : "
+        f"{counts.get('exact', 0)} exactes, "
+        f"{counts.get('semantic', 0)} sémantiques, "
+        f"{counts.get('fallback', 0)} secours."
+    )
 
     for url, item, event in entries:
         slug = item.get("slug", "")
