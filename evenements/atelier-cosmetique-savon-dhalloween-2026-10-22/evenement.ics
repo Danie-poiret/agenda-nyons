@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-cosmetique-savon-dhalloween-2026-10-22@agenda.vivreanyons.fr
-DTSTAMP:20260929T080913Z
+DTSTAMP:20260929T125248Z
 DTSTART;TZID=Europe/Paris:20261022T103000
 DTEND;TZID=Europe/Paris:20261022T113000
 SUMMARY:Atelier cosmétique – Savon d’Halloween
-DESCRIPTION:Atelier cosmétique sur le thème d'Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légales Politique de confiden\nhttps://agenda.vivreanyons.fr/evenements/atelier-cosmetique-savon-dhalloween-2026-10-22/
+DESCRIPTION:Atelier cosmétique sur le thème d'Halloween\nhttps://agenda.vivreanyons.fr/evenements/atelier-cosmetique-savon-dhalloween-2026-10-22/
 LOCATION:Maison des Huiles d'Olives & Olives de France - — 40 place de la Libération\, 26110 Nyons
 URL:https://agenda.vivreanyons.fr/evenements/atelier-cosmetique-savon-dhalloween-2026-10-22/
 END:VEVENT

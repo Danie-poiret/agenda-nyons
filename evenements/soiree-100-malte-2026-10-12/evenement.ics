@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:soiree-100-malte-2026-10-12@agenda.vivreanyons.fr
+DTSTAMP:20260929T125248Z
+DTSTART;TZID=Europe/Paris:20261012T190000
+DTEND;TZID=Europe/Paris:20261012T231000
+SUMMARY:Soirée 100% Malte
+DESCRIPTION:Le cinéma l’Arlequin vous propose une soirée spéciale 100% Malte !\nhttps://agenda.vivreanyons.fr/evenements/soiree-100-malte-2026-10-12/
+LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/soiree-100-malte-2026-10-12/
+END:VEVENT
+END:VCALENDAR

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-sur-les-rituels-funeraires-2026-10-16@agenda.vivreanyons.fr
-DTSTAMP:20260929T080913Z
+DTSTAMP:20260929T125248Z
 DTSTART;TZID=Europe/Paris:20261016T100000
 DTEND;TZID=Europe/Paris:20261016T120000
 SUMMARY:Atelier sur les rituels funéraires
-DESCRIPTION:Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.8°C / 20.8°C Contact Recherche Mentions légales Politique de confidential\nhttps://agenda.vivreanyons.fr/evenements/atelier-sur-les-rituels-funeraires-2026-10-16/
+DESCRIPTION:Dans le cadre de la Semaine Bleue 2026.\nhttps://agenda.vivreanyons.fr/evenements/atelier-sur-les-rituels-funeraires-2026-10-16/
 LOCATION:Maison des possilbes\, 16- — 18 rue Pierre Toesca - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/atelier-sur-les-rituels-funeraires-2026-10-16/
 END:VEVENT
