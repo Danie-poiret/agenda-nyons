@@ -41,8 +41,8 @@
     "generated_at": "2026-09-29T07:35:28.914875+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "41165ef029088e8e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-b01bbd9fa939877e",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/exposition-urbain-urbex/": {
     "hash": "6a191c96c63fbfdb176f2f8a5ed5d7db54f3c0c82e9d0c8e6a9003d5a36392ec",
@@ -79,8 +79,8 @@
     "generated_at": "2026-09-29T07:35:30.154538+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bee325c5add51e7a",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/la-vie-en-couleur-exposition-de-cecile-allex/": {
     "hash": "1e80af9bd15e65740eda2677c328e0e45089fc39fa960a69fa8ed53737a8b6a7",
@@ -116,8 +116,8 @@
     },
     "generated_at": "2026-09-27T13:33:08.267053+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-b31fadcfdb9de5de",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/": {
     "hash": "78e8f73f7d549c4c7db9dd5d80acdf58e6c023c20678bef0095f25f4afae046c",
@@ -155,8 +155,8 @@
     "generated_at": "2026-09-29T07:35:31.188716+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "52ad8a61ebe6d015",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-53a9b4bb84b17ee7",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-culinaire-street-food-party/": {
     "hash": "38d156fc516159036a2cffeaa415c7a538dc49728f82f4e9a81c1e5a2820f9d1",
@@ -192,8 +192,8 @@
     },
     "generated_at": "2026-09-26T23:41:35.715621+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "taco-histoire-smithsonian",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-2b7bdd04bd862772",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/comtessa-concert-de-samuel-cattiau-pierre-baillot/": {
     "hash": "4ad89e22db49756c836a58932655dc2cf15594cffb69410ee5c39c16e09970a1",
@@ -229,8 +229,8 @@
     },
     "generated_at": "2026-09-26T23:41:35.972389+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-b5aff73256183121",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/ceremonie-de-cacao/": {
     "hash": "76995a942452acac298d9fb4b625a7d258682487781476b727a1166c109f07bb",
@@ -265,8 +265,8 @@
     },
     "generated_at": "2026-09-26T23:41:36.251902+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "cacao-maya-smithsonian",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-57b3361a8695c50e",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/distribution-gratuite-de-compost-2/": {
     "hash": "81cfd4d5393c7a7380b671f3a56fe0bf785e60371834b131a205dfad028b9483",
@@ -301,8 +301,8 @@
     },
     "generated_at": "2026-09-26T23:41:36.251974+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "compost-ademe",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-0b61c2d27a54a1fa",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/impro/": {
     "hash": "f8a53a36bd7f8418d6ee0c73ca6a69485c91e86acf50d6356741b824d94ec88d",
@@ -338,8 +338,8 @@
     },
     "generated_at": "2026-09-26T23:41:37.214503+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-889ca30b4e5f2771",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/marche-pour-le-climat/": {
     "hash": "62fb4cf8e4ca4d2a98d003dda5dad52b234e129a9ecda3607be0f8cdcf783cd9",
@@ -375,8 +375,8 @@
     },
     "generated_at": "2026-09-26T23:41:37.453035+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "0d2c0056463943e2",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-3aefaa89e54c58ee",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/une-ruche-dans-mon-jardin/": {
     "hash": "5fe7906e5815c3408f8dd1df81bc7a35411f229c7d04c73e3f10acc5e55629b0",
@@ -419,8 +419,8 @@
     },
     "generated_at": "2026-09-26T23:41:37.700939+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "c44dafda09c3487e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-7d1f8deb29ddd5e6",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/lectures-animees-6/": {
     "hash": "5978f38a91864848e90bfc3f7460eafb50add296c6b15464f6b429934b2db8ff",
@@ -457,8 +457,8 @@
     },
     "generated_at": "2026-09-28T17:53:39.785356+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-8f0e8bacee36efbd",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/soiree-100-agriculture-viticulture/": {
     "hash": "75618a959ea9bb69f173152aaf0cf7547712ff23a9cf6f05b44f219486c36088",
@@ -494,8 +494,8 @@
     },
     "generated_at": "2026-09-28T17:53:39.785420+00:00",
     "model": "gpt-5.6-terra",
-    "anecdote_id": "41165ef029088e8e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-81afb5c4d7b57088",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-lactofermentation/": {
     "hash": "a3b2168ec83e3cc42015603f5f3144a8dc43e80c40463de5973b3823a6b11522",
@@ -534,8 +534,8 @@
     "generated_at": "2026-09-29T07:35:31.643831+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "taco-histoire-smithsonian",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-dc22f3a80e499780",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/dedicace-francoise-bourdon/": {
     "hash": "bf02f0a3ae2a807049d1d7cfbdbcace513931a4cdaaa755869965ab1ad279f12",
@@ -572,8 +572,8 @@
     "generated_at": "2026-09-29T07:35:32.056259+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-8040616e8812d56c",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/concert-bouda-omg/": {
     "hash": "4d636014885a8443eeb62bf19ec1c39f6f3a2d66f09b80bb6c0576457cd2cee0",
@@ -610,8 +610,8 @@
     "generated_at": "2026-09-29T07:35:32.464120+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-3a7bcbe99787f389",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/grande-braderie/": {
     "hash": "d03dd62512a7914a22bf9811234eea8c0e8c3fd8373b1c3800398563be6c8c2f",
@@ -648,8 +648,8 @@
     "generated_at": "2026-09-29T07:35:32.866530+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "f8825bc36884bad6",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-3bc5cf29a9e48ef8",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/": {
     "hash": "feae1144893e62e5ec0af939d6b9407b1055cf1a1d9e131e131a3481b3709843",
@@ -688,8 +688,8 @@
     "generated_at": "2026-09-29T07:35:33.270474+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "0a0a151b887c9cac",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c6d96cc07ce0bbdc",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/": {
     "hash": "5383611239484261359c1bcbc6bc551a101fd6084d3251ba777eb108b9eb8186",
@@ -733,8 +733,8 @@
     "generated_at": "2026-09-29T07:35:42.140134+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "taco-histoire-smithsonian",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-39811478bb777ab4",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/constellations-familiales/": {
     "hash": "2f823e627ef47eab5f9ecbf9b6290816560b67d482622cfe7d049873e3717458",
@@ -770,8 +770,8 @@
     "generated_at": "2026-09-29T07:35:43.065443+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "histoire-familiale-francearchives",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-48a35ef4763c0061",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/": {
     "hash": "0b812fc8a5faf51f29ba52b8909f4f8e4a5ddd21dcaf0e33ed7647139d1d9e9b",
@@ -807,8 +807,8 @@
     "generated_at": "2026-09-29T07:35:56.976093+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "funeraire-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-09202f0f89e2d548",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-le-gres-turonien-de-venterol-le-debut-du-role-de-la-maree-il-y-a-94-ma/": {
     "hash": "b5020b29e863db2f58d01577945c5a1c7e7fc4cb2fab153831e15d0fbb56a375",
@@ -846,8 +846,8 @@
     "generated_at": "2026-09-29T07:35:58.017877+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "glaciation-ordovicienne",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c7feb5455909ee19",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/": {
     "hash": "47986defd1e49d1a6a3d85751045e486ceddad94ec77cb27677d29e1dae7c667",
@@ -885,8 +885,8 @@
     "generated_at": "2026-09-29T07:35:59.054791+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "theatre-populaire-nyonsais",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-94ae673ecd024207",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/a-vos-cartes-prets-jouez/": {
     "hash": "6d923ef1e85d2fb5148324a24d59fdcb50c159bfbdde8efd05118844c79c1dca",
@@ -924,8 +924,8 @@
     "generated_at": "2026-09-29T07:35:59.470972+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jeux-societe-british-museum",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-a1301ff8cfa48a70",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-culinaire-gnocchis/": {
     "hash": "a5255c52e9b0ed45994b7a462f0de3bf7d9d72ae032358056e8676fd581c14e1",
@@ -964,8 +964,8 @@
     "generated_at": "2026-09-29T07:36:00.364217+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "669d572062aac162",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-2c510e5e446a57de",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/linstant-papillon-2/": {
     "hash": "425593d1c5aaa259db489a7e249ee71aaadb399f6c19db295783576e8f639e28",
@@ -1001,8 +1001,8 @@
     "generated_at": "2026-09-29T07:36:01.560693+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "sante-mentale-oms",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-97a494ce2e5ca4c5",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale/": {
     "hash": "e6edec7ee99aec22cb3ca181d435ead280b5f4aab7fad91e7f56345f60357d70",
@@ -1038,8 +1038,8 @@
     "generated_at": "2026-09-29T07:36:01.994757+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "sante-mentale-oms",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-25fba576ee271c88",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/": {
     "hash": "a4da00ff004b4fd991c6fc98416352d6b6cb95622e30999e38c310e159e49496",
@@ -1075,8 +1075,8 @@
     "generated_at": "2026-09-29T07:36:09.080132+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-92bdd37650e8ba95",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/concert-de-demi-mondaine/": {
     "hash": "4d12ee1f13c4ff1fd9afe28401435234bfee97d15d057c3d7053e01115a70dad",
@@ -1120,8 +1120,8 @@
     "generated_at": "2026-09-29T07:36:18.963123+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-ba0a97ffc36a55bb",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/lectures-par-la-marpa-de-remuzat-et-antoine-picard/": {
     "hash": "e73311b11e47d763bbd7f38d4924db04de951682b216af92ce243489074d73f8",
@@ -1159,8 +1159,8 @@
     "generated_at": "2026-09-29T07:36:19.466278+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-f3c059b892a88370",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/4-seasons-jam/": {
     "hash": "fec8f3e2775bdd6333bd7b533d6a05efb4d6c85c4a71566d8c7d2fa783292f34",
@@ -1198,8 +1198,8 @@
     "generated_at": "2026-09-29T07:36:20.407862+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "vtt-uci",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-b1ab408b15bc74d7",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-jardin-zen/": {
     "hash": "2824a85286e04f8779edbb530735283750dc177c5e8cf1511f8e402cb68e5e9a",
@@ -1238,8 +1238,8 @@
     "generated_at": "2026-09-29T07:36:21.352509+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c44dafda09c3487e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-afcd3ee9ffd842dc",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-4/": {
     "hash": "03e538a3a33a2b8d1b22d895d506e8f514f15422c1e61fa105d54192f40d17e7",
@@ -1277,8 +1277,8 @@
     "generated_at": "2026-09-29T07:36:33.464404+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-f38fde0f27b260f1",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes/": {
     "hash": "8cdd502f4436191e37c41b2e11effcbd6c1cf27b94694b2f0c34ba4ea022ee16",
@@ -1314,8 +1314,8 @@
     "generated_at": "2026-09-29T07:36:34.461043+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "directives-anticipees-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-4dfe00718b6fd2d3",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/constellations-familiales-2/": {
     "hash": "e45543f9235a719690a5f7a3d114bfb3d1d932bda2de81409760f9a8e6b07208",
@@ -1351,8 +1351,8 @@
     "generated_at": "2026-09-29T07:36:35.334774+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "histoire-familiale-francearchives",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-cb1cd859670d6216",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/": {
     "hash": "9e1708ca73d22cdde1ddd21ac264478ed7336f34ba734f7c59dcbe1a118a4d00",
@@ -1396,8 +1396,8 @@
     "generated_at": "2026-09-29T07:36:41.557280+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "glaciation-ordovicienne",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-2174858034b58023",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/journee-decouverte-materiautheque/": {
     "hash": "32390aba6e5bf63b0bec7e315617d3a0c25512f1c1594cef6ebeca98de946c64",
@@ -1434,8 +1434,8 @@
     "generated_at": "2026-09-29T07:36:50.892005+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "4d4deefdb9a8c35d",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-9eba973409dba167",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/reprise-des-ateliers-yoga-du-chant/": {
     "hash": "1b57d367800a95dda9ee4f78f80b5db774dbef1531acb80216d0b4eb2eecccec",
@@ -1473,8 +1473,8 @@
     "generated_at": "2026-09-29T07:36:51.876643+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-e5377e6e90309781",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/samedi-ca-me-dit-3/": {
     "hash": "daec19a8dbc4b42c6609fe540321d4ee78ba28d6025a7dfddeb063a53ef0fcad",
@@ -1512,8 +1512,8 @@
     "generated_at": "2026-09-29T07:36:58.621454+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c44dafda09c3487e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-511f84b4970b1abc",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/spectacle-papillon-noir/": {
     "hash": "b3b46a3747fcb3f18865f0a1bb8bdfea67e2d67d69e16aa7ee94c826b0dc6840",
@@ -1549,8 +1549,8 @@
     "generated_at": "2026-09-29T07:36:59.558809+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-f26dce2029f541ee",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/cine-debat-sur-ladamant/": {
     "hash": "b288466feea865a611725d24b94aa131e7cbcb22d99dfebe2787e59eb2ba51fd",
@@ -1588,8 +1588,8 @@
     "generated_at": "2026-09-29T07:37:00.493185+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "sante-mentale-oms",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-3a086171ebd9d26b",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/cocktail-dimpro-2/": {
     "hash": "440a88d53b84637a7db2ace420466f3d65fbe0f37b946d5a53d1e60c0e44b032",
@@ -1626,8 +1626,8 @@
     "generated_at": "2026-09-29T07:37:09.253683+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-2fd852434d66bf7f",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/": {
     "hash": "45c46ee4c105ad4d3d6615856aa80b85d982e8982c8c5364cb30615f79096d06",
@@ -1664,8 +1664,8 @@
     "generated_at": "2026-09-29T07:37:09.775395+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c1c25c903589fbaf",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/": {
     "hash": "2945f47bd8eb724d9a1142fb1b992d88401f6b9092512d5091a50ead191af849",
@@ -1699,8 +1699,8 @@
     "generated_at": "2026-09-29T07:37:10.794719+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "0a0a151b887c9cac",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-1f510159003482d3",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/": {
     "hash": "3e44e0e821de4d3ca9fc89420ef876f5df767fc0dc807fc89b7d7dd895c720fc",
@@ -1736,8 +1736,8 @@
     "generated_at": "2026-09-29T07:37:11.742067+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "directives-anticipees-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bac864a579008bb5",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/": {
     "hash": "d5ad8aba3799ebea42e24b94ec3fe4d2c91d6acef74c03e2fd896795904dfc78",
@@ -1774,8 +1774,8 @@
     "generated_at": "2026-09-29T07:37:12.620232+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "41165ef029088e8e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c3c3343942ee2e74",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel/": {
     "hash": "48a3685a61011afa7ea4b5b32cdecafb8a217aa316fe44c07776866d878542eb",
@@ -1813,8 +1813,8 @@
     "generated_at": "2026-09-29T07:37:13.035940+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "maria-callas-opera",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-26ca1a023c5c41dc",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/stands-sur-la-sante-mentale-et-mad-pride/": {
     "hash": "4a3230a25ad6fe502724976482b8057cdda637f5bb2b3316453dacde664365ae",
@@ -1851,8 +1851,8 @@
     "generated_at": "2026-09-29T07:37:19.626130+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "sante-mentale-oms",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-ce211b831b12aed5",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-sur-les-rituels-funeraires/": {
     "hash": "56ed9e5e4dbfb722d3180277444be848fe84f432bd95da4c861091c361d363c4",
@@ -1889,8 +1889,8 @@
     "generated_at": "2026-09-29T07:37:27.833971+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "funeraire-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bd926c8856ad8870",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/soiree-de-presentation-de-nyons-en-scene/": {
     "hash": "7e83332486639daec545bb77d0939ca154ed0ce229c359889691e091abaab207",
@@ -1934,8 +1934,8 @@
     "generated_at": "2026-09-29T07:37:34.992295+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c42cce34bf83a725",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-dart-therapie/": {
     "hash": "11cf1876516e79865e919bda8c2fc8f1e9f2915f72421f8feaa84f4d482ee020",
@@ -1973,8 +1973,8 @@
     "generated_at": "2026-09-29T07:37:36.019983+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "sante-mentale-oms",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-5ee072a52536a9fe",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/": {
     "hash": "ce027d57683800cab2dce5cf921c4a8204bd2c58a5d64db83eb65531745964c1",
@@ -2011,8 +2011,8 @@
     "generated_at": "2026-09-29T07:37:44.364969+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "41165ef029088e8e",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-6bd0a703b9a1fb2a",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/": {
     "hash": "ed1e314dbd45c8306134d3d8252ba6dfff80356a66d506ee66e5b902f8e130fb",
@@ -2050,8 +2050,8 @@
     "generated_at": "2026-09-29T07:37:45.333235+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "6ed7ae4325aed23d",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-e0e210c1307a075f",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/trail-de-nyons-et-baronnies/": {
     "hash": "e561f0a9f383cfeddfb74dd0773d66e15627040b32cd6da10295721eef862932",
@@ -2088,8 +2088,8 @@
     "generated_at": "2026-09-29T07:37:46.272574+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "fac82303b205d96d",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c41f704ec61190a9",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/loto-dasoft-nyons-numerique/": {
     "hash": "09bcd02751ff9c18b497e8b9bd1ece2a24323f5a0035ca64ec7726979c02f386",
@@ -2125,8 +2125,8 @@
     "generated_at": "2026-09-29T07:37:46.737990+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "loto-associatif-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-2a91743de9998547",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis-2/": {
     "hash": "985a30284e3159b394d033c122c9a301278daeb0193882079e8eb604368b0996",
@@ -2164,8 +2164,8 @@
     "generated_at": "2026-09-29T07:37:47.540760+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "theatre-populaire-nyonsais",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-7db1aab088768012",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/": {
     "hash": "89cb258e6d39954f39b75e4f49c7323b2585f6eb39f6f3d3929a6f2891da4805",
@@ -2203,8 +2203,8 @@
     "generated_at": "2026-09-29T07:37:47.955395+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-436e63f6ae0f5a75",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conseil-municipal-4/": {
     "hash": "14a9fe36fc203a94ef3093983889e85df6ef9694d66722e2a6e98ed5934b7a1f",
@@ -2240,8 +2240,8 @@
     "generated_at": "2026-09-29T07:37:54.937621+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "dfb575d4650747ac",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-dcfc5dce6c286ff4",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/": {
     "hash": "379522623951e2e54a777db566428faaaf688dc4bd1ef5ff732ac91473060a0c",
@@ -2285,8 +2285,8 @@
     "generated_at": "2026-09-29T07:38:03.185205+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "7325e176cf02cfec",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-35f0fc45bf15941d",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/": {
     "hash": "c5c38150ce25cd7d1ebf32d3cba18deb8a8ef04c0d7b6d1026fbd14033aad731",
@@ -2323,8 +2323,8 @@
     "generated_at": "2026-09-29T07:38:11.208164+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "cosmetiques-dgccrf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-cda64f7f8f48babd",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/": {
     "hash": "51828ebfec1443d4a5dcd4d4e662463b5c3c6d7e7322331e6286e9378067f6b9",
@@ -2361,8 +2361,8 @@
     "generated_at": "2026-09-29T07:38:17.980815+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-797450e366b5badd",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/journees-jeux-de-societe/": {
     "hash": "64b2cba66c33e111bb827a61ce4a6a0ebbf29e9176ac2fc52a48eff193efdfc1",
@@ -2400,8 +2400,8 @@
     "generated_at": "2026-09-29T07:38:18.908764+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jeux-societe-british-museum",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-4401ea76acb58605",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/": {
     "hash": "beb28e71f4fdf9c6b0249bfa5fc1b4953b73ade31ccb7685d2790055c0d97313",
@@ -2441,8 +2441,8 @@
     "generated_at": "2026-09-29T07:38:19.323041+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jeux-societe-british-museum",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-6f2119f88e4df200",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/": {
     "hash": "66398b41f4f95154e76126badb5cfade53ce93622579c7db18cdda0c744280bf",
@@ -2479,8 +2479,8 @@
     "generated_at": "2026-09-29T07:38:19.744251+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "cosmetiques-dgccrf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-8ae41beaedbe6e25",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/": {
     "hash": "60240930421189b9719aa15e7ad2854029643db51f7ce6f3626b0064ed04fd03",
@@ -2518,8 +2518,8 @@
     "generated_at": "2026-09-29T07:38:20.600887+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "maria-callas-opera",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-51a898b5c50cde6a",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/": {
     "hash": "ccac933b1ca121049b3075b304e34b26f8ab0df7db4ce4142c4f3bb34efd7143",
@@ -2556,8 +2556,8 @@
     "generated_at": "2026-09-29T07:38:21.463672+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "cosmetiques-dgccrf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bb1a531c37569c1f",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/": {
     "hash": "717b8d8d474a794e5b62a902a5158f4e6865db334a350d0e9d8f3efdaf9d5851",
@@ -2596,8 +2596,8 @@
     "generated_at": "2026-09-29T07:38:22.440825+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "669d572062aac162",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-1b0c77f8c91122f1",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/": {
     "hash": "6350398b3928c783999102c7cdab904ecfb275cbd4e4cc5fd49c27ddff596745",
@@ -2634,8 +2634,8 @@
     "generated_at": "2026-09-29T07:38:30.953273+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "cosmetiques-dgccrf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c60aa899e73f4615",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/": {
     "hash": "241aec254d0feefb50086c0ca61ca847d5bbacb374183863809738a3caceb199",
@@ -2679,8 +2679,8 @@
     "generated_at": "2026-09-29T07:38:38.297289+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "669d572062aac162",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-9fe786c12a1b4309",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/": {
     "hash": "79a81e450e6a37f03980f35df31556949bd9d08ac4c6348438148dbaf9c7a370",
@@ -2716,8 +2716,8 @@
     "generated_at": "2026-09-29T07:38:46.133166+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "loto-associatif-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-e244048a90a045aa",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/droles-de-coincidences-2/": {
     "hash": "963dec2dee8a0b32eb787251721f1e225b99ee7a0e061c786ac2b1258ec565e7",
@@ -2754,8 +2754,8 @@
     "generated_at": "2026-09-29T07:38:53.403107+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-ac4263db99659745",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/": {
     "hash": "ba1dac3968e5b278bcfab2d9877329c96f22046b9992566e815d7e26b9f7fee7",
@@ -2793,8 +2793,8 @@
     "generated_at": "2026-09-29T07:38:54.391916+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "liban-france-diplomatie",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-5a31246fd27ce272",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/opera-follies/": {
     "hash": "bbce93549ce9a85fd694ad7bc1144e87ba1c5df8c652d4e3c28edba399a20e15",
@@ -2831,8 +2831,8 @@
     "generated_at": "2026-09-29T07:38:54.815061+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "maria-callas-opera",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-5df9f82934552f7c",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/la-femme-moustique/": {
     "hash": "949f5d03433f62a4a173dd4aefa01a87cb161c9a41e1de3822263b8d138488ce",
@@ -2869,8 +2869,8 @@
     "generated_at": "2026-09-29T07:38:55.983460+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-707eca5666d1f17b",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/": {
     "hash": "130c43e1db2daeee2c9a82b2b1623a9a815c97268b14fe16f9c124705be105a5",
@@ -2908,8 +2908,8 @@
     "generated_at": "2026-09-29T07:38:56.910828+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-ab43ba755d55faf1",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/": {
     "hash": "692799490411f5fd0433c61ef36534308899a640a43f9fe729472b9aeab09796",
@@ -2945,8 +2945,8 @@
     "generated_at": "2026-09-29T07:38:57.846144+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "unafam-1963",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-3a8edccdc992f3c0",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/petits-crimes-conjugaux/": {
     "hash": "58064522254519e74b21ced42e393f54ff60efe19ceb445d275c69f86ebc4c4b",
@@ -2983,8 +2983,8 @@
     "generated_at": "2026-09-29T07:38:58.810995+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-e2fb125bf3702690",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/puces-des-couturieres/": {
     "hash": "a5b3df7b2869a6c9a63283dae4c3fc08e5762a1067aeebec2a5ddec988be0729",
@@ -3022,8 +3022,8 @@
     "generated_at": "2026-09-29T07:39:07.563749+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "couture-soie-nyons",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-f5fe9c2a61c8cd40",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/": {
     "hash": "db52d65a7c8b45bd1b927c3313090f712ea6c92d3ee144a89abd0a1b172dda5e",
@@ -3067,8 +3067,8 @@
     "generated_at": "2026-09-29T07:39:15.693178+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "corbeaux-intelligence-mnhn",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-23fe54e7158f0d32",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/salon-vivre-ici/": {
     "hash": "633b3aa00cfc7e29cf9c5bb17d76a88d09e10c1d5532eb6078c85d8d9c975e07",
@@ -3106,8 +3106,8 @@
     "generated_at": "2026-09-29T07:39:26.007824+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "salon-vivre-ici-demographie",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-b10fb9e79385063f",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/": {
     "hash": "d67ea97828bf00ee179fa42f56f3a2948b2749dc441b4eb73ae5b3a632be0003",
@@ -3144,8 +3144,8 @@
     "generated_at": "2026-09-29T07:39:35.915452+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c9295bbece0fa21a",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/": {
     "hash": "c8cc7f609962675848ae069bb99e5afb04b1bc5239503fb985a67a1e6eea6343",
@@ -3181,8 +3181,8 @@
     "generated_at": "2026-09-29T07:39:36.967550+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "loto-associatif-service-public",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-d30e632375cadf3f",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-turlupinades/": {
     "hash": "f8ce0873c01c6db5b74e7822981a755eca35af92dd7560dff609d41a57167053",
@@ -3219,8 +3219,8 @@
     "generated_at": "2026-09-29T07:39:38.500233+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-657fd780903c7490",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/telethon-2026/": {
     "hash": "aaa48be4dd4e7b54a0ec55fb5c16230135410a79cac5a280d5f61a6a4cf35ce6",
@@ -3256,8 +3256,8 @@
     "generated_at": "2026-09-29T07:39:39.597643+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "telethon-1987",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-267f921fff1703a0",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/": {
     "hash": "d239a51079bc6769007706accb0a8732bebad32f7312f8d1c6c1cd23fc000165",
@@ -3295,8 +3295,8 @@
     "generated_at": "2026-09-29T07:39:40.021689+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "3cd80e113870c9d8",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-1a1473b8ff47e0cc",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/": {
     "hash": "ad3bcf32c9addec2deb883f20f5b7df154431275bcad405da27347459dde39d3",
@@ -3334,8 +3334,8 @@
     "generated_at": "2026-09-29T07:39:41.076526+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-3c5bf9382e82450f",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/cher-edouard/": {
     "hash": "0c354024583d940851f2c549c6e82c1fc415af4ab4f40206418c29aba18771e7",
@@ -3372,8 +3372,8 @@
     "generated_at": "2026-09-29T07:39:51.976675+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-f08bb8e23f3af137",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/": {
     "hash": "bbe73263bd5d9f0846f6ccac6460f8393266d22e4d8614acb3e88ef679702507",
@@ -3417,8 +3417,8 @@
     "generated_at": "2026-09-29T07:39:59.686688+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "cb2cb11268a39180",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-d2aa63f2fa04d2db",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/": {
     "hash": "2b0a19665ab5945b8ac599197cf098567c7dd85fc351ed0c54c4fc9d4bf1baac",
@@ -3455,8 +3455,8 @@
     "generated_at": "2026-09-29T07:40:07.583706+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-95e1451c7571d443",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/": {
     "hash": "386e9735ce7ed54287efab1cba7fba6a8a9f3938378d8840a24fde47f8e41806",
@@ -3493,8 +3493,8 @@
     "generated_at": "2026-09-29T07:40:17.252349+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-7d7d7c7da9f49b8e",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/": {
     "hash": "a7d67759d5110a05b6c9cea2c15fb2460ed10edc1c5db4e13592dcbe07ae685d",
@@ -3531,8 +3531,8 @@
     "generated_at": "2026-09-29T07:40:18.269506+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-96f581e325a1a7c7",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/": {
     "hash": "e4d244c72380e2d258842b28540407e551373fede3bf821f8e223c05571a878f",
@@ -3570,8 +3570,8 @@
     "generated_at": "2026-09-29T07:40:19.146406+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b5ccb959cf1446cf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-269afdafaeee61e3",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/": {
     "hash": "c947b14c5a1aa5adf6cf08e30bf0d7f85556c5d3a14c39273e23713ab3aadd92",
@@ -3608,8 +3608,8 @@
     "generated_at": "2026-09-29T07:40:20.063524+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "sante-mentale-oms",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-37d9e2202158cce4",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/": {
     "hash": "ec0381ed8664d2ac9f237ca2525edb44e2b1d38e5206c900c1d2cab844a43a87",
@@ -3647,8 +3647,8 @@
     "generated_at": "2026-09-29T07:40:20.912691+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-ed87994327594778",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/": {
     "hash": "4e9e3b9b7ff27c6707885dbd5c9bac25860d160801bdda9cd36bd7d285cf207e",
@@ -3686,8 +3686,8 @@
     "generated_at": "2026-09-29T07:40:21.351417+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-465b113e134c97d5",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/": {
     "hash": "0e8bc378d69292016572d1995a005471f734ca0efdff4f7fcbc1b77ffab76319",
@@ -3725,8 +3725,8 @@
     "generated_at": "2026-09-29T07:40:22.127839+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "aa93b6fe1e839179",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-a1da70ef103de740",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/": {
     "hash": "b957d9962587a4f8efe846fa85ce08d1ca6c7a33b0fbdee6bb8650b0fdd062af",
@@ -3763,8 +3763,8 @@
     "generated_at": "2026-09-29T07:40:23.021401+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-040dd075bdccc540",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/": {
     "hash": "07a35cae41299d4112d2f0e838374f1dd2408cb131c7549960fde8c135cd6c52",
@@ -3808,8 +3808,8 @@
     "generated_at": "2026-09-29T07:40:32.551804+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "0a0a151b887c9cac",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-26523a76291acc2e",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/": {
     "hash": "5a42ee3c097d3b4a299c47a79b26c8c06a6d0699baff789ceabaa57a13b47148",
@@ -3847,8 +3847,8 @@
     "generated_at": "2026-09-29T07:40:40.238332+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "847301a0f3e3e001",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-16106076c6af62ae",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/les-grands-chemins/": {
     "hash": "c6ec8228feca52205bb0bb2c2487198efaea4b5910824addc9252eee0b7be25f",
@@ -3885,8 +3885,8 @@
     "generated_at": "2026-09-29T07:40:50.133883+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "0ab0f2c7eb76267b",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-868ca398db82fd41",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/": {
     "hash": "8c4943d202c47ed408bbddb36b195d6724aa92c3b826826aa0ffdf900ac8cc0a",
@@ -3924,8 +3924,8 @@
     "generated_at": "2026-09-29T07:40:51.256650+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-49fd96ad768b36cd",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/": {
     "hash": "e7d37c260c99aa140dc4e50873a1f0e38a3a39fa0c15eae1e8d971fd636e15e2",
@@ -3962,8 +3962,8 @@
     "generated_at": "2026-09-29T07:40:51.256803+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bddc65b24154fcac",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/": {
     "hash": "7fc8feac7941019fd26f84ab3ecd96b07ce2b0c4f279b4c718addc3251a25d15",
@@ -4000,8 +4000,8 @@
     "generated_at": "2026-09-29T07:40:52.223075+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "f8825bc36884bad6",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-8ecc1bdd817ab5a4",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/": {
     "hash": "03940769ae9758302b62d708338b47e76ac520719e0782b480f80c9910429d1f",
@@ -4039,8 +4039,8 @@
     "generated_at": "2026-09-29T07:40:53.142653+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-4fdd9b13930ac555",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/": {
     "hash": "282395cfb18bd07ab9e0b3119f823bac3e4f5d7fa27eb48929702b812a770467",
@@ -4078,8 +4078,8 @@
     "generated_at": "2026-09-29T07:40:53.994857+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "1231f32682cd8b70",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-764c4880dcd4efe3",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/": {
     "hash": "c4fc5569689d855e104261dbc6424d6762550ba46606efbe62ea851eb5dbd3a8",
@@ -4117,8 +4117,8 @@
     "generated_at": "2026-09-29T07:40:54.861121+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "domesticite-musee-orsay",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-9c4fb8306115a6c9",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/au-nom-de-lamour/": {
     "hash": "577b84dfcb13dd4477e92cee03b032b795c9541a92ef06593602c65cf4fe99ab",
@@ -4155,8 +4155,8 @@
     "generated_at": "2026-09-29T07:41:06.581183+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "c187ca9793b6db41",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-dd90197efbd680c0",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/": {
     "hash": "ab64f39146cd678486cc9aa0ab8ae102da4f2900533e6ef05a78f54afe055bec",
@@ -4200,8 +4200,8 @@
     "generated_at": "2026-09-29T07:41:15.232600+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "glaciation-ordovicienne",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-71b70ed51ac49ffd",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/": {
     "hash": "98e0e5dea44434396d5c7fc5260acf06795b7e316c6c28a2c23bab33b908a4fe",
@@ -4239,8 +4239,8 @@
     "generated_at": "2026-09-29T07:41:23.931585+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-58027b0391c2af0d",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/et-maintenant-jattends/": {
     "hash": "7584558771f983aad63f3524bcfadb8266dff38e9c66c4f286fa9879f6f11ba1",
@@ -4277,8 +4277,8 @@
     "generated_at": "2026-09-29T07:41:31.774075+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "b4d3bb779a739ea9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-17b6022fa45d76d7",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/": {
     "hash": "f25547bd0dbab4e85d2d97e378bcb1f38f88a35eb9c4b546f1c20da301482f8a",
@@ -4316,8 +4316,8 @@
     "generated_at": "2026-09-29T07:41:32.775211+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "8671cd4311510f3a",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-ba9ef9472cf3e773",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/": {
     "hash": "f251a361ccc9c551394fa176419862268b686bf8efbd3797885fa9a160e053f9",
@@ -4355,8 +4355,8 @@
     "generated_at": "2026-09-29T07:41:33.925995+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-e0e7e7cb8ec71077",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/landing/": {
     "hash": "6da32a35011afa24be8a18d61b807e47ca95c877c3213b0111220d4ecf7ecbb8",
@@ -4393,8 +4393,8 @@
     "generated_at": "2026-09-29T07:41:34.953456+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "danse-moderne-unesco",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bc1fae197d91eee5",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/": {
     "hash": "9ea15646d0b8e9ec879342bc032f8fc03e8c395a625206519a7ae6af54a2e313",
@@ -4432,8 +4432,8 @@
     "generated_at": "2026-09-29T07:41:35.808162+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "1231f32682cd8b70",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-1231f32682cd8b70",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/": {
     "hash": "e44e9f88e3605fe5eb1012af4e09d01a674a58e2f2c3ba11e0f35b598ce6cb1b",
@@ -4471,8 +4471,8 @@
     "generated_at": "2026-09-29T07:41:36.742233+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "jackie-chan-oscars",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c36b1ca8cf098477",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/boite-a-cordees/": {
     "hash": "bc5f4ccb6270e5b94d5d507595b737e46d16e2c50f90258c8538643e1d7ed4c3",
@@ -4509,8 +4509,8 @@
     "generated_at": "2026-09-29T07:41:37.656728+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "ca5eaab008eba4a9",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-e09fb066ed3de4f2",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/": {
     "hash": "96853bb02b0700a720756a3777fe5aac50b6d9286f5d79e4e807a93fa5069280",
@@ -4547,8 +4547,8 @@
     "generated_at": "2026-09-29T07:41:46.590603+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-bcfeb3ee82b11905",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/": {
     "hash": "31d73740ada3516e69bcb08633d3d29b9b728c12c9faef6e855e54bba2d1ffe7",
@@ -4586,8 +4586,8 @@
     "generated_at": "2026-09-29T07:39:37.409915+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "peter-pan-bnf",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-c8814576cfa346f1",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/soiree-100-malte/": {
     "hash": "b3588711ce9b422d51851ee88b8af31fe7e43419b59933f8760a0a05bf74b4d7",
@@ -4624,7 +4624,7 @@
     "generated_at": "2026-09-29T12:52:43.533483+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "malte-union-europeenne",
-    "anecdote_assignment_version": 6
+    "anecdote_id": "topic-f302b555bc72b6ba",
+    "anecdote_assignment_version": 101
   }
 }

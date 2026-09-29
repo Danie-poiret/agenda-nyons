@@ -1,0 +1,838 @@
+{
+  "version": 1,
+  "entries": {
+    "decouvrez-solidarite-paysans-2026-08-01": {
+      "text": "L’agriculture est une activité soumise à des aléas climatiques, économiques et sanitaires. Les associations d’accompagnement agricole peuvent informer, orienter et rompre l’isolement des exploitants confrontés à des difficultés, en complément des dispositifs publics et professionnels existants.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.691375+00:00"
+    },
+    "exposition-urbain-urbex-2026-09-02": {
+      "text": "Le terme « urbex », contraction d’urban exploration, désigne l’exploration de lieux bâtis souvent désaffectés. Cette pratique interroge aussi la mémoire des sites, leur conservation et le respect du droit de propriété, essentiel avant toute visite ou prise de vues.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.692241+00:00"
+    },
+    "la-vie-en-couleur-exposition-de-cecile-allex-2026-09-22": {
+      "text": "La couleur perçue dépend à la fois de la lumière, des propriétés de la surface observée et du système visuel. En peinture, les artistes jouent notamment sur les contrastes de teinte, de luminosité et de saturation pour organiser une composition.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.692780+00:00"
+    },
+    "les-8-jours-de-la-ville-de-nyons-2026-09-25": {
+      "text": "La pétanque moderne est née à La Ciotat en 1907. Son nom vient du provençal « pèd tanca », qui signifie jouer les pieds plantés.",
+      "source_label": "Fédération Française de Pétanque et de Jeu Provençal",
+      "model": "manual",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.693250+00:00"
+    },
+    "atelier-culinaire-street-food-party-2026-09-26": {
+      "text": "Les tacos et les burritos appartiennent aux traditions culinaires mexicaines et reposent généralement sur une tortilla. Le taco est le plus souvent garni puis replié, tandis que le burrito se présente habituellement comme une tortilla roulée autour de sa garniture.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.693728+00:00"
+    },
+    "ceremonie-de-cacao-2026-09-26": {
+      "text": "Le cacaoyer est originaire des régions tropicales d’Amérique. Bien avant l’époque moderne, plusieurs civilisations mésoaméricaines, dont les Mayas, préparaient le cacao sous forme de boisson et lui accordaient des usages sociaux, alimentaires et rituels.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.694215+00:00"
+    },
+    "comtessa-concert-de-samuel-cattiau-pierre-baillot-2026-09-26": {
+      "text": "L’improvisation est une composante importante du jazz, où les interprètes créent ou transforment des phrases musicales pendant l’exécution. Les musiques médiévales, elles, sont connues par des manuscrits dont les notations ne renseignent pas toujours entièrement l’interprétation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.694683+00:00"
+    },
+    "distribution-gratuite-de-compost-2026-09-26": {
+      "text": "Le compost résulte de la décomposition contrôlée de matières organiques, comme les déchets végétaux. Une fois mûr, il peut être incorporé au sol pour y apporter de la matière organique et participer au retour au sol de ressources auparavant considérées comme des déchets.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.695140+00:00"
+    },
+    "impro-2026-09-26": {
+      "text": "En improvisation théâtrale, les comédiens construisent une scène sans texte fixé à l’avance. L’écoute des partenaires, l’acceptation des propositions et la capacité à développer une situation commune constituent des principes majeurs de cette pratique scénique.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.695681+00:00"
+    },
+    "marche-pour-le-climat-2026-09-26": {
+      "text": "Le climat décrit les conditions météorologiques moyennes observées sur de longues périodes, à la différence du temps qu’il fait un jour donné. Les enjeux climatiques concernent aussi les écosystèmes, l’eau, l’agriculture et les sociétés humaines.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.696200+00:00"
+    },
+    "une-ruche-dans-mon-jardin-2026-09-26": {
+      "text": "Une colonie d’abeilles domestiques est organisée autour d’une reine, de nombreuses ouvrières et, selon la saison, de mâles appelés faux-bourdons. Les ouvrières accomplissent successivement des tâches de soin, de construction, de défense et de collecte.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.696711+00:00"
+    },
+    "lectures-animees-2026-09-28": {
+      "text": "Les albums destinés aux jeunes enfants associent souvent texte et image : l’illustration ne se contente pas toujours de répéter les mots, elle peut ajouter des informations, installer une ambiance ou inviter à observer les détails d’une histoire.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.697170+00:00"
+    },
+    "soiree-100-agriculture-viticulture-2026-09-28": {
+      "text": "La viticulture désigne la culture de la vigne, tandis que la vinification correspond aux opérations qui transforment le raisin en vin. Ces deux étapes mobilisent des savoir-faire distincts, depuis le travail de la parcelle jusqu’à l’élaboration en cave.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.697643+00:00"
+    },
+    "atelier-lactofermentation-2026-09-30": {
+      "text": "Lors de la lactofermentation, des bactéries lactiques transforment les sucres de l’aliment en acides. Cette acidification freine le développement de nombreux micro-organismes indésirables et contribue ainsi à la conservation.",
+      "source_label": "INRAE — Le potentiel des aliments fermentés",
+      "model": "manual",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.698092+00:00"
+    },
+    "dedicace-francoise-bourdon-2026-10-01": {
+      "text": "Dans le monde du livre, une dédicace est une inscription manuscrite adressée à une personne, souvent accompagnée d’une signature. Elle peut créer un exemplaire singulier, tout en rappelant que le livre est aussi un objet de rencontre entre auteur et lecteur.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.698536+00:00"
+    },
+    "concert-bouda-omg-2026-10-02": {
+      "text": "Un concert est une interprétation musicale devant un public, qui peut faire entendre des œuvres composées, des arrangements ou des créations. Même lorsque le répertoire est connu, l’acoustique, les instruments et le jeu des musiciens façonnent chaque prestation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.698985+00:00"
+    },
+    "grande-braderie-2026-10-02": {
+      "text": "Les braderies favorisent la circulation d’objets encore utilisables plutôt que leur élimination immédiate. Cette logique de réemploi s’inscrit dans l’économie circulaire, qui cherche notamment à prolonger la durée d’usage des biens et à limiter le gaspillage de ressources.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.699435+00:00"
+    },
+    "les-journees-nationales-des-artistes-a-nyons-2026-10-02": {
+      "text": "Les arts visuels regroupent des pratiques diverses, telles que la peinture, la sculpture, la photographie, le dessin ou l’installation. Une œuvre peut employer une seule technique ou associer plusieurs médiums, selon les choix de l’artiste et son projet.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.699872+00:00"
+    },
+    "atelier-culinaire-risotto-panacotta-2026-10-03": {
+      "text": "Le risotto est une préparation italienne de riz, cuite progressivement avec un liquide afin d’obtenir une texture liée. La panna cotta, dont le nom signifie « crème cuite », est un dessert italien traditionnellement préparé à base de crème gélifiée.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.700334+00:00"
+    },
+    "constellations-familiales-2026-10-03": {
+      "text": "Au sein des familles, des récits, des habitudes et des valeurs peuvent se transmettre d’une génération à l’autre. Cette transmission culturelle et relationnelle se distingue de l’hérédité génétique, qui concerne la transmission biologique de certains caractères.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.700815+00:00"
+    },
+    "atelier-thematique-sur-la-legislation-funeraire-2026-10-05": {
+      "text": "En France, le droit funéraire encadre notamment la déclaration de décès, le transport du corps, les opérations funéraires et la destination des cendres. Ces règles relèvent à la fois de l’état civil, des collectivités territoriales et de la protection de la dignité.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.701261+00:00"
+    },
+    "a-vos-cartes-prets-jouez-2026-10-07": {
+      "text": "Une carte est une représentation réduite et codée d’un territoire. Son échelle indique le rapport entre une distance figurée et la distance réelle, tandis que la légende explique les signes employés pour rendre l’espace lisible.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.701716+00:00"
+    },
+    "conference-de-luntl-sur-le-gres-turonien-de-venterol-2026-10-07": {
+      "text": "Le Turonien est un étage géologique du Crétacé supérieur, nommé d’après l’ancienne région de Tours. Les grès sont des roches sédimentaires formées par l’accumulation puis la consolidation de grains, le plus souvent composés en grande partie de quartz.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.702216+00:00"
+    },
+    "tsart-une-histoire-de-paradis-2026-10-07": {
+      "text": "Le théâtre est un art vivant fondé sur la rencontre entre une représentation et un public. Il peut s’appuyer sur un texte écrit, une création collective ou une adaptation, et combine fréquemment jeu, voix, mouvement, scénographie et lumière.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.702683+00:00"
+    },
+    "atelier-culinaire-gnocchis-2026-10-08": {
+      "text": "Les gnocchis sont de petites préparations italiennes dont la pâte peut être composée de pomme de terre, de farine, de semoule ou d’autres ingrédients. Les pois cassés sont des graines de légumineuses, généralement issues de variétés de pois récoltées à maturité.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.703144+00:00"
+    },
+    "linstant-papillon-2026-10-08": {
+      "text": "Un atelier participatif se distingue d’une simple présentation : les personnes présentes y sont invitées à expérimenter, échanger ou créer. Selon les disciplines, ces formats peuvent relever de pratiques artistiques, corporelles, manuelles ou de discussion collective.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.703633+00:00"
+    },
+    "stands-sur-la-sante-mentale-2026-10-08": {
+      "text": "La santé mentale fait partie intégrante de la santé et recouvre des réalités diverses, allant du bien-être psychique aux troubles nécessitant un accompagnement. L’information du public contribue à mieux connaître les ressources d’écoute, de soin et d’entraide existantes.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.704124+00:00"
+    },
+    "theatre-sur-la-sante-mentale-2026-10-08": {
+      "text": "Le théâtre-forum a été développé par le metteur en scène brésilien Augusto Boal dans le cadre du Théâtre de l’opprimé. Il invite le public à intervenir dans une scène pour explorer collectivement d’autres issues possibles à une situation présentée.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.704560+00:00"
+    },
+    "concert-de-demi-mondaine-2026-10-09": {
+      "text": "Une résidence artistique offre à des artistes un temps et un cadre de travail pour rechercher, répéter ou créer. Une sortie de résidence permet de partager avec le public une étape de ce processus, sans impliquer nécessairement que l’œuvre soit achevée.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.705056+00:00"
+    },
+    "lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09": {
+      "text": "Lire un texte à voix haute suppose des choix d’interprétation : rythme, silences, intonation et articulation orientent l’écoute. La lecture publique donne ainsi une dimension sonore à l’écrit et peut faire percevoir autrement la structure ou l’émotion d’un texte.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.705580+00:00"
+    },
+    "4-seasons-jam-2026-10-10": {
+      "text": "La descente VTT est une discipline pratiquée sur des parcours en pente comportant souvent virages, racines, pierres ou sauts. Elle demande de maîtriser le freinage, les trajectoires et l’équilibre, avec un équipement de protection adapté au terrain.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.706034+00:00"
+    },
+    "atelier-jardin-zen-2026-10-10": {
+      "text": "Les jardins secs japonais, appelés karesansui, utilisent notamment roches, gravier et sable ratissé pour composer des paysages stylisés. Les motifs tracés dans le gravier peuvent évoquer l’eau, tandis que les pierres suggèrent reliefs, îles ou montagnes.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.706472+00:00"
+    },
+    "atelier-yoga-du-chant-2026-10-10": {
+      "text": "Dans les traditions de yoga, le chant peut prendre la forme de mantras, syllabes ou formules répétées. L’attention portée au souffle, à l’écoute et à la vibration de la voix y occupe une place importante, sans constituer une pratique musicale unique.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.706929+00:00"
+    },
+    "conference-discussion-sur-les-directives-anticipees-et-les-dernieres-volontes-2026-10-10": {
+      "text": "En France, les directives anticipées permettent à toute personne majeure d’exprimer par écrit ses souhaits concernant sa fin de vie, au cas où elle ne pourrait plus les formuler. Elles sont révisables et révocables à tout moment.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.707380+00:00"
+    },
+    "constellations-familiales-2026-10-10": {
+      "text": "La transmission entre générations ne se réduit pas à la génétique : récits, langues, pratiques, silences et habitudes familiales participent aussi à la mémoire collective. Les sciences sociales étudient ces héritages culturels sans les confondre avec une détermination individuelle.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.707846+00:00"
+    },
+    "fete-de-la-science-2026-excursion-a-venterol-avec-luntl-2026-10-10": {
+      "text": "Créée en France en 1991, la Fête de la Science vise à favoriser la rencontre entre le public et les acteurs de la recherche, de la culture scientifique et de l’éducation. Elle peut prendre la forme de visites, conférences, expériences ou sorties de terrain.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.708305+00:00"
+    },
+    "journee-decouverte-materiautheque-2026-10-10": {
+      "text": "Une matériauthèque rassemble des échantillons de matériaux et des informations sur leurs caractéristiques, leurs usages ou leur provenance. Elle constitue un outil de découverte pour les professionnels comme pour le public, notamment dans les domaines de la construction, du design et du réemploi.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.708771+00:00"
+    },
+    "reprise-des-ateliers-yoga-du-chant-2026-10-10": {
+      "text": "La voix chantée mobilise notamment la respiration, les cordes vocales et les résonateurs du corps, comme la bouche et les cavités nasales. Dans un travail vocal, hauteur, intensité, timbre et articulation sont autant d’éléments que l’on peut explorer.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.709283+00:00"
+    },
+    "samedi-ca-me-dit-2026-10-10": {
+      "text": "Les jardins secs japonais, ou karesansui, composent des paysages stylisés avec des pierres, du sable et du gravier. Le gravier ratissé peut suggérer l’eau, tandis que les roches évoquent parfois montagnes, îles ou cascades, sans chercher une reproduction réaliste.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.709744+00:00"
+    },
+    "spectacle-papillon-noir-2026-10-10": {
+      "text": "Le spectacle vivant désigne des formes artistiques réalisées devant un public, telles que le théâtre, la danse, la musique ou le cirque. Chaque représentation est singulière, car elle dépend de l’interprétation, du lieu et de la relation créée avec la salle.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.710174+00:00"
+    },
+    "cine-debat-sur-ladamant-2026-10-11": {
+      "text": "Le documentaire est un genre cinématographique qui prend appui sur le réel, par exemple au moyen d’observations, d’entretiens ou d’archives. Un débat après la projection permet de confronter des interprétations et de replacer les images dans leur contexte.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.710661+00:00"
+    },
+    "cocktail-dimpro-2026-10-11": {
+      "text": "En improvisation théâtrale, les comédiens inventent personnages, situations et dialogues sans texte préétabli. Cette pratique repose notamment sur l’écoute mutuelle, la construction collective du récit et l’acceptation des propositions lancées au cours de la scène.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.711092+00:00"
+    },
+    "une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11": {
+      "text": "Vienne a joué un rôle majeur dans l’histoire de la musique occidentale, accueillant notamment Haydn, Mozart, Beethoven, Schubert ou Brahms à différentes périodes. L’expression « école de Vienne » désigne cependant plusieurs ensembles de compositeurs selon les époques.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.711545+00:00"
+    },
+    "conference-de-luntl-sur-chagall-2026-10-12": {
+      "text": "Marc Chagall, né en 1887 dans l’Empire russe et mort en 1985 en France, est connu pour une œuvre mêlant souvenirs, scènes bibliques, figures flottantes et couleurs intenses. Il a travaillé la peinture, mais aussi le vitrail, la céramique et les décors de spectacle.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.711990+00:00"
+    },
+    "soiree-100-malte-2026-10-12": {
+      "text": "Malte est un État insulaire de la Méditerranée, dont les langues officielles sont le მალtais et l’anglais. Son histoire a été marquée par de nombreuses influences méditerranéennes, notamment phéniciennes, romaines, arabes, normandes, françaises et britanniques.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.712426+00:00"
+    },
+    "atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13": {
+      "text": "Les directives anticipées concernent les souhaits relatifs aux décisions médicales de fin de vie, tandis que les dernières volontés peuvent recouvrir d’autres choix personnels ou funéraires. Ces démarches n’ont donc pas le même objet, même si elles peuvent être abordées ensemble.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.712869+00:00"
+    },
+    "agriculture-en-surchauffe-on-en-parle-2026-10-14": {
+      "text": "Les températures élevées et le manque d’eau peuvent affecter les cultures en modifiant leur croissance, leurs besoins en irrigation et le calendrier des travaux agricoles. Les effets varient selon les espèces cultivées, les sols, les pratiques et la durée des épisodes de chaleur.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.713356+00:00"
+    },
+    "les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel-2026-10-14": {
+      "text": "L’Opéra de Lyon a été profondément transformé lors d’un projet mené par l’architecte Jean Nouvel et inauguré en 1993. La grande verrière en berceau qui surmonte le bâtiment historique est devenue l’un des éléments les plus reconnaissables de sa silhouette.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.713848+00:00"
+    },
+    "stands-sur-la-sante-mentale-et-mad-pride-2026-10-15": {
+      "text": "La santé mentale concerne les émotions, les pensées, les relations et la capacité à faire face aux situations de la vie. Elle ne se résume pas à l’absence de trouble : l’information, l’entraide et la lutte contre la stigmatisation font aussi partie des enjeux publics.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.714390+00:00"
+    },
+    "atelier-sur-les-rituels-funeraires-2026-10-16": {
+      "text": "Les rites funéraires sont présents dans toutes les sociétés, mais leurs formes diffèrent selon les époques, les convictions et les cultures. Ils peuvent accompagner les proches, marquer le souvenir d’une personne et organiser collectivement le temps du deuil.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.714833+00:00"
+    },
+    "soiree-de-presentation-de-nyons-en-scene-2026-10-16": {
+      "text": "Une saison culturelle rassemble sur plusieurs mois des propositions artistiques variées : spectacles, concerts, expositions, projections ou rencontres. Sa programmation résulte de choix portant sur les œuvres, les artistes, les lieux, les publics et les moyens disponibles.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.715332+00:00"
+    },
+    "atelier-dart-therapie-2026-10-17": {
+      "text": "L’art-thérapie désigne l’utilisation de pratiques artistiques dans un cadre d’accompagnement conduit par un professionnel formé. Elle ne se confond ni avec un cours d’art ni avec un diagnostic médical ; ses modalités dépendent du contexte et des personnes accueillies.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.715823+00:00"
+    },
+    "journee-de-cloture-des-vendanges-2026-10-17": {
+      "text": "Les vendanges correspondent à la récolte des raisins destinés notamment à la vinification. Leur date dépend de la maturité recherchée, elle-même liée au cépage, au climat, au sol et au style de vin souhaité ; elle peut varier fortement d’une année à l’autre.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.716371+00:00"
+    },
+    "tournoi-de-belote-du-comite-des-fetes-2026-10-17": {
+      "text": "La belote est un jeu de cartes traditionnellement pratiqué à quatre joueurs, répartis en deux équipes. Elle se joue avec trente-deux cartes et comporte un système d’atout, qui donne une valeur particulière à certaines cartes durant chaque donne.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.716826+00:00"
+    },
+    "trail-de-nyons-et-baronnies-2026-10-17": {
+      "text": "Le trail est une course à pied pratiquée en milieu naturel, sur des parcours comprenant généralement dénivelé et terrains variés. La randonnée privilégie la marche, tandis que la marche nordique utilise des bâtons spécifiques pour accompagner le mouvement.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.717286+00:00"
+    },
+    "loto-dasoft-nyons-numerique-2026-10-18": {
+      "text": "Le loto est un jeu de hasard dans lequel les participants remplissent une grille de numéros, appelés au fur et à mesure d’un tirage. Dans sa forme associative, il est souvent organisé comme un moment collectif de loisirs et de financement d’activités.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.717745+00:00"
+    },
+    "tsart-une-histoire-de-paradis-2026-10-19": {
+      "text": "Le théâtre permet d’incarner des personnages et de raconter une histoire par le jeu, la voix, le corps et l’espace scénique. Les créations collectives peuvent associer des participants aux différentes étapes, de l’invention des scènes jusqu’à leur représentation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.718215+00:00"
+    },
+    "exposition-le-reel-et-son-double-2-2026-10-20": {
+      "text": "Une exposition réunit des œuvres ou des documents dans un espace conçu pour leur présentation au public. Le parcours, l’accrochage, les rapprochements entre pièces et les textes d’accompagnement influencent la manière dont chaque visiteur construit son regard.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.718716+00:00"
+    },
+    "conseil-municipal-2026-10-21": {
+      "text": "En France, le conseil municipal est l’assemblée délibérante de la commune. Élu au suffrage universel direct, il règle par ses délibérations les affaires locales, notamment le budget communal, les services publics et certains projets d’aménagement.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.719228+00:00"
+    },
+    "les-documentaires-de-luntl-de-la-liberation-a-lepuration-2026-10-21": {
+      "text": "La Libération de la France en 1944-1945 s’est accompagnée d’une épuration visant les personnes accusées de collaboration avec l’occupant. Elle a pris des formes légales, par des juridictions instituées à cette fin, mais aussi des formes extrajudiciaires.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.719737+00:00"
+    },
+    "atelier-cosmetique-savon-dhalloween-2026-10-22": {
+      "text": "Le savon résulte traditionnellement d’une réaction chimique appelée saponification, entre un corps gras et une base alcaline. Cette réaction produit des molécules capables d’interagir à la fois avec l’eau et les corps gras, ce qui explique son pouvoir lavant.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.720184+00:00"
+    },
+    "saison-4-de-romuald-maufras-2026-10-23": {
+      "text": "Un spectacle en tournée est présenté successivement dans plusieurs lieux, avec des adaptations possibles liées aux contraintes techniques de chaque salle. La circulation des œuvres permet à des publics différents de découvrir une même création scénique.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.720643+00:00"
+    },
+    "journee-jeux-de-societe-2026-10-24": {
+      "text": "Les jeux de société reposent sur des règles partagées, un matériel et des objectifs qui peuvent relever de la coopération, de l’affrontement ou du hasard. Ils créent un cadre commun où les joueurs doivent interpréter, discuter et appliquer des règles.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.721092+00:00"
+    },
+    "jeux-zen-et-moins-zen-2026-10-27": {
+      "text": "Les jeux de société couvrent des rythmes très variés : certains privilégient la réflexion et la planification, d’autres la rapidité, l’adresse ou les réactions immédiates. Cette diversité explique qu’une même table de jeu puisse réunir des façons de jouer très différentes.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.721555+00:00"
+    },
+    "atelier-cosmetique-maquillage-dhalloween-2026-10-28": {
+      "text": "Le maquillage artistique utilise couleurs, textures et lignes pour transformer l’apparence ou évoquer un personnage. Pour Halloween, les codes visuels souvent mobilisés — contrastes marqués, teints pâles ou motifs fantastiques — s’inspirent largement du cinéma, du théâtre et du folklore.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.722140+00:00"
+    },
+    "les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28": {
+      "text": "Maria Callas, née en 1923 et morte en 1977, compte parmi les sopranos les plus célèbres du XXe siècle. Sa carrière a marqué l’histoire de l’opéra par son interprétation de rôles du répertoire italien et français, notamment chez Bellini, Verdi et Puccini.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.722652+00:00"
+    },
+    "atelier-cosmetique-savon-dhalloween-2026-10-29": {
+      "text": "La fabrication traditionnelle du savon repose sur la saponification : des corps gras réagissent avec une base alcaline pour former du savon et de la glycérine. Couleurs, formes et parfums peuvent ensuite donner à ce produit utilitaire une dimension créative.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.723109+00:00"
+    },
+    "atelier-culinaire-tapenades-tartinables-2026-10-29": {
+      "text": "La tapenade est une préparation provençale dont les ingrédients caractéristiques comprennent les olives et les câpres ; son nom vient d’ailleurs du mot provençal « tapeno », qui désigne la câpre. Elle peut être servie à l’apéritif, sur du pain ou dans diverses recettes.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.723831+00:00"
+    },
+    "atelier-cosmetique-maquillage-dhalloween-2026-10-30": {
+      "text": "Dans les arts de la scène, le maquillage aide à rendre un visage lisible à distance, à accentuer une expression ou à caractériser un personnage. Son effet dépend notamment des volumes du visage, de l’éclairage et des contrastes entre les couleurs.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.724337+00:00"
+    },
+    "atelier-culinaire-brownies-dhalloween-2026-10-31": {
+      "text": "Le Palmer House de Chicago rattache la création de son brownie à l’Exposition universelle de 1893. Bertha Palmer souhaitait alors un dessert chocolaté plus facile à transporter qu’une part de gâteau.",
+      "source_label": "Palmer House, Chicago — The Brownie",
+      "model": "manual",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.724809+00:00"
+    },
+    "loto-de-lassociation-le-trait-dunion-2026-11-01": {
+      "text": "Le loto est un jeu de hasard fondé sur la correspondance entre des numéros tirés et ceux inscrits sur des cartons. Lorsqu’il est organisé par une association, il constitue aussi un temps de convivialité et peut contribuer au financement de ses activités.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.725283+00:00"
+    },
+    "droles-de-coincidences-2026-11-07": {
+      "text": "La comédie d’intrigue construit son effet sur les rebondissements, les quiproquos, les révélations et les retournements de situation. Les coïncidences y sont souvent un ressort narratif : elles rapprochent des personnages ou compliquent soudainement leurs projets.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.725741+00:00"
+    },
+    "conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes-2026-11-09": {
+      "text": "Le Liban est un pays du Proche-Orient bordé par la Méditerranée, la Syrie et Israël. Son système politique repose sur un partage confessionnel des principales fonctions publiques, issu notamment du Pacte national de 1943 et ensuite réaménagé par les accords de Taëf.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.726209+00:00"
+    },
+    "opera-follies-2026-11-11": {
+      "text": "L’opéra associe musique, chant, théâtre et mise en scène. Les voix y sont généralement classées selon leur tessiture, comme soprano, alto, ténor ou basse ; dans un ensemble vocal, elles se combinent pour former des harmonies et des contrastes sonores.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.726674+00:00"
+    },
+    "la-femme-moustique-2026-11-13": {
+      "text": "Le conte est une forme de récit transmise oralement ou par l’écrit, où le merveilleux permet souvent d’aborder des peurs, des désirs ou des passages de la vie. Ses personnages et ses métamorphoses donnent une forme imagée à des expériences humaines universelles.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.727130+00:00"
+    },
+    "atelier-yoga-du-chant-2026-11-14": {
+      "text": "La voix chantée naît de la vibration des cordes vocales sous l’effet de l’air expiré. La hauteur des sons dépend notamment de leur tension et de leur longueur, tandis que la bouche et les cavités du visage participent à façonner le timbre.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.727559+00:00"
+    },
+    "cafe-rencontre-unafam-2026-11-14": {
+      "text": "L’UNAFAM est une association française créée par des proches de personnes vivant avec des troubles psychiques. Elle informe et accompagne les familles, tout en défendant leurs droits et en participant à la lutte contre les préjugés liés à la santé mentale.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.728023+00:00"
+    },
+    "petits-crimes-conjugaux-2026-11-14": {
+      "text": "Éric-Emmanuel Schmitt est un écrivain et dramaturge franco-belge, né en 1960. Ses pièces ont été largement jouées en France et à l’étranger ; le théâtre lui permet notamment d’explorer les relations humaines à travers des dialogues et des situations resserrées.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.728480+00:00"
+    },
+    "puces-des-couturieres-2026-11-14": {
+      "text": "Les puces des couturières sont des rendez-vous consacrés à la circulation de tissus, fils, boutons, patrons et matériels de loisirs créatifs. Elles favorisent le réemploi de fournitures qui peuvent encore servir à la couture, à la broderie ou à d’autres pratiques textiles.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.729010+00:00"
+    },
+    "conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16": {
+      "text": "Les corvidés, famille qui comprend notamment corbeaux, corneilles, geais et pies, sont étudiés pour leurs capacités d’apprentissage et de résolution de problèmes. Certaines espèces savent utiliser ou modifier des outils, mémoriser des cachettes et adapter leur comportement à leur environnement.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.729476+00:00"
+    },
+    "salon-vivre-ici-2026-11-18": {
+      "text": "Habiter un territoire ne se limite pas au logement : cela concerne aussi l’accès aux études, au travail, aux services, aux mobilités et aux réseaux associatifs. Les salons d’information permettent de réunir des acteurs intervenant dans ces différents aspects de la vie quotidienne.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.729924+00:00"
+    },
+    "de-lile-noire-au-montbrun-2026-11-21": {
+      "text": "Un concert est une interprétation musicale devant un public, qu’il s’agisse d’œuvres écrites, d’arrangements ou de créations. Même avec le même programme, l’acoustique du lieu, les instruments et les choix des interprètes rendent chaque exécution particulière.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.730376+00:00"
+    },
+    "loto-de-detente-et-loisirs-2026-11-22": {
+      "text": "Dans un loto traditionnel, les joueurs cherchent à compléter des lignes ou l’ensemble des numéros figurant sur leur carton au fil du tirage. La part d’aléa est centrale, mais l’attention portée aux numéros appelés rythme collectivement la partie.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.730816+00:00"
+    },
+    "la-caravane-exquise-restitution-publique-2026-11-28": {
+      "text": "En géographie culturelle, un territoire n’est pas seulement une surface délimitée : il est aussi fait de perceptions, de pratiques, de récits et d’attachements. Les démarches artistiques sensibles peuvent explorer ces relations entre les habitants, les lieux et leurs mémoires.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.731255+00:00"
+    },
+    "les-turlupinades-2026-12-05": {
+      "text": "La comédie cherche à provoquer le rire par les caractères, le langage, les situations ou les décalages entre ce que les personnages savent et ce que le public comprend. Elle peut aussi observer avec humour les habitudes sociales et les relations humaines.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.731701+00:00"
+    },
+    "telethon-2026-2026-12-05": {
+      "text": "Créé en 1987, le Téléthon français est une mobilisation organisée au profit de l’AFM-Téléthon. Il associe traditionnellement appels aux dons, émissions audiovisuelles et initiatives locales, afin de soutenir la recherche sur les maladies génétiques et l’accompagnement des personnes concernées.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.732134+00:00"
+    },
+    "conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07": {
+      "text": "Un modèle scientifique est une représentation simplifiée d’un phénomène, élaborée pour le décrire, l’expliquer ou en prévoir certains aspects. Il ne constitue pas le réel lui-même : il est discuté, testé et modifié lorsque de nouvelles observations l’exigent.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.732613+00:00"
+    },
+    "atelier-yoga-du-chant-2026-12-12": {
+      "text": "Le chant collectif suppose d’écouter les autres voix pour ajuster rythme, justesse, attaques et fins de phrase. Les exercices vocaux explorent souvent la respiration, l’articulation et les voyelles, qui jouent un rôle essentiel dans la résonance du son.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.733057+00:00"
+    },
+    "cher-edouard-2026-12-13": {
+      "text": "Au théâtre, les dialogues ne servent pas seulement à faire avancer l’action : ils révèlent aussi les intentions, les malentendus et les rapports entre les personnages. Dans une comédie, leur rythme et leur précision participent directement à l’effet comique.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.733563+00:00"
+    },
+    "conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne-2026-12-14": {
+      "text": "Louis XI règne sur le royaume de France de 1461 à 1483. Le surnom d’« Universelle Aragne », c’est-à-dire araignée universelle, a été popularisé après sa mort pour évoquer sa politique d’alliances, de négociations et d’affirmation de l’autorité royale.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.734089+00:00"
+    },
+    "peter-pan-ou-lenfant-jamais-2026-12-18": {
+      "text": "Peter Pan est un personnage créé par l’écrivain écossais J. M. Barrie. Il apparaît d’abord dans un roman de 1902, puis dans une pièce créée en 1904 ; son histoire a ensuite connu de nombreuses adaptations pour la scène, le cinéma et la littérature.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.734562+00:00"
+    },
+    "on-a-perdu-les-cles-du-traineau-2026-12-29": {
+      "text": "Le théâtre destiné au jeune public mobilise souvent le jeu, les décors, les sons et les objets pour construire des univers imaginaires. L’humour et le merveilleux y peuvent coexister, tout en laissant aux spectateurs une place active dans l’interprétation de l’histoire.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.735032+00:00"
+    },
+    "concert-de-rebecca-chaillot-2027-01-01": {
+      "text": "Un quatuor à cordes réunit habituellement deux violons, un alto et un violoncelle. Associé au piano, il offre une grande variété de dialogues sonores : le clavier peut soutenir l’ensemble, lui répondre ou porter une ligne musicale à part entière.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.735480+00:00"
+    },
+    "conference-de-luntl-sur-essai-de-toponymie-locale-2027-01-04": {
+      "text": "La toponymie étudie l’origine, la forme et l’évolution des noms de lieux. Ces noms peuvent conserver la trace d’anciens usages linguistiques, de particularités du relief, de l’eau, de cultures ou encore d’activités humaines disparues.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.735934+00:00"
+    },
+    "au-nom-du-pere-du-fils-et-de-jackie-chan-2027-01-08": {
+      "text": "Le récit autobiographique s’appuie sur une personne réelle qui raconte ou met en forme une partie de son vécu. Au théâtre, ce matériau personnel peut être associé à la musique, au mouvement ou à des références populaires pour construire une narration scénique.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.736404+00:00"
+    },
+    "atelier-yoga-du-chant-2027-01-09": {
+      "text": "Le yoga recouvre des traditions et des pratiques diverses, souvent attentives à la respiration, à la posture et à la concentration. Le chant, quant à lui, transforme le souffle expiré en son grâce à la vibration des cordes vocales.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.736844+00:00"
+    },
+    "conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete-2027-01-11": {
+      "text": "Albert Camus a grandi dans un milieu modeste à Alger, après la mort de son père durant la Première Guerre mondiale. Dans son œuvre journalistique et littéraire, il a régulièrement interrogé les injustices sociales, la dignité et la condition humaine.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.737298+00:00"
+    },
+    "conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiie-siecle-2027-01-21": {
+      "text": "Au XVIIIe siècle, les campagnes ne vivent pas en autarcie : marchands, colporteurs et foires participent à la circulation des denrées, des objets et des informations. Le commerce rural relie ainsi les producteurs locaux aux bourgs et aux villes.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.737768+00:00"
+    },
+    "les-rencontres-barjavel-2027-2027-01-22": {
+      "text": "René Barjavel est notamment connu pour ses romans d’anticipation, dont Ravage, publié en 1943, et La Nuit des temps, paru en 1968. Ses récits interrogent souvent les rapports entre progrès technique, mémoire, amour et fragilité des civilisations.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.738225+00:00"
+    },
+    "conference-de-luntl-sur-guernica-de-pablo-picasso-2027-01-27": {
+      "text": "Peint par Pablo Picasso en 1937, Guernica répond au bombardement de la ville basque de Gernika pendant la guerre civile espagnole. Par son grand format, ses figures disloquées et son absence de couleur, l’œuvre est devenue un symbole international contre la guerre.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.738704+00:00"
+    },
+    "conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-02-03": {
+      "text": "La pensée économique rassemble des théories qui cherchent à comprendre la production, les échanges, le travail, les prix ou la répartition des richesses. Des auteurs peuvent proposer des analyses divergentes, car leurs modèles reposent sur des hypothèses et des priorités différentes.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.739161+00:00"
+    },
+    "les-grands-chemins-2027-02-06": {
+      "text": "Jean Giono a publié Les Grands Chemins en 1951. Ce roman suit un homme sans nom sur les routes de Provence ; l’écriture de Giono y accorde une place importante aux paysages, aux rencontres et à la part parfois inquiétante de l’errance.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.739643+00:00"
+    },
+    "atelier-yoga-du-chant-2027-02-13": {
+      "text": "La voix chantée permet de faire varier la hauteur, l’intensité et le timbre d’un son. Ces qualités dépendent notamment du contrôle du souffle, de la vibration laryngée et de la forme donnée au conduit vocal par la bouche et la langue.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.740099+00:00"
+    },
+    "blue-maqam-de-renaud-garcia-fons-2027-02-19": {
+      "text": "Dans plusieurs traditions musicales du Proche-Orient et du monde arabe, le maqam organise des échelles, des mouvements mélodiques et des formules caractéristiques. Le jazz, lui, donne une place majeure à l’improvisation, ce qui rend possible des dialogues entre langages musicaux.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.740551+00:00"
+    },
+    "quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10": {
+      "text": "Le conte de fées est un récit merveilleux où épreuves, métamorphoses et dénouements heureux sont fréquents. Les œuvres contemporaines reprennent souvent ces codes pour les détourner, notamment afin de questionner les représentations de l’amour et des relations.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.741044+00:00"
+    },
+    "atelier-yoga-du-chant-2027-03-13": {
+      "text": "Chanter avec d’autres suppose de coordonner les départs, le rythme et les fins de phrase. L’écoute collective aide aussi à ajuster la justesse, c’est-à-dire la précision des hauteurs produites par rapport aux notes ou aux autres voix.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.741484+00:00"
+    },
+    "conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-j-2027-03-14": {
+      "text": "Le nombre π est le rapport constant entre la circonférence d’un cercle et son diamètre. C’est un nombre irrationnel : son écriture décimale est infinie et ne présente pas de répétition périodique, même si l’on utilise souvent l’approximation 3,14.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.741960+00:00"
+    },
+    "conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17": {
+      "text": "La domesticité désigne le travail accompli au service d’un foyer, par exemple l’entretien, la cuisine ou le soin des enfants. Dans l’histoire sociale, elle révèle des rapports de dépendance économique, de hiérarchie et parfois de proximité personnelle entre employeurs et employés.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.742438+00:00"
+    },
+    "au-nom-de-lamour-2027-03-19": {
+      "text": "Un rituel est un ensemble de gestes, de paroles ou d’actions codifiés et répétés dans un contexte donné. Au théâtre, la reprise de certains motifs peut structurer la représentation et donner une portée collective ou symbolique à une expérience intime.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.742959+00:00"
+    },
+    "conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana-2027-03-24": {
+      "text": "La glaciation de la fin de l’Ordovicien, il y a environ 445 millions d’années, est liée à l’extension de calottes glaciaires sur le Gondwana. Elle a entraîné une baisse importante du niveau marin et coïncide avec une crise majeure de la biodiversité.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.743442+00:00"
+    },
+    "conference-de-luntl-sur-sapienza-galiarda-2027-03-31": {
+      "text": "L’analyse littéraire s’intéresse autant aux mots d’un texte qu’à sa forme, son époque, ses références et ses modes de circulation. Un titre peut ainsi devenir une porte d’entrée vers des questions de langue, de culture et d’interprétation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.743908+00:00"
+    },
+    "et-maintenant-jattends-2027-04-02": {
+      "text": "La poésie ne se limite pas à la page : dite à voix haute, elle fait entendre le rythme, les sonorités et les silences des mots. L’accordéon et le violoncelle peuvent accompagner cette écoute par des couleurs sonores très contrastées.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.744375+00:00"
+    },
+    "conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien-2027-04-07": {
+      "text": "Les Jeux d’Enfants est un tableau peint par Pieter Bruegel l’Ancien en 1560, aujourd’hui conservé au Kunsthistorisches Museum de Vienne. Il montre une rue et une place animées par de nombreux enfants engagés dans une grande diversité de jeux.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.744842+00:00"
+    },
+    "atelier-yoga-du-chant-2027-04-10": {
+      "text": "Les voyelles jouent un rôle central dans le chant, car elles modifient la résonance produite par le conduit vocal. L’articulation des consonnes reste également essentielle : elle rend les paroles compréhensibles sans interrompre la continuité musicale de la phrase.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.745286+00:00"
+    },
+    "landing-2027-04-23": {
+      "text": "En physique, un mouvement se définit par le changement de position d’un objet au cours du temps, toujours par rapport à un référentiel choisi. Une chute est donc une phase du mouvement, dont la trajectoire et la vitesse peuvent ensuite évoluer.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.745725+00:00"
+    },
+    "conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire-2027-04-26": {
+      "text": "En France, l’éducation populaire trouve notamment ses racines dans le rapport sur l’instruction publique présenté par Condorcet en 1792 ; elle vise l’accès du plus grand nombre aux savoirs, à la culture et à la citoyenneté.",
+      "source_label": "INJEP — L’éducation populaire en France, fiche repère",
+      "model": "manual",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.746194+00:00"
+    },
+    "atelier-yoga-du-chant-2027-05-08": {
+      "text": "La tessiture désigne l’ensemble des notes qu’une voix peut chanter avec aisance. Les voix sont souvent classées, de la plus aiguë à la plus grave, en soprano, alto, ténor et basse, avec de nombreuses nuances entre ces catégories.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.746435+00:00"
+    },
+    "boite-a-cordees-2027-05-14": {
+      "text": "Le son d’un instrument à cordes naît de la vibration d’une corde mise en mouvement par pincement, frottement ou percussion. Sa hauteur dépend notamment de la longueur, de la tension et de la masse de la corde, tandis que la caisse amplifie le son.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.746873+00:00"
+    },
+    "on-ne-badine-pas-avec-lamour-2027-05-20": {
+      "text": "On ne badine pas avec l’amour est une pièce d’Alfred de Musset publiée en 1834. Elle appartient au théâtre romantique et confronte l’élan amoureux aux conventions sociales, aux malentendus et à l’orgueil, dans un passage progressif de la légèreté au drame.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-09-29T17:35:08.747374+00:00"
+    }
+  }
+}
