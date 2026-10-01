@@ -128,8 +128,14 @@
       "end_date": "2026-10-04",
       "summary": "Du vendredi 25 septembre au",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-8-jours-de-la-ville-de-nyons/"
@@ -700,13 +706,8 @@
       "end_date": "2026-10-03",
       "summary": "Atelier culinaire Italien \"Risotto & Panacotta\"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
-        "Vie associative",
         "Culture",
         "Loisirs"
       ],
@@ -858,9 +859,15 @@
       "end_date": "2026-10-07",
       "summary": "Représentation théâtrale, avec une quinzaine d'adhérents des GEM le Soleil et l'Oasis, dans le cadre de la Semaine Bleue.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Culture"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/tsart-une-histoire-de-paradis/"
     },
@@ -895,7 +902,7 @@
       "title": "À vos cartes, prêts, jouez !",
       "start_date": "2026-10-07",
       "end_date": "2026-10-07",
-      "summary": "Un voyage souvenir à travers la France",
+      "summary": "Un voyage souvenir à travers la France 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18.9°C / 18.9°C Contact Recherche Mentions légales Politique de confidentiali",
       "categories": [
         "Patrimoine / Culture vivante",
         "Solidarité / Santé",
@@ -1087,15 +1094,8 @@
       "end_date": "2026-10-09",
       "summary": "Sortie de résidence de Demi Mondaine, Mystic Gordon et Clément Bouet",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-demi-mondaine/"
     },
@@ -1130,7 +1130,7 @@
       "title": "Lectures par la MARPA de Rémuzat et Antoine Picard",
       "start_date": "2026-10-09",
       "end_date": "2026-10-09",
-      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Recherche Mentions légales Politique de c",
+      "summary": "Lectures par la MARPA de Rémuzat et Antoine Picard",
       "categories": [
         "Patrimoine / Culture vivante",
         "Solidarité / Santé",
@@ -1361,17 +1361,11 @@
       "title": "Fête de la Science 2026 : excursion à Venterol avec l’UNTL",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Excursion gratuite organisée par l'UNTL et menée par Jean-Loup Rubino",
+      "summary": "Excursion gratuite organisée par l'UNTL et menée par Jean-Loup Rubino 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.6°C / 20.6°C Contact Recherche Mentions lég",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/fete-de-la-science-2026-excursion-a-venterol-avec-luntl/"
     },
@@ -1444,7 +1438,7 @@
       "title": "Reprise des Ateliers Yoga du Chant",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Le deuxième samedi de chaque mois de 10h à 12h. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Recherche Mentions légales Politique de conf",
+      "summary": "Le deuxième samedi de chaque mois de 10h à 12h.",
       "categories": [
         "Sport / Loisirs",
         "Vie associative",
@@ -1600,8 +1594,15 @@
       "end_date": "2026-10-11",
       "summary": "Improvisation théâtrale",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/cocktail-dimpro-2/"
     },
@@ -2213,9 +2214,17 @@
       "title": "Conseil Municipal",
       "start_date": "2026-10-21",
       "end_date": "2026-10-21",
-      "summary": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous su",
+      "summary": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.",
       "categories": [
-        "Administratif"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conseil-municipal-4/"
     },
@@ -2250,17 +2259,11 @@
       "title": "Les documentaires de l’UNTL : « De la libération à l’épuration »",
       "start_date": "2026-10-21",
       "end_date": "2026-10-21",
-      "summary": "Projection de la seconde partie des Messagers de l'ombre\", suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches.",
+      "summary": "Projection de la seconde partie des Messagers de l'ombre\", suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-de-la-liberation-a-lepuration/"
     },
@@ -2390,7 +2393,7 @@
       "_fallback": false
     },
     "practical": {
-      "date_time": "Samedi 24 octobre 2026 de 10h00 à 21h00",
+      "date_time": "Du vendredi 02 octobre 2026 au dimanche 04 octobre 2026",
       "location_name": "",
       "address": "",
       "phone": "",
@@ -2606,7 +2609,7 @@
       "title": "Atelier cosmétique – Maquillage d’Halloween",
       "start_date": "2026-10-30",
       "end_date": "2026-10-30",
-      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Recherche Mentions léga",
+      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.6°C / 20.6°C Contact Recherche Mentions léga",
       "categories": [
         "Sport / Loisirs",
         "Loisirs"
@@ -2993,7 +2996,7 @@
       "title": "Puces des couturières",
       "start_date": "2026-11-14",
       "end_date": "2026-11-14",
-      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Reche",
+      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
       "categories": [
         "Sport / Loisirs",
         "Vie associative",
@@ -3344,7 +3347,7 @@
       "title": "Cher Edouard",
       "start_date": "2026-12-13",
       "end_date": "2026-12-13",
-      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Recherche Mentions légales Politique de confidential",
+      "summary": "Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.6°C / 20.6°C Contact Recherche Mentions légales Politique de confidential",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -3954,7 +3957,7 @@
     "practical": {
       "date_time": "Vendredi 19 février 2027 de 20h00 à 21h15",
       "location_name": "Maison de Pays",
-      "address": "Nyons",
+      "address": "128 Promenade de la Digue - 26110 NYONS",
       "phone": "04 75 26 50 10",
       "email": "l.flouret@nyons.com",
       "website": "https://www.renaudgarciafons.com/discographie/blue-maqam"
@@ -4519,7 +4522,7 @@
       "title": "On ne badine pas avec l’amour",
       "start_date": "2027-05-20",
       "end_date": "2027-05-20",
-      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Rec",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.6°C / 20.6°C Contact Rec",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -4625,6 +4628,165 @@
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-f302b555bc72b6ba",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/seance-cinema-speciale-octobre-rose/": {
+    "hash": "7db2628f01d4dc89a1c54431beed2d18fbbc18a7d3710c9cf20ddba708506fda",
+    "slug": "seance-cinema-speciale-octobre-rose-2026-10-02",
+    "event": {
+      "title": "Séance cinéma spéciale Octobre Rose",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-02",
+      "summary": "Le cinéma l’Arlequin vous propose une séance spéciale Octobre Rose avec le film \"Coutures\"",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/seance-cinema-speciale-octobre-rose/"
+    },
+    "editorial": {
+      "seo_title": "Octobre Rose au cinéma Arlequin de Nyons : « Coutures »",
+      "meta_description": "Le cinéma Arlequin de Nyons propose une séance spéciale Octobre Rose autour du film « Coutures », vendredi 2 octobre 2026 à 20 h.",
+      "intro": "Le cinéma l’Arlequin propose à Nyons une séance spéciale dans le cadre d’Octobre Rose, avec la projection du film « Coutures ». Ce rendez-vous culturel se tiendra le vendredi 2 octobre 2026, en soirée, au cinéma situé place de la Libération.",
+      "story": "« Coutures » sera au cœur de cette séance cinéma spéciale Octobre Rose organisée par le cinéma l’Arlequin. La projection est programmée le vendredi 2 octobre, de 20 h à 22 h. C’est une proposition portée par l’Arlequin dans son établissement nyonsais, au 28 place de la Libération.",
+      "why_it_matters": "Cette séance associe une sortie au cinéma à Octobre Rose, au sein d’un lieu culturel bien identifié de Nyons. Pour celles et ceux qui souhaitent voir « Coutures », le rendez-vous offre une soirée de projection dédiée dans la salle de l’Arlequin.",
+      "practical": "Vendredi 2 octobre 2026, de 20 h à 22 h, au cinéma Arlequin, 28 place de la Libération à Nyons. Renseignements : 04 75 26 01 41. Site : cinema-arlequin.fr.",
+      "reader_question": "Souhaitez-vous découvrir « Coutures » lors de cette séance spéciale Octobre Rose à Nyons ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Vendredi 02 octobre 2026 de 20h00 à 22h00",
+      "location_name": "Cinéma Arlequin,",
+      "address": "28 Place de la Libération - 26110 NYONS",
+      "phone": "04 75 26 01 41",
+      "email": "",
+      "website": "https://www.cinema-arlequin.fr/"
+    },
+    "generated_at": "2026-10-01T13:21:35.927177+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10,
+    "anecdote_id": "topic-a23d162c091820d3",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/animations-pour-octobre-rose/": {
+    "hash": "0584babe74304804b5d5d8743744ba4ba30d3908abd5e48960741d8e12a75c5e",
+    "slug": "animations-pour-octobre-rose-2026-10-10",
+    "event": {
+      "title": "Animations pour Octobre Rose",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Campagne annuelle mondiale de sensibilisation des femmes au dépistage du cancer du sein et récolte de fonds pour la recherche.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/animations-pour-octobre-rose/"
+    },
+    "editorial": {
+      "seo_title": "Octobre Rose : une matinée de sensibilisation à Nyons",
+      "meta_description": "À Nyons, des animations pour Octobre Rose sensibilisent au dépistage du cancer du sein et soutiennent la collecte de fonds pour la recherche.",
+      "intro": "Le samedi 10 octobre, des animations pour Octobre Rose sont proposées à Nyons. Cette matinée s’inscrit dans la campagne annuelle mondiale consacrée à la sensibilisation des femmes au dépistage du cancer du sein, tout en portant la collecte de fonds pour la recherche.",
+      "story": "Octobre Rose rassemble chaque année des actions autour d’un enjeu de santé majeur : encourager le dépistage du cancer du sein auprès des femmes. À Nyons, les animations prévues le 10 octobre prennent place dans ce cadre de sensibilisation et de solidarité. Elles rappellent aussi la dimension de soutien à la recherche, au cœur de cette campagne mondiale annuelle.",
+      "why_it_matters": "Cette matinée donne un cadre local à Octobre Rose, campagne dédiée à la sensibilisation au dépistage du cancer du sein. C’est aussi un rendez-vous placé sous le signe de la solidarité, avec la collecte de fonds en faveur de la recherche.",
+      "practical": "Samedi 10 octobre 2026, de 9h à 12h. Contact : linstant.zen.26@gmail.com.",
+      "reader_question": "Participerez-vous aux animations pour Octobre Rose à Nyons ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Samedi 10 octobre 2026 de 09h00 à 12h00",
+      "location_name": "",
+      "address": "",
+      "phone": "",
+      "email": "linstant.zen.26@gmail.com",
+      "website": ""
+    },
+    "generated_at": "2026-10-01T13:21:59.956850+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10,
+    "anecdote_id": "topic-840aa2df68092d7e",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/marche-solidaire-pour-octobre-rose/": {
+    "hash": "0708f3d6464a1dc23e157962afc5ce696117fb20010f9f257382671214242480",
+    "slug": "marche-solidaire-pour-octobre-rose-2026-10-10",
+    "event": {
+      "title": "Marche solidaire pour Octobre Rose",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "summary": "Départ de l'Office de tourisme. Ouvert à tous : familles, amis, sportifs, entreprises. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 20.6°C / 20.6°C Contact Reche",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/marche-solidaire-pour-octobre-rose/"
+    },
+    "editorial": {
+      "seo_title": "Marche solidaire Octobre Rose : rendez-vous à Nyons",
+      "meta_description": "Nyons accueille une marche solidaire pour Octobre Rose, samedi 10 octobre 2026, avec deux parcours de 7 ou 12 km au départ de l’Office de tourisme.",
+      "intro": "À l’occasion d’Octobre Rose, Nyons propose une marche solidaire le samedi 10 octobre 2026. Le départ se fera depuis l’Office de tourisme, pour une matinée de marche ouverte à tous : familles, amis, sportifs et entreprises. Deux parcours sont proposés, de 7 ou 12 km.",
+      "story": "Cette marche solidaire s’inscrit dans les rendez-vous associatifs et de santé d’Octobre Rose à Nyons. Chacun peut choisir son itinéraire entre un parcours de 7 km et un autre de 12 km, selon son envie de marcher. Le point de départ est fixé à l’Office de tourisme, où les participants se retrouveront le samedi matin. L’événement s’adresse aussi bien aux groupes d’amis et aux familles qu’aux sportifs ou aux entreprises.",
+      "why_it_matters": "C’est une occasion simple de participer à Octobre Rose par la marche, avec un format accessible à différents profils. Les deux distances permettent à chacun de prendre part à cette sortie solidaire à son rythme, au départ du centre de Nyons.",
+      "practical": "Samedi 10 octobre 2026, de 9h à 12h. Départ à l’Office de tourisme de Nyons. Parcours au choix de 7 ou 12 km. Contact : linstant.zen.26@gmail.com.",
+      "reader_question": "Plutôt 7 km ou 12 km pour cette marche solidaire ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Samedi 10 octobre 2026 de 09h00 à 12h00",
+      "location_name": "Départ de la marche à l’Office de Tourisme",
+      "address": "Parcours de 7 et 12 km",
+      "phone": "",
+      "email": "linstant.zen.26@gmail.com",
+      "website": ""
+    },
+    "generated_at": "2026-10-01T13:22:17.459690+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10,
+    "anecdote_id": "topic-f7dcf8001bcad801",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sans-dessus-dessous-une-heure-avec-jules-verne/": {
+    "hash": "d987725926f48c352efc969910249d323e1013338fe03a6a89e5071ecf0ba9be",
+    "slug": "sans-dessus-dessous-une-heure-avec-jules-verne-2026-10-15",
+    "event": {
+      "title": "« Sans dessus dessous » : Une heure avec Jules Verne",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "summary": "Lecture par Marc-Henri Boisse",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/sans-dessus-dessous-une-heure-avec-jules-verne/"
+    },
+    "editorial": {
+      "seo_title": "Une heure avec Jules Verne en lecture à Nyons",
+      "meta_description": "À Nyons, Marc-Henri Boisse propose « Sans dessus dessous », une lecture consacrée à Jules Verne, jeudi 15 octobre 2026 à la Maison de Pays.",
+      "intro": "Jules Verne s’invite à Nyons le temps d’une lecture avec « Sans dessus dessous ». Marc-Henri Boisse propose une heure consacrée à l’univers de l’écrivain, dans le cadre de cette rencontre culturelle. Un rendez-vous pour prendre le temps d’écouter un texte et retrouver la force évocatrice de la lecture à voix haute.",
+      "story": "Intitulée « Sans dessus dessous » : Une heure avec Jules Verne, cette lecture est portée par Marc-Henri Boisse. Elle se tient jeudi 15 octobre 2026, de 18 h à 19 h, à la Maison de Pays, salle 3. Le rendez-vous place Jules Verne au centre de la soirée, avec un format simple : une heure de lecture. Une proposition culturelle à vivre en fin de journée, au cœur de Nyons.",
+      "why_it_matters": "La lecture offre une manière directe de rencontrer ou de retrouver Jules Verne : par la voix, le rythme et l’écoute partagée. Ce rendez-vous d’une heure s’inscrit dans les propositions culturelles vivantes de Nyons.",
+      "practical": "Jeudi 15 octobre 2026, de 18 h à 19 h. Maison de Pays, salle 3, 128 promenade de la Digue, 26110 Nyons. Renseignements : 06 87 48 90 14.",
+      "reader_question": "Avez-vous envie de redécouvrir Jules Verne à travers une lecture à voix haute ?",
+      "_fallback": false
+    },
+    "practical": {
+      "date_time": "Jeudi 15 octobre 2026 de 18h00 à 19h00",
+      "location_name": "",
+      "address": "Maison de Pays (salle 3), 128 proemande de la Digue - 26110 NYONS",
+      "phone": "06 87 48 90 14",
+      "email": "",
+      "website": ""
+    },
+    "generated_at": "2026-10-01T13:22:36.201521+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10,
+    "anecdote_id": "topic-5f1d5497f7b99d74",
     "anecdote_assignment_version": 101
   }
 }

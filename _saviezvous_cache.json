@@ -127,6 +127,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.699872+00:00"
     },
+    "seance-cinema-speciale-octobre-rose-2026-10-02": {
+      "text": "Le cinéma est un art qui associe images en mouvement, sons, montage et projection collective. Une même œuvre peut ainsi être reçue différemment selon l’attention de chaque spectateur et les échanges qu’elle suscite après la séance.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-01T13:23:47.735359+00:00"
+    },
     "atelier-culinaire-risotto-panacotta-2026-10-03": {
       "text": "Le risotto est une préparation italienne de riz, cuite progressivement avec un liquide afin d’obtenir une texture liée. La panna cotta, dont le nom signifie « crème cuite », est un dessert italien traditionnellement préparé à base de crème gélifiée.",
       "source_label": "",
@@ -218,6 +225,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.706034+00:00"
     },
+    "animations-pour-octobre-rose-2026-10-10": {
+      "text": "Octobre Rose est une campagne annuelle de sensibilisation au cancer du sein. Elle contribue à rendre visible cet enjeu de santé publique et s’accompagne fréquemment d’initiatives destinées à soutenir la recherche et les personnes concernées.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-01T13:23:47.742553+00:00"
+    },
     "atelier-jardin-zen-2026-10-10": {
       "text": "Les jardins secs japonais, appelés karesansui, utilisent notamment roches, gravier et sable ratissé pour composer des paysages stylisés. Les motifs tracés dans le gravier peuvent évoquer l’eau, tandis que les pierres suggèrent reliefs, îles ou montagnes.",
       "source_label": "",
@@ -259,6 +273,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.708771+00:00"
+    },
+    "marche-solidaire-pour-octobre-rose-2026-10-10": {
+      "text": "La randonnée pédestre consiste à se déplacer à pied sur un itinéraire, en milieu urbain ou naturel. La distance, le dénivelé, l’état des chemins et le rythme choisi influencent sensiblement la durée et la difficulté d’un parcours.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-01T13:23:47.746294+00:00"
     },
     "reprise-des-ateliers-yoga-du-chant-2026-10-10": {
       "text": "La voix chantée mobilise notamment la respiration, les cordes vocales et les résonateurs du corps, comme la bouche et les cavités nasales. Dans un travail vocal, hauteur, intensité, timbre et articulation sont autant d’éléments que l’on peut explorer.",
@@ -336,6 +357,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.713848+00:00"
+    },
+    "sans-dessus-dessous-une-heure-avec-jules-verne-2026-10-15": {
+      "text": "Publié en 1889, Sans dessus dessous est un roman de Jules Verne lié à l’univers de De la Terre à la Lune. Il imagine un projet technique démesuré destiné à modifier l’axe de rotation terrestre, sur un mode à la fois scientifique et satirique.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-01T13:23:47.752549+00:00"
     },
     "stands-sur-la-sante-mentale-et-mad-pride-2026-10-15": {
       "text": "La santé mentale concerne les émotions, les pensées, les relations et la capacité à faire face aux situations de la vie. Elle ne se résume pas à l’absence de trouble : l’information, l’entraide et la lutte contre la stigmatisation font aussi partie des enjeux publics.",

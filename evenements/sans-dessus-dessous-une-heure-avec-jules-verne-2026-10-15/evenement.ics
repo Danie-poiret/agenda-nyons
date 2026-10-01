@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sans-dessus-dessous-une-heure-avec-jules-verne-2026-10-15@agenda.vivreanyons.fr
+DTSTAMP:20261001T132331Z
+DTSTART;TZID=Europe/Paris:20261015T180000
+DTEND;TZID=Europe/Paris:20261015T190000
+SUMMARY:« Sans dessus dessous » : Une heure avec Jules Verne
+DESCRIPTION:Lecture par Marc-Henri Boisse\nhttps://agenda.vivreanyons.fr/evenements/sans-dessus-dessous-une-heure-avec-jules-verne-2026-10-15/
+LOCATION:Maison de Pays (salle 3)\, 128 proemande de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/sans-dessus-dessous-une-heure-avec-jules-verne-2026-10-15/
+END:VEVENT
+END:VCALENDAR

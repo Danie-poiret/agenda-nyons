@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:seance-cinema-speciale-octobre-rose-2026-10-02@agenda.vivreanyons.fr
+DTSTAMP:20261001T132331Z
+DTSTART;TZID=Europe/Paris:20261002T200000
+DTEND;TZID=Europe/Paris:20261002T220000
+SUMMARY:Séance cinéma spéciale Octobre Rose
+DESCRIPTION:Le cinéma l’Arlequin vous propose une séance spéciale Octobre Rose avec le film "Coutures"\nhttps://agenda.vivreanyons.fr/evenements/seance-cinema-speciale-octobre-rose-2026-10-02/
+LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/seance-cinema-speciale-octobre-rose-2026-10-02/
+END:VEVENT
+END:VCALENDAR

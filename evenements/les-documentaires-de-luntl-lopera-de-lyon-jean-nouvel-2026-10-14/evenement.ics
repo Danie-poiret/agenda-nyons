@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:les-documentaires-de-luntl-lopera-de-lyon-jean-nouvel-2026-10-14@agenda.vivreanyons.fr
-DTSTAMP:20260930T123926Z
+DTSTAMP:20261001T132331Z
 DTSTART;TZID=Europe/Paris:20261014T183000
 DTEND;TZID=Europe/Paris:20261014T203000
 SUMMARY:Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »

@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:blue-maqam-de-renaud-garcia-fons-2027-02-19@agenda.vivreanyons.fr
-DTSTAMP:20260930T123926Z
+DTSTAMP:20261001T132331Z
 DTSTART;TZID=Europe/Paris:20270219T200000
 DTEND;TZID=Europe/Paris:20270219T211500
 SUMMARY:Blue Maqam de Renaud Garcia-Fons
 DESCRIPTION:Un trait d’union entre jazz et musiques orientales.\nhttps://agenda.vivreanyons.fr/evenements/blue-maqam-de-renaud-garcia-fons-2027-02-19/
-LOCATION:Maison de Pays — Nyons
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/blue-maqam-de-renaud-garcia-fons-2027-02-19/
 END:VEVENT
 END:VCALENDAR

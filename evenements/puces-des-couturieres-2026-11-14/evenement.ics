@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:puces-des-couturieres-2026-11-14@agenda.vivreanyons.fr
-DTSTAMP:20260930T123926Z
+DTSTAMP:20261001T132331Z
 DTSTART;TZID=Europe/Paris:20261114T090000
 DTEND;TZID=Europe/Paris:20261114T190000
 SUMMARY:Puces des couturières
-DESCRIPTION:Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.7°C / 23.7°C Contact Reche\nhttps://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/
+DESCRIPTION:Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.\nhttps://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/
 LOCATION:
 URL:https://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/
 END:VEVENT

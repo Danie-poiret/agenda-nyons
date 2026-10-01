@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:a-vos-cartes-prets-jouez-2026-10-07@agenda.vivreanyons.fr
-DTSTAMP:20260930T123926Z
+DTSTAMP:20261001T132331Z
 DTSTART;TZID=Europe/Paris:20261007T160000
 DTEND;TZID=Europe/Paris:20261007T180000
 SUMMARY:À vos cartes\, prêts\, jouez !
-DESCRIPTION:Un voyage souvenir à travers la France\nhttps://agenda.vivreanyons.fr/evenements/a-vos-cartes-prets-jouez-2026-10-07/
+DESCRIPTION:Un voyage souvenir à travers la France 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 18.9°C / 18.9°C Contact Recherche Mentions légales Politique de confidentiali\nhttps://agenda.vivreanyons.fr/evenements/a-vos-cartes-prets-jouez-2026-10-07/
 LOCATION:Médiathèque — 9 rue Albin Vilhet\, à Nyons
 URL:https://agenda.vivreanyons.fr/evenements/a-vos-cartes-prets-jouez-2026-10-07/
 END:VEVENT

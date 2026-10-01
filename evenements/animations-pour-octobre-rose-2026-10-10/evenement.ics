@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:animations-pour-octobre-rose-2026-10-10@agenda.vivreanyons.fr
+DTSTAMP:20261001T132331Z
+DTSTART;TZID=Europe/Paris:20261010T090000
+DTEND;TZID=Europe/Paris:20261010T120000
+SUMMARY:Animations pour Octobre Rose
+DESCRIPTION:Campagne annuelle mondiale de sensibilisation des femmes au dépistage du cancer du sein et récolte de fonds pour la recherche.\nhttps://agenda.vivreanyons.fr/evenements/animations-pour-octobre-rose-2026-10-10/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/animations-pour-octobre-rose-2026-10-10/
+END:VEVENT
+END:VCALENDAR
