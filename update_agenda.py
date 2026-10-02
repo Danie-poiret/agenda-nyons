@@ -33,7 +33,7 @@ except Exception:
 
 BASE = "https://www.nyons.com/sorties-actus/agenda/"
 SITE = "https://agenda.vivreanyons.fr/"
-BANNER_URL = "https://danie-poiret.github.io/banniere-nyons/"
+BANNER_URL = "https://agenda.vivreanyons.fr/banniere-livres/"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "agenda.json"
 WEEKS_DIR = ROOT / "semaines"
