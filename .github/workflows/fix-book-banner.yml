@@ -1,0 +1,23 @@
+name: Rétablir la bannière de livres de l’agenda
+on:
+  push:
+    branches: [main]
+    paths: [tools/fix-book-banner.py]
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Corriger les pages et le générateur
+        run: python tools/fix-book-banner.py
+      - name: Enregistrer la bannière rétablie
+        run: |
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add update_agenda.py index.html evenements semaines
+          git commit -m 'Restore the books banner on all agenda pages'
+          git push origin HEAD:main
