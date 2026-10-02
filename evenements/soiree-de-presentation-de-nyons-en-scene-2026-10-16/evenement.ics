@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:soiree-de-presentation-de-nyons-en-scene-2026-10-16@agenda.vivreanyons.fr
-DTSTAMP:20261001T132331Z
+DTSTAMP:20261002T124018Z
 DTSTART;TZID=Europe/Paris:20261016T190000
 DTEND;TZID=Europe/Paris:20261016T210000
 SUMMARY:Soirée de présentation de « Nyons en scène »
-DESCRIPTION:Présentation de la nouvelle saison culturelle municipale.\nhttps://agenda.vivreanyons.fr/evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/
+DESCRIPTION:Présentation de la nouvelle saison culturelle municipale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.2°C / 23.2°C Contact Recherche Mentions légales Politiq\nhttps://agenda.vivreanyons.fr/evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/
 LOCATION:Maison de Pays\, promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/
 END:VEVENT

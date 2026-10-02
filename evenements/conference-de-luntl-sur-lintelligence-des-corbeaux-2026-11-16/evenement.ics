@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16@agenda.vivreanyons.fr
-DTSTAMP:20261001T132331Z
+DTSTAMP:20261002T124018Z
 DTSTART;TZID=Europe/Paris:20261116T150000
 DTEND;TZID=Europe/Paris:20261116T170000
 SUMMARY:Conférence de l’UNTL sur l’intelligence des corbeaux
-DESCRIPTION:Conférence présentée par Joëlle Vionnet et Bruno Machtelinck.\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16/
+DESCRIPTION:Conférence présentée par Joëlle Vionnet et Bruno Machtelinck. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 23.2°C / 23.2°C Contact Recherche Mentions légales Pol\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16/
 END:VEVENT

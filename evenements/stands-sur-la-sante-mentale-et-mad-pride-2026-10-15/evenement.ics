@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:stands-sur-la-sante-mentale-et-mad-pride-2026-10-15@agenda.vivreanyons.fr
-DTSTAMP:20261001T132331Z
+DTSTAMP:20261002T124018Z
 DTSTART;TZID=Europe/Paris:20261015T080000
 DTEND;TZID=Europe/Paris:20261015T130000
 SUMMARY:Stands sur la santé mentale et « Mad Pride »
-DESCRIPTION:Stands des associations et des structures du territoire et "Mad Pride" dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous sui\nhttps://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-et-mad-pride-2026-10-15/
+DESCRIPTION:Stands des associations et des structures du territoire et "Mad Pride" dans le cadre des semaines d'information sur la santé mentale.\nhttps://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-et-mad-pride-2026-10-15/
 LOCATION:Marché - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/stands-sur-la-sante-mentale-et-mad-pride-2026-10-15/
 END:VEVENT
