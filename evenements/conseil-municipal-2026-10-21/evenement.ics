@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conseil-municipal-2026-10-21@agenda.vivreanyons.fr
-DTSTAMP:20261002T124018Z
+DTSTAMP:20261003T114304Z
 DTSTART;TZID=Europe/Paris:20261021T183000
 DTEND;TZID=Europe/Paris:20261021T200000
 SUMMARY:Conseil Municipal
-DESCRIPTION:À l’occasion du conseil municipal\, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous su\nhttps://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-10-21/
+DESCRIPTION:À l’occasion du conseil municipal\, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.\nhttps://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-10-21/
 LOCATION:Hôtel de Ville\, place Buffaven - 26110 Nyons
 URL:https://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-10-21/
 END:VEVENT
