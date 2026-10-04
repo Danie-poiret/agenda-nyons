@@ -419,6 +419,9 @@ function slugifyEvent(text){
 }
 
 function localEventUrl(event){
+  if(event.kind === "cinema" && event.page_url){
+    return event.page_url;
+  }
   const title = event.title || event.titre || event.name || "";
   const startDate = event.start_date || event.date || "";
 

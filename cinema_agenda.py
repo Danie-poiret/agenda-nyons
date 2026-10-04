@@ -11,6 +11,13 @@ def paris_today():return datetime.now(ZoneInfo('Europe/Paris')).date()
 def slug(text):
     raw=unicodedata.normalize('NFKD',text).encode('ascii','ignore').decode().lower()
     return re.sub('[^a-z0-9]+','-',raw).strip('-')[:82].rstrip('-')
+
+def browser_slug(text):
+    raw=''.join(ch for ch in unicodedata.normalize('NFD',text) if not unicodedata.combining(ch)).lower()
+    return re.sub('[^a-z0-9]+','-',raw).strip('-')[:82].rstrip('-')
+
+def alternate_path(e):
+    return f"evenements/{browser_slug(e['title'])}-{e['start_date']}/"
 def fmt(raw):
     d=date.fromisoformat(raw);return f'{d.day} {MONTHS[d.month]} {d.year}'
 def load_programme():return json.loads((ROOT/'cinema-programme.json').read_text(encoding='utf-8'))
@@ -86,6 +93,12 @@ def generate_cinema_pages(today=None):
         folder=ROOT/e['page_url'].removeprefix(SITE);folder.mkdir(parents=True,exist_ok=True)
         (folder/'index.html').write_text(render_film(e,cfg,today),encoding='utf-8')
         (folder/'evenement.ics').write_text(calendar(e),encoding='utf-8',newline='')
+        alias=alternate_path(e)
+        if alias!=e['page_url'].removeprefix(SITE):
+            alias_folder=ROOT/alias;alias_folder.mkdir(parents=True,exist_ok=True)
+            target=html.escape(e['page_url'],quote=True)
+            redirect='<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="'+target+'"><meta http-equiv="refresh" content="0;url='+target+'"><title>'+html.escape(e['film_title'])+' à Nyons</title></head><body><p><a href="'+target+'">Voir la fiche et les horaires de '+html.escape(e['film_title'])+' à Nyons</a></p></body></html>'
+            (alias_folder/'index.html').write_text(redirect,encoding='utf-8')
     active=sorted([e for e in events if e['end_date']>=today.isoformat()],key=lambda e:(next(s['date']+'T'+s['time'] for s in e['sessions'] if s['date']>=today.isoformat()),e['title']))
     body='<header class="hero"><h1>Cinéma à Nyons : films et horaires de L’Arlequin</h1><p>Un film, une fiche, toutes ses séances. Choisis ton affiche, puis regarde les dates et la version avant de partir.</p></header><section class="section" style="margin-top:22px"><h2>Le programme du moment</h2><p>Du '+fmt(cfg['period_start'])+' au '+fmt(cfg['period_end'])+'. Les films dont la dernière séance est passée ne figurent plus dans cette sélection.</p></section><section class="cards">'+cards(active,today)+'</section>'
     if not active:body+='<p class="archive">Le programme précédent est terminé. Consulte le site officiel de L’Arlequin en attendant la prochaine mise à jour.</p>'

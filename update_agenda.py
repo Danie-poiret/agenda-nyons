@@ -2592,6 +2592,8 @@ def write_sitemap():
             urls.append(f"{SITE}semaines/{p.parent.name}/")
     if EVENTS_DIR.exists():
         for p in sorted(EVENTS_DIR.glob("*/index.html")):
+            if '<meta name="robots" content="noindex,follow">' in p.read_text(encoding='utf-8'):
+                continue
             urls.append(f"{SITE}evenements/{p.parent.name}/")
 
     today = date.today().isoformat()
