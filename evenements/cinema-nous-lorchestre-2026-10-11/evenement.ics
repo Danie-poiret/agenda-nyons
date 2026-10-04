@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nous-lorchestre-2026-10-11-1100@agenda.vivreanyons.fr
+DTSTAMP:20261004T095548Z
+DTSTART:20261011T090000Z
+SUMMARY:Nous\, l’Orchestre — Séance spéciale — horaire à confirm
+ er
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Un documentaire\, de la musique et une discussion avec des me
+ mbres de l’Orchestre de Paris. Le petit déjeuner est annoncé avant l
+ a séance : pour une fois\, la sortie cinéma commence dès le matin.\nh
+ ttps://agenda.vivreanyons.fr/evenements/cinema-nous-lorchestre-2026-10-1
+ 1/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-nous-lorchestre-2026-
+ 10-11/
+END:VEVENT
+END:VCALENDAR

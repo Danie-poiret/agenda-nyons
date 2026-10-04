@@ -56,6 +56,8 @@ jobs:
 
           for p in Path("evenements").glob("*/index.html"):
               s = p.read_text(encoding="utf-8")
+              if 'CINÉMA À NYONS' in s:
+                  continue
 
               s = re.sub(
                   r'\s*<p class="official-note">🔗\s*<a[^>]*><strong>Voir la fiche officielle de l’événement sur nyons\.com</strong></a></p>',
@@ -113,6 +115,7 @@ jobs:
           git add _saviezvous_cache.json
           git add semaines
           git add evenements
+          git add cinema index.html
           git add sitemap.xml
           git add robots.txt
 
@@ -123,3 +126,4 @@ jobs:
 
           git commit -m "Mise a jour agenda et SEO Nyons"
           git push
+

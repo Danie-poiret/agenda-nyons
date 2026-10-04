@@ -1,7 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
-  "updated_at": "2026-10-03T11:42:53.214774+00:00",
-  "count": 107,
+  "cinema_source": "https://www.cinema-arlequin.fr/",
+  "updated_at": "2026-10-04T09:55:48.670732+00:00",
+  "count": 130,
   "events": [
     {
       "title": "Les 8 jours de la Ville de Nyons",
@@ -69,6 +70,318 @@
       "url": "https://www.nyons.com/agenda/constellations-familiales/"
     },
     {
+      "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
+      "film_title": "Chien bleu et autres belles histoires de l’école des loisirs",
+      "kind": "cinema",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-06",
+      "date_label": "Séances datées du 4 octobre 2026 au 6 octobre 2026 — voir les horaires",
+      "summary": "Cinq histoires tirées de l’univers de l’école des loisirs, dont Chien bleu. Un format court pour les petits : la sortie au cinéma peut commencer tout doucement.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-chien-bleu-et-autres-belles-histoires-de-lecole-des-loisirs-2026-10-04/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-chien-bleu-et-autres-belles-histoires-de-lecole-des-loisirs-2026-10-04/",
+      "sessions": [
+        {
+          "date": "2026-10-04",
+          "time": "15:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-04",
+          "time": "16:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-05",
+          "time": "17:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-06",
+          "time": "20:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRIQ769/D2VU0T99.webp",
+      "film": {
+        "title": "Chien bleu et autres belles histoires de l’école des loisirs",
+        "description": "Cinq histoires tirées de l’univers de l’école des loisirs, dont Chien bleu. Un format court pour les petits : la sortie au cinéma peut commencer tout doucement.",
+        "duration": "33 min",
+        "sessions": [
+          {
+            "date": "2026-10-04",
+            "time": "15:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-04",
+            "time": "16:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-05",
+            "time": "17:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-06",
+            "time": "20:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "price": 3.5,
+        "age": "À partir de 3 ans",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRIQ769/D2VU0T99.webp",
+        "poster_alt": "Affiche du film Chien bleu et autres belles histoires de l’école des loisirs, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Garance",
+      "film_title": "Garance",
+      "kind": "cinema",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-06",
+      "date_label": "Séances datées du 4 octobre 2026 au 6 octobre 2026 — voir les horaires",
+      "summary": "Une jeune actrice traverse huit années mouvementées, entre travail, rencontres et alcool. Une histoire de vie où les coups durs ne se règlent pas d’un simple coup de baguette.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-garance-2026-10-04/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-garance-2026-10-04/",
+      "sessions": [
+        {
+          "date": "2026-10-04",
+          "time": "19:15",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-05",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-06",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRPS5X6/URDHDQFH.webp",
+      "film": {
+        "title": "Garance",
+        "description": "Une jeune actrice traverse huit années mouvementées, entre travail, rencontres et alcool. Une histoire de vie où les coups durs ne se règlent pas d’un simple coup de baguette.",
+        "duration": "1 h 55",
+        "sessions": [
+          {
+            "date": "2026-10-04",
+            "time": "19:15",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-05",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-06",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "duration_note": "Le site officiel indique 1 h 55 ; le programme papier annonce 1 h 45.",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRPS5X6/URDHDQFH.webp",
+        "poster_alt": "Affiche du film Garance, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Heart of the Beast",
+      "film_title": "Heart of the Beast",
+      "kind": "cinema",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-06",
+      "date_label": "Séances datées du 4 octobre 2026 au 6 octobre 2026 — voir les horaires",
+      "summary": "Un homme, son chien et l’Alaska après un accident d’avion. Pour cette balade-là, mieux vaut rester dans son fauteuil : la nature ne leur fait pas de cadeau.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-heart-of-the-beast-2026-10-04/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-heart-of-the-beast-2026-10-04/",
+      "sessions": [
+        {
+          "date": "2026-10-04",
+          "time": "15:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-04",
+          "time": "19:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-10-05",
+          "time": "21:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-06",
+          "time": "18:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR78543/RVLHGMMM.webp",
+      "film": {
+        "title": "Heart of the Beast",
+        "description": "Un homme, son chien et l’Alaska après un accident d’avion. Pour cette balade-là, mieux vaut rester dans son fauteuil : la nature ne leur fait pas de cadeau.",
+        "duration": "1 h 41",
+        "sessions": [
+          {
+            "date": "2026-10-04",
+            "time": "15:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-04",
+            "time": "19:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-10-05",
+            "time": "21:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-06",
+            "time": "18:45",
+            "version": "VF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FR78543/RVLHGMMM.webp",
+        "poster_alt": "Affiche du film Heart of the Beast, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Le Chant des oliviers",
+      "film_title": "Le Chant des oliviers",
+      "kind": "cinema",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-12",
+      "date_label": "Séances datées du 4 octobre 2026 au 12 octobre 2026 — voir les horaires",
+      "summary": "À Malte, un héritage et un chant ancestral bousculent les projets d’une jeune femme. Les oliviers nous parlent déjà ; ici, la musique se mêle aussi au voyage.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-chant-des-oliviers-2026-10-04/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-chant-des-oliviers-2026-10-04/",
+      "sessions": [
+        {
+          "date": "2026-10-04",
+          "time": "17:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-05",
+          "time": "18:45",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-06",
+          "time": "21:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "21:30",
+          "version": "VO sous-titrée — soirée 100 % Malte",
+          "price": 20
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRW8JT5/VSN7ZJ48.webp",
+      "film": {
+        "title": "Le Chant des oliviers",
+        "description": "À Malte, un héritage et un chant ancestral bousculent les projets d’une jeune femme. Les oliviers nous parlent déjà ; ici, la musique se mêle aussi au voyage.",
+        "duration": "1 h 48",
+        "sessions": [
+          {
+            "date": "2026-10-04",
+            "time": "17:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-05",
+            "time": "18:45",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-06",
+            "time": "21:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "21:30",
+            "version": "VO sous-titrée — soirée 100 % Malte",
+            "price": 20
+          }
+        ],
+        "special_note": "La séance du 12 octobre à 21 h 30 fait partie de la soirée 100 % Malte : 20 € pour les deux films et le repas. Réservation avant le 11 octobre à 21 h.",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRW8JT5/VSN7ZJ48.webp",
+        "poster_alt": "Affiche du film Le Chant des oliviers, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Salvation",
+      "film_title": "Salvation",
+      "kind": "cinema",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-06",
+      "date_label": "Séances datées du 4 octobre 2026 au 6 octobre 2026 — voir les horaires",
+      "summary": "Deux villages turcs voient ressurgir de vieux conflits lorsque des habitants reviennent sur leurs terres. Une histoire de voisinage bien plus lourde qu’une querelle autour d’une clôture.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-salvation-2026-10-04/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-salvation-2026-10-04/",
+      "sessions": [
+        {
+          "date": "2026-10-04",
+          "time": "17:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-06",
+          "time": "20:45",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR1DJN2/GLOQJW6X.webp",
+      "film": {
+        "title": "Salvation",
+        "description": "Deux villages turcs voient ressurgir de vieux conflits lorsque des habitants reviennent sur leurs terres. Une histoire de voisinage bien plus lourde qu’une querelle autour d’une clôture.",
+        "duration": "2 h",
+        "sessions": [
+          {
+            "date": "2026-10-04",
+            "time": "17:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-06",
+            "time": "20:45",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "age": "Interdit aux moins de 12 ans — site officiel du cinéma",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FR1DJN2/GLOQJW6X.webp",
+        "poster_alt": "Affiche du film Salvation, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
       "title": "Atelier thématique sur la législation funéraire",
       "start_date": "2026-10-05",
       "end_date": "2026-10-05",
@@ -77,6 +390,652 @@
         "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/atelier-thematique-sur-la-legislation-funeraire/"
+    },
+    {
+      "title": "Cinéma — Lawrence d’Arabie",
+      "film_title": "Lawrence d’Arabie",
+      "kind": "cinema",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-05",
+      "date_label": "Séances datées du 5 octobre 2026 au 5 octobre 2026 — voir les horaires",
+      "summary": "Le grand voyage de T. E. Lawrence revient sur grand écran. Prévois une vraie après-midi : avec 3 h 28 de désert et d’histoire, la pendule a le temps de tourner.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-lawrence-darabie-2026-10-05/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-lawrence-darabie-2026-10-05/",
+      "sessions": [
+        {
+          "date": "2026-10-05",
+          "time": "14:00",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR4BQ6M/O6QPOCQF.webp",
+      "film": {
+        "title": "Lawrence d’Arabie",
+        "description": "Le grand voyage de T. E. Lawrence revient sur grand écran. Prévois une vraie après-midi : avec 3 h 28 de désert et d’histoire, la pendule a le temps de tourner.",
+        "duration": "3 h 28",
+        "sessions": [
+          {
+            "date": "2026-10-05",
+            "time": "14:00",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FR4BQ6M/O6QPOCQF.webp",
+        "poster_alt": "Affiche du film Lawrence d’Arabie, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Le Bossu",
+      "film_title": "Le Bossu",
+      "kind": "cinema",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-05",
+      "date_label": "Séances datées du 5 octobre 2026 au 5 octobre 2026 — voir les horaires",
+      "summary": "Le Bossu revient sur grand écran, précédé d’un concert baroque. Une après-midi qui commence en musique : voilà de quoi donner un autre air à ta sortie cinéma.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-bossu-2026-10-05/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-bossu-2026-10-05/",
+      "sessions": [
+        {
+          "date": "2026-10-05",
+          "time": "15:00",
+          "version": "Projection spéciale précédée d’un concert baroque"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR2A59H/PLKQ5G6X.webp",
+      "film": {
+        "title": "Le Bossu",
+        "description": "Le Bossu revient sur grand écran, précédé d’un concert baroque. Une après-midi qui commence en musique : voilà de quoi donner un autre air à ta sortie cinéma.",
+        "sessions": [
+          {
+            "date": "2026-10-05",
+            "time": "15:00",
+            "version": "Projection spéciale précédée d’un concert baroque"
+          }
+        ],
+        "price_note": "Tarif à demander au cinéma.",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FR2A59H/PLKQ5G6X.webp",
+        "poster_alt": "Affiche du film Le Bossu, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Soudain",
+      "film_title": "Soudain",
+      "kind": "cinema",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-06",
+      "date_label": "Séances datées du 6 octobre 2026 au 6 octobre 2026 — voir les horaires",
+      "summary": "Dans un établissement pour personnes âgées, une directrice veut remettre l’écoute et la dignité au cœur des soins. Prendre le temps de considérer les anciens, voilà un sujet qui mérite sa place.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-soudain-2026-10-06/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-soudain-2026-10-06/",
+      "sessions": [
+        {
+          "date": "2026-10-06",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRLLFLU/87LZL48Z.webp",
+      "film": {
+        "title": "Soudain",
+        "description": "Dans un établissement pour personnes âgées, une directrice veut remettre l’écoute et la dignité au cœur des soins. Prendre le temps de considérer les anciens, voilà un sujet qui mérite sa place.",
+        "duration": "3 h 15",
+        "sessions": [
+          {
+            "date": "2026-10-06",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRLLFLU/87LZL48Z.webp",
+        "poster_alt": "Affiche du film Soudain, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Digger",
+      "film_title": "Digger",
+      "kind": "cinema",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-13",
+      "date_label": "Séances datées du 7 octobre 2026 au 13 octobre 2026 — voir les horaires",
+      "summary": "L’homme le plus puissant du monde veut sauver l’humanité d’une catastrophe qu’il a lui-même provoquée. Chez Papy, on appellerait cela commencer par réparer ses propres bêtises.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-digger-2026-10-07/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-digger-2026-10-07/",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "21:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "14:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "16:15",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRTEUUP/Q8GMUXRE.webp",
+      "film": {
+        "title": "Digger",
+        "description": "L’homme le plus puissant du monde veut sauver l’humanité d’une catastrophe qu’il a lui-même provoquée. Chez Papy, on appellerait cela commencer par réparer ses propres bêtises.",
+        "duration": "2 h 09",
+        "sessions": [
+          {
+            "date": "2026-10-07",
+            "time": "14:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "21:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "18:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-10-11",
+            "time": "14:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "16:15",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-13",
+            "time": "18:30",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-13",
+            "time": "21:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRTEUUP/Q8GMUXRE.webp",
+        "poster_alt": "Affiche du film Digger, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Her Private Hell",
+      "film_title": "Her Private Hell",
+      "kind": "cinema",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-13",
+      "date_label": "Séances datées du 7 octobre 2026 au 13 octobre 2026 — voir les horaires",
+      "summary": "Une jeune femme recherche son père dans une ville futuriste envahie par une brume menaçante. Pour les amateurs de frissons ; les moins de 12 ans devront choisir une autre affiche.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-her-private-hell-2026-10-07/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-her-private-hell-2026-10-07/",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "time": "20:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "15:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "17:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:15",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRPC8N7/S9WQRQFH.webp",
+      "film": {
+        "title": "Her Private Hell",
+        "description": "Une jeune femme recherche son père dans une ville futuriste envahie par une brume menaçante. Pour les amateurs de frissons ; les moins de 12 ans devront choisir une autre affiche.",
+        "duration": "1 h 50",
+        "sessions": [
+          {
+            "date": "2026-10-07",
+            "time": "20:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "15:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "17:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-13",
+            "time": "16:15",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "age": "Interdit aux moins de 12 ans",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRPC8N7/S9WQRQFH.webp",
+        "poster_alt": "Affiche du film Her Private Hell, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Justin le Juste",
+      "film_title": "Justin le Juste",
+      "kind": "cinema",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-12",
+      "date_label": "Séances datées du 7 octobre 2026 au 12 octobre 2026 — voir les horaires",
+      "summary": "Un paysan naïf se retrouve enrôlé pendant la Première Guerre mondiale. Le voilà entraîné bien loin de ses habitudes : une histoire où l’uniforme change tout.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-justin-le-juste-2026-10-07/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-justin-le-juste-2026-10-07/",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "time": "17:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "18:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "15:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "17:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "14:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRC6N93/E6AVR7N5.webp",
+      "film": {
+        "title": "Justin le Juste",
+        "description": "Un paysan naïf se retrouve enrôlé pendant la Première Guerre mondiale. Le voilà entraîné bien loin de ses habitudes : une histoire où l’uniforme change tout.",
+        "duration": "1 h 50",
+        "sessions": [
+          {
+            "date": "2026-10-07",
+            "time": "17:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "18:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "15:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-11",
+            "time": "17:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "14:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRC6N93/E6AVR7N5.webp",
+        "poster_alt": "Affiche du film Justin le Juste, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Notre Salut",
+      "film_title": "Notre Salut",
+      "kind": "cinema",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-13",
+      "date_label": "Séances datées du 7 octobre 2026 au 13 octobre 2026 — voir les horaires",
+      "summary": "En 1940, un homme arrive à Vichy et cherche sa place dans la nouvelle administration. Un récit sur une époque sombre, à choisir quand on a envie d’histoire et de réflexion.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-notre-salut-2026-10-07/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-notre-salut-2026-10-07/",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "time": "14:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-07",
+          "time": "19:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "15:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "18:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "14:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "20:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRA02S6/I0GBTXO4.webp",
+      "film": {
+        "title": "Notre Salut",
+        "description": "En 1940, un homme arrive à Vichy et cherche sa place dans la nouvelle administration. Un récit sur une époque sombre, à choisir quand on a envie d’histoire et de réflexion.",
+        "duration": "2 h 39",
+        "sessions": [
+          {
+            "date": "2026-10-07",
+            "time": "14:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-07",
+            "time": "19:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "15:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "18:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-11",
+            "time": "14:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "20:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-13",
+            "time": "18:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRA02S6/I0GBTXO4.webp",
+        "poster_alt": "Affiche du film Notre Salut, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Raison et Sentiments",
+      "film_title": "Raison et Sentiments",
+      "kind": "cinema",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-13",
+      "date_label": "Séances datées du 7 octobre 2026 au 13 octobre 2026 — voir les horaires",
+      "summary": "Jane Austen retrouve le grand écran dans cette adaptation. Une histoire de sentiments à découvrir en version originale : laisse les voix anglaises accompagner les sous-titres.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-2026-10-07/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-2026-10-07/",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "time": "18:15",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "21:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "15:45",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "19:45",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "14:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:00",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRYPL2X/88JYXREB.webp",
+      "film": {
+        "title": "Raison et Sentiments",
+        "description": "Jane Austen retrouve le grand écran dans cette adaptation. Une histoire de sentiments à découvrir en version originale : laisse les voix anglaises accompagner les sous-titres.",
+        "duration": "2 h 12",
+        "sessions": [
+          {
+            "date": "2026-10-07",
+            "time": "18:15",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "21:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-10",
+            "time": "15:45",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-11",
+            "time": "19:45",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "14:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-13",
+            "time": "21:00",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRYPL2X/88JYXREB.webp",
+        "poster_alt": "Affiche du film Raison et Sentiments, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Un amour d’épouvantail",
+      "film_title": "Un amour d’épouvantail",
+      "kind": "cinema",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-13",
+      "date_label": "Séances datées du 7 octobre 2026 au 13 octobre 2026 — voir les horaires",
+      "summary": "Deux épouvantails amoureux préparent leur mariage, mais un dernier départ complique la fête. Même au milieu des champs, les préparatifs peuvent réserver quelques surprises !",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-un-amour-depouvantail-2026-10-07/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-un-amour-depouvantail-2026-10-07/",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "time": "17:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "18:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "17:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:45",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRPS7N9/HYQ3N4DV.webp",
+      "film": {
+        "title": "Un amour d’épouvantail",
+        "description": "Deux épouvantails amoureux préparent leur mariage, mais un dernier départ complique la fête. Même au milieu des champs, les préparatifs peuvent réserver quelques surprises !",
+        "duration": "44 min",
+        "sessions": [
+          {
+            "date": "2026-10-07",
+            "time": "17:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-09",
+            "time": "18:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-11",
+            "time": "17:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-12",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-13",
+            "time": "16:45",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "price": 3.5,
+        "age": "À partir de 3 ans",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRPS7N9/HYQ3N4DV.webp",
+        "poster_alt": "Affiche du film Un amour d’épouvantail, programmé au cinéma L’Arlequin à Nyons."
+      }
     },
     {
       "title": "Conférence de l’UNTL sur « Le grès turonien de Venterol »",
@@ -332,15 +1291,80 @@
     },
     {
       "title": "Ciné-débat « Sur l’Adamant »",
+      "film_title": "Sur l’Adamant",
+      "kind": "cinema",
       "start_date": "2026-10-11",
       "end_date": "2026-10-11",
-      "summary": "Projection et débat autour du film documentaire \"Sur l'Adamant\" de Nicolas Philibert, dans le cadre des semaines d'information sur la santé mentale.",
+      "date_label": "Séances datées du 11 octobre 2026 au 11 octobre 2026 — voir les horaires",
+      "summary": "Le documentaire de Nicolas Philibert est suivi d’une discussion sur la santé mentale avec des professionnels du territoire. Une soirée pour regarder, écouter et prendre le temps d’échanger.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
+        "Cinéma",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/cine-debat-sur-ladamant/"
+      "url": "https://www.nyons.com/agenda/cine-debat-sur-ladamant/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cine-debat-sur-ladamant-2026-10-11/",
+      "sessions": [
+        {
+          "date": "2026-10-11",
+          "time": "19:00",
+          "version": "Projection suivie d’une discussion"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRE53VA/48P0W48Z.webp",
+      "film": {
+        "title": "Sur l’Adamant",
+        "description": "Le documentaire de Nicolas Philibert est suivi d’une discussion sur la santé mentale avec des professionnels du territoire. Une soirée pour regarder, écouter et prendre le temps d’échanger.",
+        "sessions": [
+          {
+            "date": "2026-10-11",
+            "time": "19:00",
+            "version": "Projection suivie d’une discussion"
+          }
+        ],
+        "price_note": "Tarif à confirmer auprès du cinéma.",
+        "event_title": "Ciné-débat « Sur l’Adamant »",
+        "source_event_url": "https://www.nyons.com/agenda/cine-debat-sur-ladamant/",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRE53VA/48P0W48Z.webp",
+        "poster_alt": "Affiche du film Sur l’Adamant, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Nous, l’Orchestre",
+      "film_title": "Nous, l’Orchestre",
+      "kind": "cinema",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "Séances datées du 11 octobre 2026 au 11 octobre 2026 — voir les horaires",
+      "summary": "Un documentaire, de la musique et une discussion avec des membres de l’Orchestre de Paris. Le petit déjeuner est annoncé avant la séance : pour une fois, la sortie cinéma commence dès le matin.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-nous-lorchestre-2026-10-11/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-nous-lorchestre-2026-10-11/",
+      "sessions": [
+        {
+          "date": "2026-10-11",
+          "time": "11:00",
+          "version": "Séance spéciale — horaire à confirmer"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FROKJEW/FWOMPG8Z.webp",
+      "film": {
+        "title": "Nous, l’Orchestre",
+        "description": "Un documentaire, de la musique et une discussion avec des membres de l’Orchestre de Paris. Le petit déjeuner est annoncé avant la séance : pour une fois, la sortie cinéma commence dès le matin.",
+        "sessions": [
+          {
+            "date": "2026-10-11",
+            "time": "11:00",
+            "version": "Séance spéciale — horaire à confirmer"
+          }
+        ],
+        "price": 5,
+        "price_note": "5 € ; réservation indispensable au cinéma. Accueil petit déjeuner à 10 h 30. Le PDF comporte une autre animation à 11 h : fais confirmer la séance choisie.",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FROKJEW/FWOMPG8Z.webp",
+        "poster_alt": "Affiche du film Nous, l’Orchestre, programmé au cinéma L’Arlequin à Nyons."
+      }
     },
     {
       "title": "Cocktail d’impro",
@@ -363,6 +1387,45 @@
         "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-du-page-blanche-quartet/"
+    },
+    {
+      "title": "Cinéma — Luzzu",
+      "film_title": "Luzzu",
+      "kind": "cinema",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "Séances datées du 12 octobre 2026 au 12 octobre 2026 — voir les horaires",
+      "summary": "À Malte, un pêcheur tente de préserver son métier et son bateau traditionnel. Pour cette soirée, le voyage se fait depuis le fauteuil, puis autour d’un repas entre les deux films.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-luzzu-2026-10-12/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-luzzu-2026-10-12/",
+      "sessions": [
+        {
+          "date": "2026-10-12",
+          "time": "19:00",
+          "version": "VO sous-titrée — soirée 100 % Malte"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRZP9TP/81LVV0DV.webp",
+      "film": {
+        "title": "Luzzu",
+        "description": "À Malte, un pêcheur tente de préserver son métier et son bateau traditionnel. Pour cette soirée, le voyage se fait depuis le fauteuil, puis autour d’un repas entre les deux films.",
+        "duration": "1 h 34",
+        "sessions": [
+          {
+            "date": "2026-10-12",
+            "time": "19:00",
+            "version": "VO sous-titrée — soirée 100 % Malte"
+          }
+        ],
+        "price": 20,
+        "price_note": "20 € pour l’ensemble de la soirée : Luzzu à 19 h, repas à 20 h 30, puis Le Chant des oliviers à 21 h 30. Réservation indispensable avant le 11 octobre à 21 h.",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRZP9TP/81LVV0DV.webp",
+        "poster_alt": "Affiche du film Luzzu, programmé au cinéma L’Arlequin à Nyons."
+      }
     },
     {
       "title": "Conférence de l’UNTL sur Chagall",
@@ -410,6 +1473,668 @@
         "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/agriculture-en-surchauffe-on-en-parle/"
+    },
+    {
+      "title": "Cinéma — Fausse Note",
+      "film_title": "Fausse Note",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-20",
+      "date_label": "Séances datées du 14 octobre 2026 au 20 octobre 2026 — voir les horaires",
+      "summary": "Un chef d’orchestre voit un admirateur insistant perturber son dernier concert à Paris. Quand le spectateur prend un peu trop de place, la soirée change de partition.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-fausse-note-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-fausse-note-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "14:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "19:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR58BXK/WQETFCQF.webp",
+      "film": {
+        "title": "Fausse Note",
+        "description": "Un chef d’orchestre voit un admirateur insistant perturber son dernier concert à Paris. Quand le spectateur prend un peu trop de place, la soirée change de partition.",
+        "duration": "1 h 30",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "14:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "19:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FR58BXK/WQETFCQF.webp",
+        "poster_alt": "Affiche du film Fausse Note, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Le Corset",
+      "film_title": "Le Corset",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-20",
+      "date_label": "Séances datées du 14 octobre 2026 au 20 octobre 2026 — voir les horaires",
+      "summary": "À la ferme, Christophe, 11 ans, suit les pas de son père mais doit porter un corset. Une animation pour les enfants à partir de 6 ans, autour d’un garçon qui cherche son équilibre.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-corset-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-corset-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "17:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "17:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "21:15",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "17:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "14:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "15:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "17:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRQ0FYB/OEPPY7U1.webp",
+      "film": {
+        "title": "Le Corset",
+        "description": "À la ferme, Christophe, 11 ans, suit les pas de son père mais doit porter un corset. Une animation pour les enfants à partir de 6 ans, autour d’un garçon qui cherche son équilibre.",
+        "duration": "1 h 33",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "17:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "17:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "21:15",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "17:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "14:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "15:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "17:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "age": "À partir de 6 ans",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRQ0FYB/OEPPY7U1.webp",
+        "poster_alt": "Affiche du film Le Corset, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Le Monde à l’envers",
+      "film_title": "Le Monde à l’envers",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-19",
+      "date_label": "Séances datées du 14 octobre 2026 au 19 octobre 2026 — voir les horaires",
+      "summary": "Six petites histoires font de la différence une aventure pleine de poésie. Quarante-cinq minutes pour les petits dès 3 ans : pas besoin d’être tous pareils pour partager une séance.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "16:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "16:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "17:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "17:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRD600L/T3FESAMM.webp",
+      "film": {
+        "title": "Le Monde à l’envers",
+        "description": "Six petites histoires font de la différence une aventure pleine de poésie. Quarante-cinq minutes pour les petits dès 3 ans : pas besoin d’être tous pareils pour partager une séance.",
+        "duration": "45 min",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "16:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-14",
+            "time": "17:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "16:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "17:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "17:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "price": 3.5,
+        "age": "À partir de 3 ans",
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRD600L/T3FESAMM.webp",
+        "poster_alt": "Affiche du film Le Monde à l’envers, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — L’Espèce explosive",
+      "film_title": "L’Espèce explosive",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-20",
+      "date_label": "Séances datées du 14 octobre 2026 au 20 octobre 2026 — voir les horaires",
+      "summary": "Dans la campagne du Nord-Est, les dégâts des sangliers attisent le conflit entre chasseurs et agriculteurs. Voilà des bêtes qui mettent tout le monde en discussion, sans demander la parole.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "19:15",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "15:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "17:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRFIS1K/M7XFZCQF.webp",
+      "film": {
+        "title": "L’Espèce explosive",
+        "description": "Dans la campagne du Nord-Est, les dégâts des sangliers attisent le conflit entre chasseurs et agriculteurs. Voilà des bêtes qui mettent tout le monde en discussion, sans demander la parole.",
+        "duration": "1 h 35",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "19:15",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "15:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "17:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRFIS1K/M7XFZCQF.webp",
+        "poster_alt": "Affiche du film L’Espèce explosive, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Ni vue, ni connue",
+      "film_title": "Ni vue, ni connue",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-20",
+      "date_label": "Séances datées du 14 octobre 2026 au 20 octobre 2026 — voir les horaires",
+      "summary": "Une figurante enchaîne les tournages en espérant décrocher enfin un vrai rôle. Derrière les vedettes, il y a aussi ceux qui attendent leur petit moment de lumière.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-ni-vue-ni-connue-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-ni-vue-ni-connue-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "14:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "16:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "18:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "15:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "18:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "21:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRHPAV1/5BWRJKO4.webp",
+      "film": {
+        "title": "Ni vue, ni connue",
+        "description": "Une figurante enchaîne les tournages en espérant décrocher enfin un vrai rôle. Derrière les vedettes, il y a aussi ceux qui attendent leur petit moment de lumière.",
+        "duration": "1 h 55",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "14:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-14",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "16:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "18:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "15:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "18:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "21:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRHPAV1/5BWRJKO4.webp",
+        "poster_alt": "Affiche du film Ni vue, ni connue, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Où vont les âmes",
+      "film_title": "Où vont les âmes",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-20",
+      "date_label": "Séances datées du 14 octobre 2026 au 20 octobre 2026 — voir les horaires",
+      "summary": "Une jeune femme de 18 ans souhaite revoir ses demi-sœurs avant de mourir. Un sujet grave et délicat : choisis cette séance en sachant qu’elle aborde la fin de vie.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "14:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "18:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "20:45",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "14:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "20:30",
+          "version": "Version non précisée dans le PDF"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:00",
+          "version": "Version non précisée dans le PDF"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRZH1JF/X6VA8RSL.webp",
+      "film": {
+        "title": "Où vont les âmes",
+        "description": "Une jeune femme de 18 ans souhaite revoir ses demi-sœurs avant de mourir. Un sujet grave et délicat : choisis cette séance en sachant qu’elle aborde la fin de vie.",
+        "duration": "2 h 01",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "14:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "18:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-17",
+            "time": "20:45",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-18",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "14:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "20:30",
+            "version": "Version non précisée dans le PDF"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "19:00",
+            "version": "Version non précisée dans le PDF"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FRZH1JF/X6VA8RSL.webp",
+        "poster_alt": "Affiche du film Où vont les âmes, programmé au cinéma L’Arlequin à Nyons."
+      }
+    },
+    {
+      "title": "Cinéma — Ton animal maternel",
+      "film_title": "Ton animal maternel",
+      "kind": "cinema",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-20",
+      "date_label": "Séances datées du 14 octobre 2026 au 20 octobre 2026 — voir les horaires",
+      "summary": "De retour au Costa Rica, une jeune femme s’inquiète pour sa petite sœur et tente d’alerter leurs parents. Les retrouvailles familiales prennent ici une tournure troublante.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-ton-animal-maternel-2026-10-14/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-ton-animal-maternel-2026-10-14/",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "21:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "14:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "16:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "18:15",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "15:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "21:15",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR17HKL/MOT3FDZP.webp",
+      "film": {
+        "title": "Ton animal maternel",
+        "description": "De retour au Costa Rica, une jeune femme s’inquiète pour sa petite sœur et tente d’alerter leurs parents. Les retrouvailles familiales prennent ici une tournure troublante.",
+        "duration": "1 h 45",
+        "sessions": [
+          {
+            "date": "2026-10-14",
+            "time": "21:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "14:30",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-16",
+            "time": "16:30",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-19",
+            "time": "18:15",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "15:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-10-20",
+            "time": "21:15",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "poster": "https://images.monnaie-services.com/movie_poster/320/FR17HKL/MOT3FDZP.webp",
+        "poster_alt": "Affiche du film Ton animal maternel, programmé au cinéma L’Arlequin à Nyons."
+      }
     },
     {
       "title": "Les documentaires de l’UNTL: « L’Opéra de Lyon- Jean Nouvel »",

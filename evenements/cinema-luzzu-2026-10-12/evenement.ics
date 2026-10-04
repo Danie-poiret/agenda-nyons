@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:luzzu-2026-10-12-1900@agenda.vivreanyons.fr
+DTSTAMP:20261004T095548Z
+DTSTART:20261012T170000Z
+SUMMARY:Luzzu — VO sous-titrée — soirée 100 % Malte
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:À Malte\, un pêcheur tente de préserver son métier et son
+  bateau traditionnel. Pour cette soirée\, le voyage se fait depuis le f
+ auteuil\, puis autour d’un repas entre les deux films.\nhttps://agenda
+ .vivreanyons.fr/evenements/cinema-luzzu-2026-10-12/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-luzzu-2026-10-12/
+END:VEVENT
+END:VCALENDAR

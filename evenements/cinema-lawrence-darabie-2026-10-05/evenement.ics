@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lawrence-darabie-2026-10-05-1400@agenda.vivreanyons.fr
+DTSTAMP:20261004T095548Z
+DTSTART:20261005T120000Z
+SUMMARY:Lawrence d’Arabie — VO sous-titrée
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Le grand voyage de T. E. Lawrence revient sur grand écran. P
+ révois une vraie après-midi : avec 3 h 28 de désert et d’histoire\,
+  la pendule a le temps de tourner.\nhttps://agenda.vivreanyons.fr/evenem
+ ents/cinema-lawrence-darabie-2026-10-05/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-lawrence-darabie-2026
+ -10-05/
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ Ce mini-site GitHub Pages affiche l'agenda de Nyons **semaine par semaine** et m
 - `agenda.json` : données affichées par la page.
 - `update_agenda.py` : récupère les événements depuis nyons.com.
 - `requirements.txt` : dépendances Python.
-- `.github/workflows/update-agenda.yml` : mise à jour automatique toutes les 3 heures.
+- `.github/workflows/update-agenda.yml` : mise à jour automatique chaque jour à 06 h 17 UTC.
 
 ## Installation rapide sur GitHub
 
@@ -46,3 +46,12 @@ Pour une page Blogger dédiée, une hauteur de 900 à 1200 px convient général
 
 Source affichée : Ville de Nyons — agenda officiel.
 Le script reste volontairement léger, ne contourne aucune connexion et ne reproduit que les informations utiles de la liste avec un lien vers la fiche officielle.
+
+
+## Cinéma L’Arlequin
+
+`cinema-programme.json` contient les films, affiches et séances explicites du PDF officiel. `cinema_agenda.py` génère une fiche et un calendrier par film ainsi que `/cinema/`. Les VF/VO sont regroupées, jamais présentées comme un spectacle quotidien entre deux dates. Une fiche municipale existante est réutilisée lorsqu’elle correspond au même film et à la même séance.
+
+La mise à jour quotidienne conserve cette source distincte et ne réécrit pas les fiches cinéma avec les textes municipaux. Les films terminés quittent la sélection actuelle, leurs pages datées restent consultables.
+
+Une automatisation Codex rattachée au chat contrôle le programme à partir du lendemain de sa dernière date, soit le 21 octobre 2026 pour le programme du 30 septembre au 20 octobre. Elle ouvre cinema-arlequin.fr, récupère le PDF courant, vérifie ses dates et renouvelle les séances futures et les affiches. Si le nouveau PDF n’est pas encore disponible, elle réessaie le lendemain sans inventer de séances. Après chaque renouvellement, `next_check_date` prend la date de fin du nouveau programme plus un jour. Elle publie les données et pages sur GitHub et vérifie le résultat. Les titres comportent le nom du film, Nyons et les horaires au cinéma L’Arlequin ; les textes courts gardent le ton simple de Papy.

@@ -25,6 +25,7 @@ from urllib.parse import quote_plus, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from cinema_agenda import merge_cinema_events, generate_cinema_pages, paris_today
 
 try:
     from openai import OpenAI
@@ -301,6 +302,7 @@ def scrape_all():
 def write_agenda(events):
     payload = {
         "source": BASE,
+        "cinema_source": "https://www.cinema-arlequin.fr/",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(events),
         "events": events,
@@ -348,6 +350,10 @@ def slug_week(start: date) -> str:
 
 
 def event_weeks(event):
+    if event.get('kind') == 'cinema':
+        for week in sorted({monday_of(parse_iso(s['date'])) for s in event['sessions']}):
+            yield week
+        return
     start = parse_iso(event["start_date"])
     end = parse_iso(event["end_date"])
     w = monday_of(start)
@@ -358,7 +364,7 @@ def event_weeks(event):
 
 
 def group_weeks(events):
-    today = date.today()
+    today = paris_today()
     first = monday_of(today)
     weeks = {}
 
@@ -539,7 +545,7 @@ def event_status(event) -> str:
 
 def rolling_events(events):
     """Tous les événements en cours ou à venir, sans limite à 50."""
-    today = date.today()
+    today = paris_today()
     future = [e for e in events if parse_iso(e["end_date"]) >= today]
     return sorted(
         future,
@@ -1733,6 +1739,9 @@ def generate_event_pages(events):
     total_active = len(active)
 
     for idx, event in enumerate(active, start=1):
+        if event.get('kind') == 'cinema':
+            event_cache[event['url']] = {'event': event, 'editorial': {'intro': event['summary']}, 'cinema_managed': True}
+            continue
         detail_data = get_event_detail(session, event, detail_cache)
         detail = detail_data.get("text", "")
         practical = detail_data.get("practical") or {}
@@ -1787,7 +1796,7 @@ def generate_event_pages(events):
     cached_events = []
     for entry in event_cache.values():
         e = entry.get("event")
-        if e and entry.get("editorial"):
+        if e and entry.get("editorial") and e.get("kind") != "cinema":
             cached_events.append(e)
     cached_events.sort(key=lambda e: (e["start_date"], e["title"].lower()))
     anecdotes = assign_event_anecdotes(cached_events, event_cache)
@@ -1797,6 +1806,8 @@ def generate_event_pages(events):
         editorial = entry.get("editorial")
         practical = entry.get("practical") or {}
         if not event or not editorial:
+            continue
+        if event.get('kind') == 'cinema':
             continue
 
         # Correction d'affichage du site web uniquement, sans modifier le hash GPT.
@@ -1983,6 +1994,8 @@ def trim_meta(text: str, limit=160):
 
 
 def format_event_date(e):
+    if e.get('kind') == 'cinema':
+        return e['date_label']
     start = parse_iso(e["start_date"])
     end = parse_iso(e["end_date"])
     if start == end:
@@ -2018,7 +2031,9 @@ def render_week_page(start: date, events, editorial):
     for e in events:
         cats = " · ".join(e.get("categories") or [])
         cats_html = f'<div class="cats">{esc(cats)}</div>' if cats else ""
-        event_start = parse_iso(e["start_date"])
+        week_sessions = [s for s in e.get('sessions', []) if start <= parse_iso(s['date']) <= start + timedelta(days=6)]
+        event_start = parse_iso(week_sessions[0]['date'] if week_sessions else e["start_date"])
+        displayed_dates = ("Séances cette semaine : " + " ; ".join(f"{french_date(parse_iso(s['date']))} à {s['time'].replace(':', ' h ')} ({s['version']})" for s in week_sessions)) if week_sessions else format_event_date(e)
         date_badge = (
             f'<div class="date-badge"><span>{event_start.day}</span>'
             f'<small>{esc(MONTH_NAMES[event_start.month][:3].upper())}</small></div>'
@@ -2034,7 +2049,7 @@ def render_week_page(start: date, events, editorial):
           {date_badge}
           <div class="event-content">
             <h3><a href="{esc(title_url)}">{esc(e['title'])}</a></h3>
-            <p class="date-line">📅 {esc(format_event_date(e))}</p>
+            <p class="date-line">📅 {esc(displayed_dates)}</p>
             {cats_html}
             {local_cta}
           </div>
@@ -2361,7 +2376,7 @@ def render_week_page(start: date, events, editorial):
 
 def render_weeks_index(weeks):
     cards = []
-    today_monday = monday_of(date.today())
+    today_monday = monday_of(paris_today())
     for start, events in weeks.items():
         slug = slug_week(start)
         current = " current" if start == today_monday else ""
@@ -2571,7 +2586,7 @@ def render_weeks_index(weeks):
 """
 
 def write_sitemap():
-    urls = [SITE, f"{SITE}semaines/", f"{SITE}evenements/"]
+    urls = [SITE, f"{SITE}semaines/", f"{SITE}evenements/", f"{SITE}cinema/"]
     if WEEKS_DIR.exists():
         for p in sorted(WEEKS_DIR.glob("semaine-*/index.html")):
             urls.append(f"{SITE}semaines/{p.parent.name}/")
@@ -2650,11 +2665,13 @@ def generate_seo_pages(events):
 
 
 def main():
-    events = scrape_all()
+    events = merge_cinema_events(scrape_all())
     write_agenda(events)
     generate_event_pages(events)
+    generate_cinema_pages()
     generate_seo_pages(events)
 
 
 if __name__ == "__main__":
     main()
+

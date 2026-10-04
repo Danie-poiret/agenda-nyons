@@ -1,16 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 BEGIN:VEVENT
-UID:cine-debat-sur-ladamant-2026-10-11@agenda.vivreanyons.fr
-DTSTAMP:20261003T114304Z
-DTSTART;TZID=Europe/Paris:20261011T190000
-DTEND;TZID=Europe/Paris:20261011T200000
-SUMMARY:Ciné-débat « Sur l’Adamant »
-DESCRIPTION:Projection et débat autour du film documentaire "Sur l'Adamant" de Nicolas Philibert\, dans le cadre des semaines d'information sur la santé mentale.\nhttps://agenda.vivreanyons.fr/evenements/cine-debat-sur-ladamant-2026-10-11/
-LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
-URL:https://agenda.vivreanyons.fr/evenements/cine-debat-sur-ladamant-2026-10-11/
+UID:sur-ladamant-2026-10-11-1900@agenda.vivreanyons.fr
+DTSTAMP:20261004T095548Z
+DTSTART:20261011T170000Z
+SUMMARY:Sur l’Adamant — Projection suivie d’une discussion
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Le documentaire de Nicolas Philibert est suivi d’une discus
+ sion sur la santé mentale avec des professionnels du territoire. Une so
+ irée pour regarder\, écouter et prendre le temps d’échanger.\nhttps
+ ://agenda.vivreanyons.fr/evenements/cine-debat-sur-ladamant-2026-10-11/
+URL:https://agenda.vivreanyons.fr/evenements/cine-debat-sur-ladamant-2026
+ -10-11/
 END:VEVENT
 END:VCALENDAR
