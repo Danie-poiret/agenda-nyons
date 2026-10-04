@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11@agenda.vivreanyons.fr
-DTSTAMP:20261003T114304Z
+DTSTAMP:20261004T122710Z
 DTSTART;TZID=Europe/Paris:20261011T170000
 DTEND;TZID=Europe/Paris:20261011T190000
 SUMMARY:« Une soirée à Vienne » : concert du « Page Blanche Quartet »
-DESCRIPTION:Concert du "Page Blanche Quartet" dans le cadre de la 4e édition du Festival Page Blanche\, à l'Église Saint-Vincent\, 17h. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Co\nhttps://agenda.vivreanyons.fr/evenements/une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11/
+DESCRIPTION:Concert du "Page Blanche Quartet" dans le cadre de la 4e édition du Festival Page Blanche\, à l'Église Saint-Vincent\, 17h.\nhttps://agenda.vivreanyons.fr/evenements/une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11/
 LOCATION:Église Saint-Vincent - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/une-soiree-a-vienne-concert-du-page-blanche-quartet-2026-10-11/
 END:VEVENT

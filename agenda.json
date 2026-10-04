@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-04T09:55:48.670732+00:00",
-  "count": 130,
+  "updated_at": "2026-10-04T12:25:30.231514+00:00",
+  "count": 128,
   "events": [
     {
       "title": "Les 8 jours de la Ville de Nyons",
@@ -45,29 +45,6 @@
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-journees-nationales-des-artistes-a-nyons/"
-    },
-    {
-      "title": "Atelier culinaire – Risotto & panacotta",
-      "start_date": "2026-10-03",
-      "end_date": "2026-10-03",
-      "summary": "Atelier culinaire Italien \"Risotto & Panacotta\"",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-risotto-panacotta/"
-    },
-    {
-      "title": "Constellations familiales",
-      "start_date": "2026-10-03",
-      "end_date": "2026-10-03",
-      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
-      "categories": [
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/constellations-familiales/"
     },
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -1092,15 +1069,7 @@
       "end_date": "2026-10-08",
       "summary": "Les praticien.nes du Papillon vous invitent à un moment de partage et de bien-être. Lors de cet événement, vous aurez la possibilité de découvrir et de participer à différents ateliers et pratiques proposés par les praticien.nes de notre collectif.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/linstant-papillon-2/"
     },
@@ -1108,7 +1077,7 @@
       "title": "Stands sur la santé mentale",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
-      "summary": "Stands des associations et des structures du territoire, œuvre participative dans le cadre des semaines d'information sur la santé mentale.",
+      "summary": "Stands des associations et des structures du territoire, œuvre participative dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 No",
       "categories": [
         "Solidarité / Santé"
       ],
@@ -1118,9 +1087,17 @@
       "title": "Théâtre sur la santé mentale",
       "start_date": "2026-10-08",
       "end_date": "2026-10-08",
-      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 17.8°C / 17",
+      "summary": "Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/theatre-sur-la-sante-mentale/"
     },
@@ -1165,8 +1142,15 @@
       "end_date": "2026-10-10",
       "summary": "Campagne annuelle mondiale de sensibilisation des femmes au dépistage du cancer du sein et récolte de fonds pour la recherche.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/animations-pour-octobre-rose/"
     },
@@ -1242,7 +1226,7 @@
       "title": "Marche solidaire pour Octobre Rose",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Départ de l'Office de tourisme. Ouvert à tous : familles, amis, sportifs, entreprises.",
+      "summary": "Départ de l'Office de tourisme. Ouvert à tous : familles, amis, sportifs, entreprises. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Reche",
       "categories": [
         "Solidarité / Santé",
         "Vie associative"
@@ -1253,7 +1237,7 @@
       "title": "Reprise des Ateliers Yoga du Chant",
       "start_date": "2026-10-10",
       "end_date": "2026-10-10",
-      "summary": "Le deuxième samedi de chaque mois de 10h à 12h. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.4°C / 22.4°C Contact Recherche Mentions légales Politique de conf",
+      "summary": "Le deuxième samedi de chaque mois de 10h à 12h.",
       "categories": [
         "Sport / Loisirs",
         "Vie associative",
@@ -1267,15 +1251,9 @@
       "end_date": "2026-10-10",
       "summary": "Un atelier pour fabriquer ton propre jardin zen !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-3/"
     },
@@ -1381,7 +1359,7 @@
       "title": "« Une soirée à Vienne » : concert du « Page Blanche Quartet »",
       "start_date": "2026-10-11",
       "end_date": "2026-10-11",
-      "summary": "Concert du \"Page Blanche Quartet\" dans le cadre de la 4e édition du Festival Page Blanche, à l'Église Saint-Vincent, 17h. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Co",
+      "summary": "Concert du \"Page Blanche Quartet\" dans le cadre de la 4e édition du Festival Page Blanche, à l'Église Saint-Vincent, 17h.",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -1431,7 +1409,7 @@
       "title": "Conférence de l’UNTL sur Chagall",
       "start_date": "2026-10-12",
       "end_date": "2026-10-12",
-      "summary": "Par Marie-Christine Haussy, ancienne élève de l'École du Louvre",
+      "summary": "Par Marie-Christine Haussy, ancienne élève de l'École du Louvre 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales P",
       "categories": [],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-chagall/"
     },
@@ -1440,6 +1418,17 @@
       "start_date": "2026-10-12",
       "end_date": "2026-10-12",
       "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Malte !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-100-malte/"
+    },
+    {
+      "title": "Atelier sur les directives anticipées et dernières volontés",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "summary": "Dans le cadre de la Semaine Bleue 2026.",
       "categories": [
         "Administratif",
         "Cadre de vie",
@@ -1450,16 +1439,6 @@
         "Vie associative",
         "Culture",
         "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/soiree-100-malte/"
-    },
-    {
-      "title": "Atelier sur les directives anticipées et dernières volontés",
-      "start_date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "summary": "Dans le cadre de la Semaine Bleue 2026.",
-      "categories": [
-        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/atelier-sur-les-directives-anticipees-et-dernieres-volontes/"
     },
@@ -2196,7 +2175,7 @@
       "title": "Atelier d’Art-Thérapie",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
-      "summary": "Atelier d'Art-Thérapie avec Anaïs Marino, Art-thérapeute, dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Cou",
+      "summary": "Atelier d'Art-Thérapie avec Anaïs Marino, Art-thérapeute, dans le cadre des semaines d'information sur la santé mentale.",
       "categories": [
         "Patrimoine / Culture vivante",
         "Solidarité / Santé",
@@ -2210,8 +2189,15 @@
       "end_date": "2026-10-17",
       "summary": "Journée de clôture des vendanges et « Vignoble en Scène » au domaine Rocheville",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/journee-de-cloture-des-vendanges/"
     },
@@ -2221,14 +2207,8 @@
       "end_date": "2026-10-17",
       "summary": "Tournoi de belote du Comité des Fêtes",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/tournoi-de-belote-du-comite-des-fetes/"
@@ -2315,7 +2295,7 @@
       "title": "« SAISON 4 » de Romuald Maufras",
       "start_date": "2026-10-23",
       "end_date": "2026-10-23",
-      "summary": "En tournée dans toute la France avec son nouveau spectacle ! 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.4°C / 22.4°C Contact Recherche Mentions légales Poli",
+      "summary": "En tournée dans toute la France avec son nouveau spectacle !",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2328,14 +2308,8 @@
       "end_date": "2026-10-24",
       "summary": "Journée Jeux de société organisée par le Service Jeunesse",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/journees-jeux-de-societe/"
@@ -2344,7 +2318,7 @@
       "title": "Jeux Zen… et moins zen !",
       "start_date": "2026-10-27",
       "end_date": "2026-10-27",
-      "summary": "Jeux de société Zen... et moins zen !",
+      "summary": "Jeux de société Zen... et moins zen ! 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales Politique de confidentialit",
       "categories": [
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
@@ -2360,7 +2334,14 @@
       "end_date": "2026-10-28",
       "summary": "Atelier cosmétique, création de maquillage sur le thème d'Halloween",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/"
@@ -2439,7 +2420,7 @@
       "title": "Drôles de Coïncidences",
       "start_date": "2026-11-07",
       "end_date": "2026-11-07",
-      "summary": "Comédie d'intrigue de Maxence Descamps 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.4°C / 22.4°C Contact Recherche Mentions légales Politique de confidentiali",
+      "summary": "Comédie d'intrigue de Maxence Descamps",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2452,15 +2433,9 @@
       "end_date": "2026-11-09",
       "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/"
     },
@@ -2468,7 +2443,7 @@
       "title": "Opera follies",
       "start_date": "2026-11-11",
       "end_date": "2026-11-11",
-      "summary": "De l’Ensemble Vocal Cant’Ouvèze",
+      "summary": "De l’Ensemble Vocal Cant’Ouvèze 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales Politique de confidentialité Plan",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2481,8 +2456,15 @@
       "end_date": "2026-11-13",
       "summary": "Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/la-femme-moustique/"
     },
@@ -2515,7 +2497,8 @@
       "summary": "Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie \" L'Épopée Belle \"",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/"
     },
@@ -2559,7 +2542,7 @@
       "title": "De l’île Noire au Montbrun",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
-      "summary": "Concert \"De l'Ile Noire au Mont Brun\" 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.4°C / 22.4°C Contact Recherche Mentions légales Politique de confidentialit",
+      "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2572,15 +2555,7 @@
       "end_date": "2026-11-22",
       "summary": "Loto de l'association \"Détente et loisirs\" à 14h à la Maison de Pays.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/"
     },
@@ -2588,7 +2563,7 @@
       "title": "«La Caravane Exquise» : restitution publique",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
-      "summary": "Escale toposensible avec La Caravane Exquise.",
+      "summary": "Escale toposensible avec La Caravane Exquise. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales Politique de confid",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture",
@@ -2602,8 +2577,15 @@
       "end_date": "2026-12-05",
       "summary": "Comédie de la Compagnie du Chien Noir",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-turlupinades/"
     },
@@ -2679,7 +2661,7 @@
       "title": "On a perdu les clés du traîneau",
       "start_date": "2026-12-29",
       "end_date": "2026-12-29",
-      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ». 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.4°C / 22.4°",
+      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2692,15 +2674,8 @@
       "end_date": "2027-01-01",
       "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/"
     },
@@ -2708,7 +2683,7 @@
       "title": "Conférence de l’UNTL sur « Essai de toponymie locale »",
       "start_date": "2027-01-04",
       "end_date": "2027-01-04",
-      "summary": "Conférence présentée par Robert Gleize, agrégé de physique",
+      "summary": "Conférence présentée par Robert Gleize, agrégé de physique 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales Politi",
       "categories": [
         "Patrimoine / Culture vivante",
         "Vie associative",
@@ -2722,8 +2697,15 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/"
     },
@@ -2802,7 +2784,7 @@
       "title": "Les Grands Chemins",
       "start_date": "2027-02-06",
       "end_date": "2027-02-06",
-      "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 ",
+      "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2815,14 +2797,8 @@
       "end_date": "2027-02-13",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/"
@@ -2831,7 +2807,7 @@
       "title": "Blue Maqam de Renaud Garcia-Fons",
       "start_date": "2027-02-19",
       "end_date": "2027-02-19",
-      "summary": "Un trait d’union entre jazz et musiques orientales.",
+      "summary": "Un trait d’union entre jazz et musiques orientales. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales Politique de ",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2844,8 +2820,15 @@
       "end_date": "2027-03-10",
       "summary": "Si les histoires d’amour ressemblaient aux contes de fées, cela se saurait !",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/"
     },
@@ -2924,7 +2907,7 @@
       "title": "Et maintenant j’attends",
       "start_date": "2027-04-02",
       "end_date": "2027-04-02",
-      "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 ",
+      "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -2937,15 +2920,9 @@
       "end_date": "2027-04-07",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/"
     },
@@ -2967,8 +2944,15 @@
       "end_date": "2027-04-23",
       "summary": "Tomber n’est pas la fin du mouvement.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/landing/"
     },
@@ -3011,7 +2995,7 @@
       "title": "On ne badine pas avec l’amour",
       "start_date": "2027-05-20",
       "end_date": "2027-05-20",
-      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 22.4°C / 22.4°C Contact Rec",
+      "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Rec",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"

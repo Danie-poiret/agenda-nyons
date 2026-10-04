@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:theatre-sur-la-sante-mentale-2026-10-08@agenda.vivreanyons.fr
-DTSTAMP:20261003T114304Z
+DTSTAMP:20261004T122710Z
 DTSTART;TZID=Europe/Paris:20261008T110000
 DTEND;TZID=Europe/Paris:20261008T120000
 SUMMARY:Théâtre sur la santé mentale
-DESCRIPTION:Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 17.8°C / 17\nhttps://agenda.vivreanyons.fr/evenements/theatre-sur-la-sante-mentale-2026-10-08/
+DESCRIPTION:Théâtre Forum de l'association Intervalle dans le cadre des semaines d'information sur la santé mentale.\nhttps://agenda.vivreanyons.fr/evenements/theatre-sur-la-sante-mentale-2026-10-08/
 LOCATION:Esplanade de la Médiathèque - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/theatre-sur-la-sante-mentale-2026-10-08/
 END:VEVENT
