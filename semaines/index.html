@@ -160,7 +160,7 @@
       .ad-shell { border-radius:10px; }
     }
   </style>
-</head>
+<script src="/assets/agenda-current.js" defer></script></head>
 <body>
   <aside class="top" aria-label="Sélection de livres sur Nyons">
     <div class="ad-shell">
@@ -171,6 +171,7 @@
   </aside>
 
   <main class="wrap">
+<a class="back" data-current-week href="/semaines/">📅 La semaine en cours</a>
     <a class="back" href="https://agenda.vivreanyons.fr/">← Agenda interactif</a>
     <a class="back" href="https://agenda.vivreanyons.fr/evenements/">📌 Tous les événements</a>
 
@@ -182,19 +183,19 @@
 
     <section class="weeks">
       
-        <a class="week-card current" href="semaine-28-septembre-2026/">
+        <a class="week-card" data-week-start="2026-09-28" href="semaine-28-septembre-2026/" hidden>
           <div class="week-top">
             <span class="calendar">📅</span>
-            <span class="now">Cette semaine</span>
+            
           </div>
           <h2>Agenda de Nyons du 28 septembre au 4 octobre 2026</h2>
           <p>8 événement(s) annoncé(s)</p>
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-5-octobre-2026/">
+        <a class="week-card current" data-week-start="2026-10-05" href="semaine-5-octobre-2026/">
           <div class="week-top">
-            <span class="calendar">📅</span>
+            <span class="calendar">📅</span><span class="now">Cette semaine</span>
             
           </div>
           <h2>Agenda de Nyons du 5 au 11 octobre 2026</h2>
@@ -202,7 +203,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-12-octobre-2026/">
+        <a class="week-card" data-week-start="2026-10-12" href="semaine-12-octobre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -212,7 +213,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-19-octobre-2026/">
+        <a class="week-card" data-week-start="2026-10-19" href="semaine-19-octobre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -222,7 +223,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-26-octobre-2026/">
+        <a class="week-card" data-week-start="2026-10-26" href="semaine-26-octobre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -232,7 +233,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-2-novembre-2026/">
+        <a class="week-card" data-week-start="2026-11-02" href="semaine-2-novembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -242,7 +243,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-9-novembre-2026/">
+        <a class="week-card" data-week-start="2026-11-09" href="semaine-9-novembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -252,7 +253,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-16-novembre-2026/">
+        <a class="week-card" data-week-start="2026-11-16" href="semaine-16-novembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -262,7 +263,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-23-novembre-2026/">
+        <a class="week-card" data-week-start="2026-11-23" href="semaine-23-novembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -272,7 +273,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-30-novembre-2026/">
+        <a class="week-card" data-week-start="2026-11-30" href="semaine-30-novembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -282,7 +283,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-7-decembre-2026/">
+        <a class="week-card" data-week-start="2026-12-07" href="semaine-7-decembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -292,7 +293,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-14-decembre-2026/">
+        <a class="week-card" data-week-start="2026-12-14" href="semaine-14-decembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -302,7 +303,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-28-decembre-2026/">
+        <a class="week-card" data-week-start="2026-12-28" href="semaine-28-decembre-2026/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -312,7 +313,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-4-janvier-2027/">
+        <a class="week-card" data-week-start="2027-01-04" href="semaine-4-janvier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -322,7 +323,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-11-janvier-2027/">
+        <a class="week-card" data-week-start="2027-01-11" href="semaine-11-janvier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -332,7 +333,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-18-janvier-2027/">
+        <a class="week-card" data-week-start="2027-01-18" href="semaine-18-janvier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -342,7 +343,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-25-janvier-2027/">
+        <a class="week-card" data-week-start="2027-01-25" href="semaine-25-janvier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -352,7 +353,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-1-fevrier-2027/">
+        <a class="week-card" data-week-start="2027-02-01" href="semaine-1-fevrier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -362,7 +363,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-8-fevrier-2027/">
+        <a class="week-card" data-week-start="2027-02-08" href="semaine-8-fevrier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -372,7 +373,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-15-fevrier-2027/">
+        <a class="week-card" data-week-start="2027-02-15" href="semaine-15-fevrier-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -382,7 +383,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-8-mars-2027/">
+        <a class="week-card" data-week-start="2027-03-08" href="semaine-8-mars-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -392,7 +393,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-15-mars-2027/">
+        <a class="week-card" data-week-start="2027-03-15" href="semaine-15-mars-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -402,7 +403,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-22-mars-2027/">
+        <a class="week-card" data-week-start="2027-03-22" href="semaine-22-mars-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -412,7 +413,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-29-mars-2027/">
+        <a class="week-card" data-week-start="2027-03-29" href="semaine-29-mars-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -422,7 +423,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-5-avril-2027/">
+        <a class="week-card" data-week-start="2027-04-05" href="semaine-5-avril-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -432,7 +433,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-19-avril-2027/">
+        <a class="week-card" data-week-start="2027-04-19" href="semaine-19-avril-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -442,7 +443,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-26-avril-2027/">
+        <a class="week-card" data-week-start="2027-04-26" href="semaine-26-avril-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -452,7 +453,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-3-mai-2027/">
+        <a class="week-card" data-week-start="2027-05-03" href="semaine-3-mai-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -462,7 +463,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-10-mai-2027/">
+        <a class="week-card" data-week-start="2027-05-10" href="semaine-10-mai-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -472,7 +473,7 @@
           <span class="cta">Voir la semaine →</span>
         </a>
         
-        <a class="week-card" href="semaine-17-mai-2027/">
+        <a class="week-card" data-week-start="2027-05-17" href="semaine-17-mai-2027/">
           <div class="week-top">
             <span class="calendar">📅</span>
             
@@ -488,3 +489,4 @@
   </main>
 </body>
 </html>
+

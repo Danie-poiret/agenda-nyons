@@ -26,6 +26,7 @@ from urllib.parse import quote_plus, urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from cinema_agenda import merge_cinema_events, generate_cinema_pages, paris_today
+from rollover_pages import install_live_agenda
 
 try:
     from openai import OpenAI
@@ -2672,6 +2673,7 @@ def main():
     generate_event_pages(events)
     generate_cinema_pages()
     generate_seo_pages(events)
+    install_live_agenda(ROOT)
 
 
 if __name__ == "__main__":
