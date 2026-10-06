@@ -1813,6 +1813,7 @@ def generate_event_pages(events):
         nearby = [
             other for other in cached_events
             if other["url"] != event["url"]
+            and parse_iso(other["end_date"]) >= paris_today()
             and abs((parse_iso(other["start_date"]) - parse_iso(event["start_date"])).days) <= 10
         ][:3]
         folder = EVENTS_DIR / event_slug(event)
