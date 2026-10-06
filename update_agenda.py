@@ -1541,10 +1541,9 @@ def corrected_website_for_display(practical, detail_text):
     return practical
 
 
-def render_event_page(event, editorial, related_events=None, practical=None, anecdote=None):
+def render_event_page(event, editorial, related_events=None, practical=None):
     related_events = related_events or []
     practical = practical or {}
-    anecdote = anecdote or {}
     story_title, why_title = event_section_titles(event)
     source_notice = official_fallback_notice(event, practical)
     canonical = event_local_url(event)
@@ -1647,14 +1646,11 @@ def render_event_page(event, editorial, related_events=None, practical=None, ane
     if related_html:
         related_section = f'<section class="section"><h2>📍 D’autres rendez-vous proches</h2><div class="related">{related_html}</div></section>'
 
-    anecdote_section = ""
-    if anecdote.get("text"):
-        anecdote_section = (
-            '<section class="section anecdote"><h2>💡 Le saviez-vous ?</h2>'
-            f'<p>{esc(anecdote["text"])}</p>'
-            f'<p class="heritage-source">Repère documentaire : '
-            f'{esc(anecdote.get("source_label") or "Terre d’Eygues")}</p></section>'
-        )
+    # Le contenu est rempli par fix_saviezvous.py après la génération des pages.
+    anecdote_section = (
+        '<section class="section anecdote"><h2>💡 Le saviez-vous ?</h2>'
+        '</section>'
+    )
 
     return f'''<!doctype html>
 <html lang="fr">
@@ -1800,7 +1796,6 @@ def generate_event_pages(events):
         if e and entry.get("editorial") and e.get("kind") != "cinema":
             cached_events.append(e)
     cached_events.sort(key=lambda e: (e["start_date"], e["title"].lower()))
-    anecdotes = assign_event_anecdotes(cached_events, event_cache)
 
     for entry in event_cache.values():
         event = entry.get("event")
@@ -1823,7 +1818,7 @@ def generate_event_pages(events):
         folder = EVENTS_DIR / event_slug(event)
         folder.mkdir(parents=True, exist_ok=True)
         (folder / "index.html").write_text(
-            render_event_page(event, editorial, nearby, practical, anecdotes[event["url"]]),
+            render_event_page(event, editorial, nearby, practical),
             encoding="utf-8",
         )
         (folder / "evenement.ics").write_text(
