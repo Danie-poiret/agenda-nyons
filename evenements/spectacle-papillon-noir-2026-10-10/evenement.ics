@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:spectacle-papillon-noir-2026-10-10@agenda.vivreanyons.fr
-DTSTAMP:20261006T085543Z
+DTSTAMP:20261006T132314Z
 DTSTART;TZID=Europe/Paris:20261010T170000
 DTEND;TZID=Europe/Paris:20261010T180000
 SUMMARY:Spectacle « Papillon noir »
-DESCRIPTION:Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 19.3°C / 19.3°C Contact Recherche Mentions légales Politique de confiden\nhttps://agenda.vivreanyons.fr/evenements/spectacle-papillon-noir-2026-10-10/
+DESCRIPTION:Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 24.1°C / 24.1°C Contact Recherche Mentions légales Politique de confiden\nhttps://agenda.vivreanyons.fr/evenements/spectacle-papillon-noir-2026-10-10/
 LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/spectacle-papillon-noir-2026-10-10/
 END:VEVENT

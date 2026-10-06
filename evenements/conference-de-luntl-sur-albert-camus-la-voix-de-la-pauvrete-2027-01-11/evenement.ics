@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete-2027-01-11@agenda.vivreanyons.fr
-DTSTAMP:20261006T085543Z
+DTSTAMP:20261006T132314Z
 DTSTART;TZID=Europe/Paris:20270111T150000
 DTEND;TZID=Europe/Paris:20270111T170000
 SUMMARY:Conférence de l’UNTL sur Albert Camus\, la voix de la pauvreté
