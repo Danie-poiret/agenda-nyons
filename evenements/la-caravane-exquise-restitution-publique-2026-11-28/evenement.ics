@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:la-caravane-exquise-restitution-publique-2026-11-28@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART;TZID=Europe/Paris:20261128T100000
 DTEND;TZID=Europe/Paris:20261128T190000
 SUMMARY:«La Caravane Exquise» : restitution publique

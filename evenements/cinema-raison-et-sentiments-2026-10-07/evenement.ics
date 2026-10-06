@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:raison-et-sentiments-2026-10-07-1815@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART:20261007T161500Z
 SUMMARY:Raison et Sentiments — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -17,7 +17,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-
 END:VEVENT
 BEGIN:VEVENT
 UID:raison-et-sentiments-2026-10-09-2100@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART:20261009T190000Z
 SUMMARY:Raison et Sentiments — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -30,7 +30,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-
 END:VEVENT
 BEGIN:VEVENT
 UID:raison-et-sentiments-2026-10-10-1545@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART:20261010T134500Z
 SUMMARY:Raison et Sentiments — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -43,7 +43,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-
 END:VEVENT
 BEGIN:VEVENT
 UID:raison-et-sentiments-2026-10-11-1945@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART:20261011T174500Z
 SUMMARY:Raison et Sentiments — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-
 END:VEVENT
 BEGIN:VEVENT
 UID:raison-et-sentiments-2026-10-12-1400@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART:20261012T120000Z
 SUMMARY:Raison et Sentiments — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -69,7 +69,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-raison-et-sentiments-
 END:VEVENT
 BEGIN:VEVENT
 UID:raison-et-sentiments-2026-10-13-2100@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART:20261013T190000Z
 SUMMARY:Raison et Sentiments — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons

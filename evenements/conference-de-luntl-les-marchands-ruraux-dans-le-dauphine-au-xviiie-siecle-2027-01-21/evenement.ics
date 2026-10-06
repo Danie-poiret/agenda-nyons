@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiie-siecle-2027-01-21@agenda.vivreanyons.fr
-DTSTAMP:20261006T083545Z
+DTSTAMP:20261006T085543Z
 DTSTART;TZID=Europe/Paris:20270121T150000
 DTEND;TZID=Europe/Paris:20270121T170000
 SUMMARY:Conférence de l’UNTL : « Les marchands ruraux dans le Dauphiné au XVIIIe siècle »
