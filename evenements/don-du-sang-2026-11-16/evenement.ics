@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:don-du-sang-2026-11-16@agenda.vivreanyons.fr
+DTSTAMP:20261006T083545Z
+DTSTART;TZID=Europe/Paris:20261116T083000
+DTEND;TZID=Europe/Paris:20261116T123000
+SUMMARY:Don du sang
+DESCRIPTION:Don du sang à la Maison de Pays : Je donne mon sang : je sauve des vies !\nhttps://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/
+END:VEVENT
+END:VCALENDAR

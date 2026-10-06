@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:linvite-surprise-contes-et-rencontres-2026-11-21@agenda.vivreanyons.fr
+DTSTAMP:20261006T083545Z
+DTSTART;TZID=Europe/Paris:20261121T100000
+DTEND;TZID=Europe/Paris:20261121T120000
+SUMMARY:« L’invité surprise » (Contes et Rencontres)
+DESCRIPTION:Un paquet cadeau\, un manteau de fée... Surprise !\nhttps://agenda.vivreanyons.fr/evenements/linvite-surprise-contes-et-rencontres-2026-11-21/
+LOCATION:Médiatheque Départementale Drôme Provençale\, — 9 rue Albin Vilhet - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/linvite-surprise-contes-et-rencontres-2026-11-21/
+END:VEVENT
+END:VCALENDAR

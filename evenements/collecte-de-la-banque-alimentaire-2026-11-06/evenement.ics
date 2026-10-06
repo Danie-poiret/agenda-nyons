@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:collecte-de-la-banque-alimentaire-2026-11-06@agenda.vivreanyons.fr
+DTSTAMP:20261006T083545Z
+DTSTART;TZID=Europe/Paris:20261106T090000
+DTEND;TZID=Europe/Paris:20261107T190000
+SUMMARY:Collecte de la banque alimentaire
+DESCRIPTION:Collecte de produits alimentaires organisée par les associations caritatives de Nyons.\nhttps://agenda.vivreanyons.fr/evenements/collecte-de-la-banque-alimentaire-2026-11-06/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/collecte-de-la-banque-alimentaire-2026-11-06/
+END:VEVENT
+END:VCALENDAR

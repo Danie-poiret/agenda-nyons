@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:la-loba-contes-et-rencontres-2026-11-21@agenda.vivreanyons.fr
+DTSTAMP:20261006T083545Z
+DTSTART;TZID=Europe/Paris:20261121T150000
+DTEND;TZID=Europe/Paris:20261121T160000
+SUMMARY:« La Loba » (Contes et Rencontres)
+DESCRIPTION:"Va dans le bois mon enfant\, car si tu n’y vas pas\, jamais ta vie de loba ne commencera !"\nhttps://agenda.vivreanyons.fr/evenements/la-loba-contes-et-rencontres-2026-11-21/
+LOCATION:Maison des associations Georges Girard\, Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/la-loba-contes-et-rencontres-2026-11-21/
+END:VEVENT
+END:VCALENDAR

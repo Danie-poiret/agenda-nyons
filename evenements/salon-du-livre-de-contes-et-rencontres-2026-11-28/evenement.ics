@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:salon-du-livre-de-contes-et-rencontres-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261006T083545Z
+DTSTART;TZID=Europe/Paris:20261128T103000
+DTEND;TZID=Europe/Paris:20261128T230000
+SUMMARY:Salon du livre de « Contes et Rencontres »
+DESCRIPTION:À la Maison de Pays dès 10h30\nhttps://agenda.vivreanyons.fr/evenements/salon-du-livre-de-contes-et-rencontres-2026-11-28/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/salon-du-livre-de-contes-et-rencontres-2026-11-28/
+END:VEVENT
+END:VCALENDAR

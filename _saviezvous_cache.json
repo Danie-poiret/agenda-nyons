@@ -519,6 +519,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.725283+00:00"
     },
+    "collecte-de-la-banque-alimentaire-2026-11-06": {
+      "text": "Les banques alimentaires recueillent des denrées pour les redistribuer, par l’intermédiaire d’associations partenaires, à des personnes rencontrant des difficultés matérielles. Les produits secs, les conserves et les articles d’hygiène sont souvent adaptés au stockage et à la distribution solidaire.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.380696+00:00"
+    },
     "droles-de-coincidences-2026-11-07": {
       "text": "La comédie d’intrigue construit son effet sur les rebondissements, les quiproquos, les révélations et les retournements de situation. Les coïncidences y sont souvent un ressort narratif : elles rapprochent des personnages ou compliquent soudainement leurs projets.",
       "source_label": "",
@@ -539,6 +546,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.726674+00:00"
+    },
+    "scene-ouverte-contes-et-rencontres-2026-11-12": {
+      "text": "La scène ouverte est un format où des personnes volontaires prennent successivement la parole ou se produisent devant un public. Conte, lecture, poésie et chanson y font entendre des formes différentes d’oralité, fondées sur le rythme, la voix et l’adresse aux auditeurs.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.382720+00:00"
     },
     "la-femme-moustique-2026-11-13": {
       "text": "Le conte est une forme de récit transmise oralement ou par l’écrit, où le merveilleux permet souvent d’aborder des peurs, des désirs ou des passages de la vie. Ses personnages et ses métamorphoses donnent une forme imagée à des expériences humaines universelles.",
@@ -582,6 +596,20 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.729476+00:00"
     },
+    "don-du-sang-2026-11-16": {
+      "text": "Le sang total donné peut être séparé en plusieurs composants, notamment les globules rouges, le plasma et les plaquettes. Ces produits sanguins répondent à des usages hospitaliers distincts ; leur préparation et leur distribution sont strictement encadrées en France.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.386141+00:00"
+    },
+    "foire-aux-livres-damnesty-international-2026-11-18": {
+      "text": "Une foire aux livres donne une seconde circulation à des ouvrages déjà lus et permet à des lecteurs de découvrir des titres variés. Amnesty International est un mouvement de défense des droits humains fondé en 1961, connu notamment pour ses campagnes d’information et de mobilisation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.386727+00:00"
+    },
     "salon-vivre-ici-2026-11-18": {
       "text": "Habiter un territoire ne se limite pas au logement : cela concerne aussi l’accès aux études, au travail, aux services, aux mobilités et aux réseaux associatifs. Les salons d’information permettent de réunir des acteurs intervenant dans ces différents aspects de la vie quotidienne.",
       "source_label": "",
@@ -596,6 +624,20 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.730376+00:00"
     },
+    "la-loba-contes-et-rencontres-2026-11-21": {
+      "text": "Dans de nombreux contes, la forêt est un espace de passage où le personnage s’éloigne du monde familier pour affronter des épreuves ou faire des rencontres. Ce lieu symbolique peut représenter à la fois le danger, l’inconnu et la transformation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.388244+00:00"
+    },
+    "linvite-surprise-contes-et-rencontres-2026-11-21": {
+      "text": "Le merveilleux est un registre narratif dans lequel fées, objets enchantés et événements impossibles sont admis comme faisant partie de l’histoire. La surprise y est souvent un ressort essentiel : elle déclenche une aventure ou modifie soudainement le destin d’un personnage.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.388734+00:00"
+    },
     "loto-de-detente-et-loisirs-2026-11-22": {
       "text": "Dans un loto traditionnel, les joueurs cherchent à compléter des lignes ou l’ensemble des numéros figurant sur leur carton au fil du tirage. La part d’aléa est centrale, mais l’attention portée aux numéros appelés rythme collectivement la partie.",
       "source_label": "",
@@ -609,6 +651,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.731255+00:00"
+    },
+    "salon-du-livre-de-contes-et-rencontres-2026-11-28": {
+      "text": "Un salon du livre réunit généralement auteurs, éditeurs, libraires, associations et lecteurs autour des œuvres et de leur circulation. Les rencontres littéraires permettent d’aborder les genres, les étapes de création et les multiples façons dont un texte passe de l’écriture à la lecture.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-06T08:35:56.390143+00:00"
     },
     "les-turlupinades-2026-12-05": {
       "text": "La comédie cherche à provoquer le rire par les caractères, le langage, les situations ou les décalages entre ce que les personnages savent et ce que le public comprend. Elle peut aussi observer avec humour les habitudes sociales et les relations humaines.",

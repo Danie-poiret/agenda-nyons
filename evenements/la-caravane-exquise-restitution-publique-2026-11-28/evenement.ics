@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:la-caravane-exquise-restitution-publique-2026-11-28@agenda.vivreanyons.fr
-DTSTAMP:20261004T122710Z
+DTSTAMP:20261006T083545Z
 DTSTART;TZID=Europe/Paris:20261128T100000
 DTEND;TZID=Europe/Paris:20261128T190000
 SUMMARY:«La Caravane Exquise» : restitution publique
-DESCRIPTION:Escale toposensible avec La Caravane Exquise. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 24.7°C / 24.7°C Contact Recherche Mentions légales Politique de confid\nhttps://agenda.vivreanyons.fr/evenements/la-caravane-exquise-restitution-publique-2026-11-28/
+DESCRIPTION:Escale toposensible avec La Caravane Exquise.\nhttps://agenda.vivreanyons.fr/evenements/la-caravane-exquise-restitution-publique-2026-11-28/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/la-caravane-exquise-restitution-publique-2026-11-28/
 END:VEVENT

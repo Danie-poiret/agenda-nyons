@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:foire-aux-livres-damnesty-international-2026-11-18@agenda.vivreanyons.fr
+DTSTAMP:20261006T083545Z
+DTSTART;TZID=Europe/Paris:20261118T100000
+DTEND;TZID=Europe/Paris:20261118T170000
+SUMMARY:Foire aux livres d’Amnesty International
+DESCRIPTION:Au bénéfice de l'association pour Amnesty International\, à l’Espace Roumanille\nhttps://agenda.vivreanyons.fr/evenements/foire-aux-livres-damnesty-international-2026-11-18/
+LOCATION:Espace Roumanille\, Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/foire-aux-livres-damnesty-international-2026-11-18/
+END:VEVENT
+END:VCALENDAR
