@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:le-rdv-de-la-transmission-agricole-2026-11-25@agenda.vivreanyons.fr
+DTSTAMP:20261007T132933Z
+DTSTART;TZID=Europe/Paris:20261125T090000
+DTEND;TZID=Europe/Paris:20261125T170000
+SUMMARY:Le RDV de la transmission agricole
+DESCRIPTION:Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.\nhttps://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/
+END:VEVENT
+END:VCALENDAR

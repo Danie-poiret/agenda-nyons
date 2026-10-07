@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-14-1430@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261014T123000Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -17,7 +17,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-16-1830@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261016T163000Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -30,7 +30,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-17-2045@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261017T184500Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -43,7 +43,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-18-1900@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261018T170000Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-19-1430@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261019T123000Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -69,7 +69,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-19-2030@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261019T183000Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -82,7 +82,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ou-vont-les-ames-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ou-vont-les-ames-2026-10-20-1900@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261020T170000Z
 SUMMARY:Où vont les âmes — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons

@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:le-monde-a-lenvers-2026-10-14-1645@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261014T144500Z
 SUMMARY:Le Monde à l’envers — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -17,7 +17,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-20
 END:VEVENT
 BEGIN:VEVENT
 UID:le-monde-a-lenvers-2026-10-14-1745@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261014T154500Z
 SUMMARY:Le Monde à l’envers — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -30,7 +30,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-20
 END:VEVENT
 BEGIN:VEVENT
 UID:le-monde-a-lenvers-2026-10-17-1630@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261017T143000Z
 SUMMARY:Le Monde à l’envers — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -43,7 +43,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-20
 END:VEVENT
 BEGIN:VEVENT
 UID:le-monde-a-lenvers-2026-10-18-1645@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261018T144500Z
 SUMMARY:Le Monde à l’envers — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-20
 END:VEVENT
 BEGIN:VEVENT
 UID:le-monde-a-lenvers-2026-10-18-1745@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261018T154500Z
 SUMMARY:Le Monde à l’envers — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -69,7 +69,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-monde-a-lenvers-20
 END:VEVENT
 BEGIN:VEVENT
 UID:le-monde-a-lenvers-2026-10-19-1700@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART:20261019T150000Z
 SUMMARY:Le Monde à l’envers — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons

@@ -645,6 +645,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.730816+00:00"
     },
+    "le-rdv-de-la-transmission-agricole-2026-11-25": {
+      "text": "La transmission d’une exploitation agricole peut concerner les terres, les bâtiments, le matériel, le cheptel, les contrats et les savoir-faire. Elle implique aussi des choix juridiques, économiques et familiaux, qui peuvent varier selon le statut de l’exploitation et le projet du repreneur.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-07T13:29:40.346328+00:00"
+    },
     "la-caravane-exquise-restitution-publique-2026-11-28": {
       "text": "En géographie culturelle, un territoire n’est pas seulement une surface délimitée : il est aussi fait de perceptions, de pratiques, de récits et d’attachements. Les démarches artistiques sensibles peuvent explorer ces relations entre les habitants, les lieux et leurs mémoires.",
       "source_label": "",

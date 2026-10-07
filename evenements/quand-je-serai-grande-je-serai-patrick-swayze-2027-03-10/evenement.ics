@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART;TZID=Europe/Paris:20270310T200000
 DTEND;TZID=Europe/Paris:20270310T211000
 SUMMARY:Quand je serai grande\, je serai Patrick Swayze

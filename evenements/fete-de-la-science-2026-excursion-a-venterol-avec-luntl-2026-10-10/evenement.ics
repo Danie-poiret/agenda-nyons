@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fete-de-la-science-2026-excursion-a-venterol-avec-luntl-2026-10-10@agenda.vivreanyons.fr
-DTSTAMP:20261006T132314Z
+DTSTAMP:20261007T132933Z
 DTSTART;TZID=Europe/Paris:20261010T100000
 DTEND;TZID=Europe/Paris:20261010T160000
 SUMMARY:Fête de la Science 2026 : excursion à Venterol avec l’UNTL
