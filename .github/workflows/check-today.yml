@@ -57,7 +57,7 @@ jobs:
       - name: Controler les pages sur ordinateur et mobile
         env:
           NODE_PATH: ${{ runner.temp }}/nyons-ui/node_modules
-          UI_BASE_URL: ${{ github.event_name == 'workflow_run' && 'https://agenda.vivreanyons.fr' || 'http://127.0.0.1:4173' }}
+          UI_BASE_URL: ${{ (github.event_name == 'workflow_run' || github.ref_name == 'main') && 'https://agenda.vivreanyons.fr' || 'http://127.0.0.1:4173' }}
         run: |
           python -m http.server 4173 > "$RUNNER_TEMP/nyons-server.log" 2>&1 &
           node tests/today-browser.cjs
