@@ -102,6 +102,9 @@ jobs:
           OPENAI_MODEL: gpt-5.6-terra
         run: python fix_saviezvous.py
 
+      - name: Generer Nyons aujourd hui depuis les donnees existantes
+        run: python build_today.py --weather
+
       - name: Enregistrer les changements
         shell: bash
         run: |
@@ -115,7 +118,7 @@ jobs:
           git add _saviezvous_cache.json
           git add semaines
           git add evenements
-          git add cinema index.html
+          git add cinema index.html aujourdhui
           git add sitemap.xml
           git add robots.txt
 

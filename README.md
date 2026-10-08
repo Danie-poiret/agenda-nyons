@@ -55,3 +55,17 @@ Le script reste volontairement léger, ne contourne aucune connexion et ne repro
 La mise à jour quotidienne conserve cette source distincte et ne réécrit pas les fiches cinéma avec les textes municipaux. Les films terminés quittent la sélection actuelle, leurs pages datées restent consultables.
 
 Une automatisation Codex rattachée au chat contrôle le programme à partir du lendemain de sa dernière date, soit le 21 octobre 2026 pour le programme du 30 septembre au 20 octobre. Elle ouvre cinema-arlequin.fr, récupère le PDF courant, vérifie ses dates et renouvelle les séances futures et les affiches. Si le nouveau PDF n’est pas encore disponible, elle réessaie le lendemain sans inventer de séances. Après chaque renouvellement, `next_check_date` prend la date de fin du nouveau programme plus un jour. Elle publie les données et pages sur GitHub et vérifie le résultat. Les titres comportent le nom du film, Nyons et les horaires au cinéma L’Arlequin ; les textes courts gardent le ton simple de Papy.
+
+## Nyons aujourd’hui
+
+La page /aujourdhui/ réutilise agenda.json et cinema-programme.json, et renvoie vers les fiches déjà présentes. Le bouton « NYONS AUJOURD’HUI » figure en haut de l’accueil. Les liens « Demain » et « Ce week-end » filtrent réellement les événements et les séances, sans nouvelles fiches.
+
+La date se calcule dans le fuseau Europe/Paris, y compris après minuit et lors des changements d’heure. Les séances utilisent leurs dates explicites ; les séances passées de la journée restent visibles avec cette mention. Les événements sur plusieurs jours sont inclus pendant leur période, avec invitation à vérifier leurs horaires dans la fiche.
+
+build_today.py génère une sélection HTML lisible sans JavaScript pour les moteurs de recherche. La mise à jour quotidienne existante l’exécute après les autres générateurs et conserve /aujourdhui/ dans le sitemap. Le navigateur actualise la sélection depuis les JSON existants dès l’ouverture, au changement de journée et toutes les 30 minutes. Les données du cinéma restent dépendantes du renouvellement de son programme existant.
+
+Météo : service gratuit wttr.in (et son domaine équivalent wttr.is), format JSON j1, coordonnées de Nyons 44.36, 5.14. Température et vent correspondent à la dernière observation du jour ; mini/maxi et pluie sont les prévisions journalières. Les données sont conservées 30 minutes dans le navigateur. En cas d’échec, un instantané généré par le workflow est utilisable pendant six heures ; ensuite un message d’indisponibilité s’affiche. Une panne météo ne bloque jamais l’agenda.
+
+Le module n’importe aucun générateur d’événement et n’appelle jamais OpenAI. Les scripts et caches éditoriaux existants sont conservés. Aucun rafraîchissement supplémentaire du workflow payant n’est lancé pour publier ce module.
+
+Vérification indépendante (aucune API payante, aucun secret) : workflow check-today.yml, tests Python et Node sur dates Paris, week-end, intervalles, séances explicites, liens existants, météo manquante, génération répétée et conservation des données.

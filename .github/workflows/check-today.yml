@@ -1,0 +1,47 @@
+name: Verifier Nyons aujourd hui sans API payante
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, codex/nyons-aujourdhui]
+    paths:
+      - 'build_today.py'
+      - 'templates/nyons-today.html'
+      - 'assets/nyons-today.*'
+      - 'aujourdhui/**'
+      - 'tests/*today*'
+      - 'update_agenda.py'
+      - '.github/workflows/*today*'
+      - '.github/workflows/update-agenda.yml'
+  pull_request:
+    paths:
+      - 'build_today.py'
+      - 'templates/nyons-today.html'
+      - 'assets/nyons-today.*'
+      - 'tests/*today*'
+      - 'update_agenda.py'
+      - '.github/workflows/update-agenda.yml'
+      - '.github/workflows/check-today.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifier la generation sans reseau ni OpenAI
+        run: python -m unittest discover -s tests -p test_today.py -v
+      - name: Verifier les dates, filtres, liens et secours du navigateur
+        run: node --test tests/today.test.cjs
+      - name: Verifier la meteo gratuite et le rendu HTML avec les donnees existantes
+        run: |
+          python build_today.py --weather
+          cat aujourdhui/meteo.json
