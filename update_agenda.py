@@ -2583,7 +2583,7 @@ def render_weeks_index(weeks):
 """
 
 def write_sitemap():
-    urls = [SITE, f"{SITE}semaines/", f"{SITE}evenements/", f"{SITE}cinema/"]
+    urls = [SITE, f"{SITE}semaines/", f"{SITE}evenements/", f"{SITE}cinema/", f"{SITE}aujourdhui/"]
     if WEEKS_DIR.exists():
         for p in sorted(WEEKS_DIR.glob("semaine-*/index.html")):
             urls.append(f"{SITE}semaines/{p.parent.name}/")

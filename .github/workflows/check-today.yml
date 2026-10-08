@@ -1,0 +1,70 @@
+name: Verifier Nyons aujourd hui sans API payante
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['pages build and deployment']
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main, codex/nyons-aujourdhui]
+    paths:
+      - 'build_today.py'
+      - 'templates/nyons-today.html'
+      - 'assets/nyons-today.*'
+      - 'aujourdhui/**'
+      - 'tests/*today*'
+      - 'update_agenda.py'
+      - '.github/workflows/*today*'
+      - '.github/workflows/update-agenda.yml'
+  pull_request:
+    paths:
+      - 'build_today.py'
+      - 'templates/nyons-today.html'
+      - 'assets/nyons-today.*'
+      - 'tests/*today*'
+      - 'update_agenda.py'
+      - '.github/workflows/update-agenda.yml'
+      - '.github/workflows/check-today.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifier la generation sans reseau ni OpenAI
+        run: python -m unittest discover -s tests -p test_today.py -v
+      - name: Verifier les dates, filtres, liens et secours du navigateur
+        run: node --test tests/today.test.cjs
+      - name: Verifier la meteo gratuite et le rendu HTML avec les donnees existantes
+        run: |
+          python build_today.py --weather
+          cat aujourdhui/meteo.json
+      - name: Installer un navigateur pour verifier les pages
+        run: |
+          npm install --prefix "$RUNNER_TEMP/nyons-ui" playwright
+          "$RUNNER_TEMP/nyons-ui/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Controler les pages sur ordinateur et mobile
+        env:
+          NODE_PATH: ${{ runner.temp }}/nyons-ui/node_modules
+          UI_BASE_URL: ${{ github.event_name == 'workflow_run' && 'https://agenda.vivreanyons.fr' || 'http://127.0.0.1:4173' }}
+        run: |
+          python -m http.server 4173 > "$RUNNER_TEMP/nyons-server.log" 2>&1 &
+          node tests/today-browser.cjs
+      - name: Conserver les captures de verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nyons-aujourdhui-desktop-mobile
+          path: work/today-screenshots/
+          if-no-files-found: ignore
