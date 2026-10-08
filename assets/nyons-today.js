@@ -49,13 +49,17 @@
     const validCurrent=obs.slice(0,10)===day;
     const hourly=forecast.hourly||[];
     const rain=hourly.map(h=>number(h.precipMM));
-    return {date:day,temperature:validCurrent?number(current.temp_C):null,
-      observation:validCurrent?formatObservation(obs):'',
+    const clockMinutes=Number(parisClock().time.slice(0,2))*60+Number(parisClock().time.slice(3));
+    const minutes=h=>Math.floor(Number(h.time||0)/100)*60+Number(h.time||0)%100;
+    const nearest=[...hourly].sort((a,b)=>Math.abs(minutes(a)-clockMinutes)-Math.abs(minutes(b)-clockMinutes))[0]||{};
+    const forecastClock=String(Math.floor(Number(nearest.time||0)/100)).padStart(2,'0')+' h '+String(Number(nearest.time||0)%100).padStart(2,'0');
+    return {date:day,temperature:validCurrent?number(current.temp_C):number(nearest.tempC),
+      observation:validCurrent?formatObservation(obs):forecastClock,isForecast:!validCurrent,
       min:number(forecast.mintempC),max:number(forecast.maxtempC),
       rain:rain.length && rain.every(v=>v!==null)?Math.round(rain.reduce((a,b)=>a+b,0)*10)/10:null,
-      wind:validCurrent?number(current.windspeedKmph):null,
+      wind:validCurrent?number(current.windspeedKmph):number(nearest.windspeedKmph),
       windMax:hourly.length && hourly.every(h=>number(h.windspeedKmph)!==null)?Math.max(...hourly.map(h=>number(h.windspeedKmph))):null,
-      description:validCurrent?((current.lang_fr||current.weatherDesc||[])[0]||{}).value||'':'',
+      description:(((validCurrent?current:nearest).lang_fr||(validCurrent?current:nearest).weatherDesc||[])[0]||{}).value||'',
       fetched_at:new Date().toISOString()};
   }
   const api={parisClock,addDays,rangeFor,nextThursday,occurs,eventPath,sessionsFor,normalizeWeather};
@@ -102,10 +106,10 @@
     }
   }
   function weatherHTML(w) {
-    const details=[['Température à '+(w.observation||'la dernière mise à jour'),w.temperature===null?'Non disponible':fmt(w.temperature)+' °C'],
+    const details=[[(w.isForecast?'Température prévue vers ':'Température à ')+(w.observation||'la dernière mise à jour'),w.temperature===null?'Non disponible':fmt(w.temperature)+' °C'],
       ['Mini / maxi prévus',fmt(w.min)+' / '+fmt(w.max)+' °C'],
       ['Pluie prévue sur la journée',w.rain===null?'Non disponible':fmt(w.rain)+' mm'],
-      ['Vent'+(w.wind===null?' maximal prévu':''),fmt(w.wind===null?w.windMax:w.wind)+' km/h']];
+      ['Vent'+(w.wind===null?' maximal prévu':w.isForecast?' prévu':''),fmt(w.wind===null?w.windMax:w.wind)+' km/h']];
     return '<div class="weather-grid">'+details.map(([label,value])=>'<div class="weather-metric"><span>'+esc(label)+'</span><strong>'+esc(value)+'</strong></div>').join('')+'</div>'+(w.description?'<p>'+esc(w.description)+'</p>':'')+'<p class="muted">Météo du '+esc(pretty(w.date))+'. Prévisions et dernière observation disponible.</p>';
   }
   async function json(url) {

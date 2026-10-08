@@ -89,13 +89,21 @@ def normalize_weather(data, day, now=None):
     hourly = forecast.get("hourly", [])
     rain = [number(h.get("precipMM")) for h in hourly]
     wind = [number(h.get("windspeedKmph")) for h in hourly]
-    desc = (current.get("lang_fr") or current.get("weatherDesc") or [{}])[0].get("value", "") if valid else ""
+    now = now or datetime.now(PARIS)
+    minutes = now.astimezone(PARIS).hour * 60 + now.astimezone(PARIS).minute
+    nearest = min(hourly, key=lambda h: abs(int(h.get("time", 0)) // 100 * 60 + int(h.get("time", 0)) % 100 - minutes), default={})
+    if not valid:
+        hour = int(nearest.get("time", 0)) // 100
+        minute = int(nearest.get("time", 0)) % 100
+        observation = f"{hour:02d} h {minute:02d}"
+    condition = current if valid else nearest
+    desc = (condition.get("lang_fr") or condition.get("weatherDesc") or [{}])[0].get("value", "")
     return {
-        "date": day, "temperature": number(current.get("temp_C")) if valid else None,
-        "observation": observation, "min": number(forecast.get("mintempC")),
+        "date": day, "temperature": number(current.get("temp_C")) if valid else number(nearest.get("tempC")),
+        "observation": observation, "isForecast": not valid, "min": number(forecast.get("mintempC")),
         "max": number(forecast.get("maxtempC")),
         "rain": round(sum(rain), 1) if rain and all(n is not None for n in rain) else None,
-        "wind": number(current.get("windspeedKmph")) if valid else None,
+        "wind": number(current.get("windspeedKmph")) if valid else number(nearest.get("windspeedKmph")),
         "windMax": max(wind) if wind and all(n is not None for n in wind) else None,
         "description": desc, "fetched_at": (now or datetime.now(PARIS)).isoformat(),
     }
@@ -129,11 +137,11 @@ def weather_html(weather, day, now):
     except (KeyError, ValueError, TypeError):
         return '<p>Chargement de la météo du jour… <a href="https://wttr.in/Nyons?lang=fr">Consulter la météo de Nyons</a>.</p>'
     values = [
-        ("Température à " + (weather.get("observation") or "la dernière mise à jour"),
+        (("Température prévue vers " if weather.get("isForecast") else "Température à ") + (weather.get("observation") or "la dernière mise à jour"),
          fmt(weather.get("temperature")) + (" °C" if weather.get("temperature") is not None else "")),
         ("Mini / maxi prévus", f"{fmt(weather.get('min'))} / {fmt(weather.get('max'))} °C"),
         ("Pluie prévue sur la journée", fmt(weather.get("rain")) + (" mm" if weather.get("rain") is not None else "")),
-        ("Vent" if weather.get("wind") is not None else "Vent maximal prévu",
+        (("Vent prévu" if weather.get("isForecast") else "Vent") if weather.get("wind") is not None else "Vent maximal prévu",
          fmt(weather.get("wind") if weather.get("wind") is not None else weather.get("windMax")) + " km/h"),
     ]
     cards = "".join(f'<div class="weather-metric"><span>{esc(label)}</span><strong>{esc(value)}</strong></div>' for label, value in values)
