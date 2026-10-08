@@ -1,1 +1,13 @@
-{}
+{
+  "date": "2026-10-08",
+  "temperature": 17,
+  "observation": "09 h 00",
+  "isForecast": true,
+  "min": 12,
+  "max": 18,
+  "rain": 7,
+  "wind": 3,
+  "windMax": 42,
+  "description": "Bruine légère",
+  "fetched_at": "2026-10-08T08:52:26.002075+02:00"
+}

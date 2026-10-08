@@ -79,6 +79,8 @@
     const clock=parisClock(), range=rangeFor(clock.day,view);
     const label=view==='demain'?'DEMAIN À NYONS':view==='weekend'?'CE WEEK-END À NYONS':'NYONS AUJOURD’HUI';
     document.getElementById('today-title').textContent=label;
+    document.getElementById('market-title').textContent=view==='aujourdhui'?'🫒 Marché de Nyons aujourd’hui':view==='demain'?'🫒 Marché de Nyons demain':'🫒 Prochain marché de Nyons';
+    document.getElementById('today-subtitle').textContent=view==='aujourdhui'?'Que faire à Nyons aujourd’hui ? Les événements du jour, le cinéma L’Arlequin, la météo et le marché pour préparer votre journée.':view==='demain'?'Préparez demain à Nyons avec les événements annoncés, les séances de L’Arlequin et le prochain marché.':'Les événements et séances de cinéma du samedi et du dimanche pour préparer votre week-end à Nyons.';
     document.getElementById('today-date').textContent=range.start===range.end?pretty(range.start):pretty(range.start)+' et '+pretty(range.end);
     document.getElementById('today-date').dateTime=range.start;
     document.getElementById('events-title').textContent=view==='aujourdhui'?'Que faire à Nyons aujourd’hui ?':view==='demain'?'Les événements demain à Nyons':'Les événements ce week-end à Nyons';
