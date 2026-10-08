@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:reunion-bailleurs-information-sur-la-renovation-de-votre-logement-2026-10-29@agenda.vivreanyons.fr
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261029T180000
+DTEND;TZID=Europe/Paris:20261029T200000
+SUMMARY:Réunion Bailleurs : information sur la rénovation de votre logement
+DESCRIPTION:SOLIHA et Bail Rénov' organisent une réunion d'information à destination des propriétaires bailleurs.\nhttps://agenda.vivreanyons.fr/evenements/reunion-bailleurs-information-sur-la-renovation-de-votre-logement-2026-10-29/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/reunion-bailleurs-information-sur-la-renovation-de-votre-logement-2026-10-29/
+END:VEVENT
+END:VCALENDAR

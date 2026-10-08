@@ -498,6 +498,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.723831+00:00"
     },
+    "reunion-bailleurs-information-sur-la-renovation-de-votre-logement-2026-10-29": {
+      "text": "La rénovation d’un logement peut concerner l’isolation, le chauffage, la ventilation, les menuiseries ou encore l’adaptation du bâti. Ces travaux doivent être envisagés en tenant compte des caractéristiques du bâtiment et des règles applicables à la location, à l’urbanisme et à la copropriété.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.440921+00:00"
+    },
     "atelier-cosmetique-maquillage-dhalloween-2026-10-30": {
       "text": "Dans les arts de la scène, le maquillage aide à rendre un visage lisible à distance, à accentuer une expression ou à caractériser un personnage. Son effet dépend notamment des volumes du visage, de l’éclairage et des contrastes entre les couleurs.",
       "source_label": "",
@@ -525,6 +532,20 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-10-06T08:35:56.380696+00:00"
+    },
+    "exposition-ia-droits-devant-2026-11-06": {
+      "text": "L’intelligence artificielle regroupe des systèmes capables d’effectuer des tâches telles que reconnaître des formes, produire du texte ou classer des informations à partir de données. Son encadrement soulève notamment des questions de transparence, de responsabilité, de protection des données et de non-discrimination.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.442855+00:00"
+    },
+    "atelier-jeu-mission-esprit-critique-2026-11-07": {
+      "text": "L’esprit critique consiste à examiner une information plutôt qu’à l’accepter immédiatement. Il implique notamment de distinguer faits, interprétations et opinions, d’identifier l’origine d’une affirmation, de comparer les sources et de reconnaître ce qui reste incertain.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.443244+00:00"
     },
     "droles-de-coincidences-2026-11-07": {
       "text": "La comédie d’intrigue construit son effet sur les rebondissements, les quiproquos, les révélations et les retournements de situation. Les coïncidences y sont souvent un ressort narratif : elles rapprochent des personnages ou compliquent soudainement leurs projets.",
@@ -582,12 +603,26 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.728480+00:00"
     },
+    "projection-et-si-on-levait-les-yeux-2026-11-14": {
+      "text": "Une projection suivie d’un échange permet d’aborder collectivement les images vues à l’écran. Les discussions entre enfants, adolescents et adultes peuvent faire apparaître des interprétations différentes, car un film se comprend aussi à travers les expériences et les questions de chaque spectateur.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.446464+00:00"
+    },
     "puces-des-couturieres-2026-11-14": {
       "text": "Les puces des couturières sont des rendez-vous consacrés à la circulation de tissus, fils, boutons, patrons et matériels de loisirs créatifs. Elles favorisent le réemploi de fournitures qui peuvent encore servir à la couture, à la broderie ou à d’autres pratiques textiles.",
       "source_label": "",
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.729010+00:00"
+    },
+    "toupetituli-2026-11-14": {
+      "text": "Chez les tout-petits, l’écoute répétée d’une même histoire favorise la familiarité avec les mots, les personnages et la structure du récit. Les comptines, les rythmes et les images soutiennent aussi l’attention et le plaisir partagé autour des livres.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.447244+00:00"
     },
     "conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16": {
       "text": "Les corvidés, famille qui comprend notamment corbeaux, corneilles, geais et pies, sont étudiés pour leurs capacités d’apprentissage et de résolution de problèmes. Certaines espèces savent utiliser ou modifier des outils, mémoriser des cachettes et adapter leur comportement à leur environnement.",
@@ -652,6 +687,13 @@
       "version": 1,
       "generated_at": "2026-10-07T13:29:40.346328+00:00"
     },
+    "jeu-pause-photo-prose-2026-11-28": {
+      "text": "Une photographie montre toujours un point de vue : son cadrage sélectionne une partie de la réalité, tandis que sa date, son auteur, sa légende et son contexte de diffusion influencent son interprétation. Une même image peut ainsi recevoir plusieurs sens selon l’usage qui en est fait.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.450721+00:00"
+    },
     "la-caravane-exquise-restitution-publique-2026-11-28": {
       "text": "En géographie culturelle, un territoire n’est pas seulement une surface délimitée : il est aussi fait de perceptions, de pratiques, de récits et d’attachements. Les démarches artistiques sensibles peuvent explorer ces relations entre les habitants, les lieux et leurs mémoires.",
       "source_label": "",
@@ -672,6 +714,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.731701+00:00"
+    },
+    "samedi-ca-me-dit-2026-12-05": {
+      "text": "Noël est célébré selon des traditions très diverses, mêlant pratiques religieuses, familiales, commerciales et culturelles. Les décorations, récits, chants ou cadeaux associés à cette période ont varié selon les pays, les époques et les milieux sociaux.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.452045+00:00"
     },
     "telethon-2026-2026-12-05": {
       "text": "Créé en 1987, le Téléthon français est une mobilisation organisée au profit de l’AFM-Téléthon. Il associe traditionnellement appels aux dons, émissions audiovisuelles et initiatives locales, afin de soutenir la recherche sur les maladies génétiques et l’accompagnement des personnes concernées.",
@@ -714,6 +763,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.734562+00:00"
+    },
+    "toupetituli-2026-12-19": {
+      "text": "Raconter une histoire à voix haute donne une place particulière au rythme, aux silences et à l’intonation. Pour le jeune public, cette oralité peut rendre les personnages et les actions plus perceptibles, tout en laissant à chacun la liberté d’imaginer les images du récit.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-08T13:37:50.454404+00:00"
     },
     "on-a-perdu-les-cles-du-traineau-2026-12-29": {
       "text": "Le théâtre destiné au jeune public mobilise souvent le jeu, les décors, les sons et les objets pour construire des univers imaginaires. L’humour et le merveilleux y peuvent coexister, tout en laissant aux spectateurs une place active dans l’interprétation de l’histoire.",

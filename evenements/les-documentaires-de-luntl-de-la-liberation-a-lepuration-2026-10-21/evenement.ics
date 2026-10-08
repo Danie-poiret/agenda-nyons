@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:les-documentaires-de-luntl-de-la-liberation-a-lepuration-2026-10-21@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART;TZID=Europe/Paris:20261021T183000
 DTEND;TZID=Europe/Paris:20261021T203000
 SUMMARY:Les documentaires de l’UNTL : « De la libération à l’épuration »

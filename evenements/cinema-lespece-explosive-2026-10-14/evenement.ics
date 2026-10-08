@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:lespece-explosive-2026-10-14-1900@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART:20261014T170000Z
 SUMMARY:L’Espèce explosive — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -17,7 +17,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-202
 END:VEVENT
 BEGIN:VEVENT
 UID:lespece-explosive-2026-10-16-2100@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART:20261016T190000Z
 SUMMARY:L’Espèce explosive — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -30,7 +30,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-202
 END:VEVENT
 BEGIN:VEVENT
 UID:lespece-explosive-2026-10-17-1915@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART:20261017T171500Z
 SUMMARY:L’Espèce explosive — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -43,7 +43,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-202
 END:VEVENT
 BEGIN:VEVENT
 UID:lespece-explosive-2026-10-18-1500@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART:20261018T130000Z
 SUMMARY:L’Espèce explosive — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-202
 END:VEVENT
 BEGIN:VEVENT
 UID:lespece-explosive-2026-10-19-2100@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART:20261019T190000Z
 SUMMARY:L’Espèce explosive — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -69,7 +69,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lespece-explosive-202
 END:VEVENT
 BEGIN:VEVENT
 UID:lespece-explosive-2026-10-20-1700@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART:20261020T150000Z
 SUMMARY:L’Espèce explosive — Version non précisée dans le PDF
 LOCATION:28 place de la Libération\, 26110 Nyons

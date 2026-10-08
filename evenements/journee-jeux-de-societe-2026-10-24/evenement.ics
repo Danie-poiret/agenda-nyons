@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:journee-jeux-de-societe-2026-10-24@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261024T100000
+DTEND;TZID=Europe/Paris:20261024T210000
 SUMMARY:Journée Jeux de société
 DESCRIPTION:Journée Jeux de société organisée par le Service Jeunesse\nhttps://agenda.vivreanyons.fr/evenements/journee-jeux-de-societe-2026-10-24/
 LOCATION:

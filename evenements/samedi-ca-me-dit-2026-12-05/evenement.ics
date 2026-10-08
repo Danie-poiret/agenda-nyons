@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:samedi-ca-me-dit-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261205T103000
+DTEND;TZID=Europe/Paris:20261205T120000
+SUMMARY:Samedi\, ça me dit !
+DESCRIPTION:Un atelier pour préparer Noël !\nhttps://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-12-05/
+LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-12-05/
+END:VEVENT
+END:VCALENDAR

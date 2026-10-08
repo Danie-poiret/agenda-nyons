@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-jeu-mission-esprit-critique-2026-11-07@agenda.vivreanyons.fr
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261107T150000
+DTEND;TZID=Europe/Paris:20261107T180000
+SUMMARY:Atelier-jeu « Mission : esprit critique »
+DESCRIPTION:Organisé par l'AFIS Science (Association française pour l’information scientifique).\nhttps://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/
+LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/
+END:VEVENT
+END:VCALENDAR

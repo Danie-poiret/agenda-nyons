@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:lectures-par-la-marpa-de-remuzat-et-antoine-picard-2026-10-09@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART;TZID=Europe/Paris:20261009T160000
 DTEND;TZID=Europe/Paris:20261009T180000
 SUMMARY:Lectures par la MARPA de Rémuzat et Antoine Picard

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:toupetituli-2026-12-19@agenda.vivreanyons.fr
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261219T110000
+DTEND;TZID=Europe/Paris:20261219T120000
+SUMMARY:Toupetituli
+DESCRIPTION:Des histoires racontées par les bibliothécaires pour les tout-petits.\nhttps://agenda.vivreanyons.fr/evenements/toupetituli-2026-12-19/
+LOCATION:Médiathèque — 9 rue Albin Vilhet\, à Nyons
+URL:https://agenda.vivreanyons.fr/evenements/toupetituli-2026-12-19/
+END:VEVENT
+END:VCALENDAR

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-02-03@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART;TZID=Europe/Paris:20270203T180000
 DTEND;TZID=Europe/Paris:20270203T200000
 SUMMARY:Conférence de l’UNTL sur « Les penseurs économiques face à la situation française »

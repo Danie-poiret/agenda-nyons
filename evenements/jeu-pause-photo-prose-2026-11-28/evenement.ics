@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:jeu-pause-photo-prose-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261128T103000
+DTEND;TZID=Europe/Paris:20261128T120000
+SUMMARY:Jeu « Pause photo prose »
+DESCRIPTION:Pour se questionner sur l’origine des photographies\, leur polysémie\, leurs usages.\nhttps://agenda.vivreanyons.fr/evenements/jeu-pause-photo-prose-2026-11-28/
+LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/jeu-pause-photo-prose-2026-11-28/
+END:VEVENT
+END:VCALENDAR

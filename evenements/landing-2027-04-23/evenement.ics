@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:landing-2027-04-23@agenda.vivreanyons.fr
-DTSTAMP:20261007T132933Z
+DTSTAMP:20261008T133735Z
 DTSTART;TZID=Europe/Paris:20270423T203000
 DTEND;TZID=Europe/Paris:20270423T214000
 SUMMARY:Landing
-DESCRIPTION:Tomber n’est pas la fin du mouvement.\nhttps://agenda.vivreanyons.fr/evenements/landing-2027-04-23/
+DESCRIPTION:Tomber n’est pas la fin du mouvement. 1 2 3 4 5 … 11 12 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 16.6°C / 16.6°C Contact Recherche Mentions légales Politique de confidentialit\nhttps://agenda.vivreanyons.fr/evenements/landing-2027-04-23/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/landing-2027-04-23/
 END:VEVENT

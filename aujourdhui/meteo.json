@@ -1,13 +1,13 @@
 {
   "date": "2026-10-08",
-  "temperature": 17,
-  "observation": "09 h 00",
+  "temperature": 14.0,
+  "observation": "15 h 00",
   "isForecast": true,
-  "min": 12,
-  "max": 18,
-  "rain": 7,
-  "wind": 3,
-  "windMax": 42,
-  "description": "Bruine légère",
-  "fetched_at": "2026-10-08T08:52:26.002075+02:00"
+  "min": 12.0,
+  "max": 18.0,
+  "rain": 8.2,
+  "wind": 37.0,
+  "windMax": 45.0,
+  "description": "Couvert",
+  "fetched_at": "2026-10-08T15:37:51.295304+02:00"
 }

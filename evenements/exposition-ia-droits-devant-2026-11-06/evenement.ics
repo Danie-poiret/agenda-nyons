@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exposition-ia-droits-devant-2026-11-06@agenda.vivreanyons.fr
+DTSTAMP:20261008T133735Z
+DTSTART;TZID=Europe/Paris:20261106T100000
+DTEND;TZID=Europe/Paris:20261128T180000
+SUMMARY:Exposition « IA\, droits devant ! »
+DESCRIPTION:L’intelligence artificielle\, pour le meilleur et pour le pire ? La prise de conscience sur l’impératif de fixer un cadre au développement de l’IA semble s’accélérer ces derniers temps.\nhttps://agenda.vivreanyons.fr/evenements/exposition-ia-droits-devant-2026-11-06/
+LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/exposition-ia-droits-devant-2026-11-06/
+END:VEVENT
+END:VCALENDAR
