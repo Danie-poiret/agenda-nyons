@@ -105,6 +105,9 @@ jobs:
       - name: Generer Nyons aujourd hui depuis les donnees existantes
         run: python build_today.py --weather
 
+      - name: Conserver les liens du pied de page sur toutes les pages
+        run: python site_footer.py
+
       - name: Enregistrer les changements
         shell: bash
         run: |

@@ -2670,6 +2670,8 @@ def main():
     generate_cinema_pages()
     generate_seo_pages(events)
     install_live_agenda(ROOT)
+    from site_footer import install_site_footer
+    install_site_footer(ROOT)
 
 
 if __name__ == "__main__":

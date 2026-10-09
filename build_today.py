@@ -12,6 +12,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
+from site_footer import add_footer
 
 ROOT = Path(__file__).resolve().parent
 PARIS = ZoneInfo("Europe/Paris")
@@ -191,7 +192,7 @@ def build(root=ROOT, now=None, weather=False):
         page = page.replace(f"@@{key}@@", value)
     if re.search(r"@@[A-Z]+@@", page):
         raise ValueError("Unfilled template")
-    (output / "index.html").write_text(page, encoding="utf-8")
+    (output / "index.html").write_text(add_footer(page), encoding="utf-8")
     home_path = root / "index.html"
     home = home_path.read_text(encoding="utf-8")
     if 'id="nyons-today-link"' not in home:
