@@ -1,0 +1,22 @@
+name: Vérifier les dates et les liens de l’agenda
+on:
+  push:
+    paths:
+      - '**/*.html'
+      - sitemap.xml
+      - seo_sitemap.py
+      - seo-page-state.json
+      - tests/test_seo_sitemap.py
+      - tools/check_site_integrity.py
+      - .github/workflows/check-seo-sitemap.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m unittest discover -s tests -p test_seo_sitemap.py
+      - run: python tools/check_site_integrity.py

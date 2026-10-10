@@ -28,6 +28,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5.6-terra
+          NYONS_DEFER_SITEMAP_STATE: "1"
         run: python update_agenda.py
 
       - name: Nettoyer les fiches et ajouter des liens Vivre a Nyons
@@ -108,6 +109,12 @@ jobs:
       - name: Conserver les liens du pied de page sur toutes les pages
         run: python site_footer.py
 
+      - name: Vérifier les dates et les liens avant publication
+        run: |
+          python seo_sitemap.py
+          python -m unittest discover -s tests -p test_seo_sitemap.py
+          python tools/check_site_integrity.py
+
       - name: Enregistrer les changements
         shell: bash
         run: |
@@ -123,6 +130,7 @@ jobs:
           git add evenements
           git add cinema index.html aujourdhui
           git add sitemap.xml
+          git add seo-page-state.json
           git add robots.txt
 
           if git diff --cached --quiet; then

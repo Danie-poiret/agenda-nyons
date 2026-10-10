@@ -534,7 +534,7 @@ def event_calendar_ics(event, practical) -> str:
 
 
 def event_status(event) -> str:
-    today = date.today()
+    today = paris_today()
     start = parse_iso(event["start_date"])
     end = parse_iso(event["end_date"])
     if today < start:
@@ -2583,32 +2583,8 @@ def render_weeks_index(weeks):
 """
 
 def write_sitemap():
-    urls = [SITE, f"{SITE}semaines/", f"{SITE}evenements/", f"{SITE}cinema/", f"{SITE}aujourdhui/"]
-    if WEEKS_DIR.exists():
-        for p in sorted(WEEKS_DIR.glob("semaine-*/index.html")):
-            urls.append(f"{SITE}semaines/{p.parent.name}/")
-    if EVENTS_DIR.exists():
-        for p in sorted(EVENTS_DIR.glob("*/index.html")):
-            if '<meta name="robots" content="noindex,follow">' in p.read_text(encoding='utf-8'):
-                continue
-            urls.append(f"{SITE}evenements/{p.parent.name}/")
-
-    today = date.today().isoformat()
-    entries = "\n".join(
-        f"  <url><loc>{html.escape(u)}</loc><lastmod>{today}</lastmod></url>"
-        for u in urls
-    )
-    SITEMAP.write_text(
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f"{entries}\n"
-        "</urlset>\n",
-        encoding="utf-8",
-    )
-    ROBOTS.write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n",
-        encoding="utf-8",
-    )
+    from seo_sitemap import update
+    update(ROOT)
 
 
 def generate_seo_pages(events):
@@ -2659,7 +2635,6 @@ def generate_seo_pages(events):
         encoding="utf-8",
     )
     save_cache(cache)
-    write_sitemap()
     print(f"OK: {len(weeks)} page(s) SEO hebdomadaire(s) préparée(s).")
 
 
@@ -2672,6 +2647,8 @@ def main():
     install_live_agenda(ROOT)
     from site_footer import install_site_footer
     install_site_footer(ROOT)
+    if os.getenv("NYONS_DEFER_SITEMAP_STATE") != "1":
+        write_sitemap()
 
 
 if __name__ == "__main__":
