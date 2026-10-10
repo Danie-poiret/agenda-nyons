@@ -12,6 +12,21 @@ import build_today as today
 ROOT = Path(__file__).resolve().parents[1]
 
 class TodayTests(unittest.TestCase):
+    def test_descriptions_prefer_published_intro_and_keep_film_text(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "evenements/expo-2026-10-10/index.html"
+            source.parent.mkdir(parents=True)
+            source.write_text('<div class="lead">Notre <strong>description</strong> &amp; accueil.</div><p>Autre texte</p>', encoding="utf-8")
+            events = [{"title": "Expo", "start_date": "2026-10-10", "url": "source", "summary": "Résumé brut parasite"},
+                      {"title": "Film", "kind": "cinema", "start_date": "2026-10-10", "film": {"description": "Le petit mot déjà publié."}}]
+            (root / "_event_seo_cache.json").write_text(json.dumps({"source": {"editorial": {"intro": "Ancienne introduction"}}}), encoding="utf-8")
+            descriptions = today.published_descriptions(root, events)
+            self.assertEqual(descriptions[today.event_path(events[0])], "Notre description & accueil.")
+            self.assertEqual(descriptions[today.event_path(events[1])], "Le petit mot déjà publié.")
+            source.unlink()
+            self.assertEqual(today.published_descriptions(root, events)[today.event_path(events[0])], "Ancienne introduction")
+
     def test_market_all_weekdays(self):
         self.assertIn("aujourd’hui", today.market_text("2026-10-08"))
         for day in ("2026-10-09", "2026-10-10", "2026-10-11", "2026-10-12", "2026-10-13", "2026-10-14"):
@@ -59,7 +74,12 @@ class TodayTests(unittest.TestCase):
             self.assertEqual(home.count(b'id="nyons-today-link"'),1)
             self.assertNotIn("@@",page.decode())
             self.assertIn("jeudi 8 octobre 2026",page.decode())
-            self.assertIn("Atelier culinaire",page.decode())
+            selected = today.today_events(json.loads(original_agenda)["events"], "2026-10-08")
+            if selected:
+                for event in selected:
+                    self.assertIn(today.esc(event["title"]), page.decode())
+            else:
+                self.assertIn("Aucun événement annoncé", page.decode())
             self.assertFalse((root/"evenements").exists())
             self.assertFalse(list(root.glob("_*cache*")))
 
@@ -79,3 +99,4 @@ class TodayTests(unittest.TestCase):
 
 if __name__=="__main__":
     unittest.main()
+

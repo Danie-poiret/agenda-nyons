@@ -8,6 +8,7 @@ import json
 import math
 import re
 import unicodedata
+from html.parser import HTMLParser
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -50,6 +51,57 @@ def today_events(events, day):
          and e.get("start_date", "9999") <= day <= (e.get("end_date") or e["start_date"])],
         key=lambda e: (e["start_date"], e["title"]),
     )
+
+
+class IntroParser(HTMLParser):
+    """Read the published introduction as text, never as executable HTML."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.depth = 0
+        self.parts = []
+        self.done = False
+
+    def handle_starttag(self, tag, attrs):
+        if self.done:
+            return
+        if self.depth:
+            if tag not in {"br", "img", "hr", "input", "meta", "link", "wbr"}:
+                self.depth += 1
+            if tag in {"br", "p"}:
+                self.parts.append(" ")
+        elif "lead" in dict(attrs).get("class", "").split():
+            self.depth = 1
+
+    def handle_endtag(self, tag):
+        if self.depth and tag not in {"br", "img", "hr", "input", "meta", "link", "wbr"}:
+            self.depth -= 1
+            if not self.depth:
+                self.done = True
+
+    def handle_data(self, data):
+        if self.depth:
+            self.parts.append(data)
+
+
+def published_descriptions(root, events):
+    root = Path(root)
+    cache_path = root / "_event_seo_cache.json"
+    cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
+    descriptions = {}
+    for event in events:
+        path = event_path(event)
+        source = (root / path.lstrip("/") / "index.html").resolve()
+        text = ""
+        if source.is_relative_to(root.resolve()) and source.is_file():
+            parser = IntroParser()
+            parser.feed(source.read_text(encoding="utf-8"))
+            text = "".join(parser.parts).strip()
+        if not text:
+            text = (event.get("film") or {}).get("description", "") if event.get("kind") == "cinema" else (cache.get(event.get("url"), {}).get("editorial") or {}).get("intro", "")
+        if not text:
+            text = event.get("summary", "")
+        descriptions[path] = re.sub(r"\s+", " ", text).strip()
+    return descriptions
 
 
 def today_sessions(programme, day):
@@ -159,12 +211,14 @@ def build(root=ROOT, now=None, weather=False):
         refresh_weather(root, day)
     agenda = json.loads((root / "agenda.json").read_text(encoding="utf-8"))
     programme = json.loads((root / "cinema-programme.json").read_text(encoding="utf-8"))
+    descriptions = published_descriptions(root, agenda["events"])
+    (output / "descriptions.json").write_text(json.dumps(descriptions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     events = today_events(agenda["events"], day)
     cards = []
     for event in events:
         path = event_path(event)
         label = pretty(day) if event["start_date"] == (event.get("end_date") or event["start_date"]) else f"Du {pretty(event['start_date'])} au {pretty(event.get('end_date') or event['start_date'])}"
-        cards.append(f'<article class="event"><div class="event-date">{esc(label)}</div><h3><a href="{esc(path)}">{esc(event["title"])}</a></h3><p>{esc(event.get("summary", ""))}</p><a class="card-link" href="{esc(path)}">Voir la fiche →</a></article>')
+        cards.append(f'<article class="event"><div class="event-date">{esc(label)}</div><h3><a href="{esc(path)}">{esc(event["title"])}</a></h3><p>{esc(descriptions.get(path, event.get("summary", "")))}</p><a class="card-link" href="{esc(path)}">Voir la fiche →</a></article>')
     event_content = "".join(cards) or '<p>Aucun événement annoncé pour cette date dans notre agenda. <a href="/evenements/">Voir tous les événements</a>.</p>'
     links = {e.get("film_title") or e.get("film", {}).get("title"): event_path(e)
              for e in agenda["events"] if e.get("kind") == "cinema"}
@@ -173,7 +227,8 @@ def build(root=ROOT, now=None, weather=False):
         path = links.get(film["title"], "/cinema/")
         past = session["time"] < now.astimezone(PARIS).strftime("%H:%M")
         label = session.get("version", "") + (" · " + film["duration"] if film.get("duration") else "") + (" · Séance passée" if past else "")
-        sessions.append(f'<article class="session{" session-past" if past else ""}"><div class="session-time"><time datetime="{day}T{esc(session["time"])}">{esc(session["time"].replace(":", " h "))}</time></div><div><h3><a href="{esc(path)}">{esc(film["title"])}</a></h3><p>{esc(label)}</p><a class="card-link" href="{esc(path)}">Voir les horaires du film →</a></div></article>')
+        description = descriptions.get(path) or film.get("description", "")
+        sessions.append(f'<article class="session{" session-past" if past else ""}"><div class="session-time"><time datetime="{day}T{esc(session["time"])}">{esc(session["time"].replace(":", " h "))}</time></div><div><h3><a href="{esc(path)}">{esc(film["title"])}</a></h3><p>{esc(label)}</p><p class="session-description">{esc(description)}</p><a class="card-link" href="{esc(path)}">Voir les horaires du film →</a></div></article>')
     uncovered = day < programme["period_start"] or day > programme["period_end"]
     cinema_content = "".join(sessions) or ('<p>Le programme disponible ne couvre pas ces dates. <a href="https://www.cinema-arlequin.fr/">Consulter le programme officiel de L’Arlequin</a>.</p>' if uncovered else '<p>Aucune séance annoncée à cette date dans le programme disponible.</p>')
     try:
@@ -212,3 +267,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--weather", action="store_true", help="Fetch free wttr.in weather; default uses only saved data")
     build(weather=parser.parse_args().weather)
+

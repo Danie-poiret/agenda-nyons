@@ -74,7 +74,7 @@
     document.querySelector('meta[name="robots"]').content='noindex,follow';
     document.getElementById('weather-section').hidden=true;
   }
-  let agenda=null, programme=null, lastDay='', weatherBusy=false;
+  let agenda=null, programme=null, descriptions={}, lastDay='', weatherBusy=false;
   function renderDate() {
     const clock=parisClock(), range=rangeFor(clock.day,view);
     const label=view==='demain'?'DEMAIN À NYONS':view==='weekend'?'CE WEEK-END À NYONS':'NYONS AUJOURD’HUI';
@@ -94,7 +94,7 @@
     const {clock,range}=renderDate();
     if(agenda) {
       const events=agenda.events.filter(e=>occurs(e,range)).sort((a,b)=>a.start_date.localeCompare(b.start_date)||a.title.localeCompare(b.title));
-      document.getElementById('today-events').innerHTML=events.map(e=>'<article class="event"><div class="event-date">'+esc(e.start_date===e.end_date?pretty(e.start_date):'Du '+pretty(e.start_date)+' au '+pretty(e.end_date||e.start_date))+'</div><h3><a href="'+esc(eventPath(e))+'">'+esc(e.title)+'</a></h3><p>'+esc(e.summary)+'</p><a class="card-link" href="'+esc(eventPath(e))+'">Voir la fiche →</a></article>').join('')||'<p>Aucun événement annoncé pour cette date dans notre agenda. Retrouvez les autres rendez-vous dans <a href="/evenements/">tous les événements</a>.</p>';
+      document.getElementById('today-events').innerHTML=events.map(e=>'<article class="event"><div class="event-date">'+esc(e.start_date===e.end_date?pretty(e.start_date):'Du '+pretty(e.start_date)+' au '+pretty(e.end_date||e.start_date))+'</div><h3><a href="'+esc(eventPath(e))+'">'+esc(e.title)+'</a></h3><p>'+esc(descriptions[eventPath(e)]||e.summary)+'</p><a class="card-link" href="'+esc(eventPath(e))+'">Voir la fiche →</a></article>').join('')||'<p>Aucun événement annoncé pour cette date dans notre agenda. Retrouvez les autres rendez-vous dans <a href="/evenements/">tous les événements</a>.</p>';
       if(agenda.updated_at) document.getElementById('agenda-updated').textContent='Agenda actualisé le '+new Intl.DateTimeFormat('fr-FR',{timeZone:zone,dateStyle:'long',timeStyle:'short'}).format(new Date(agenda.updated_at))+'.';
     }
     if(programme) {
@@ -103,7 +103,7 @@
       document.getElementById('today-cinema').innerHTML=sessions.map(({film,session})=>{
         const path=filmLinks.get(film.title)||'/cinema/';
         const past=session.date<clock.day || (session.date===clock.day && session.time<clock.time);
-        return '<article class="session'+(past?' session-past':'')+'"><div class="session-time"><time datetime="'+esc(session.date)+'T'+esc(session.time)+'">'+esc(session.time.replace(':',' h '))+'</time>'+(range.start!==range.end?'<span>'+esc(pretty(session.date))+'</span>':'')+'</div><div><h3><a href="'+esc(path)+'">'+esc(film.title)+'</a></h3><p>'+esc(session.version||'')+(film.duration?' · '+esc(film.duration):'')+(past?' · Séance passée':'')+'</p><a class="card-link" href="'+esc(path)+'">Voir les horaires du film →</a></div></article>';
+        return '<article class="session'+(past?' session-past':'')+'"><div class="session-time"><time datetime="'+esc(session.date)+'T'+esc(session.time)+'">'+esc(session.time.replace(':',' h '))+'</time>'+(range.start!==range.end?'<span>'+esc(pretty(session.date))+'</span>':'')+'</div><div><h3><a href="'+esc(path)+'">'+esc(film.title)+'</a></h3><p>'+esc(session.version||'')+(film.duration?' · '+esc(film.duration):'')+(past?' · Séance passée':'')+'</p><p class="session-description">'+esc(descriptions[path]||film.description||'')+'</p><a class="card-link" href="'+esc(path)+'">Voir les horaires du film →</a></div></article>';
       }).join('')||(range.start>programme.period_end || range.end<programme.period_start?'<p>Le programme disponible ne couvre pas ces dates. <a href="https://www.cinema-arlequin.fr/" target="_blank" rel="noopener">Consulter le programme officiel de L’Arlequin</a>.</p>':'<p>Aucune séance annoncée à cette date dans le programme disponible.</p>');
     }
   }
@@ -146,6 +146,7 @@
   }
   async function loadData() {
     await Promise.all([
+      json('/aujourdhui/descriptions.json').then(data=>{if(!data || Array.isArray(data) || typeof data!=='object') throw new Error('Descriptions invalides');descriptions=data;renderData();}).catch(()=>{}),
       json('/agenda.json').then(data=>{if(!Array.isArray(data.events)) throw new Error('Agenda invalide');agenda=data;renderData();}).catch(()=>{document.getElementById('today-events').innerHTML='<p>Les événements du jour sont temporairement indisponibles. <a href="/evenements/">Voir tous les événements</a>.</p>';}),
       json('/cinema-programme.json').then(data=>{if(!Array.isArray(data.films)) throw new Error('Programme invalide');programme=data;renderData();}).catch(()=>{document.getElementById('today-cinema').innerHTML='<p>Les séances sont temporairement indisponibles. <a href="/cinema/">Voir le cinéma</a>.</p>';})
     ]);
@@ -167,3 +168,4 @@
   setInterval(()=>{loadData();loadWeather();},1800000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden){tick();loadData();loadWeather();}});
 })(typeof globalThis!=='undefined'?globalThis:this);
+

@@ -61,3 +61,23 @@ test('render runs with denied storage, failed APIs and tomorrow view', async () 
   assert.match(element('today-events').innerHTML,/temporairement indisponibles/);
   assert.match(element('today-cinema').innerHTML,/temporairement indisponibles/);
 });
+
+test('all date views reuse published descriptions and escape them', async () => {
+  for (const view of ['', '?vue=demain', '?vue=weekend']) {
+    const elements=new Map();
+    const element=id=>{if(!elements.has(id)) elements.set(id,{textContent:'',innerHTML:'',hidden:false});return elements.get(id);};
+    const range=api.rangeFor(api.parisClock().day,view.includes('demain')?'demain':view.includes('weekend')?'weekend':'aujourdhui');
+    const event={title:'Expo',start_date:range.start,end_date:range.end,summary:'Résumé brut',page_url:'https://agenda.vivreanyons.fr/evenements/expo/'};
+    const filmEvent={kind:'cinema',film_title:'Film',title:'Film',start_date:range.start,page_url:'https://agenda.vivreanyons.fr/evenements/film/'};
+    const data={'/agenda.json':{events:[event,filmEvent]},'/cinema-programme.json':{period_start:range.start,period_end:range.end,films:[{title:'Film',description:'Description du film',sessions:[{date:range.start,time:'18:00'}]}]},'/aujourdhui/descriptions.json':{'/evenements/expo/':'Introduction publiée <script>','/evenements/film/':'Le petit mot publié'}};
+    const document={body:{dataset:{generatedDay:'2000-01-01'}},hidden:false,getElementById:element,querySelector:element,addEventListener(){}};
+    const context={document,location:{search:view},Intl,Date,URL,URLSearchParams,AbortController,setTimeout,clearTimeout,setInterval(){},fetch:async url=>{if(!data[url]) throw Error('offline');return {ok:true,json:async()=>data[url]};},localStorage:{getItem(){return null;},setItem(){}}};
+    vm.runInNewContext(fs.readFileSync('assets/nyons-today.js','utf8'),context);
+    await new Promise(resolve=>setTimeout(resolve,30));
+    assert.match(element('today-events').innerHTML,/Introduction publiée &lt;script&gt;/);
+    assert.doesNotMatch(element('today-events').innerHTML,/Résumé brut/);
+    assert.match(element('today-cinema').innerHTML,/Le petit mot publié/);
+    assert.match(element('today-cinema').innerHTML,/18 h 00/);
+  }
+});
+
