@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien-2027-04-07@agenda.vivreanyons.fr
-DTSTAMP:20261009T132210Z
+DTSTAMP:20261010T123634Z
 DTSTART;TZID=Europe/Paris:20270407T180000
 DTEND;TZID=Europe/Paris:20270407T200000
 SUMMARY:Conférence de l’UNTL sur « Les Jeux d’Enfants de Pieter Bruegel l’ancien »

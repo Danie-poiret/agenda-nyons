@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:le-rdv-de-la-transmission-agricole-2026-11-25@agenda.vivreanyons.fr
-DTSTAMP:20261009T132210Z
+DTSTAMP:20261010T123634Z
 DTSTART;TZID=Europe/Paris:20261125T090000
 DTEND;TZID=Europe/Paris:20261125T170000
 SUMMARY:Le RDV de la transmission agricole
-DESCRIPTION:Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel\nhttps://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/
+DESCRIPTION:Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.\nhttps://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/
 LOCATION:
 URL:https://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/
 END:VEVENT

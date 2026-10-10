@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07@agenda.vivreanyons.fr
-DTSTAMP:20261009T132210Z
+DTSTAMP:20261010T123634Z
 DTSTART;TZID=Europe/Paris:20261207T150000
 DTEND;TZID=Europe/Paris:20261207T170000
 SUMMARY:Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »

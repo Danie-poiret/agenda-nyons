@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-jeu-mission-esprit-critique-2026-11-07@agenda.vivreanyons.fr
-DTSTAMP:20261009T132210Z
+DTSTAMP:20261010T123634Z
 DTSTART;TZID=Europe/Paris:20261107T150000
 DTEND;TZID=Europe/Paris:20261107T180000
 SUMMARY:Atelier-jeu « Mission : esprit critique »
-DESCRIPTION:Organisé par l'AFIS Science (Association française pour l’information scientifique). 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 18.3°C / 18.3°C Contact Rec\nhttps://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/
+DESCRIPTION:Organisé par l'AFIS Science (Association française pour l’information scientifique).\nhttps://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/
 LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/
 END:VEVENT

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13@agenda.vivreanyons.fr
-DTSTAMP:20261009T132210Z
+DTSTAMP:20261010T123634Z
 DTSTART;TZID=Europe/Paris:20261013T100000
 DTEND;TZID=Europe/Paris:20261013T120000
 SUMMARY:Atelier sur les directives anticipées et dernières volontés
-DESCRIPTION:Dans le cadre de la Semaine Bleue 2026. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 18.3°C / 18.3°C Contact Recherche Mentions légales Politique de confiden\nhttps://agenda.vivreanyons.fr/evenements/atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13/
+DESCRIPTION:Dans le cadre de la Semaine Bleue 2026.\nhttps://agenda.vivreanyons.fr/evenements/atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13/
 LOCATION:Maison des Possibles\, 16- — 18 rue Pierre Toesca - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/atelier-sur-les-directives-anticipees-et-dernieres-volontes-2026-10-13/
 END:VEVENT

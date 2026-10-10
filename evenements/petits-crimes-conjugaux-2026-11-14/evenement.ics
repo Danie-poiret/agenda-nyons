@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:petits-crimes-conjugaux-2026-11-14@agenda.vivreanyons.fr
-DTSTAMP:20261009T132210Z
+DTSTAMP:20261010T123634Z
 DTSTART;TZID=Europe/Paris:20261114T203000
 DTEND;TZID=Europe/Paris:20261114T220000
 SUMMARY:Petits crimes conjugaux
-DESCRIPTION:Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie " L'Épopée Belle " 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 18.3°C / 18.3°C Contact Recherche M\nhttps://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/
+DESCRIPTION:Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie " L'Épopée Belle "\nhttps://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/
 LOCATION:
 URL:https://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/
 END:VEVENT
