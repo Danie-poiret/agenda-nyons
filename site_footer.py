@@ -1,6 +1,7 @@
 """Static footer links shared by the agenda, cinema and weekly pages."""
 from pathlib import Path
 import re
+from partner_banners import add_partner_banners
 
 START = "<!-- AGENDA_FOOTER_LINKS_START -->"
 END = "<!-- AGENDA_FOOTER_LINKS_END -->"
@@ -8,6 +9,7 @@ STYLE = '<style data-agenda-footer-style>.agenda-site-footer{padding:0 18px 24px
 LINKS = START + '<nav class="agenda-footer-links" aria-label="Les sites et pages de Vivre à Nyons"><a href="https://www.vivreanyons.fr/">Nyons accueil</a><a href="https://www.vivreanyons.fr/toutes-les-pages/">Toutes les pages</a><a href="https://agenda.vivreanyons.fr/">Agenda de Nyons</a><a href="https://agenda.vivreanyons.fr/cinema/">Cinéma à Nyons</a><a href="https://agenda.vivreanyons.fr/semaines/">Agenda par semaine</a><a href="https://drome.vivreanyons.fr/evenements/">Agenda Drôme</a></nav>' + END
 
 def add_footer(source):
+    source = add_partner_banners(source)
     if not re.search(r"<main(?:\s|>)", source, re.I):
         return source
     source = re.sub(re.escape(START) + r".*?" + re.escape(END), "", source, flags=re.S)
