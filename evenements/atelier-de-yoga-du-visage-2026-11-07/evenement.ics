@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-de-yoga-du-visage-2026-11-07@agenda.vivreanyons.fr
+DTSTAMP:20261012T153211Z
+DTSTART;TZID=Europe/Paris:20261107T103000
+DTEND;TZID=Europe/Paris:20261107T113000
+SUMMARY:Atelier de yoga du visage
+DESCRIPTION:Proposé par Annabel Djila\nhttps://agenda.vivreanyons.fr/evenements/atelier-de-yoga-du-visage-2026-11-07/
+LOCATION:Le collectif le Papillon\, — 10 Avenue Jules Bernard - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/atelier-de-yoga-du-visage-2026-11-07/
+END:VEVENT
+END:VCALENDAR

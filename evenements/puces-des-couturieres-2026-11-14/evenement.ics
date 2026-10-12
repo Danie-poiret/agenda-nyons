@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:puces-des-couturieres-2026-11-14@agenda.vivreanyons.fr
-DTSTAMP:20261011T125613Z
+DTSTAMP:20261012T153210Z
 DTSTART;TZID=Europe/Paris:20261114T090000
 DTEND;TZID=Europe/Paris:20261114T190000
 SUMMARY:Puces des couturières
 DESCRIPTION:Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.\nhttps://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/
-LOCATION:
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/
 END:VEVENT
 END:VCALENDAR

@@ -540,6 +540,13 @@
       "version": 1,
       "generated_at": "2026-10-08T13:37:50.442855+00:00"
     },
+    "atelier-de-yoga-du-visage-2026-11-07": {
+      "text": "Le yoga du visage désigne généralement des pratiques associant mouvements volontaires, respiration et parfois automassages du visage. Les muscles faciaux participent notamment aux expressions et à la fermeture des paupières, mais ces exercices ne constituent pas un soin médical.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-12T15:32:16.082816+00:00"
+    },
     "atelier-jeu-mission-esprit-critique-2026-11-07": {
       "text": "L’esprit critique consiste à examiner une information plutôt qu’à l’accepter immédiatement. Il implique notamment de distinguer faits, interprétations et opinions, d’identifier l’origine d’une affirmation, de comparer les sources et de reconnaître ce qui reste incertain.",
       "source_label": "",
