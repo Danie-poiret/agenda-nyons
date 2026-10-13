@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1er-tour-des-elections-presidentielles-2027-04-18@agenda.vivreanyons.fr
+DTSTAMP:20261013T141830Z
+DTSTART;TZID=Europe/Paris:20270418T080000
+DTEND;TZID=Europe/Paris:20270418T180000
+SUMMARY:1er tour des élections présidentielles
+DESCRIPTION:1er tour des élections présidentielles.\nhttps://agenda.vivreanyons.fr/evenements/1er-tour-des-elections-presidentielles-2027-04-18/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/1er-tour-des-elections-presidentielles-2027-04-18/
+END:VEVENT
+END:VCALENDAR

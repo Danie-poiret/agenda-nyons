@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:concert-de-rebecca-chaillot-2027-01-01@agenda.vivreanyons.fr
-DTSTAMP:20261012T153210Z
+DTSTAMP:20261013T141830Z
 DTSTART;TZID=Europe/Paris:20270101T170000
 DTEND;TZID=Europe/Paris:20270101T181000
 SUMMARY:Concert de Rebecca Chaillot
-DESCRIPTION:Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.\nhttps://agenda.vivreanyons.fr/evenements/concert-de-rebecca-chaillot-2027-01-01/
+DESCRIPTION:Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 22.\nhttps://agenda.vivreanyons.fr/evenements/concert-de-rebecca-chaillot-2027-01-01/
 LOCATION:Église Saint-Vincent — Nyons
 URL:https://agenda.vivreanyons.fr/evenements/concert-de-rebecca-chaillot-2027-01-01/
 END:VEVENT

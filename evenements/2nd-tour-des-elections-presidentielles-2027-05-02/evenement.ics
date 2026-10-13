@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2nd-tour-des-elections-presidentielles-2027-05-02@agenda.vivreanyons.fr
+DTSTAMP:20261013T141830Z
+DTSTART;TZID=Europe/Paris:20270502T080000
+DTEND;TZID=Europe/Paris:20270502T180000
+SUMMARY:2nd tour des élections présidentielles
+DESCRIPTION:2nd tour des élections présidentielles.\nhttps://agenda.vivreanyons.fr/evenements/2nd-tour-des-elections-presidentielles-2027-05-02/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/2nd-tour-des-elections-presidentielles-2027-05-02/
+END:VEVENT
+END:VCALENDAR

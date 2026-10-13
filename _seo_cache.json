@@ -706,5 +706,24 @@
     "generated_at": "2026-09-28T17:33:24.592333+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 3
+  },
+  "2027-04-12": {
+    "hash": "9c4afeffed8444aab76813cd1bda49ada3083cc3e8928d902ed7fb9aad69b96f",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 12 au 18 avril 2027 : repérez l’échéance du premier tour des élections présidentielles, organisée le dimanche 18 avril.",
+      "intro": "La semaine du 12 au 18 avril 2027 à Nyons est marquée par une date unique dans l’agenda : le premier tour des élections présidentielles, prévu le dimanche 18 avril. Cette échéance nationale constitue le seul rendez-vous annoncé pour cette période dans les informations disponibles. Elle mérite donc d’être repérée en amont par les habitants concernés, notamment afin de consulter les modalités actualisées auprès des canaux officiels. Plutôt que de multiplier les suggestions non confirmées, cet agenda se concentre sur ce fait essentiel de la semaine. Pour préparer votre dimanche, gardez à l’esprit que les renseignements pratiques peuvent évoluer et qu’ils doivent être vérifiés directement via la page officielle associée à l’événement.",
+      "weekend": "Pour le week-end des 17 et 18 avril, le rendez-vous signalé à Nyons concerne le dimanche 18 avril : le premier tour des élections présidentielles. Il ne s’agit pas d’une sortie de loisir, mais d’une échéance civique à intégrer à l’organisation de la journée. Les informations fournies ne détaillent ni les horaires ni les lieux : mieux vaut donc ne pas se fier à des indications non vérifiées. Consultez la page officielle de l’événement et les communications institutionnelles avant de vous déplacer.",
+      "practical": "Avant le 18 avril, vérifiez les informations pratiques publiées sur la page officielle liée à l’événement. Les données disponibles indiquent la date, mais ne précisent pas les horaires, les lieux ou les modalités. Prenez donc le temps de consulter les sources institutionnelles actualisées et d’anticiper votre organisation pour cette journée.",
+      "conclusion": "Du 12 au 18 avril 2027, l’agenda de Nyons met en avant le premier tour des élections présidentielles. Prévu le dimanche 18 avril, ce rendez-vous structure la fin de semaine. Pour disposer de renseignements fiables avant la date concernée, privilégiez la consultation des informations officielles et de la page dédiée à l’événement.",
+      "highlights": [
+        {
+          "event_title": "1er tour des élections présidentielles",
+          "reason": "Le seul événement annoncé à Nyons pour cette semaine, programmé le 18 avril 2027."
+        }
+      ]
+    },
+    "generated_at": "2026-10-13T14:18:41.291751+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   }
 }

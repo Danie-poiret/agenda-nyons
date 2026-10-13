@@ -456,6 +456,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.720643+00:00"
     },
+    "foire-aux-livres-damnesty-international-2026-10-24": {
+      "text": "Amnesty International est un mouvement mondial de défense des droits humains, fondé en 1961. Ses actions portent notamment sur la liberté d’expression, la lutte contre la torture, les discriminations et la peine de mort.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.907304+00:00"
+    },
     "journee-jeux-de-societe-2026-10-24": {
       "text": "Les jeux de société reposent sur des règles partagées, un matériel et des objectifs qui peuvent relever de la coopération, de l’affrontement ou du hasard. Ils créent un cadre commun où les joueurs doivent interpréter, discuter et appliquer des règles.",
       "source_label": "",
@@ -497,6 +504,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.723831+00:00"
+    },
+    "dedicace-de-colette-brun-castelly-2026-10-29": {
+      "text": "Une séance de dédicace crée un échange direct entre une autrice et ses lecteurs. L’inscription manuscrite, souvent personnalisée et signée, transforme un exemplaire imprimé en objet lié à une rencontre particulière.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.913775+00:00"
     },
     "reunion-bailleurs-information-sur-la-renovation-de-votre-logement-2026-10-29": {
       "text": "La rénovation d’un logement peut concerner l’isolation, le chauffage, la ventilation, les menuiseries ou encore l’adaptation du bâti. Ces travaux doivent être envisagés en tenant compte des caractéristiques du bâtiment et des règles applicables à la location, à l’urbanisme et à la copropriété.",
@@ -589,6 +603,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.727130+00:00"
     },
+    "ode-a-lolive-2026-11-13": {
+      "text": "La lecture concertante associe la voix qui porte un texte à une présence musicale. Rythmes, silences, timbres et interventions instrumentales peuvent en renouveler l’écoute sans remplacer la lecture elle-même.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.921603+00:00"
+    },
     "atelier-yoga-du-chant-2026-11-14": {
       "text": "La voix chantée naît de la vibration des cordes vocales sous l’effet de l’air expiré. La hauteur des sons dépend notamment de leur tension et de leur longueur, tandis que la bouche et les cavités du visage participent à façonner le timbre.",
       "source_label": "",
@@ -602,6 +623,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.728023+00:00"
+    },
+    "constellation-familiale-2026-11-14": {
+      "text": "Les sciences sociales distinguent l’hérédité biologique des transmissions familiales et culturelles. Récits, habitudes, langues, valeurs et silences peuvent circuler entre générations, sans déterminer à eux seuls le parcours d’une personne.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.923355+00:00"
     },
     "petits-crimes-conjugaux-2026-11-14": {
       "text": "Éric-Emmanuel Schmitt est un écrivain et dramaturge franco-belge, né en 1960. Ses pièces ont été largement jouées en France et à l’étranger ; le théâtre lui permet notamment d’explorer les relations humaines à travers des dialogues et des situations resserrées.",
@@ -645,19 +673,19 @@
       "version": 1,
       "generated_at": "2026-10-06T08:35:56.386141+00:00"
     },
-    "foire-aux-livres-damnesty-international-2026-11-18": {
-      "text": "Une foire aux livres donne une seconde circulation à des ouvrages déjà lus et permet à des lecteurs de découvrir des titres variés. Amnesty International est un mouvement de défense des droits humains fondé en 1961, connu notamment pour ses campagnes d’information et de mobilisation.",
-      "source_label": "",
-      "model": "gpt-5.6-terra",
-      "version": 1,
-      "generated_at": "2026-10-06T08:35:56.386727+00:00"
-    },
     "salon-vivre-ici-2026-11-18": {
       "text": "Habiter un territoire ne se limite pas au logement : cela concerne aussi l’accès aux études, au travail, aux services, aux mobilités et aux réseaux associatifs. Les salons d’information permettent de réunir des acteurs intervenant dans ces différents aspects de la vie quotidienne.",
       "source_label": "",
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.729924+00:00"
+    },
+    "constellation-familiale-2026-11-21": {
+      "text": "Les liens familiaux se construisent aussi par des pratiques de mémoire : raconter des épisodes, conserver des photographies, nommer des ancêtres ou transmettre des objets. Ces récits peuvent varier selon les membres d’une même famille.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.928195+00:00"
     },
     "de-lile-noire-au-montbrun-2026-11-21": {
       "text": "Un concert est une interprétation musicale devant un public, qu’il s’agisse d’œuvres écrites, d’arrangements ou de créations. Même avec le même programme, l’acoustique du lieu, les instruments et les choix des interprètes rendent chaque exécution particulière.",
@@ -939,6 +967,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.745286+00:00"
     },
+    "1er-tour-des-elections-presidentielles-2027-04-18": {
+      "text": "En France, le président de la République est élu au suffrage universel direct. Lorsqu’aucun candidat n’obtient la majorité absolue des suffrages exprimés au premier tour, un second tour est organisé.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.954201+00:00"
+    },
     "landing-2027-04-23": {
       "text": "En physique, un mouvement se définit par le changement de position d’un objet au cours du temps, toujours par rapport à un référentiel choisi. Une chute est donc une phase du mouvement, dont la trajectoire et la vitesse peuvent ensuite évoluer.",
       "source_label": "",
@@ -952,6 +987,13 @@
       "model": "manual",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.746194+00:00"
+    },
+    "2nd-tour-des-elections-presidentielles-2027-05-02": {
+      "text": "Le second tour de l’élection présidentielle française oppose les deux candidats arrivés en tête au premier tour. Est alors élu le candidat qui recueille le plus grand nombre de suffrages exprimés.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-13T14:18:51.956042+00:00"
     },
     "atelier-yoga-du-chant-2027-05-08": {
       "text": "La tessiture désigne l’ensemble des notes qu’une voix peut chanter avec aisance. Les voix sont souvent classées, de la plus aiguë à la plus grave, en soprano, alto, ténor et basse, avec de nombreuses nuances entre ces catégories.",

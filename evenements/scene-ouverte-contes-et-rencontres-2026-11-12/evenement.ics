@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:scene-ouverte-contes-et-rencontres-2026-11-12@agenda.vivreanyons.fr
-DTSTAMP:20261012T153210Z
+DTSTAMP:20261013T141830Z
 DTSTART;TZID=Europe/Paris:20261112T183000
 DTEND;TZID=Europe/Paris:20261112T200000
 SUMMARY:Scène ouverte « Contes et rencontres »
 DESCRIPTION:Venez partager vos mots\, vos contes\, vos lectures\, vos poésies\, vos chansons... c’est à vous !\nhttps://agenda.vivreanyons.fr/evenements/scene-ouverte-contes-et-rencontres-2026-11-12/
-LOCATION:3 Platanes\, — 63 rue de la Maladreri - 26110 NYONS
+LOCATION:Les 3 Platanes\, — 63 rue de la Maladrerie - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/scene-ouverte-contes-et-rencontres-2026-11-12/
 END:VEVENT
 END:VCALENDAR

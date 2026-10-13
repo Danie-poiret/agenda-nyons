@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:projection-et-si-on-levait-les-yeux-2026-11-14@agenda.vivreanyons.fr
-DTSTAMP:20261012T153211Z
-DTSTART;TZID=Europe/Paris:20261114T103000
-DTEND;TZID=Europe/Paris:20261114T120000
+DTSTAMP:20261013T141830Z
+DTSTART;TZID=Europe/Paris:20261114T150000
+DTEND;TZID=Europe/Paris:20261114T170000
 SUMMARY:Projection « Et si on levait les yeux ? »
 DESCRIPTION:Projection suivie d’un échange pour parents\, ados et enfants\, animé par Olivia (AASHN) et Samantha.\nhttps://agenda.vivreanyons.fr/evenements/projection-et-si-on-levait-les-yeux-2026-11-14/
 LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
