@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:samedi-ca-me-dit-2026-12-05@agenda.vivreanyons.fr
-DTSTAMP:20261013T141830Z
+DTSTAMP:20261014T115826Z
 DTSTART;TZID=Europe/Paris:20261205T103000
 DTEND;TZID=Europe/Paris:20261205T120000
 SUMMARY:Samedi\, ça me dit !
-DESCRIPTION:Un atelier pour préparer Noël ! 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Peu nuageux 22.4°C / 22.4°C Contact Recherche Mentions légales Politique de confidentialité P\nhttps://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-12-05/
+DESCRIPTION:Un atelier pour préparer Noël !\nhttps://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-12-05/
 LOCATION:Médiathèque — 9 rue Albin Vilhet - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-12-05/
 END:VEVENT

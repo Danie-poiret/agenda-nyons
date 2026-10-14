@@ -484,6 +484,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.722140+00:00"
     },
+    "leau-exposition-du-preau-des-arts-2026-10-28": {
+      "text": "L’eau est un thème majeur des arts visuels : elle peut être représentée pour ses reflets, sa transparence, son mouvement ou sa force symbolique. Peintres, photographes et plasticiens l’emploient aussi pour évoquer le paysage, le vivant, le temps ou la transformation.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-14T11:58:33.082300+00:00"
+    },
     "les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28": {
       "text": "Maria Callas, née en 1923 et morte en 1977, compte parmi les sopranos les plus célèbres du XXe siècle. Sa carrière a marqué l’histoire de l’opéra par son interprétation de rôles du répertoire italien et français, notamment chez Bellini, Verdi et Puccini.",
       "source_label": "",
@@ -533,6 +540,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.724809+00:00"
     },
+    "ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01": {
+      "text": "La mention « Mort pour la France » est une qualification honorifique attribuée, sous conditions prévues par la loi, aux personnes décédées du fait de conflits ou d’opérations liés à la défense nationale. Elle inscrit leur nom dans une mémoire publique et nationale.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-14T11:58:33.085242+00:00"
+    },
     "loto-de-lassociation-le-trait-dunion-2026-11-01": {
       "text": "Le loto est un jeu de hasard fondé sur la correspondance entre des numéros tirés et ceux inscrits sur des cartons. Lorsqu’il est organisé par une association, il constitue aussi un temps de convivialité et peut contribuer au financement de ses activités.",
       "source_label": "",
@@ -581,6 +595,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.726209+00:00"
+    },
+    "commemoration-de-larmistice-du-11-novembre-2026-11-11": {
+      "text": "L’armistice du 11 novembre 1918 met fin aux combats entre les Alliés et l’Allemagne sur le front occidental de la Première Guerre mondiale. Il ne constitue pas à lui seul le traité de paix, lequel est signé à Versailles le 28 juin 1919.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-14T11:58:33.088186+00:00"
     },
     "opera-follies-2026-11-11": {
       "text": "L’opéra associe musique, chant, théâtre et mise en scène. Les voix y sont généralement classées selon leur tessiture, comme soprano, alto, ténor ou basse ; dans un ensemble vocal, elles se combinent pour former des harmonies et des contrastes sonores.",

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01@agenda.vivreanyons.fr
+DTSTAMP:20261014T115826Z
+DTSTART;TZID=Europe/Paris:20261101T113000
+DTEND;TZID=Europe/Paris:20261101T120000
+SUMMARY:Cérémonie d’hommage aux morts pour la France
+DESCRIPTION:Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons.\nhttps://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/
+LOCATION:Carré militaire du cimetière de Nyons\, 17B rue des Souchères - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/
+END:VEVENT
+END:VCALENDAR
