@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bourse-aux-jouets-2026-11-21@agenda.vivreanyons.fr
+DTSTAMP:20261015T113430Z
+DTSTART;TZID=Europe/Paris:20261121T090000
+DTEND;TZID=Europe/Paris:20261121T170000
+SUMMARY:Bourse aux jouets
+DESCRIPTION:Organisée par les Nounous Super Chouette\, samedi 21 novembre à la Maison de Pays.\nhttps://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/
+LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/
+END:VEVENT
+END:VCALENDAR

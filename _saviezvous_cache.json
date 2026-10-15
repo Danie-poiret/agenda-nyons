@@ -701,6 +701,13 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.729924+00:00"
     },
+    "bourse-aux-jouets-2026-11-21": {
+      "text": "Les bourses aux jouets permettent de donner une seconde vie à des jeux, livres et objets destinés aux enfants. En favorisant leur réemploi, elles limitent l’achat de produits neufs et offrent aussi l’occasion de transmettre des objets d’une famille à une autre.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-15T11:34:43.905843+00:00"
+    },
     "constellation-familiale-2026-11-21": {
       "text": "Les liens familiaux se construisent aussi par des pratiques de mémoire : raconter des épisodes, conserver des photographies, nommer des ancêtres ou transmettre des objets. Ces récits peuvent varier selon les membres d’une même famille.",
       "source_label": "",
@@ -826,6 +833,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-10-08T13:37:50.454404+00:00"
+    },
+    "exposition-de-latelier-de-laines-et-de-colliers-danima-2026-12-23": {
+      "text": "Le travail de la laine peut comprendre le filage, la teinture, le tissage, le tricot ou le feutrage. La création de colliers relève quant à elle des arts du bijou : matières, couleurs, formes et assemblages participent à l’expression d’un style.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-15T11:34:43.912825+00:00"
     },
     "on-a-perdu-les-cles-du-traineau-2026-12-29": {
       "text": "Le théâtre destiné au jeune public mobilise souvent le jeu, les décors, les sons et les objets pour construire des univers imaginaires. L’humour et le merveilleux y peuvent coexister, tout en laissant aux spectateurs une place active dans l’interprétation de l’histoire.",

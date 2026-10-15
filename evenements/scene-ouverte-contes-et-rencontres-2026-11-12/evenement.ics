@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:scene-ouverte-contes-et-rencontres-2026-11-12@agenda.vivreanyons.fr
-DTSTAMP:20261014T115826Z
+DTSTAMP:20261015T113430Z
 DTSTART;TZID=Europe/Paris:20261112T183000
 DTEND;TZID=Europe/Paris:20261112T200000
 SUMMARY:Scène ouverte « Contes et rencontres »
-DESCRIPTION:Venez partager vos mots\, vos contes\, vos lectures\, vos poésies\, vos chansons... c’est à vous ! 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 22.4°C / 22.4°C Co\nhttps://agenda.vivreanyons.fr/evenements/scene-ouverte-contes-et-rencontres-2026-11-12/
+DESCRIPTION:Venez partager vos mots\, vos contes\, vos lectures\, vos poésies\, vos chansons... c’est à vous !\nhttps://agenda.vivreanyons.fr/evenements/scene-ouverte-contes-et-rencontres-2026-11-12/
 LOCATION:Les 3 Platanes\, — 63 rue de la Maladrerie - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/scene-ouverte-contes-et-rencontres-2026-11-12/
 END:VEVENT

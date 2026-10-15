@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:don-du-sang-2026-11-16@agenda.vivreanyons.fr
-DTSTAMP:20261014T115826Z
+DTSTAMP:20261015T113430Z
 DTSTART;TZID=Europe/Paris:20261116T083000
 DTEND;TZID=Europe/Paris:20261116T123000
 SUMMARY:Don du sang
-DESCRIPTION:Don du sang à la Maison de Pays : Je donne mon sang : je sauve des vies ! 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 22.4°C / 22.4°C Contact Recherche Menti\nhttps://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/
+DESCRIPTION:Don du sang à la Maison de Pays : Je donne mon sang : je sauve des vies !\nhttps://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/
 END:VEVENT

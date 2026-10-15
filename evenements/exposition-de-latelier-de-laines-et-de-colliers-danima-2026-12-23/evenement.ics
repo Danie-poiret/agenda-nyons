@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exposition-de-latelier-de-laines-et-de-colliers-danima-2026-12-23@agenda.vivreanyons.fr
+DTSTAMP:20261015T113430Z
+DTSTART;TZID=Europe/Paris:20261223T140000
+DTEND;TZID=Europe/Paris:20270101T180000
+SUMMARY:Exposition de l’atelier de Laines et de Colliers d’ANIMA
+DESCRIPTION:Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...\nhttps://agenda.vivreanyons.fr/evenements/exposition-de-latelier-de-laines-et-de-colliers-danima-2026-12-23/
+LOCATION:Du mercredi 23 décembre 2026 de 14h00 au vendredi 01 janvier 2027 à 18h00 — Espace Roumanille\, place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/exposition-de-latelier-de-laines-et-de-colliers-danima-2026-12-23/
+END:VEVENT
+END:VCALENDAR

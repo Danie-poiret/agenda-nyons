@@ -725,5 +725,24 @@
     "generated_at": "2026-10-13T14:18:41.291751+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 3
+  },
+  "2026-12-21": {
+    "hash": "50ffdb2395bd6d91b87c44fbae417855510020ee8eeed20dd15cb35b45221b64",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 21 au 27 décembre 2026 : découvrez l’exposition de l’atelier de Laines et de Colliers d’ANIMA, ouverte dès le 23 décembre.",
+      "intro": "La semaine du 21 au 27 décembre 2026 à Nyons propose un rendez-vous culturel et associatif autour du travail de l’atelier de Laines et de Colliers d’ANIMA. L’exposition débute le mercredi 23 décembre et se poursuit jusqu’au 1er janvier 2027, offrant ainsi plusieurs occasions de la découvrir pendant la période des fêtes. C’est une idée de sortie à retenir pour celles et ceux qui souhaitent s’intéresser à une initiative portée par une association nyonsaise, entre culture vivante, vie associative et création. L’agenda de la semaine est resserré dans les informations disponibles : mieux vaut donc prendre le temps de consulter la page officielle de l’événement avant de prévoir votre visite. Cette exposition constitue le principal repère culturel annoncé à Nyons pour les derniers jours précédant Noël.",
+      "weekend": "Pour le week-end des 26 et 27 décembre, l’exposition de l’atelier de Laines et de Colliers d’ANIMA est le rendez-vous à envisager dans l’agenda disponible. Lancée le 23 décembre, elle reste annoncée jusqu’au 1er janvier 2027, ce qui la place au cœur de cette période de fin d’année. Le choix est simple : privilégiez cette sortie si vous recherchez une proposition liée à la culture, à la création et à la vie associative locale. Les informations fournies ne détaillent ni les horaires ni les modalités de visite ; consultez donc la fiche officielle avant de vous déplacer.",
+      "practical": "Avant votre venue, vérifiez les informations actualisées sur la page officielle de l’exposition, notamment les jours et horaires d’ouverture éventuels. L’événement se déroule du 23 décembre 2026 au 1er janvier 2027 : confirmez que la date choisie correspond bien à une période d’accueil. Les précisions relatives à l’accès ou à d’éventuelles conditions de visite ne sont pas indiquées dans les éléments disponibles.",
+      "conclusion": "Cette semaine de décembre à Nyons met en avant une exposition portée par l’association ANIMA. Son calendrier, qui couvre Noël et se prolonge jusqu’au début de janvier, en fait une proposition culturelle à noter pour les habitants comme pour les visiteurs de passage. Pour organiser votre sortie avec sérénité, appuyez-vous sur les informations publiées par l’organisateur et vérifiez les détails pratiques avant le départ.",
+      "highlights": [
+        {
+          "event_title": "Exposition de l’atelier de Laines et de Colliers d’ANIMA",
+          "reason": "Une exposition associant culture vivante, vie associative et culture, présentée du 23 décembre au 1er janvier."
+        }
+      ]
+    },
+    "generated_at": "2026-10-15T11:34:39.492103+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 3
   }
 }
