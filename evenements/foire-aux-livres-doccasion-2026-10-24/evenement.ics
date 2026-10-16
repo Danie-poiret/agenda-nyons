@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:foire-aux-livres-doccasion-2026-10-24@agenda.vivreanyons.fr
+DTSTAMP:20261016T112945Z
+DTSTART;TZID=Europe/Paris:20261024T100000
+DTEND;TZID=Europe/Paris:20261024T180000
+SUMMARY:Foire aux livres d’occasion
+DESCRIPTION:Le groupe nyonsais d'Amnesty International vous invite à sa foire aux livres d'occasion.\nhttps://agenda.vivreanyons.fr/evenements/foire-aux-livres-doccasion-2026-10-24/
+LOCATION:Espace Roumanille\, Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/foire-aux-livres-doccasion-2026-10-24/
+END:VEVENT
+END:VCALENDAR
