@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:projection-surprise-jeune-public-2026-11-08-1715@agenda.vivreanyons.f
+ r
+DTSTAMP:20261019T062957Z
+DTSTART:20261108T161500Z
+SUMMARY:Projection surprise jeune public — Avant-première surprise
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une avant-première dont le titre reste une surprise. Consult
+ ez le cinéma pour les renseignements pratiques avant de réserver.\nhtt
+ ps://agenda.vivreanyons.fr/evenements/cinema-projection-surprise-jeune-p
+ ublic-2026-11-08/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-projection-surprise-j
+ eune-public-2026-11-08/
+END:VEVENT
+END:VCALENDAR

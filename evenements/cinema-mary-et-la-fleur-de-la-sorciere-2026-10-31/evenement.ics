@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:mary-et-la-fleur-de-la-sorciere-2026-10-31-1700@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261031T160000Z
+SUMMARY:Mary et la fleur de la sorcière — Séance spéciale Halloween 
+ — ciné-goûter
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une fleur mystérieuse entraîne Mary dans un monde de magie.
+  Le film est proposé pour Halloween\, avec un ciné-goûter annoncé pa
+ r le cinéma.\nhttps://agenda.vivreanyons.fr/evenements/cinema-mary-et-l
+ a-fleur-de-la-sorciere-2026-10-31/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-mary-et-la-fleur-de-l
+ a-sorciere-2026-10-31/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:pilleurs-de-terre-2026-11-02-1900@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261102T180000Z
+SUMMARY:Pilleurs de terre — VO sous-titrée — soirée Alimenterre
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Le documentaire de Fanny Paloma donne la parole à des commun
+ autés qui défendent leurs terres. La projection ouvre la soirée Alime
+ nterre\, suivie d’échanges\, d’un repas et d’un second film.\nhtt
+ ps://agenda.vivreanyons.fr/evenements/cinema-pilleurs-de-terre-2026-11-0
+ 2/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-pilleurs-de-terre-202
+ 6-11-02/
+END:VEVENT
+END:VCALENDAR

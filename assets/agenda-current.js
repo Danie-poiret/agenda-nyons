@@ -96,6 +96,7 @@
     const filmZone = document.querySelector('.cinema-home-cards') || (location.pathname === '/cinema/' ? document.querySelector('.cards') : null);
     if (filmZone) {
       let films = active.filter(e => e.kind === 'cinema');
+      if (filmZone.dataset.cinemaFrom) films = films.filter(e => e.start_date >= filmZone.dataset.cinemaFrom);
       if (filmZone.classList.contains('cinema-home-cards')) films = films.slice(0,6);
       filmZone.innerHTML = films.map(e => {
         const s = futureSessions(e,clock)[0], f = e.film || {};

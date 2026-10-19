@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:projection-surprise-coup-de-cur-art-et-essai-2026-11-02-1900@agenda.v
+ ivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261102T180000Z
+SUMMARY:Projection surprise — coup de cœur art et essai — Avant-prem
+ ière surprise
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une avant-première dont le titre reste une surprise. Consult
+ ez le cinéma pour les renseignements pratiques avant de réserver.\nhtt
+ ps://agenda.vivreanyons.fr/evenements/cinema-projection-surprise-coup-de
+ -cur-art-et-essai-2026-11-02/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-projection-surprise-c
+ oup-de-cur-art-et-essai-2026-11-02/
+END:VEVENT
+END:VCALENDAR

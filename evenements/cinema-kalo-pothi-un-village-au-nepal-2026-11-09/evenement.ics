@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:kalo-pothi-un-village-au-nepal-2026-11-09-1900@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261109T180000Z
+SUMMARY:Kalo Pothi\, un village au Népal — VO sous-titrée — soirée
+  100 % Népal
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Dans un village du Népal\, deux amis de castes différentes 
+ élèvent une poule pour vendre ses œufs. Le film ouvre la soirée nép
+ alaise\, avant un repas et une seconde projection.\nhttps://agenda.vivre
+ anyons.fr/evenements/cinema-kalo-pothi-un-village-au-nepal-2026-11-09/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-kalo-pothi-un-village
+ -au-nepal-2026-11-09/
+END:VEVENT
+END:VCALENDAR

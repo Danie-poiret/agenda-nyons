@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cars-2026-10-21-1700@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261021T150000Z
+SUMMARY:Cars — Version non précisée dans le programme
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Flash McQueen quitte les circuits pour les routes de Radiator
+  Springs. Le film revient pour ses vingt ans\, avec une séance accompag
+ née d’un goûter le 26 octobre.\nhttps://agenda.vivreanyons.fr/evenem
+ ents/cinema-cars-2026-10-21/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:cars-2026-10-25-1500@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261025T140000Z
+SUMMARY:Cars — Version non précisée dans le programme
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Flash McQueen quitte les circuits pour les routes de Radiator
+  Springs. Le film revient pour ses vingt ans\, avec une séance accompag
+ née d’un goûter le 26 octobre.\nhttps://agenda.vivreanyons.fr/evenem
+ ents/cinema-cars-2026-10-21/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:cars-2026-10-26-1730@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261026T163000Z
+SUMMARY:Cars — Séance spéciale 20 ans — goûter dès 17 h
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Flash McQueen quitte les circuits pour les routes de Radiator
+  Springs. Le film revient pour ses vingt ans\, avec une séance accompag
+ née d’un goûter le 26 octobre.\nhttps://agenda.vivreanyons.fr/evenem
+ ents/cinema-cars-2026-10-21/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/
+END:VEVENT
+END:VCALENDAR
