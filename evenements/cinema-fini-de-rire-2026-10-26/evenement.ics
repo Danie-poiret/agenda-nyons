@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:fini-de-rire-2026-10-26-2000@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261026T190000Z
+SUMMARY:Fini de rire ! — Projection suivie d’un échange
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une projection documentaire suivie d’un échange avec le de
+ ssinateur Babouse. La participation de Patrick Pelloux est annoncée sou
+ s réserve. Une soirée proposée avec la Ligue des droits de l’homme.
+ \nhttps://agenda.vivreanyons.fr/evenements/cinema-fini-de-rire-2026-10-2
+ 6/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-fini-de-rire-2026-10-
+ 26/
+END:VEVENT
+END:VCALENDAR

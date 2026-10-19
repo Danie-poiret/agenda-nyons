@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:les-elephants-dans-la-brume-2026-11-09-2130@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261109T203000Z
+SUMMARY:Les Éléphants dans la brume — VO sous-titrée — soirée 100
+  % Népal
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Dans une forêt du Népal peuplée d’éléphants sauvages\,
+  une communauté kinnar est à la fois vénérée et crainte. Le film es
+ t proposé en seconde partie de la soirée népalaise.\nhttps://agenda.v
+ ivreanyons.fr/evenements/cinema-les-elephants-dans-la-brume-2026-11-09/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-les-elephants-dans-la
+ -brume-2026-11-09/
+END:VEVENT
+END:VCALENDAR

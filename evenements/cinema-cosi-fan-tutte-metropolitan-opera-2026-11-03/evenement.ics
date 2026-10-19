@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cosi-fan-tutte-metropolitan-opera-2026-11-03-1430@agenda.vivreanyons.
+ fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261103T133000Z
+SUMMARY:Così fan tutte — Metropolitan Opera — Rediffusion d’opéra
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une rediffusion de l’opéra Così fan tutte du Metropolitan
+  Opera de New York. La séance est annoncée le mardi 3 novembre à 14 h
+  30.\nhttps://agenda.vivreanyons.fr/evenements/cinema-cosi-fan-tutte-met
+ ropolitan-opera-2026-11-03/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-cosi-fan-tutte-metrop
+ olitan-opera-2026-11-03/
+END:VEVENT
+END:VCALENDAR

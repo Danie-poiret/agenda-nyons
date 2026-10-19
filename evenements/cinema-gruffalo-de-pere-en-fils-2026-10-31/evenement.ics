@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:gruffalo-de-pere-en-fils-2026-10-31-1700@agenda.vivreanyons.fr
+DTSTAMP:20261019T062957Z
+DTSTART:20261031T160000Z
+SUMMARY:Gruffalo\, de père en fils — Séance spéciale Halloween — c
+ iné-goûter
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Le Gruffalo et son petit retrouvent le grand écran pour une 
+ séance d’Halloween destinée aux enfants dès 3 ans. Un ciné-goûter
+  est annoncé.\nhttps://agenda.vivreanyons.fr/evenements/cinema-gruffalo
+ -de-pere-en-fils-2026-10-31/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-gruffalo-de-pere-en-f
+ ils-2026-10-31/
+END:VEVENT
+END:VCALENDAR
