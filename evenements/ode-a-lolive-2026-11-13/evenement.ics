@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ode-a-lolive-2026-11-13@agenda.vivreanyons.fr
-DTSTAMP:20261018T111135Z
+DTSTAMP:20261019T132345Z
 DTSTART;TZID=Europe/Paris:20261113T180000
 DTEND;TZID=Europe/Paris:20261113T200000
 SUMMARY:« Ode à l’Olive »
-DESCRIPTION:Lecture concertante\, vendredi 13 novembre à la Maison de Pays\, 18h.\nhttps://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/
+DESCRIPTION:Lecture concertante\, vendredi 13 novembre à la Maison de Pays\, 18h. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Forte pluie 16.2°C / 16.2°C Contact Recherche Mentions lé\nhttps://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/
 END:VEVENT

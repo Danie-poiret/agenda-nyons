@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17@agenda.vivreanyons.fr
-DTSTAMP:20261018T111135Z
+DTSTAMP:20261019T132345Z
 DTSTART;TZID=Europe/Paris:20270317T180000
 DTEND;TZID=Europe/Paris:20270317T200000
 SUMMARY:Conférence de l’UNTL sur la domesticité\, entre servilité et fidélité
-DESCRIPTION:Conférence présentée par Michèle Margain\, généalogiste\, écrivaine\, passionnée des terroirs et de ceux qui y vivent. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 1\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17/
+DESCRIPTION:Conférence présentée par Michèle Margain\, généalogiste\, écrivaine\, passionnée des terroirs et de ceux qui y vivent.\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17/
 END:VEVENT
