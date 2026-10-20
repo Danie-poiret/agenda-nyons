@@ -1,0 +1,52 @@
+{
+  "mode": "pilot_only",
+  "reviews": {
+    "https://agenda.vivreanyons.fr/evenements/cinema-fausse-note-2026-10-14/": {
+      "film_title": "Fausse Note",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "verified_on": "2026-10-20",
+      "strengths": "Plusieurs spectateurs saluent le duo Kad Merad–Benoît Poelvoorde et la tension de leur confrontation, qui les tient en haleine.",
+      "reservations": "D’autres restent à distance : le démarrage leur paraît étiré et certains ressorts de l’intrigue peu crédibles ou prévisibles. Un face-à-face qui peut captiver, mais dont le rythme et les effets dramatiques ne convainquent pas tout le monde.",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000030290/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Domvill",
+          "published_on": "2026-10-09",
+          "observation": "Apprécie les interprètes, les décors et la mise en scène de la confrontation."
+        },
+        {
+          "author": "circusstar",
+          "published_on": "2026-10-08",
+          "observation": "Apprécie les acteurs et la tension ressentie."
+        },
+        {
+          "author": "miouze",
+          "published_on": "2026-10-12",
+          "observation": "Trouve le début trop long et le personnage agaçant."
+        },
+        {
+          "author": "Bart Sampson",
+          "published_on": "2026-10-07",
+          "observation": "Apprécie la photographie et la direction des acteurs, réserve sur la vraisemblance."
+        },
+        {
+          "author": "Philippe S.",
+          "published_on": "2026-10-07",
+          "observation": "Ressent de l’émotion malgré certains enchaînements attendus."
+        },
+        {
+          "author": "Jean-FC.",
+          "published_on": "2026-10-01",
+          "observation": "N’apprécie ni le jeu ni le scénario et exprime de l’ennui."
+        }
+      ]
+    }
+  }
+}
+

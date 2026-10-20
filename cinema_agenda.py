@@ -4,6 +4,7 @@ from datetime import date,datetime,timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from site_footer import add_footer
+from cinema_reviews import render_spectator_reviews
 
 ROOT=Path(__file__).resolve().parent
 SITE='https://agenda.vivreanyons.fr/'
@@ -75,7 +76,7 @@ def render_film(e,config,today=None):
     if f.get('age'):body+='<p><strong>'+esc(f['age'])+'</strong></p>'
     if f.get('duration'):body+='<p>Durée annoncée : '+esc(f['duration'])+'.</p>'
     if f.get('duration_note'):body+='<p class="note">'+esc(f['duration_note'])+'</p>'
-    body+='</section><section class="section"><h2>Horaires de '+esc(f['title'])+' à Nyons</h2><div class="table-wrap"><table><caption>Les séances du programme — dates distinctes, selon le film</caption><thead><tr><th scope="col">Date</th><th scope="col">Heure</th><th scope="col">Version / animation</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="note">Les séances passées au fil du programme restent datées dans ce tableau. Pour réserver, choisis une séance à venir.</p></section><section class="section"><h2>Tarifs et réservation</h2><p>'+esc(price)+'</p>'
+    body+='</section>'+render_spectator_reviews(e)+'<section class="section"><h2>Horaires de '+esc(f['title'])+' à Nyons</h2><div class="table-wrap"><table><caption>Les séances du programme — dates distinctes, selon le film</caption><thead><tr><th scope="col">Date</th><th scope="col">Heure</th><th scope="col">Version / animation</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="note">Les séances passées au fil du programme restent datées dans ce tableau. Pour réserver, choisis une séance à venir.</p></section><section class="section"><h2>Tarifs et réservation</h2><p>'+esc(price)+'</p>'
     if f.get('special_note'):body+='<p>'+esc(f['special_note'])+'</p>'
     body+='<p><a href="https://www.cinema-arlequin.fr/" target="_blank" rel="noopener">Voir les séances et la billetterie du cinéma</a> · <a href="tel:+33475260141">04 75 26 01 41</a></p></section></div></div><section class="section"><h2>Adresse du cinéma L’Arlequin</h2><p>28 place de la Libération, 26110 Nyons. Avant de venir, regarde <a href="https://www.vivreanyons.fr/infos-pratiques-nyons/ou-se-garer-a-Nyons/">où laisser la voiture près du centre</a>. Tu peux aussi choisir <a href="https://www.vivreanyons.fr/restaurants-de-nyons/">une table pour dîner</a> ou faire un tour dans <a href="https://www.vivreanyons.fr/que-faire-nyons/Vieilles-ruelles-de-Nyons/">les petites rues du vieux Nyons</a>.</p><div class="actions"><a class="action" href="evenement.ics" download>📅 Ajouter les séances à mon calendrier</a><a class="action" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cinema+Arlequin%2C+28+place+de+la+Liberation%2C+26110+Nyons" target="_blank" rel="noopener">🗺️ Voir l’itinéraire</a></div></section><section class="section"><h2>Questions / réponses</h2>'+''.join('<div class="qa"><h3>'+esc(q)+'</h3><p>'+esc(a)+'</p></div>' for q,a in qa)+'</section><p class="source">Programme officiel et documents du cinéma : <a href="https://www.cinema-arlequin.fr/" target="_blank" rel="noopener">cinéma L’Arlequin</a>. <a href="'+esc(config['source_pdf'],quote=True)+'" target="_blank" rel="noopener">Programme officiel en PDF</a> · <a href="https://www.vivreanyons.fr/infos-pratiques-nyons/cinema-nyons/">Le guide complet du cinéma de Nyons</a>. Programme vérifié le '+esc(fmt(config['verified_on']))+'.</p>'
     return shell(title,description,e['page_url'],body,{'@context':'https://schema.org','@graph':schemas},f['poster'])
@@ -119,3 +120,4 @@ def generate_cinema_pages(today=None,film_titles=None):
         if 'href="/cinema/">🎬 Films' not in source:source=source.replace('<a class="btn" href="/semaines/">','<a class="btn" href="/cinema/">🎬 Films et séances de cinéma</a>\n      <a class="btn" href="/semaines/">',1)
         home.write_text(source,encoding='utf-8')
     return events
+
