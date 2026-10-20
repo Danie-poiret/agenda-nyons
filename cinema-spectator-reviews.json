@@ -1,13 +1,34 @@
 {
-  "mode": "pilot_only",
+  "mode": "verified_from_2026_10_20",
   "reviews": {
-    "https://agenda.vivreanyons.fr/evenements/cinema-fausse-note-2026-10-14/": {
+    "allocine:1000030290": {
       "film_title": "Fausse Note",
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR58BXK/WQETFCQF.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
       "verified_on": "2026-10-20",
-      "strengths": "Plusieurs spectateurs saluent le duo Kad Merad–Benoît Poelvoorde et la tension de leur confrontation, qui les tient en haleine.",
-      "reservations": "D’autres restent à distance : le démarrage leur paraît étiré et certains ressorts de l’intrigue peu crédibles ou prévisibles. Un face-à-face qui peut captiver, mais dont le rythme et les effets dramatiques ne convainquent pas tout le monde.",
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs saluent le duo Kad Merad–Benoît Poelvoorde et la tension de leur confrontation, qui les tient en haleine.",
+          "evidence": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "D’autres restent à distance : le démarrage leur paraît étiré et certains ressorts de l’intrigue peu crédibles ou prévisibles. Un face-à-face qui peut captiver, mais dont le rythme et les effets dramatiques ne convainquent pas tout le monde.",
+          "evidence": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
       "sources": [
         {
           "label": "Avis spectateurs sur AlloCiné",
@@ -18,32 +39,193 @@
         {
           "author": "Domvill",
           "published_on": "2026-10-09",
-          "observation": "Apprécie les interprètes, les décors et la mise en scène de la confrontation."
+          "observation": "Apprécie les interprètes, les décors et la mise en scène de la confrontation.",
+          "source": 0
         },
         {
           "author": "circusstar",
           "published_on": "2026-10-08",
-          "observation": "Apprécie les acteurs et la tension ressentie."
+          "observation": "Apprécie les acteurs et la tension ressentie.",
+          "source": 0
         },
         {
           "author": "miouze",
           "published_on": "2026-10-12",
-          "observation": "Trouve le début trop long et le personnage agaçant."
+          "observation": "Trouve le début trop long et le personnage agaçant.",
+          "source": 0
         },
         {
           "author": "Bart Sampson",
           "published_on": "2026-10-07",
-          "observation": "Apprécie la photographie et la direction des acteurs, réserve sur la vraisemblance."
+          "observation": "Apprécie la photographie et la direction des acteurs, réserve sur la vraisemblance.",
+          "source": 0
         },
         {
           "author": "Philippe S.",
           "published_on": "2026-10-07",
-          "observation": "Ressent de l’émotion malgré certains enchaînements attendus."
+          "observation": "Ressent de l’émotion malgré certains enchaînements attendus.",
+          "source": 0
         },
         {
           "author": "Jean-FC.",
           "published_on": "2026-10-01",
-          "observation": "N’apprécie ni le jeu ni le scénario et exprime de l’ennui."
+          "observation": "N’apprécie ni le jeu ni le scénario et exprime de l’ennui.",
+          "source": 0
+        }
+      ]
+    },
+    "allocine:55774": {
+      "film_title": "Cars",
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRDJAVW/XBETV05C.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20",
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Dans les avis consultés, l’animation détaillée, les paysages de la Route 66 et les voitures pleines de caractère reviennent parmi les plaisirs du film.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs apprécient aussi l’humour et la place donnée à l’amitié : un univers automobile auquel ils s’attachent, même adultes.",
+          "evidence": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "L’enthousiasme n’est pas unanime : certains trouvent l’histoire moins marquante que d’autres Pixar, et un avis regrette un manque d’action.",
+          "evidence": [
+            4,
+            5
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-55774/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Un visiteur",
+          "published_on": "2012-01-21",
+          "observation": "Apprécie les décors et les valeurs du récit.",
+          "source": 0
+        },
+        {
+          "author": "Stephenballade",
+          "published_on": "2015-12-11",
+          "observation": "Apprécie les personnages expressifs, l’animation, les paysages et le plaisir du film à l’âge adulte.",
+          "source": 0
+        },
+        {
+          "author": "fandecaoch",
+          "published_on": "2014-07-22",
+          "observation": "Apprécie l’humour, l’amitié, les personnages et la réalisation visuelle.",
+          "source": 0
+        },
+        {
+          "author": "Kurosawa",
+          "published_on": "2016-03-07",
+          "observation": "Retient la solidarité, l’humour et l’attachement aux habitants de Radiator Springs.",
+          "source": 0
+        },
+        {
+          "author": "GyzmoCA",
+          "published_on": "2022-06-18",
+          "observation": "Apprécie le divertissement mais juge l’histoire moins riche que d’autres films Pixar.",
+          "source": 0
+        },
+        {
+          "author": "Un visiteur",
+          "published_on": "2014-01-05",
+          "observation": "Exprime de l’ennui et regrette un manque d’action.",
+          "source": 0
+        }
+      ]
+    },
+    "allocine:252533": {
+      "film_title": "Mary et la fleur de la sorcière",
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRXUHWD/Z5K9Z1QF.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20",
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs avis apprécient les décors colorés et l’animation, qui donnent à cette aventure son attrait visuel et son atmosphère magique.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le récit partage davantage : certains se laissent porter par une héroïne attachante, tandis que d’autres trouvent l’intrigue trop simple et les personnages secondaires peu développés.",
+          "evidence": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "La parenté avec les films du studio Ghibli est perçue comme un charme par certains, mais elle laisse à d’autres une impression de déjà-vu.",
+          "evidence": [
+            1,
+            2,
+            4
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-252533/critiques/spectateurs/recentes/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Kouto",
+          "published_on": "2025-09-16",
+          "observation": "Apprécie l’animation et l’héroïne, mais juge le récit trop simple et les personnages secondaires peu consistants.",
+          "source": 0
+        },
+        {
+          "author": "DO 61",
+          "published_on": "2025-02-06",
+          "observation": "Apprécie la richesse visuelle, la magie et Mary malgré un scénario classique ; rapproche le film de Ghibli.",
+          "source": 0
+        },
+        {
+          "author": "Perrine Gonella",
+          "published_on": "2024-05-25",
+          "observation": "Apprécie la beauté du monde magique et sa parenté avec Miyazaki.",
+          "source": 0
+        },
+        {
+          "author": "Ben",
+          "published_on": "2024-07-16",
+          "observation": "Trouve Mary attachante mais l’histoire prévisible et les autres personnages insuffisamment développés.",
+          "source": 0
+        },
+        {
+          "author": "Shawn777",
+          "published_on": "2021-12-21",
+          "observation": "Trouve l’aventure sympathique mais trop tributaire du modèle Ghibli et peu originale.",
+          "source": 0
         }
       ]
     }
