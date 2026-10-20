@@ -59,11 +59,18 @@ def render_spectator_reviews(event, today=None):
         for item in evidence:
             if not item["author"].strip() or not item["observation"].strip():
                 return ""
-            if date.fromisoformat(item["published_on"]) > checked:
+            # Preserve unknown publication dates: a dated consultation/citation
+            # is evidence provenance, not an invented publication date.
+            evidence_date = item.get("published_on") or item.get("recorded_in_source_on")
+            if date.fromisoformat(evidence_date) > checked:
                 return ""
             if type(item["source"]) is not int or not 0 <= item["source"] < len(sources):
                 return ""
-        if not {"liked", "divides"}.issubset({p["kind"] for p in points}):
+        kinds = {p["kind"] for p in points}
+        if not kinds <= {"liked", "divides", "context"} or "liked" not in kinds:
+            return ""
+        # Never require an invented negative when the verified sample is positive.
+        if not kinds.intersection({"divides", "context"}) and review.get("reception_scope") != "positive_sample_only":
             return ""
         for point in points:
             if not point["text"].strip() or not point["evidence"]:
@@ -80,4 +87,3 @@ def render_spectator_reviews(event, today=None):
             + ''.join('<p>' + esc(p["text"]) + '</p>' for p in points)
             + '<p class="source">Synthèse des avis consultés le ' + checked.strftime("%d/%m/%Y")
             + ' · ' + links + '</p></section>')
-

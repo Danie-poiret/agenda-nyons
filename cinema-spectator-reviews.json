@@ -228,7 +228,1388 @@
           "source": 0
         }
       ]
+    },
+    "allocine:1000023992": {
+      "film_title": "Ni vue, ni connue",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000023992/critiques/spectateurs/recentes/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les avis consultés apprécient notamment Isabelle Huppert et le jeu d’autodérision des actrices. La découverte des coulisses du cinéma et du quotidien des figurants amuse plusieurs spectateurs.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le récit convainc moins unanimement : des spectateurs le trouvent prévisible, répétitif ou trop étiré, malgré le plaisir de retrouver cette distribution.",
+          "evidence": [
+            1,
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Francois Rerole",
+          "published_on": "2026-10-19",
+          "observation": "Salue Isabelle Huppert et son duo avec Sandrine Kiberlain.",
+          "source": 0
+        },
+        {
+          "author": "coraly",
+          "published_on": "2026-10-18",
+          "observation": "Apprécie la satire du milieu du cinéma, mais trouve l’histoire prévisible et un peu vaine.",
+          "source": 0
+        },
+        {
+          "author": "tupper",
+          "published_on": "2026-10-19",
+          "observation": "Salue le casting et l’autodérision ; regrette longueurs, répétitions et manque de rythme.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRHPAV1/5BWRJKO4.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:321790": {
+      "film_title": "Le Corset",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-321790/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "La douceur des dessins à l’aquarelle et la sensibilité du parcours de Christophe touchent plusieurs spectateurs. Les liens familiaux et la musique font aussi partie des éléments appréciés.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un avis invite toutefois à patienter avant que le récit prenne son élan. D’autres soulignent une histoire parfois dure ou pesante, derrière la délicatesse de l’animation.",
+          "evidence": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "brunocinoche",
+          "published_on": "2026-10-16",
+          "observation": "Apprécie l’aquarelle et la délicatesse du récit, drôle et émouvant.",
+          "source": 0
+        },
+        {
+          "author": "islander29",
+          "published_on": "2026-10-16",
+          "observation": "Apprécie dessin et musique, mais juge la première moitié lente et le propos exigeant.",
+          "source": 0
+        },
+        {
+          "author": "Domvill",
+          "published_on": "2026-09-16",
+          "observation": "Apprécie musique et personnages attachants dans une narration dure et pessimiste.",
+          "source": 0
+        },
+        {
+          "author": "Ameline Grout",
+          "published_on": "2026-09-08",
+          "observation": "Salue la mise en scène tout en signalant certaines lourdeurs.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRQ0FYB/OEPPY7U1.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:285141": {
+      "film_title": "L’Espèce explosive",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-285141/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "L’humour noir, les personnages décalés et l’énergie des comédiens séduisent plusieurs spectateurs. Certains apprécient particulièrement l’étrangeté de ce polar rural.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Cette liberté de ton divise : le scénario paraît confus à certains, et le jeu appuyé ou les écarts du récit empêchent d’autres d’entrer pleinement dans le film.",
+          "evidence": [
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "traversay1",
+          "published_on": "2026-10-08",
+          "observation": "Salue humour noir, interprètes et écarts surréalistes, tout en trouvant le film inégal.",
+          "source": 0
+        },
+        {
+          "author": "Pierre Kuzor",
+          "published_on": "2026-10-09",
+          "observation": "Apprécie originalité, dialogues cocasses et casting.",
+          "source": 0
+        },
+        {
+          "author": "Pierre E",
+          "published_on": "2026-10-10",
+          "observation": "Déçu par un récit qui se disperse et un jeu trop forcé.",
+          "source": 0
+        },
+        {
+          "author": "islander29",
+          "published_on": "2026-10-08",
+          "observation": "Trouve le scénario compliqué mais apprécie rythme, réalisation et acteurs.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRFIS1K/M7XFZCQF.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:299748": {
+      "film_title": "Ton animal maternel",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-299748/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "La présence des deux sœurs et l’interprétation retiennent l’attention de certains spectateurs. Un avis apprécie aussi l’ambiguïté d’une mise en scène qui laisse vivre les contradictions familiales.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le rythme et la construction du récit suscitent davantage de réserves : plusieurs retours évoquent des répétitions, de la confusion ou une impression d’ennui.",
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Coric Bernard",
+          "published_on": "2026-10-10",
+          "observation": "Apprécie le scénario et l’interprétation des deux sœurs, mais ressent un pessimisme marqué.",
+          "source": 0
+        },
+        {
+          "author": "Direct-actu.fr",
+          "published_on": "2026-10-04",
+          "observation": "Retient l’ambiguïté entre raison et irréel et l’espace laissé aux contradictions des personnages.",
+          "source": 0
+        },
+        {
+          "author": "velocio",
+          "published_on": "2026-10-02",
+          "observation": "Déçu par la longueur, les répétitions et l’ennui.",
+          "source": 0
+        },
+        {
+          "author": "Shawn777",
+          "published_on": "2026-05-16",
+          "observation": "Trouve la narration brouillonne et le rythme trop lent.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR17HKL/MOT3FDZP.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:326160": {
+      "film_title": "Les Misérables",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-326160/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs saluent Vincent Lindon, Tahar Rahim et l’ampleur de la reconstitution. Certains trouvent cette adaptation fluide et prenante malgré ses trois heures.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "D’autres restent moins emportés : ils regrettent des personnages secondaires trop peu développés, un manque d’élan ou une émotion qui se perd au fil de la fresque.",
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "bsalvert",
+          "published_on": "2026-10-14",
+          "observation": "Apprécie une adaptation épique et fluide portée par le casting.",
+          "source": 0
+        },
+        {
+          "author": "remyll",
+          "published_on": "2026-10-13",
+          "observation": "Salue les interprètes principaux, les décors et la musique ; trouve le reste de la distribution plus inégal.",
+          "source": 0
+        },
+        {
+          "author": "Cinévore24",
+          "published_on": "2026-10-15",
+          "observation": "Regrette durée, manque de souffle et émotion peu incarnée.",
+          "source": 0
+        },
+        {
+          "author": "joelle g",
+          "published_on": "2026-10-15",
+          "observation": "Apprécie l’histoire mais trouve les rôles secondaires trop lisses et l’ensemble peu épique.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:minotaure-spectateurs-2026": {
+      "film_title": "Minotaure",
+      "sources": [
+        {
+          "label": "Retours de spectateurs cités par AlloCiné",
+          "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227404.html"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Dans les retours de spectateurs cités par AlloCiné, la précision de la mise en scène et l’atmosphère inquiétante frappent particulièrement. Certains apprécient ce regard sans complaisance sur les rapports de pouvoir.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "La même rigueur tient d’autres spectateurs à distance : ils trouvent les personnages figés et le rythme trop contemplatif, au point de peiner à ressentir de l’émotion.",
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Moca",
+          "recorded_in_source_on": "2026-10-16",
+          "observation": "Salue la maîtrise de la mise en scène.",
+          "source": 0
+        },
+        {
+          "author": "Isabelle P.",
+          "recorded_in_source_on": "2026-10-16",
+          "observation": "Apprécie les plans et l’atmosphère glaçante autour du pouvoir et de l’argent.",
+          "source": 0
+        },
+        {
+          "author": "Hugo C.",
+          "recorded_in_source_on": "2026-10-16",
+          "observation": "Trouve la mise en scène trop froide et les acteurs figés.",
+          "source": 0
+        },
+        {
+          "author": "Diego J",
+          "recorded_in_source_on": "2026-10-16",
+          "observation": "Regrette un rythme traînant et dit s’être ennuyé.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRX6EJK/E5JYYJ48.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:1000047512": {
+      "film_title": "Petite Casbah",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000047512/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs apprécient cette aventure racontée à hauteur d’enfant, ainsi que ses couleurs et sa musique. Ils y voient aussi une occasion de parler de cette période de l’histoire en famille.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un avis plus réservé trouve que la vie d’Alger reste trop en arrière-plan et que l’aventure manque parfois de tension, malgré la qualité de sa documentation.",
+          "evidence": [
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Marie M.",
+          "published_on": "2026-10-13",
+          "observation": "Salue la justesse du sujet et l’ouverture au dialogue en famille.",
+          "source": 0
+        },
+        {
+          "author": "Lilibrbt",
+          "published_on": "2026-10-13",
+          "observation": "Apprécie animation, musique, rythme et approche historique accessible aux enfants.",
+          "source": 0
+        },
+        {
+          "author": "Cinememories",
+          "published_on": "2026-10-08",
+          "observation": "Apprécie le jeu de piste documenté mais regrette le quotidien d’Alger trop peu développé et le manque de tension.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRGIW1R/HGK20T99.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:1000015739": {
+      "film_title": "Verity",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000015739/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Certains spectateurs apprécient un thriller à l’ancienne, avec une tension de huis clos et des interprètes qui entretiennent le doute. Anne Hathaway et Dakota Johnson sont notamment citées parmi ses atouts.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Les rebondissements divisent nettement : efficaces pour les uns, ils paraissent trop improbables ou convenus aux autres. Plusieurs réserves portent aussi sur un film jugé trop sage.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Kat's eyes",
+          "published_on": "2026-09-30",
+          "observation": "Apprécie tension, huis clos et actrices, malgré une formule peu nouvelle.",
+          "source": 0
+        },
+        {
+          "author": "Cool_92",
+          "published_on": "2026-10-12",
+          "observation": "Apprécie les acteurs mais trouve les rebondissements improbables et le film peu sulfureux.",
+          "source": 0
+        },
+        {
+          "author": "selenie",
+          "published_on": "2026-10-02",
+          "observation": "Regrette les clichés, le manque de crédibilité et un thriller trop sage.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR3OZ6O/RHUN4REB.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:108780576": {
+      "film_title": "Karma",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/karma/108780576"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Certains avis apprécient l’atmosphère pesante et une intrigue qui prend le temps de s’installer. Marion Cotillard et Denis Ménochet sont aussi cités comme des points forts.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Les réserves portent sur une narration parfois lourde, des surprises insuffisantes et une conclusion qui s’étire. Cette lente montée en tension ne fonctionne donc pas pour tous.",
+          "evidence": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "GyzmoCA",
+          "published_on": "2026-09-11",
+          "observation": "Apprécie une intrigue patiemment construite.",
+          "source": 0
+        },
+        {
+          "author": "cadreum",
+          "published_on": "2026-05-17",
+          "observation": "Retient l’atmosphère, mais signale des déséquilibres et une conclusion trop longue.",
+          "source": 0
+        },
+        {
+          "author": "CineShow27",
+          "published_on": "2026-09-11",
+          "observation": "Salue les comédiens, surtout Denis Ménochet, mais regrette lourdeur et manque de surprises.",
+          "source": 0
+        },
+        {
+          "author": "Lpreux",
+          "published_on": "2026-09-11",
+          "observation": "Salue Cotillard et Ménochet malgré une histoire jugée lourde et dispersée.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR6QVJU/EKMGQLKO.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:11091": {
+      "film_title": "Scream",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-11091/critiques/spectateurs/recentes/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs apprécient le mélange de suspense, d’humour noir et de clins d’œil aux films d’horreur. Le jeu avec les codes du genre reste pour eux un grand plaisir de cette version de Wes Craven.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Ce mélange plaît moins à ceux qui attendent une peur plus sérieuse : certains trouvent le ton trop parodique, ou les personnages moins développés que la mécanique du suspense.",
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "GéDéon",
+          "published_on": "2026-10-04",
+          "observation": "Apprécie le mélange d’humour et de frayeur et la satire des codes.",
+          "source": 0
+        },
+        {
+          "author": "Angelo.lec",
+          "published_on": "2026-08-08",
+          "observation": "Salue tension, humour noir et jeu avec les clichés du genre.",
+          "source": 0
+        },
+        {
+          "author": "ProjecteurTemporel",
+          "published_on": "2026-07-06",
+          "observation": "Apprécie l’inventivité du suspense mais trouve les personnages moins développés.",
+          "source": 0
+        },
+        {
+          "author": "Mohammed Beji",
+          "published_on": "2026-07-30",
+          "observation": "Trouve le ton trop parodique et le tueur trop comique.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRDMFG5/HHMWAVPI.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:12704": {
+      "film_title": "Suspiria",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-12704/critiques/spectateurs/recentes/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les couleurs, les cadrages et la musique oppressante séduisent plusieurs spectateurs de la version de Dario Argento. L’expérience visuelle et sonore compte beaucoup dans leur attachement au film.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Cette place donnée au style partage : d’autres trouvent la musique agressive et regrettent une histoire ou des personnages trop peu développés pour maintenir leur intérêt.",
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "M C",
+          "published_on": "2026-07-12",
+          "observation": "Apprécie les cadrages et la musique terrifiante.",
+          "source": 0
+        },
+        {
+          "author": "Guillaume.G",
+          "published_on": "2026-03-20",
+          "observation": "Salue la réalisation de Dario Argento.",
+          "source": 0
+        },
+        {
+          "author": "Starwealther",
+          "published_on": "2026-05-25",
+          "observation": "Trouve musique et couleurs agressives, rythme lent et personnages fades.",
+          "source": 0
+        },
+        {
+          "author": "Spider cineman",
+          "published_on": "2025-08-21",
+          "observation": "Regrette la faiblesse du scénario et des personnages malgré le statut de référence.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRFHXYB/SLWPONIA.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:1000042927": {
+      "film_title": "Les Éléphants dans la brume",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000042927/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs sont sensibles à la photographie, à l’interprétation et à la dignité donnée aux personnages. Le mélange de chronique sociale et de thriller est aussi apprécié pour son originalité.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "L’entrée dans cet univers demande davantage d’effort à certains : ils évoquent une première partie difficile d’accès ou un rythme trop lent, malgré leur intérêt pour le sujet.",
+          "evidence": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "traversay1",
+          "published_on": "2026-09-25",
+          "observation": "Salue photographie, interprétation et diversité des tonalités.",
+          "source": 0
+        },
+        {
+          "author": "Ufuk K",
+          "published_on": "2026-10-05",
+          "observation": "Apprécie le récit et les interprètes.",
+          "source": 0
+        },
+        {
+          "author": "Fenêtre sur salle",
+          "published_on": "2026-10-05",
+          "observation": "Salue originalité et personnage principal mais trouve la première partie moins accessible.",
+          "source": 0
+        },
+        {
+          "author": "amour13",
+          "published_on": "2026-09-29",
+          "observation": "Trouve le sujet intéressant mais la forme endormante.",
+          "source": 0
+        },
+        {
+          "author": "Damien DURAN",
+          "published_on": "2026-09-27",
+          "observation": "Apprécie la photographie mais peine à comprendre le contexte de la communauté.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRC0095/2QNRG999.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:1000039457": {
+      "film_title": "Le Jour de son retour",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000039457/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les deux avis consultés apprécient l’épure du film et le naturel des échanges. L’un est particulièrement touché par la fragilité de l’actrice et par l’atmosphère apaisée des conversations.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un retour plus mesuré souligne aussi la place de la répétition et d’une action très réduite : selon les goûts, cette simplicité peut nourrir la fascination ou laisser place à l’ennui.",
+          "evidence": [
+            0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "traversay1",
+          "published_on": "2026-07-16",
+          "observation": "Salue le noir et blanc et l’épure ; souligne les répétitions et le risque d’ennui selon les goûts.",
+          "source": 0
+        },
+        {
+          "author": "gimliamideselfes",
+          "published_on": "2026-08-09",
+          "observation": "Apprécie le naturel des échanges, la fragilité du personnage et l’effet apaisant du film.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRKFQ2W/KSM4J999.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:132028649": {
+      "film_title": "Quelques mots d’amour",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/quelques_mots_d_amour/132028649"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Certains avis retiennent la tendresse et l’humour de cette chronique familiale. Les interprètes, adultes comme enfants, comptent parmi les plaisirs signalés dans les retours consultés.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un avis plus mesuré regrette une mise en scène trop peu audacieuse, un sujet qui s’étire et une mère dont la vie reste insuffisamment explorée.",
+          "evidence": [
+            0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Cinephile-doux",
+          "published_on": "2026-05-24",
+          "observation": "Apprécie tendresse, fantaisie, humour et interprètes ; regrette la mise en scène peu audacieuse et un sujet étiré.",
+          "source": 0
+        },
+        {
+          "author": "HAL1",
+          "published_on": "2026-09-14",
+          "observation": "Salue un casting réjouissant.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR8376B/K19YI0DV.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:133861412": {
+      "film_title": "Wicker",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/wicker/133861412"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les deux retours consultés apprécient un conte à la fois drôle et mordant sur la place des femmes dans le couple. L’un salue aussi le jeu d’Olivia Colman et d’Alexander Skarsgård.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Ce même avis signale toutefois un rythme irrégulier, avec des passages moins entraînants. L’échantillon consulté reste limité à ces deux retours.",
+          "evidence": [
+            0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Shawn777",
+          "published_on": "2026-10-06",
+          "observation": "Apprécie humour, tendresse, comédiens et regard acerbe sur les rapports humains, malgré un rythme irrégulier.",
+          "source": 0
+        },
+        {
+          "author": "CineVerse",
+          "published_on": "2026-10-04",
+          "observation": "Apprécie le conte et sa réflexion sur la place et le désir des femmes dans le couple.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRADN87/3J013RSL.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:136197035": {
+      "film_title": "La Gradiva",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/la_gradiva/136197035"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "La présence des jeunes comédiens, le naturel des dialogues et la beauté des images sont appréciés dans les avis consultés. Certains y trouvent un portrait sensible de l’adolescence.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un avis plus réservé trouve que ces instants justes ne composent pas un récit assez cohérent. La liberté de construction du film peut donc aussi laisser une impression de dispersion.",
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "lefouducinema",
+          "published_on": "2026-08-06",
+          "observation": "Salue composition, couleurs, dialogues et portrait d’une génération.",
+          "source": 0
+        },
+        {
+          "author": "Marlon_B",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie jeunes comédiens et dialogues naturels, mais juge le récit dispersé et insuffisamment construit.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR324CZ/6FLQRW6X.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:79793144": {
+      "film_title": "Le Mystère Lucy Lost",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/le_mystere_lucy_lost/79793144/critiques"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un spectateur ayant découvert le film à Annecy en fait une très belle surprise et recommande vivement cette aventure autour de la reconstruction de Lucy.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un autre retour est plus mitigé : il s’interroge sur certains choix d’animation et sur le dessin des personnages. Les premiers avis consultés n’ont donc pas tous le même enthousiasme.",
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Darevenin",
+          "published_on": "2026-06-27",
+          "observation": "Décrit une excellente surprise à Annecy, recommande fortement le film et évoque la reconstruction de Lucy.",
+          "source": 0
+        },
+        {
+          "author": "yoboujon",
+          "published_on": "2026-08-06",
+          "observation": "Réserves sur certains passages animés et le dessin des personnages.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRLPWEP/IVTL8N5C.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:239804": {
+      "film_title": "Kalo Pothi, un village au Népal",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=239804.html"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les deux avis consultés sont favorables : ils apprécient les enfants attachants et l’impression d’entrer dans la vie d’un village népalais.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "liked",
+          "text": "L’un souligne surtout les paysages et les rebondissements ; l’autre retient l’émotion et la découverte de cette vie montagnarde. Ces deux témoignages donnent un aperçu limité de la réception du film.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Quiouchon",
+          "published_on": "2016-01-06",
+          "observation": "Salue les personnages attachants, les rebondissements et les paysages.",
+          "source": 0
+        },
+        {
+          "author": "Un visiteur",
+          "published_on": "2016-01-06",
+          "observation": "Se dit touché par les enfants et la découverte de la vie montagnarde népalaise.",
+          "source": 0
+        }
+      ],
+      "reception_scope": "positive_sample_only",
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRAPTCL/HCN88FH2.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:107442143": {
+      "film_title": "Moulin",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/moulin/107442143"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Des spectateurs retiennent la force d’un film sombre et tendu, ainsi que la qualité des interprètes. Certains apprécient un portrait qui cherche l’homme derrière la figure historique.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Les retours soulignent aussi une expérience très éprouvante, dominée par la brutalité et l’oppression. Cette intensité fait partie des éléments à prendre en compte pour choisir sa séance.",
+          "evidence": [
+            1,
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Cinememories",
+          "published_on": "2026-05-25",
+          "observation": "Retient un portrait sombre et puissant, centré sur la résistance intérieure de Jean Moulin.",
+          "source": 0
+        },
+        {
+          "author": "Shambara 1970",
+          "published_on": "2026-09-26",
+          "observation": "Salue les acteurs mais décrit un film éprouvant à tous les niveaux.",
+          "source": 0
+        },
+        {
+          "author": "Little John",
+          "published_on": "2026-05-17",
+          "observation": "Décrit un long passage brutal et oppressant.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRLXIDH/YUNFORSL.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "allocine:1000048319": {
+      "film_title": "Fini de rire !",
+      "sources": [
+        {
+          "label": "Avis spectateurs sur AlloCiné",
+          "url": "https://www.allocine.fr/film/fichefilm-1000048319/critiques/spectateurs/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les quelques avis consultés sont favorables et retiennent un documentaire instructif. L’un apprécie particulièrement le caractère documenté du propos.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "liked",
+          "text": "Un autre spectateur est surtout sensible aux questions de liberté d’expression et aux pressions sur l’humour politique. Ces retours expriment un intérêt citoyen autant que cinématographique.",
+          "evidence": [
+            0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Jipéhel",
+          "published_on": "2026-10-09",
+          "observation": "Apprécie le documentaire pour les enjeux de censure et de liberté d’expression.",
+          "source": 0
+        },
+        {
+          "author": "Noleon Kaeland",
+          "published_on": "2026-09-30",
+          "observation": "Juge le film sourcé et important.",
+          "source": 0
+        },
+        {
+          "author": "Herve1501",
+          "published_on": "2026-10-11",
+          "observation": "Trouve le film instructif.",
+          "source": 0
+        }
+      ],
+      "reception_scope": "positive_sample_only",
+      "identity_note": "Affiche de la fiche publique vérifiée visuellement : sous-titre L’humour politique au garde-à-vous ?, film de 2026, écarté du documentaire homonyme de 2013.",
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRU22DQ/AJ5QEMMM.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "letterboxd:primetime-2026": {
+      "film_title": "Primetime",
+      "sources": [
+        {
+          "label": "Avis sur Letterboxd",
+          "url": "https://letterboxd.com/film/primetime-2026/"
+        },
+        {
+          "label": "Retour d’Oscar Guy Here",
+          "url": "https://oscarguyhere.com/reviews"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs retours saluent Robert Pattinson et la force du style visuel. Les images très travaillées et les autres interprètes contribuent aussi au plaisir de certains spectateurs.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un avis plus nuancé apprécie la réalisation mais trouve le ton dispersé et la construction décousue. Il s’interroge aussi sur un spectacle qui risque de reproduire ce qu’il critique.",
+          "evidence": [
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "James (Schaffrillas)",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Salue le style visuel et les performances de Pattinson, Gisondo et Wever.",
+          "source": 0
+        },
+        {
+          "author": "George Carmi",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie l’évolution des couleurs, du grain et de la mise au point.",
+          "source": 0
+        },
+        {
+          "author": "Oscar Guy Here",
+          "published_on": "2026-10-02",
+          "observation": "Apprécie style visuel, musique et acteurs, mais trouve le ton dispersé et le propos parfois peu ciblé.",
+          "source": 1
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRQQ7LJ/X3GES7N5.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "letterboxd:shaun-the-sheep-the-beast-of-mossy-bottom": {
+      "film_title": "Shaun le Mouton : La Bêêête d’Halloween",
+      "sources": [
+        {
+          "label": "Avis de spectateurs sur Letterboxd",
+          "url": "https://letterboxd.com/film/shaun-the-sheep-the-beast-of-mossy-bottom/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Des retours consultés apprécient l’animation artisanale, les gags visuels et l’ambiance d’Halloween. Certains y trouvent un divertissement familial plein de fantaisie.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un avis est plus réservé sur la musique, jugée moins inspirée, tout en appréciant une aventure courte et amusante.",
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Hailli",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Encourage ce divertissement artisanal et l’animation en volume.",
+          "source": 0
+        },
+        {
+          "author": "Adam Forrest",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie gags visuels, Halloween et animation ; regrette une musique peu inspirée.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FR3CQ6X/1AKHDUG6.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "letterboxd:tin-castle": {
+      "film_title": "Irish Travellers",
+      "sources": [
+        {
+          "label": "Avis de spectateurs sur Letterboxd",
+          "url": "https://letterboxd.com/film/tin-castle/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Plusieurs spectateurs apprécient la lumière, la proximité avec la famille et une caméra qui semble se faire oublier. Ils retiennent une immersion sensible dans le quotidien.",
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un retour apprécie cette immersion tout en regrettant que le film ne creuse pas davantage certains aspects de cette vie familiale. La force des images ne répond donc pas à toutes les attentes.",
+          "evidence": [
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "louise:)",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie la façon de filmer, la lumière, la musique et les regards des enfants.",
+          "source": 0
+        },
+        {
+          "author": "lala_cinema",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie l’immersion et la discrétion de la caméra.",
+          "source": 0
+        },
+        {
+          "author": "emlefrmi",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie l’immersion mais souhaiterait une exploration plus poussée.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRTZJRA/0CM2DG6X.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "letterboxd:forgotten-island-2026": {
+      "film_title": "L’Île des souvenirs",
+      "sources": [
+        {
+          "label": "Avis sur Letterboxd",
+          "url": "https://letterboxd.com/film/forgotten-island-2026/"
+        },
+        {
+          "label": "Autres retours publics",
+          "url": "https://letterboxd.com/film/forgotten-island-2026/reviews/page/3/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "L’animation, les couleurs et la place de la culture philippine séduisent certains spectateurs. L’amitié au cœur du récit et les chansons font aussi partie des plaisirs cités.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "context",
+          "text": "D’autres retours insistent sur un rythme frénétique, des plans très courts et une intrigue qui enchaîne vite ses péripéties. Cette énergie constante peut compter dans le choix de la séance.",
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Lexi ❦︎ ︎ ︎",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Apprécie amitié, culture philippine, animation, chansons et humour.",
+          "source": 0
+        },
+        {
+          "author": "weflippity",
+          "published_on": "2026-10-18",
+          "observation": "Apprécie une représentation assumée de la culture philippine.",
+          "source": 1
+        },
+        {
+          "author": "James (Schaffrillas)",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Souligne la très grande vitesse des développements de l’intrigue.",
+          "source": 0
+        },
+        {
+          "author": "Jessica Wessica",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Trouve le film touchant et amusant mais frénétique, avec des plans très courts.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRXGT5X/4WB32PIA.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "audience:la-gioia-2025": {
+      "film_title": "La Tentazione",
+      "sources": [
+        {
+          "label": "Avis sur FilmTV",
+          "url": "https://www.filmtv.it/film/251971/la-gioia/recensioni/1060825/"
+        },
+        {
+          "label": "Avis du public sur MYmovies",
+          "url": "https://www.mymovies.it/film/2025/la-gioia/pubblico/"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Dans les avis italiens consultés sous le titre La Gioia, l’interprétation de Valeria Golino et de Saul Nanni retient l’attention. Un spectateur apprécie particulièrement la manière de donner corps aux contradictions des personnages.",
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Les avis sont plus partagés sur la forme : l’un salue la noirceur de cette fable, tandis qu’un autre trouve le récit parfois lourd et démonstratif.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "diomede917",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Salue Valeria Golino, Saul Nanni et la peinture sombre des personnages.",
+          "source": 0
+        },
+        {
+          "author": "eugenio",
+          "published_on": "2026-02-28",
+          "observation": "Trouve Saul Nanni convaincant, mais juge le récit parfois lourd et rhétorique.",
+          "source": 1
+        }
+      ],
+      "identity_note": "La Tentazione, Nicolangelo Gelormini, est le titre français de La Gioia (2025), avec Valeria Golino et Saul Nanni ; durée 108–109 min.",
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FROLWAS/6KNCS48Z.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
+    },
+    "senscritique:136486409": {
+      "film_title": "Où vont les âmes",
+      "sources": [
+        {
+          "label": "Avis d’internautes sur SensCritique",
+          "url": "https://www.senscritique.com/film/ou_vont_les_ames/136486409"
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un des avis consultés retient un drame intime et sensible, porté par Monia Chokri, Sara Montpetit et Julianne Côté. L’humanité du récit est au cœur de son appréciation.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Un retour plus mitigé place lui aussi l’interprétation au premier plan. Ces premiers avis montrent un intérêt pour les actrices, sans traduire le même enthousiasme pour l’ensemble du film.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Creotivemedia",
+          "recorded_in_source_on": "2026-10-20",
+          "observation": "Décrit un drame intime et sensible, touchant et profondément humain.",
+          "source": 0
+        },
+        {
+          "author": "Ju Chrn",
+          "published_on": "2026-07-13",
+          "observation": "Avis classé mitigé/négatif sur la plateforme ; salue un quatuor solide d’interprètes.",
+          "source": 0
+        }
+      ],
+      "poster": "https://images.monnaie-services.com/movie_poster/320/FRZH1JF/X6VA8RSL.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-10-20"
     }
   }
 }
-

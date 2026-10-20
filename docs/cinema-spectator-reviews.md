@@ -28,7 +28,8 @@ structurées et liens ne sont pas modifiés. Aucun DNS, redirect ou alias modifi
 
 ## Sources et vérification éditoriale
 
-Cache du pilote réutilisé ; deux consultations éditoriales ponctuelles ajoutées :
+Cache du pilote réutilisé ; consultations éditoriales ponctuelles pour 28 autres films,
+avec les sources exactes et leurs observations consignées dans le cache, notamment :
 
 - Cars (2006), AlloCiné 55774 :
   https://www.allocine.fr/film/fichefilm-55774/critiques/spectateurs/
@@ -43,9 +44,34 @@ ne représentent pas nécessairement l’ensemble des spectateurs. Aucune extrac
 de corpus, pagination, collecte récurrente ou import automatisé AlloCiné.
 
 Au 20 octobre : 37 fiches éligibles sur 55, dont 31 du nouveau programme.
-Trois fiches ont une synthèse validée (Fausse Note, Cars, Mary) ; les 34 autres
-restent sans encadré. Une absence signifie qu’aucune synthèse n’est validée dans
-notre cache, et non qu’aucun avis n’existe ailleurs.
+29 fiches ont une synthèse validée, dont 23 des 31 fiches du nouveau programme.
+Après les trois premières (Fausse Note, Cars, Mary), 26 fiches supplémentaires
+ont été vérifiées et enrichies. Les huit absences restantes ont été examinées :
+
+- Une femme aujourd’hui : pas d’ensemble suffisamment étayé de commentaires
+  attribuables de spectateurs vérifié ; les articles de presse ne le remplacent pas.
+- Gruffalo, de père en fils : la compilation précise n’a pas fourni assez d’avis
+  écrits exploitables. Les seules notes et les avis sur d’autres programmes ne suffisent pas.
+- Pilleurs de terre : une note sans commentaire et des retours promotionnels
+  anonymes ne permettent pas deux synthèses fiables.
+- Femmes des terres : présentations et avis de comité de sélection trouvés,
+  sans ensemble de commentaires de spectateurs suffisamment vérifiable.
+- Così fan tutte — Metropolitan Opera : correspondance avec la production
+  précise insuffisamment confirmée ; ne pas emprunter des avis à une autre mise en scène.
+- Le Fantôme de l’Opéra : aucun ensemble exploitable confirmé pour le film
+  d’Alexandre Castagnetti de 2026 ; ne pas confondre les adaptations homonymes.
+- Les deux projections surprises : titre du film non dévoilé.
+
+Ce constat est daté du 20 octobre 2026 et peut être réexaminé lorsqu’une source
+pertinente est disponible ; il ne prouve pas l’absence d’avis ailleurs.
+
+Le champ published_on conserve une date de publication connue. À défaut,
+recorded_in_source_on indique la date de consultation ou de citation dans la
+source, sans inventer une date de publication. Pour un petit échantillon uniquement
+positif (Kalo Pothi et Fini de rire), reception_scope=positive_sample_only autorise
+une synthèse explicitement limitée à cet échantillon sans réserve artificielle.
+Les critiques françaises ou étrangères consultées restent des avis individuels,
+sans revendication de représentativité ni d’achat de billet vérifié.
 
 ## Ajouts ultérieurs
 

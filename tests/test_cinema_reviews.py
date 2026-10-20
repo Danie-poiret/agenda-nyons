@@ -75,7 +75,24 @@ class SpectatorReviewsTests(unittest.TestCase):
                 self.assertNotIn('<iframe', block)
                 self.assertIn('index,follow', actual)
                 self.assertNotIn('noindex', actual)
-        self.assertEqual(set(shown), {'Fausse Note', 'Cars', 'Mary et la fleur de la sorcière'})
+        self.assertEqual(len(shown), 29)
+        self.assertTrue({'Fausse Note', 'Cars', 'Mary et la fleur de la sorcière'}.issubset(shown))
+
+    def test_small_positive_sample_has_no_manufactured_reservation(self):
+        event = next(e for e in self.events if e['film_title'] == 'Kalo Pothi, un village au Népal')
+        self.assertTrue(self.render(event))
+        record = self.cache['reviews']['allocine:239804']
+        self.assertEqual({p['kind'] for p in record['points']}, {'liked'})
+
+    def test_evidence_provenance_never_invents_a_publication_date(self):
+        event = next(e for e in self.events if e['film_title'] == 'Minotaure')
+        self.assertTrue(self.render(event))
+        cache = copy.deepcopy(self.cache)
+        record = cache['reviews']['allocine:minotaure-spectateurs-2026']
+        self.assertNotIn('published_on', record['evidence'][0])
+        record['evidence'][0]['recorded_in_source_on'] = '2026-10-21'
+        with patch.object(reviews, '_read_cache', return_value=cache):
+            self.assertEqual(self.render(event), '')
 
 
 if __name__ == '__main__':
