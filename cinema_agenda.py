@@ -120,4 +120,3 @@ def generate_cinema_pages(today=None,film_titles=None):
         if 'href="/cinema/">🎬 Films' not in source:source=source.replace('<a class="btn" href="/semaines/">','<a class="btn" href="/cinema/">🎬 Films et séances de cinéma</a>\n      <a class="btn" href="/semaines/">',1)
         home.write_text(source,encoding='utf-8')
     return events
-
