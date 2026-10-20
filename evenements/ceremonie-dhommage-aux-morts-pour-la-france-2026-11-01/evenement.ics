@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01@agenda.vivreanyons.fr
-DTSTAMP:20261019T132345Z
+DTSTAMP:20261020T114257Z
 DTSTART;TZID=Europe/Paris:20261101T113000
 DTEND;TZID=Europe/Paris:20261101T120000
 SUMMARY:Cérémonie d’hommage aux morts pour la France
-DESCRIPTION:Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Forte pluie 16.2°C / 16.2°C Contact Recherche Me\nhttps://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/
+DESCRIPTION:Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons.\nhttps://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/
 LOCATION:Carré militaire du cimetière de Nyons\, 17B rue des Souchères - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/
 END:VEVENT

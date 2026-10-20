@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "temperature": 17.0,
   "observation": "15 h 00",
   "isForecast": true,
-  "min": 11.0,
+  "min": 13.0,
   "max": 19.0,
-  "rain": 4.3,
-  "wind": 14.0,
-  "windMax": 30.0,
+  "rain": 32.6,
+  "wind": 9.0,
+  "windMax": 32.0,
   "description": "Pluie légère",
-  "fetched_at": "2026-10-19T15:23:47.473944+02:00"
+  "fetched_at": "2026-10-20T13:42:59.577438+02:00"
 }
