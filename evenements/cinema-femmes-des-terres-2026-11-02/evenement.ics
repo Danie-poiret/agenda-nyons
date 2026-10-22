@@ -4,15 +4,16 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:femmes-des-terres-2026-11-02-2145@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261022T172221Z
 DTSTART:20261102T204500Z
 SUMMARY:Femmes des terres — Soirée Alimenterre
 LOCATION:28 place de la Libération\, 26110 Nyons
-DESCRIPTION:Des étudiantes et étudiants en agronomie rencontrent des pa
- ysannes et agricultrices dans six pays. Le film clôt la soirée Aliment
- erre après le repas.\nhttps://agenda.vivreanyons.fr/evenements/cinema-f
- emmes-des-terres-2026-11-02/
+DESCRIPTION:Des étudiantes et étudiants en agronomie partagent les réc
+ its de paysannes et agricultrices\, entre la France\, le Togo et la Boli
+ vie. Le film clôt la soirée Alimenterre après le repas.\nhttps://agen
+ da.vivreanyons.fr/evenements/cinema-femmes-des-terres-2026-11-02/
 URL:https://agenda.vivreanyons.fr/evenements/cinema-femmes-des-terres-202
  6-11-02/
 END:VEVENT
 END:VCALENDAR
+

@@ -5,7 +5,7 @@
   "period_start": "2026-10-21",
   "period_end": "2026-11-10",
   "next_check_date": "2026-11-11",
-  "verified_on": "2026-10-19",
+  "verified_on": "2026-10-22",
   "films": [
     {
       "title": "Heart of the Beast",
@@ -1356,7 +1356,7 @@
         },
         {
           "date": "2026-11-03",
-          "time": "16:15",
+          "time": "16:30",
           "version": "Version non précisée dans le programme"
         },
         {
@@ -1568,7 +1568,7 @@
     },
     {
       "title": "Femmes des terres",
-      "description": "Des étudiantes et étudiants en agronomie rencontrent des paysannes et agricultrices dans six pays. Le film clôt la soirée Alimenterre après le repas.",
+      "description": "Des étudiantes et étudiants en agronomie partagent les récits de paysannes et agricultrices, entre la France, le Togo et la Bolivie. Le film clôt la soirée Alimenterre après le repas.",
       "duration": "54 min",
       "sessions": [
         {
@@ -1927,3 +1927,4 @@
     }
   ]
 }
+
