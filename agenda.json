@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 63441)
+Total output lines: 6211
+
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
@@ -1972,7 +1975,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/"
+      "url": "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/",
+      "practical": {
+        "date_time": "Du mardi 20 octobre 2026 de 10h00 au samedi 31 octobre 2026 à 18h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet, à Nyons",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-le-reel-et-son-double-2-2026-10-20/",
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "date_label": "Du mardi 20 octobre 2026 de 10h00 au samedi 31 octobre 2026 à 18h00"
     },
     {
       "title": "Cinéma — Cars",
@@ -1981,2213 +1996,26 @@
       "start_date": "2026-10-21",
       "end_date": "2026-10-26",
       "date_label": "Séances datées du 21 octobre 2026 au 26 octobre 2026 — voir les horaires",
-      "summary": "Flash McQueen quitte les circuits pour les routes de Radiator Springs. Le film revient pour ses vingt ans, avec une séance accompagnée d’un goûter le 26 octobre.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/",
-      "sessions": [
-        {
-          "date": "2026-10-21",
-          "time": "17:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-25",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-26",
-          "time": "17:30",
-          "version": "Séance spéciale 20 ans — goûter dès 17 h",
-          "price": 5
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRDJAVW/XBETV05C.webp",
-      "film": {
-        "title": "Cars",
-        "description": "Flash McQueen quitte les circuits pour les routes de Radiator Springs. Le film revient pour ses vingt ans, avec une séance accompagnée d’un goûter le 26 octobre.",
-        "duration": "1 h 56",
-        "sessions": [
-          {
-            "date": "2026-10-21",
-            "time": "17:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-25",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-26",
-            "time": "17:30",
-            "version": "Séance spéciale 20 ans — goûter dès 17 h",
-            "price": 5
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRDJAVW/XBETV05C.webp",
-        "poster_alt": "Affiche de Cars, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 6 ans",
-        "special_note": "Le 26 octobre : accueil goûter à 17 h, film à 17 h 30. Tarif unique de 5 € pour cette séance spéciale ; réservation indispensable au cinéma. Les autres séances suivent les tarifs habituels."
-      }
-    },
-    {
-      "title": "Cinéma — Le Jour de son retour",
-      "film_title": "Le Jour de son retour",
-      "kind": "cinema",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-27",
-      "date_label": "Séances datées du 21 octobre 2026 au 27 octobre 2026 — voir les horaires",
-      "summary": "Après un tournage, une actrice donne trois interviews. Quand elle doit les rejouer pour un cours de théâtre, les souvenirs lui échappent. Un film de Hong Sang-soo en version originale sous-titrée.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-jour-de-son-retour-2026-10-21/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-jour-de-son-retour-2026-10-21/",
-      "sessions": [
-        {
-          "date": "2026-10-21",
-          "time": "15:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-23",
-          "time": "21:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-24",
-          "time": "19:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-26",
-          "time": "17:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-27",
-          "time": "14:00",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRKFQ2W/KSM4J999.webp",
-      "film": {
-        "title": "Le Jour de son retour",
-        "description": "Après un tournage, une actrice donne trois interviews. Quand elle doit les rejouer pour un cours de théâtre, les souvenirs lui échappent. Un film de Hong Sang-soo en version originale sous-titrée.",
-        "duration": "1 h 24",
-        "sessions": [
-          {
-            "date": "2026-10-21",
-            "time": "15:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-21",
-            "time": "19:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-23",
-            "time": "21:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-24",
-            "time": "19:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-26",
-            "time": "17:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-27",
-            "time": "14:00",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRKFQ2W/KSM4J999.webp",
-        "poster_alt": "Affiche de Le Jour de son retour, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Les Misérables",
-      "film_title": "Les Misérables",
-      "kind": "cinema",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-27",
-      "date_label": "Séances datées du 21 octobre 2026 au 27 octobre 2026 — voir les horaires",
-      "summary": "Après dix-neuf ans de bagne, Jean Valjean veut changer de vie. Sous une nouvelle identité, il tente de faire le bien autour de lui. Prévoyez trois heures pour cette adaptation avec Vincent Lindon.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-les-miserables-2026-10-21/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-les-miserables-2026-10-21/",
-      "sessions": [
-        {
-          "date": "2026-10-21",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-23",
-          "time": "20:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-24",
-          "time": "17:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-25",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-26",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-27",
-          "time": "16:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:30",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
-      "film": {
-        "title": "Les Misérables",
-        "description": "Après dix-neuf ans de bagne, Jean Valjean veut changer de vie. Sous une nouvelle identité, il tente de faire le bien autour de lui. Prévoyez trois heures pour cette adaptation avec Vincent Lindon.",
-        "duration": "3 h 00",
-        "sessions": [
-          {
-            "date": "2026-10-21",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-23",
-            "time": "20:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-24",
-            "time": "17:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-25",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-26",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-27",
-            "time": "16:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-27",
-            "time": "19:30",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
-        "poster_alt": "Affiche de Les Misérables, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Minotaure",
-      "film_title": "Minotaure",
-      "kind": "cinema",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-27",
-      "date_label": "Séances datées du 21 octobre 2026 au 27 octobre 2026 — voir les horaires",
-      "summary": "En Russie, en 2022, les difficultés professionnelles d’un chef d’entreprise gagnent peu à peu toute sa vie. Un drame d’Andreï Zviaguintsev, proposé en version originale sous-titrée.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-minotaure-2026-10-21/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-minotaure-2026-10-21/",
-      "sessions": [
-        {
-          "date": "2026-10-21",
-          "time": "19:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-23",
-          "time": "17:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-24",
-          "time": "20:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-25",
-          "time": "18:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-26",
-          "time": "14:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:00",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRX6EJK/E5JYYJ48.webp",
-      "film": {
-        "title": "Minotaure",
-        "description": "En Russie, en 2022, les difficultés professionnelles d’un chef d’entreprise gagnent peu à peu toute sa vie. Un drame d’Andreï Zviaguintsev, proposé en version originale sous-titrée.",
-        "duration": "2 h 21",
-        "sessions": [
-          {
-            "date": "2026-10-21",
-            "time": "19:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-23",
-            "time": "17:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-24",
-            "time": "20:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-25",
-            "time": "18:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-26",
-            "time": "14:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-27",
-            "time": "17:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-27",
-            "time": "20:00",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRX6EJK/E5JYYJ48.webp",
-        "poster_alt": "Affiche de Minotaure, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Petite Casbah",
-      "film_title": "Petite Casbah",
-      "kind": "cinema",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-27",
-      "date_label": "Séances datées du 21 octobre 2026 au 27 octobre 2026 — voir les horaires",
-      "summary": "À Alger, en 1955, Khadidja cherche son frère arrêté après une altercation. Une aventure animée à découvrir dès 6 ans.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10-21/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10-21/",
-      "sessions": [
-        {
-          "date": "2026-10-21",
-          "time": "17:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-23",
-          "time": "19:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-24",
-          "time": "17:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-25",
-          "time": "17:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-26",
-          "time": "19:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-27",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRGIW1R/HGK20T99.webp",
-      "film": {
-        "title": "Petite Casbah",
-        "description": "À Alger, en 1955, Khadidja cherche son frère arrêté après une altercation. Une aventure animée à découvrir dès 6 ans.",
-        "duration": "1 h 24",
-        "sessions": [
-          {
-            "date": "2026-10-21",
-            "time": "17:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-23",
-            "time": "19:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-24",
-            "time": "17:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-25",
-            "time": "17:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-26",
-            "time": "19:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-27",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRGIW1R/HGK20T99.webp",
-        "poster_alt": "Affiche de Petite Casbah, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 6 ans"
-      }
-    },
-    {
-      "title": "Atelier cosmétique – Savon d’Halloween",
-      "start_date": "2026-10-22",
-      "end_date": "2026-10-22",
-      "summary": "Atelier cosmétique sur le thème d'Halloween",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/"
-    },
-    {
-      "title": "Cinéma — Verity",
-      "film_title": "Verity",
-      "kind": "cinema",
-      "start_date": "2026-10-23",
-      "end_date": "2026-10-26",
-      "date_label": "Séances datées du 23 octobre 2026 au 26 octobre 2026 — voir les horaires",
-      "summary": "Une écrivaine accepte de terminer les livres d’une romancière et s’installe chez elle. Le séjour prend un tour inquiétant. Les séances en VF et en VO sont distinguées dans le tableau.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-verity-2026-10-23/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-verity-2026-10-23/",
-      "sessions": [
-        {
-          "date": "2026-10-23",
-          "time": "17:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-24",
-          "time": "21:00",
-          "version": "VF"
-        },
-        {
-          "date": "2026-10-25",
-          "time": "19:00",
-          "version": "VF"
-        },
-        {
-          "date": "2026-10-26",
-          "time": "21:00",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR3OZ6O/RHUN4REB.webp",
-      "film": {
-        "title": "Verity",
-        "description": "Une écrivaine accepte de terminer les livres d’une romancière et s’installe chez elle. Le séjour prend un tour inquiétant. Les séances en VF et en VO sont distinguées dans le tableau.",
-        "duration": "1 h 41",
-        "sessions": [
-          {
-            "date": "2026-10-23",
-            "time": "17:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-24",
-            "time": "21:00",
-            "version": "VF"
-          },
-          {
-            "date": "2026-10-25",
-            "time": "19:00",
-            "version": "VF"
-          },
-          {
-            "date": "2026-10-26",
-            "time": "21:00",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR3OZ6O/RHUN4REB.webp",
-        "poster_alt": "Affiche de Verity, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "« SAISON 4 » de Romuald Maufras",
-      "start_date": "2026-10-23",
-      "end_date": "2026-10-23",
-      "summary": "En tournée dans toute la France avec son nouveau spectacle !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/"
-    },
-    {
-      "title": "Foire aux livres d’occasion",
-      "start_date": "2026-10-24",
-      "end_date": "2026-10-24",
-      "summary": "Le groupe nyonsais d'Amnesty International vous invite à sa foire aux livres d'occasion.",
-      "categories": [
-        "Solidarité / Santé",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/foire-aux-livres-doccasion/"
-    },
-    {
-      "title": "Journée Jeux de société",
-      "start_date": "2026-10-24",
-      "end_date": "2026-10-24",
-      "summary": "Journée Jeux de société organisée par le Service Jeunesse",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/journees-jeux-de-societe/"
-    },
-    {
-      "title": "Cinéma — Fini de rire !",
-      "film_title": "Fini de rire !",
-      "kind": "cinema",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "Séances datées du 26 octobre 2026 au 26 octobre 2026 — voir les horaires",
-      "summary": "Une projection documentaire suivie d’un échange avec le dessinateur Babouse. La participation de Patrick Pelloux est annoncée sous réserve. Une soirée proposée avec la Ligue des droits de l’homme.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-fini-de-rire-2026-10-26/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-fini-de-rire-2026-10-26/",
-      "sessions": [
-        {
-          "date": "2026-10-26",
-          "time": "20:00",
-          "version": "Projection suivie d’un échange"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRU22DQ/AJ5QEMMM.webp",
-      "film": {
-        "title": "Fini de rire !",
-        "description": "Une projection documentaire suivie d’un échange avec le dessinateur Babouse. La participation de Patrick Pelloux est annoncée sous réserve. Une soirée proposée avec la Ligue des droits de l’homme.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-10-26",
-            "time": "20:00",
-            "version": "Projection suivie d’un échange"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRU22DQ/AJ5QEMMM.webp",
-        "poster_alt": "Affiche de Fini de rire !, au cinéma L’Arlequin de Nyons.",
-        "price_note": "Tarif à confirmer auprès du cinéma.",
-        "special_note": "Échange avec Babouse ; présence de Patrick Pelloux sous réserve, selon le programme."
-      }
-    },
-    {
-      "title": "Jeux Zen… et moins zen !",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "summary": "Jeux de société Zen... et moins zen !",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/"
-    },
-    {
-      "title": "Atelier cosmétique – Maquillage d’Halloween",
-      "start_date": "2026-10-28",
-      "end_date": "2026-10-28",
-      "summary": "Atelier cosmétique, création de maquillage sur le thème d'Halloween",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/"
-    },
-    {
-      "title": "Cinéma — Karma",
-      "film_title": "Karma",
-      "kind": "cinema",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-03",
-      "date_label": "Séances datées du 28 octobre 2026 au 3 novembre 2026 — voir les horaires",
-      "summary": "Dans un village du nord de l’Espagne, Jeanne tente de reconstruire sa vie. Son passé reste pourtant bien présent dans ce thriller de Guillaume Canet.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-karma-2026-10-28/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-karma-2026-10-28/",
-      "sessions": [
-        {
-          "date": "2026-10-28",
-          "time": "15:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "18:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-31",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-01",
-          "time": "19:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-02",
-          "time": "16:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-03",
-          "time": "20:30",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR6QVJU/EKMGQLKO.webp",
-      "film": {
-        "title": "Karma",
-        "description": "Dans un village du nord de l’Espagne, Jeanne tente de reconstruire sa vie. Son passé reste pourtant bien présent dans ce thriller de Guillaume Canet.",
-        "duration": "2 h 20",
-        "sessions": [
-          {
-            "date": "2026-10-28",
-            "time": "15:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-28",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "18:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-31",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-01",
-            "time": "19:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-02",
-            "time": "16:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-03",
-            "time": "20:30",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR6QVJU/EKMGQLKO.webp",
-        "poster_alt": "Affiche de Karma, au cinéma L’Arlequin de Nyons.",
-        "age": "Interdit aux moins de 12 ans"
-      }
-    },
-    {
-      "title": "Cinéma — La Gradiva",
-      "film_title": "La Gradiva",
-      "kind": "cinema",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-02",
-      "date_label": "Séances datées du 28 octobre 2026 au 2 novembre 2026 — voir les horaires",
-      "summary": "Un voyage scolaire mène des lycéens à Naples et aux ruines de Pompéi. Le séjour remue les désirs et les colères du groupe. Un film de Marine Atlan.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28/",
-      "sessions": [
-        {
-          "date": "2026-10-28",
-          "time": "11:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-31",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-01",
-          "time": "19:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-02",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR324CZ/6FLQRW6X.webp",
-      "film": {
-        "title": "La Gradiva",
-        "description": "Un voyage scolaire mène des lycéens à Naples et aux ruines de Pompéi. Le séjour remue les désirs et les colères du groupe. Un film de Marine Atlan.",
-        "duration": "2 h 25",
-        "sessions": [
-          {
-            "date": "2026-10-28",
-            "time": "11:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-28",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "17:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-31",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-01",
-            "time": "19:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-02",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR324CZ/6FLQRW6X.webp",
-        "poster_alt": "Affiche de La Gradiva, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Quelques mots d’amour",
-      "film_title": "Quelques mots d’amour",
-      "kind": "cinema",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-03",
-      "date_label": "Séances datées du 28 octobre 2026 au 3 novembre 2026 — voir les horaires",
-      "summary": "À Sarcelles, en 1995, une mère élève seule ses deux enfants. Sa fille veut retrouver le père qu’elle n’a jamais connu. Une histoire de famille et d’attente.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-quelques-mots-damour-2026-10-28/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-quelques-mots-damour-2026-10-28/",
-      "sessions": [
-        {
-          "date": "2026-10-28",
-          "time": "11:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "15:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "13:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-31",
-          "time": "19:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-01",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-03",
-          "time": "14:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-03",
-          "time": "16:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-03",
-          "time": "18:30",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR8376B/K19YI0DV.webp",
-      "film": {
-        "title": "Quelques mots d’amour",
-        "description": "À Sarcelles, en 1995, une mère élève seule ses deux enfants. Sa fille veut retrouver le père qu’elle n’a jamais connu. Une histoire de famille et d’attente.",
-        "duration": "1 h 37",
-        "sessions": [
-          {
-            "date": "2026-10-28",
-            "time": "11:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-28",
-            "time": "15:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "13:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-31",
-            "time": "19:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-01",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-03",
-            "time": "14:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-03",
-            "time": "16:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-03",
-            "time": "18:30",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR8376B/K19YI0DV.webp",
-        "poster_alt": "Affiche de Quelques mots d’amour, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Shaun le Mouton : La Bêêête d’Halloween",
-      "film_title": "Shaun le Mouton : La Bêêête d’Halloween",
-      "kind": "cinema",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-02",
-      "date_label": "Séances datées du 28 octobre 2026 au 2 novembre 2026 — voir les horaires",
-      "summary": "À la ferme de Mossy Bottom, les préparatifs d’Halloween dérapent après la destruction des citrouilles. Shaun et son troupeau ont du travail devant eux.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-shaun-le-mouton-la-beeete-dhalloween-2026-10-28/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-shaun-le-mouton-la-beeete-dhalloween-2026-10-28/",
-      "sessions": [
-        {
-          "date": "2026-10-28",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "17:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "15:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-01",
-          "time": "17:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-02",
-          "time": "17:00",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR3CQ6X/1AKHDUG6.webp",
-      "film": {
-        "title": "Shaun le Mouton : La Bêêête d’Halloween",
-        "description": "À la ferme de Mossy Bottom, les préparatifs d’Halloween dérapent après la destruction des citrouilles. Shaun et son troupeau ont du travail devant eux.",
-        "duration": "1 h 20",
-        "sessions": [
-          {
-            "date": "2026-10-28",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-28",
-            "time": "17:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "15:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-01",
-            "time": "17:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-02",
-            "time": "17:00",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR3CQ6X/1AKHDUG6.webp",
-        "poster_alt": "Affiche de Shaun le Mouton : La Bêêête d’Halloween, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 6 ans"
-      }
-    },
-    {
-      "title": "Cinéma — Une femme aujourd’hui",
-      "film_title": "Une femme aujourd’hui",
-      "kind": "cinema",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-03",
-      "date_label": "Séances datées du 28 octobre 2026 au 3 novembre 2026 — voir les horaires",
-      "summary": "Juliette a trente ans et une vie qui paraît bien installée. Une agression au travail bouleverse cet équilibre. Un film de Robert Guédiguian.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-une-femme-aujourdhui-2026-10-28/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-une-femme-aujourdhui-2026-10-28/",
-      "sessions": [
-        {
-          "date": "2026-10-28",
-          "time": "13:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "18:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "15:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-10-31",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-01",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-03",
-          "time": "20:45",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRELTUI/TT1WF6XR.webp",
-      "film": {
-        "title": "Une femme aujourd’hui",
-        "description": "Juliette a trente ans et une vie qui paraît bien installée. Une agression au travail bouleverse cet équilibre. Un film de Robert Guédiguian.",
-        "duration": "2 h 03",
-        "sessions": [
-          {
-            "date": "2026-10-28",
-            "time": "13:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-28",
-            "time": "18:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "15:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-10-31",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-01",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-03",
-            "time": "20:45",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRELTUI/TT1WF6XR.webp",
-        "poster_alt": "Affiche de Une femme aujourd’hui, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Wicker",
-      "film_title": "Wicker",
-      "kind": "cinema",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-03",
-      "date_label": "Séances datées du 28 octobre 2026 au 3 novembre 2026 — voir les horaires",
-      "summary": "Une pêcheuse solitaire commande au vannier du village un mari en osier. Cet époux inattendu change sa vie et attire les regards des voisins. Une romance fantastique en VO sous-titrée.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/",
-      "sessions": [
-        {
-          "date": "2026-10-28",
-          "time": "19:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "20:45",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-01",
-          "time": "17:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-02",
-          "time": "14:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-02",
-          "time": "21:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-03",
-          "time": "18:30",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRADN87/3J013RSL.webp",
-      "film": {
-        "title": "Wicker",
-        "description": "Une pêcheuse solitaire commande au vannier du village un mari en osier. Cet époux inattendu change sa vie et attire les regards des voisins. Une romance fantastique en VO sous-titrée.",
-        "duration": "1 h 45",
-        "sessions": [
-          {
-            "date": "2026-10-28",
-            "time": "19:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-10-30",
-            "time": "20:45",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-01",
-            "time": "17:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-02",
-            "time": "14:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-02",
-            "time": "21:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-03",
-            "time": "18:30",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRADN87/3J013RSL.webp",
-        "poster_alt": "Affiche de Wicker, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Les documentaires de l’UNTL : « La Passion selon Callas »",
-      "start_date": "2026-10-28",
-      "end_date": "2026-10-28",
-      "summary": "Projection suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/"
-    },
-    {
-      "title": "« L’Eau » : Exposition du Préau des Arts",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-13",
-      "summary": "1 place de la Liberté, du 28 octobre au 13 novembre.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/leau-exposition-du-preau-des-arts/"
-    },
-    {
-      "title": "Atelier cosmétique – Savon d’Halloween",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "summary": "Atelier cosmétique sur le thème d'Halloween",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/"
-    },
-    {
-      "title": "Atelier culinaire – Tapenades & tartinables",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "summary": "Atelier culinaire, réalisation de tapenades et tartinables 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Partiellement nuageux 8.3°C / 8.3°C Contact Recherche Mentions léga",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-tapenades-tartinables/"
-    },
-    {
-      "title": "Dédicace de Colette Brun Castelly",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "summary": "L'autrice présentera son 8e roman, \"Mambo et utopie\".",
-      "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/dedicace-de-colette-brun-castelly/"
-    },
-    {
-      "title": "Réunion Bailleurs : information sur la rénovation de votre logement",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "summary": "SOLIHA et Bail Rénov' organisent une réunion d'information à destination des propriétaires bailleurs.",
-      "categories": [
-        "Cadre de vie"
-      ],
-      "url": "https://www.nyons.com/agenda/reunion-bailleurs-connaitre-comprendre-les-aides-a-la-renovation-2/"
-    },
-    {
-      "title": "Atelier cosmétique – Maquillage d’Halloween",
-      "start_date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween-2/"
-    },
-    {
-      "title": "Atelier culinaire – Brownies d’Halloween",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "summary": "Atelier culinaire, réalisation de brownies d'",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/"
-    },
-    {
-      "title": "Cinéma — Gruffalo, de père en fils",
-      "film_title": "Gruffalo, de père en fils",
-      "kind": "cinema",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Séances datées du 31 octobre 2026 au 31 octobre 2026 — voir les horaires",
-      "summary": "Le Gruffalo et son petit retrouvent le grand écran pour une séance d’Halloween destinée aux enfants dès 3 ans. Un ciné-goûter est annoncé.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-gruffalo-de-pere-en-fils-2026-10-31/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-gruffalo-de-pere-en-fils-2026-10-31/",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "time": "17:00",
-          "version": "Séance spéciale Halloween — ciné-goûter"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRYS0P2/FY3DQZH2.webp",
-      "film": {
-        "title": "Gruffalo, de père en fils",
-        "description": "Le Gruffalo et son petit retrouvent le grand écran pour une séance d’Halloween destinée aux enfants dès 3 ans. Un ciné-goûter est annoncé.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-10-31",
-            "time": "17:00",
-            "version": "Séance spéciale Halloween — ciné-goûter"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRYS0P2/FY3DQZH2.webp",
-        "poster_alt": "Affiche de Gruffalo, de père en fils, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 3 ans",
-        "price": 5,
-        "special_note": "Réservation au cinéma pour le ciné-goûter à 5 €."
-      }
-    },
-    {
-      "title": "Cinéma — Mary et la fleur de la sorcière",
-      "film_title": "Mary et la fleur de la sorcière",
-      "kind": "cinema",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Séances datées du 31 octobre 2026 au 31 octobre 2026 — voir les horaires",
-      "summary": "Une fleur mystérieuse entraîne Mary dans un monde de magie. Le film est proposé pour Halloween, avec un ciné-goûter annoncé par le cinéma.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-mary-et-la-fleur-de-la-sorciere-2026-10-31/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-mary-et-la-fleur-de-la-sorciere-2026-10-31/",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "time": "17:00",
-          "version": "Séance spéciale Halloween — ciné-goûter"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRXUHWD/Z5K9Z1QF.webp",
-      "film": {
-        "title": "Mary et la fleur de la sorcière",
-        "description": "Une fleur mystérieuse entraîne Mary dans un monde de magie. Le film est proposé pour Halloween, avec un ciné-goûter annoncé par le cinéma.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-10-31",
-            "time": "17:00",
-            "version": "Séance spéciale Halloween — ciné-goûter"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRXUHWD/Z5K9Z1QF.webp",
-        "poster_alt": "Affiche de Mary et la fleur de la sorcière, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 8 ans",
-        "price": 5,
-        "special_note": "Réservation au cinéma pour le ciné-goûter à 5 €."
-      }
-    },
-    {
-      "title": "Cinéma — Scream",
-      "film_title": "Scream",
-      "kind": "cinema",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Séances datées du 31 octobre 2026 au 31 octobre 2026 — voir les horaires",
-      "summary": "Le film de Wes Craven revient pour la soirée d’Halloween. Une séance en version originale sous-titrée réservée aux spectateurs de 12 ans et plus.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-scream-2026-10-31/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-scream-2026-10-31/",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "time": "18:30",
-          "version": "VO sous-titrée — Halloween"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRDMFG5/HHMWAVPI.webp",
-      "film": {
-        "title": "Scream",
-        "description": "Le film de Wes Craven revient pour la soirée d’Halloween. Une séance en version originale sous-titrée réservée aux spectateurs de 12 ans et plus.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-10-31",
-            "time": "18:30",
-            "version": "VO sous-titrée — Halloween"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRDMFG5/HHMWAVPI.webp",
-        "poster_alt": "Affiche de Scream, au cinéma L’Arlequin de Nyons.",
-        "age": "Interdit aux moins de 12 ans"
-      }
-    },
-    {
-      "title": "Cinéma — Suspiria",
-      "film_title": "Suspiria",
-      "kind": "cinema",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Séances datées du 31 octobre 2026 au 31 octobre 2026 — voir les horaires",
-      "summary": "Pour Halloween, l’Arlequin programme le film de Dario Argento. Rendez-vous à 21 h pour cette séance en version originale sous-titrée.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-suspiria-2026-10-31/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-suspiria-2026-10-31/",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "time": "21:00",
-          "version": "VO sous-titrée — Halloween"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRFHXYB/SLWPONIA.webp",
-      "film": {
-        "title": "Suspiria",
-        "description": "Pour Halloween, l’Arlequin programme le film de Dario Argento. Rendez-vous à 21 h pour cette séance en version originale sous-titrée.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-10-31",
-            "time": "21:00",
-            "version": "VO sous-titrée — Halloween"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRFHXYB/SLWPONIA.webp",
-        "poster_alt": "Affiche de Suspiria, au cinéma L’Arlequin de Nyons.",
-        "age": "Interdit aux moins de 12 ans"
-      }
-    },
-    {
-      "title": "Cérémonie d’hommage aux morts pour la France",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "summary": "Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons.",
-      "categories": [
-        "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/ceremonie-dhommage-aux-morts-pour-la-france/"
-    },
-    {
-      "title": "Cinéma — Femmes des terres",
-      "film_title": "Femmes des terres",
-      "kind": "cinema",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "date_label": "Séances datées du 2 novembre 2026 au 2 novembre 2026 — voir les horaires",
-      "summary": "Des étudiantes et étudiants en agronomie rencontrent des paysannes et agricultrices dans six pays. Le film clôt la soirée Alimenterre après le repas.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-femmes-des-terres-2026-11-02/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-femmes-des-terres-2026-11-02/",
-      "sessions": [
-        {
-          "date": "2026-11-02",
-          "time": "21:45",
-          "version": "Soirée Alimenterre"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR7I0DZ/DVBD61QF.webp",
-      "film": {
-        "title": "Femmes des terres",
-        "description": "Des étudiantes et étudiants en agronomie rencontrent des paysannes et agricultrices dans six pays. Le film clôt la soirée Alimenterre après le repas.",
-        "duration": "54 min",
-        "sessions": [
-          {
-            "date": "2026-11-02",
-            "time": "21:45",
-            "version": "Soirée Alimenterre"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR7I0DZ/DVBD61QF.webp",
-        "poster_alt": "Affiche de Femmes des terres, au cinéma L’Arlequin de Nyons.",
-        "price_note": "20 € pour toute la soirée Alimenterre : Pilleurs de terre à 19 h, échanges à 20 h 15, repas à 20 h 45, puis Femmes des terres à 21 h 45. Réservation indispensable avant le dimanche 1er novembre à 21 h."
-      }
-    },
-    {
-      "title": "Cinéma — Pilleurs de terre",
-      "film_title": "Pilleurs de terre",
-      "kind": "cinema",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "date_label": "Séances datées du 2 novembre 2026 au 2 novembre 2026 — voir les horaires",
-      "summary": "Le documentaire de Fanny Paloma donne la parole à des communautés qui défendent leurs terres. La projection ouvre la soirée Alimenterre, suivie d’échanges, d’un repas et d’un second film.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-pilleurs-de-terre-2026-11-02/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-pilleurs-de-terre-2026-11-02/",
-      "sessions": [
-        {
-          "date": "2026-11-02",
-          "time": "19:00",
-          "version": "VO sous-titrée — soirée Alimenterre"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRN6RFF/IZSSRN5C.webp",
-      "film": {
-        "title": "Pilleurs de terre",
-        "description": "Le documentaire de Fanny Paloma donne la parole à des communautés qui défendent leurs terres. La projection ouvre la soirée Alimenterre, suivie d’échanges, d’un repas et d’un second film.",
-        "duration": "1 h 15",
-        "sessions": [
-          {
-            "date": "2026-11-02",
-            "time": "19:00",
-            "version": "VO sous-titrée — soirée Alimenterre"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRN6RFF/IZSSRN5C.webp",
-        "poster_alt": "Affiche de Pilleurs de terre, au cinéma L’Arlequin de Nyons.",
-        "price_note": "20 € pour toute la soirée Alimenterre : Pilleurs de terre à 19 h, échanges à 20 h 15, repas à 20 h 45, puis Femmes des terres à 21 h 45. Réservation indispensable avant le dimanche 1er novembre à 21 h.",
-        "special_note": "En partenariat avec Pain et Liberté et le CCFD. Repas préparé par Sucre et Sel par Julie."
-      }
-    },
-    {
-      "title": "Cinéma — Projection surprise — coup de cœur art et essai",
-      "film_title": "Projection surprise — coup de cœur art et essai",
-      "kind": "cinema",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "date_label": "Séances datées du 2 novembre 2026 au 2 novembre 2026 — voir les horaires",
-      "summary": "Une avant-première dont le titre reste une surprise. Consultez le cinéma pour les renseignements pratiques avant de réserver.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-projection-surprise-coup-de-cur-art-et-essai-2026-11-02/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-projection-surprise-coup-de-cur-art-et-essai-2026-11-02/",
-      "sessions": [
-        {
-          "date": "2026-11-02",
-          "time": "19:00",
-          "version": "Avant-première surprise"
-        }
-      ],
-      "poster": "https://agenda.vivreanyons.fr/assets/cinema/projection-surprise.svg",
-      "film": {
-        "title": "Projection surprise — coup de cœur art et essai",
-        "description": "Une avant-première dont le titre reste une surprise. Consultez le cinéma pour les renseignements pratiques avant de réserver.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-11-02",
-            "time": "19:00",
-            "version": "Avant-première surprise"
-          }
-        ],
-        "poster": "https://agenda.vivreanyons.fr/assets/cinema/projection-surprise.svg",
-        "poster_alt": "Visuel informatif : projection surprise au cinéma L’Arlequin.",
-        "price_note": "Tarif à confirmer auprès du cinéma.",
-        "poster_credit": "Visuel informatif : le titre du film n’est pas dévoilé dans le programme."
-      }
-    },
-    {
-      "title": "Cinéma — Così fan tutte — Metropolitan Opera",
-      "film_title": "Così fan tutte — Metropolitan Opera",
-      "kind": "cinema",
-      "start_date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "date_label": "Séances datées du 3 novembre 2026 au 3 novembre 2026 — voir les horaires",
-      "summary": "Une rediffusion de l’opéra Così fan tutte du Metropolitan Opera de New York. La séance est annoncée le mardi 3 novembre à 14 h 30.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-cosi-fan-tutte-metropolitan-opera-2026-11-03/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-cosi-fan-tutte-metropolitan-opera-2026-11-03/",
-      "sessions": [
-        {
-          "date": "2026-11-03",
-          "time": "14:30",
-          "version": "Rediffusion d’opéra"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR5KIT2/4DTOGNIA.webp",
-      "film": {
-        "title": "Così fan tutte — Metropolitan Opera",
-        "description": "Une rediffusion de l’opéra Così fan tutte du Metropolitan Opera de New York. La séance est annoncée le mardi 3 novembre à 14 h 30.",
-        "duration": "",
-        "sessions": [
-          {
-            "date": "2026-11-03",
-            "time": "14:30",
-            "version": "Rediffusion d’opéra"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR5KIT2/4DTOGNIA.webp",
-        "poster_alt": "Affiche de Così fan tutte — Metropolitan Opera, au cinéma L’Arlequin de Nyons.",
-        "price_note": "Plein tarif : 20 € ; tarif réduit : 15 € ; enfant de moins de 14 ans : 10 €."
-      }
-    },
-    {
-      "title": "Cinéma — Irish Travellers",
-      "film_title": "Irish Travellers",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "Une famille irlandaise vit dans une caravane au milieu des champs. Le documentaire suit ses journées et un mode de vie qui cherche à durer.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-irish-travellers-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-irish-travellers-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "14:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "19:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-09",
-          "time": "14:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "16:15",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRTZJRA/0CM2DG6X.webp",
-      "film": {
-        "title": "Irish Travellers",
-        "description": "Une famille irlandaise vit dans une caravane au milieu des champs. Le documentaire suit ses journées et un mode de vie qui cherche à durer.",
-        "duration": "1 h 36",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "14:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "19:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-08",
-            "time": "17:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-09",
-            "time": "14:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "16:15",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRTZJRA/0CM2DG6X.webp",
-        "poster_alt": "Affiche de Irish Travellers, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — La Tentazione",
-      "film_title": "La Tentazione",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "Une enseignante vivant encore chez ses parents donne des cours particuliers à un élève de son lycée. La rencontre de ces deux solitudes prend un tour troublant.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "18:45",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "20:45",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-09",
-          "time": "16:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-09",
-          "time": "21:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "14:30",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "16:45",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FROLWAS/6KNCS48Z.webp",
-      "film": {
-        "title": "La Tentazione",
-        "description": "Une enseignante vivant encore chez ses parents donne des cours particuliers à un élève de son lycée. La rencontre de ces deux solitudes prend un tour troublant.",
-        "duration": "1 h 48",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "18:45",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "20:45",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-09",
-            "time": "16:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-09",
-            "time": "21:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "14:30",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "16:45",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FROLWAS/6KNCS48Z.webp",
-        "poster_alt": "Affiche de La Tentazione, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Le Fantôme de l’Opéra",
-      "film_title": "Le Fantôme de l’Opéra",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "Une jeune danseuse entre à l’Opéra de Paris et répète une œuvre entourée de mystère. Sa rencontre avec un pianiste vient troubler ce nouveau départ.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "20:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "15:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "17:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-08",
-          "time": "19:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-09",
-          "time": "16:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "18:15",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR41TVG/L3FOCG6X.webp",
-      "film": {
-        "title": "Le Fantôme de l’Opéra",
-        "description": "Une jeune danseuse entre à l’Opéra de Paris et répète une œuvre entourée de mystère. Sa rencontre avec un pianiste vient troubler ce nouveau départ.",
-        "duration": "2 h 14",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "20:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "15:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "17:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-08",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-08",
-            "time": "19:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-09",
-            "time": "16:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "18:15",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FR41TVG/L3FOCG6X.webp",
-        "poster_alt": "Affiche de Le Fantôme de l’Opéra, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Le Mystère Lucy Lost",
-      "film_title": "Le Mystère Lucy Lost",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "Sur une petite île, les dons de Lucy inquiètent les habitants. L’arrivée de Milly, une enfant qu’elle seule peut voir, ouvre une nouvelle aventure.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-04",
-          "time": "18:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "17:15",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "19:00",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRLPWEP/IVTL8N5C.webp",
-      "film": {
-        "title": "Le Mystère Lucy Lost",
-        "description": "Sur une petite île, les dons de Lucy inquiètent les habitants. L’arrivée de Milly, une enfant qu’elle seule peut voir, ouvre une nouvelle aventure.",
-        "duration": "1 h 25",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-04",
-            "time": "18:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "17:15",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-08",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "19:00",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRLPWEP/IVTL8N5C.webp",
-        "poster_alt": "Affiche de Le Mystère Lucy Lost, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 6 ans"
-      }
-    },
-    {
-      "title": "Cinéma — L’Île des souvenirs",
-      "film_title": "L’Île des souvenirs",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "Deux amies passent une dernière soirée ensemble avant leur séparation. Un portail les transporte sur l’île fantastique de Nakali.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-lile-des-souvenirs-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-lile-des-souvenirs-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "16:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "18:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRXGT5X/4WB32PIA.webp",
-      "film": {
-        "title": "L’Île des souvenirs",
-        "description": "Deux amies passent une dernière soirée ensemble avant leur séparation. Un portail les transporte sur l’île fantastique de Nakali.",
-        "duration": "1 h 49",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "16:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "18:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRXGT5X/4WB32PIA.webp",
-        "poster_alt": "Affiche de L’Île des souvenirs, au cinéma L’Arlequin de Nyons.",
-        "age": "À partir de 8 ans"
-      }
-    },
-    {
-      "title": "Cinéma — Moulin",
-      "film_title": "Moulin",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "En juin 1943, Jean Moulin est arrêté alors qu’il travaille à réunifier la Résistance. Le film de László Nemes raconte sa confrontation avec Klaus Barbie.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-moulin-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-moulin-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "15:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "18:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "15:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "20:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-08",
-          "time": "19:30",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-09",
-          "time": "14:00",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-09",
-          "time": "18:45",
-          "version": "Version non précisée dans le programme"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "21:00",
-          "version": "Version non précisée dans le programme"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRLXIDH/YUNFORSL.webp",
-      "film": {
-        "title": "Moulin",
-        "description": "En juin 1943, Jean Moulin est arrêté alors qu’il travaille à réunifier la Résistance. Le film de László Nemes raconte sa confrontation avec Klaus Barbie.",
-        "duration": "2 h 14",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "15:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "18:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "15:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "20:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-08",
-            "time": "19:30",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-09",
-            "time": "14:00",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-09",
-            "time": "18:45",
-            "version": "Version non précisée dans le programme"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "21:00",
-            "version": "Version non précisée dans le programme"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRLXIDH/YUNFORSL.webp",
-        "poster_alt": "Affiche de Moulin, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Cinéma — Primetime",
-      "film_title": "Primetime",
-      "kind": "cinema",
-      "start_date": "2026-11-04",
-      "end_date": "2026-11-10",
-      "date_label": "Séances datées du 4 novembre 2026 au 10 novembre 2026 — voir les horaires",
-      "summary": "En 2006, un présentateur américain veut marquer l’histoire de la télévision avec son émission. Un film de Lance Oppenheim, en version originale sous-titrée.",
-      "categories": [
-        "Cinéma",
-        "Culture"
-      ],
-      "url": "https://agenda.vivreanyons.fr/evenements/cinema-primetime-2026-11-04/",
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-primetime-2026-11-04/",
-      "sessions": [
-        {
-          "date": "2026-11-04",
-          "time": "21:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "16:15",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-07",
-          "time": "21:00",
-          "version": "VO sous-titrée"
-        },
-        {
-          "date": "2026-11-10",
-          "time": "14:00",
-          "version": "VO sous-titrée"
-        }
-      ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FRQQ7LJ/X3GES7N5.webp",
-      "film": {
-        "title": "Primetime",
-        "description": "En 2006, un présentateur américain veut marquer l’histoire de la télévision avec son émission. Un film de Lance Oppenheim, en version originale sous-titrée.",
-        "duration": "1 h 49",
-        "sessions": [
-          {
-            "date": "2026-11-04",
-            "time": "21:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "16:15",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-07",
-            "time": "21:00",
-            "version": "VO sous-titrée"
-          },
-          {
-            "date": "2026-11-10",
-            "time": "14:00",
-            "version": "VO sous-titrée"
-          }
-        ],
-        "poster": "https://images.monnaie-services.com/movie_poster/320/FRQQ7LJ/X3GES7N5.webp",
-        "poster_alt": "Affiche de Primetime, au cinéma L’Arlequin de Nyons."
-      }
-    },
-    {
-      "title": "Collecte de la banque alimentaire",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-07",
-      "summary": "Collecte de produits alimentaires organisée par les associations caritatives de Nyons.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/collecte-de-la-banque-alimentaire/"
-    },
-    {
-      "title": "Exposition « IA, droits devant ! »",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-28",
-      "summary": "L’intelligence artificielle, pour le meilleur et pour le pire ? La prise de conscience sur l’impératif de fixer un cadre au développement de l’IA semble s’accélérer ces derniers temps.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-ia-droits-devant/"
-    },
-    {
-      "title": "Atelier de yoga du visage",
-      "start_date": "2026-11-07",
+      "summary": "Flash McQueen quitte les circuits pour…23441 tokens truncated…
       "end_date": "2026-11-07",
       "summary": "Proposé par Annabel Djila 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 15.7°C / 15.7°C Contact Recherche Mentions légales Politique de confidentialité Plan du site",
       "categories": [
         "Solidarité / Santé",
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-de-yoga-du-visage/"
+      "url": "https://www.nyons.com/agenda/atelier-de-yoga-du-visage/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 10h30 à 11h30",
+        "location_name": "Le collectif le Papillon,",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
+        "phone": "06 81 80 05 73",
+        "email": "djilanab@yahoo.fr",
+        "website": "https://www.annabeldjila.com/les-ateliers/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-de-yoga-du-visage-2026-11-07/",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "date_label": "Samedi 07 novembre 2026 de 10h30 à 11h30"
     },
     {
       "title": "Atelier-jeu « Mission : esprit critique »",
@@ -4199,7 +2027,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/"
+      "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 15h00 à 18h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/",
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "date_label": "Samedi 07 novembre 2026 de 15h00 à 18h00"
     },
     {
       "title": "Drôles de Coïncidences",
@@ -4217,7 +2057,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/droles-de-coincidences-2/"
+      "url": "https://www.nyons.com/agenda/droles-de-coincidences-2/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 20h30 à 22h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "electron.nyons@gmail.com",
+        "website": "https://www.lelectron.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/droles-de-coincidences-2026-11-07/",
+      "start_time": "20:30",
+      "end_time": "22:00",
+      "date_label": "Samedi 07 novembre 2026 de 20h30 à 22h00"
     },
     {
       "title": "Cinéma — Projection surprise jeune public",
@@ -4346,7 +2198,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/",
+      "practical": {
+        "date_time": "Lundi 09 novembre 2026 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes-2026-11-09/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 09 novembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Commémoration de l’Armistice du 11 novembre",
@@ -4356,7 +2220,19 @@
       "categories": [
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/commemoration-de-larmistice-du-11-novembre/"
+      "url": "https://www.nyons.com/agenda/commemoration-de-larmistice-du-11-novembre/",
+      "practical": {
+        "date_time": "Mercredi 11 novembre 2026 de 11h00 à 12h00",
+        "location_name": "",
+        "address": "Monument aux Morts, place de la République - 26110 NYONS",
+        "phone": "0628297346",
+        "email": "martine.berthe-bousselet@orange.fr",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/commemoration-de-larmistice-du-11-novembre-2026-11-11/",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "date_label": "Mercredi 11 novembre 2026 de 11h00 à 12h00"
     },
     {
       "title": "Opera follies",
@@ -4367,7 +2243,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/opera-follies/"
+      "url": "https://www.nyons.com/agenda/opera-follies/",
+      "practical": {
+        "date_time": "Mercredi 11 novembre 2026 de 18h00 à 19h30",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.cantouveze.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/opera-follies-2026-11-11/",
+      "start_time": "18:00",
+      "end_time": "19:30",
+      "date_label": "Mercredi 11 novembre 2026 de 18h00 à 19h30"
     },
     {
       "title": "Scène ouverte « Contes et rencontres »",
@@ -4379,7 +2267,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/scene-ouverte-contes-et-rencontres/"
+      "url": "https://www.nyons.com/agenda/scene-ouverte-contes-et-rencontres/",
+      "practical": {
+        "date_time": "Jeudi 12 novembre 2026 de 18h30 à 20h00",
+        "location_name": "Les 3 Platanes,",
+        "address": "63 rue de la Maladrerie - 26110 NYONS",
+        "phone": "",
+        "email": "contesetrencontres.nyons@gmail.com",
+        "website": "https://contesetrencontres26.org/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/scene-ouverte-contes-et-rencontres-2026-11-12/",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "date_label": "Jeudi 12 novembre 2026 de 18h30 à 20h00"
     },
     {
       "title": "La Femme Moustique",
@@ -4390,7 +2290,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/la-femme-moustique/"
+      "url": "https://www.nyons.com/agenda/la-femme-moustique/",
+      "practical": {
+        "date_time": "Vendredi 13 novembre 2026 de 20h00 à 21h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.melancolie.org/moustique"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/la-femme-moustique-2026-11-13/",
+      "start_time": "20:00",
+      "end_time": "21:00",
+      "date_label": "Vendredi 13 novembre 2026 de 20h00 à 21h00"
     },
     {
       "title": "« Ode à l’Olive »",
@@ -4402,7 +2314,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/ode-a-lolive/"
+      "url": "https://www.nyons.com/agenda/ode-a-lolive/",
+      "practical": {
+        "date_time": "Vendredi 13 novembre 2026 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0608471195",
+        "email": "etudesnyons@gmail.com",
+        "website": "http://www.terre-eygues.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Vendredi 13 novembre 2026 de 18h00 à 20h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -4414,7 +2338,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/",
+      "practical": {
+        "date_time": "samedi 14 novembre 2026 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2026-11-14/",
+      "date_label": "samedi 14 novembre 2026 de 10h à 12h"
     },
     {
       "title": "Café-rencontre UNAFAM",
@@ -4424,7 +2358,19 @@
       "categories": [
         "Solidarité / Santé"
       ],
-      "url": "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/"
+      "url": "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 14h30 à 17h00",
+        "location_name": "Maison Constantin,",
+        "address": "36 avenue Paul Laurens - 26110 NYONS",
+        "phone": "0475551643",
+        "email": "",
+        "website": "https://www.unafam.org/drome/cafes-rencontre"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cafe-rencontre-unafam-2026-11-14/",
+      "start_time": "14:30",
+      "end_time": "17:00",
+      "date_label": "Samedi 14 novembre 2026 de 14h30 à 17h00"
     },
     {
       "title": "Constellation familiale",
@@ -4442,7 +2388,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/constellation-familiale/"
+      "url": "https://www.nyons.com/agenda/constellation-familiale/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 13h30 à 19h30",
+        "location_name": "Le collectif le Papillon,",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
+        "phone": "06 47 18 92 87",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-14/",
+      "start_time": "13:30",
+      "end_time": "19:30",
+      "date_label": "Samedi 14 novembre 2026 de 13h30 à 19h30"
     },
     {
       "title": "Petits crimes conjugaux",
@@ -4453,7 +2411,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/"
+      "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 20h30 à 22h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "electron.nyons@gmail.com",
+        "website": "https://www.lelectron.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/",
+      "start_time": "20:30",
+      "end_time": "22:00",
+      "date_label": "Samedi 14 novembre 2026 de 20h30 à 22h00"
     },
     {
       "title": "Projection « Et si on levait les yeux ? »",
@@ -4465,7 +2435,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/projection-et-si-on-levait-les-yeux/"
+      "url": "https://www.nyons.com/agenda/projection-et-si-on-levait-les-yeux/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 15h00 à 17h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/projection-et-si-on-levait-les-yeux-2026-11-14/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 14 novembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Puces des couturières",
@@ -4477,7 +2459,19 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/puces-des-couturieres/"
+      "url": "https://www.nyons.com/agenda/puces-des-couturieres/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 09h00 à 19h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "06 46 63 25 54",
+        "email": "comitedesfetesetdeloisirs@sfr.fr",
+        "website": "https://www.comitefetesloisirsnyons.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/",
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 14 novembre 2026 de 09h00 à 19h00"
     },
     {
       "title": "Toupetituli",
@@ -4489,7 +2483,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/toupetituli-2/"
+      "url": "https://www.nyons.com/agenda/toupetituli-2/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 11h00 à 12h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet, à Nyons",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/toupetituli-2026-11-14/",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 14 novembre 2026 de 11h00 à 12h00"
     },
     {
       "title": "Conférence de l’UNTL sur l’intelligence des corbeaux",
@@ -4501,7 +2507,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/",
+      "practical": {
+        "date_time": "Lundi 16 novembre 2026 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 16 novembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Don du sang",
@@ -4511,7 +2529,19 @@
       "categories": [
         "Solidarité / Santé"
       ],
-      "url": "https://www.nyons.com/agenda/don-du-sang-3/"
+      "url": "https://www.nyons.com/agenda/don-du-sang-3/",
+      "practical": {
+        "date_time": "Lundi 16 novembre 2026 de 08h30 à 12h30",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475824405",
+        "email": "",
+        "website": "https://mon-rdv-dondesang.efs.sante.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/",
+      "start_time": "08:30",
+      "end_time": "12:30",
+      "date_label": "Lundi 16 novembre 2026 de 08h30 à 12h30"
     },
     {
       "title": "Conseil Municipal",
@@ -4521,7 +2551,19 @@
       "categories": [
         "Administratif"
       ],
-      "url": "https://www.nyons.com/agenda/conseil-municipal-4/"
+      "url": "https://www.nyons.com/agenda/conseil-municipal-4/",
+      "practical": {
+        "date_time": "Mercredi 18 novembre 2026 de 18h30 à 20h00",
+        "location_name": "",
+        "address": "Hôtel de Ville, place Buffaven - 26110 Nyons",
+        "phone": "04 75 26 50 06",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-11-18/",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "date_label": "Mercredi 18 novembre 2026 de 18h30 à 20h00"
     },
     {
       "title": "Salon Vivre ici",
@@ -4533,7 +2575,19 @@
         "Solidarité / Santé",
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/salon-vivre-ici/"
+      "url": "https://www.nyons.com/agenda/salon-vivre-ici/",
+      "practical": {
+        "date_time": "Mercredi 18 novembre 2026 de 09h00 à 20h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "campuscedille@asoft-nyons.net",
+        "website": "https://salonvivreici.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/",
+      "start_time": "09:00",
+      "end_time": "20:00",
+      "date_label": "Mercredi 18 novembre 2026 de 09h00 à 20h00"
     },
     {
       "title": "Bourse aux jouets",
@@ -4544,7 +2598,19 @@
         "Enfance / Jeunesse",
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/bourse-aux-jouets/"
+      "url": "https://www.nyons.com/agenda/bourse-aux-jouets/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 09h00 à 17h00",
+        "location_name": "Maison de Pays,",
+        "address": "128 promenade de la Digue - 26110 NYONS",
+        "phone": "06 22 23 28 67",
+        "email": "asmat26110@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 21 novembre 2026 de 09h00 à 17h00"
     },
     {
       "title": "Constellation familiale",
@@ -4554,7 +2620,19 @@
       "categories": [
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/constellation-familiale-2/"
+      "url": "https://www.nyons.com/agenda/constellation-familiale-2/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 13h30 à 19h30",
+        "location_name": "Le collectif le Papillon,",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
+        "phone": "06 47 18 92 87",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-21/",
+      "start_time": "13:30",
+      "end_time": "19:30",
+      "date_label": "Samedi 21 novembre 2026 de 13h30 à 19h30"
     },
     {
       "title": "De l’île Noire au Montbrun",
@@ -4572,7 +2650,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/"
+      "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 20h30 à 22h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "electron.nyons@gmail.com",
+        "website": "https://www.lelectron.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/de-lile-noire-au-montbrun-2026-11-21/",
+      "start_time": "20:30",
+      "end_time": "22:00",
+      "date_label": "Samedi 21 novembre 2026 de 20h30 à 22h00"
     },
     {
       "title": "« La Loba » (Contes et Rencontres)",
@@ -4584,7 +2674,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/la-loba-contes-et-rencontres/"
+      "url": "https://www.nyons.com/agenda/la-loba-contes-et-rencontres/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 15h00 à 12h00",
+        "location_name": "",
+        "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+        "phone": "",
+        "email": "contesetrencontres.nyons@gmail.com",
+        "website": "https://contesetrencontres26.org/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/la-loba-contes-et-rencontres-2026-11-21/",
+      "start_time": "15:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 21 novembre 2026 de 15h00 à 12h00"
     },
     {
       "title": "« L’invité surprise » (Contes et Rencontres)",
@@ -4596,7 +2698,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/"
+      "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
+        "location_name": "Médiatheque Départementale Drôme Provençale,",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "contesetrencontres.nyons@gmail.com",
+        "website": "https://contesetrencontres26.org/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/linvite-surprise-contes-et-rencontres-2026-11-21/",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 21 novembre 2026 de 10h00 à 12h00"
     },
     {
       "title": "Loto de « Détente et loisirs »",
@@ -4606,7 +2720,19 @@
       "categories": [
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/"
+      "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/",
+      "practical": {
+        "date_time": "Dimanche 22 novembre 2026 de 14h00 à 17h00",
+        "location_name": "Maison de Pays,",
+        "address": "128 promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 27 26 96",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/loto-de-detente-et-loisirs-2026-11-22/",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "date_label": "Dimanche 22 novembre 2026 de 14h00 à 17h00"
     },
     {
       "title": "Le RDV de la transmission agricole",
@@ -4617,7 +2743,19 @@
         "Solidarité / Santé",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/"
+      "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
+      "practical": {
+        "date_time": "Mercredi 25 novembre 2026 de 09h00 à 17h00",
+        "location_name": "Chambre d'agriculture,",
+        "address": "2 avenue de Venterol - 26110 NYONS",
+        "phone": "06 70 82 90 44",
+        "email": "",
+        "website": "https://www.cc-bdp.fr/2026/09/transmission-agricole-2-rendez-vous-pour-preparer-lavenir-de-son-exploitation/?fbclid=IwY2xjawUy4N5leHRuA2FlbQIxMABwZG9mAXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR77OHwKjmNnrtRyBa1H8C4r9AC9Z6fpXvKYOl_U1b-5azWhPI9AIys6JDNMuQ_aem_qjqTw4bOh5wdooTSWW77KQ"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "date_label": "Mercredi 25 novembre 2026 de 09h00 à 17h00"
     },
     {
       "title": "Jeu « Pause photo prose »",
@@ -4629,7 +2767,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/"
+      "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 10h30 à 12h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/jeu-pause-photo-prose-2026-11-28/",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "date_label": "Samedi 28 novembre 2026 de 10h30 à 12h00"
     },
     {
       "title": "Salon du livre de « Contes et Rencontres »",
@@ -4641,7 +2791,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/"
+      "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 10h30 à 23h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "",
+        "email": "contesetrencontres.nyons@gmail.com",
+        "website": "https://contesetrencontres26.org/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/salon-du-livre-de-contes-et-rencontres-2026-11-28/",
+      "start_time": "10:30",
+      "end_time": "23:00",
+      "date_label": "Samedi 28 novembre 2026 de 10h30 à 23h00"
     },
     {
       "title": "«La Caravane Exquise» : restitution publique",
@@ -4652,7 +2814,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/"
+      "url": "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 10h00 à 19h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "06 76 26 81 98",
+        "email": "y.crespel@cc-bdp.fr",
+        "website": "https://www.cc-bdp.fr/2026/09/les-escales-dautomne-se-deploient-sur-les-baronnies/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/la-caravane-exquise-restitution-publique-2026-11-28/",
+      "start_time": "10:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 28 novembre 2026 de 10h00 à 19h00"
     },
     {
       "title": "Les turlupinades",
@@ -4663,7 +2837,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/les-turlupinades/"
+      "url": "https://www.nyons.com/agenda/les-turlupinades/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 20h30 à 22h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "electron.nyons@gmail.com",
+        "website": "https://www.lelectron.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/les-turlupinades-2026-12-05/",
+      "start_time": "20:30",
+      "end_time": "22:00",
+      "date_label": "Samedi 05 décembre 2026 de 20h30 à 22h00"
     },
     {
       "title": "Samedi, ça me dit !",
@@ -4675,7 +2861,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-4/"
+      "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-4/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 10h30 à 12h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/samedi-ca-me-dit-2026-12-05/",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "date_label": "Samedi 05 décembre 2026 de 10h30 à 12h00"
     },
     {
       "title": "Téléthon 2026",
@@ -4693,7 +2891,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/telethon-2026/"
+      "url": "https://www.nyons.com/agenda/telethon-2026/",
+      "practical": {
+        "date_time": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/",
+      "start_time": "00:00",
+      "end_time": "23:59",
+      "date_label": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59"
     },
     {
       "title": "Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »",
@@ -4705,7 +2915,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/",
+      "practical": {
+        "date_time": "Lundi 07 décembre 2026 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-2026-12-07/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 07 décembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -4717,7 +2939,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/",
+      "practical": {
+        "date_time": "samedi 12 décembre 2026 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2026-12-12/",
+      "date_label": "samedi 12 décembre 2026 de 10h à 12h"
     },
     {
       "title": "Cher Edouard",
@@ -4728,7 +2960,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/cher-edouard/"
+      "url": "https://www.nyons.com/agenda/cher-edouard/",
+      "practical": {
+        "date_time": "Dimanche 13 décembre 2026 de 17h00 à 18h30",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "electron.nyons@gmail.com",
+        "website": "https://www.lelectron.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cher-edouard-2026-12-13/",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "date_label": "Dimanche 13 décembre 2026 de 17h00 à 18h30"
     },
     {
       "title": "Conférence de l’UNTL sur Louis XI ou « l’Universelle Aragne »",
@@ -4740,7 +2984,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/",
+      "practical": {
+        "date_time": "Lundi 14 décembre 2026 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne-2026-12-14/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 14 décembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Peter Pan ou l’Enfant Jamais",
@@ -4751,7 +3007,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/"
+      "url": "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/",
+      "practical": {
+        "date_time": "Vendredi 18 décembre 2026 de 20h00 à 22h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.le-trac.org/event-details/peter-pan-ou-lenfant-jamais-11"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/peter-pan-ou-lenfant-jamais-2026-12-18/",
+      "start_time": "20:00",
+      "end_time": "22:00",
+      "date_label": "Vendredi 18 décembre 2026 de 20h00 à 22h00"
     },
     {
       "title": "Toupetituli",
@@ -4763,7 +3031,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/toupetituli-3/"
+      "url": "https://www.nyons.com/agenda/toupetituli-3/",
+      "practical": {
+        "date_time": "Samedi 19 décembre 2026 de 11h00 à 12h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet, à Nyons",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/toupetituli-2026-12-19/",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 19 décembre 2026 de 11h00 à 12h00"
     },
     {
       "title": "Exposition de l’atelier de Laines et de Colliers d’ANIMA",
@@ -4775,7 +3055,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/"
+      "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/",
+      "practical": {
+        "date_time": "Du mercredi 23 décembre 2026 de 14h00 au vendredi 01 janvier 2027 à 18h00",
+        "location_name": "Du mercredi 23 décembre 2026 de 14h00 au vendredi 01 janvier 2027 à 18h00",
+        "address": "Espace Roumanille, place de la Libération - 26110 NYONS",
+        "phone": "0689334854",
+        "email": "anima-ong@orange.fr",
+        "website": "https://www.anima-ong.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-de-latelier-de-laines-et-de-colliers-danima-2026-12-23/",
+      "start_time": "14:00",
+      "end_time": "18:00",
+      "date_label": "Du mercredi 23 décembre 2026 de 14h00 au vendredi 01 janvier 2027 à 18h00"
     },
     {
       "title": "On a perdu les clés du traîneau",
@@ -4786,7 +3078,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/"
+      "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/",
+      "practical": {
+        "date_time": "Mardi 29 décembre 2026 de 15h00 à 16h00",
+        "location_name": "",
+        "address": "",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.theatrerevolt.com/jeune-public.php"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/on-a-perdu-les-cles-du-traineau-2026-12-29/",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "date_label": "Mardi 29 décembre 2026 de 15h00 à 16h00"
     },
     {
       "title": "Concert de Rebecca Chaillot",
@@ -4804,7 +3108,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/"
+      "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/",
+      "practical": {
+        "date_time": "Vendredi 01 janvier 2027 de 17h00 à 18h10",
+        "location_name": "Église Saint-Vincent",
+        "address": "Nyons",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.rebeccachaillot.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/concert-de-rebecca-chaillot-2027-01-01/",
+      "start_time": "17:00",
+      "end_time": "18:10",
+      "date_label": "Vendredi 01 janvier 2027 de 17h00 à 18h10"
     },
     {
       "title": "Conférence de l’UNTL sur « Essai de toponymie locale »",
@@ -4816,7 +3132,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/",
+      "practical": {
+        "date_time": "Lundi 04 janvier 2027 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-essai-de-toponymie-locale-2027-01-04/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 04 janvier 2027 de 15h00 à 17h00"
     },
     {
       "title": "Au Nom du Père, du Fils et de Jackie Chan",
@@ -4827,7 +3155,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/"
+      "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
+      "practical": {
+        "date_time": "Vendredi 08 janvier 2027 de 20h00 à 21h20",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.compagnielehomardbleu.com/jackiechan"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/au-nom-du-pere-du-fils-et-de-jackie-chan-2027-01-08/",
+      "start_time": "20:00",
+      "end_time": "21:20",
+      "date_label": "Vendredi 08 janvier 2027 de 20h00 à 21h20"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -4839,7 +3179,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/",
+      "practical": {
+        "date_time": "samedi 9 janvier 2027 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-01-09/",
+      "date_label": "samedi 9 janvier 2027 de 10h à 12h"
     },
     {
       "title": "Conférence de l’UNTL sur Albert Camus, la voix de la pauvreté",
@@ -4851,7 +3201,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/",
+      "practical": {
+        "date_time": "Lundi 11 janvier 2027 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete-2027-01-11/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 11 janvier 2027 de 15h00 à 17h00"
     },
     {
       "title": "Cérémonie des vœux du Mairie",
@@ -4861,7 +3223,19 @@
       "categories": [
         "Administratif"
       ],
-      "url": "https://www.nyons.com/agenda/ceremonie-des-voeux-du-mairie/"
+      "url": "https://www.nyons.com/agenda/ceremonie-des-voeux-du-mairie/",
+      "practical": {
+        "date_time": "Mardi 12 janvier 2027 de 18h30 à 20h00",
+        "location_name": "",
+        "address": "",
+        "phone": "0475265000",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/ceremonie-des-vux-du-mairie-2027-01-12/",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "date_label": "Mardi 12 janvier 2027 de 18h30 à 20h00"
     },
     {
       "title": "Conférence de l’UNTL : « Les marchands ruraux dans le Dauphiné au XVIIIe siècle »",
@@ -4873,7 +3247,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/",
+      "practical": {
+        "date_time": "Jeudi 21 janvier 2027 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiie-siecle-2027-01-21/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Jeudi 21 janvier 2027 de 15h00 à 17h00"
     },
     {
       "title": "Les Rencontres Barjavel 2027",
@@ -4884,7 +3270,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/"
+      "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/",
+      "practical": {
+        "date_time": "Du vendredi 22 janvier 2027 de 09h00 au samedi 23 janvier 2027 à 19h00",
+        "location_name": "",
+        "address": "",
+        "phone": "0475265036",
+        "email": "l.flouret@nyons.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/les-rencontres-barjavel-2027-2027-01-22/",
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "date_label": "Du vendredi 22 janvier 2027 de 09h00 au samedi 23 janvier 2027 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Guernica » de Pablo Picasso",
@@ -4896,7 +3294,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/",
+      "practical": {
+        "date_time": "Mercredi 27 janvier 2027 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-guernica-de-pablo-picasso-2027-01-27/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Mercredi 27 janvier 2027 de 18h00 à 20h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Les penseurs économiques face à la situation française »",
@@ -4908,7 +3318,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/",
+      "practical": {
+        "date_time": "Mercredi 03 février 2027 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-02-03/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Mercredi 03 février 2027 de 18h00 à 20h00"
     },
     {
       "title": "Les Grands Chemins",
@@ -4926,7 +3348,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/les-grands-chemins/"
+      "url": "https://www.nyons.com/agenda/les-grands-chemins/",
+      "practical": {
+        "date_time": "Samedi 06 février 2027 de 19h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/les-grands-chemins-2027-02-06/",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "date_label": "Samedi 06 février 2027 de 19h00 à 20h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -4938,7 +3372,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/",
+      "practical": {
+        "date_time": "samedi 13 février 2027 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-02-13/",
+      "date_label": "samedi 13 février 2027 de 10h à 12h"
     },
     {
       "title": "Blue Maqam de Renaud Garcia-Fons",
@@ -4949,7 +3393,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/"
+      "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
+      "practical": {
+        "date_time": "Vendredi 19 février 2027 de 20h00 à 21h15",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.renaudgarciafons.com/discographie/blue-maqam"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/blue-maqam-de-renaud-garcia-fons-2027-02-19/",
+      "start_time": "20:00",
+      "end_time": "21:15",
+      "date_label": "Vendredi 19 février 2027 de 20h00 à 21h15"
     },
     {
       "title": "Quand je serai grande, je serai Patrick Swayze",
@@ -4960,7 +3416,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/"
+      "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/",
+      "practical": {
+        "date_time": "Mercredi 10 mars 2027 de 20h00 à 21h10",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.comediedevalence.com/saison_26-27/quand-je-serai-grande-je-serai-patrick-swayze"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/quand-je-serai-grande-je-serai-patrick-swayze-2027-03-10/",
+      "start_time": "20:00",
+      "end_time": "21:10",
+      "date_label": "Mercredi 10 mars 2027 de 20h00 à 21h10"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -4972,7 +3440,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/",
+      "practical": {
+        "date_time": "samedi 13 mars 2027 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-03-13/",
+      "date_label": "samedi 13 mars 2027 de 10h à 12h"
     },
     {
       "title": "Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi »",
@@ -4984,7 +3462,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/",
+      "practical": {
+        "date_time": "Dimanche 14 mars 2027 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-j-2027-03-14/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Dimanche 14 mars 2027 de 15h00 à 17h00"
     },
     {
       "title": "Conférence de l’UNTL sur la domesticité, entre servilité et fidélité",
@@ -4996,7 +3486,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/",
+      "practical": {
+        "date_time": "Mercredi 17 mars 2027 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite-2027-03-17/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Mercredi 17 mars 2027 de 18h00 à 20h00"
     },
     {
       "title": "Au nom de l’amour",
@@ -5007,7 +3509,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/au-nom-de-lamour/"
+      "url": "https://www.nyons.com/agenda/au-nom-de-lamour/",
+      "practical": {
+        "date_time": "Vendredi 19 mars 2027 de 20h00 à 21h30",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://cddv-vaucluse.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/au-nom-de-lamour-2027-03-19/",
+      "start_time": "20:00",
+      "end_time": "21:30",
+      "date_label": "Vendredi 19 mars 2027 de 20h00 à 21h30"
     },
     {
       "title": "Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana »",
@@ -5019,7 +3533,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/",
+      "practical": {
+        "date_time": "Mercredi 24 mars 2027 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana-2027-03-24/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Mercredi 24 mars 2027 de 18h00 à 20h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Sapienza Galiarda »",
@@ -5031,7 +3557,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/",
+      "practical": {
+        "date_time": "Mercredi 31 mars 2027 de 18h30 à 20h30",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-sapienza-galiarda-2027-03-31/",
+      "start_time": "18:30",
+      "end_time": "20:30",
+      "date_label": "Mercredi 31 mars 2027 de 18h30 à 20h30"
     },
     {
       "title": "Et maintenant j’attends",
@@ -5049,7 +3587,19 @@
         "Culture",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/et-maintenant-jattends/"
+      "url": "https://www.nyons.com/agenda/et-maintenant-jattends/",
+      "practical": {
+        "date_time": "Vendredi 02 avril 2027 de 20h30 à 21h30",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.sabinevenaruzzo.com/copie-de-maintenant-j-attends"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/et-maintenant-jattends-2027-04-02/",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "date_label": "Vendredi 02 avril 2027 de 20h30 à 21h30"
     },
     {
       "title": "Conférence de l’UNTL sur « Les Jeux d’Enfants de Pieter Bruegel l’ancien »",
@@ -5061,7 +3611,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/",
+      "practical": {
+        "date_time": "Mercredi 07 avril 2027 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien-2027-04-07/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Mercredi 07 avril 2027 de 18h00 à 20h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -5073,7 +3635,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
+      "practical": {
+        "date_time": "samedi 10 avril 2027 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-04-10/",
+      "date_label": "samedi 10 avril 2027 de 10h à 12h"
     },
     {
       "title": "1er tour des élections présidentielles",
@@ -5083,7 +3655,19 @@
       "categories": [
         "Solidarité / Santé"
       ],
-      "url": "https://www.nyons.com/agenda/1er-tour-des-elections-presidentielles/"
+      "url": "https://www.nyons.com/agenda/1er-tour-des-elections-presidentielles/",
+      "practical": {
+        "date_time": "Dimanche 18 avril 2027 de 08h00 à 18h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/1er-tour-des-elections-presidentielles-2027-04-18/",
+      "start_time": "08:00",
+      "end_time": "18:00",
+      "date_label": "Dimanche 18 avril 2027 de 08h00 à 18h00"
     },
     {
       "title": "Landing",
@@ -5094,7 +3678,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/landing/"
+      "url": "https://www.nyons.com/agenda/landing/",
+      "practical": {
+        "date_time": "Vendredi 23 avril 2027 de 20h30 à 21h40",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.cie-xpress.org/landingf"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/landing-2027-04-23/",
+      "start_time": "20:30",
+      "end_time": "21:40",
+      "date_label": "Vendredi 23 avril 2027 de 20h30 à 21h40"
     },
     {
       "title": "Conférence de l’UNTL sur « Pour une histoire de l’éducation populaire »",
@@ -5106,7 +3702,19 @@
         "Vie associative",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/"
+      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/",
+      "practical": {
+        "date_time": "Lundi 26 avril 2027 de 15h00 à 17h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0475264137",
+        "email": "contact@untl.net",
+        "website": "http://www.untl.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire-2027-04-26/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Lundi 26 avril 2027 de 15h00 à 17h00"
     },
     {
       "title": "2nd tour des élections présidentielles",
@@ -5116,7 +3724,19 @@
       "categories": [
         "Solidarité / Santé"
       ],
-      "url": "https://www.nyons.com/agenda/2nd-tour-des-elections-presidentielles/"
+      "url": "https://www.nyons.com/agenda/2nd-tour-des-elections-presidentielles/",
+      "practical": {
+        "date_time": "Dimanche 02 mai 2027 de 08h00 à 18h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/2nd-tour-des-elections-presidentielles-2027-05-02/",
+      "start_time": "08:00",
+      "end_time": "18:00",
+      "date_label": "Dimanche 02 mai 2027 de 08h00 à 18h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -5128,7 +3748,17 @@
         "Vie associative",
         "Loisirs"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/"
+      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",
+      "practical": {
+        "date_time": "samedi 8 mai 2027 de 10h à 12h",
+        "location_name": "Ile Verte,",
+        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
+        "phone": "06 20 88 60 35",
+        "email": "peroliere@gmail.com",
+        "website": "https://ghischec.wixsite.com/amate"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-05-08/",
+      "date_label": "samedi 8 mai 2027 de 10h à 12h"
     },
     {
       "title": "Boite à cordées",
@@ -5139,7 +3769,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/boite-a-cordees/"
+      "url": "https://www.nyons.com/agenda/boite-a-cordees/",
+      "practical": {
+        "date_time": "Vendredi 14 mai 2027 de 10h30 à 15h20",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.jmfrance.org/spectacles/boite-a-cordees"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/",
+      "start_time": "10:30",
+      "end_time": "15:20",
+      "date_label": "Vendredi 14 mai 2027 de 10h30 à 15h20"
     },
     {
       "title": "On ne badine pas avec l’amour",
@@ -5150,7 +3792,19 @@
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/"
+      "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/",
+      "practical": {
+        "date_time": "Jeudi 20 mai 2027 de 20h30 à 22h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.compagniecapharnaum.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/on-ne-badine-pas-avec-lamour-2027-05-20/",
+      "start_time": "20:30",
+      "end_time": "22:00",
+      "date_label": "Jeudi 20 mai 2027 de 20h30 à 22h00"
     }
   ]
 }

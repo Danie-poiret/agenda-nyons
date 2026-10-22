@@ -23,7 +23,10 @@
     return (event.sessions || []).filter(s => s.date > clock.day || (s.date === clock.day && s.time >= clock.time)).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
   }
   function isUpcoming(event, clock) {
-    return event.kind === 'cinema' ? futureSessions(event, clock).length > 0 : (event.end_date || event.start_date || '') >= clock.day;
+    if (event.date_warning) return false;
+    if (event.kind === 'cinema') return futureSessions(event, clock).length > 0;
+    const end=event.end_date || event.start_date || '';
+    return end>clock.day || (end===clock.day && (!event.end_time || event.end_time>=clock.time));
   }
   function eventPath(e) {
     if (e.page_url) return new URL(e.page_url, 'https://agenda.vivreanyons.fr/').pathname;
@@ -32,7 +35,7 @@
   }
   function nextKey(e, clock) {
     if (e.kind === 'cinema') { const s = futureSessions(e, clock)[0]; return s ? s.date + 'T' + s.time : '9999'; }
-    return (e.start_date < clock.day ? clock.day : e.start_date) + 'T00:00';
+    return (e.start_date < clock.day ? clock.day : e.start_date) + 'T' + (e.start_time || '00:00');
   }
   const api = {parisClock, monday, weekSlug, futureSessions, isUpcoming, nextKey};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
@@ -57,10 +60,18 @@
     const range = document.querySelector('meta[name="agenda-week-end"]');
     const status = document.getElementById('agenda-week-status');
     const archived = range && range.content < clock.day;
+    const weekStart=range?new Date(Date.parse(range.content+'T12:00:00Z')-6*86400000).toISOString().slice(0,10):null;
+    const listClock=weekStart&&weekStart>clock.day?{day:weekStart,time:'00:00'}:clock;
+    const listedSessions=e=>futureSessions(e,listClock).filter(s=>!range||s.date<=range.content);
+    const listedKey=e=>{if(e.kind==='cinema'){const s=listedSessions(e)[0];return s?s.date+'T'+s.time:'9999';}return nextKey(e,listClock);};
     if (status) {
       status.hidden = !archived;
       if (archived) status.innerHTML = `Cette semaine est terminée. Nous sommes le ${pretty(clock.day)}. <a href="${esc(weekLink)}"><strong>Voir la semaine en cours →</strong></a>`;
     }
+    if (location.pathname === '/evenements/') document.querySelectorAll('.grid > a.card').forEach(card => {
+      const end=card.dataset.eventEnd;
+      if (end && end < clock.day) card.hidden=true;
+    });
     if (!ready) return;
     const byPath = new Map(events.map(e => [eventPath(e), e]));
     document.querySelectorAll('.grid > a.card, .events > article.event').forEach(card => {
@@ -68,10 +79,11 @@
       const a = card.matches('a') ? card : card.querySelector('h3 a');
       if (!a) return;
       const e = byPath.get(new URL(a.href).pathname);
-      if (!e) return;
-      let sessions = futureSessions(e, clock);
+      if (!e) { if (location.pathname === '/evenements/') card.hidden=true; return; }
+      let sessions = listedSessions(e);
       if (range) sessions = sessions.filter(s => s.date <= range.content);
-      card.hidden = e.kind === 'cinema' ? sessions.length === 0 : !isUpcoming(e, clock);
+      card.hidden = !!e.date_warning || (e.kind === 'cinema' ? sessions.length === 0 : !isUpcoming(e, clock));
+      if (e.kind !== 'cinema' && e.start_date < clock.day) { const line=card.querySelector('.when, .date-line'); if(line && !line.textContent.startsWith('En cours'))line.textContent='En cours — '+line.textContent; }
       if (e.kind === 'cinema' && sessions.length) {
         const s = sessions[0], line = card.querySelector('.when, .date-line');
         if (line) line.textContent = `Prochaine séance : ${pretty(s.date)} à ${s.time.replace(':', ' h ')}`;
@@ -83,7 +95,7 @@
       Array.from(list.children).sort((a,b) => {
         const get = card => {const link = card.matches('a') ? card : card.querySelector('h3 a'); return link && byPath.get(new URL(link.href).pathname);};
         const ea = get(a), eb = get(b);
-        return (ea ? nextKey(ea,clock) : '9999').localeCompare(eb ? nextKey(eb,clock) : '9999');
+        return (ea ? listedKey(ea) : '9999').localeCompare(eb ? listedKey(eb) : '9999');
       }).forEach(card => list.append(card));
     });
     const active = events.filter(e => isUpcoming(e, clock)).sort((a,b) => nextKey(a,clock).localeCompare(nextKey(b,clock)) || a.title.localeCompare(b.title));
