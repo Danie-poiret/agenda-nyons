@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:cars-2026-10-21-1700@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261021T150000Z
 SUMMARY:Cars — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -16,7 +16,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:cars-2026-10-25-1500@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261025T140000Z
 SUMMARY:Cars — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -28,7 +28,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:cars-2026-10-26-1730@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261026T163000Z
 SUMMARY:Cars — Séance spéciale 20 ans — goûter dès 17 h
 LOCATION:28 place de la Libération\, 26110 Nyons

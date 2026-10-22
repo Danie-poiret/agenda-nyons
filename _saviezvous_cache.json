@@ -428,13 +428,6 @@
       "version": 1,
       "generated_at": "2026-09-29T17:35:08.718716+00:00"
     },
-    "conseil-municipal-2026-10-21": {
-      "text": "En France, le conseil municipal est l’assemblée délibérante de la commune. Élu au suffrage universel direct, il règle par ses délibérations les affaires locales, notamment le budget communal, les services publics et certains projets d’aménagement.",
-      "source_label": "",
-      "model": "gpt-5.6-terra",
-      "version": 1,
-      "generated_at": "2026-09-29T17:35:08.719228+00:00"
-    },
     "les-documentaires-de-luntl-de-la-liberation-a-lepuration-2026-10-21": {
       "text": "La Libération de la France en 1944-1945 s’est accompagnée d’une épuration visant les personnes accusées de collaboration avec l’occupant. Elle a pris des formes légales, par des juridictions instituées à cette fin, mais aussi des formes extrajudiciaires.",
       "source_label": "",
@@ -700,6 +693,13 @@
       "model": "gpt-5.6-terra",
       "version": 1,
       "generated_at": "2026-10-06T08:35:56.386141+00:00"
+    },
+    "conseil-municipal-2026-11-18": {
+      "text": "En France, le conseil municipal est l’assemblée délibérante de la commune, élue au suffrage universel direct. Il règle les affaires communales par des délibérations, notamment sur le budget, les services publics locaux, le patrimoine communal et certains projets d’aménagement.",
+      "source_label": "",
+      "model": "gpt-5.6-terra",
+      "version": 1,
+      "generated_at": "2026-10-22T11:58:39.646248+00:00"
     },
     "salon-vivre-ici-2026-11-18": {
       "text": "Habiter un territoire ne se limite pas au logement : cela concerne aussi l’accès aux études, au travail, aux services, aux mobilités et aux réseaux associatifs. Les salons d’information permettent de réunir des acteurs intervenant dans ces différents aspects de la vie quotidienne.",

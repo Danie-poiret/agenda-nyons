@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conseil-municipal-2026-11-18@agenda.vivreanyons.fr
+DTSTAMP:20261022T115834Z
+DTSTART;TZID=Europe/Paris:20261118T183000
+DTEND;TZID=Europe/Paris:20261118T200000
+SUMMARY:Conseil Municipal
+DESCRIPTION:À l’occasion du conseil municipal\, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.\nhttps://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-11-18/
+LOCATION:Hôtel de Ville\, place Buffaven - 26110 Nyons
+URL:https://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-11-18/
+END:VEVENT
+END:VCALENDAR

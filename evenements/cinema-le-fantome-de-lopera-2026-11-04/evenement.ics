@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-04-2030@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261104T193000Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
@@ -18,7 +18,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-06-1545@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261106T144500Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
@@ -32,7 +32,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-07-1745@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261107T164500Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
@@ -46,7 +46,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-08-1500@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261108T140000Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
@@ -60,7 +60,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-08-1930@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261108T183000Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
@@ -74,7 +74,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-09-1600@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261109T150000Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
@@ -88,7 +88,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-fantome-de-lopera-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-fantome-de-lopera-2026-11-10-1815@agenda.vivreanyons.fr
-DTSTAMP:20261021T115422Z
+DTSTAMP:20261022T115834Z
 DTSTART:20261110T171500Z
 SUMMARY:Le Fantôme de l’Opéra — Version non précisée dans le prog
  ramme
