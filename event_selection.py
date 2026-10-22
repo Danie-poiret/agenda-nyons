@@ -2,6 +2,14 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+def clean_summary(text):
+    """Remove only navigation/footer content accidentally captured on the source's last card."""
+    import re
+    text=str(text or '')
+    text=re.split(r'Abonnement aux informations de la ville de Nyons|Recevez les dernières actualités de la ville',text,maxsplit=1,flags=re.I)[0]
+    text=re.split(r'\s+1\s+2\s+3\s+4\s+5(?:\s|$)',text,maxsplit=1)[0]
+    return text.strip(' \t\r\n→➜')
+
 def clock(now=None):
     return (now or datetime.now(ZoneInfo('Europe/Paris'))).astimezone(ZoneInfo('Europe/Paris'))
 
@@ -42,6 +50,7 @@ def enrich(events,detail_cache,event_cache):
     months={'janvier':1,'février':2,'mars':3,'avril':4,'mai':5,'juin':6,'juillet':7,'août':8,'septembre':9,'octobre':10,'novembre':11,'décembre':12}
     pattern=r'(\d{1,2}) ('+'|'.join(months)+r') (20\d{2})'
     for e in events:
+        if 'summary' in e:e['summary']=clean_summary(e['summary'])
         if e.get('kind')=='cinema':continue
         cached=event_cache.get(e.get('url'),{});p=detail_cache.get(e.get('url'),{}).get('practical') or cached.get('practical') or {}
         e['practical']=p
@@ -58,3 +67,4 @@ def enrich(events,detail_cache,event_cache):
                 e['date_warning']='Date à confirmer : les données de calendrier et le texte de cette fiche se contredisent. Vérifiez auprès de l’organisateur.'
         if e.get('date_warning'):print('DATE A CONFIRMER — '+e['title'])
     return events
+

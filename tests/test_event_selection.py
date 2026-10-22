@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime,date,timedelta
 from zoneinfo import ZoneInfo
-from event_selection import select,sessions,week_key,upcoming
+from event_selection import select,sessions,week_key,upcoming,clean_summary
 
 class EventSelectionTests(unittest.TestCase):
     def setUp(self):
@@ -26,8 +26,12 @@ class EventSelectionTests(unittest.TestCase):
     def test_known_end_time_hides_finished_workshop(self):
         e={'title':'Atelier','start_date':'2026-10-22','end_date':'2026-10-22','end_time':'12:00'}
         self.assertFalse(upcoming(e,self.now))
+    def test_tapenades_description_excludes_source_footer(self):
+        text="Atelier culinaire, réalisation de tapenades et tartinables 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Mairie de Nyons"
+        self.assertEqual(clean_summary(text),'Atelier culinaire, réalisation de tapenades et tartinables')
     def test_dst_is_resolved_in_paris(self):
         self.assertEqual(datetime(2026,10,24,20,tzinfo=ZoneInfo('Europe/Paris')).utcoffset(),timedelta(hours=2))
         self.assertEqual(datetime(2026,10,25,20,tzinfo=ZoneInfo('Europe/Paris')).utcoffset(),timedelta(hours=1))
 
 if __name__=='__main__':unittest.main()
+
