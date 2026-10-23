@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:bourse-aux-jouets-2026-11-21@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART;TZID=Europe/Paris:20261121T090000
 DTEND;TZID=Europe/Paris:20261121T170000
 SUMMARY:Bourse aux jouets
-DESCRIPTION:Organisée par les Nounous Super Chouette\, samedi 21 novembre à la Maison de Pays. 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 15.7°C / 15.7°C Contact Recherche Me\nhttps://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/
+DESCRIPTION:Organisée par les Nounous Super Chouette\, samedi 21 novembre à la Maison de Pays.\nhttps://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/
 LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/
 END:VEVENT

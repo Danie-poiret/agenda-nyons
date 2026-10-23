@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-brownies-dhalloween-2026-10-31@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART;TZID=Europe/Paris:20261031T143000
 DTEND;TZID=Europe/Paris:20261031T160000
 SUMMARY:Atelier culinaire – Brownies d’Halloween
-DESCRIPTION:Atelier culinaire\, réalisation de brownies d'\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-brownies-dhalloween-2026-10-31/
+DESCRIPTION:Atelier culinaire\, réalisation de brownies d'Halloween\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-brownies-dhalloween-2026-10-31/
 LOCATION:Maison des Huiles d'Olives & Olives de France - — 40 place de la Libération\, 26110 Nyons
 URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-brownies-dhalloween-2026-10-31/
 END:VEVENT

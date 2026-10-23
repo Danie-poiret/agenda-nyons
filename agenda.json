@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-22T11:57:20.613729+00:00",
-  "count": 144,
+  "updated_at": "2026-10-23T11:43:32.325989+00:00",
+  "count": 143,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -3325,10 +3325,10 @@
       "date_label": "Jeudi 29 octobre 2026 de 16h30 à 18h00"
     },
     {
-      "title": "Dédicace de Colette Brun Castelly",
+      "title": "Réunion Bailleurs : information sur la rénovation de votre logement",
       "start_date": "2026-10-29",
       "end_date": "2026-10-29",
-      "summary": "L'autrice présentera son 8e roman, \"Mambo et utopie\".",
+      "summary": "SOLIHA et Bail Rénov' organisent une réunion d'information à destination des propriétaires bailleurs.",
       "categories": [
         "Administratif",
         "Cadre de vie",
@@ -3339,28 +3339,6 @@
         "Vie associative",
         "Culture",
         "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/dedicace-de-colette-brun-castelly/",
-      "practical": {
-        "date_time": "Jeudi 29 octobre 2026 de 10h00 à 18h00",
-        "location_name": "Librairie de l'Olivier,",
-        "address": "8 place de la Libération - 26110 NYONS",
-        "phone": "0475260491",
-        "email": "librairie.olivier@club-internet.fr",
-        "website": "https://librairiedelolivier.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/dedicace-de-colette-brun-castelly-2026-10-29/",
-      "start_time": "10:00",
-      "end_time": "18:00",
-      "date_label": "Jeudi 29 octobre 2026 de 10h00 à 18h00"
-    },
-    {
-      "title": "Réunion Bailleurs : information sur la rénovation de votre logement",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "summary": "SOLIHA et Bail Rénov' organisent une réunion d'information à destination des propriétaires bailleurs.",
-      "categories": [
-        "Cadre de vie"
       ],
       "url": "https://www.nyons.com/agenda/reunion-bailleurs-connaitre-comprendre-les-aides-a-la-renovation-2/",
       "practical": {
@@ -3380,7 +3358,7 @@
       "title": "Atelier cosmétique – Maquillage d’Halloween",
       "start_date": "2026-10-30",
       "end_date": "2026-10-30",
-      "summary": "Atelier cosmétique atour de la création de maquillage pour Halloween",
+      "summary": "Atelier cosmétique atour de la création de maquillage pour",
       "categories": [
         "Sport / Loisirs",
         "Loisirs"
@@ -3403,10 +3381,11 @@
       "title": "Atelier culinaire – Brownies d’Halloween",
       "start_date": "2026-10-31",
       "end_date": "2026-10-31",
-      "summary": "Atelier culinaire, réalisation de brownies d'",
+      "summary": "Atelier culinaire, réalisation de brownies d'Halloween",
       "categories": [
         "Patrimoine / Culture vivante",
         "Sport / Loisirs",
+        "Vie associative",
         "Culture",
         "Loisirs"
       ],
@@ -3586,9 +3565,7 @@
       "end_date": "2026-11-01",
       "summary": "Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons.",
       "categories": [
-        "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/ceremonie-dhommage-aux-morts-pour-la-france/",
       "practical": {
@@ -4423,9 +4400,15 @@
       "end_date": "2026-11-07",
       "summary": "Organisé par l'AFIS Science (Association française pour l’information scientifique).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/",
       "practical": {
@@ -4447,15 +4430,8 @@
       "end_date": "2026-11-07",
       "summary": "Comédie d'intrigue de Maxence Descamps",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/droles-de-coincidences-2/",
       "practical": {
@@ -4778,15 +4754,7 @@
       "end_date": "2026-11-14",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale/",
       "practical": {
@@ -4879,9 +4847,15 @@
       "end_date": "2026-11-14",
       "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/toupetituli-2/",
       "practical": {
@@ -5040,15 +5014,8 @@
       "end_date": "2026-11-21",
       "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
       "practical": {
@@ -5094,9 +5061,15 @@
       "end_date": "2026-11-21",
       "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
       "practical": {
@@ -5257,9 +5230,15 @@
       "end_date": "2026-12-05",
       "summary": "Un atelier pour préparer Noël !",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-4/",
       "practical": {
@@ -5281,15 +5260,7 @@
       "end_date": "2026-12-06",
       "summary": "Téléthon 2026",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/telethon-2026/",
       "practical": {
@@ -5498,15 +5469,8 @@
       "end_date": "2027-01-01",
       "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/",
       "practical": {
@@ -5528,9 +5492,15 @@
       "end_date": "2027-01-04",
       "summary": "Conférence présentée par Robert Gleize, agrégé de physique",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/",
       "practical": {
@@ -5738,15 +5708,8 @@
       "end_date": "2027-02-06",
       "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-grands-chemins/",
       "practical": {
@@ -5768,8 +5731,14 @@
       "end_date": "2027-02-13",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/",
@@ -5977,15 +5946,8 @@
       "end_date": "2027-04-02",
       "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/et-maintenant-jattends/",
       "practical": {
@@ -6007,9 +5969,15 @@
       "end_date": "2027-04-07",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/",
       "practical": {

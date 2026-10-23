@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:la-tentazione-2026-11-04-1845@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART:20261104T174500Z
 SUMMARY:La Tentazione — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -17,7 +17,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11
 END:VEVENT
 BEGIN:VEVENT
 UID:la-tentazione-2026-11-06-2045@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART:20261106T194500Z
 SUMMARY:La Tentazione — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -30,7 +30,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11
 END:VEVENT
 BEGIN:VEVENT
 UID:la-tentazione-2026-11-09-1630@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART:20261109T153000Z
 SUMMARY:La Tentazione — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -43,7 +43,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11
 END:VEVENT
 BEGIN:VEVENT
 UID:la-tentazione-2026-11-09-2130@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART:20261109T203000Z
 SUMMARY:La Tentazione — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11
 END:VEVENT
 BEGIN:VEVENT
 UID:la-tentazione-2026-11-10-1430@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART:20261110T133000Z
 SUMMARY:La Tentazione — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -69,7 +69,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-tentazione-2026-11
 END:VEVENT
 BEGIN:VEVENT
 UID:la-tentazione-2026-11-10-1645@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART:20261110T154500Z
 SUMMARY:La Tentazione — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons

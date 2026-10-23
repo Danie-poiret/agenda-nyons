@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-cosmetique-maquillage-dhalloween-2026-10-30@agenda.vivreanyons.fr
-DTSTAMP:20261022T115834Z
+DTSTAMP:20261023T114343Z
 DTSTART;TZID=Europe/Paris:20261030T143000
 DTEND;TZID=Europe/Paris:20261030T153000
 SUMMARY:Atelier cosmétique – Maquillage d’Halloween
-DESCRIPTION:Atelier cosmétique atour de la création de maquillage pour Halloween\nhttps://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-30/
+DESCRIPTION:Atelier cosmétique atour de la création de maquillage pour\nhttps://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-30/
 LOCATION:Maison des Huiles d'Olives & Olives de France - — 40 place de la Libération\, 26110 Nyons
 URL:https://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-30/
 END:VEVENT
