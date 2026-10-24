@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-23T11:43:32.325989+00:00",
-  "count": 143,
+  "updated_at": "2026-10-24T11:05:51.910448+00:00",
+  "count": 142,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -2417,29 +2417,6 @@
       }
     },
     {
-      "title": "Atelier cosmétique – Savon d’Halloween",
-      "start_date": "2026-10-22",
-      "end_date": "2026-10-22",
-      "summary": "Atelier cosmétique sur le thème d'Halloween",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween/",
-      "practical": {
-        "date_time": "Jeudi 22 octobre 2026 de 10h30 à 11h30",
-        "location_name": "Maison des Huiles d'Olives & Olives de France -",
-        "address": "40 place de la Libération, 26110 Nyons",
-        "phone": "0475269090",
-        "email": "contact@maisondeshuilesetolives.fr",
-        "website": "https://maisondeshuilesetolives.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-cosmetique-savon-dhalloween-2026-10-22/",
-      "start_time": "10:30",
-      "end_time": "11:30",
-      "date_label": "Jeudi 22 octobre 2026 de 10h30 à 11h30"
-    },
-    {
       "title": "Cinéma — Verity",
       "film_title": "Verity",
       "kind": "cinema",
@@ -2505,29 +2482,6 @@
         "poster": "https://images.monnaie-services.com/movie_poster/320/FR3OZ6O/RHUN4REB.webp",
         "poster_alt": "Affiche de Verity, au cinéma L’Arlequin de Nyons."
       }
-    },
-    {
-      "title": "« SAISON 4 » de Romuald Maufras",
-      "start_date": "2026-10-23",
-      "end_date": "2026-10-23",
-      "summary": "En tournée dans toute la France avec son nouveau spectacle !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/saison-4-de-romuald-maufras/",
-      "practical": {
-        "date_time": "Vendredi 23 octobre 2026 de 20h00 à 21h30",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "04 75 26 50 10",
-        "email": "l.flouret@nyons.com",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/saison-4-de-romuald-maufras-2026-10-23/",
-      "start_time": "20:00",
-      "end_time": "21:30",
-      "date_label": "Vendredi 23 octobre 2026 de 20h00 à 21h30"
     },
     {
       "title": "Foire aux livres d’occasion",
@@ -3282,7 +3236,14 @@
       "end_date": "2026-10-29",
       "summary": "Atelier cosmétique sur le thème d'Halloween",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-cosmetique-savon-dhalloween-2/",
@@ -3325,20 +3286,35 @@
       "date_label": "Jeudi 29 octobre 2026 de 16h30 à 18h00"
     },
     {
+      "title": "Dédicace de Colette Brun Castelly",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "summary": "L'autrice présentera son 8e roman, \"Mambo et utopie\".",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/dedicace-de-colette-brun-castelly/",
+      "practical": {
+        "date_time": "Jeudi 29 octobre 2026 de 10h00 à 18h00",
+        "location_name": "Librairie de l'Olivier,",
+        "address": "8 place de la Libération - 26110 NYONS",
+        "phone": "0475260491",
+        "email": "librairie.olivier@club-internet.fr",
+        "website": "https://librairiedelolivier.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/dedicace-de-colette-brun-castelly-2026-10-29/",
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "date_label": "Jeudi 29 octobre 2026 de 10h00 à 18h00"
+    },
+    {
       "title": "Réunion Bailleurs : information sur la rénovation de votre logement",
       "start_date": "2026-10-29",
       "end_date": "2026-10-29",
       "summary": "SOLIHA et Bail Rénov' organisent une réunion d'information à destination des propriétaires bailleurs.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Cadre de vie"
       ],
       "url": "https://www.nyons.com/agenda/reunion-bailleurs-connaitre-comprendre-les-aides-a-la-renovation-2/",
       "practical": {
@@ -4400,15 +4376,9 @@
       "end_date": "2026-11-07",
       "summary": "Organisé par l'AFIS Science (Association française pour l’information scientifique).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/",
       "practical": {
@@ -4570,9 +4540,15 @@
       "end_date": "2026-11-09",
       "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/",
       "practical": {
@@ -4776,8 +4752,15 @@
       "end_date": "2026-11-14",
       "summary": "Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie \" L'Épopée Belle \"",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/",
       "practical": {
@@ -4847,15 +4830,9 @@
       "end_date": "2026-11-14",
       "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/toupetituli-2/",
       "practical": {
@@ -5037,9 +5014,15 @@
       "end_date": "2026-11-21",
       "summary": "\"Va dans le bois mon enfant, car si tu n’y vas pas, jamais ta vie de loba ne commencera !\"",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/la-loba-contes-et-rencontres/",
       "practical": {
@@ -5061,15 +5044,9 @@
       "end_date": "2026-11-21",
       "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
       "practical": {
@@ -5230,15 +5207,9 @@
       "end_date": "2026-12-05",
       "summary": "Un atelier pour préparer Noël !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-4/",
       "practical": {
@@ -5282,9 +5253,15 @@
       "end_date": "2026-12-07",
       "summary": "Présentée par Jean-Luc Boissel, astrophysicien, professeur à l'INSA de Lyon.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/",
       "practical": {
@@ -5492,15 +5469,9 @@
       "end_date": "2027-01-04",
       "summary": "Conférence présentée par Robert Gleize, agrégé de physique",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/",
       "practical": {
@@ -5522,8 +5493,15 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -5731,14 +5709,8 @@
       "end_date": "2027-02-13",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/",
@@ -5759,8 +5731,15 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -5969,15 +5948,9 @@
       "end_date": "2027-04-07",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/",
       "practical": {
@@ -5999,8 +5972,14 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",

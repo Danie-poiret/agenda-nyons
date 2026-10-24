@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:le-mystere-lucy-lost-2026-11-04-1400@agenda.vivreanyons.fr
-DTSTAMP:20261023T114343Z
+DTSTAMP:20261024T110558Z
 DTSTART:20261104T130000Z
 SUMMARY:Le Mystère Lucy Lost — Version non précisée dans le programm
  e
@@ -18,7 +18,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-mystere-lucy-lost-2026-11-04-1830@agenda.vivreanyons.fr
-DTSTAMP:20261023T114343Z
+DTSTAMP:20261024T110558Z
 DTSTART:20261104T173000Z
 SUMMARY:Le Mystère Lucy Lost — Version non précisée dans le programm
  e
@@ -32,7 +32,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-mystere-lucy-lost-2026-11-06-2100@agenda.vivreanyons.fr
-DTSTAMP:20261023T114343Z
+DTSTAMP:20261024T110558Z
 DTSTART:20261106T200000Z
 SUMMARY:Le Mystère Lucy Lost — Version non précisée dans le programm
  e
@@ -46,7 +46,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-mystere-lucy-lost-2026-11-07-1715@agenda.vivreanyons.fr
-DTSTAMP:20261023T114343Z
+DTSTAMP:20261024T110558Z
 DTSTART:20261107T161500Z
 SUMMARY:Le Mystère Lucy Lost — Version non précisée dans le programm
  e
@@ -60,7 +60,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-mystere-lucy-lost-2026-11-08-1500@agenda.vivreanyons.fr
-DTSTAMP:20261023T114343Z
+DTSTAMP:20261024T110558Z
 DTSTART:20261108T140000Z
 SUMMARY:Le Mystère Lucy Lost — Version non précisée dans le programm
  e
@@ -74,7 +74,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-le-mystere-lucy-lost-
 END:VEVENT
 BEGIN:VEVENT
 UID:le-mystere-lucy-lost-2026-11-10-1900@agenda.vivreanyons.fr
-DTSTAMP:20261023T114343Z
+DTSTAMP:20261024T110558Z
 DTSTART:20261110T180000Z
 SUMMARY:Le Mystère Lucy Lost — Version non précisée dans le programm
  e
