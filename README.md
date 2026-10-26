@@ -69,3 +69,11 @@ Météo : service gratuit wttr.in (et son domaine équivalent wttr.is), format J
 Le module n’importe aucun générateur d’événement et n’appelle jamais OpenAI. Les scripts et caches éditoriaux existants sont conservés. Aucun rafraîchissement supplémentaire du workflow payant n’est lancé pour publier ce module.
 
 Vérification indépendante (aucune API payante, aucun secret) : workflow check-today.yml, tests Python et Node sur dates Paris, week-end, intervalles, séances explicites, liens existants, météo manquante, génération répétée et conservation des données.
+
+## Actualisation sans clé ni API payante
+
+Le workflow quotidien ne transmet plus de clé OpenAI et n’installe pas son SDK. Les textes éditoriaux déjà enregistrés sont conservés ; les nouvelles fiches et semaines utilisent les informations officielles et les modèles locaux existants. La page « Nyons aujourd’hui » continue à réutiliser ces mêmes données.
+
+Les « Le saviez-vous » proviennent uniquement des faits enregistrés ou des repères manuels de `fix_saviezvous.py`. Un fait doit rester pertinent et unique. Si aucun fait adapté n’est disponible, seul ce bloc facultatif est omis : aucun texte n’est inventé et la publication de l’événement n’est pas bloquée. Les faits du cache restent conservés pour les mises à jour suivantes.
+
+La mise à jour se lance aussi lors d’un changement de ces scripts ou du workflow, sur `main`. Les seuls changements de données produits par l’automatisation ne la relancent pas.

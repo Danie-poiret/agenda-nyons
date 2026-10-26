@@ -1,34 +1,25 @@
 #!/usr/bin/env python3
 """Crée un « Le saviez-vous ? » unique et réellement lié à chaque fiche.
 
-Les textes sont conservés dans _saviezvous_cache.json. Une fiche déjà traitée
-n'occasionne donc aucun nouvel appel à l'API lors des mises à jour quotidiennes.
+Réutilise les faits enregistrés dans _saviezvous_cache.json et les repères
+manuels, sans API. Sans fait pertinent disponible, le bloc facultatif est omis :
+la récupération et la publication des événements continuent normalement.
 """
 from __future__ import annotations
 
 import hashlib
 import html
 import json
-import os
 import re
-import sys
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-
-try:
-    from openai import OpenAI
-except Exception:
-    OpenAI = None
 
 ROOT = Path(__file__).resolve().parent
 EVENT_CACHE = ROOT / "_event_seo_cache.json"
 FACT_CACHE = ROOT / "_saviezvous_cache.json"
 EVENTS_DIR = ROOT / "evenements"
 FACT_VERSION = 1
-BATCH_SIZE = int(os.getenv("SAVIEZVOUS_BATCH_SIZE", "30"))
-MAX_API_CALLS = int(os.getenv("MAX_SAVIEZVOUS_API_CALLS", "8"))
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-terra")
 
 STOPWORDS = {
     "administratif", "ancien", "ancienne", "apres", "atelier", "avec",
@@ -122,35 +113,6 @@ def manual_fact(item):
         return {"text": "La pétanque moderne est née à La Ciotat en 1907. Son nom vient du provençal « pèd tanca », qui signifie jouer les pieds plantés.", "source_label": "Fédération Française de Pétanque et de Jeu Provençal"}
     return None
 
-def batch_payload(batch):
-    result = []
-    for slug, item in batch:
-        event = item.get("event") or {}
-        editorial = item.get("editorial") or {}
-        result.append({"event_key": slug, "title": clean(event.get("title", "")), "reader_question": clean(editorial.get("reader_question", "")), "summary": clean(event.get("summary", ""))[:700], "categories": event.get("categories") or [], "editorial_context": clean(" ".join([editorial.get("seo_title", ""), editorial.get("meta_description", ""), editorial.get("intro", "")]))[:850]})
-    return result
-
-def generate_batch(batch, used_texts):
-    api_key = os.getenv("OPENAI_API_KEY", "").strip()
-    if not api_key or OpenAI is None:
-        return {}
-    schema = {"type": "object", "properties": {"facts": {"type": "array", "items": {"type": "object", "properties": {"event_key": {"type": "string"}, "text": {"type": "string"}}, "required": ["event_key", "text"], "additionalProperties": False}}}, "required": ["facts"], "additionalProperties": False}
-    system = ("Tu es fact-checkeur et médiateur culturel. Pour chaque événement, écris un fait pédagogique en français, réel, prudent et directement lié à son sujet principal. N'invente jamais un fait sur l'événement, son programme ou une personne nommée. Pour un titre artistique obscur, utilise un fait certain sur la discipline clairement indiquée par le résumé : théâtre, musique, danse, littérature, peinture, etc. N'attribue aucun bienfait médical non démontré.")
-    prompt = ("Produis exactement un texte pour chaque event_key.\nLe vrai sujet doit être déduit en priorité de title et reader_question, puis confirmé par summary et editorial_context. Reader_question est un indice : ne la recopie pas.\n\nRègles absolues :\n- environ 25 à 55 mots ;\n- fait général vérifiable et lien évident avec le sujet ;\n- aucune invention sur l'événement ou l'artiste ;\n- pas de statistique récente, de conseil médical, d'URL ou de source inventée ;\n- tous les textes doivent être différents, y compris pour les événements portant le même titre ; choisis alors des angles factuels distincts ;\n- ne parle jamais de Nyons par défaut lorsqu'un sujet plus précis existe.\n\n" + f"TEXTES DÉJÀ UTILISÉS:\n{json.dumps(used_texts[-140:], ensure_ascii=False)}\n\n" + f"FICHES:\n{json.dumps(batch_payload(batch), ensure_ascii=False, indent=2)}")
-    response = OpenAI(api_key=api_key).responses.create(model=OPENAI_MODEL, store=False, input=[{"role": "system", "content": system}, {"role": "user", "content": prompt}], text={"format": {"type": "json_schema", "name": "agenda_nyons_saviezvous", "strict": True, "schema": schema}})
-    data = json.loads(response.output_text)
-    expected = {slug: item for slug, item in batch}
-    used_keys = {fact_key(text) for text in used_texts}
-    result = {}
-    for value in data.get("facts", []):
-        slug = clean(value.get("event_key", ""))
-        text = clean(value.get("text", ""))
-        key = fact_key(text)
-        if slug in expected and slug not in result and valid_fact(text) and topical_fact(expected[slug], text) and key and key not in used_keys:
-            result[slug] = {"text": text, "source_label": ""}
-            used_keys.add(key)
-    return result
-
 def load_fact_cache():
     if not FACT_CACHE.exists():
         return {"version": FACT_VERSION, "entries": {}}
@@ -166,10 +128,17 @@ def stable_record(fact, old=None, model=None):
     old = old if isinstance(old, dict) else {}
     if clean(old.get("text")) == clean(fact.get("text")):
         return old
-    return {"text": clean(fact.get("text", "")), "source_label": clean(fact.get("source_label", "")), "model": model or OPENAI_MODEL, "version": FACT_VERSION, "generated_at": datetime.now(timezone.utc).isoformat()}
+    return {"text": clean(fact.get("text", "")), "source_label": clean(fact.get("source_label", "")), "model": model or "cache", "version": FACT_VERSION, "generated_at": datetime.now(timezone.utc).isoformat()}
 
 def render_fact(page, fact):
     section_re = re.compile(r'<section class="section anecdote"><h2>💡 Le saviez-vous \?</h2>.*?</section>', re.S)
+    if fact is None:
+        old = page.read_text(encoding="utf-8")
+        new = section_re.sub("", old)
+        if new != old:
+            page.write_text(new, encoding="utf-8")
+            return True
+        return False
     source = clean(fact.get("source_label", ""))
     source_html = f'<p class="heritage-source">Repère documentaire : {html.escape(source, quote=True)}</p>' if source else ""
     block = '<section class="section anecdote"><h2>💡 Le saviez-vous ?</h2>' + f'<p>{html.escape(clean(fact["text"]), quote=True)}</p>' + source_html + '</section>'
@@ -197,60 +166,47 @@ def main():
     for slug, item in entries:
         manual = manual_fact(item)
         cached = cached_facts.get(slug) if isinstance(cached_facts, dict) else None
-        candidate = manual or cached
-        if not isinstance(candidate, dict):
-            continue
-        text = clean(candidate.get("text", ""))
-        key = fact_key(text)
-        if valid_fact(text) and (manual or topical_fact(item, text)) and key and key not in used_keys:
-            assigned[slug] = {"text": text, "source_label": clean(candidate.get("source_label", ""))}
-            used_keys.add(key)
-    missing = [(slug, item) for slug, item in entries if slug not in assigned]
-    calls = 0
-    while missing and calls < MAX_API_CALLS:
-        batch = missing[:BATCH_SIZE]
-        try:
-            generated = generate_batch(batch, [fact["text"] for fact in assigned.values()])
-        except Exception as exc:
-            print(f"Erreur génération Le saviez-vous : {exc}", file=sys.stderr)
-            generated = {}
-        calls += 1
-        if not generated:
-            break
-        for slug, fact in generated.items():
-            key = fact_key(fact["text"])
-            if slug not in assigned and key not in used_keys:
-                assigned[slug] = fact
+        for candidate in (manual, cached):
+            if not isinstance(candidate, dict):
+                continue
+            text = clean(candidate.get("text", ""))
+            key = fact_key(text)
+            if valid_fact(text) and topical_fact(item, text) and key and key not in used_keys:
+                assigned[slug] = {"text": text, "source_label": clean(candidate.get("source_label", ""))}
                 used_keys.add(key)
-        missing = [(slug, item) for slug, item in entries if slug not in assigned]
-    if missing:
-        sample = ", ".join(slug for slug, _ in missing[:6])
-        raise RuntimeError(f"Correction interrompue : {len(missing)} fiche(s) sans fait thématique, dont {sample}")
-    if len(used_keys) != len(entries):
+                break
+    missing = [(slug, item) for slug, item in entries if slug not in assigned]
+    if len(used_keys) != len(assigned):
         raise RuntimeError("Des textes Le saviez-vous sont encore dupliqués")
-    updated_cache = {}
+    updated_cache = dict(cached_facts)
     changed = 0
     for slug, item in entries:
-        fact = assigned[slug]
-        manual = manual_fact(item)
-        old = cached_facts.get(slug) if isinstance(cached_facts, dict) else None
-        record = stable_record(fact, old, model="manual" if manual else OPENAI_MODEL)
-        updated_cache[slug] = record
-        item["anecdote_id"] = "topic-" + hashlib.sha256(record["text"].encode("utf-8")).hexdigest()[:16]
-        item["anecdote_assignment_version"] = 100 + FACT_VERSION
         page = EVENTS_DIR / slug / "index.html"
         if not page.exists():
             raise RuntimeError(f"Fiche HTML absente : {page}")
+        if slug not in assigned:
+            if render_fact(page, None):
+                changed += 1
+            item.pop("anecdote_id", None)
+            item.pop("anecdote_assignment_version", None)
+            continue
+        fact = assigned[slug]
+        manual = manual_fact(item)
+        old = cached_facts.get(slug) if isinstance(cached_facts, dict) else None
+        record = stable_record(fact, old, model="manual" if manual else "cache")
+        updated_cache[slug] = record
+        item["anecdote_id"] = "topic-" + hashlib.sha256(record["text"].encode("utf-8")).hexdigest()[:16]
+        item["anecdote_assignment_version"] = 100 + FACT_VERSION
         if render_fact(page, record):
             changed += 1
     fact_cache = {"version": FACT_VERSION, "entries": updated_cache}
     FACT_CACHE.write_text(json.dumps(fact_cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     EVENT_CACHE.write_text(json.dumps(event_cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Le saviez-vous : {len(entries)} faits thématiques uniques contrôlés.")
-    print(f"Pages modifiées : {changed}. Appels API groupés : {calls}.")
+    print(f"Le saviez-vous : {len(assigned)} faits thématiques uniques conservés, {len(missing)} blocs facultatifs omis.")
+    print(f"Pages modifiées : {changed}. Aucun appel API.")
     for wanted in ("lactofermentation", "brownies", "education-populaire"):
         for slug, _item in entries:
-            if wanted in slug:
+            if wanted in slug and slug in assigned:
                 print(f"CONTROLE {slug}: {assigned[slug]['text']}")
                 break
 

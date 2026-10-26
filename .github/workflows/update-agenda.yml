@@ -2,6 +2,13 @@ name: Mise a jour agenda Nyons
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-agenda.yml'
+      - 'fix_saviezvous.py'
+      - 'requirements.txt'
+      - 'tests/test_no_api_agenda.py'
   schedule:
     - cron: "17 6 * * *"
 
@@ -24,10 +31,11 @@ jobs:
       - name: Installer les dependances
         run: python -m pip install -r requirements.txt
 
+      - name: Verifier le fonctionnement sans API payante
+        run: python -m unittest discover -s tests -p test_no_api_agenda.py -v
+
       - name: Recuperer agenda et generer les pages SEO
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-5.6-terra
           NYONS_DEFER_SITEMAP_STATE: "1"
         run: python update_agenda.py
 
@@ -97,10 +105,7 @@ jobs:
               p.write_text(s, encoding="utf-8")
           PY
 
-      - name: Corriger uniquement les Le saviez-vous
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-5.6-terra
+      - name: Completer les Le saviez-vous depuis les textes enregistres
         run: python fix_saviezvous.py
 
       - name: Generer Nyons aujourd hui depuis les donnees existantes
