@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cueillette-solidaire-des-olives-de-nyons-2026-11-07@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART;TZID=Europe/Paris:20261107T073000
 DTEND;TZID=Europe/Paris:20261107T120000
 SUMMARY:Cueillette solidaire des olives de Nyons

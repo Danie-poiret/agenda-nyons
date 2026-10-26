@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:boite-a-cordees-2027-05-14@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART;TZID=Europe/Paris:20270514T103000
 DTEND;TZID=Europe/Paris:20270514T152000
 SUMMARY:Boite à cordées
-DESCRIPTION:Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 17.5°C / 17.5°C Contact R\nhttps://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
+DESCRIPTION:Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.\nhttps://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
 LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/boite-a-cordees-2027-05-14/
 END:VEVENT

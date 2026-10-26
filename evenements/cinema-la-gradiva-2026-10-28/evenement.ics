@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:la-gradiva-2026-10-28-1100@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART:20261028T100000Z
 SUMMARY:La Gradiva — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -17,7 +17,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28
 END:VEVENT
 BEGIN:VEVENT
 UID:la-gradiva-2026-10-28-2100@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART:20261028T200000Z
 SUMMARY:La Gradiva — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -30,7 +30,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28
 END:VEVENT
 BEGIN:VEVENT
 UID:la-gradiva-2026-10-30-1745@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART:20261030T164500Z
 SUMMARY:La Gradiva — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -43,7 +43,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28
 END:VEVENT
 BEGIN:VEVENT
 UID:la-gradiva-2026-10-31-1400@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART:20261031T130000Z
 SUMMARY:La Gradiva — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28
 END:VEVENT
 BEGIN:VEVENT
 UID:la-gradiva-2026-11-01-1915@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART:20261101T181500Z
 SUMMARY:La Gradiva — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -69,7 +69,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-la-gradiva-2026-10-28
 END:VEVENT
 BEGIN:VEVENT
 UID:la-gradiva-2026-11-02-1400@agenda.vivreanyons.fr
-DTSTAMP:20261026T133109Z
+DTSTAMP:20261026T135329Z
 DTSTART:20261102T130000Z
 SUMMARY:La Gradiva — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons

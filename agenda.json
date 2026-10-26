@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-26T13:30:07.473554+00:00",
-  "count": 146,
+  "updated_at": "2026-10-26T13:53:19.302947+00:00",
+  "count": 147,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -4537,9 +4537,15 @@
       "end_date": "2026-11-09",
       "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/",
       "practical": {
@@ -4554,6 +4560,29 @@
       "start_time": "15:00",
       "end_time": "17:00",
       "date_label": "Lundi 09 novembre 2026 de 15h00 à 17h00"
+    },
+    {
+      "title": "Soirée 100% Népal",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Népal !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-100-nepal/",
+      "practical": {
+        "date_time": "Lundi 09 novembre 2026 de 19h00 à 23h30",
+        "location_name": "Cinéma Arlequin,",
+        "address": "28 Place de la Libération - 26110 NYONS",
+        "phone": "04 75 26 01 41",
+        "email": "",
+        "website": "https://www.cinema-arlequin.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-100-nepal-2026-11-09/",
+      "start_time": "19:00",
+      "end_time": "23:30",
+      "date_label": "Lundi 09 novembre 2026 de 19h00 à 23h30"
     },
     {
       "title": "Commémoration de l’Armistice du 11 novembre",
@@ -4583,15 +4612,8 @@
       "end_date": "2026-11-11",
       "summary": "De l’Ensemble Vocal Cant’Ouvèze",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/opera-follies/",
       "practical": {
@@ -4772,13 +4794,7 @@
       "end_date": "2026-11-14",
       "summary": "Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie \" L'Épopée Belle \"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
         "Culture",
         "Loisirs"
       ],
@@ -4826,8 +4842,14 @@
       "end_date": "2026-11-14",
       "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/puces-des-couturieres/",
@@ -5011,7 +5033,15 @@
       "end_date": "2026-11-21",
       "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-3/",
       "practical": {
@@ -5080,15 +5110,9 @@
       "end_date": "2026-11-21",
       "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
       "practical": {
@@ -5249,8 +5273,15 @@
       "end_date": "2026-12-05",
       "summary": "Comédie de la Compagnie du Chien Noir",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-turlupinades/",
       "practical": {
@@ -5272,15 +5303,9 @@
       "end_date": "2026-12-05",
       "summary": "Un atelier pour préparer Noël !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-4/",
       "practical": {
@@ -5488,8 +5513,15 @@
       "end_date": "2026-12-29",
       "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/",
       "practical": {
@@ -5511,15 +5543,8 @@
       "end_date": "2027-01-01",
       "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/",
       "practical": {
@@ -5725,9 +5750,15 @@
       "end_date": "2027-01-27",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/",
       "practical": {
@@ -5749,15 +5780,8 @@
       "end_date": "2027-02-06",
       "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-grands-chemins/",
       "practical": {
@@ -5964,9 +5988,15 @@
       "end_date": "2027-03-31",
       "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/",
       "practical": {
@@ -5988,15 +6018,8 @@
       "end_date": "2027-04-02",
       "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/et-maintenant-jattends/",
       "practical": {
@@ -6201,8 +6224,15 @@
       "end_date": "2027-05-14",
       "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/boite-a-cordees/",
       "practical": {
@@ -6224,15 +6254,8 @@
       "end_date": "2027-05-20",
       "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/",
       "practical": {
