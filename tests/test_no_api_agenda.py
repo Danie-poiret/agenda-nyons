@@ -21,7 +21,7 @@ class NoApiFactsTests(unittest.TestCase):
         self.events = self.root / '_event_seo_cache.json'
         self.cache = self.root / '_saviezvous_cache.json'
         self.pages = self.root / 'evenements'
-        p = patch.multiple(facts, EVENT_CACHE=self.events, FACT_CACHE=self.cache, EVENTS_DIR=self.pages)
+        p = patch.multiple(facts, EVENT_CACHE=self.events, FACT_CACHE=self.cache, EVENTS_DIR=self.pages, FACT_BANK=self.root / 'bank.json')
         p.start()
         self.addCleanup(p.stop)
 
@@ -89,6 +89,37 @@ class NoApiFactsTests(unittest.TestCase):
         (self.pages / 'absent/index.html').unlink()
         with self.assertRaisesRegex(RuntimeError, 'Fiche HTML absente'):
             self.run_local()
+
+    def set_bank(self, bank):
+        (self.root / 'bank.json').write_text(json.dumps({'facts': bank}), encoding='utf-8')
+
+    def test_bank_fills_an_absent_section_with_a_clickable_source_and_is_stable(self):
+        self.prepare({'url': entry('concert')}, {})
+        self.run_local()
+        self.set_bank([{'id': 'piano', 'match': ['piano'], 'text': FACT, 'source_label': 'Source piano', 'source_url': 'https://example.org/piano/'}])
+        self.run_local()
+        text = self.text('concert')
+        self.assertIn(FACT, text)
+        self.assertIn('href="https://example.org/piano/"', text)
+        self.run_local()
+        self.assertEqual(text, self.text('concert'))
+
+    def test_bank_reserves_existing_facts_and_omits_exhausted_or_unrelated_topics(self):
+        self.prepare({'a': entry('a'), 'b': entry('b'), 'c': entry('c'), 'd': entry('d', 'Exposition')}, {'b': {'text': FACT}})
+        self.set_bank([{'match': ['piano'], 'text': FACT}, {'match': ['piano'], 'text': OTHER}])
+        self.run_local()
+        self.assertIn(FACT, self.text('b'))
+        self.assertIn(OTHER, self.text('a'))
+        self.assertNotIn('Le saviez-vous', self.text('c'))
+        self.assertNotIn('Le saviez-vous', self.text('d'))
+
+    def test_curated_bank_has_valid_distinct_sourced_facts(self):
+        bank = json.loads((ROOT / 'saviezvous_facts.json').read_text(encoding='utf-8'))['facts']
+        self.assertEqual(len(bank), len({facts.fact_key(f['text']) for f in bank}))
+        for f in bank:
+            self.assertTrue(facts.valid_fact(f['text']), f['id'])
+            self.assertTrue(f['match'])
+            self.assertTrue(f['source_url'].startswith('https://'))
 
     def test_old_cache_entries_are_not_deleted(self):
         record = {'text': FACT}

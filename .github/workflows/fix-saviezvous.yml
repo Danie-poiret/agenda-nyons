@@ -2,11 +2,6 @@ name: Correction Le saviez-vous
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "fix_saviezvous.py"
-      - "saviezvous_extra.json"
-      - ".github/workflows/fix-saviezvous.yml"
 
 permissions:
   contents: write
@@ -27,9 +22,6 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Recalculer uniquement les Le saviez-vous
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-5.6-terra
         run: python fix_saviezvous.py
 
       - name: Enregistrer uniquement les anecdotes

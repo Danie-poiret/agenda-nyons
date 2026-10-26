@@ -77,3 +77,5 @@ Le workflow quotidien ne transmet plus de clé OpenAI et n’installe pas son SD
 Les « Le saviez-vous » proviennent uniquement des faits enregistrés ou des repères manuels de `fix_saviezvous.py`. Un fait doit rester pertinent et unique. Si aucun fait adapté n’est disponible, seul ce bloc facultatif est omis : aucun texte n’est inventé et la publication de l’événement n’est pas bloquée. Les faits du cache restent conservés pour les mises à jour suivantes.
 
 La mise à jour se lance aussi lors d’un changement de ces scripts ou du workflow, sur `main`. Les seuls changements de données produits par l’automatisation ne la relancent pas.
+
+Les nouveaux encadrés peuvent aussi provenir de `saviezvous_facts.json`, une petite réserve de faits rédigés et sourcés. Ils sont choisis selon le sujet précis, après réservation des textes déjà enregistrés, sans répéter un fait sur deux fiches. Une réserve épuisée laisse simplement le bloc facultatif absent. Les liens documentaires sont cliquables ; aucun service de génération ni clé n’est utilisé.

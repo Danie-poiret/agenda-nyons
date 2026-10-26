@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "facts": [
+    {
+      "id": "halloween-navets",
+      "match": [
+        "halloween"
+      ],
+      "text": "Avant les citrouilles, on creusait des navets pour les lanternes d’Halloween en Irlande. Le Musée national d’Irlande conserve un modèle de cette tradition, réalisé à partir d’un témoignage recueilli dans le Donegal en 1943.",
+      "source_label": "Musée national d’Irlande — Ghost turnip",
+      "source_url": "https://source.museum.ie/en-IE/Collections-Research/Collection/Top-things-to-see-in-the-Irish-Folklife-Collection/Artefact/Ghost-turnip/b202e8ea-0728-4b3d-b0f1-82660fe45ce9"
+    },
+    {
+      "id": "olive-drupe",
+      "match": [
+        "olive",
+        "olives"
+      ],
+      "text": "Une olive appartient à la famille botanique des drupes : c’est un fruit charnu qui renferme un noyau, comme la cerise ou la prune. Voilà un petit point commun auquel on ne pense pas forcément devant un olivier !",
+      "source_label": "Conseil oléicole international — Table olives",
+      "source_url": "https://www.internationaloliveoil.org/olive-world/table-olives/"
+    },
+    {
+      "id": "olive-amertume",
+      "match": [
+        "olive",
+        "olives"
+      ],
+      "text": "L’amertume de l’olive fraîche provient notamment d’un composé appelé oléuropéine. C’est pourquoi la plupart des olives de table passent par une préparation après la récolte, plutôt que d’être dégustées directement sur l’arbre.",
+      "source_label": "Conseil oléicole international — Table olives",
+      "source_url": "https://www.internationaloliveoil.org/olive-world/table-olives/"
+    },
+    {
+      "id": "nyons-tanche",
+      "match": [
+        "olives de nyons",
+        "olive de nyons"
+      ],
+      "text": "Les olives noires de Nyons doivent leur identité à une variété locale : la Tanche. Cueillies mûres, elles sont ensuite préparées en saumure ou piquées au sel sec pour les olives primeurs. La cueillette n’est donc que le début du travail !",
+      "source_label": "INAO — Olives noires de Nyons",
+      "source_url": "https://www.inao.gouv.fr/en/node/4779"
+    },
+    {
+      "id": "mot-plantaire",
+      "match": [
+        "plantaire"
+      ],
+      "text": "Le mot « plantaire » vient du latin planta, qui désigne la plante du pied. Il renvoie donc à sa face inférieure : un petit repère de vocabulaire pour comprendre le nom de cet atelier.",
+      "source_label": "CNRTL — Plantaire et plante du pied",
+      "source_url": "https://www.cnrtl.fr/definition/plantaire"
+    },
+    {
+      "id": "mot-loto",
+      "match": [
+        "loto"
+      ],
+      "text": "Le mot « loto » est emprunté à l’italien lotto. L’Académie française le relève au XVIIIe siècle et décrit un jeu de cartons numérotés, avec des numéros tirés au hasard puis annoncés à voix haute.",
+      "source_label": "Dictionnaire de l’Académie française — Loto",
+      "source_url": "https://www.dictionnaire-academie.fr/article/A9L1236"
+    },
+    {
+      "id": "smith-1776",
+      "match": [
+        "penseurs economiques"
+      ],
+      "text": "Avant d’écrire La Richesse des nations, publiée en 1776, Adam Smith enseignait la philosophie morale à Glasgow. La Bibliothèque nationale de France rappelle qu’il consacra dix années à la rédaction de cet ouvrage majeur de la pensée économique.",
+      "source_label": "Bibliothèque nationale de France — Grands auteurs de la pensée économique au XVIIIe siècle",
+      "source_url": "https://gallica.bnf.fr/selections/fr/html/droit-economie/grands-auteurs-de-la-pensee-economique-au-xviiie-siecle"
+    }
+  ]
+}

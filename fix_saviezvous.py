@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 EVENT_CACHE = ROOT / "_event_seo_cache.json"
 FACT_CACHE = ROOT / "_saviezvous_cache.json"
+FACT_BANK = ROOT / "saviezvous_facts.json"
 EVENTS_DIR = ROOT / "evenements"
 FACT_VERSION = 1
 
@@ -113,6 +114,17 @@ def manual_fact(item):
         return {"text": "La pétanque moderne est née à La Ciotat en 1907. Son nom vient du provençal « pèd tanca », qui signifie jouer les pieds plantés.", "source_label": "Fédération Française de Pétanque et de Jeu Provençal"}
     return None
 
+def bank_candidates(item):
+    if not FACT_BANK.exists():
+        return []
+    data = json.loads(FACT_BANK.read_text(encoding="utf-8"))
+    # Match the actual subject, not the broad administrative categories.
+    event = item.get("event") or {}
+    subject = " " + norm(clean(event.get("title")) + " " + clean(event.get("summary"))) + " "
+    return [fact for fact in data["facts"]
+            if any(" " + norm(word) + " " in subject for word in fact.get("match", []))]
+
+
 def load_fact_cache():
     if not FACT_CACHE.exists():
         return {"version": FACT_VERSION, "entries": {}}
@@ -128,7 +140,10 @@ def stable_record(fact, old=None, model=None):
     old = old if isinstance(old, dict) else {}
     if clean(old.get("text")) == clean(fact.get("text")):
         return old
-    return {"text": clean(fact.get("text", "")), "source_label": clean(fact.get("source_label", "")), "model": model or "cache", "version": FACT_VERSION, "generated_at": datetime.now(timezone.utc).isoformat()}
+    record = {"text": clean(fact.get("text", "")), "source_label": clean(fact.get("source_label", "")), "model": model or "cache", "version": FACT_VERSION, "generated_at": datetime.now(timezone.utc).isoformat()}
+    if fact.get("source_url"):
+        record["source_url"] = fact["source_url"]
+    return record
 
 def render_fact(page, fact):
     section_re = re.compile(r'<section class="section anecdote"><h2>💡 Le saviez-vous \?</h2>.*?</section>', re.S)
@@ -140,12 +155,20 @@ def render_fact(page, fact):
             return True
         return False
     source = clean(fact.get("source_label", ""))
-    source_html = f'<p class="heritage-source">Repère documentaire : {html.escape(source, quote=True)}</p>' if source else ""
+    source_html = html.escape(source, quote=True)
+    url = clean(fact.get("source_url"))
+    if source and url.startswith("https://"):
+        source_html = f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{source_html}</a>'
+    source_html = f'<p class="heritage-source">Repère documentaire : {source_html}</p>' if source else ""
     block = '<section class="section anecdote"><h2>💡 Le saviez-vous ?</h2>' + f'<p>{html.escape(clean(fact["text"]), quote=True)}</p>' + source_html + '</section>'
     old = page.read_text(encoding="utf-8")
     new, count = section_re.subn(block, old, count=1)
-    if count != 1:
-        raise RuntimeError(f"Bloc Le saviez-vous introuvable : {page}")
+    if count == 0:
+        # A previous keyless run may have omitted this optional section.
+        anchor = '<div class="question">' if '<div class="question">' in old else '</main>'
+        if anchor not in old:
+            raise RuntimeError(f"Emplacement Le saviez-vous introuvable : {page}")
+        new = old.replace(anchor, block + "\n    " + anchor, 1)
     if new != old:
         page.write_text(new, encoding="utf-8")
         return True
@@ -172,7 +195,18 @@ def main():
             text = clean(candidate.get("text", ""))
             key = fact_key(text)
             if valid_fact(text) and topical_fact(item, text) and key and key not in used_keys:
-                assigned[slug] = {"text": text, "source_label": clean(candidate.get("source_label", ""))}
+                assigned[slug] = dict(candidate, text=text, source_label=clean(candidate.get("source_label", "")))
+                used_keys.add(key)
+                break
+    # Reserve every existing fact before filling gaps from the curated bank.
+    for slug, item in entries:
+        if slug in assigned:
+            continue
+        for candidate in bank_candidates(item):
+            text = clean(candidate.get("text"))
+            key = fact_key(text)
+            if valid_fact(text) and topical_fact(item, text) and key and key not in used_keys:
+                assigned[slug] = dict(candidate, text=text)
                 used_keys.add(key)
                 break
     missing = [(slug, item) for slug, item in entries if slug not in assigned]
@@ -193,7 +227,7 @@ def main():
         fact = assigned[slug]
         manual = manual_fact(item)
         old = cached_facts.get(slug) if isinstance(cached_facts, dict) else None
-        record = stable_record(fact, old, model="manual" if manual else "cache")
+        record = stable_record(fact, old, model="manual" if manual else ("local-bank" if fact.get("id") else "cache"))
         updated_cache[slug] = record
         item["anecdote_id"] = "topic-" + hashlib.sha256(record["text"].encode("utf-8")).hexdigest()[:16]
         item["anecdote_assignment_version"] = 100 + FACT_VERSION

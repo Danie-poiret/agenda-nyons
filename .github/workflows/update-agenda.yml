@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/update-agenda.yml'
       - 'fix_saviezvous.py'
+      - 'saviezvous_facts.json'
       - 'requirements.txt'
       - 'tests/test_no_api_agenda.py'
   schedule:
