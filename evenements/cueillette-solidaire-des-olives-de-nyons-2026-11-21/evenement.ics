@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cueillette-solidaire-des-olives-de-nyons-2026-11-21@agenda.vivreanyons.fr
+DTSTAMP:20261026T133109Z
+DTSTART;TZID=Europe/Paris:20261121T073000
+DTEND;TZID=Europe/Paris:20261121T120000
+SUMMARY:Cueillette solidaire des olives de Nyons
+DESCRIPTION:Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous\nhttps://agenda.vivreanyons.fr/evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-21/
+LOCATION:Centre Technique Municipal\, — 66 avenue Frédéric Mistral - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-21/
+END:VEVENT
+END:VCALENDAR

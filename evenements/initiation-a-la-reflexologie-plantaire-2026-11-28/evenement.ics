@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:initiation-a-la-reflexologie-plantaire-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261026T133109Z
+DTSTART;TZID=Europe/Paris:20261128T140000
+DTEND;TZID=Europe/Paris:20261128T180000
+SUMMARY:Initiation à la réflexologie plantaire
+DESCRIPTION:Pour les couples\, les amis\, la famille..\nhttps://agenda.vivreanyons.fr/evenements/initiation-a-la-reflexologie-plantaire-2026-11-28/
+LOCATION:Le collectif le Papillon\, — 10 Avenue Jules Bernard - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/initiation-a-la-reflexologie-plantaire-2026-11-28/
+END:VEVENT
+END:VCALENDAR

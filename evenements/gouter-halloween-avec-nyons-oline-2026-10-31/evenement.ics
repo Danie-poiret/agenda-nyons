@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gouter-halloween-avec-nyons-oline-2026-10-31@agenda.vivreanyons.fr
+DTSTAMP:20261026T133109Z
+DTSTART;TZID=Europe/Paris:20261031T160000
+DTEND;TZID=Europe/Paris:20261031T200000
+SUMMARY:Goûter Halloween avec Nyons O’line
+DESCRIPTION:Danses et animation musicale par Nyons o'line\nhttps://agenda.vivreanyons.fr/evenements/gouter-halloween-avec-nyons-oline-2026-10-31/
+LOCATION:Place du Dr Bourdongle - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/gouter-halloween-avec-nyons-oline-2026-10-31/
+END:VEVENT
+END:VCALENDAR

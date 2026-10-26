@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-04-28@agenda.vivreanyons.fr
+DTSTAMP:20261026T133109Z
+DTSTART;TZID=Europe/Paris:20270428T180000
+DTEND;TZID=Europe/Paris:20270428T200000
+SUMMARY:Conférence de l’UNTL sur « Les penseurs économiques face à la situation française »
+DESCRIPTION:Conférence présentée par Gilbert Font\, ancien directeur financier.\nhttps://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-04-28/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise-2027-04-28/
+END:VEVENT
+END:VCALENDAR
