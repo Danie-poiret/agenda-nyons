@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:conference-sur-odilon-redon-2026-11-06@agenda.vivreanyons.fr
+DTSTAMP:20261027T121657Z
+DTSTART;TZID=Europe/Paris:20261106T183000
+DTEND;TZID=Europe/Paris:20261106T200000
+SUMMARY:Conférence sur Odilon Redon
+DESCRIPTION:Présentation de l'artiste peintre Odilon Redon et de son œuvre.\nhttps://agenda.vivreanyons.fr/evenements/conference-sur-odilon-redon-2026-11-06/
+LOCATION:Maison de Pays (salle 3)\, — 128 promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/conference-sur-odilon-redon-2026-11-06/
+END:VEVENT
+END:VCALENDAR

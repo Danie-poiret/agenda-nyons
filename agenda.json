@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-26T13:53:19.302947+00:00",
-  "count": 147,
+  "updated_at": "2026-10-27T12:16:46.670541+00:00",
+  "count": 150,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -3511,6 +3511,29 @@
       "date_label": "Samedi 31 octobre 2026 de 16h00 à 20h00"
     },
     {
+      "title": "Hallowen au cinéma Arlequin",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "summary": "Le cinéma l’Arlequin fvous propose des séances spéciales Halloween !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/hallowen-au-cinema-arlequin/",
+      "practical": {
+        "date_time": "Samedi 31 octobre 2026 de 17h00 à 23h00",
+        "location_name": "Cinéma Arlequin,",
+        "address": "28 Place de la Libération - 26110 NYONS",
+        "phone": "04 75 26 01 41",
+        "email": "",
+        "website": "https://www.cinema-arlequin.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/hallowen-au-cinema-arlequin-2026-10-31/",
+      "start_time": "17:00",
+      "end_time": "23:00",
+      "date_label": "Samedi 31 octobre 2026 de 17h00 à 23h00"
+    },
+    {
       "title": "Cérémonie d’hommage aux morts pour la France",
       "start_date": "2026-11-01",
       "end_date": "2026-11-01",
@@ -3531,6 +3554,29 @@
       "start_time": "11:30",
       "end_time": "12:00",
       "date_label": "Dimanche 01 novembre 2026 de 11h30 à 12h00"
+    },
+    {
+      "title": "Soirée cinéma Festival Alimenterre",
+      "start_date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "summary": "Le cinéma l’Arlequin vous propose une soirée Festival Alimenterre !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-cinema-festival-alimenterre/",
+      "practical": {
+        "date_time": "Dimanche 01 novembre 2026 de 19h00 à 23h30",
+        "location_name": "Cinéma Arlequin,",
+        "address": "28 Place de la Libération - 26110 NYONS",
+        "phone": "04 75 26 01 41",
+        "email": "",
+        "website": "https://www.cinema-arlequin.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-cinema-festival-alimenterre-2026-11-01/",
+      "start_time": "19:00",
+      "end_time": "23:30",
+      "date_label": "Dimanche 01 novembre 2026 de 19h00 à 23h30"
     },
     {
       "title": "Cinéma — Femmes des terres",
@@ -4300,6 +4346,30 @@
       "date_label": "Du vendredi 06 novembre 2026 de 09h00 au samedi 07 novembre 2026 à 19h00"
     },
     {
+      "title": "Conférence sur Odilon Redon",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "summary": "Présentation de l'artiste peintre Odilon Redon et de son œuvre.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/conference-sur-odilon-redon/",
+      "practical": {
+        "date_time": "Vendredi 06 novembre 2026 de 18h30 à 20h00",
+        "location_name": "Maison de Pays (salle 3),",
+        "address": "128 promenade de la Digue - 26110 NYONS",
+        "phone": "0783787742",
+        "email": "mhadam.conf@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-sur-odilon-redon-2026-11-06/",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "date_label": "Vendredi 06 novembre 2026 de 18h30 à 20h00"
+    },
+    {
       "title": "Exposition « IA, droits devant ! »",
       "start_date": "2026-11-06",
       "end_date": "2026-11-28",
@@ -4351,9 +4421,15 @@
       "end_date": "2026-11-07",
       "summary": "Organisé par l'AFIS Science (Association française pour l’information scientifique).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/",
       "practical": {
@@ -4537,15 +4613,9 @@
       "end_date": "2026-11-09",
       "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/",
       "practical": {
@@ -4750,7 +4820,15 @@
       "end_date": "2026-11-14",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale/",
       "practical": {
@@ -4842,14 +4920,8 @@
       "end_date": "2026-11-14",
       "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/puces-des-couturieres/",
@@ -4964,9 +5036,15 @@
       "end_date": "2026-11-18",
       "summary": "Etudier, travailler, habiter",
       "categories": [
+        "Administratif",
         "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/salon-vivre-ici/",
       "practical": {
@@ -5033,15 +5111,7 @@
       "end_date": "2026-11-21",
       "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-3/",
       "practical": {
@@ -5250,8 +5320,15 @@
       "end_date": "2026-11-28",
       "summary": "Escale toposensible avec La Caravane Exquise.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/",
       "practical": {
@@ -5273,15 +5350,8 @@
       "end_date": "2026-12-05",
       "summary": "Comédie de la Compagnie du Chien Noir",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-turlupinades/",
       "practical": {
@@ -5442,8 +5512,15 @@
       "end_date": "2026-12-18",
       "summary": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/",
       "practical": {
@@ -5513,15 +5590,8 @@
       "end_date": "2026-12-29",
       "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/",
       "practical": {
@@ -5681,7 +5751,15 @@
       "end_date": "2027-01-17",
       "summary": "Loto de l'association \"Le Trait d'Union\" dimanche 1er novembre à la Maison de Pays.De nombreux...",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/",
       "practical": {
@@ -5750,15 +5828,9 @@
       "end_date": "2027-01-27",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/",
       "practical": {
@@ -5917,9 +5989,15 @@
       "end_date": "2027-03-17",
       "summary": "Conférence présentée par Michèle Margain, généalogiste, écrivaine, passionnée des terroirs et de ceux qui y vivent.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/",
       "practical": {
@@ -5988,15 +6066,9 @@
       "end_date": "2027-03-31",
       "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/",
       "practical": {
@@ -6156,9 +6228,15 @@
       "end_date": "2027-04-28",
       "summary": "Conférence présentée par Gilbert Font, ancien directeur financier.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/",
       "practical": {
@@ -6224,15 +6302,8 @@
       "end_date": "2027-05-14",
       "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/boite-a-cordees/",
       "practical": {

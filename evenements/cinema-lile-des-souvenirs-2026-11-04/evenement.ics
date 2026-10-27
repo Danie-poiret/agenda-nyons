@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:lile-des-souvenirs-2026-11-04-1630@agenda.vivreanyons.fr
-DTSTAMP:20261026T135329Z
+DTSTAMP:20261027T121657Z
 DTSTART:20261104T153000Z
 SUMMARY:L’Île des souvenirs — Version non précisée dans le program
  me
@@ -18,7 +18,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lile-des-souvenirs-20
 END:VEVENT
 BEGIN:VEVENT
 UID:lile-des-souvenirs-2026-11-06-1830@agenda.vivreanyons.fr
-DTSTAMP:20261026T135329Z
+DTSTAMP:20261027T121657Z
 DTSTART:20261106T173000Z
 SUMMARY:L’Île des souvenirs — Version non précisée dans le program
  me
@@ -32,7 +32,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lile-des-souvenirs-20
 END:VEVENT
 BEGIN:VEVENT
 UID:lile-des-souvenirs-2026-11-07-1500@agenda.vivreanyons.fr
-DTSTAMP:20261026T135329Z
+DTSTAMP:20261027T121657Z
 DTSTART:20261107T140000Z
 SUMMARY:L’Île des souvenirs — Version non précisée dans le program
  me
@@ -46,7 +46,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lile-des-souvenirs-20
 END:VEVENT
 BEGIN:VEVENT
 UID:lile-des-souvenirs-2026-11-10-2100@agenda.vivreanyons.fr
-DTSTAMP:20261026T135329Z
+DTSTAMP:20261027T121657Z
 DTSTART:20261110T200000Z
 SUMMARY:L’Île des souvenirs — Version non précisée dans le program
  me

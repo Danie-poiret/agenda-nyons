@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:soiree-cinema-festival-alimenterre-2026-11-01@agenda.vivreanyons.fr
+DTSTAMP:20261027T121657Z
+DTSTART;TZID=Europe/Paris:20261101T190000
+DTEND;TZID=Europe/Paris:20261101T233000
+SUMMARY:Soirée cinéma Festival Alimenterre
+DESCRIPTION:Le cinéma l’Arlequin vous propose une soirée Festival Alimenterre !\nhttps://agenda.vivreanyons.fr/evenements/soiree-cinema-festival-alimenterre-2026-11-01/
+LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/soiree-cinema-festival-alimenterre-2026-11-01/
+END:VEVENT
+END:VCALENDAR

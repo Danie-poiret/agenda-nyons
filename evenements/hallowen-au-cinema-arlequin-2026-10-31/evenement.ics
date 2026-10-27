@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:hallowen-au-cinema-arlequin-2026-10-31@agenda.vivreanyons.fr
+DTSTAMP:20261027T121657Z
+DTSTART;TZID=Europe/Paris:20261031T170000
+DTEND;TZID=Europe/Paris:20261031T230000
+SUMMARY:Hallowen au cinéma Arlequin
+DESCRIPTION:Le cinéma l’Arlequin fvous propose des séances spéciales Halloween !\nhttps://agenda.vivreanyons.fr/evenements/hallowen-au-cinema-arlequin-2026-10-31/
+LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/hallowen-au-cinema-arlequin-2026-10-31/
+END:VEVENT
+END:VCALENDAR
