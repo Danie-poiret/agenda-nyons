@@ -1,7 +1,7 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-27T12:16:46.670541+00:00",
+  "updated_at": "2026-10-28T12:59:52.914302+00:00",
   "count": 150,
   "events": [
     {
@@ -2523,32 +2523,6 @@
       }
     },
     {
-      "title": "Jeux Zen… et moins zen !",
-      "start_date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "summary": "Jeux de société Zen... et moins zen !",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/jeux-zen-et-moins-zen/",
-      "practical": {
-        "date_time": "Mardi 27 octobre 2026 de 15h00 à 18h00",
-        "location_name": "Médiathèque",
-        "address": "9 rue Albin Vilhet, à Nyons",
-        "phone": "04 75 26 48 26",
-        "email": "mddp-nyons@ladrome.fr",
-        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/jeux-zen-et-moins-zen-2026-10-27/",
-      "start_time": "15:00",
-      "end_time": "18:00",
-      "date_label": "Mardi 27 octobre 2026 de 15h00 à 18h00"
-    },
-    {
       "title": "Atelier cosmétique – Maquillage d’Halloween",
       "start_date": "2026-10-28",
       "end_date": "2026-10-28",
@@ -3486,14 +3460,8 @@
       "end_date": "2026-10-31",
       "summary": "Danses et animation musicale par Nyons o'line",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/halloween/",
@@ -3516,8 +3484,15 @@
       "end_date": "2026-10-31",
       "summary": "Le cinéma l’Arlequin fvous propose des séances spéciales Halloween !",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/hallowen-au-cinema-arlequin/",
       "practical": {
@@ -4398,8 +4373,15 @@
       "end_date": "2026-11-07",
       "summary": "Proposé par Annabel Djila",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-de-yoga-du-visage/",
       "practical": {
@@ -4421,15 +4403,9 @@
       "end_date": "2026-11-07",
       "summary": "Organisé par l'AFIS Science (Association française pour l’information scientifique).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/",
       "practical": {
@@ -4820,15 +4796,7 @@
       "end_date": "2026-11-14",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale/",
       "practical": {
@@ -4944,9 +4912,15 @@
       "end_date": "2026-11-14",
       "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/toupetituli-2/",
       "practical": {
@@ -5036,15 +5010,9 @@
       "end_date": "2026-11-18",
       "summary": "Etudier, travailler, habiter",
       "categories": [
-        "Administratif",
         "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/salon-vivre-ici/",
       "practical": {
@@ -5089,7 +5057,15 @@
       "end_date": "2026-11-21",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale-2/",
       "practical": {
@@ -5272,9 +5248,15 @@
       "end_date": "2026-11-28",
       "summary": "Pour se questionner sur l’origine des photographies, leur polysémie, leurs usages.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/",
       "practical": {
@@ -5289,6 +5271,28 @@
       "start_time": "10:30",
       "end_time": "12:00",
       "date_label": "Samedi 28 novembre 2026 de 10h30 à 12h00"
+    },
+    {
+      "title": "Journée dépistages organisés",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "summary": "Bilan perosnnalisé, dépistages des cancers, consultations gynécologiques, sensibilisation et informations.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-depistages-organises/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 09h30 à 17h45",
+        "location_name": "Maison de santé Émile Lisbonne,",
+        "address": "21 rue Émile Lisbonne - 26110 NYONS",
+        "phone": "04 75 43 85 31",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/",
+      "start_time": "09:30",
+      "end_time": "17:45",
+      "date_label": "Samedi 28 novembre 2026 de 09h30 à 17h45"
     },
     {
       "title": "Salon du livre de « Contes et Rencontres »",
@@ -5320,15 +5324,8 @@
       "end_date": "2026-11-28",
       "summary": "Escale toposensible avec La Caravane Exquise.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/",
       "practical": {

@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:verity-2026-10-23-1700@agenda.vivreanyons.fr
-DTSTAMP:20261027T121657Z
+DTSTAMP:20261028T130005Z
 DTSTART:20261023T150000Z
 SUMMARY:Verity — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -16,7 +16,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-verity-2026-10-23/
 END:VEVENT
 BEGIN:VEVENT
 UID:verity-2026-10-24-2100@agenda.vivreanyons.fr
-DTSTAMP:20261027T121657Z
+DTSTAMP:20261028T130005Z
 DTSTART:20261024T190000Z
 SUMMARY:Verity — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -28,7 +28,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-verity-2026-10-23/
 END:VEVENT
 BEGIN:VEVENT
 UID:verity-2026-10-25-1900@agenda.vivreanyons.fr
-DTSTAMP:20261027T121657Z
+DTSTAMP:20261028T130005Z
 DTSTART:20261025T180000Z
 SUMMARY:Verity — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -40,7 +40,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-verity-2026-10-23/
 END:VEVENT
 BEGIN:VEVENT
 UID:verity-2026-10-26-2100@agenda.vivreanyons.fr
-DTSTAMP:20261027T121657Z
+DTSTAMP:20261028T130005Z
 DTSTART:20261026T200000Z
 SUMMARY:Verity — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons

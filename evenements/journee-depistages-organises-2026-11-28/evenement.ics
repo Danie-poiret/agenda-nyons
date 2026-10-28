@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:journee-depistages-organises-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261028T130005Z
+DTSTART;TZID=Europe/Paris:20261128T093000
+DTEND;TZID=Europe/Paris:20261128T174500
+SUMMARY:Journée dépistages organisés
+DESCRIPTION:Bilan perosnnalisé\, dépistages des cancers\, consultations gynécologiques\, sensibilisation et informations.\nhttps://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/
+LOCATION:Maison de santé Émile Lisbonne\, — 21 rue Émile Lisbonne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/
+END:VEVENT
+END:VCALENDAR
