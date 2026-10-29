@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:journee-depistages-organises-2026-11-28@agenda.vivreanyons.fr
-DTSTAMP:20261028T130005Z
+DTSTAMP:20261029T130757Z
 DTSTART;TZID=Europe/Paris:20261128T093000
 DTEND;TZID=Europe/Paris:20261128T174500
 SUMMARY:Journée dépistages organisés
-DESCRIPTION:Bilan perosnnalisé\, dépistages des cancers\, consultations gynécologiques\, sensibilisation et informations.\nhttps://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/
+DESCRIPTION:Bilan perosnnalisé\, dépistages des cancers\, consultations gynécologiques\, sensibilisation et informations. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 17.4°C\nhttps://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/
 LOCATION:Maison de santé Émile Lisbonne\, — 21 rue Émile Lisbonne - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/
 END:VEVENT
