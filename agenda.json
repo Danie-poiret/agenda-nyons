@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-10-29T13:07:13.365838+00:00",
-  "count": 148,
+  "updated_at": "2026-10-30T12:59:44.172565+00:00",
+  "count": 144,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -2523,29 +2523,6 @@
       }
     },
     {
-      "title": "Atelier cosmétique – Maquillage d’Halloween",
-      "start_date": "2026-10-28",
-      "end_date": "2026-10-28",
-      "summary": "Atelier cosmétique, création de maquillage sur le thème d'Halloween",
-      "categories": [
-        "Sport / Loisirs",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-cosmetique-maquillage-dhalloween/",
-      "practical": {
-        "date_time": "Mercredi 28 octobre 2026 de 16h30 à 17h30",
-        "location_name": "Maison des Huiles d'Olives & Olives de France -",
-        "address": "40 place de la Libération, 26110 Nyons",
-        "phone": "0475269090",
-        "email": "contact@maisondeshuilesetolives.fr",
-        "website": "https://maisondeshuilesetolives.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-cosmetique-maquillage-dhalloween-2026-10-28/",
-      "start_time": "16:30",
-      "end_time": "17:30",
-      "date_label": "Mercredi 28 octobre 2026 de 16h30 à 17h30"
-    },
-    {
       "title": "Cinéma — Karma",
       "film_title": "Karma",
       "kind": "cinema",
@@ -3110,30 +3087,6 @@
       }
     },
     {
-      "title": "Les documentaires de l’UNTL : « La Passion selon Callas »",
-      "start_date": "2026-10-28",
-      "end_date": "2026-10-28",
-      "summary": "Projection suivie d'un échange animé par le réalisateur, Michel Van Zèle, témoin privilégié d'une époque ayant rencontré tous les protagonistes ou leurs proches.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/les-documentaires-de-luntl-la-passion-selon-callas/",
-      "practical": {
-        "date_time": "Mercredi 28 octobre 2026 de 18h30 à 20h30",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "0475264137",
-        "email": "contact@untl.net",
-        "website": "http://www.untl.net"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/les-documentaires-de-luntl-la-passion-selon-callas-2026-10-28/",
-      "start_time": "18:30",
-      "end_time": "20:30",
-      "date_label": "Mercredi 28 octobre 2026 de 18h30 à 20h30"
-    },
-    {
       "title": "« L’Eau » : Exposition du Préau des Arts",
       "start_date": "2026-10-28",
       "end_date": "2026-11-13",
@@ -3272,6 +3225,31 @@
       "start_time": "14:30",
       "end_time": "15:30",
       "date_label": "Vendredi 30 octobre 2026 de 14h30 à 15h30"
+    },
+    {
+      "title": "Atelier culinaire – Brownies d’Halloween",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "summary": "Atelier culinaire, réalisation de brownies d'Halloween",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/",
+      "practical": {
+        "date_time": "Samedi 31 octobre 2026 de 14h30 à 16h00",
+        "location_name": "Maison des Huiles d'Olives & Olives de France -",
+        "address": "40 place de la Libération, 26110 Nyons",
+        "phone": "0475269090",
+        "email": "contact@maisondeshuilesetolives.fr",
+        "website": "https://maisondeshuilesetolives.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-brownies-dhalloween-2026-10-31/",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "date_label": "Samedi 31 octobre 2026 de 14h30 à 16h00"
     },
     {
       "title": "Cinéma — Gruffalo, de père en fils",
@@ -3454,57 +3432,27 @@
       "date_label": "Samedi 31 octobre 2026 de 16h00 à 20h00"
     },
     {
-      "title": "Cérémonie d’hommage aux morts pour la France",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "summary": "Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons.",
-      "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/ceremonie-dhommage-aux-morts-pour-la-france/",
-      "practical": {
-        "date_time": "Dimanche 01 novembre 2026 de 11h30 à 12h00",
-        "location_name": "",
-        "address": "Carré militaire du cimetière de Nyons, 17B rue des Souchères - 26110 NYONS",
-        "phone": "0628297346",
-        "email": "martine.berthe-bousselet@orange.fr",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/",
-      "start_time": "11:30",
-      "end_time": "12:00",
-      "date_label": "Dimanche 01 novembre 2026 de 11h30 à 12h00"
-    },
-    {
-      "title": "Soirée cinéma Festival Alimenterre",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "summary": "Le cinéma l’Arlequin vous propose une soirée Festival Alimenterre !",
+      "title": "Hallowen au cinéma Arlequin",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "summary": "Le cinéma l’Arlequin fvous propose des séances spéciales Halloween !",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/soiree-cinema-festival-alimenterre/",
+      "url": "https://www.nyons.com/agenda/hallowen-au-cinema-arlequin/",
       "practical": {
-        "date_time": "Dimanche 01 novembre 2026 de 19h00 à 23h30",
+        "date_time": "Samedi 31 octobre 2026 de 17h00 à 23h00",
         "location_name": "Cinéma Arlequin,",
         "address": "28 Place de la Libération - 26110 NYONS",
         "phone": "04 75 26 01 41",
         "email": "",
         "website": "https://www.cinema-arlequin.fr/"
       },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-cinema-festival-alimenterre-2026-11-01/",
-      "start_time": "19:00",
-      "end_time": "23:30",
-      "date_label": "Dimanche 01 novembre 2026 de 19h00 à 23h30"
+      "page_url": "https://agenda.vivreanyons.fr/evenements/hallowen-au-cinema-arlequin-2026-10-31/",
+      "start_time": "17:00",
+      "end_time": "23:00",
+      "date_label": "Samedi 31 octobre 2026 de 17h00 à 23h00"
     },
     {
       "title": "Cinéma — Femmes des terres",
@@ -4257,7 +4205,15 @@
       "end_date": "2026-11-07",
       "summary": "Collecte de produits alimentaires organisée par les associations caritatives de Nyons.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/collecte-de-la-banque-alimentaire/",
       "practical": {
@@ -4272,53 +4228,6 @@
       "start_time": "09:00",
       "end_time": "19:00",
       "date_label": "Du vendredi 06 novembre 2026 de 09h00 au samedi 07 novembre 2026 à 19h00"
-    },
-    {
-      "title": "Conférence sur Odilon Redon",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "summary": "Présentation de l'artiste peintre Odilon Redon et de son œuvre.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/conference-sur-odilon-redon/",
-      "practical": {
-        "date_time": "Vendredi 06 novembre 2026 de 18h30 à 20h00",
-        "location_name": "Maison de Pays (salle 3),",
-        "address": "128 promenade de la Digue - 26110 NYONS",
-        "phone": "0783787742",
-        "email": "mhadam.conf@gmail.com",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-sur-odilon-redon-2026-11-06/",
-      "start_time": "18:30",
-      "end_time": "20:00",
-      "date_label": "Vendredi 06 novembre 2026 de 18h30 à 20h00"
-    },
-    {
-      "title": "Exposition « IA, droits devant ! »",
-      "start_date": "2026-11-06",
-      "end_date": "2026-11-28",
-      "summary": "L’intelligence artificielle, pour le meilleur et pour le pire ? La prise de conscience sur l’impératif de fixer un cadre au développement de l’IA semble s’accélérer ces derniers temps.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-ia-droits-devant/",
-      "practical": {
-        "date_time": "Du vendredi 06 novembre 2026 de 10h00 au samedi 28 novembre 2026 à 18h00",
-        "location_name": "Médiathèque",
-        "address": "9 rue Albin Vilhet - 26110 NYONS",
-        "phone": "04 75 26 48 26",
-        "email": "mddp-nyons@ladrome.fr",
-        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-ia-droits-devant-2026-11-06/",
-      "start_time": "10:00",
-      "end_time": "18:00",
-      "date_label": "Du vendredi 06 novembre 2026 de 10h00 au samedi 28 novembre 2026 à 18h00"
     },
     {
       "title": "Atelier de yoga du visage",
@@ -4535,15 +4444,9 @@
       "end_date": "2026-11-09",
       "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/",
       "practical": {
@@ -4680,9 +4583,15 @@
       "end_date": "2026-11-13",
       "summary": "Lecture concertante, vendredi 13 novembre à la Maison de Pays, 18h.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/ode-a-lolive/",
       "practical": {
@@ -4748,7 +4657,8 @@
       "end_date": "2026-11-14",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Vie associative"
+        "Vie associative",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale/",
       "practical": {
@@ -4792,15 +4702,8 @@
       "end_date": "2026-11-14",
       "summary": "Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie \" L'Épopée Belle \"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/",
       "practical": {
@@ -4894,9 +4797,15 @@
       "end_date": "2026-11-16",
       "summary": "Conférence présentée par Joëlle Vionnet et Bruno Machtelinck.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/",
       "practical": {
@@ -5053,15 +4962,8 @@
       "end_date": "2026-11-21",
       "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
       "practical": {
@@ -5131,7 +5033,15 @@
       "end_date": "2026-11-22",
       "summary": "Loto de l'association \"Détente et loisirs\" à 14h à la Maison de Pays.",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/",
       "practical": {
@@ -5176,15 +5086,8 @@
       "end_date": "2026-11-28",
       "summary": "Pour les couples, les amis, la famille..",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/initiation-a-la-reflexologie-plantaire/",
       "practical": {
@@ -5368,9 +5271,15 @@
       "end_date": "2026-12-07",
       "summary": "Présentée par Jean-Luc Boissel, astrophysicien, professeur à l'INSA de Lyon.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/",
       "practical": {
@@ -5508,15 +5417,9 @@
       "end_date": "2027-01-01",
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/",
       "practical": {
@@ -5608,8 +5511,15 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -5745,15 +5655,8 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/",
       "practical": {
@@ -5844,8 +5747,15 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -5983,15 +5893,9 @@
       "end_date": "2027-03-24",
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/",
       "practical": {
@@ -6084,8 +5988,14 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
@@ -6221,14 +6131,8 @@
       "end_date": "2027-05-08",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",

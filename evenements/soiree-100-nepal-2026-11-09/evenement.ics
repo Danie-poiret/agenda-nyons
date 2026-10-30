@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:soiree-100-nepal-2026-11-09@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART;TZID=Europe/Paris:20261109T190000
 DTEND;TZID=Europe/Paris:20261109T233000
 SUMMARY:Soirée 100% Népal
-DESCRIPTION:Le cinéma l’Arlequin vous propose une soirée spéciale 100% Népal ! 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 17.4°C / 17.4°C Contact Recherche Mentions lég\nhttps://agenda.vivreanyons.fr/evenements/soiree-100-nepal-2026-11-09/
+DESCRIPTION:Le cinéma l’Arlequin vous propose une soirée spéciale 100% Népal !\nhttps://agenda.vivreanyons.fr/evenements/soiree-100-nepal-2026-11-09/
 LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/soiree-100-nepal-2026-11-09/
 END:VEVENT

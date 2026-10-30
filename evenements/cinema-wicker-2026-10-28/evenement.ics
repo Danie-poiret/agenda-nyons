@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:wicker-2026-10-28-1900@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART:20261028T180000Z
 SUMMARY:Wicker — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -16,7 +16,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/
 END:VEVENT
 BEGIN:VEVENT
 UID:wicker-2026-10-30-2045@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART:20261030T194500Z
 SUMMARY:Wicker — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -28,7 +28,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/
 END:VEVENT
 BEGIN:VEVENT
 UID:wicker-2026-11-01-1700@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART:20261101T160000Z
 SUMMARY:Wicker — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -40,7 +40,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/
 END:VEVENT
 BEGIN:VEVENT
 UID:wicker-2026-11-02-1400@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART:20261102T130000Z
 SUMMARY:Wicker — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -52,7 +52,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/
 END:VEVENT
 BEGIN:VEVENT
 UID:wicker-2026-11-02-2100@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART:20261102T200000Z
 SUMMARY:Wicker — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -64,7 +64,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-wicker-2026-10-28/
 END:VEVENT
 BEGIN:VEVENT
 UID:wicker-2026-11-03-1830@agenda.vivreanyons.fr
-DTSTAMP:20261029T130757Z
+DTSTAMP:20261030T125950Z
 DTSTART:20261103T173000Z
 SUMMARY:Wicker — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
