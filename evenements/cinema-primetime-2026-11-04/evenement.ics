@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:primetime-2026-11-04-2100@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261104T200000Z
 SUMMARY:Primetime — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -16,7 +16,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-primetime-2026-11-04/
 END:VEVENT
 BEGIN:VEVENT
 UID:primetime-2026-11-06-1615@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261106T151500Z
 SUMMARY:Primetime — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -28,7 +28,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-primetime-2026-11-04/
 END:VEVENT
 BEGIN:VEVENT
 UID:primetime-2026-11-07-2100@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261107T200000Z
 SUMMARY:Primetime — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -40,7 +40,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-primetime-2026-11-04/
 END:VEVENT
 BEGIN:VEVENT
 UID:primetime-2026-11-10-1400@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261110T130000Z
 SUMMARY:Primetime — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons

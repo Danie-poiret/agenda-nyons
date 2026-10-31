@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:loto-de-detente-et-loisirs-2026-11-22@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART;TZID=Europe/Paris:20261122T140000
 DTEND;TZID=Europe/Paris:20261122T170000
 SUMMARY:Loto de « Détente et loisirs »
-DESCRIPTION:Loto de l'association "Détente et loisirs" à 14h à la Maison de Pays.\nhttps://agenda.vivreanyons.fr/evenements/loto-de-detente-et-loisirs-2026-11-22/
+DESCRIPTION:Loto de l'association "Détente et loisirs" à 14h à la Maison de Pays. 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 15.6°C / 15.6°C Contact Recherche Mentions l\nhttps://agenda.vivreanyons.fr/evenements/loto-de-detente-et-loisirs-2026-11-22/
 LOCATION:Maison de Pays\, — 128 promenade de la Digue - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/loto-de-detente-et-loisirs-2026-11-22/
 END:VEVENT

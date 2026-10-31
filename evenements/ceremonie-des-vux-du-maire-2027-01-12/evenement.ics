@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ceremonie-des-vux-du-maire-2027-01-12@agenda.vivreanyons.fr
+DTSTAMP:20261031T123748Z
+DTSTART;TZID=Europe/Paris:20270112T183000
+DTEND;TZID=Europe/Paris:20270112T200000
+SUMMARY:Cérémonie des vœux du Maire
+DESCRIPTION:Rendez-vous à la Maison de Pays à 18h30.\nhttps://agenda.vivreanyons.fr/evenements/ceremonie-des-vux-du-maire-2027-01-12/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/ceremonie-des-vux-du-maire-2027-01-12/
+END:VEVENT
+END:VCALENDAR

@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:petite-casbah-2026-10-21-1730@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261021T153000Z
 SUMMARY:Petite Casbah — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -16,7 +16,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10
 END:VEVENT
 BEGIN:VEVENT
 UID:petite-casbah-2026-10-23-1900@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261023T170000Z
 SUMMARY:Petite Casbah — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -28,7 +28,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10
 END:VEVENT
 BEGIN:VEVENT
 UID:petite-casbah-2026-10-24-1700@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261024T150000Z
 SUMMARY:Petite Casbah — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -40,7 +40,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10
 END:VEVENT
 BEGIN:VEVENT
 UID:petite-casbah-2026-10-25-1715@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261025T161500Z
 SUMMARY:Petite Casbah — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -52,7 +52,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10
 END:VEVENT
 BEGIN:VEVENT
 UID:petite-casbah-2026-10-26-1900@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261026T180000Z
 SUMMARY:Petite Casbah — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -64,7 +64,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-petite-casbah-2026-10
 END:VEVENT
 BEGIN:VEVENT
 UID:petite-casbah-2026-10-27-1500@agenda.vivreanyons.fr
-DTSTAMP:20261030T125950Z
+DTSTAMP:20261031T123748Z
 DTSTART:20261027T140000Z
 SUMMARY:Petite Casbah — Version non précisée dans le programme
 LOCATION:28 place de la Libération\, 26110 Nyons

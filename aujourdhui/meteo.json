@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-30",
-  "temperature": 18.0,
+  "date": "2026-10-31",
+  "temperature": 17.0,
   "observation": "15 h 00",
   "isForecast": true,
   "min": 7.0,
-  "max": 18.0,
+  "max": 17.0,
   "rain": 0.0,
-  "wind": 7.0,
-  "windMax": 7.0,
+  "wind": 9.0,
+  "windMax": 10.0,
   "description": "Ensoleillé",
-  "fetched_at": "2026-10-30T13:59:51.870994+01:00"
+  "fetched_at": "2026-10-31T13:37:50.195712+01:00"
 }
