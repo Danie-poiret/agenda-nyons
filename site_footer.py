@@ -10,15 +10,18 @@ LINKS = START + '<nav class="agenda-footer-links" aria-label="Les sites et pages
 
 def add_footer(source):
     source = add_partner_banners(source)
+    links = LINKS
+    if re.search(r"""<link\b(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']https://agenda\.vivreanyons\.fr/cinema/["'])[^>]*>""", source, re.I):
+        links = LINKS.replace('<a href="https://agenda.vivreanyons.fr/cinema/">Cinéma à Nyons</a>', '<a href="https://www.vivreanyons.fr/infos-pratiques-nyons/cinema-nyons/">Nyons cinéma programme</a>')
     if not re.search(r"<main(?:\s|>)", source, re.I):
         return source
     source = re.sub(re.escape(START) + r".*?" + re.escape(END), "", source, flags=re.S)
     if 'data-agenda-footer-style' not in source:
         source = re.sub(r"</head>", lambda m: STYLE + m[0], source, count=1, flags=re.I)
     if re.search(r"</footer>", source, re.I):
-        source = re.sub(r"</footer>", lambda m: LINKS + m[0], source, count=1, flags=re.I)
+        source = re.sub(r"</footer>", lambda m: links + m[0], source, count=1, flags=re.I)
     else:
-        source = re.sub(r"</body>", lambda m: '<footer class="agenda-site-footer">' + LINKS + '</footer>' + m[0], source, count=1, flags=re.I)
+        source = re.sub(r"</body>", lambda m: '<footer class="agenda-site-footer">' + links + '</footer>' + m[0], source, count=1, flags=re.I)
     return source
 
 def install_site_footer(root=None):
