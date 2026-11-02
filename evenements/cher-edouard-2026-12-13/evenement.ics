@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cher-edouard-2026-12-13@agenda.vivreanyons.fr
-DTSTAMP:20261101T132954Z
+DTSTAMP:20261102T160028Z
 DTSTART;TZID=Europe/Paris:20261213T170000
 DTEND;TZID=Europe/Paris:20261213T183000
 SUMMARY:Cher Edouard
-DESCRIPTION:Comédie de la Cie “d’ici ou d’Ailleurs”\nhttps://agenda.vivreanyons.fr/evenements/cher-edouard-2026-12-13/
+DESCRIPTION:Comédie de la Cie “d’ici ou d’Ailleurs” 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Ciel dégagé 12.2°C / 12.2°C Contact Recherche Mentions légales Politique de confidenti\nhttps://agenda.vivreanyons.fr/evenements/cher-edouard-2026-12-13/
 LOCATION:
 URL:https://agenda.vivreanyons.fr/evenements/cher-edouard-2026-12-13/
 END:VEVENT

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:journee-mondiale-de-lutte-contre-le-bpco-2026-11-19@agenda.vivreanyons.fr
+DTSTAMP:20261102T160028Z
+DTSTART;TZID=Europe/Paris:20261119T083000
+DTEND;TZID=Europe/Paris:20261119T120000
+SUMMARY:Journée mondiale de lutte contre le BPCO
+DESCRIPTION:Ateliers de prévention et d’information !\nhttps://agenda.vivreanyons.fr/evenements/journee-mondiale-de-lutte-contre-le-bpco-2026-11-19/
+LOCATION:Place Buffaven — Nyons
+URL:https://agenda.vivreanyons.fr/evenements/journee-mondiale-de-lutte-contre-le-bpco-2026-11-19/
+END:VEVENT
+END:VCALENDAR

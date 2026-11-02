@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-02T15:48:26.321146+00:00",
-  "count": 142,
+  "updated_at": "2026-11-02T16:00:09.167156+00:00",
+  "count": 138,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -1232,50 +1232,6 @@
       }
     },
     {
-      "title": "Exposition fond d’atelier d’artiste de Pierre Dupont",
-      "start_date": "2026-10-12",
-      "end_date": "2026-11-14",
-      "summary": "Les 3 Platanes accueillent une exposition du fond d’atelier de Pierre Dupont, du 12 octobre au 14 novembre 2026.",
-      "categories": [
-        "Patrimoine / Culture vivante"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/",
-      "practical": {
-        "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes",
-        "address": "63 rue de la Maladrerie - 26110 NYONS",
-        "phone": "0620046099",
-        "email": "",
-        "website": "https://www.les3platanes.com/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-fond-datelier-dartiste-de-pierre-dupont-2026-10-12/",
-      "start_time": "10:00",
-      "end_time": "18:30",
-      "date_label": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30"
-    },
-    {
-      "title": "Exposition photo « Jump ! »",
-      "start_date": "2026-10-12",
-      "end_date": "2026-11-07",
-      "summary": "Claude Tauleigne présente ses photographies aux 3 Platanes, à Nyons, du 12 octobre au 7 novembre 2026.",
-      "categories": [
-        "Patrimoine / Culture vivante"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-photo-jump/",
-      "practical": {
-        "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes",
-        "address": "63 rue de la Maladrerie - 26110 NYONS",
-        "phone": "0620046099",
-        "email": "",
-        "website": "https://www.les3platanes.com/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-photo-jump-2026-10-12/",
-      "start_time": "10:00",
-      "end_time": "18:30",
-      "date_label": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30"
-    },
-    {
       "title": "Cinéma — Fausse Note",
       "film_title": "Fausse Note",
       "kind": "cinema",
@@ -1999,36 +1955,6 @@
           "verified_on": "2026-10-04"
         }
       }
-    },
-    {
-      "title": "Exposition « Le réel et son double #2 »",
-      "start_date": "2026-10-20",
-      "end_date": "2026-10-31",
-      "summary": "Exposition \"Le réel et son double #2\" avec Antoine Picard et la MARPA de Rémuzat",
-      "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-le-reel-et-son-double-2/",
-      "practical": {
-        "date_time": "Du mardi 20 octobre 2026 de 10h00 au samedi 31 octobre 2026 à 18h00",
-        "location_name": "Médiathèque",
-        "address": "9 rue Albin Vilhet, à Nyons",
-        "phone": "04 75 26 48 26",
-        "email": "mddp-nyons@ladrome.fr",
-        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-le-reel-et-son-double-2-2026-10-20/",
-      "start_time": "10:00",
-      "end_time": "18:00",
-      "date_label": "Du mardi 20 octobre 2026 de 10h00 au samedi 31 octobre 2026 à 18h00"
     },
     {
       "title": "Cinéma — Cars",
@@ -3136,9 +3062,15 @@
       "end_date": "2026-11-13",
       "summary": "1 place de la Liberté, du 28 octobre au 13 novembre.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/leau-exposition-du-preau-des-arts/",
       "practical": {
@@ -3153,31 +3085,6 @@
       "start_time": "09:00",
       "end_time": "17:00",
       "date_label": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00"
-    },
-    {
-      "title": "Atelier culinaire – Brownies d’Halloween",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "summary": "Atelier culinaire, réalisation de brownies d'Halloween",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-brownies-dhalloween/",
-      "practical": {
-        "date_time": "Samedi 31 octobre 2026 de 14h30 à 16h00",
-        "location_name": "Maison des Huiles d'Olives & Olives de France -",
-        "address": "40 place de la Libération, 26110 Nyons",
-        "phone": "0475269090",
-        "email": "contact@maisondeshuilesetolives.fr",
-        "website": "https://maisondeshuilesetolives.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-brownies-dhalloween-2026-10-31/",
-      "start_time": "14:30",
-      "end_time": "16:00",
-      "date_label": "Samedi 31 octobre 2026 de 14h30 à 16h00"
     },
     {
       "title": "Cinéma — Gruffalo, de père en fils",
@@ -3336,98 +3243,6 @@
       }
     },
     {
-      "title": "Goûter Halloween avec Nyons O’line",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "summary": "Danses et animation musicale par Nyons o'line",
-      "categories": [
-        "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/halloween/",
-      "practical": {
-        "date_time": "Samedi 31 octobre 2026 de 16h00 à 20h00",
-        "location_name": "",
-        "address": "Place du Dr Bourdongle - 26110 NYONS",
-        "phone": "0645363981",
-        "email": "daniele.selmi@yahoo.com",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/gouter-halloween-avec-nyons-oline-2026-10-31/",
-      "start_time": "16:00",
-      "end_time": "20:00",
-      "date_label": "Samedi 31 octobre 2026 de 16h00 à 20h00"
-    },
-    {
-      "title": "Hallowen au cinéma Arlequin",
-      "start_date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "summary": "Le cinéma l’Arlequin fvous propose des séances spéciales Halloween !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/hallowen-au-cinema-arlequin/",
-      "practical": {
-        "date_time": "Samedi 31 octobre 2026 de 17h00 à 23h00",
-        "location_name": "Cinéma Arlequin,",
-        "address": "28 Place de la Libération - 26110 NYONS",
-        "phone": "04 75 26 01 41",
-        "email": "",
-        "website": "https://www.cinema-arlequin.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/hallowen-au-cinema-arlequin-2026-10-31/",
-      "start_time": "17:00",
-      "end_time": "23:00",
-      "date_label": "Samedi 31 octobre 2026 de 17h00 à 23h00"
-    },
-    {
-      "title": "Cérémonie d’hommage aux morts pour la France",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "summary": "Organisée par le Souvenir Français au Carré militaire du cimetière de Nyons.",
-      "categories": [
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/ceremonie-dhommage-aux-morts-pour-la-france/",
-      "practical": {
-        "date_time": "Dimanche 01 novembre 2026 de 11h30 à 12h00",
-        "location_name": "",
-        "address": "Carré militaire du cimetière de Nyons, 17B rue des Souchères - 26110 NYONS",
-        "phone": "0628297346",
-        "email": "martine.berthe-bousselet@orange.fr",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/ceremonie-dhommage-aux-morts-pour-la-france-2026-11-01/",
-      "start_time": "11:30",
-      "end_time": "12:00",
-      "date_label": "Dimanche 01 novembre 2026 de 11h30 à 12h00"
-    },
-    {
-      "title": "Soirée cinéma Festival Alimenterre",
-      "start_date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "summary": "Le cinéma l’Arlequin vous propose une soirée Festival Alimenterre !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/soiree-cinema-festival-alimenterre/",
-      "practical": {
-        "date_time": "Dimanche 01 novembre 2026 de 19h00 à 23h30",
-        "location_name": "Cinéma Arlequin,",
-        "address": "28 Place de la Libération - 26110 NYONS",
-        "phone": "04 75 26 01 41",
-        "email": "",
-        "website": "https://www.cinema-arlequin.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-cinema-festival-alimenterre-2026-11-01/",
-      "start_time": "19:00",
-      "end_time": "23:30",
-      "date_label": "Dimanche 01 novembre 2026 de 19h00 à 23h30"
-    },
-    {
       "title": "Cinéma — Femmes des terres",
       "film_title": "Femmes des terres",
       "kind": "cinema",
@@ -3542,28 +3357,6 @@
         "price_note": "Tarif à confirmer auprès du cinéma.",
         "poster_credit": "Visuel informatif : le titre du film n’est pas dévoilé dans le programme."
       }
-    },
-    {
-      "title": "Lettres de Noël solidaires",
-      "start_date": "2026-11-02",
-      "end_date": "2026-12-11",
-      "summary": "Une attention écrite pour Noël : chacun peut adresser quelques mots bienveillants à un enfant, une femme ou un homme. La collecte se déroule du 2 novembre au 11 décembre 2026.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/",
-      "practical": {
-        "date_time": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00",
-        "location_name": "Maison des associations Georges Girard",
-        "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
-        "phone": "04 75 26 47 31",
-        "email": "",
-        "website": "https://carrefourdeshabitantsdunyonsais.wordpress.com/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/lettres-de-noel-solidaires-2026-11-02/",
-      "start_time": "09:00",
-      "end_time": "17:00",
-      "date_label": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00"
     },
     {
       "title": "Cinéma — Così fan tutte — Metropolitan Opera",
@@ -4264,6 +4057,104 @@
       "date_label": "Du vendredi 06 novembre 2026 de 10h00 au samedi 28 novembre 2026 à 18h00"
     },
     {
+      "title": "Atelier de yoga du visage",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "summary": "Proposé par Annabel Djila",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-de-yoga-du-visage/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 10h30 à 11h30",
+        "location_name": "Le collectif le Papillon,",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
+        "phone": "06 81 80 05 73",
+        "email": "djilanab@yahoo.fr",
+        "website": "https://www.annabeldjila.com/les-ateliers/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-de-yoga-du-visage-2026-11-07/",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "date_label": "Samedi 07 novembre 2026 de 10h30 à 11h30"
+    },
+    {
+      "title": "Atelier-jeu « Mission : esprit critique »",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "summary": "Organisé par l'AFIS Science (Association française pour l’information scientifique).",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-jeu-mission-esprit-critique/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 15h00 à 18h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-jeu-mission-esprit-critique-2026-11-07/",
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "date_label": "Samedi 07 novembre 2026 de 15h00 à 18h00"
+    },
+    {
+      "title": "Cueillette solidaire des olives de Nyons",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 07h30 à 12h00",
+        "location_name": "Centre Technique Municipal,",
+        "address": "66 avenue Frédéric Mistral - 26110 NYONS",
+        "phone": "04 75 26 50 00",
+        "email": "r.viarsac@nyons.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-07/",
+      "start_time": "07:30",
+      "end_time": "12:00",
+      "date_label": "Samedi 07 novembre 2026 de 07h30 à 12h00"
+    },
+    {
+      "title": "Drôles de Coïncidences",
+      "start_date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "summary": "Comédie d'intrigue de Maxence Descamps",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/droles-de-coincidences-2/",
+      "practical": {
+        "date_time": "Samedi 07 novembre 2026 de 20h30 à 22h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "electron.nyons@gmail.com",
+        "website": "https://www.lelectron.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/droles-de-coincidences-2026-11-07/",
+      "start_time": "20:30",
+      "end_time": "22:00",
+      "date_label": "Samedi 07 novembre 2026 de 20h30 à 22h00"
+    },
+    {
       "title": "Cinéma — Projection surprise jeune public",
       "film_title": "Projection surprise jeune public",
       "kind": "cinema",
@@ -4410,15 +4301,8 @@
       "end_date": "2026-11-09",
       "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Népal !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/soiree-100-nepal/",
       "practical": {
@@ -4658,8 +4542,8 @@
       "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/",
       "practical": {
         "date_time": "Samedi 14 novembre 2026 de 20h30 à 22h00",
-        "location_name": "",
-        "address": "",
+        "location_name": "L'Électron Libre,",
+        "address": "70 allée Édouard Farnier Z.A. Les Laurons - 26110 NYONS",
         "phone": "",
         "email": "electron.nyons@gmail.com",
         "website": "https://www.lelectron.fr"
@@ -4834,6 +4718,36 @@
       "date_label": "Mercredi 18 novembre 2026 de 09h00 à 20h00"
     },
     {
+      "title": "Journée mondiale de lutte contre le BPCO",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "summary": "Ateliers de prévention et d’information !",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-mondiale-de-lutte-contre-le-bpco/",
+      "practical": {
+        "date_time": "Jeudi 19 novembre 2026 de 08h30 à 12h00",
+        "location_name": "Place Buffaven",
+        "address": "Nyons",
+        "phone": "04 75 26 55 00",
+        "email": "communication@orsac-atrir.fr",
+        "website": "https://www.orsac-atrir.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/journee-mondiale-de-lutte-contre-le-bpco-2026-11-19/",
+      "start_time": "08:30",
+      "end_time": "12:00",
+      "date_label": "Jeudi 19 novembre 2026 de 08h30 à 12h00"
+    },
+    {
       "title": "Bourse aux jouets",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
@@ -4862,15 +4776,7 @@
       "end_date": "2026-11-21",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale-2/",
       "practical": {
@@ -5030,8 +4936,15 @@
       "end_date": "2026-11-28",
       "summary": "Pour les couples, les amis, la famille..",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/initiation-a-la-reflexologie-plantaire/",
       "practical": {
@@ -5053,15 +4966,9 @@
       "end_date": "2026-11-28",
       "summary": "Pour se questionner sur l’origine des photographies, leur polysémie, leurs usages.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/",
       "practical": {
@@ -5290,9 +5197,15 @@
       "end_date": "2026-12-14",
       "summary": "Conférence présentée par Alain Saint-Denis, historien médiéviste",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/",
       "practical": {
@@ -5337,15 +5250,9 @@
       "end_date": "2026-12-19",
       "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/toupetituli-3/",
       "practical": {
@@ -5530,7 +5437,15 @@
       "end_date": "2027-01-12",
       "summary": "Rendez-vous à la Maison de Pays à 18h30.",
       "categories": [
-        "Administratif"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/ceremonie-des-voeux-du-mairie/",
       "practical": {
@@ -5574,15 +5489,9 @@
       "end_date": "2027-01-21",
       "summary": "Conférence présentée par Martine Lambert, coprésidente honoraire de l'UNTL.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/",
       "practical": {
@@ -5764,9 +5673,15 @@
       "end_date": "2027-03-14",
       "summary": "Conférence présentée par Michel Moreau, agrégé de mathématiques.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/",
       "practical": {
@@ -5812,15 +5727,8 @@
       "end_date": "2027-03-19",
       "summary": "De Charlotte Adrien, en collaboration avec le CCDV. Un rituel théâtral insolent, drôle et troublant, pour regarder l’amour en face.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-de-lamour/",
       "practical": {
@@ -6004,9 +5912,15 @@
       "end_date": "2027-04-26",
       "summary": "Conférence présentée par Philippe Fréchet, enseignant spécialisé, conférencier de l’histoire de la pensée et de l’histoire sociale et politique.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/",
       "practical": {
@@ -6052,15 +5966,7 @@
       "end_date": "2027-05-02",
       "summary": "2nd tour des élections présidentielles.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/2nd-tour-des-elections-presidentielles/",
       "practical": {
