@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-01T13:29:07.361566+00:00",
-  "count": 139,
+  "updated_at": "2026-11-02T15:48:26.321146+00:00",
+  "count": 142,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -1230,6 +1230,50 @@
           "verified_on": "2026-10-04"
         }
       }
+    },
+    {
+      "title": "Exposition fond d’atelier d’artiste de Pierre Dupont",
+      "start_date": "2026-10-12",
+      "end_date": "2026-11-14",
+      "summary": "Les 3 Platanes accueillent une exposition du fond d’atelier de Pierre Dupont, du 12 octobre au 14 novembre 2026.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/",
+      "practical": {
+        "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
+        "location_name": "Les 3 Platanes",
+        "address": "63 rue de la Maladrerie - 26110 NYONS",
+        "phone": "0620046099",
+        "email": "",
+        "website": "https://www.les3platanes.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-fond-datelier-dartiste-de-pierre-dupont-2026-10-12/",
+      "start_time": "10:00",
+      "end_time": "18:30",
+      "date_label": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30"
+    },
+    {
+      "title": "Exposition photo « Jump ! »",
+      "start_date": "2026-10-12",
+      "end_date": "2026-11-07",
+      "summary": "Claude Tauleigne présente ses photographies aux 3 Platanes, à Nyons, du 12 octobre au 7 novembre 2026.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-photo-jump/",
+      "practical": {
+        "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30",
+        "location_name": "Les 3 Platanes",
+        "address": "63 rue de la Maladrerie - 26110 NYONS",
+        "phone": "0620046099",
+        "email": "",
+        "website": "https://www.les3platanes.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-photo-jump-2026-10-12/",
+      "start_time": "10:00",
+      "end_time": "18:30",
+      "date_label": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30"
     },
     {
       "title": "Cinéma — Fausse Note",
@@ -3498,6 +3542,28 @@
         "price_note": "Tarif à confirmer auprès du cinéma.",
         "poster_credit": "Visuel informatif : le titre du film n’est pas dévoilé dans le programme."
       }
+    },
+    {
+      "title": "Lettres de Noël solidaires",
+      "start_date": "2026-11-02",
+      "end_date": "2026-12-11",
+      "summary": "Une attention écrite pour Noël : chacun peut adresser quelques mots bienveillants à un enfant, une femme ou un homme. La collecte se déroule du 2 novembre au 11 décembre 2026.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/",
+      "practical": {
+        "date_time": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00",
+        "location_name": "Maison des associations Georges Girard",
+        "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+        "phone": "04 75 26 47 31",
+        "email": "",
+        "website": "https://carrefourdeshabitantsdunyonsais.wordpress.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/lettres-de-noel-solidaires-2026-11-02/",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "date_label": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00"
     },
     {
       "title": "Cinéma — Così fan tutte — Metropolitan Opera",

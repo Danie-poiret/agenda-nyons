@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lettres-de-noel-solidaires-2026-11-02@agenda.vivreanyons.fr
+DTSTAMP:20261102T154826Z
+DTSTART;TZID=Europe/Paris:20261102T090000
+DTEND;TZID=Europe/Paris:20261211T170000
+SUMMARY:Lettres de Noël solidaires
+DESCRIPTION:Une attention écrite pour Noël : chacun peut adresser quelques mots bienveillants à un enfant\, une femme ou un homme. La collecte se déroule du 2 novembre au 11 décembre 2026.\nhttps://agenda.vivreanyons.fr/evenements/lettres-de-noel-solidaires-2026-11-02/
+LOCATION:Maison des associations Georges Girard — Maison des associations Georges Girard\, Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/lettres-de-noel-solidaires-2026-11-02/
+END:VEVENT
+END:VCALENDAR

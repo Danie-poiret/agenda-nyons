@@ -10581,5 +10581,107 @@
     "generated_at": "2026-10-29T13:07:37.718576+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/exposition-photo-jump/": {
+    "hash": "0313e0591ac63795442d10e047094a293ba61c77623328111936c2002c05bf12",
+    "slug": "exposition-photo-jump-2026-10-12",
+    "event": {
+      "title": "Exposition photo « Jump ! »",
+      "start_date": "2026-10-12",
+      "end_date": "2026-11-07",
+      "summary": "Claude Tauleigne présente ses photographies aux 3 Platanes, à Nyons, du 12 octobre au 7 novembre 2026.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-photo-jump/"
+    },
+    "editorial": {
+      "seo_title": "Exposition photo « Jump ! » à Nyons",
+      "meta_description": "Claude Tauleigne présente ses photographies aux 3 Platanes, à Nyons, du 12 octobre au 7 novembre 2026.",
+      "intro": "Claude Tauleigne présente ses photographies aux 3 Platanes, à Nyons, du 12 octobre au 7 novembre 2026.",
+      "story": "L’exposition « Jump ! » se découvre au 63 rue de la Maladrerie. Pour préparer votre venue, contactez Les 3 Platanes au 06 20 04 60 99.",
+      "why_it_matters": "",
+      "practical": "Les dates indiquent la période annoncée. Vérifiez les horaires d’accueil auprès du lieu avant de vous déplacer.",
+      "reader_question": ""
+    },
+    "practical": {
+      "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30",
+      "location_name": "Les 3 Platanes",
+      "address": "63 rue de la Maladrerie - 26110 NYONS",
+      "phone": "0620046099",
+      "email": "",
+      "website": "https://www.les3platanes.com/"
+    },
+    "generated_at": "2026-11-02T15:48:25.990586+00:00",
+    "model": "editorial",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/": {
+    "hash": "8c829b221399dfc3944698273c45b927c240009e79fe37a2e6a2726da965cd9d",
+    "slug": "exposition-fond-datelier-dartiste-de-pierre-dupont-2026-10-12",
+    "event": {
+      "title": "Exposition fond d’atelier d’artiste de Pierre Dupont",
+      "start_date": "2026-10-12",
+      "end_date": "2026-11-14",
+      "summary": "Les 3 Platanes accueillent une exposition du fond d’atelier de Pierre Dupont, du 12 octobre au 14 novembre 2026.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/"
+    },
+    "editorial": {
+      "seo_title": "Exposition fond d’atelier d’artiste de Pierre Dupont à Nyons",
+      "meta_description": "Les 3 Platanes accueillent une exposition du fond d’atelier de Pierre Dupont, du 12 octobre au 14 novembre 2026.",
+      "intro": "Les 3 Platanes accueillent une exposition du fond d’atelier de Pierre Dupont, du 12 octobre au 14 novembre 2026.",
+      "story": "Rendez-vous au 63 rue de la Maladrerie, à Nyons. Les renseignements sur l’accueil sont disponibles auprès des 3 Platanes au 06 20 04 60 99.",
+      "why_it_matters": "",
+      "practical": "Les dates indiquent la période annoncée. Vérifiez les horaires d’accueil auprès du lieu avant de vous déplacer.",
+      "reader_question": ""
+    },
+    "practical": {
+      "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
+      "location_name": "Les 3 Platanes",
+      "address": "63 rue de la Maladrerie - 26110 NYONS",
+      "phone": "0620046099",
+      "email": "",
+      "website": "https://www.les3platanes.com/"
+    },
+    "generated_at": "2026-11-02T15:48:26.175137+00:00",
+    "model": "editorial",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/lettres-de-noel-solidaires/": {
+    "hash": "e0a2b874d289ba7d67224a420bb8b2fc007427ee389e0c10fa50665692dcf264",
+    "slug": "lettres-de-noel-solidaires-2026-11-02",
+    "event": {
+      "title": "Lettres de Noël solidaires",
+      "start_date": "2026-11-02",
+      "end_date": "2026-12-11",
+      "summary": "Une attention écrite pour Noël : chacun peut adresser quelques mots bienveillants à un enfant, une femme ou un homme. La collecte se déroule du 2 novembre au 11 décembre 2026.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/"
+    },
+    "editorial": {
+      "seo_title": "Lettres de Noël solidaires à Nyons",
+      "meta_description": "Une attention écrite pour Noël : chacun peut adresser quelques mots bienveillants à un enfant, une femme ou un homme. La collecte se déroule du 2 novembre au…",
+      "intro": "Une attention écrite pour Noël : chacun peut adresser quelques mots bienveillants à un enfant, une femme ou un homme. La collecte se déroule du 2 novembre au 11 décembre 2026.",
+      "story": "Les lettres sont recueillies au Carrefour des habitants, à la Maison des associations Georges Girard, Draye de Meyne à Nyons. Pour connaître les modalités de dépôt, contactez le 04 75 26 47 31.",
+      "why_it_matters": "",
+      "practical": "Les dates indiquent la période annoncée. Vérifiez les horaires d’accueil auprès du lieu avant de vous déplacer.",
+      "reader_question": ""
+    },
+    "practical": {
+      "date_time": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00",
+      "location_name": "Maison des associations Georges Girard",
+      "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+      "phone": "04 75 26 47 31",
+      "email": "",
+      "website": "https://carrefourdeshabitantsdunyonsais.wordpress.com/"
+    },
+    "generated_at": "2026-11-02T15:48:26.308319+00:00",
+    "model": "editorial",
+    "prompt_version": 10
   }
 }

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exposition-photo-jump-2026-10-12@agenda.vivreanyons.fr
+DTSTAMP:20261102T154826Z
+DTSTART;TZID=Europe/Paris:20261012T100000
+DTEND;TZID=Europe/Paris:20261107T183000
+SUMMARY:Exposition photo « Jump ! »
+DESCRIPTION:Claude Tauleigne présente ses photographies aux 3 Platanes\, à Nyons\, du 12 octobre au 7 novembre 2026.\nhttps://agenda.vivreanyons.fr/evenements/exposition-photo-jump-2026-10-12/
+LOCATION:Les 3 Platanes — 63 rue de la Maladrerie - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/exposition-photo-jump-2026-10-12/
+END:VEVENT
+END:VCALENDAR

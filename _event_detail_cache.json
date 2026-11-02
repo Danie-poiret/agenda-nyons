@@ -2117,5 +2117,44 @@
     },
     "parser_version": 8,
     "fetched_at": "2026-10-31T12:37:42.845490+00:00"
+  },
+  "https://www.nyons.com/agenda/exposition-photo-jump/": {
+    "text": "Exposition photo « Jump ! » Exposition photo « Jump ! » Exporter l'événement lundi 12 octobre 2026 Patrimoine / Culture vivante Retour Exposition photo « Jump ! » de Claude Tauleigne , du 12 octobre au 7 novembre aux 3 Platanes. Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30 Les 3 Platanes, 63 rue de la Maladrerie - 26110 NYONS 0620046099 https://www.les3platanes.com/",
+    "practical": {
+      "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30",
+      "location_name": "Les 3 Platanes",
+      "address": "63 rue de la Maladrerie - 26110 NYONS",
+      "phone": "0620046099",
+      "email": "",
+      "website": "https://www.les3platanes.com/"
+    },
+    "parser_version": 8,
+    "fetched_at": "2026-11-02T15:48:25.990586+00:00"
+  },
+  "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/": {
+    "text": "Exposition fond d’atelier d’artiste de Pierre Dupont Exposition fond d’atelier d’artiste de Pierre Dupont Exporter l'événement lundi 12 octobre 2026 Patrimoine / Culture vivante Retour Exposition fond d’atelier d’artiste de Pierre Dupont , du 12 octobre au 14 novembre aux 3 Platanes. Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30 Les 3 Platanes, 63 rue de la Maladrerie - 26110 NYONS 0620046099 https://www.les3platanes.com/",
+    "practical": {
+      "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
+      "location_name": "Les 3 Platanes",
+      "address": "63 rue de la Maladrerie - 26110 NYONS",
+      "phone": "0620046099",
+      "email": "",
+      "website": "https://www.les3platanes.com/"
+    },
+    "parser_version": 8,
+    "fetched_at": "2026-11-02T15:48:26.175137+00:00"
+  },
+  "https://www.nyons.com/agenda/lettres-de-noel-solidaires/": {
+    "text": "Lettres de Noël solidaires Lettres de Noël solidaires Exporter l'événement lundi 02 novembre 2026 Solidarité / Santé Retour Lettres de Noël solidaires : Chacun est invité à écrire une phrase ou deux de jolies intentions à destination d’un enfant, d’une femme ou d’un homme (au choix). Car, aussi modeste soit-elle, une attention sincère reste la plus belle incarnation de l’esprit de Noël : tendre la main à ceux qui en ont besoin. Collecte au Carrefour des habitants, à la Maison des associations. Informations au 04 75 26 47 31. © Alexas_Fotos / Pixabay.com Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00 Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS 0475264731 https://carrefourdeshabitantsdunyonsais.wordpress.com/",
+    "practical": {
+      "date_time": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00",
+      "location_name": "Maison des associations Georges Girard",
+      "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+      "phone": "04 75 26 47 31",
+      "email": "",
+      "website": "https://carrefourdeshabitantsdunyonsais.wordpress.com/"
+    },
+    "parser_version": 8,
+    "fetched_at": "2026-11-02T15:48:26.308319+00:00"
   }
 }
