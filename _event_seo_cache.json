@@ -10614,7 +10614,9 @@
     },
     "generated_at": "2026-11-02T15:48:25.990586+00:00",
     "model": "editorial",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_id": "topic-9edf3ee38600abed",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/": {
     "hash": "8c829b221399dfc3944698273c45b927c240009e79fe37a2e6a2726da965cd9d",
@@ -10648,7 +10650,9 @@
     },
     "generated_at": "2026-11-02T15:48:26.175137+00:00",
     "model": "editorial",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_id": "topic-bfeb182ace0f5e78",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/lettres-de-noel-solidaires/": {
     "hash": "e0a2b874d289ba7d67224a420bb8b2fc007427ee389e0c10fa50665692dcf264",
@@ -10682,6 +10686,8 @@
     },
     "generated_at": "2026-11-02T15:48:26.308319+00:00",
     "model": "editorial",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_id": "topic-dc9d5ea41c832878",
+    "anecdote_assignment_version": 101
   }
 }

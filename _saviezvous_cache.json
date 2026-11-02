@@ -1120,6 +1120,30 @@
       "version": 1,
       "generated_at": "2026-10-26T13:53:30.198260+00:00",
       "source_url": "https://gallica.bnf.fr/selections/fr/html/droit-economie/grands-auteurs-de-la-pensee-economique-au-xviiie-siecle"
+    },
+    "exposition-photo-jump-2026-10-12": {
+      "text": "La photographie fête ses deux siècles en 2026-2027. Le ministère de la Culture situe vers 1826-1827 la réalisation du Point de vue du Gras de Nicéphore Niépce, considéré comme la plus ancienne photographie connue.",
+      "source_label": "Ministère de la Culture — Bicentenaire de la photographie",
+      "model": "editorial",
+      "version": 1,
+      "generated_at": "2026-11-02T15:55:41.630779+00:00",
+      "source_url": "https://www.culture.gouv.fr/actualites/pour-ses-200-ans-la-photographie-voit-en-grand"
+    },
+    "exposition-fond-datelier-dartiste-de-pierre-dupont-2026-10-12": {
+      "text": "Un atelier peut conserver les étapes successives de la création d’un artiste. À Meudon, le musée Rodin présente ainsi les séries de plâtres que le sculpteur gardait comme témoins des différentes phases de son travail.",
+      "source_label": "Musée Rodin — Galerie des plâtres",
+      "model": "editorial",
+      "version": 1,
+      "generated_at": "2026-11-02T15:55:41.642383+00:00",
+      "source_url": "https://www.meudon.musee-rodin.fr/galerie-platres"
+    },
+    "lettres-de-noel-solidaires-2026-11-02": {
+      "text": "La première carte de Noël commercialisée remonte à 1843 : Henry Cole en eut l’idée et confia son dessin à John Callcott Horsley. Le Victoria and Albert Museum conserve cette histoire des vœux illustrés, bien antérieure à nos messages numériques.",
+      "source_label": "Victoria and Albert Museum — The first Christmas card",
+      "model": "editorial",
+      "version": 1,
+      "generated_at": "2026-11-02T15:55:41.646407+00:00",
+      "source_url": "https://www.vam.ac.uk/articles/the-first-christmas-card"
     }
   }
 }
