@@ -14,8 +14,8 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          old = "assets/nyons-partner-banners.js?v=20261011-v1"
-          new = "assets/nyons-partner-banners.js?v=20261011-v2"
+          old = "assets/nyons-partner-banners.js?v=20261011-v2"
+          new = "assets/nyons-partner-banners.js?v=20261102-lezardiere-wide"
           count = 0
           for path in Path(".").rglob("*.html"):
               if any(part.startswith(".") for part in path.parts):
