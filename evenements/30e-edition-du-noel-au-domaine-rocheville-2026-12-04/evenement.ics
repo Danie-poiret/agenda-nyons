@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:30e-edition-du-noel-au-domaine-rocheville-2026-12-04@agenda.vivreanyons.fr
+DTSTAMP:20261103T142153Z
+DTSTART;TZID=Europe/Paris:20261204T140000
+DTEND;TZID=Europe/Paris:20261205T180000
+SUMMARY:30e édition du Noël au Domaine Rocheville
+DESCRIPTION:Vendredi après-midi et samedi toute la journée.\nhttps://agenda.vivreanyons.fr/evenements/30e-edition-du-noel-au-domaine-rocheville-2026-12-04/
+LOCATION:Domaine Rocheville\, 117 ter Route de Montélimar - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/30e-edition-du-noel-au-domaine-rocheville-2026-12-04/
+END:VEVENT
+END:VCALENDAR

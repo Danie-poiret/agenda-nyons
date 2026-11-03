@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:illumination-de-la-ville-2026-12-04@agenda.vivreanyons.fr
+DTSTAMP:20261103T142153Z
+DTSTART;TZID=Europe/Paris:20261204T180000
+DTEND;TZID=Europe/Paris:20261204T200000
+SUMMARY:Illumination de la Ville
+DESCRIPTION:Lancement des illuminations de Noël sur la place de la Libération à partir de 18h\, défilé en musique\, vin chaud et chocolat chaud offerts.\nhttps://agenda.vivreanyons.fr/evenements/illumination-de-la-ville-2026-12-04/
+LOCATION:Place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/illumination-de-la-ville-2026-12-04/
+END:VEVENT
+END:VCALENDAR

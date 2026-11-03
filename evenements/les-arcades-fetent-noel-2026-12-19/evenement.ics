@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:les-arcades-fetent-noel-2026-12-19@agenda.vivreanyons.fr
+DTSTAMP:20261103T142153Z
+DTSTART;TZID=Europe/Paris:20261219T100000
+DTEND;TZID=Europe/Paris:20261219T180000
+SUMMARY:Les Arcades fêtent Noël
+DESCRIPTION:Dédicace d’auteurs\, dégustation de vins et de douceurs et démonstration d’artisanat.\nhttps://agenda.vivreanyons.fr/evenements/les-arcades-fetent-noel-2026-12-19/
+LOCATION:Devant la librairie Pinet\, place du Dr Bourdongle - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/les-arcades-fetent-noel-2026-12-19/
+END:VEVENT
+END:VCALENDAR
