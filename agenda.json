@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-03T14:21:00.163752+00:00",
-  "count": 144,
+  "updated_at": "2026-11-04T14:37:27.148203+00:00",
+  "count": 146,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -5000,20 +5000,36 @@
       "date_label": "Mercredi 25 novembre 2026 de 09h00 à 17h00"
     },
     {
+      "title": "Exposition « libre d’être »",
+      "start_date": "2026-11-27",
+      "end_date": "2026-12-03",
+      "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
+      "practical": {
+        "date_time": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00",
+        "location_name": "Préau des Arts,",
+        "address": "8 rue Pierre Toesca - 26110 NYONS",
+        "phone": "0475264326",
+        "email": "secretariatnyons@laplanningfamilial26.org",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-libre-detre-2026-11-27/",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "date_label": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00"
+    },
+    {
       "title": "Initiation à la réflexologie plantaire",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
       "summary": "Pour les couples, les amis, la famille..",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/initiation-a-la-reflexologie-plantaire/",
       "practical": {
@@ -5081,9 +5097,15 @@
       "end_date": "2026-11-28",
       "summary": "À la Maison de Pays dès 10h30",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/",
       "practical": {
@@ -5235,6 +5257,36 @@
       "date_label": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59"
     },
     {
+      "title": "Concerts du duo Feuillet et de la Chorale des Oliviers",
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-06",
+      "summary": "Dans le cadre du Téléthon 2026.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers/",
+      "practical": {
+        "date_time": "Dimanche 06 décembre 2026 de 15h00 à 18h00",
+        "location_name": "",
+        "address": "Église Saint-Vincent - 26110 NYONS",
+        "phone": "0607884522",
+        "email": "regine3108@gmail.com",
+        "website": "https://choraledesoliviers.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers-2026-12-06/",
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "date_label": "Dimanche 06 décembre 2026 de 15h00 à 18h00"
+    },
+    {
       "title": "Conférence de l’UNTL sur « Des mythes aux modèles ou la recherche d’une représentation du monde »",
       "start_date": "2026-12-07",
       "end_date": "2026-12-07",
@@ -5264,14 +5316,8 @@
       "end_date": "2026-12-12",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/",
@@ -5456,8 +5502,15 @@
       "end_date": "2027-01-01",
       "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/",
       "practical": {
@@ -5503,15 +5556,8 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -5694,8 +5740,15 @@
       "end_date": "2027-02-06",
       "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-grands-chemins/",
       "practical": {
@@ -5739,15 +5792,8 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -5933,8 +5979,15 @@
       "end_date": "2027-04-02",
       "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/et-maintenant-jattends/",
       "practical": {
@@ -5980,14 +6033,8 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
@@ -6168,8 +6215,15 @@
       "end_date": "2027-05-20",
       "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/",
       "practical": {

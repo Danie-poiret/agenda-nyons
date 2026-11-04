@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:constellation-familiale-2026-11-14@agenda.vivreanyons.fr
-DTSTAMP:20261103T142153Z
+DTSTAMP:20261104T143745Z
 DTSTART;TZID=Europe/Paris:20261114T133000
 DTEND;TZID=Europe/Paris:20261114T193000
 SUMMARY:Constellation familiale
-DESCRIPTION:La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres\, mais également de leurs histoires\, schémas et bagages émotionnels. 1 2 3 4 5 … 8 9 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons H\nhttps://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-14/
+DESCRIPTION:La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres\, mais également de leurs histoires\, schémas et bagages émotionnels. 1 2 3 4 5 … 9 10 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons\nhttps://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-14/
 LOCATION:Le collectif le Papillon\, — 10 Avenue Jules Bernard - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-14/
 END:VEVENT
