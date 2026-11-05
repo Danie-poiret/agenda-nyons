@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:lettres-de-noel-solidaires-2026-11-02@agenda.vivreanyons.fr
-DTSTAMP:20261104T143745Z
+DTSTAMP:20261105T144348Z
 DTSTART;TZID=Europe/Paris:20261102T090000
 DTEND;TZID=Europe/Paris:20261211T170000
 SUMMARY:Lettres de Noël solidaires
 DESCRIPTION:Écrivez une phrase ou deux de jolies intentions à destination d’un enfant ou d’un adulte.\nhttps://agenda.vivreanyons.fr/evenements/lettres-de-noel-solidaires-2026-11-02/
-LOCATION:Maison des associations Georges Girard — Maison des associations Georges Girard\, Draye de Meyne - 26110 NYONS
+LOCATION:Maison des associations Georges Girard\, Draye de Meyne - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/lettres-de-noel-solidaires-2026-11-02/
 END:VEVENT
 END:VCALENDAR

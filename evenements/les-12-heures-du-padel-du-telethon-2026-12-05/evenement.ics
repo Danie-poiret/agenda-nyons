@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:les-12-heures-du-padel-du-telethon-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261205T090000
+DTEND;TZID=Europe/Paris:20261205T210000
+SUMMARY:Les 12 heures du Padel du Téléthon
+DESCRIPTION:Organisées par le Tennis Club de Nyons.\nhttps://agenda.vivreanyons.fr/evenements/les-12-heures-du-padel-du-telethon-2026-12-05/
+LOCATION:Courts de Padel\, — 7 rue Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/les-12-heures-du-padel-du-telethon-2026-12-05/
+END:VEVENT
+END:VCALENDAR

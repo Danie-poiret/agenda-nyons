@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vente-de-sucres-et-sales-du-telethon-2026-12-03@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261203T080000
+DTEND;TZID=Europe/Paris:20261203T120000
+SUMMARY:Vente de sucrés et salés du Téléthon
+DESCRIPTION:Proposée par le Comité des Fêtes et de Loisirs de Nyons.\nhttps://agenda.vivreanyons.fr/evenements/vente-de-sucres-et-sales-du-telethon-2026-12-03/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/vente-de-sucres-et-sales-du-telethon-2026-12-03/
+END:VEVENT
+END:VCALENDAR

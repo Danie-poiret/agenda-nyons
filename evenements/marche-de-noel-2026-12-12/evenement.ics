@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:marche-de-noel-2026-12-12@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261212T093000
+DTEND;TZID=Europe/Paris:20261212T183000
+SUMMARY:Marché de Noël
+DESCRIPTION:Organisé par la cave coopérative Vignolis.\nhttps://agenda.vivreanyons.fr/evenements/marche-de-noel-2026-12-12/
+LOCATION:Cave coopérative Vignolis\, place Olivier de Serres - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/marche-de-noel-2026-12-12/
+END:VEVENT
+END:VCALENDAR

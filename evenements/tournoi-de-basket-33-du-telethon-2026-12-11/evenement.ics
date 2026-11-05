@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tournoi-de-basket-33-du-telethon-2026-12-11@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261211T173000
+DTEND;TZID=Europe/Paris:20261211T200000
+SUMMARY:Tournoi de basket 3×3 du Téléthon
+DESCRIPTION:Ouvert à tous\, don de la recette pour le Téléthon.\nhttps://agenda.vivreanyons.fr/evenements/tournoi-de-basket-33-du-telethon-2026-12-11/
+LOCATION:Maison des sports Jean Monpeyssen - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/tournoi-de-basket-33-du-telethon-2026-12-11/
+END:VEVENT
+END:VCALENDAR

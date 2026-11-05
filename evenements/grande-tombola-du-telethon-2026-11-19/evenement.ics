@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:grande-tombola-du-telethon-2026-11-19@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261119T090000
+DTEND;TZID=Europe/Paris:20261205T190000
+SUMMARY:Grande Tombola du Téléthon
+DESCRIPTION:Vente de billets dans les commerces de Nyons et durant les manifestations et don de la recette au Téléthon.\nhttps://agenda.vivreanyons.fr/evenements/grande-tombola-du-telethon-2026-11-19/
+LOCATION:Dans les commerces de Nyons et durant les manifestations - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/grande-tombola-du-telethon-2026-11-19/
+END:VEVENT
+END:VCALENDAR

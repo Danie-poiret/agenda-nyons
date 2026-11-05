@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-04T14:37:27.148203+00:00",
-  "count": 146,
+  "updated_at": "2026-11-05T14:42:30.761349+00:00",
+  "count": 158,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -1243,7 +1243,7 @@
       "url": "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/",
       "practical": {
         "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes",
+        "location_name": "Les 3 Platanes,",
         "address": "63 rue de la Maladrerie - 26110 NYONS",
         "phone": "0620046099",
         "email": "",
@@ -1273,7 +1273,7 @@
       "url": "https://www.nyons.com/agenda/exposition-photo-jump/",
       "practical": {
         "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 07 novembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes",
+        "location_name": "Les 3 Platanes,",
         "address": "63 rue de la Maladrerie - 26110 NYONS",
         "phone": "0620046099",
         "email": "",
@@ -3416,7 +3416,7 @@
       "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/",
       "practical": {
         "date_time": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00",
-        "location_name": "Maison des associations Georges Girard",
+        "location_name": "",
         "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
         "phone": "04 75 26 47 31",
         "email": "",
@@ -4787,10 +4787,10 @@
       "date_label": "Mercredi 18 novembre 2026 de 09h00 à 20h00"
     },
     {
-      "title": "Journée mondiale de lutte contre le BPCO",
+      "title": "Grande Tombola du Téléthon",
       "start_date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "summary": "Ateliers de prévention et d’information !",
+      "end_date": "2026-12-05",
+      "summary": "Vente de billets dans les commerces de Nyons et durant les manifestations et don de la recette au Téléthon.",
       "categories": [
         "Administratif",
         "Cadre de vie",
@@ -4801,6 +4801,28 @@
         "Vie associative",
         "Culture",
         "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/grande-tombola-du-telethon/",
+      "practical": {
+        "date_time": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00",
+        "location_name": "",
+        "address": "Dans les commerces de Nyons et durant les manifestations - 26110 NYONS",
+        "phone": "",
+        "email": "uennyons@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/grande-tombola-du-telethon-2026-11-19/",
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "date_label": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00"
+    },
+    {
+      "title": "Journée mondiale de lutte contre le BPCO",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "summary": "Ateliers de prévention et d’information !",
+      "categories": [
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/journee-mondiale-de-lutte-contre-le-bpco/",
       "practical": {
@@ -5005,8 +5027,15 @@
       "end_date": "2026-12-03",
       "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
       "practical": {
@@ -5097,15 +5126,9 @@
       "end_date": "2026-11-28",
       "summary": "À la Maison de Pays dès 10h30",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/",
       "practical": {
@@ -5143,6 +5166,52 @@
       "start_time": "10:00",
       "end_time": "19:00",
       "date_label": "Samedi 28 novembre 2026 de 10h00 à 19h00"
+    },
+    {
+      "title": "Tournoi de Bridge du Téléthon",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "summary": "Organisé par Nyons Bridge Club.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/tournoi-de-bridge-du-telethon/",
+      "practical": {
+        "date_time": "Jeudi 03 décembre 2026 de 14h00 à 18h00",
+        "location_name": "",
+        "address": "Espace Roumanille, Draye de Meyne - 26110 NYONS",
+        "phone": "06 41 53 49 23",
+        "email": "nyonsbc@gmail.com",
+        "website": "https://www.nyonsbridgeclub.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/tournoi-de-bridge-du-telethon-2026-12-03/",
+      "start_time": "14:00",
+      "end_time": "18:00",
+      "date_label": "Jeudi 03 décembre 2026 de 14h00 à 18h00"
+    },
+    {
+      "title": "Vente de sucrés et salés du Téléthon",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "summary": "Proposée par le Comité des Fêtes et de Loisirs de Nyons.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/vente-de-sucres-et-sales-du-telethon/",
+      "practical": {
+        "date_time": "Jeudi 03 décembre 2026 de 08h00 à 12h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/vente-de-sucres-et-sales-du-telethon-2026-12-03/",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "date_label": "Jeudi 03 décembre 2026 de 08h00 à 12h00"
     },
     {
       "title": "30e édition du Noël au Domaine Rocheville",
@@ -5188,6 +5257,132 @@
       "date_label": "Vendredi 04 décembre 2026 de 18h00 à 20h00"
     },
     {
+      "title": "Stands alimentaires et parcours ludique du Téléthon",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "summary": "Organisés par le Lions Club et Courir à Nyons, sur la place du Dr Bourdongle.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/stands-alimentaires-et-parcours-ludique-du-telethon/",
+      "practical": {
+        "date_time": "Vendredi 04 décembre 2026 de 15h00 à 18h30",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/stands-alimentaires-et-parcours-ludique-du-telethon-2026-12-04/",
+      "start_time": "15:00",
+      "end_time": "18:30",
+      "date_label": "Vendredi 04 décembre 2026 de 15h00 à 18h30"
+    },
+    {
+      "title": "Vin chaud et crêpes du Téléthon",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "summary": "Devant Gamm Vert, 8 avenue de Venterol.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/vin-chaud-et-crepes-du-telethon/",
+      "practical": {
+        "date_time": "Vendredi 04 décembre 2026 de 10h00 à 18h00",
+        "location_name": "Gamm Vert,",
+        "address": "8 avenue de Venterol - 26110 NYONS",
+        "phone": "0475260420",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/vin-chaud-et-crepes-du-telethon-2026-12-04/",
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "date_label": "Vendredi 04 décembre 2026 de 10h00 à 18h00"
+    },
+    {
+      "title": "Animation musicale du Téléthon",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Devant La Belle Époque / Les Palmiers, place de la Libération Nord",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/animation-musicale-du-telethon/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 19h00 à 21h00",
+        "location_name": "",
+        "address": "Devant La Belle Époque / Les Palmiers, place de la Libération Nord - 26110 NYONS",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/animation-musicale-du-telethon-2026-12-05/",
+      "start_time": "19:00",
+      "end_time": "21:00",
+      "date_label": "Samedi 05 décembre 2026 de 19h00 à 21h00"
+    },
+    {
+      "title": "Concours de pétanque du Téléthon",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Au Centre Régional de Boule sportive et Pétanque",
+      "categories": [
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 14h00 à 17h00",
+        "location_name": "Centre Régional de Boule sportive et Pétanque,",
+        "address": "25 rue Félix-Maurent, ZAC des Laurons II - 26110 NYONS",
+        "phone": "0670421921",
+        "email": "cl26-3007@francepetanque.com",
+        "website": "http://www.nyons-petanque.com"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/concours-de-petanque-du-telethon-2026-12-05/",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 05 décembre 2026 de 14h00 à 17h00"
+    },
+    {
+      "title": "Les 12 heures du Padel du Téléthon",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Organisées par le Tennis Club de Nyons.",
+      "categories": [
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/les-12-heures-du-padel-du-telethon/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 09h00 à 21h00",
+        "location_name": "Courts de Padel,",
+        "address": "7 rue Draye de Meyne - 26110 NYONS",
+        "phone": "",
+        "email": "contact@tcnyons.fr",
+        "website": "https://tcnyons.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/les-12-heures-du-padel-du-telethon-2026-12-05/",
+      "start_time": "09:00",
+      "end_time": "21:00",
+      "date_label": "Samedi 05 décembre 2026 de 09h00 à 21h00"
+    },
+    {
       "title": "Les turlupinades",
       "start_date": "2026-12-05",
       "end_date": "2026-12-05",
@@ -5209,6 +5404,29 @@
       "start_time": "20:30",
       "end_time": "22:00",
       "date_label": "Samedi 05 décembre 2026 de 20h30 à 22h00"
+    },
+    {
+      "title": "Marché de Noël de l’UEN et animations du Téléthon",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Sur la place de la Libération Nord.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/marche-de-noel-de-luen-et-animations-du-telethon/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 10h00 à 17h00",
+        "location_name": "",
+        "address": "Place de la Libération Nord - 26110 NYONS",
+        "phone": "0673356672",
+        "email": "uennyons@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/",
+      "start_time": "10:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 05 décembre 2026 de 10h00 à 17h00"
     },
     {
       "title": "Samedi, ça me dit !",
@@ -5262,15 +5480,8 @@
       "end_date": "2026-12-06",
       "summary": "Dans le cadre du Téléthon 2026.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers/",
       "practical": {
@@ -5292,9 +5503,15 @@
       "end_date": "2026-12-07",
       "summary": "Présentée par Jean-Luc Boissel, astrophysicien, professeur à l'INSA de Lyon.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/",
       "practical": {
@@ -5309,6 +5526,30 @@
       "start_time": "15:00",
       "end_time": "17:00",
       "date_label": "Lundi 07 décembre 2026 de 15h00 à 17h00"
+    },
+    {
+      "title": "Tournoi de basket 3×3 du Téléthon",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-11",
+      "summary": "Ouvert à tous, don de la recette pour le Téléthon.",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/tournoi-de-basket-3x3-du-telethon/",
+      "practical": {
+        "date_time": "Vendredi 11 décembre 2026 de 17h30 à 20h00",
+        "location_name": "",
+        "address": "Maison des sports Jean Monpeyssen - 26110 NYONS",
+        "phone": "0617013570",
+        "email": "communications.nyonsbc@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/tournoi-de-basket-33-du-telethon-2026-12-11/",
+      "start_time": "17:30",
+      "end_time": "20:00",
+      "date_label": "Vendredi 11 décembre 2026 de 17h30 à 20h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -5331,6 +5572,53 @@
       },
       "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2026-12-12/",
       "date_label": "samedi 12 décembre 2026 de 10h à 12h"
+    },
+    {
+      "title": "Concert de Noël de l’École de Musique de Nyons",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Dans le cadre de \"Nyons en Fêtes 2026\".",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 10h30 à 12h00",
+        "location_name": "",
+        "address": "Ancien Tribunal, place Jacques Martin Deydier - 26110 NYONS",
+        "phone": "0475261621",
+        "email": "edm26nyons@gmail.com",
+        "website": "https://www.ecoledemusiquedenyons.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/concert-de-noel-de-lecole-de-musique-de-nyons-2026-12-12/",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "date_label": "Samedi 12 décembre 2026 de 10h30 à 12h00"
+    },
+    {
+      "title": "Marché de Noël",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Organisé par la cave coopérative Vignolis.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/marche-de-noel/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 09h30 à 18h30",
+        "location_name": "",
+        "address": "Cave coopérative Vignolis, place Olivier de Serres - 26110 NYONS",
+        "phone": "0475269505",
+        "email": "communication@vignolis.fr",
+        "website": "http://www.vignolis.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/marche-de-noel-2026-12-12/",
+      "start_time": "09:30",
+      "end_time": "18:30",
+      "date_label": "Samedi 12 décembre 2026 de 09h30 à 18h30"
     },
     {
       "title": "Cher Edouard",
@@ -5455,9 +5743,15 @@
       "end_date": "2027-01-01",
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/",
       "practical": {
@@ -5502,15 +5796,8 @@
       "end_date": "2027-01-01",
       "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/",
       "practical": {
@@ -5693,8 +5980,15 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/",
       "practical": {
@@ -5740,15 +6034,8 @@
       "end_date": "2027-02-06",
       "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-grands-chemins/",
       "practical": {
@@ -5931,9 +6218,15 @@
       "end_date": "2027-03-24",
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/",
       "practical": {
@@ -5979,15 +6272,8 @@
       "end_date": "2027-04-02",
       "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/et-maintenant-jattends/",
       "practical": {
@@ -6170,8 +6456,14 @@
       "end_date": "2027-05-08",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",
@@ -6215,15 +6507,8 @@
       "end_date": "2027-05-20",
       "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/",
       "practical": {

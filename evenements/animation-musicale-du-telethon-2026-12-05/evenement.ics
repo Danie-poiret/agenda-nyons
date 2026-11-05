@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:animation-musicale-du-telethon-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261205T190000
+DTEND;TZID=Europe/Paris:20261205T210000
+SUMMARY:Animation musicale du Téléthon
+DESCRIPTION:Devant La Belle Époque / Les Palmiers\, place de la Libération Nord\nhttps://agenda.vivreanyons.fr/evenements/animation-musicale-du-telethon-2026-12-05/
+LOCATION:Devant La Belle Époque / Les Palmiers\, place de la Libération Nord - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/animation-musicale-du-telethon-2026-12-05/
+END:VEVENT
+END:VCALENDAR

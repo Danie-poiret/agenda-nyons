@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-de-noel-de-lecole-de-musique-de-nyons-2026-12-12@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261212T103000
+DTEND;TZID=Europe/Paris:20261212T120000
+SUMMARY:Concert de Noël de l’École de Musique de Nyons
+DESCRIPTION:Dans le cadre de "Nyons en Fêtes 2026".\nhttps://agenda.vivreanyons.fr/evenements/concert-de-noel-de-lecole-de-musique-de-nyons-2026-12-12/
+LOCATION:Ancien Tribunal\, place Jacques Martin Deydier - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/concert-de-noel-de-lecole-de-musique-de-nyons-2026-12-12/
+END:VEVENT
+END:VCALENDAR

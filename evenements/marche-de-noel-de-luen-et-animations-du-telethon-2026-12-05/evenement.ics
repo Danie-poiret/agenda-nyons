@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261205T100000
+DTEND;TZID=Europe/Paris:20261205T170000
+SUMMARY:Marché de Noël de l’UEN et animations du Téléthon
+DESCRIPTION:Sur la place de la Libération Nord.\nhttps://agenda.vivreanyons.fr/evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/
+LOCATION:Place de la Libération Nord - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/
+END:VEVENT
+END:VCALENDAR

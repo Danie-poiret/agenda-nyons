@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tournoi-de-bridge-du-telethon-2026-12-03@agenda.vivreanyons.fr
+DTSTAMP:20261105T144348Z
+DTSTART;TZID=Europe/Paris:20261203T140000
+DTEND;TZID=Europe/Paris:20261203T180000
+SUMMARY:Tournoi de Bridge du Téléthon
+DESCRIPTION:Organisé par Nyons Bridge Club.\nhttps://agenda.vivreanyons.fr/evenements/tournoi-de-bridge-du-telethon-2026-12-03/
+LOCATION:Espace Roumanille\, Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/tournoi-de-bridge-du-telethon-2026-12-03/
+END:VEVENT
+END:VCALENDAR
