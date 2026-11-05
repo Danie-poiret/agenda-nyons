@@ -1144,6 +1144,86 @@
       "version": 1,
       "generated_at": "2026-11-02T15:55:41.646407+00:00",
       "source_url": "https://www.vam.ac.uk/articles/the-first-christmas-card"
+    },
+    "conference-sur-odilon-redon-2026-11-06": {
+      "text": "Avant ses pastels colorés, Odilon Redon s’est fait connaître par ses « Noirs », des œuvres au fusain ou en lithographie. À partir du milieu des années 1890, la couleur et le pastel prennent davantage de place dans son travail.",
+      "source_label": "Musée d’Orsay",
+      "source_url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/drawings-odilon-redon-1840-1916",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "soiree-100-nepal-2026-11-09": {
+      "text": "Le Népal ne se résume pas aux sommets de l’Himalaya : Lumbini, dans les plaines du Teraï, est reconnu comme le lieu de naissance du Bouddha. Ce site de pèlerinage et ses vestiges archéologiques sont inscrits au patrimoine mondial de l’UNESCO depuis 1997.",
+      "source_label": "UNESCO · Lumbini",
+      "source_url": "https://whc.unesco.org/en/list/666/",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "journee-mondiale-de-lutte-contre-le-bpco-2026-11-19": {
+      "text": "BPCO signifie bronchopneumopathie chronique obstructive. Cette maladie limite la circulation de l’air dans les poumons. La spirométrie, un examen qui mesure la fonction respiratoire, permet de confirmer le diagnostic : le sigle désigne donc une maladie bien précise, au-delà d’un simple essoufflement.",
+      "source_label": "Organisation mondiale de la santé",
+      "source_url": "https://www.who.int/fr/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-%28copd%29",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "exposition-libre-detre-2026-11-27": {
+      "text": "Le Planning familial a d’abord porté un autre nom : « La Maternité heureuse », lors de sa création en 1956. L’association adopte celui de Mouvement français pour le Planning familial en 1960. Un repère historique pour accompagner l’exposition « libre d’être ».",
+      "source_label": "Le Planning familial · histoire de l’association",
+      "source_url": "https://www.planning-familial.org/fr/le-planning-familial-du-rhone-69/le-planning-familial/60-ans-darchives-la-creation-du-planning",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "journee-depistages-organises-2026-11-28": {
+      "text": "En France, trois programmes nationaux de dépistages organisés concernent les cancers du sein, du côlon et du rectum, ainsi que du col de l’utérus. Ces dispositifs ont chacun leurs modalités : une journée d’information permet aussi de mieux distinguer leurs objectifs.",
+      "source_label": "Assurance Maladie · dépistage des cancers",
+      "source_url": "https://www.ameli.fr/assure/sante/themes/cancers/depistage-prevention",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "30e-edition-du-noel-au-domaine-rocheville-2026-12-04": {
+      "text": "Au Domaine Rocheville, l’histoire familiale s’inscrit dans la durée : la famille présente cinq générations de culture de ses terres à Nyons. La rencontre de Noël se déroule ainsi dans un domaine dont l’identité est aussi celle d’une transmission entre générations.",
+      "source_label": "Domaine Rocheville · site officiel",
+      "source_url": "https://domainerocheville.com/",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "illumination-de-la-ville-2026-12-04": {
+      "text": "Les illuminations ont aussi leurs histoires locales. À Lyon, le 8 décembre 1852, les habitants ont placé des bougies à leurs fenêtres après une journée de mauvais temps. Ce geste est à l’origine de la tradition des lumignons de la Fête des Lumières.",
+      "source_label": "Ville de Lyon · histoire de la Fête des Lumières",
+      "source_url": "https://www.fetedeslumieres.lyon.fr/fr/page/histoire-de-la-fete",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers-2026-12-06": {
+      "text": "Le premier Téléthon français, en 1987, a réservé une surprise à son équipe : le compteur prévu pour huit chiffres est devenu trop petit. Un neuvième chiffre a dû être ajouté à la main. Un souvenir des débuts de cette mobilisation, prolongée notamment par les concerts solidaires.",
+      "source_label": "AFM-Téléthon · histoire du Téléthon",
+      "source_url": "https://www.afm-telethon.fr/fr/le-telethon/le-telethon-c-est-quoi/lhistoire-du-telethon",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "les-arcades-fetent-noel-2026-12-19": {
+      "text": "La place du Docteur Bourdongle, connue pour ses Arcades, a été aménagée au XIVe siècle à l’initiative des Dauphins pour favoriser l’extension de Nyons et le commerce. Ses passages couverts rappellent cette vocation marchande, bien antérieure aux animations de Noël.",
+      "source_label": "Ville de Nyons · rapport de présentation du PLU",
+      "source_url": "https://www.nyons.com/download_file/view/3910/1917",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "ceremonie-des-vux-du-maire-2027-01-12": {
+      "text": "Un repère d’histoire locale à l’occasion des vœux du maire : Nyons est jumelée avec Mechernich, en Allemagne, depuis 1967. Cette année-là, le maire de Mechernich et une délégation sont venus à Nyons pour signer le pacte d’amitié entre les deux villes.",
+      "source_label": "Comité de jumelage Nyons-Mechernich · historique",
+      "source_url": "https://comitedejumelagenyonsmechernich.wordpress.com/historique/",
+      "model": "editorial-sourced",
+      "version": 1,
+      "generated_at": "2026-11-05T12:00:00+00:00"
     }
   }
 }

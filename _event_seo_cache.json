@@ -7886,7 +7886,9 @@
     },
     "generated_at": "2026-10-16T11:29:33.522281+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-16289a520d002c62"
   },
   "https://agenda.vivreanyons.fr/evenements/cinema-cars-2026-10-21/": {
     "event": {
@@ -10422,7 +10424,9 @@
     },
     "generated_at": "2026-10-29T13:07:24.066045+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-b3e45b85f4a2619b"
   },
   "https://www.nyons.com/agenda/hallowen-au-cinema-arlequin/": {
     "hash": "36ab0200c9f63b338334765726a22eade76e41b59342850688387f7999e4245e",
@@ -10531,7 +10535,9 @@
     },
     "generated_at": "2026-10-29T13:07:20.724750+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-b2c4d25f4f9ed94b"
   },
   "https://www.nyons.com/agenda/journee-depistages-organises/": {
     "hash": "7804824a9a6e30955acd42639e6557a3376d04d311e595558db36a1069df8d4b",
@@ -10566,7 +10572,9 @@
     },
     "generated_at": "2026-10-29T13:07:37.718576+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-587f8f8f66da61fc"
   },
   "https://www.nyons.com/agenda/exposition-photo-jump/": {
     "hash": "0313e0591ac63795442d10e047094a293ba61c77623328111936c2002c05bf12",
@@ -10726,7 +10734,9 @@
     },
     "generated_at": "2026-11-04T14:37:31.695338+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-19ae412f1ef3adea"
   },
   "https://www.nyons.com/agenda/30e-edition-du-noel-au-domaine-rocheville/": {
     "hash": "55a3b4615012ae5db70cd7c64349f3df8977d91b760709eeaa60bcc8ab2ed921",
@@ -10759,7 +10769,9 @@
     },
     "generated_at": "2026-11-04T14:37:33.696898+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-909d0efe474f49b3"
   },
   "https://www.nyons.com/agenda/illumination-de-la-ville/": {
     "hash": "8b8d0cadc87ff966e8f4602b23df03e3711e12a4f70a8e30ac3056228b290367",
@@ -10795,7 +10807,9 @@
     },
     "generated_at": "2026-11-04T14:37:33.696971+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-4547265b252c08b9"
   },
   "https://www.nyons.com/agenda/les-arcades-fetent-noel/": {
     "hash": "356d5a42490efa3e7bea3dc8f6a03587b20b5f29ca2c5a5da22f57efd1a9a968",
@@ -10831,7 +10845,9 @@
     },
     "generated_at": "2026-11-04T14:37:38.092470+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-17e209539df9c640"
   },
   "https://www.nyons.com/agenda/exposition-libre-detre/": {
     "hash": "46973bdefd1c4b3f8cb3a8d111d6ae4c3f71db7d58ba33ca392c1c51cb51e4ba",
@@ -10867,7 +10883,9 @@
     },
     "generated_at": "2026-11-04T14:37:33.696584+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-b4a0415b95d07d7f"
   },
   "https://www.nyons.com/agenda/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers/": {
     "hash": "56ae77d93c1161f7f888b2a10063bcd3a934906e7ef42993222df06382332524",
@@ -10910,6 +10928,8 @@
     },
     "generated_at": "2026-11-04T14:37:36.558553+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_assignment_version": 101,
+    "anecdote_id": "topic-0efc033762d28039"
   }
 }
