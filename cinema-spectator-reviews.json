@@ -1610,6 +1610,509 @@
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
       "verified_on": "2026-10-20"
+    },
+    "nov2026:L'Affaire Marie-Claire": {
+      "film_title": "L'Affaire Marie-Claire",
+      "poster": "/assets/cinema/nov2026-l-affaire-marie-claire.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230808.html"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Lolita",
+          "observation": "Émotion, dialogues et interprétation appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Mat niro",
+          "observation": "Sujet historique utile, mais réalisation jugée conventionnelle.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les avis saluent les interprètes et la force de cette histoire de justice et de droits des femmes.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le traitement divise : certains sont touchés, d’autres trouvent le récit trop didactique ou convenu.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Ma toute petite école": {
+      "film_title": "Ma toute petite école",
+      "poster": "/assets/cinema/nov2026-ma-toute-petite-ecole.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-1000005161/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Djambar44",
+          "observation": "Émotion devant les enfants et leur enseignant.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "takeshi29",
+          "observation": "Ensemble jugé trop lisse et manquant de profondeur.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les enfants, l’enseignant et la vie de cette petite école ont ému plusieurs spectateurs.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "La douceur du regard plaît beaucoup, mais certains auraient aimé davantage de difficultés et de nuances.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Hope": {
+      "film_title": "Hope",
+      "poster": "/assets/cinema/nov2026-hope.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000229678.html"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Melisande Nicolay",
+          "observation": "Inventivité, créatures et mélange des émotions appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "FaRem",
+          "observation": "Action intense, mais effets et longueur critiqués.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Des spectateurs apprécient l’énergie, les créatures et les surprises du spectacle.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Les effets visuels, la répétition et la longueur suscitent aussi des réserves : l’enthousiasme est loin d’être unanime.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Mémoire de fille": {
+      "film_title": "Mémoire de fille",
+      "poster": "/assets/cinema/nov2026-memoire-de-fille.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225524.html"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Marie-Dominique LACOUR",
+          "observation": "Interprétation sensible et sujet fort.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Fiona Pomme",
+          "observation": "Jeu et photographie appréciés, adaptation jugée trop guidée.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "L’interprétation et la manière d’aborder les violences faites aux femmes touchent plusieurs spectateurs.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "L’adaptation ne convainc pas tout le monde : certains la trouvent trop illustrative et moins ambiguë que le livre.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Le Labyrinthe de Pan": {
+      "film_title": "Le Labyrinthe de Pan",
+      "poster": "/assets/cinema/nov2026-le-labyrinthe-de-pan.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-57689/critiques/spectateurs/recentes/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Arnaudfauret",
+          "observation": "Puissance du conte fantastique sombre.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Aulanius",
+          "observation": "Univers intéressant, mais effets et certaines interprétations discutés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "L’imaginaire et le mélange entre conte fantastique et violence historique marquent les spectateurs.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Certains effets ont vieilli aux yeux d’une partie du public. La dureté des scènes revient aussi : les créatures ne font pas de ce film un conte pour petits enfants.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Il faut brûler maman": {
+      "film_title": "Il faut brûler maman",
+      "poster": "/assets/cinema/nov2026-il-faut-bruler-maman.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://letterboxd.com/film/il-faut-bruler-maman/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "gerome19",
+          "observation": "Humour du huis clos et plaisir des scènes en longs plans.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "loïc",
+          "observation": "Virtuosité visuelle ressentie comme artificielle, émotion absente.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Une partie des retours apprécie l’humour noir, la troupe et le travail de caméra.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "D’autres restent à distance : ils trouvent la réalisation trop démonstrative et ne retrouvent ni le rire ni l’émotion attendus.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Wild Horse Nine": {
+      "film_title": "Wild Horse Nine",
+      "poster": "/assets/cinema/nov2026-wild-horse-nine.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://letterboxd.com/film/wild-horse-nine/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "James (Schaffrillas)",
+          "observation": "Dialogues drôles, mélancolie et Malkovich appréciés, dernier acte moins convaincant.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Sethsreviews",
+          "observation": "Conclusion et interprétation appréciées, écriture moins incisive que d’autres films du cinéaste.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les dialogues, la mélancolie et l’interprétation de John Malkovich ressortent dans les retours favorables.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Même des avis enthousiastes émettent des réserves sur la dernière partie ou trouvent l’écriture moins mordante qu’attendu.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Jupiter": {
+      "film_title": "Jupiter",
+      "poster": "/assets/cinema/nov2026-jupiter.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.senscritique.com/film/jupiter/critique/345451363"
+        },
+        {
+          "label": "Avis de paul sur Letterboxd",
+          "url": "https://embed.letterboxd.com/fluguduu/film/jupiter-2026/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Ju Chrn",
+          "observation": "Atmosphère et acteurs efficaces, personnages secondaires insuffisamment développés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "paul",
+          "observation": "Pression des gros plans et du son appréciée.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 1
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les retours consultés apprécient la tension, le travail du son et la proximité avec les personnages.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Une réserve porte sur les personnages secondaires et certains enjeux psychologiques, jugés trop peu développés.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:La Maison des Femmes": {
+      "film_title": "La Maison des Femmes",
+      "poster": "/assets/cinema/nov2026-la-maison-des-femmes.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-1000012019/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "GyzmoCA",
+          "observation": "Humanité et interprètes touchants.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "mat niro",
+          "observation": "Équipe médicale convaincante et importance sociale.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les avis retenus saluent les actrices, l’humanité du récit et la place donnée au travail collectif des soignantes.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "context",
+          "text": "Cet échantillon favorable parle d’un sujet éprouvant, celui des violences faites aux femmes. Il ne représente pas à lui seul l’ensemble des opinions.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Camembert": {
+      "film_title": "Camembert",
+      "poster": "/assets/cinema/nov2026-camembert.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://www.senscritique.com/film/camembert/critique/345523488"
+        },
+        {
+          "label": "Avis de notama sur SensCritique",
+          "url": "https://www.senscritique.com/film/camembert/critique/346126843"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "GyzmoCA",
+          "observation": "Quelques répliques amusantes et troupe, mais personnages superficiels.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "notama",
+          "observation": "Caricature sociale et humour jugés peu convaincants.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 1
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un des avis consultés apprécie les répliques et le jeu de groupe autour de cette réunion familiale.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Les deux retours retenus émettent des réserves sur la caricature et le manque de profondeur ; l’un d’eux reste franchement réfractaire à l’humour.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Malika": {
+      "film_title": "Malika",
+      "poster": "/assets/cinema/nov2026-malika.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis et retours publics consultés",
+          "url": "https://letterboxd.com/film/malika-2026/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "MargotOvd",
+          "observation": "Émotion et première interprétation de Lilya Adad appréciées.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "okow",
+          "observation": "Énergie et voix de l’actrice appréciées, récit biographique conventionnel.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Lilya Adad, sa voix et l’émotion du parcours de Malika ressortent dans les avis favorables.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le récit biographique est aussi jugé trop conventionnel par certains : l’interprétation convainc davantage que la construction du film.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
     }
   }
 }
