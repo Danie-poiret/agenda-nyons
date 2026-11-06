@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:le-temps-des-animaux-2026-11-30-1830@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261130T173000Z
+SUMMARY:Le Temps des animaux — VF · soirée montagne
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Découvrir la faune de Derborence\, dans les Alpes\, au cours
+  de la soirée 100 % montagne.\nhttps://agenda.vivreanyons.fr/evenements
+ /cinema-le-temps-des-animaux-2026-11-30/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-le-temps-des-animaux-
+ 2026-11-30/
+END:VEVENT
+END:VCALENDAR

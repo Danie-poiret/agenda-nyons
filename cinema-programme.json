@@ -1,11 +1,11 @@
 {
   "source": "https://www.cinema-arlequin.fr/",
-  "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
-  "local_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
-  "period_start": "2026-10-21",
-  "period_end": "2026-11-10",
-  "next_check_date": "2026-11-11",
-  "verified_on": "2026-10-22",
+  "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+  "local_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+  "period_start": "2026-11-11",
+  "period_end": "2026-12-01",
+  "next_check_date": "2026-12-02",
+  "verified_on": "2026-11-06",
   "films": [
     {
       "title": "Heart of the Beast",
@@ -994,7 +994,7 @@
     {
       "title": "Les Misérables",
       "description": "Après dix-neuf ans de bagne, Jean Valjean veut changer de vie. Sous une nouvelle identité, il tente de faire le bien autour de lui. Prévoyez trois heures pour cette adaptation avec Vincent Lindon.",
-      "duration": "3 h 00",
+      "duration": "2 h 59",
       "sessions": [
         {
           "date": "2026-10-21",
@@ -1030,10 +1030,42 @@
           "date": "2026-10-27",
           "time": "19:30",
           "version": "Version non précisée dans le programme"
+        },
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "19:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:30",
+          "version": "VF"
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
-      "poster_alt": "Affiche de Les Misérables, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Les Misérables, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      }
     },
     {
       "title": "Minotaure",
@@ -1077,7 +1109,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRX6EJK/E5JYYJ48.webp",
-      "poster_alt": "Affiche de Minotaure, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Minotaure, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Petite Casbah",
@@ -1117,7 +1155,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRGIW1R/HGK20T99.webp",
       "poster_alt": "Affiche de Petite Casbah, au cinéma L’Arlequin de Nyons.",
-      "age": "À partir de 6 ans"
+      "age": "À partir de 6 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Fini de rire !",
@@ -1133,7 +1177,13 @@
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRU22DQ/AJ5QEMMM.webp",
       "poster_alt": "Affiche de Fini de rire !, au cinéma L’Arlequin de Nyons.",
       "price_note": "Tarif à confirmer auprès du cinéma.",
-      "special_note": "Échange avec Babouse ; présence de Patrick Pelloux sous réserve, selon le programme."
+      "special_note": "Échange avec Babouse ; présence de Patrick Pelloux sous réserve, selon le programme.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Verity",
@@ -1162,7 +1212,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR3OZ6O/RHUN4REB.webp",
-      "poster_alt": "Affiche de Verity, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Verity, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Le Jour de son retour",
@@ -1201,7 +1257,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRKFQ2W/KSM4J999.webp",
-      "poster_alt": "Affiche de Le Jour de son retour, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Le Jour de son retour, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Cars",
@@ -1228,7 +1290,13 @@
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRDJAVW/XBETV05C.webp",
       "poster_alt": "Affiche de Cars, au cinéma L’Arlequin de Nyons.",
       "age": "À partir de 6 ans",
-      "special_note": "Le 26 octobre : accueil goûter à 17 h, film à 17 h 30. Tarif unique de 5 € pour cette séance spéciale ; réservation indispensable au cinéma. Les autres séances suivent les tarifs habituels."
+      "special_note": "Le 26 octobre : accueil goûter à 17 h, film à 17 h 30. Tarif unique de 5 € pour cette séance spéciale ; réservation indispensable au cinéma. Les autres séances suivent les tarifs habituels.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Karma",
@@ -1273,7 +1341,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR6QVJU/EKMGQLKO.webp",
       "poster_alt": "Affiche de Karma, au cinéma L’Arlequin de Nyons.",
-      "age": "Interdit aux moins de 12 ans"
+      "age": "Interdit aux moins de 12 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Une femme aujourd’hui",
@@ -1312,7 +1386,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRELTUI/TT1WF6XR.webp",
-      "poster_alt": "Affiche de Une femme aujourd’hui, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Une femme aujourd’hui, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Quelques mots d’amour",
@@ -1366,7 +1446,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR8376B/K19YI0DV.webp",
-      "poster_alt": "Affiche de Quelques mots d’amour, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Quelques mots d’amour, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Wicker",
@@ -1405,7 +1491,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRADN87/3J013RSL.webp",
-      "poster_alt": "Affiche de Wicker, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Wicker, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Shaun le Mouton : La Bêêête d’Halloween",
@@ -1445,7 +1537,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR3CQ6X/1AKHDUG6.webp",
       "poster_alt": "Affiche de Shaun le Mouton : La Bêêête d’Halloween, au cinéma L’Arlequin de Nyons.",
-      "age": "À partir de 6 ans"
+      "age": "À partir de 6 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "La Gradiva",
@@ -1484,7 +1582,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR324CZ/6FLQRW6X.webp",
-      "poster_alt": "Affiche de La Gradiva, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de La Gradiva, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Gruffalo, de père en fils",
@@ -1501,7 +1605,13 @@
       "poster_alt": "Affiche de Gruffalo, de père en fils, au cinéma L’Arlequin de Nyons.",
       "age": "À partir de 3 ans",
       "price": 5,
-      "special_note": "Réservation au cinéma pour le ciné-goûter à 5 €."
+      "special_note": "Réservation au cinéma pour le ciné-goûter à 5 €.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Mary et la fleur de la sorcière",
@@ -1518,7 +1628,13 @@
       "poster_alt": "Affiche de Mary et la fleur de la sorcière, au cinéma L’Arlequin de Nyons.",
       "age": "À partir de 8 ans",
       "price": 5,
-      "special_note": "Réservation au cinéma pour le ciné-goûter à 5 €."
+      "special_note": "Réservation au cinéma pour le ciné-goûter à 5 €.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Scream",
@@ -1533,7 +1649,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRDMFG5/HHMWAVPI.webp",
       "poster_alt": "Affiche de Scream, au cinéma L’Arlequin de Nyons.",
-      "age": "Interdit aux moins de 12 ans"
+      "age": "Interdit aux moins de 12 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Suspiria",
@@ -1548,7 +1670,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRFHXYB/SLWPONIA.webp",
       "poster_alt": "Affiche de Suspiria, au cinéma L’Arlequin de Nyons.",
-      "age": "Interdit aux moins de 12 ans"
+      "age": "Interdit aux moins de 12 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Pilleurs de terre",
@@ -1564,7 +1692,13 @@
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRN6RFF/IZSSRN5C.webp",
       "poster_alt": "Affiche de Pilleurs de terre, au cinéma L’Arlequin de Nyons.",
       "price_note": "20 € pour toute la soirée Alimenterre : Pilleurs de terre à 19 h, échanges à 20 h 15, repas à 20 h 45, puis Femmes des terres à 21 h 45. Réservation indispensable avant le dimanche 1er novembre à 21 h.",
-      "special_note": "En partenariat avec Pain et Liberté et le CCFD. Repas préparé par Sucre et Sel par Julie."
+      "special_note": "En partenariat avec Pain et Liberté et le CCFD. Repas préparé par Sucre et Sel par Julie.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Femmes des terres",
@@ -1579,7 +1713,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR7I0DZ/DVBD61QF.webp",
       "poster_alt": "Affiche de Femmes des terres, au cinéma L’Arlequin de Nyons.",
-      "price_note": "20 € pour toute la soirée Alimenterre : Pilleurs de terre à 19 h, échanges à 20 h 15, repas à 20 h 45, puis Femmes des terres à 21 h 45. Réservation indispensable avant le dimanche 1er novembre à 21 h."
+      "price_note": "20 € pour toute la soirée Alimenterre : Pilleurs de terre à 19 h, échanges à 20 h 15, repas à 20 h 45, puis Femmes des terres à 21 h 45. Réservation indispensable avant le dimanche 1er novembre à 21 h.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Così fan tutte — Metropolitan Opera",
@@ -1594,7 +1734,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR5KIT2/4DTOGNIA.webp",
       "poster_alt": "Affiche de Così fan tutte — Metropolitan Opera, au cinéma L’Arlequin de Nyons.",
-      "price_note": "Plein tarif : 20 € ; tarif réduit : 15 € ; enfant de moins de 14 ans : 10 €."
+      "price_note": "Plein tarif : 20 € ; tarif réduit : 15 € ; enfant de moins de 14 ans : 10 €.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Moulin",
@@ -1643,7 +1789,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRLXIDH/YUNFORSL.webp",
-      "poster_alt": "Affiche de Moulin, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Moulin, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Le Fantôme de l’Opéra",
@@ -1687,7 +1839,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR41TVG/L3FOCG6X.webp",
-      "poster_alt": "Affiche de Le Fantôme de l’Opéra, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Le Fantôme de l’Opéra, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Le Mystère Lucy Lost",
@@ -1727,7 +1885,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRLPWEP/IVTL8N5C.webp",
       "poster_alt": "Affiche de Le Mystère Lucy Lost, au cinéma L’Arlequin de Nyons.",
-      "age": "À partir de 6 ans"
+      "age": "À partir de 6 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "L’Île des souvenirs",
@@ -1757,7 +1921,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRXGT5X/4WB32PIA.webp",
       "poster_alt": "Affiche de L’Île des souvenirs, au cinéma L’Arlequin de Nyons.",
-      "age": "À partir de 8 ans"
+      "age": "À partir de 8 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "La Tentazione",
@@ -1796,7 +1966,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FROLWAS/6KNCS48Z.webp",
-      "poster_alt": "Affiche de La Tentazione, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de La Tentazione, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Primetime",
@@ -1825,7 +2001,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRQQ7LJ/X3GES7N5.webp",
-      "poster_alt": "Affiche de Primetime, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Primetime, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Irish Travellers",
@@ -1859,7 +2041,13 @@
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRTZJRA/0CM2DG6X.webp",
-      "poster_alt": "Affiche de Irish Travellers, au cinéma L’Arlequin de Nyons."
+      "poster_alt": "Affiche de Irish Travellers, au cinéma L’Arlequin de Nyons.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Kalo Pothi, un village au Népal",
@@ -1875,7 +2063,13 @@
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRAPTCL/HCN88FH2.webp",
       "poster_alt": "Affiche de Kalo Pothi, un village au Népal, au cinéma L’Arlequin de Nyons.",
       "price_note": "20 € pour toute la soirée 100 % Népal : Kalo Pothi à 19 h, repas à 20 h 30, puis Les Éléphants dans la brume à 21 h 30. Réservation indispensable au cinéma avant le dimanche 8 novembre à 21 h.",
-      "special_note": "Repas préparé par Sucre et Sel par Julie."
+      "special_note": "Repas préparé par Sucre et Sel par Julie.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Les Éléphants dans la brume",
@@ -1890,7 +2084,13 @@
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FRC0095/2QNRG999.webp",
       "poster_alt": "Affiche de Les Éléphants dans la brume, au cinéma L’Arlequin de Nyons.",
-      "price_note": "20 € pour toute la soirée 100 % Népal : Kalo Pothi à 19 h, repas à 20 h 30, puis Les Éléphants dans la brume à 21 h 30. Réservation indispensable au cinéma avant le dimanche 8 novembre à 21 h."
+      "price_note": "20 € pour toute la soirée 100 % Népal : Kalo Pothi à 19 h, repas à 20 h 30, puis Les Éléphants dans la brume à 21 h 30. Réservation indispensable au cinéma avant le dimanche 8 novembre à 21 h.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Projection surprise — coup de cœur art et essai",
@@ -1906,7 +2106,13 @@
       "poster": "https://agenda.vivreanyons.fr/assets/cinema/projection-surprise.svg",
       "poster_alt": "Visuel informatif : projection surprise au cinéma L’Arlequin.",
       "price_note": "Tarif à confirmer auprès du cinéma.",
-      "poster_credit": "Visuel informatif : le titre du film n’est pas dévoilé dans le programme."
+      "poster_credit": "Visuel informatif : le titre du film n’est pas dévoilé dans le programme.",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
     },
     {
       "title": "Projection surprise jeune public",
@@ -1923,8 +2129,1103 @@
       "poster_alt": "Visuel informatif : projection surprise au cinéma L’Arlequin.",
       "price_note": "Tarif à confirmer auprès du cinéma.",
       "poster_credit": "Visuel informatif : le titre du film n’est pas dévoilé dans le programme.",
-      "age": "À partir de 8 ans"
+      "age": "À partir de 8 ans",
+      "programme": {
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/6abbf866f630a0cb74999e5985b43391.pdf",
+        "period_start": "2026-10-21",
+        "period_end": "2026-11-10",
+        "verified_on": "2026-10-22"
+      }
+    },
+    {
+      "title": "L'Affaire Marie-Claire",
+      "description": "À Bobigny, en 1972, une adolescente et les femmes qui l’ont aidée se retrouvent au cœur d’un procès.",
+      "duration": "1 h 42",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-11",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "15:15",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-l-affaire-marie-claire.webp",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de L'Affaire Marie-Claire",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Ma toute petite école",
+      "description": "Une classe à huit élèves, de la maternelle au CM2, fait vivre une petite école de montagne.",
+      "duration": "1 h 28",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "21:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-ma-toute-petite-ecole.webp",
+      "age": "À partir de 6 ans.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Ma toute petite école",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Les Roches Rouges",
+      "description": "Sur la Côte d’Azur, les jeux d’enfants croisent les premières rivalités et les premiers sentiments.",
+      "duration": "1 h 31",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "19:00",
+          "version": "VF · rencontre avec le réalisateur"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "19:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-les-roches-rouges.webp",
+      "special_note": "Le dimanche 15 novembre à 19 h : projection, échange et dédicace en présence du réalisateur, annoncés dans le programme officiel. Cette séance ne figure pas dans le flux de billetterie consulté ; faire confirmer la rencontre au cinéma.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Les Roches Rouges",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Hope",
+      "description": "Dans un village coréen, la police et des habitants font face à une menace venue de la montagne.",
+      "duration": "2 h 37",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "15:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "20:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "15:15",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-hope.webp",
+      "age": "Interdit aux moins de 12 ans.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Hope",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Le Labyrinthe de Pan",
+      "description": "Le film fantastique revient en version restaurée pour ses vingt ans. Séance unique en version originale sous-titrée.",
+      "duration": "1 h 53",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "18:00",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-le-labyrinthe-de-pan.webp",
+      "age": "Interdit aux moins de 12 ans.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Le Labyrinthe de Pan",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Terminator 2 : le Jugement Dernier",
+      "description": "Deux machines venues du futur cherchent John Connor. Une reprise du film de James Cameron.",
+      "duration": "2 h 17",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "16:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "20:15",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-terminator-2-le-jugement-dernier.webp",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Terminator 2 : le Jugement Dernier",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Mémoire de fille",
+      "description": "Un retour à Rouen replonge Annie Ernaux dans le souvenir de l’été 1958.",
+      "duration": "1 h 57",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "20:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "17:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "18:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-memoire-de-fille.webp",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Mémoire de fille",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Ressacs, une histoire touarègue",
+      "description": "Une projection suivie d’un échange avec le réalisateur et d’une dédicace, annoncés avec l’association Lire, Écrire, Créer.",
+      "duration": "2 h 00",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "19:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-ressacs-une-histoire-touaregue.webp",
+      "special_note": "La séance du 15 novembre à 19 h figure dans la billetterie officielle, tandis que le PDF annonce un autre film en présence du réalisateur à la même heure. Confirmez le film et l’animation auprès du cinéma.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Ressacs, une histoire touarègue",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Il faut brûler maman",
+      "description": "Une fratrie de croque-morts doit organiser les funérailles de sa mère alors que le personnel est en grève.",
+      "duration": "1 h 21",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-18",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "18:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:15",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-il-faut-bruler-maman.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Il faut brûler maman",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Scrooge",
+      "description": "Pour changer son avenir, Scrooge doit revivre son passé. Séances en français et en version originale.",
+      "duration": "1 h 56",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "16:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "14:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "16:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-scrooge.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Scrooge",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "15/18",
+      "description": "Lucia, dix-sept ans, arrive dans une unité de soins pédopsychiatriques où tous les patients ont entre quinze et dix-huit ans.",
+      "duration": "1 h 44",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "18:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "14:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "16:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-15-18.jpg",
+      "age": "Interdit aux moins de 12 ans.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de 15/18",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Everybody Digs Bill Evans",
+      "description": "Une avant-première annoncée pour la journée Art et Essai du cinéma européen.",
+      "duration": "",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "version": "Version à confirmer"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-everybody-digs-bill-evans.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Everybody Digs Bill Evans",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Ce qui nous mène à toi",
+      "description": "Charlie et Hicham souhaitent avoir un enfant et commencent un parcours d’aide médicale à la procréation.",
+      "duration": "1 h 36",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "20:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "16:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "14:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-ce-qui-nous-mene-a-toi.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Ce qui nous mène à toi",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "L’Âge d’or",
+      "description": "Jeanne Lavaur traverse le vingtième siècle, entre son enfance dans une boucherie et son rêve de devenir comtesse.",
+      "duration": "1 h 53",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "16:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-lage-dor.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de L’Âge d’or",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Les Yeux verts",
+      "description": "Dans les Landes, une famille menacée d’expulsion voit l’aîné sombrer dans un sommeil mystérieux.",
+      "duration": "1 h 23",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "16:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "14:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "14:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "16:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-les-yeux-verts.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Les Yeux verts",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Wild Horse Nine",
+      "description": "Deux agents de la CIA sont envoyés sur l’île de Pâques peu avant le coup d’État chilien de 1973.",
+      "duration": "1 h 58",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "14:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "18:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "16:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "20:45",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-wild-horse-nine.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Wild Horse Nine",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Hunger Games : Lever de soleil sur la moisson",
+      "description": "Les cinquantièmes Hunger Games se préparent à Panem. Une séance Ciné Gourmand est annoncée le dimanche matin.",
+      "duration": "2 h 38",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "18:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "17:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "20:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00",
+          "version": "VF",
+          "price": 5
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "18:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-hunger-games-lever-de-soleil-sur-la-moisson.jpg",
+      "special_note": "Dimanche 29 novembre à 11 h : Ciné Gourmand avec buffet petit-déjeuner, 5 € sur réservation au cinéma. Autres séances : tarifs habituels.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Hunger Games : Lever de soleil sur la moisson",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Jupiter",
+      "description": "Un président français fraîchement élu doit faire face à une crise et à un ultimatum nucléaire.",
+      "duration": "1 h 27",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-25",
+          "time": "20:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "16:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "21:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "16:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "18:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-jupiter.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Jupiter",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "La Maison des Femmes",
+      "description": "Une projection suivie d’un échange en salle pour les soixante-dix ans du Planning familial.",
+      "duration": "",
+      "sessions": [
+        {
+          "date": "2026-11-29",
+          "time": "19:00",
+          "version": "Version à confirmer"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-la-maison-des-femmes.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de La Maison des Femmes",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Camembert",
+      "description": "Stan rencontre la famille de Cléo et découvre une tradition familiale : jouer au Trivial Pursuit.",
+      "duration": "1 h 32",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-camembert.jpg",
+      "special_note": "Une ligne du PDF indique « MAR 30 : 21H00 ». Le 30 novembre 2026 étant un lundi, cette séance n’est pas ajoutée au calendrier avant confirmation du cinéma.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Camembert",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Malika",
+      "description": "Le parcours de Malika Bellaribi et son rêve de devenir mezzo-soprano.",
+      "duration": "1 h 26",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "14:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-malika.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Malika",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Les Braves",
+      "description": "Pendant la Première Guerre mondiale, un jeune soldat rencontre un homme chargé de remonter le moral des troupes.",
+      "duration": "2 h 07",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "16:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "14:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-les-braves.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Les Braves",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Gabin",
+      "description": "Dans le Nord, Gabin hésite entre reprendre la boucherie familiale et suivre ses propres envies.",
+      "duration": "1 h 45",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "20:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-gabin.jpg",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Gabin",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "À la poursuite de l’Affreunard",
+      "description": "Trois courts métrages d’animation pour une première sortie au cinéma, à partir de trois ans.",
+      "duration": "44 min",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "17:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-a-la-poursuite-de-laffreunard.jpg",
+      "age": "À partir de 3 ans.",
+      "price": 3.5,
+      "price_note": "Tarif annoncé : 3,50 € la place pour tous.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de À la poursuite de l’Affreunard",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Le Temps des animaux",
+      "description": "Découvrir la faune de Derborence, dans les Alpes, au cours de la soirée 100 % montagne.",
+      "duration": "1 h 24",
+      "sessions": [
+        {
+          "date": "2026-11-30",
+          "time": "18:30",
+          "version": "VF · soirée montagne",
+          "price": 20
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-le-temps-des-animaux.jpg",
+      "price_note": "20 € pour toute la soirée, pas par film. Réservation indispensable au cinéma avant le dimanche 29 novembre à 21 h.",
+      "special_note": "Programme du 30 novembre : 18 h 30 Le Temps des animaux ; 20 h échange avec la productrice Florence Adam ; 20 h 30 repas par Sucre et Sel par Julie ; 21 h 30 Louve, une vie dans les Alpes.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Le Temps des animaux",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+    },
+    {
+      "title": "Louve, une vie dans les Alpes",
+      "description": "L’histoire d’une louve dans les Alpes, pour le second film de la soirée montagne.",
+      "duration": "1 h 10",
+      "sessions": [
+        {
+          "date": "2026-11-30",
+          "time": "21:30",
+          "version": "VF · soirée montagne",
+          "price": 20
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-louve-une-vie-dans-les-alpes.jpg",
+      "price_note": "20 € pour toute la soirée, pas par film. Réservation indispensable au cinéma avant le dimanche 29 novembre à 21 h.",
+      "special_note": "Programme du 30 novembre : 18 h 30 Le Temps des animaux ; 20 h échange avec la productrice Florence Adam ; 20 h 30 repas par Sucre et Sel par Julie ; 21 h 30 Louve, une vie dans les Alpes.",
+      "programme": {
+        "source": "https://www.cinema-arlequin.fr/",
+        "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+        "period_start": "2026-11-11",
+        "period_end": "2026-12-01",
+        "verified_on": "2026-11-06"
+      },
+      "poster_alt": "Affiche de Louve, une vie dans les Alpes",
+      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
     }
   ]
 }
-

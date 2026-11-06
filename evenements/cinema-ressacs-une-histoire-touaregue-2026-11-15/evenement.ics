@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ressacs-une-histoire-touaregue-2026-11-15-1900@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261115T180000Z
+SUMMARY:Ressacs\, une histoire touarègue — VF
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une projection suivie d’un échange avec le réalisateur et
+  d’une dédicace\, annoncés avec l’association Lire\, Écrire\, Cr
+ éer.\nhttps://agenda.vivreanyons.fr/evenements/cinema-ressacs-une-histo
+ ire-touaregue-2026-11-15/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-ressacs-une-histoire-
+ touaregue-2026-11-15/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:camembert-2026-11-25-1500@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261125T140000Z
+SUMMARY:Camembert — VF
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Stan rencontre la famille de Cléo et découvre une tradition
+  familiale : jouer au Trivial Pursuit.\nhttps://agenda.vivreanyons.fr/ev
+ enements/cinema-camembert-2026-11-25/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/
+END:VEVENT
+BEGIN:VEVENT
+UID:camembert-2026-11-27-1830@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261127T173000Z
+SUMMARY:Camembert — VF
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Stan rencontre la famille de Cléo et découvre une tradition
+  familiale : jouer au Trivial Pursuit.\nhttps://agenda.vivreanyons.fr/ev
+ enements/cinema-camembert-2026-11-25/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/
+END:VEVENT
+BEGIN:VEVENT
+UID:camembert-2026-11-27-2100@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261127T200000Z
+SUMMARY:Camembert — VF
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Stan rencontre la famille de Cléo et découvre une tradition
+  familiale : jouer au Trivial Pursuit.\nhttps://agenda.vivreanyons.fr/ev
+ enements/cinema-camembert-2026-11-25/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/
+END:VEVENT
+BEGIN:VEVENT
+UID:camembert-2026-11-28-1900@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261128T180000Z
+SUMMARY:Camembert — VF
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Stan rencontre la famille de Cléo et découvre une tradition
+  familiale : jouer au Trivial Pursuit.\nhttps://agenda.vivreanyons.fr/ev
+ enements/cinema-camembert-2026-11-25/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/
+END:VEVENT
+BEGIN:VEVENT
+UID:camembert-2026-11-29-1500@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261129T140000Z
+SUMMARY:Camembert — VF
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Stan rencontre la famille de Cléo et découvre une tradition
+  familiale : jouer au Trivial Pursuit.\nhttps://agenda.vivreanyons.fr/ev
+ enements/cinema-camembert-2026-11-25/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/
+END:VEVENT
+END:VCALENDAR

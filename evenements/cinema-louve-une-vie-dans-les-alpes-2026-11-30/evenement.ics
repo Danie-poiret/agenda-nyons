@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:louve-une-vie-dans-les-alpes-2026-11-30-2130@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261130T203000Z
+SUMMARY:Louve\, une vie dans les Alpes — VF · soirée montagne
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:L’histoire d’une louve dans les Alpes\, pour le second fi
+ lm de la soirée montagne.\nhttps://agenda.vivreanyons.fr/evenements/cin
+ ema-louve-une-vie-dans-les-alpes-2026-11-30/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-louve-une-vie-dans-le
+ s-alpes-2026-11-30/
+END:VEVENT
+END:VCALENDAR

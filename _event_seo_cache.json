@@ -8053,8 +8053,8 @@
       "film_title": "Les Misérables",
       "kind": "cinema",
       "start_date": "2026-10-21",
-      "end_date": "2026-10-27",
-      "date_label": "Séances datées du 21 octobre 2026 au 27 octobre 2026 — voir les horaires",
+      "end_date": "2026-11-17",
+      "date_label": "Séances datées du 21 octobre 2026 au 17 novembre 2026 — voir les horaires",
       "summary": "Après dix-neuf ans de bagne, Jean Valjean veut changer de vie. Sous une nouvelle identité, il tente de faire le bien autour de lui. Prévoyez trois heures pour cette adaptation avec Vincent Lindon.",
       "categories": [
         "Cinéma",
@@ -8097,13 +8097,38 @@
           "date": "2026-10-27",
           "time": "19:30",
           "version": "Version non précisée dans le programme"
+        },
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "19:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "17:30",
+          "version": "VF"
         }
       ],
       "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
       "film": {
         "title": "Les Misérables",
         "description": "Après dix-neuf ans de bagne, Jean Valjean veut changer de vie. Sous une nouvelle identité, il tente de faire le bien autour de lui. Prévoyez trois heures pour cette adaptation avec Vincent Lindon.",
-        "duration": "3 h 00",
+        "duration": "2 h 59",
         "sessions": [
           {
             "date": "2026-10-21",
@@ -8139,10 +8164,42 @@
             "date": "2026-10-27",
             "time": "19:30",
             "version": "Version non précisée dans le programme"
+          },
+          {
+            "date": "2026-11-11",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "15:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "19:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "15:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "17:30",
+            "version": "VF"
           }
         ],
         "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
-        "poster_alt": "Affiche de Les Misérables, au cinéma L’Arlequin de Nyons."
+        "poster_alt": "Affiche de Les Misérables, au cinéma L’Arlequin de Nyons.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-10-21",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        }
       }
     },
     "editorial": {
@@ -11372,5 +11429,2352 @@
     "generated_at": "2026-11-05T14:43:18.199791+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-hope-2026-11-11/": {
+    "event": {
+      "title": "Cinéma — Hope",
+      "film_title": "Hope",
+      "kind": "cinema",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-17",
+      "date_label": "Séances datées du 11 novembre 2026 au 17 novembre 2026 — voir les horaires",
+      "summary": "Dans un village coréen, la police et des habitants font face à une menace venue de la montagne.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-hope-2026-11-11/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-hope-2026-11-11/",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "15:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "20:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "15:15",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-hope.webp",
+      "film": {
+        "title": "Hope",
+        "description": "Dans un village coréen, la police et des habitants font face à une menace venue de la montagne.",
+        "duration": "2 h 37",
+        "sessions": [
+          {
+            "date": "2026-11-11",
+            "time": "19:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "15:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "20:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "15:15",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-hope.webp",
+        "age": "Interdit aux moins de 12 ans.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Hope",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Dans un village coréen, la police et des habitants font face à une menace venue de la montagne."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-l-affaire-marie-claire-2026-11-11/": {
+    "event": {
+      "title": "Cinéma — L'Affaire Marie-Claire",
+      "film_title": "L'Affaire Marie-Claire",
+      "kind": "cinema",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-17",
+      "date_label": "Séances datées du 11 novembre 2026 au 17 novembre 2026 — voir les horaires",
+      "summary": "À Bobigny, en 1972, une adolescente et les femmes qui l’ont aidée se retrouvent au cœur d’un procès.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-l-affaire-marie-claire-2026-11-11/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-l-affaire-marie-claire-2026-11-11/",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-11",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "15:15",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-l-affaire-marie-claire.webp",
+      "film": {
+        "title": "L'Affaire Marie-Claire",
+        "description": "À Bobigny, en 1972, une adolescente et les femmes qui l’ont aidée se retrouvent au cœur d’un procès.",
+        "duration": "1 h 42",
+        "sessions": [
+          {
+            "date": "2026-11-11",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-11",
+            "time": "20:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "15:15",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-l-affaire-marie-claire.webp",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de L'Affaire Marie-Claire",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "À Bobigny, en 1972, une adolescente et les femmes qui l’ont aidée se retrouvent au cœur d’un procès."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-les-roches-rouges-2026-11-11/": {
+    "event": {
+      "title": "Cinéma — Les Roches Rouges",
+      "film_title": "Les Roches Rouges",
+      "kind": "cinema",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-16",
+      "date_label": "Séances datées du 11 novembre 2026 au 16 novembre 2026 — voir les horaires",
+      "summary": "Sur la Côte d’Azur, les jeux d’enfants croisent les premières rivalités et les premiers sentiments.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-les-roches-rouges-2026-11-11/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-les-roches-rouges-2026-11-11/",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "19:00",
+          "version": "VF · rencontre avec le réalisateur"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "19:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-les-roches-rouges.webp",
+      "film": {
+        "title": "Les Roches Rouges",
+        "description": "Sur la Côte d’Azur, les jeux d’enfants croisent les premières rivalités et les premiers sentiments.",
+        "duration": "1 h 31",
+        "sessions": [
+          {
+            "date": "2026-11-11",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "20:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "19:00",
+            "version": "VF · rencontre avec le réalisateur"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "19:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-les-roches-rouges.webp",
+        "special_note": "Le dimanche 15 novembre à 19 h : projection, échange et dédicace en présence du réalisateur, annoncés dans le programme officiel. Cette séance ne figure pas dans le flux de billetterie consulté ; faire confirmer la rencontre au cinéma.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Les Roches Rouges",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Sur la Côte d’Azur, les jeux d’enfants croisent les premières rivalités et les premiers sentiments."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-ma-toute-petite-ecole-2026-11-11/": {
+    "event": {
+      "title": "Cinéma — Ma toute petite école",
+      "film_title": "Ma toute petite école",
+      "kind": "cinema",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-17",
+      "date_label": "Séances datées du 11 novembre 2026 au 17 novembre 2026 — voir les horaires",
+      "summary": "Une classe à huit élèves, de la maternelle au CM2, fait vivre une petite école de montagne.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-ma-toute-petite-ecole-2026-11-11/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-ma-toute-petite-ecole-2026-11-11/",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "21:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-ma-toute-petite-ecole.webp",
+      "film": {
+        "title": "Ma toute petite école",
+        "description": "Une classe à huit élèves, de la maternelle au CM2, fait vivre une petite école de montagne.",
+        "duration": "1 h 28",
+        "sessions": [
+          {
+            "date": "2026-11-11",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "15:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "21:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-ma-toute-petite-ecole.webp",
+        "age": "À partir de 6 ans.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Ma toute petite école",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Une classe à huit élèves, de la maternelle au CM2, fait vivre une petite école de montagne."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-le-labyrinthe-de-pan-2026-11-13/": {
+    "event": {
+      "title": "Cinéma — Le Labyrinthe de Pan",
+      "film_title": "Le Labyrinthe de Pan",
+      "kind": "cinema",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "Séances datées du 13 novembre 2026 au 13 novembre 2026 — voir les horaires",
+      "summary": "Le film fantastique revient en version restaurée pour ses vingt ans. Séance unique en version originale sous-titrée.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-labyrinthe-de-pan-2026-11-13/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-labyrinthe-de-pan-2026-11-13/",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "18:00",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-le-labyrinthe-de-pan.webp",
+      "film": {
+        "title": "Le Labyrinthe de Pan",
+        "description": "Le film fantastique revient en version restaurée pour ses vingt ans. Séance unique en version originale sous-titrée.",
+        "duration": "1 h 53",
+        "sessions": [
+          {
+            "date": "2026-11-13",
+            "time": "18:00",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-le-labyrinthe-de-pan.webp",
+        "age": "Interdit aux moins de 12 ans.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Le Labyrinthe de Pan",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Le film fantastique revient en version restaurée pour ses vingt ans. Séance unique en version originale sous-titrée."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-memoire-de-fille-2026-11-13/": {
+    "event": {
+      "title": "Cinéma — Mémoire de fille",
+      "film_title": "Mémoire de fille",
+      "kind": "cinema",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-17",
+      "date_label": "Séances datées du 13 novembre 2026 au 17 novembre 2026 — voir les horaires",
+      "summary": "Un retour à Rouen replonge Annie Ernaux dans le souvenir de l’été 1958.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-memoire-de-fille-2026-11-13/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-memoire-de-fille-2026-11-13/",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "20:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "15:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "17:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "18:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-memoire-de-fille.webp",
+      "film": {
+        "title": "Mémoire de fille",
+        "description": "Un retour à Rouen replonge Annie Ernaux dans le souvenir de l’été 1958.",
+        "duration": "1 h 57",
+        "sessions": [
+          {
+            "date": "2026-11-13",
+            "time": "20:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "15:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "17:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "18:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-memoire-de-fille.webp",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Mémoire de fille",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Un retour à Rouen replonge Annie Ernaux dans le souvenir de l’été 1958."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-terminator-2-le-jugement-dernier-2026-11-13/": {
+    "event": {
+      "title": "Cinéma — Terminator 2 : le Jugement Dernier",
+      "film_title": "Terminator 2 : le Jugement Dernier",
+      "kind": "cinema",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-17",
+      "date_label": "Séances datées du 13 novembre 2026 au 17 novembre 2026 — voir les horaires",
+      "summary": "Deux machines venues du futur cherchent John Connor. Une reprise du film de James Cameron.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-terminator-2-le-jugement-dernier-2026-11-13/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-terminator-2-le-jugement-dernier-2026-11-13/",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "16:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "20:15",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-terminator-2-le-jugement-dernier.webp",
+      "film": {
+        "title": "Terminator 2 : le Jugement Dernier",
+        "description": "Deux machines venues du futur cherchent John Connor. Une reprise du film de James Cameron.",
+        "duration": "2 h 17",
+        "sessions": [
+          {
+            "date": "2026-11-13",
+            "time": "20:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "18:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "16:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "20:15",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-terminator-2-le-jugement-dernier.webp",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Terminator 2 : le Jugement Dernier",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Deux machines venues du futur cherchent John Connor. Une reprise du film de James Cameron."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-ressacs-une-histoire-touaregue-2026-11-15/": {
+    "event": {
+      "title": "Cinéma — Ressacs, une histoire touarègue",
+      "film_title": "Ressacs, une histoire touarègue",
+      "kind": "cinema",
+      "start_date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "Séances datées du 15 novembre 2026 au 15 novembre 2026 — voir les horaires",
+      "summary": "Une projection suivie d’un échange avec le réalisateur et d’une dédicace, annoncés avec l’association Lire, Écrire, Créer.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-ressacs-une-histoire-touaregue-2026-11-15/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-ressacs-une-histoire-touaregue-2026-11-15/",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "19:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-ressacs-une-histoire-touaregue.webp",
+      "film": {
+        "title": "Ressacs, une histoire touarègue",
+        "description": "Une projection suivie d’un échange avec le réalisateur et d’une dédicace, annoncés avec l’association Lire, Écrire, Créer.",
+        "duration": "2 h 00",
+        "sessions": [
+          {
+            "date": "2026-11-15",
+            "time": "19:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-ressacs-une-histoire-touaregue.webp",
+        "special_note": "La séance du 15 novembre à 19 h figure dans la billetterie officielle, tandis que le PDF annonce un autre film en présence du réalisateur à la même heure. Confirmez le film et l’animation auprès du cinéma.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Ressacs, une histoire touarègue",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Une projection suivie d’un échange avec le réalisateur et d’une dédicace, annoncés avec l’association Lire, Écrire, Créer."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-15-18-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — 15/18",
+      "film_title": "15/18",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Lucia, dix-sept ans, arrive dans une unité de soins pédopsychiatriques où tous les patients ont entre quinze et dix-huit ans.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-15-18-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-15-18-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "18:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "16:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "14:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "16:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-15-18.jpg",
+      "film": {
+        "title": "15/18",
+        "description": "Lucia, dix-sept ans, arrive dans une unité de soins pédopsychiatriques où tous les patients ont entre quinze et dix-huit ans.",
+        "duration": "1 h 44",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "18:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "16:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "14:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "20:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-22",
+            "time": "16:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "14:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "16:30",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-15-18.jpg",
+        "age": "Interdit aux moins de 12 ans.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de 15/18",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Lucia, dix-sept ans, arrive dans une unité de soins pédopsychiatriques où tous les patients ont entre quinze et dix-huit ans."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-toi-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — Ce qui nous mène à toi",
+      "film_title": "Ce qui nous mène à toi",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Charlie et Hicham souhaitent avoir un enfant et commencent un parcours d’aide médicale à la procréation.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-toi-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-toi-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "20:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "16:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "14:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-ce-qui-nous-mene-a-toi.jpg",
+      "film": {
+        "title": "Ce qui nous mène à toi",
+        "description": "Charlie et Hicham souhaitent avoir un enfant et commencent un parcours d’aide médicale à la procréation.",
+        "duration": "1 h 36",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "20:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "16:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "18:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-22",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "14:30",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-ce-qui-nous-mene-a-toi.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Ce qui nous mène à toi",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Charlie et Hicham souhaitent avoir un enfant et commencent un parcours d’aide médicale à la procréation."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-il-faut-bruler-maman-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — Il faut brûler maman",
+      "film_title": "Il faut brûler maman",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Une fratrie de croque-morts doit organiser les funérailles de sa mère alors que le personnel est en grève.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-il-faut-bruler-maman-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-il-faut-bruler-maman-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-18",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "18:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:15",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-il-faut-bruler-maman.jpg",
+      "film": {
+        "title": "Il faut brûler maman",
+        "description": "Une fratrie de croque-morts doit organiser les funérailles de sa mère alors que le personnel est en grève.",
+        "duration": "1 h 21",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "14:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "18:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "16:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-22",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "21:15",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-il-faut-bruler-maman.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Il faut brûler maman",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Une fratrie de croque-morts doit organiser les funérailles de sa mère alors que le personnel est en grève."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — Les Yeux verts",
+      "film_title": "Les Yeux verts",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Dans les Landes, une famille menacée d’expulsion voit l’aîné sombrer dans un sommeil mystérieux.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "16:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "14:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "14:45",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "16:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-les-yeux-verts.jpg",
+      "film": {
+        "title": "Les Yeux verts",
+        "description": "Dans les Landes, une famille menacée d’expulsion voit l’aîné sombrer dans un sommeil mystérieux.",
+        "duration": "1 h 23",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "16:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "14:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-22",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "14:45",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "16:45",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-les-yeux-verts.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Les Yeux verts",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Dans les Landes, une famille menacée d’expulsion voit l’aîné sombrer dans un sommeil mystérieux."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — L’Âge d’or",
+      "film_title": "L’Âge d’or",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Jeanne Lavaur traverse le vingtième siècle, entre son enfance dans une boucherie et son rêve de devenir comtesse.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "16:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-lage-dor.jpg",
+      "film": {
+        "title": "L’Âge d’or",
+        "description": "Jeanne Lavaur traverse le vingtième siècle, entre son enfance dans une boucherie et son rêve de devenir comtesse.",
+        "duration": "1 h 53",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "18:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "14:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "20:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "16:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "14:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "18:30",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-lage-dor.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de L’Âge d’or",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Jeanne Lavaur traverse le vingtième siècle, entre son enfance dans une boucherie et son rêve de devenir comtesse."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — Scrooge",
+      "film_title": "Scrooge",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Pour changer son avenir, Scrooge doit revivre son passé. Séances en français et en version originale.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "16:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "14:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "16:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-scrooge.jpg",
+      "film": {
+        "title": "Scrooge",
+        "description": "Pour changer son avenir, Scrooge doit revivre son passé. Séances en français et en version originale.",
+        "duration": "1 h 56",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "16:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "20:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "14:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-21",
+            "time": "18:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-22",
+            "time": "19:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "16:30",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "18:45",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-scrooge.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Scrooge",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Pour changer son avenir, Scrooge doit revivre son passé. Séances en français et en version originale."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-wild-horse-nine-2026-11-18/": {
+    "event": {
+      "title": "Cinéma — Wild Horse Nine",
+      "film_title": "Wild Horse Nine",
+      "kind": "cinema",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-24",
+      "date_label": "Séances datées du 18 novembre 2026 au 24 novembre 2026 — voir les horaires",
+      "summary": "Deux agents de la CIA sont envoyés sur l’île de Pâques peu avant le coup d’État chilien de 1973.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-wild-horse-nine-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-wild-horse-nine-2026-11-18/",
+      "sessions": [
+        {
+          "date": "2026-11-18",
+          "time": "14:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "18:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-23",
+          "time": "16:30",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "20:45",
+          "version": "VO sous-titrée"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-wild-horse-nine.jpg",
+      "film": {
+        "title": "Wild Horse Nine",
+        "description": "Deux agents de la CIA sont envoyés sur l’île de Pâques peu avant le coup d’État chilien de 1973.",
+        "duration": "1 h 58",
+        "sessions": [
+          {
+            "date": "2026-11-18",
+            "time": "14:30",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-20",
+            "time": "18:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-23",
+            "time": "16:30",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-24",
+            "time": "20:45",
+            "version": "VO sous-titrée"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-wild-horse-nine.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Wild Horse Nine",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Deux agents de la CIA sont envoyés sur l’île de Pâques peu avant le coup d’État chilien de 1973."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-everybody-digs-bill-evans-2026-11-22/": {
+    "event": {
+      "title": "Cinéma — Everybody Digs Bill Evans",
+      "film_title": "Everybody Digs Bill Evans",
+      "kind": "cinema",
+      "start_date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "date_label": "Séances datées du 22 novembre 2026 au 22 novembre 2026 — voir les horaires",
+      "summary": "Une avant-première annoncée pour la journée Art et Essai du cinéma européen.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-everybody-digs-bill-evans-2026-11-22/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-everybody-digs-bill-evans-2026-11-22/",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "version": "Version à confirmer"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-everybody-digs-bill-evans.jpg",
+      "film": {
+        "title": "Everybody Digs Bill Evans",
+        "description": "Une avant-première annoncée pour la journée Art et Essai du cinéma européen.",
+        "duration": "",
+        "sessions": [
+          {
+            "date": "2026-11-22",
+            "time": "19:00",
+            "version": "Version à confirmer"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-everybody-digs-bill-evans.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Everybody Digs Bill Evans",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Une avant-première annoncée pour la journée Art et Essai du cinéma européen."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/": {
+    "event": {
+      "title": "Cinéma — Camembert",
+      "film_title": "Camembert",
+      "kind": "cinema",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-29",
+      "date_label": "Séances datées du 25 novembre 2026 au 29 novembre 2026 — voir les horaires",
+      "summary": "Stan rencontre la famille de Cléo et découvre une tradition familiale : jouer au Trivial Pursuit.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-camembert-2026-11-25/",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "18:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-camembert.jpg",
+      "film": {
+        "title": "Camembert",
+        "description": "Stan rencontre la famille de Cléo et découvre une tradition familiale : jouer au Trivial Pursuit.",
+        "duration": "1 h 32",
+        "sessions": [
+          {
+            "date": "2026-11-25",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "18:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "15:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-camembert.jpg",
+        "special_note": "Une ligne du PDF indique « MAR 30 : 21H00 ». Le 30 novembre 2026 étant un lundi, cette séance n’est pas ajoutée au calendrier avant confirmation du cinéma.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Camembert",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Stan rencontre la famille de Cléo et découvre une tradition familiale : jouer au Trivial Pursuit."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/": {
+    "event": {
+      "title": "Cinéma — Gabin",
+      "film_title": "Gabin",
+      "kind": "cinema",
+      "start_date": "2026-11-25",
+      "end_date": "2026-12-01",
+      "date_label": "Séances datées du 25 novembre 2026 au 1 décembre 2026 — voir les horaires",
+      "summary": "Dans le Nord, Gabin hésite entre reprendre la boucherie familiale et suivre ses propres envies.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "20:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-gabin.jpg",
+      "film": {
+        "title": "Gabin",
+        "description": "Dans le Nord, Gabin hésite entre reprendre la boucherie familiale et suivre ses propres envies.",
+        "duration": "1 h 45",
+        "sessions": [
+          {
+            "date": "2026-11-25",
+            "time": "18:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "16:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "14:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "20:45",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-gabin.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Gabin",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Dans le Nord, Gabin hésite entre reprendre la boucherie familiale et suivre ses propres envies."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-hunger-games-lever-de-soleil-sur-la-moisson-2026-11-25/": {
+    "event": {
+      "title": "Cinéma — Hunger Games : Lever de soleil sur la moisson",
+      "film_title": "Hunger Games : Lever de soleil sur la moisson",
+      "kind": "cinema",
+      "start_date": "2026-11-25",
+      "end_date": "2026-12-01",
+      "date_label": "Séances datées du 25 novembre 2026 au 1 décembre 2026 — voir les horaires",
+      "summary": "Les cinquantièmes Hunger Games se préparent à Panem. Une séance Ciné Gourmand est annoncée le dimanche matin.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-hunger-games-lever-de-soleil-sur-la-moisson-2026-11-25/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-hunger-games-lever-de-soleil-sur-la-moisson-2026-11-25/",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "18:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "17:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "20:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00",
+          "version": "VF",
+          "price": 5
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00",
+          "version": "VO sous-titrée"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "18:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-hunger-games-lever-de-soleil-sur-la-moisson.jpg",
+      "film": {
+        "title": "Hunger Games : Lever de soleil sur la moisson",
+        "description": "Les cinquantièmes Hunger Games se préparent à Panem. Une séance Ciné Gourmand est annoncée le dimanche matin.",
+        "duration": "2 h 38",
+        "sessions": [
+          {
+            "date": "2026-11-25",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "18:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "17:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "20:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "11:00",
+            "version": "VF",
+            "price": 5
+          },
+          {
+            "date": "2026-11-29",
+            "time": "15:00",
+            "version": "VO sous-titrée"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "18:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-hunger-games-lever-de-soleil-sur-la-moisson.jpg",
+        "special_note": "Dimanche 29 novembre à 11 h : Ciné Gourmand avec buffet petit-déjeuner, 5 € sur réservation au cinéma. Autres séances : tarifs habituels.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Hunger Games : Lever de soleil sur la moisson",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Les cinquantièmes Hunger Games se préparent à Panem. Une séance Ciné Gourmand est annoncée le dimanche matin."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/": {
+    "event": {
+      "title": "Cinéma — Jupiter",
+      "film_title": "Jupiter",
+      "kind": "cinema",
+      "start_date": "2026-11-25",
+      "end_date": "2026-12-01",
+      "date_label": "Séances datées du 25 novembre 2026 au 1 décembre 2026 — voir les horaires",
+      "summary": "Un président français fraîchement élu doit faire face à une crise et à un ultimatum nucléaire.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-25",
+          "time": "20:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "16:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "14:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "21:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "16:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "18:45",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-jupiter.jpg",
+      "film": {
+        "title": "Jupiter",
+        "description": "Un président français fraîchement élu doit faire face à une crise et à un ultimatum nucléaire.",
+        "duration": "1 h 27",
+        "sessions": [
+          {
+            "date": "2026-11-25",
+            "time": "18:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-25",
+            "time": "20:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "16:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "14:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "21:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "16:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "18:45",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-jupiter.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Jupiter",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Un président français fraîchement élu doit faire face à une crise et à un ultimatum nucléaire."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-malika-2026-11-25/": {
+    "event": {
+      "title": "Cinéma — Malika",
+      "film_title": "Malika",
+      "kind": "cinema",
+      "start_date": "2026-11-25",
+      "end_date": "2026-12-01",
+      "date_label": "Séances datées du 25 novembre 2026 au 1 décembre 2026 — voir les horaires",
+      "summary": "Le parcours de Malika Bellaribi et son rêve de devenir mezzo-soprano.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-malika-2026-11-25/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-malika-2026-11-25/",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "14:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-malika.jpg",
+      "film": {
+        "title": "Malika",
+        "description": "Le parcours de Malika Bellaribi et son rêve de devenir mezzo-soprano.",
+        "duration": "1 h 26",
+        "sessions": [
+          {
+            "date": "2026-11-25",
+            "time": "20:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "14:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "21:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "16:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "14:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-malika.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Malika",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Le parcours de Malika Bellaribi et son rêve de devenir mezzo-soprano."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laffreunard-2026-11-25/": {
+    "event": {
+      "title": "Cinéma — À la poursuite de l’Affreunard",
+      "film_title": "À la poursuite de l’Affreunard",
+      "kind": "cinema",
+      "start_date": "2026-11-25",
+      "end_date": "2026-12-01",
+      "date_label": "Séances datées du 25 novembre 2026 au 1 décembre 2026 — voir les horaires",
+      "summary": "Trois courts métrages d’animation pour une première sortie au cinéma, à partir de trois ans.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laffreunard-2026-11-25/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laffreunard-2026-11-25/",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "17:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "15:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "17:30",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-a-la-poursuite-de-laffreunard.jpg",
+      "film": {
+        "title": "À la poursuite de l’Affreunard",
+        "description": "Trois courts métrages d’animation pour une première sortie au cinéma, à partir de trois ans.",
+        "duration": "44 min",
+        "sessions": [
+          {
+            "date": "2026-11-25",
+            "time": "17:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "15:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "18:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "16:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "17:30",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-a-la-poursuite-de-laffreunard.jpg",
+        "age": "À partir de 3 ans.",
+        "price": 3.5,
+        "price_note": "Tarif annoncé : 3,50 € la place pour tous.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de À la poursuite de l’Affreunard",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Trois courts métrages d’animation pour une première sortie au cinéma, à partir de trois ans."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-les-braves-2026-11-27/": {
+    "event": {
+      "title": "Cinéma — Les Braves",
+      "film_title": "Les Braves",
+      "kind": "cinema",
+      "start_date": "2026-11-27",
+      "end_date": "2026-12-01",
+      "date_label": "Séances datées du 27 novembre 2026 au 1 décembre 2026 — voir les horaires",
+      "summary": "Pendant la Première Guerre mondiale, un jeune soldat rencontre un homme chargé de remonter le moral des troupes.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-les-braves-2026-11-27/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-les-braves-2026-11-27/",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "14:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-27",
+          "time": "20:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "16:15",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:00",
+          "version": "VF"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "16:30",
+          "version": "VF"
+        },
+        {
+          "date": "2026-12-01",
+          "time": "14:00",
+          "version": "VF"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-les-braves.jpg",
+      "film": {
+        "title": "Les Braves",
+        "description": "Pendant la Première Guerre mondiale, un jeune soldat rencontre un homme chargé de remonter le moral des troupes.",
+        "duration": "2 h 07",
+        "sessions": [
+          {
+            "date": "2026-11-27",
+            "time": "14:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "20:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "16:15",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "19:00",
+            "version": "VF"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "16:30",
+            "version": "VF"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "14:00",
+            "version": "VF"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-les-braves.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Les Braves",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Pendant la Première Guerre mondiale, un jeune soldat rencontre un homme chargé de remonter le moral des troupes."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-la-maison-des-femmes-2026-11-29/": {
+    "event": {
+      "title": "Cinéma — La Maison des Femmes",
+      "film_title": "La Maison des Femmes",
+      "kind": "cinema",
+      "start_date": "2026-11-29",
+      "end_date": "2026-11-29",
+      "date_label": "Séances datées du 29 novembre 2026 au 29 novembre 2026 — voir les horaires",
+      "summary": "Une projection suivie d’un échange en salle pour les soixante-dix ans du Planning familial.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-la-maison-des-femmes-2026-11-29/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-la-maison-des-femmes-2026-11-29/",
+      "sessions": [
+        {
+          "date": "2026-11-29",
+          "time": "19:00",
+          "version": "Version à confirmer"
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-la-maison-des-femmes.jpg",
+      "film": {
+        "title": "La Maison des Femmes",
+        "description": "Une projection suivie d’un échange en salle pour les soixante-dix ans du Planning familial.",
+        "duration": "",
+        "sessions": [
+          {
+            "date": "2026-11-29",
+            "time": "19:00",
+            "version": "Version à confirmer"
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-la-maison-des-femmes.jpg",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de La Maison des Femmes",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Une projection suivie d’un échange en salle pour les soixante-dix ans du Planning familial."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-le-temps-des-animaux-2026-11-30/": {
+    "event": {
+      "title": "Cinéma — Le Temps des animaux",
+      "film_title": "Le Temps des animaux",
+      "kind": "cinema",
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "date_label": "Séances datées du 30 novembre 2026 au 30 novembre 2026 — voir les horaires",
+      "summary": "Découvrir la faune de Derborence, dans les Alpes, au cours de la soirée 100 % montagne.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-le-temps-des-animaux-2026-11-30/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-le-temps-des-animaux-2026-11-30/",
+      "sessions": [
+        {
+          "date": "2026-11-30",
+          "time": "18:30",
+          "version": "VF · soirée montagne",
+          "price": 20
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-le-temps-des-animaux.jpg",
+      "film": {
+        "title": "Le Temps des animaux",
+        "description": "Découvrir la faune de Derborence, dans les Alpes, au cours de la soirée 100 % montagne.",
+        "duration": "1 h 24",
+        "sessions": [
+          {
+            "date": "2026-11-30",
+            "time": "18:30",
+            "version": "VF · soirée montagne",
+            "price": 20
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-le-temps-des-animaux.jpg",
+        "price_note": "20 € pour toute la soirée, pas par film. Réservation indispensable au cinéma avant le dimanche 29 novembre à 21 h.",
+        "special_note": "Programme du 30 novembre : 18 h 30 Le Temps des animaux ; 20 h échange avec la productrice Florence Adam ; 20 h 30 repas par Sucre et Sel par Julie ; 21 h 30 Louve, une vie dans les Alpes.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Le Temps des animaux",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "Découvrir la faune de Derborence, dans les Alpes, au cours de la soirée 100 % montagne."
+    },
+    "cinema_managed": true
+  },
+  "https://agenda.vivreanyons.fr/evenements/cinema-louve-une-vie-dans-les-alpes-2026-11-30/": {
+    "event": {
+      "title": "Cinéma — Louve, une vie dans les Alpes",
+      "film_title": "Louve, une vie dans les Alpes",
+      "kind": "cinema",
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "date_label": "Séances datées du 30 novembre 2026 au 30 novembre 2026 — voir les horaires",
+      "summary": "L’histoire d’une louve dans les Alpes, pour le second film de la soirée montagne.",
+      "categories": [
+        "Cinéma",
+        "Culture"
+      ],
+      "url": "https://agenda.vivreanyons.fr/evenements/cinema-louve-une-vie-dans-les-alpes-2026-11-30/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cinema-louve-une-vie-dans-les-alpes-2026-11-30/",
+      "sessions": [
+        {
+          "date": "2026-11-30",
+          "time": "21:30",
+          "version": "VF · soirée montagne",
+          "price": 20
+        }
+      ],
+      "poster": "/assets/cinema/nov2026-louve-une-vie-dans-les-alpes.jpg",
+      "film": {
+        "title": "Louve, une vie dans les Alpes",
+        "description": "L’histoire d’une louve dans les Alpes, pour le second film de la soirée montagne.",
+        "duration": "1 h 10",
+        "sessions": [
+          {
+            "date": "2026-11-30",
+            "time": "21:30",
+            "version": "VF · soirée montagne",
+            "price": 20
+          }
+        ],
+        "poster": "/assets/cinema/nov2026-louve-une-vie-dans-les-alpes.jpg",
+        "price_note": "20 € pour toute la soirée, pas par film. Réservation indispensable au cinéma avant le dimanche 29 novembre à 21 h.",
+        "special_note": "Programme du 30 novembre : 18 h 30 Le Temps des animaux ; 20 h échange avec la productrice Florence Adam ; 20 h 30 repas par Sucre et Sel par Julie ; 21 h 30 Louve, une vie dans les Alpes.",
+        "programme": {
+          "source": "https://www.cinema-arlequin.fr/",
+          "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
+          "period_start": "2026-11-11",
+          "period_end": "2026-12-01",
+          "verified_on": "2026-11-06"
+        },
+        "poster_alt": "Affiche de Louve, une vie dans les Alpes",
+        "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      }
+    },
+    "editorial": {
+      "intro": "L’histoire d’une louve dans les Alpes, pour le second film de la soirée montagne."
+    },
+    "cinema_managed": true
   }
 }

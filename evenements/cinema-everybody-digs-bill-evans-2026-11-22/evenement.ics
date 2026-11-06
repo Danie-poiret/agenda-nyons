@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivreAnyons//Cinema Nyons//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:everybody-digs-bill-evans-2026-11-22-1900@agenda.vivreanyons.fr
+DTSTAMP:20261106T054628Z
+DTSTART:20261122T180000Z
+SUMMARY:Everybody Digs Bill Evans — Version à confirmer
+LOCATION:28 place de la Libération\, 26110 Nyons
+DESCRIPTION:Une avant-première annoncée pour la journée Art et Essai d
+ u cinéma européen.\nhttps://agenda.vivreanyons.fr/evenements/cinema-ev
+ erybody-digs-bill-evans-2026-11-22/
+URL:https://agenda.vivreanyons.fr/evenements/cinema-everybody-digs-bill-e
+ vans-2026-11-22/
+END:VEVENT
+END:VCALENDAR
