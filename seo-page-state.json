@@ -2,24 +2,24 @@
   "version": 1,
   "pages": {
     "index.html": {
-      "hash": "0eccdc75d28348a7ed2f318c609a49496247f96050e22e8ac34ef1c7465d714d",
+      "hash": "7d4545bf31b04c732997f0b84bb4db2544f9361af3f154215115089a82eaebf5",
       "lastmod": "2026-11-06"
     },
     "semaines/index.html": {
-      "hash": "c9786d1c097dce14dccee789c16850b331a9e9b71930f93f5beac4b839df0268",
+      "hash": "d0520b70d86736eb1ec2444b5ad52d92de13bffe0cd94caec7cf2046f800fb00",
       "lastmod": "2026-11-06"
     },
     "evenements/index.html": {
-      "hash": "05209b9787c87aa50a92118355503432cc0487d91f1ccd9edecadad6414a62d8",
+      "hash": "697679783c19d87e3945c50d172fded90ffb61128c9f858aa3b27b0836e5cf18",
       "lastmod": "2026-11-06"
     },
     "cinema/index.html": {
-      "hash": "42ba05ee80c55cd650e4b2a0c6df1b64d567af52021570092e89198c91bd4d5c",
+      "hash": "af1a56e6ed1826f1f0de117adbde756db4f62761b934f176401478250f981de8",
       "lastmod": "2026-11-06"
     },
     "aujourdhui/index.html": {
-      "hash": "33ff2e6b2d67e3025978df2617417b428edc563d0db59ec5a41598c65dee1d8e",
-      "lastmod": "2026-11-05"
+      "hash": "fa8f5b26bbbb93a99007b0d9e9bc4aad83cb43d50944701059f7a3052d68b496",
+      "lastmod": "2026-11-06"
     },
     "semaines/semaine-1-fevrier-2027/index.html": {
       "hash": "bcf07061b5a9eaef42366738af75f42411a9e73d2d8f53a98073319259a91b72",
@@ -54,7 +54,7 @@
       "lastmod": "2026-11-03"
     },
     "semaines/semaine-16-novembre-2026/index.html": {
-      "hash": "e9bb7541f10f71bd786ea481b54f4b5094db988c8c4676630091b9ffa14e490d",
+      "hash": "ad7d66c9659086c2315fad5b4812e5549487512354511497dfc9c9ddcbe8dbe1",
       "lastmod": "2026-11-06"
     },
     "semaines/semaine-17-mai-2027/index.html": {
@@ -90,7 +90,7 @@
       "lastmod": "2026-11-05"
     },
     "semaines/semaine-23-novembre-2026/index.html": {
-      "hash": "58a689e8228c4ea761671d7db9d13c602f1e00c58d0cd553dd0eac089e0ff6ae",
+      "hash": "fa1b7552591d595429126abbc24e780ba8d8b454cb0a198702335789b5c6708e",
       "lastmod": "2026-11-06"
     },
     "semaines/semaine-25-janvier-2027/index.html": {
@@ -122,7 +122,7 @@
       "lastmod": "2026-11-05"
     },
     "semaines/semaine-30-novembre-2026/index.html": {
-      "hash": "3d380889861d9bf771627e5522f74385473cfdfca9727998023c802894c5e0e2",
+      "hash": "cfea5b2f694d1c9a09441fa5b5070d3b6cf277b7fa88e96da3899aff7983be3d",
       "lastmod": "2026-11-06"
     },
     "semaines/semaine-4-janvier-2027/index.html": {
@@ -150,7 +150,7 @@
       "lastmod": "2026-11-03"
     },
     "semaines/semaine-9-novembre-2026/index.html": {
-      "hash": "0d9ccd482313fd7135f94495de93103ea508d55e62fa55ddf54083d433eb3a27",
+      "hash": "b8ecf7b0c372f234ab8c6345a8c610d460c2c3ef27846ef5e758a2de36a61793",
       "lastmod": "2026-11-06"
     },
     "evenements/1er-tour-des-elections-presidentielles-2027-04-18/index.html": {
@@ -338,28 +338,28 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-15-18-2026-11-18/index.html": {
-      "hash": "8581cf3afe534c78843c4c5b78b12e450e30f28f5a5189f8f4c407ffcb547dd8",
-      "lastmod": null
+      "hash": "1a8a182bc87d1b84f4feda9d104adb25e2102bc62316956d5c4afd3d3d93f1b0",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-a-la-poursuite-de-l-affreunard-2026-11-25/index.html": {
-      "hash": "f3d0cd24bffac4e0076d5e33899da8a7c44d21164b276dc83c6956f3fbc64c99",
-      "lastmod": null
+      "hash": "49f4112fe896f305501e5821230c8b7d2c86006598b0a6263cf3b5ef7b5b19c5",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-a-la-poursuite-de-laffreunard-2026-11-25/index.html": {
-      "hash": "0b1674750bb96eb5a19284ac21dfe47c74c7d2b7b219a8da7839b81e1558e0d1",
-      "lastmod": null
+      "hash": "4c3a093a9715ee14bad9bc4eae970f050a9cc9ec33d7ce9574d5c78ddd17a7db",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-camembert-2026-11-25/index.html": {
-      "hash": "3e68b4927449b9ad493896aa1c36a938bfe84e23bd326975f1bf4b34dd6ddc83",
-      "lastmod": null
+      "hash": "469446131472abb03fa710a6aa1c5e02a5b59af7a5bb3d64bb75268943aba6dc",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-cars-2026-10-21/index.html": {
       "hash": "0379031fcc0db264bc5c5027347b53f1b50181b8a84ab6c8058133a6d7c883d9",
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-ce-qui-nous-mene-a-toi-2026-11-18/index.html": {
-      "hash": "52fce4e85aab555d294c6c584eced907a08f32f2d83ee1bc9377a8d255aef7c4",
-      "lastmod": null
+      "hash": "48ce790e87f143510c93ec9b647d6a7be529685baf262ca138cbdc726776a691",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-2026-10-04/index.html": {
       "hash": "cf1a7b3b9cc533f273fc1f7d76eef6fdf7f0e37b3a55b2d795e5504925a360d2",
@@ -378,8 +378,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-everybody-digs-bill-evans-2026-11-22/index.html": {
-      "hash": "8e6448532e4a6bf5fa3b8b7ee448137f76e004bdb17f748d14a149b9d301496c",
-      "lastmod": null
+      "hash": "433310ced20649f38901b1235820dd258aa96d8e8980c79ff7dfbe054aab8ae1",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-fausse-note-2026-10-14/index.html": {
       "hash": "2f589f57dad283841c21cada4453b5799498e885a7808ab440d262c49ead07f1",
@@ -394,8 +394,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-gabin-2026-11-25/index.html": {
-      "hash": "3c8f92b26edfb4e9c7f28edee05bbc9a29476c70546484011605b4f752ac4a4a",
-      "lastmod": null
+      "hash": "50bf3127f0f7c80c3c6c703e52a058a75aa783f0eb995319cf7e8c5a2866a1f9",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-garance-2026-10-04/index.html": {
       "hash": "8dc5302095afdcb59722eddb6c91d5c49c8d50250606500e44ac3eaba3b0f58e",
@@ -414,24 +414,24 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-hope-2026-11-11/index.html": {
-      "hash": "7bb889d6a90a071a90f6ff4471ded5203ee7dde36c6445eacfc2ceff66bd9d21",
-      "lastmod": null
+      "hash": "8184d99122db1e5baf23f1ea952cce53358d36e88f49cccc4ed67d6845ecdac3",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-hunger-games-lever-de-soleil-sur-la-moisson-2026-11-25/index.html": {
-      "hash": "84f421fb1f2650d10c049042ce0f00e31e148cd2f392c179355c12305a1b8e20",
-      "lastmod": null
+      "hash": "7037e0a563a12d747c04a35170c14f0ca1bc8edf1efb73038dff78f724c85796",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-il-faut-bruler-maman-2026-11-18/index.html": {
-      "hash": "9c5f677f6ede878ba32cc819fe66f337d9df320956cf20cc304cc90d3bc12a4e",
-      "lastmod": null
+      "hash": "0a2fd8f7af0c6a41d18f2e62fc7d43fbd1fae3516e8ae713f4076c152455a3d3",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-irish-travellers-2026-11-04/index.html": {
       "hash": "ae819c8e8387f07d758035cb7ca749a566cc490db311230bc82a86a6eddea787",
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-jupiter-2026-11-25/index.html": {
-      "hash": "b88281fa3873255531d2f18bd72088230129f7f38e93793953c49bd2cca5be2b",
-      "lastmod": null
+      "hash": "432d39aeae4e144fdbd41d9e09a7fed7dedd502df1fc7a36f2532a52b234ac03",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-justin-le-juste-2026-10-07/index.html": {
       "hash": "c37c806140525cc505e5d93540e080f09ff80795a15313191d731cdfb4af08d4",
@@ -446,12 +446,12 @@
       "lastmod": "2026-11-04"
     },
     "evenements/cinema-l-affaire-marie-claire-2026-11-11/index.html": {
-      "hash": "1eb4d57c57a12520f0adfdb8ec00c96a193a7ec7c794b5f9bbbe18803c4b3e60",
-      "lastmod": null
+      "hash": "20189d7c1f8c59b63cc324ddc4dc8cdc3d40c2f9757a8f4c14df72fee4835b54",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-l-age-d-or-2026-11-18/index.html": {
-      "hash": "117b1f65dade28becf96a16bab7439dcf93271d0c52369305fc4a323a88037a6",
-      "lastmod": null
+      "hash": "39320ea46e1b1d8250a39e8d941f2e3749a24aebddda0db87614858e0d05d21e",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-l-espece-explosive-2026-10-14/index.html": {
       "hash": "3fe434e3b6a868e03bb656b9e077d46f47749dbb7bf2ba733a9c8213678f5375",
@@ -466,16 +466,16 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-la-maison-des-femmes-2026-11-29/index.html": {
-      "hash": "b56208d65b65069d982d5e8a355a6605618887707213b2703f7eeac83ecfbcc7",
-      "lastmod": null
+      "hash": "96f9c8d2c37746818809c250e349053ab2c5333c23c18e399f63d983618893ef",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-la-tentazione-2026-11-04/index.html": {
       "hash": "8a3a37af7fcdfec7dea4c6b8a7201dce3e5ba1d9885454a8e9e633f01b29bdc0",
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-lage-dor-2026-11-18/index.html": {
-      "hash": "33029f5a66eab33be9e645532a15ca9f531448e189d3265add16d310e3f77446",
-      "lastmod": null
+      "hash": "cc5b5e8ea0992f961be3a07c491ffa61de03a591979b9af43f12dcf786e00d5f",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-lawrence-d-arabie-2026-10-05/index.html": {
       "hash": "bb69591d67699f0c937d27400fd7c0cfaa5104a6769b2442bb8263e174552d4b",
@@ -510,8 +510,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-le-labyrinthe-de-pan-2026-11-13/index.html": {
-      "hash": "89991925019e8a8934507d9ef34a6b9fa0f9e8d35773bcc16cec3b0c7d427f26",
-      "lastmod": null
+      "hash": "802760dedba797f904adad47ca2a7e0a2addec4d155a733a51c3c0583c44d977",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-le-monde-a-l-envers-2026-10-14/index.html": {
       "hash": "68baa8a564c590f726f49725ae59a12a7c8200f134d1c14c7ae5de297cfc636c",
@@ -526,28 +526,28 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-le-temps-des-animaux-2026-11-30/index.html": {
-      "hash": "da34f91730c2e8ffd3f7d92d83fea35a7bec76ed1721aa763893a1cf070a8096",
-      "lastmod": null
+      "hash": "699e96f0730ae12152238dd3c1aa18c67982df08ba3d68cbdc7582e9cd977c31",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-les-braves-2026-11-27/index.html": {
-      "hash": "89ee67cc47cfa3ea10532481d2ab3808c257b7ef88b7056767d3418eacc5c579",
-      "lastmod": null
+      "hash": "c3c07e11b14db9288ad7320fcfd7b19acecdd7188fac19cfe4b864c7b467d00d",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-les-elephants-dans-la-brume-2026-11-09/index.html": {
       "hash": "f4057bed63bf8173cfd31591b690ac9eef79e59cb480a127685fb2c753275ece",
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-les-miserables-2026-10-21/index.html": {
-      "hash": "fe15bd82df3d8a242732f7760b9ab677ad71ade92b97040c561a22ed3f5f6287",
+      "hash": "e6d55e4d1d952d1317456dd90d3140231f6bbbaeb18bc17b183f2c28aa3b738b",
       "lastmod": "2026-11-06"
     },
     "evenements/cinema-les-roches-rouges-2026-11-11/index.html": {
-      "hash": "0dbc29a9613327ac2d410cea9672c9ba465dd5e3ec47b305d41c466212bffabd",
-      "lastmod": null
+      "hash": "dcf4f37fedfd26340a5cb6c0beeebfd766088fb5b0a7fbdab6ff889b9b7b6459",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-les-yeux-verts-2026-11-18/index.html": {
-      "hash": "cf388d2973335adf4c714f355ec55fb306c47e8225ff1f9968172c7eb488264b",
-      "lastmod": null
+      "hash": "f9d6a60dadbb56094681d7a9f22398f783783a695956042b1efaff07b3c63fec",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-lespece-explosive-2026-10-14/index.html": {
       "hash": "8c837f21285adf953d7ec4f7bca5776bc9192c35ee41ca972b957de2f52a3ef9",
@@ -558,28 +558,28 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-louve-une-vie-dans-les-alpes-2026-11-30/index.html": {
-      "hash": "ddd20164383fee783138b95f73b6c1606293ec12bf7cafab7dc960b5351dc0c4",
-      "lastmod": null
+      "hash": "592671fa3bc134a8586b80b2c3884a1506610a175e86a0269f31d98f983c0b92",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-luzzu-2026-10-12/index.html": {
       "hash": "b9513960243c7d76bf92df807c4bfe35239d69467d9f3706174bac4560ca5eba",
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-ma-toute-petite-ecole-2026-11-11/index.html": {
-      "hash": "9f51b7a6914a12227d830793b7f35eba0686ba738b25a6dcc83239f5c76aaeef",
-      "lastmod": null
+      "hash": "d487e5b551f40e89b5f4d802c07bd436f2cd2ad975a017e1eefdf49b76475c0a",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-malika-2026-11-25/index.html": {
-      "hash": "a4bbb46d96881d396411ea82bd488d5474633e3a6a4a65a5d4352223ae5b5708",
-      "lastmod": null
+      "hash": "bbbfe146f8ae645e1f8145211191f58e118878dc5e691d83987c70508356e48d",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-mary-et-la-fleur-de-la-sorciere-2026-10-31/index.html": {
       "hash": "428bf425167c9025842efe07342e3ab2d2210a4429bad5d8133bc706d7c839b9",
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-memoire-de-fille-2026-11-13/index.html": {
-      "hash": "c2fba773cdf721016fb4409d20f8bffa4e16dc160d3701cbbd695c265878a0fe",
-      "lastmod": null
+      "hash": "974dd99899c550a88aeb8891067dad7465d6362e5fefa5f140dfbbbf08ccde23",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-minotaure-2026-10-21/index.html": {
       "hash": "c7c199e2d3d351ed326c0145664f54ccd31be50c675c70ebf81f57c700b4a16a",
@@ -646,8 +646,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-ressacs-une-histoire-touaregue-2026-11-15/index.html": {
-      "hash": "e20538ec3add2ee9bccd6b286516570661106c9cc4a663fc396a1047ccec9cf1",
-      "lastmod": null
+      "hash": "e59123db1d001e79e367f24d6ed8fc81e0f8a4aaf17dc5f2473ef7e972dae147",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-salvation-2026-10-04/index.html": {
       "hash": "e741b9f95452bb196dc018a804009b954bdb1aa72426b3f8276204f379274ada",
@@ -658,8 +658,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-scrooge-2026-11-18/index.html": {
-      "hash": "d86e07f32001c5a2301ca4942d467adc3acaa02cfddc46d8f54d3bd2ca89d346",
-      "lastmod": null
+      "hash": "085850f3eb9e18808bd02cc7c0fa08cd7dfb747c61172db2b19f80506e670c00",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-shaun-le-mouton-la-beeete-d-halloween-2026-10-28/index.html": {
       "hash": "1df95c2585eb749b1bc1df9af0af3e72d0fd61b6da73a07d78e9b086173181a4",
@@ -678,8 +678,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/cinema-terminator-2-le-jugement-dernier-2026-11-13/index.html": {
-      "hash": "94c8ad5768e54c63300b8bde955b52fe2ded776ac81bcd014c585541e2ff5bc9",
-      "lastmod": null
+      "hash": "396a3c34472e4bdc31ff60962e522a2f88cd492f5ff8938179cdf875aa3e4f84",
+      "lastmod": "2026-11-06"
     },
     "evenements/cinema-ton-animal-maternel-2026-10-14/index.html": {
       "hash": "2f4004f85de4abd21772cbf735f0b21baca9fe4e883e8146caece4b384c87974",
@@ -710,8 +710,8 @@
       "lastmod": "2026-11-04"
     },
     "evenements/cinema-wild-horse-nine-2026-11-18/index.html": {
-      "hash": "072307a5822db825a902846926457b30686865d7073333531d85a86f1ec6a666",
-      "lastmod": null
+      "hash": "a5b93a94e28e48ff388d22284bf7ccebec62378a7a00b6ee1ba7d5e869f2f556",
+      "lastmod": "2026-11-06"
     },
     "evenements/cocktail-d-impro-2026-10-11/index.html": {
       "hash": "3adf36cc67c029a58849531792d94a4effb72ba5cfaa8c05624530f58fb102f2",
@@ -722,8 +722,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/collecte-de-la-banque-alimentaire-2026-11-06/index.html": {
-      "hash": "d9d17746e72d51597cb1113f14237d36bb74c7fd22375ba29efcc2cc6f1ef9ef",
-      "lastmod": "2026-11-03"
+      "hash": "1e2f53fd554eff7cd029c102d72ad104fce5de8b9457cdc138944b9091b523f9",
+      "lastmod": "2026-11-06"
     },
     "evenements/commemoration-de-larmistice-du-11-novembre-2026-11-11/index.html": {
       "hash": "07702af49f7196df38bdbadbd4f87f1a789d8e9e1740d4a0f057344ff017b069",
@@ -750,8 +750,8 @@
       "lastmod": "2026-11-05"
     },
     "evenements/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers-2026-12-06/index.html": {
-      "hash": "d3ea6fd22f5f5329b3c5ef48a64da4191a4a0af099883cbb5f890dfca3187733",
-      "lastmod": "2026-11-05"
+      "hash": "55dc6776bb0652a7b6d547f81b64f78ed807660bee56a108cc76f90e46f2b838",
+      "lastmod": "2026-11-06"
     },
     "evenements/concours-de-petanque-du-telethon-2026-12-05/index.html": {
       "hash": "2c8859a8a43727b18de87ab4b9654ea7dec5b066311f8c177fb2942a79cb2b65",
@@ -834,8 +834,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/conference-sur-odilon-redon-2026-11-06/index.html": {
-      "hash": "5c00b6a0c1a8e0a895c01e231593713a73fecc1a1f7b778f484eeccf93cc8aad",
-      "lastmod": "2026-11-05"
+      "hash": "b1939e84dda2032e43154f0c736b4fabbfcf0740de99bba06574ed5eb8e07bde",
+      "lastmod": "2026-11-06"
     },
     "evenements/conseil-municipal-2026-10-21/index.html": {
       "hash": "233b2f63c7c4a4742b48178d91b2342d045b4372a50b79845f0c76a8c39d122f",
@@ -914,8 +914,8 @@
       "lastmod": "2026-11-05"
     },
     "evenements/exposition-ia-droits-devant-2026-11-06/index.html": {
-      "hash": "6f62c5d865f8dfff224d2ae2181db9f1d015f7b65ee0f2d3aacc67c303500468",
-      "lastmod": "2026-11-03"
+      "hash": "e41ab46e1192fda92abef7825ae89793e298ed5042eaf323db43ef35855665ff",
+      "lastmod": "2026-11-06"
     },
     "evenements/exposition-le-reel-et-son-double-2-2026-10-20/index.html": {
       "hash": "d4201a136ea09c554cedeb98eef7372621641c4fc1f081c1977121eef8134188",
