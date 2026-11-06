@@ -993,7 +993,7 @@
     },
     {
       "title": "Les Misérables",
-      "description": "Après dix-neuf ans de bagne, Jean Valjean veut changer de vie. Sous une nouvelle identité, il tente de faire le bien autour de lui. Prévoyez trois heures pour cette adaptation avec Vincent Lindon.",
+      "description": "Jean Valjean, le bagne, une vie à reconstruire : le roman de Victor Hugo invite à parler de justice, de misère et de seconde chance. Si tu aimes les grandes histoires, réserve-toi une vraie soirée : trois heures sont annoncées. Prévois ton retour et ton repas en conséquence, pour profiter de la séance sans regarder la montre.",
       "duration": "2 h 59",
       "sessions": [
         {
@@ -1057,7 +1057,7 @@
           "version": "VF"
         }
       ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
+      "poster": "https://images.monnaie-services.com/movie_poster/600/FR4QY3X/KLWVDBN5.webp",
       "poster_alt": "Affiche de Les Misérables, au cinéma L’Arlequin de Nyons.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2178,7 +2178,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-l-affaire-marie-claire.webp",
+      "poster": "/assets/cinema/net-nov2026-l-affaire-marie-claire.webp",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2187,7 +2187,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de L'Affaire Marie-Claire",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Ma toute petite école",
@@ -2225,7 +2225,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-ma-toute-petite-ecole.webp",
+      "poster": "/assets/cinema/net-nov2026-ma-toute-petite-ecole.webp",
       "age": "À partir de 6 ans.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2235,11 +2235,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Ma toute petite école",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Les Roches Rouges",
-      "description": "Sur la Côte d’Azur, les jeux d’enfants croisent les premières rivalités et les premiers sentiments.",
+      "description": "Ne choisis pas ce film seulement parce qu’il montre des enfants au soleil. C’est une proposition de cinéma assez étrange, avec des rivalités et un regard qui peuvent mettre mal à l’aise. Les paysages séduisent les spectateurs, mais le rythme et le parti pris divisent. Une piste pour les curieux qui aiment sortir des récits habituels.",
       "duration": "1 h 31",
       "sessions": [
         {
@@ -2273,7 +2273,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-les-roches-rouges.webp",
+      "poster": "/assets/cinema/net-nov2026-les-roches-rouges.webp",
       "special_note": "Le dimanche 15 novembre à 19 h : projection, échange et dédicace en présence du réalisateur, annoncés dans le programme officiel. Cette séance ne figure pas dans le flux de billetterie consulté ; faire confirmer la rencontre au cinéma.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2283,7 +2283,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Les Roches Rouges",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Hope",
@@ -2311,7 +2311,7 @@
           "version": "VO sous-titrée"
         }
       ],
-      "poster": "/assets/cinema/nov2026-hope.webp",
+      "poster": "/assets/cinema/net-nov2026-hope.webp",
       "age": "Interdit aux moins de 12 ans.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2321,7 +2321,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Hope",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Le Labyrinthe de Pan",
@@ -2334,7 +2334,7 @@
           "version": "VO sous-titrée"
         }
       ],
-      "poster": "/assets/cinema/nov2026-le-labyrinthe-de-pan.webp",
+      "poster": "/assets/cinema/net-nov2026-le-labyrinthe-de-pan.webp",
       "age": "Interdit aux moins de 12 ans.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2344,11 +2344,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Le Labyrinthe de Pan",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Terminator 2 : le Jugement Dernier",
-      "description": "Deux machines venues du futur cherchent John Connor. Une reprise du film de James Cameron.",
+      "description": "Pour retrouver un grand film d’action sur grand écran, voilà une belle occasion. Les spectateurs apprécient les poursuites, les effets et les liens entre les personnages : il n’y a pas que des machines qui s’affrontent. Certains accrochent moins au jeune John Connor. Si tu le connais par la télévision, la salle offre une autre échelle au spectacle.",
       "duration": "2 h 17",
       "sessions": [
         {
@@ -2372,7 +2372,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-terminator-2-le-jugement-dernier.webp",
+      "poster": "/assets/cinema/net-nov2026-terminator-2-le-jugement-dernier.webp",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2381,7 +2381,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Terminator 2 : le Jugement Dernier",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Mémoire de fille",
@@ -2409,7 +2409,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-memoire-de-fille.webp",
+      "poster": "/assets/cinema/net-nov2026-memoire-de-fille.webp",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2418,11 +2418,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Mémoire de fille",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Ressacs, une histoire touarègue",
-      "description": "Une projection suivie d’un échange avec le réalisateur et d’une dédicace, annoncés avec l’association Lire, Écrire, Créer.",
+      "description": "Une lettre d’un père à son fils, et derrière elle la mémoire de tout un peuple : voilà une autre manière de voyager. Les spectateurs consultés apprécient la poésie, la musique et la transmission de cette histoire touarègue. Prévois du temps : le documentaire dure 2 h 05. Avant de partir, fais confirmer la séance et la rencontre annoncées par le cinéma.",
       "duration": "2 h 00",
       "sessions": [
         {
@@ -2431,7 +2431,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-ressacs-une-histoire-touaregue.webp",
+      "poster": "/assets/cinema/net-nov2026-ressacs-une-histoire-touaregue.webp",
       "special_note": "La séance du 15 novembre à 19 h figure dans la billetterie officielle, tandis que le PDF annonce un autre film en présence du réalisateur à la même heure. Confirmez le film et l’animation auprès du cinéma.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2441,7 +2441,17 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Ressacs, une histoire touarègue",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Une lettre pour transmettre une mémoire",
+        "text": "Intagrist el Ansari adresse ce récit à son fils. La mémoire des Kel Ansar, les exils, la culture et les résistances touarègues y relient l’histoire familiale aux bouleversements collectifs. La fiche documentaire présente une production France–Mauritanie de 2024, d’une durée de 125 minutes.",
+        "sources": [
+          {
+            "label": "Film-documentaire.fr",
+            "url": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/74206"
+          }
+        ]
+      }
     },
     {
       "title": "Il faut brûler maman",
@@ -2489,7 +2499,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-il-faut-bruler-maman.jpg",
+      "poster": "/assets/cinema/net-nov2026-il-faut-bruler-maman.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2498,11 +2508,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Il faut brûler maman",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Scrooge",
-      "description": "Pour changer son avenir, Scrooge doit revivre son passé. Séances en français et en version originale.",
+      "description": "Les fantômes de Noël viennent réveiller un homme qui a fermé sa porte aux autres. Si tu aimes Dickens et les récits de seconde chance, cette adaptation de Ti West peut te tenter. Johnny Depp y incarne Scrooge. Garde toutefois en tête l’avertissement annoncé : un conte de Noël n’est pas forcément une séance douce pour tous les enfants.",
       "duration": "1 h 56",
       "sessions": [
         {
@@ -2541,7 +2551,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-scrooge.jpg",
+      "poster": "/assets/cinema/net-nov2026-scrooge.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2550,11 +2560,21 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Scrooge",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Une nouvelle adaptation de Dickens",
+        "text": "Ti West dirige Johnny Depp dans le rôle d’Ebenezer Scrooge, avec Rupert Grint et Andrea Riseborough. Le titre original est Ebenezer. Il s’agit bien du film de 2026, et les avis des versions animées ou des anciennes adaptations ne lui sont pas attribués. La fiche AlloCiné annonce un film tout public avec avertissement.",
+        "sources": [
+          {
+            "label": "Fiche du film de 2026",
+            "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000034007.html"
+          }
+        ]
+      }
     },
     {
       "title": "15/18",
-      "description": "Lucia, dix-sept ans, arrive dans une unité de soins pédopsychiatriques où tous les patients ont entre quinze et dix-huit ans.",
+      "description": "Ici, on entre dans une unité de pédopsychiatrie auprès de jeunes de quinze à dix-huit ans. Les avis soulignent leur présence et le réalisme du quotidien, tout en réservant des critiques à la fin. C’est un sujet sensible : viens pour une rencontre avec des personnages et leurs fragilités, plutôt que pour te changer les idées sans y penser.",
       "duration": "1 h 44",
       "sessions": [
         {
@@ -2598,7 +2618,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-15-18.jpg",
+      "poster": "/assets/cinema/net-nov2026-15-18.jpg",
       "age": "Interdit aux moins de 12 ans.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2608,11 +2628,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de 15/18",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Everybody Digs Bill Evans",
-      "description": "Une avant-première annoncée pour la journée Art et Essai du cinéma européen.",
+      "description": "Amateurs de jazz, regarde bien la proposition : on suit aussi un homme traversé par le deuil, pas seulement un pianiste en concert. Les retours sont partagés sur la place de la musique et la construction du récit. L’avant-première du 22 novembre peut intéresser ceux qui aiment les portraits d’artistes, avec leurs silences et leurs blessures.",
       "duration": "",
       "sessions": [
         {
@@ -2621,7 +2641,7 @@
           "version": "Version à confirmer"
         }
       ],
-      "poster": "/assets/cinema/nov2026-everybody-digs-bill-evans.jpg",
+      "poster": "/assets/cinema/net-nov2026-everybody-digs-bill-evans.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2630,11 +2650,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Everybody Digs Bill Evans",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Ce qui nous mène à toi",
-      "description": "Charlie et Hicham souhaitent avoir un enfant et commencent un parcours d’aide médicale à la procréation.",
+      "description": "Le désir d’un enfant peut prendre toute la place dans une vie à deux. Voilà le sujet de cette séance, qui touche certains spectateurs et en laisse d’autres plus à distance. Si tu viens en couple, prévois peut-être un moment pour en parler ensuite : les espoirs, les examens et les déceptions évoqués peuvent remuer.",
       "duration": "1 h 36",
       "sessions": [
         {
@@ -2668,7 +2688,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-ce-qui-nous-mene-a-toi.jpg",
+      "poster": "/assets/cinema/net-nov2026-ce-qui-nous-mene-a-toi.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2677,11 +2697,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Ce qui nous mène à toi",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "L’Âge d’or",
-      "description": "Jeanne Lavaur traverse le vingtième siècle, entre son enfance dans une boucherie et son rêve de devenir comtesse.",
+      "description": "Si tu aimes les vieilles images, cette séance a une particularité qui mérite qu’on s’y arrête : des acteurs d’aujourd’hui croisent de véritables archives. On suit Jeanne à travers le siècle, ses ambitions et ses amours. Certains spectateurs se laissent emporter ; d’autres voient trop les coutures du procédé. À choisir pour une fresque qui tente autre chose.",
       "duration": "1 h 53",
       "sessions": [
         {
@@ -2715,7 +2735,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-lage-dor.jpg",
+      "poster": "/assets/cinema/net-nov2026-lage-dor.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2724,11 +2744,21 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de L’Âge d’or",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Une vie, des archives et des acteurs",
+        "text": "Le premier long métrage de Bérenger Thouin mêle des scènes jouées à des images d’archives. Présenté au Festival de Cabourg 2026 dans la section Panorama, il fait traverser à Jeanne Lavaur les bouleversements du XXe siècle, du Paris des années folles au Brésil.",
+        "sources": [
+          {
+            "label": "Festival de Cabourg",
+            "url": "https://www.festival-cabourg.com/editions/2026/films/l-age-d-or"
+          }
+        ]
+      }
     },
     {
       "title": "Les Yeux verts",
-      "description": "Dans les Landes, une famille menacée d’expulsion voit l’aîné sombrer dans un sommeil mystérieux.",
+      "description": "Une petite sœur essaie de rejoindre son frère jusque dans ses rêves. Si tu apprécies les histoires où l’imaginaire aide à traverser une épreuve, cette piste peut te parler. Les images et les acteurs touchent plusieurs spectateurs ; le fantastique paraît trop envahissant à d’autres. Sous le conte, il y a une famille menacée d’expulsion.",
       "duration": "1 h 23",
       "sessions": [
         {
@@ -2762,7 +2792,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-les-yeux-verts.jpg",
+      "poster": "/assets/cinema/net-nov2026-les-yeux-verts.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2771,7 +2801,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Les Yeux verts",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Wild Horse Nine",
@@ -2799,7 +2829,7 @@
           "version": "VO sous-titrée"
         }
       ],
-      "poster": "/assets/cinema/nov2026-wild-horse-nine.jpg",
+      "poster": "/assets/cinema/net-nov2026-wild-horse-nine.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2808,11 +2838,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Wild Horse Nine",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
-      "description": "Les cinquantièmes Hunger Games se préparent à Panem. Une séance Ciné Gourmand est annoncée le dimanche matin.",
+      "description": "Cette fois, on remonte au jeune Haymitch, bien avant Katniss. Si tu aimes Panem, tu retrouveras les Jeux, mais aussi les mécanismes du pouvoir et de la révolte. Les premiers échos de presse sont favorables, notamment sur Joseph Zada. Prévois une vraie longue séance : 2 h 38 annoncées. Le dimanche matin, le Ciné Gourmand demande une réservation.",
       "duration": "2 h 38",
       "sessions": [
         {
@@ -2852,7 +2882,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-hunger-games-lever-de-soleil-sur-la-moisson.jpg",
+      "poster": "/assets/cinema/net-nov2026-hunger-games-lever-de-soleil-sur-la-moisson.jpg",
       "special_note": "Dimanche 29 novembre à 11 h : Ciné Gourmand avec buffet petit-déjeuner, 5 € sur réservation au cinéma. Autres séances : tarifs habituels.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2862,7 +2892,21 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Hunger Games : Lever de soleil sur la moisson",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Les premiers échos de la presse",
+        "text": "Les premières réactions de journalistes aux projections d’octobre 2026 saluent notamment Joseph Zada et le spectacle. Ces retours d’avant-première, rapportés par Première, ne sont pas une moyenne des avis du grand public. Le distributeur situe ce récit vingt-quatre ans avant Katniss, autour du jeune Haymitch et des cinquantièmes Jeux.",
+        "sources": [
+          {
+            "label": "Première : premières réactions",
+            "url": "https://www.premiere.fr/Cinema/News-Cinema/Hunger-Games-les-premieres-reactions-de-Lever-de-soleil-sur-la-moisson-sont-excellentes"
+          },
+          {
+            "label": "Metropolitan Films",
+            "url": "https://metrofilms.com/film/hunger-games-sunrise-on-the-reaping__trashed/"
+          }
+        ]
+      }
     },
     {
       "title": "Jupiter",
@@ -2920,7 +2964,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-jupiter.jpg",
+      "poster": "/assets/cinema/net-nov2026-jupiter.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2929,7 +2973,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Jupiter",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "La Maison des Femmes",
@@ -2942,7 +2986,7 @@
           "version": "Version à confirmer"
         }
       ],
-      "poster": "/assets/cinema/nov2026-la-maison-des-femmes.jpg",
+      "poster": "/assets/cinema/net-nov2026-la-maison-des-femmes.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -2951,7 +2995,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de La Maison des Femmes",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Camembert",
@@ -2984,7 +3028,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-camembert.jpg",
+      "poster": "/assets/cinema/net-nov2026-camembert.jpg",
       "special_note": "Une ligne du PDF indique « MAR 30 : 21H00 ». Le 30 novembre 2026 étant un lundi, cette séance n’est pas ajoutée au calendrier avant confirmation du cinéma.",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
@@ -2994,7 +3038,7 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Camembert",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Malika",
@@ -3032,7 +3076,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-malika.jpg",
+      "poster": "/assets/cinema/net-nov2026-malika.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -3041,11 +3085,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Malika",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Les Braves",
-      "description": "Pendant la Première Guerre mondiale, un jeune soldat rencontre un homme chargé de remonter le moral des troupes.",
+      "description": "La guerre, mais aussi l’art et la tendresse au milieu de sa brutalité : voilà ce qui distingue cette proposition. Les avis montrent que sa beauté touche certains spectateurs, tandis que d’autres trouvent la mise en scène trop appuyée. Ne viens pas seulement chercher un film de batailles : la relation entre les hommes est au cœur de la séance.",
       "duration": "2 h 07",
       "sessions": [
         {
@@ -3079,7 +3123,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-les-braves.jpg",
+      "poster": "/assets/cinema/net-nov2026-les-braves.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -3088,11 +3132,11 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Les Braves",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
     },
     {
       "title": "Gabin",
-      "description": "Dans le Nord, Gabin hésite entre reprendre la boucherie familiale et suivre ses propres envies.",
+      "description": "Grandir, c’est parfois apprendre à aimer sa famille sans reprendre le chemin qu’elle avait prévu. Gabin est suivi de ses huit à ses dix-huit ans : le temps compte autant que les événements. Certains spectateurs sont très touchés, d’autres discutent le montage. Une piste si les histoires de transmission et d’émancipation te parlent.",
       "duration": "1 h 45",
       "sessions": [
         {
@@ -3121,7 +3165,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-gabin.jpg",
+      "poster": "/assets/cinema/net-nov2026-gabin.jpg",
       "programme": {
         "source": "https://www.cinema-arlequin.fr/",
         "source_pdf": "https://documents.monnaie-services.com/site_file/EMS0177/eaf421579189c927242d43f455be6556.pdf",
@@ -3130,11 +3174,21 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Gabin",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Dix années auprès d’un garçon",
+        "text": "Présenté à la Quinzaine des cinéastes 2026, le documentaire de Maxence Voiseux suit Gabin Jourdel de huit à dix-huit ans dans le Nord. La boucherie paternelle, la ferme de sa mère et ses propres rêves dessinent plusieurs avenirs possibles.",
+        "sources": [
+          {
+            "label": "Quinzaine des cinéastes",
+            "url": "https://www.quinzaine-cineastes.fr/fr/film/gabin"
+          }
+        ]
+      }
     },
     {
       "title": "À la poursuite de l’Affreunard",
-      "description": "Trois courts métrages d’animation pour une première sortie au cinéma, à partir de trois ans.",
+      "description": "Trois petits films, des marmottons qui ne veulent pas dormir et une aventure dans la neige : voilà une piste pour découvrir la salle en famille. Avec 44 minutes, la séance reste courte. Le cinéma l’annonce dès trois ans ; choisis aussi selon la sensibilité de ton petit, car l’histoire joue avec la peur et les surprises.",
       "duration": "44 min",
       "sessions": [
         {
@@ -3163,7 +3217,7 @@
           "version": "VF"
         }
       ],
-      "poster": "/assets/cinema/nov2026-a-la-poursuite-de-laffreunard.jpg",
+      "poster": "/assets/cinema/net-nov2026-a-la-poursuite-de-laffreunard.jpg",
       "age": "À partir de 3 ans.",
       "price": 3.5,
       "price_note": "Tarif annoncé : 3,50 € la place pour tous.",
@@ -3175,11 +3229,29 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de À la poursuite de l’Affreunard",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Trois courts métrages pour une même famille",
+        "text": "Le film de Benjamin Botella présenté par Nadasdy Film dure 26 minutes et date de 2024. Le programme distribué en salles en 2026 dure 44 minutes : il l’accompagne de Marmottons en délire et de La Fête de l’automne. Paris Mômes apprécie les gags et les références au dessin animé burlesque : c’est une critique de presse, à distinguer d’un avis de parent spectateur.",
+        "sources": [
+          {
+            "label": "Nadasdy Film : le court métrage",
+            "url": "https://www.nadasdyfilm.ch/laffreunard"
+          },
+          {
+            "label": "Paris Mômes : critique",
+            "url": "https://parismomes.fr/ecouter-voir/a-la-poursuite-de-laffreunard/"
+          },
+          {
+            "label": "Ville de Paris : le programme",
+            "url": "https://www.paris.fr/pages/a-la-poursuite-de-l-affreunard-36435"
+          }
+        ]
+      }
     },
     {
       "title": "Le Temps des animaux",
-      "description": "Découvrir la faune de Derborence, dans les Alpes, au cours de la soirée 100 % montagne.",
+      "description": "Dans la montagne, on regarde souvent le sommet ; ici, on prend le temps d’observer ceux qui vivent à ses pieds. Ce documentaire suit la faune de Derborence, des animaux les plus visibles aux plus discrets. Une piste pour les curieux de nature. À Nyons, c’est le premier film de la soirée montagne du 30 novembre, avec échange, repas puis Louve.",
       "duration": "1 h 24",
       "sessions": [
         {
@@ -3189,7 +3261,7 @@
           "price": 20
         }
       ],
-      "poster": "/assets/cinema/nov2026-le-temps-des-animaux.jpg",
+      "poster": "/assets/cinema/net-nov2026-le-temps-des-animaux.jpg",
       "price_note": "20 € pour toute la soirée, pas par film. Réservation indispensable au cinéma avant le dimanche 29 novembre à 21 h.",
       "special_note": "Programme du 30 novembre : 18 h 30 Le Temps des animaux ; 20 h échange avec la productrice Florence Adam ; 20 h 30 repas par Sucre et Sel par Julie ; 21 h 30 Louve, une vie dans les Alpes.",
       "programme": {
@@ -3200,11 +3272,25 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Le Temps des animaux",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Regarder aussi les petits habitants de la montagne",
+        "text": "Vincent Chabloz nous conduit à Derborence, dans les Alpes suisses. La fiche officielle annonce 84 minutes et une immersion dans le territoire à travers ses animaux. Sur SensCritique, el_blasio apprécie les images naturalistes et l’attention aux petites espèces, tout en souhaitant une réflexion plus approfondie sur la présence humaine.",
+        "sources": [
+          {
+            "label": "Site officiel du film",
+            "url": "https://www.letempsdesanimaux.ch/"
+          },
+          {
+            "label": "Avis d’el_blasio",
+            "url": "https://www.senscritique.com/film/derborence_le_temps_des_animaux/critique/346465364"
+          }
+        ]
+      }
     },
     {
       "title": "Louve, une vie dans les Alpes",
-      "description": "L’histoire d’une louve dans les Alpes, pour le second film de la soirée montagne.",
+      "description": "Pour une soirée où l’on regarde la montagne autrement, cette louve a de quoi éveiller la curiosité. Les avis d’avant-première apprécient les images et la patience des réalisateurs. Ce qui m’intéresse dans leur démarche, c’est l’observation d’animaux libres dans leur milieu. À Nyons, le film s’inscrit dans la soirée montagne : pense à réserver l’ensemble de la soirée.",
       "duration": "1 h 10",
       "sessions": [
         {
@@ -3214,7 +3300,7 @@
           "price": 20
         }
       ],
-      "poster": "/assets/cinema/nov2026-louve-une-vie-dans-les-alpes.jpg",
+      "poster": "/assets/cinema/net-nov2026-louve-une-vie-dans-les-alpes.jpg",
       "price_note": "20 € pour toute la soirée, pas par film. Réservation indispensable au cinéma avant le dimanche 29 novembre à 21 h.",
       "special_note": "Programme du 30 novembre : 18 h 30 Le Temps des animaux ; 20 h échange avec la productrice Florence Adam ; 20 h 30 repas par Sucre et Sel par Julie ; 21 h 30 Louve, une vie dans les Alpes.",
       "programme": {
@@ -3225,7 +3311,17 @@
         "verified_on": "2026-11-06"
       },
       "poster_alt": "Affiche de Louve, une vie dans les Alpes",
-      "poster_credit": "Affiche reproduite depuis le programme officiel du cinéma L’Arlequin."
+      "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur.",
+      "editorial_detail": {
+        "title": "Des loups libres, au cœur des Écrins",
+        "text": "L’ASPAS soutient ce film de Baptiste Deturche et Corentin Esmieu. L’association explique que les images montrent des animaux libres et sauvages, observés pendant plusieurs années, sans pièges photographiques. Le choix d’une femelle permet de suivre les liens familiaux et les adaptations de la meute à son environnement.",
+        "sources": [
+          {
+            "label": "Présentation et soutien de l’ASPAS",
+            "url": "https://www.aspas-nature.org/louve-une-vie-dans-les-alpes-un-film-100-sauvage-soutenu-par-laspas/"
+          }
+        ]
+      }
     }
   ]
 }

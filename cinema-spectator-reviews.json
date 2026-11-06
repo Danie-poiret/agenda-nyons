@@ -511,7 +511,7 @@
           "source": 0
         }
       ],
-      "poster": "https://images.monnaie-services.com/movie_poster/320/FR4QY3X/KLWVDBN5.webp",
+      "poster": "https://images.monnaie-services.com/movie_poster/600/FR4QY3X/KLWVDBN5.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1613,7 +1613,7 @@
     },
     "nov2026:L'Affaire Marie-Claire": {
       "film_title": "L'Affaire Marie-Claire",
-      "poster": "/assets/cinema/nov2026-l-affaire-marie-claire.webp",
+      "poster": "/assets/cinema/net-nov2026-l-affaire-marie-claire.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1658,7 +1658,7 @@
     },
     "nov2026:Ma toute petite école": {
       "film_title": "Ma toute petite école",
-      "poster": "/assets/cinema/nov2026-ma-toute-petite-ecole.webp",
+      "poster": "/assets/cinema/net-nov2026-ma-toute-petite-ecole.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1703,7 +1703,7 @@
     },
     "nov2026:Hope": {
       "film_title": "Hope",
-      "poster": "/assets/cinema/nov2026-hope.webp",
+      "poster": "/assets/cinema/net-nov2026-hope.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1748,7 +1748,7 @@
     },
     "nov2026:Mémoire de fille": {
       "film_title": "Mémoire de fille",
-      "poster": "/assets/cinema/nov2026-memoire-de-fille.webp",
+      "poster": "/assets/cinema/net-nov2026-memoire-de-fille.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1793,7 +1793,7 @@
     },
     "nov2026:Le Labyrinthe de Pan": {
       "film_title": "Le Labyrinthe de Pan",
-      "poster": "/assets/cinema/nov2026-le-labyrinthe-de-pan.webp",
+      "poster": "/assets/cinema/net-nov2026-le-labyrinthe-de-pan.webp",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1838,7 +1838,7 @@
     },
     "nov2026:Il faut brûler maman": {
       "film_title": "Il faut brûler maman",
-      "poster": "/assets/cinema/nov2026-il-faut-bruler-maman.jpg",
+      "poster": "/assets/cinema/net-nov2026-il-faut-bruler-maman.jpg",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1883,7 +1883,7 @@
     },
     "nov2026:Wild Horse Nine": {
       "film_title": "Wild Horse Nine",
-      "poster": "/assets/cinema/nov2026-wild-horse-nine.jpg",
+      "poster": "/assets/cinema/net-nov2026-wild-horse-nine.jpg",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1928,7 +1928,7 @@
     },
     "nov2026:Jupiter": {
       "film_title": "Jupiter",
-      "poster": "/assets/cinema/nov2026-jupiter.jpg",
+      "poster": "/assets/cinema/net-nov2026-jupiter.jpg",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -1977,7 +1977,7 @@
     },
     "nov2026:La Maison des Femmes": {
       "film_title": "La Maison des Femmes",
-      "poster": "/assets/cinema/nov2026-la-maison-des-femmes.jpg",
+      "poster": "/assets/cinema/net-nov2026-la-maison-des-femmes.jpg",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -2022,7 +2022,7 @@
     },
     "nov2026:Camembert": {
       "film_title": "Camembert",
-      "poster": "/assets/cinema/nov2026-camembert.jpg",
+      "poster": "/assets/cinema/net-nov2026-camembert.jpg",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -2071,7 +2071,7 @@
     },
     "nov2026:Malika": {
       "film_title": "Malika",
-      "poster": "/assets/cinema/nov2026-malika.jpg",
+      "poster": "/assets/cinema/net-nov2026-malika.jpg",
       "status": "editorially_verified",
       "acquisition": "manual_one_off",
       "editorial_basis": "original_summary_public_reviews",
@@ -2107,6 +2107,505 @@
         {
           "kind": "divides",
           "text": "Le récit biographique est aussi jugé trop conventionnel par certains : l’interprétation convainc davantage que la construction du film.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Terminator 2 : le Jugement Dernier": {
+      "film_title": "Terminator 2 : le Jugement Dernier",
+      "poster": "/assets/cinema/net-nov2026-terminator-2-le-jugement-dernier.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-7124/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "lhomme-grenouille",
+          "observation": "Action, progression des personnages et inventivité technique appréciées.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "maximemaxf",
+          "observation": "Effets et action appréciés, personnage du jeune John moins convaincant.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les avis saluent les poursuites, l’inventivité des effets et l’équilibre entre grand spectacle et personnages.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Quelques réserves concernent le jeune John Connor ou l’aspect de certains effets vus aujourd’hui. Les deux retours retenus restent très favorables.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Les Roches Rouges": {
+      "film_title": "Les Roches Rouges",
+      "poster": "/assets/cinema/net-nov2026-les-roches-rouges.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-326989/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "norman06",
+          "observation": "Chronique épurée, étrange et radicale appréciée.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Fenêtre sur salle",
+          "observation": "Paysages et cadrages appréciés, procédé répétitif et ennui.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les paysages, les couleurs et la façon singulière de filmer à hauteur d’enfant retiennent l’attention.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le parti pris divise : certains admirent cette expérience, tandis que d’autres trouvent que l’idée se répète et que le récit avance peu.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:15/18": {
+      "film_title": "15/18",
+      "poster": "/assets/cinema/net-nov2026-15-18.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://letterboxd.com/film/a-place-to-heal/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "shookone",
+          "observation": "Réalisme et équipe soignante crédibles, dernier quart et rythme moins convaincants.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "lala_cinema",
+          "observation": "Immersion et jeunes acteurs appréciés, fin contestée.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Le réalisme de l’unité de soins et l’interprétation des jeunes acteurs sont appréciés dans les deux avis retenus.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Ces mêmes retours discutent la fin et le changement de ton : l’immersion convainc davantage que le dénouement.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Everybody Digs Bill Evans": {
+      "film_title": "Everybody Digs Bill Evans",
+      "poster": "/assets/cinema/net-nov2026-everybody-digs-bill-evans.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://letterboxd.com/film/everybody-digs-bill-evans/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "eva",
+          "observation": "Séquences en noir et blanc appréciées, transitions temporelles forcées.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Ferdinand",
+          "observation": "Portrait de l’artiste malheureux jugé superficiel, musique insuffisamment présente.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un des retours apprécie particulièrement les séquences en noir et blanc.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "D’autres réserves portent sur les ruptures de ton et sur une place jugée insuffisante pour la musique. Le portrait ne comble donc pas toutes les attentes des amateurs de jazz.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Ce qui nous mène à toi": {
+      "film_title": "Ce qui nous mène à toi",
+      "poster": "/assets/cinema/net-nov2026-ce-qui-nous-mene-a-toi.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://embed.letterboxd.com/film/ce-qui-nous-mene-a-toi/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "ilona ✈︎",
+          "observation": "Différences de souffrance au sein du couple et sujet de la PMA appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Koinu246",
+          "observation": "Sujet intéressant mais récit ressenti comme distant et peu incarné.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Le film ouvre un dialogue sur le désir d’enfant et les épreuves de la procréation médicalement assistée.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "La proximité avec le couple divise : certains reconnaissent une souffrance intime, d’autres trouvent le regard trop extérieur et le récit peu incarné.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:L’Âge d’or": {
+      "film_title": "L’Âge d’or",
+      "poster": "/assets/cinema/net-nov2026-lage-dor.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://www.senscritique.com/film/l_age_d_or/critique/343745631"
+        },
+        {
+          "label": "Autre avis sur SensCritique",
+          "url": "https://www.senscritique.com/film/l_age_d_or/critique/339805081"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "fasteiditaur",
+          "observation": "Archives au service du récit, héroïne complexe et souffle historique appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "JuChrn",
+          "observation": "Mélange des archives et de la fiction prometteur, mais intégration sonore et récit moins convaincants.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 1
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un avis favorable apprécie une aventure de vie dont les images d’archives nourrissent les décors et l’histoire.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le procédé suscite aussi des réserves : un autre spectateur trouve les raccords sonores trop visibles et le récit contraint par les archives.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Les Yeux verts": {
+      "film_title": "Les Yeux verts",
+      "poster": "/assets/cinema/net-nov2026-les-yeux-verts.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://letterboxd.com/film/the-green-eyes-2026/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "manulaqueen",
+          "observation": "Émotion, beauté visuelle et petits gestes des personnages appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Evazoelouise",
+          "observation": "Acteurs appréciés, recours au fantastique jugé trop important.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "La beauté des images, l’émotion et les interprètes sont appréciés dans les retours retenus.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le mélange entre récit familial et imaginaire ne plaît pas autant à tous : certains auraient préféré rester davantage auprès des personnages.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Les Braves": {
+      "film_title": "Les Braves",
+      "poster": "/assets/cinema/net-nov2026-les-braves.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://letterboxd.com/film/coward-2026/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Kylo",
+          "observation": "Beauté et dureté du film appréciées.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "shookone",
+          "observation": "Stylisation de la vie militaire et fantasme queer jugés exagérés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un retour favorable souligne un film capable d’associer beauté et dureté.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "La stylisation divise fortement : un autre spectateur trouve l’univers trop fantasmé et certains choix excessifs.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Gabin": {
+      "film_title": "Gabin",
+      "poster": "/assets/cinema/net-nov2026-gabin.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://letterboxd.com/film/gabin/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Lucas Renaudot",
+          "observation": "Fresque familiale sur dix ans, émotion et montage admirés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "ArthurBouet",
+          "observation": "Montage jugé trop contraignant et construction trop nette pour le réel.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Un avis enthousiaste apprécie l’émotion et l’ampleur d’un documentaire qui accompagne un garçon pendant dix ans.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "divides",
+          "text": "Le montage fait débat : pour un autre spectateur, il impose un récit trop construit et réduit la liberté du personnage.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Louve, une vie dans les Alpes": {
+      "film_title": "Louve, une vie dans les Alpes",
+      "poster": "/assets/cinema/net-nov2026-louve-une-vie-dans-les-alpes.jpg",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-1000051742/critiques/spectateurs/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "mimititi",
+          "observation": "Observation patiente, paysages et comportement des loups appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "chris k6",
+          "observation": "Images et engagement du travail animalier appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les retours d’avant-première retenus saluent la beauté des images et le travail d’observation de la vie sauvage.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "context",
+          "text": "Ces avis sont très favorables et issus d’un échantillon limité. Ils mettent surtout en avant la découverte de l’animal et de son milieu, sans constituer un bilan de tous les spectateurs.",
+          "evidence": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "nov2026:Ressacs, une histoire touarègue": {
+      "film_title": "Ressacs, une histoire touarègue",
+      "poster": "/assets/cinema/net-nov2026-ressacs-une-histoire-touaregue.webp",
+      "status": "editorially_verified",
+      "acquisition": "manual_one_off",
+      "editorial_basis": "original_summary_public_reviews",
+      "verified_on": "2026-11-06",
+      "sources": [
+        {
+          "label": "Avis spectateurs consultés",
+          "url": "https://www.allocine.fr/film/fichefilm-1000017104/critiques/spectateurs/recentes/"
+        }
+      ],
+      "evidence": [
+        {
+          "author": "Claire Prost",
+          "observation": "Culture, poésie et transmission du peuple touareg appréciées.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        },
+        {
+          "author": "Jeanne M",
+          "observation": "Montage, bande sonore et hommage au peuple touareg appréciés.",
+          "recorded_in_source_on": "2026-11-06",
+          "source": 0
+        }
+      ],
+      "points": [
+        {
+          "kind": "liked",
+          "text": "Les avis retenus apprécient la transmission culturelle, la poésie, le montage et la musique.",
+          "evidence": [
+            0
+          ]
+        },
+        {
+          "kind": "context",
+          "text": "Cet échantillon est favorable. Il décrit une découverte historique et sensible du peuple touareg, sans permettre de résumer toutes les réactions du public.",
           "evidence": [
             0,
             1
