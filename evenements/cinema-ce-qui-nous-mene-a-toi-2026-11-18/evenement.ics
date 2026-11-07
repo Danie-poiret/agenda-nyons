@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:ce-qui-nous-mene-a-toi-2026-11-18-2045@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261118T194500Z
 SUMMARY:Ce qui nous mène à toi — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -19,7 +19,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-to
 END:VEVENT
 BEGIN:VEVENT
 UID:ce-qui-nous-mene-a-toi-2026-11-20-1600@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261120T150000Z
 SUMMARY:Ce qui nous mène à toi — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -34,7 +34,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-to
 END:VEVENT
 BEGIN:VEVENT
 UID:ce-qui-nous-mene-a-toi-2026-11-21-1830@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261121T173000Z
 SUMMARY:Ce qui nous mène à toi — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -49,7 +49,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-to
 END:VEVENT
 BEGIN:VEVENT
 UID:ce-qui-nous-mene-a-toi-2026-11-22-1500@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261122T140000Z
 SUMMARY:Ce qui nous mène à toi — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -64,7 +64,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-to
 END:VEVENT
 BEGIN:VEVENT
 UID:ce-qui-nous-mene-a-toi-2026-11-23-2100@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261123T200000Z
 SUMMARY:Ce qui nous mène à toi — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -79,7 +79,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-ce-qui-nous-mene-a-to
 END:VEVENT
 BEGIN:VEVENT
 UID:ce-qui-nous-mene-a-toi-2026-11-24-1430@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261124T133000Z
 SUMMARY:Ce qui nous mène à toi — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:gabin-2026-11-25-1800@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261125T170000Z
 SUMMARY:Gabin — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -18,7 +18,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:gabin-2026-11-27-1630@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261127T153000Z
 SUMMARY:Gabin — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -32,7 +32,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:gabin-2026-11-27-2100@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261127T200000Z
 SUMMARY:Gabin — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -46,7 +46,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:gabin-2026-11-30-1430@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261130T133000Z
 SUMMARY:Gabin — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -60,7 +60,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-gabin-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:gabin-2026-12-01-2045@agenda.vivreanyons.fr
-DTSTAMP:20261106T142002Z
+DTSTAMP:20261107T130716Z
 DTSTART:20261201T194500Z
 SUMMARY:Gabin — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

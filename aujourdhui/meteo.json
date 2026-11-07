@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "temperature": 15.0,
   "observation": "15 h 00",
   "isForecast": true,
-  "min": 7.0,
+  "min": 5.0,
   "max": 15.0,
-  "rain": 1.5,
-  "wind": 6.0,
-  "windMax": 11.0,
+  "rain": 0.0,
+  "wind": 4.0,
+  "windMax": 9.0,
   "description": "Ensoleillé",
-  "fetched_at": "2026-11-06T15:20:04.169946+01:00"
+  "fetched_at": "2026-11-07T14:07:18.276351+01:00"
 }
