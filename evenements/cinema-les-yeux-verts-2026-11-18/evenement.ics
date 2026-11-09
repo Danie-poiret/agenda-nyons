@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:les-yeux-verts-2026-11-18-1645@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261118T154500Z
 SUMMARY:Les Yeux verts — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -20,7 +20,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-1
 END:VEVENT
 BEGIN:VEVENT
 UID:les-yeux-verts-2026-11-20-1415@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261120T131500Z
 SUMMARY:Les Yeux verts — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -36,7 +36,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-1
 END:VEVENT
 BEGIN:VEVENT
 UID:les-yeux-verts-2026-11-22-1700@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261122T160000Z
 SUMMARY:Les Yeux verts — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -52,7 +52,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-1
 END:VEVENT
 BEGIN:VEVENT
 UID:les-yeux-verts-2026-11-23-1445@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261123T134500Z
 SUMMARY:Les Yeux verts — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -68,7 +68,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-1
 END:VEVENT
 BEGIN:VEVENT
 UID:les-yeux-verts-2026-11-23-1900@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261123T180000Z
 SUMMARY:Les Yeux verts — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -84,7 +84,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-les-yeux-verts-2026-1
 END:VEVENT
 BEGIN:VEVENT
 UID:les-yeux-verts-2026-11-24-1645@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261124T154500Z
 SUMMARY:Les Yeux verts — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

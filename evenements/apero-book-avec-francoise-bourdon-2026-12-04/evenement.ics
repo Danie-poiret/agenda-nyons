@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:apero-book-avec-francoise-bourdon-2026-12-04@agenda.vivreanyons.fr
+DTSTAMP:20261109T162642Z
+DTSTART;TZID=Europe/Paris:20261204T180000
+DTEND;TZID=Europe/Paris:20261204T200000
+SUMMARY:Apéro Book avec Françoise Bourdon
+DESCRIPTION:C'est toujours un grand plaisir de retrouver Françoise Bourdon à la librairie ! Ses romans sont très attendus par ses nombreux lecteurs et fidèles admirateurs.\nhttps://agenda.vivreanyons.fr/evenements/apero-book-avec-francoise-bourdon-2026-12-04/
+LOCATION:Librairie de l'olivier\, — 8 place de la Libération
+URL:https://agenda.vivreanyons.fr/evenements/apero-book-avec-francoise-bourdon-2026-12-04/
+END:VEVENT
+END:VCALENDAR

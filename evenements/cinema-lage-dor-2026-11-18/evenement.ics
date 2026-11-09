@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:lage-dor-2026-11-18-1830@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261118T173000Z
 SUMMARY:L’Âge d’or — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -19,7 +19,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:lage-dor-2026-11-20-1400@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261120T130000Z
 SUMMARY:L’Âge d’or — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -34,7 +34,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:lage-dor-2026-11-20-2030@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261120T193000Z
 SUMMARY:L’Âge d’or — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -49,7 +49,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:lage-dor-2026-11-21-1615@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261121T151500Z
 SUMMARY:L’Âge d’or — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -64,7 +64,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:lage-dor-2026-11-24-1430@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261124T133000Z
 SUMMARY:L’Âge d’or — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -79,7 +79,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-lage-dor-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:lage-dor-2026-11-24-1830@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART:20261124T173000Z
 SUMMARY:L’Âge d’or — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

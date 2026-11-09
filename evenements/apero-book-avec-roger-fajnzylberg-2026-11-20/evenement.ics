@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:apero-book-avec-roger-fajnzylberg-2026-11-20@agenda.vivreanyons.fr
+DTSTAMP:20261109T162642Z
+DTSTART;TZID=Europe/Paris:20261120T180000
+DTEND;TZID=Europe/Paris:20261120T200000
+SUMMARY:Apéro Book avec Roger Fajnzylberg
+DESCRIPTION:Une rencontre exceptionnelle autour de la mémoire\, de l'histoire familiale et de la transmission.\nhttps://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/
+LOCATION:Librairie de l'olivier\, — 8 place de la Libération
+URL:https://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/
+END:VEVENT
+END:VCALENDAR

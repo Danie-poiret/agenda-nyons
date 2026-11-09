@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:telethon-2026-2026-12-05@agenda.vivreanyons.fr
-DTSTAMP:20261108T133001Z
+DTSTAMP:20261109T162642Z
 DTSTART;TZID=Europe/Paris:20261205T000000
 DTEND;TZID=Europe/Paris:20261206T235900
 SUMMARY:Téléthon 2026
 DESCRIPTION:Téléthon 2026\nhttps://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/
-LOCATION:Devant Gamm Vert\, — 8 avenue de Venterol.
+LOCATION:
 URL:https://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/
 END:VEVENT
 END:VCALENDAR
