@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-09T16:26:28.070913+00:00",
-  "count": 180,
+  "updated_at": "2026-11-10T14:56:38.269168+00:00",
+  "count": 181,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -4411,53 +4411,6 @@
       }
     },
     {
-      "title": "Conférence de l’UNTL sur « Le Liban petit pays mais gros problèmes »",
-      "start_date": "2026-11-09",
-      "end_date": "2026-11-09",
-      "summary": "Conférence présentée par Vincent Fert, professeur agrégé d'histoire-géographie",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes/",
-      "practical": {
-        "date_time": "Lundi 09 novembre 2026 de 15h00 à 17h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "0475264137",
-        "email": "contact@untl.net",
-        "website": "http://www.untl.net"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-le-liban-petit-pays-mais-gros-problemes-2026-11-09/",
-      "start_time": "15:00",
-      "end_time": "17:00",
-      "date_label": "Lundi 09 novembre 2026 de 15h00 à 17h00"
-    },
-    {
-      "title": "Soirée 100% Népal",
-      "start_date": "2026-11-09",
-      "end_date": "2026-11-09",
-      "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Népal !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/soiree-100-nepal/",
-      "practical": {
-        "date_time": "Lundi 09 novembre 2026 de 19h00 à 23h30",
-        "location_name": "Cinéma Arlequin,",
-        "address": "28 Place de la Libération - 26110 NYONS",
-        "phone": "04 75 26 01 41",
-        "email": "",
-        "website": "https://www.cinema-arlequin.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-100-nepal-2026-11-09/",
-      "start_time": "19:00",
-      "end_time": "23:30",
-      "date_label": "Lundi 09 novembre 2026 de 19h00 à 23h30"
-    },
-    {
       "title": "Cinéma — Hope",
       "film_title": "Hope",
       "kind": "cinema",
@@ -4879,7 +4832,7 @@
       "title": "Dédicace avec Claire Arnot",
       "start_date": "2026-11-12",
       "end_date": "2026-11-12",
-      "summary": "Nous aurons le plaisir d'accueillir Claire Arnot pour une séance de dédicace autour de son dernier livre : Et s'il était deux fois, au pied du Ginkgo Biloba.",
+      "summary": "Claire Arnot est accueillie pour une séance de dédicace autour de son dernier livre : \"Et s'il était deux fois, au pied du Ginkgo Biloba\".",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -5124,15 +5077,8 @@
       "end_date": "2026-11-13",
       "summary": "Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/la-femme-moustique/",
       "practical": {
@@ -5291,7 +5237,8 @@
       "categories": [
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/projection-et-si-on-levait-les-yeux/",
       "practical": {
@@ -5337,9 +5284,15 @@
       "end_date": "2026-11-14",
       "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/toupetituli-2/",
       "practical": {
@@ -5441,15 +5394,7 @@
       "end_date": "2026-11-16",
       "summary": "Don du sang à la Maison de Pays : Je donne mon sang : je sauve des vies !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/don-du-sang-3/",
       "practical": {
@@ -6187,7 +6132,15 @@
       "end_date": "2026-11-18",
       "summary": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.",
       "categories": [
-        "Administratif"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conseil-municipal-4/",
       "practical": {
@@ -6324,7 +6277,15 @@
       "end_date": "2026-11-21",
       "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/constellation-familiale-2/",
       "practical": {
@@ -6415,15 +6376,9 @@
       "end_date": "2026-11-21",
       "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
       "practical": {
@@ -7356,20 +7311,36 @@
       "date_label": "Samedi 28 novembre 2026 de 09h30 à 17h45"
     },
     {
+      "title": "Marche contre les violences faites aux femmes",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "summary": "Marche pour la Journée internationale de lutte contre les violences faites aux femmes.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/marche-contre-les-violences-faites-aux-femmes/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 10h00 à 12h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "s.amourous@cc-bdp.fr",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/marche-contre-les-violences-faites-aux-femmes-2026-11-28/",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 28 novembre 2026 de 10h00 à 12h00"
+    },
+    {
       "title": "Salon du livre de « Contes et Rencontres »",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
       "summary": "À la Maison de Pays dès 10h30",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/",
       "practical": {
@@ -7576,6 +7547,36 @@
       }
     },
     {
+      "title": "Soirée 100% Montagne",
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-100-montagne/",
+      "practical": {
+        "date_time": "Lundi 30 novembre 2026 de 18h30 à 22h40",
+        "location_name": "Cinéma Arlequin,",
+        "address": "28 Place de la Libération - 26110 NYONS",
+        "phone": "04 75 26 01 41",
+        "email": "",
+        "website": "https://www.cinema-arlequin.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-100-montagne-2026-11-30/",
+      "start_time": "18:30",
+      "end_time": "22:40",
+      "date_label": "Lundi 30 novembre 2026 de 18h30 à 22h40"
+    },
+    {
       "title": "Tournoi de Bridge du Téléthon",
       "start_date": "2026-12-03",
       "end_date": "2026-12-03",
@@ -7648,8 +7649,7 @@
       "summary": "C'est toujours un grand plaisir de retrouver Françoise Bourdon à la librairie ! Ses romans sont très attendus par ses nombreux lecteurs et fidèles admirateurs.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/apero-book-avec-francoise-bourdon/",
       "practical": {
@@ -7695,7 +7695,8 @@
       "summary": "Organisés par le Lions Club et Courir à Nyons, sur la place du Dr Bourdongle.",
       "categories": [
         "Solidarité / Santé",
-        "Vie associative"
+        "Vie associative",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/stands-alimentaires-et-parcours-ludique-du-telethon/",
       "practical": {
@@ -7739,7 +7740,15 @@
       "end_date": "2026-12-05",
       "summary": "Devant La Belle Époque / Les Palmiers, place de la Libération Nord",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/animation-musicale-du-telethon/",
       "practical": {
@@ -7761,14 +7770,9 @@
       "end_date": "2026-12-05",
       "summary": "Au Centre Régional de Boule sportive et Pétanque",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/",
@@ -7903,6 +7907,29 @@
       "date_label": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59"
     },
     {
+      "title": "Yoga des yeux avec Annabel",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Annabel Djila",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 10h30 à 11h30",
+        "location_name": "Collectif le papillon",
+        "address": "10 avenue Jules Bernard Nyons",
+        "phone": "06 81 80 05 73",
+        "email": "associationlepapillon@gmail.com",
+        "website": "https://www.annabeldjila.com/les-ateliers/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/yoga-des-yeux-avec-annabel-2026-12-05/",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "date_label": "Samedi 05 décembre 2026 de 10h30 à 11h30"
+    },
+    {
       "title": "Concerts du duo Feuillet et de la Chorale des Oliviers",
       "start_date": "2026-12-06",
       "end_date": "2026-12-06",
@@ -7979,8 +8006,14 @@
       "end_date": "2026-12-12",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/",
@@ -8009,7 +8042,7 @@
       "practical": {
         "date_time": "Samedi 12 décembre 2026 de 10h30 à 12h00",
         "location_name": "",
-        "address": "",
+        "address": "École de Musique de Nyons (salle de l'ancien Tribunal), place Jacques Martin Deydier - 26110 NYONS",
         "phone": "0686832900",
         "email": "secretariat.assoc.e2mn@gmail.com",
         "website": "https://www.ecoledemusiquedenyons.com/"
@@ -8025,15 +8058,8 @@
       "end_date": "2026-12-12",
       "summary": "Organisé par la cave coopérative Vignolis.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel/",
       "practical": {
@@ -8242,9 +8268,15 @@
       "end_date": "2027-01-04",
       "summary": "Conférence présentée par Robert Gleize, agrégé de physique",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/",
       "practical": {
@@ -8266,15 +8298,8 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -8480,8 +8505,14 @@
       "end_date": "2027-02-13",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/",
@@ -8502,15 +8533,8 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -8719,9 +8743,15 @@
       "end_date": "2027-04-07",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/",
       "practical": {
@@ -8743,14 +8773,8 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",

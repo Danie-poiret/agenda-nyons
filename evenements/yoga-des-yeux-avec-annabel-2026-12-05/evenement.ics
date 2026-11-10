@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:yoga-des-yeux-avec-annabel-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261110T145724Z
+DTSTART;TZID=Europe/Paris:20261205T103000
+DTEND;TZID=Europe/Paris:20261205T113000
+SUMMARY:Yoga des yeux avec Annabel
+DESCRIPTION:Annabel Djila\nhttps://agenda.vivreanyons.fr/evenements/yoga-des-yeux-avec-annabel-2026-12-05/
+LOCATION:Collectif le papillon — 10 avenue Jules Bernard Nyons
+URL:https://agenda.vivreanyons.fr/evenements/yoga-des-yeux-avec-annabel-2026-12-05/
+END:VEVENT
+END:VCALENDAR

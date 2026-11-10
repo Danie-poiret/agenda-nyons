@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:dedicace-avec-claire-arnot-2026-11-12@agenda.vivreanyons.fr
-DTSTAMP:20261109T162642Z
+DTSTAMP:20261110T145724Z
 DTSTART;TZID=Europe/Paris:20261112T100000
 DTEND;TZID=Europe/Paris:20261112T180000
 SUMMARY:Dédicace avec Claire Arnot
-DESCRIPTION:Nous aurons le plaisir d'accueillir Claire Arnot pour une séance de dédicace autour de son dernier livre : Et s'il était deux fois\, au pied du Ginkgo Biloba.\nhttps://agenda.vivreanyons.fr/evenements/dedicace-avec-claire-arnot-2026-11-12/
+DESCRIPTION:Claire Arnot est accueillie pour une séance de dédicace autour de son dernier livre : "Et s'il était deux fois\, au pied du Ginkgo Biloba".\nhttps://agenda.vivreanyons.fr/evenements/dedicace-avec-claire-arnot-2026-11-12/
 LOCATION:Librairie de l'olivier\, — 8 place de la Libération
 URL:https://agenda.vivreanyons.fr/evenements/dedicace-avec-claire-arnot-2026-11-12/
 END:VEVENT
