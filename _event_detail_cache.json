@@ -2448,13 +2448,13 @@
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 10h00 à 12h00",
       "location_name": "",
-      "address": "",
+      "address": "Place Buffaven - 26110 Nyons",
       "phone": "",
       "email": "s.amourous@cc-bdp.fr",
       "website": ""
     },
     "parser_version": 8,
-    "fetched_at": "2026-11-10T14:56:53.578422+00:00"
+    "fetched_at": "2026-11-11T10:00:24.589635+00:00"
   },
   "https://www.nyons.com/agenda/soiree-100-montagne/": {
     "text": "Soirée 100% Montagne Soirée 100% Montagne Exporter l'événement lundi 30 novembre 2026 Patrimoine / Culture vivante Retour Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne . 18h30 – « Le Temps des Animaux » Documentaire de Vincent Chabloz. / Durée : 1h24. Depuis l’enfance, Vincent Chabloz nourrit une passion profonde pour Derborence, une vallée des Alpes, majestueuse et marquée par son histoire. Le cinéaste animalier nous invite à découvrir ce territoire exceptionnel à travers ceux qui l’habitent toute l’année : renards, chamois, chouettes, hermines, hirondelles de rochers, et toute la faune sauvage. Un voyage tendre et émerveillé qui célèbre la beauté du vivant et rappelle la nécessité de protéger le monde fragile auquel nous appartenons. 20h – Échange en salle avec la productrice Florence Adam de JMH & Filo Films. 20h30 – Repas préparé par le traiteur « Sucre et sel par Julie ». 21h30 – « Louve, une vie dans les Alpes » Documentaire de Baptiste Deturche et Corentin Esmieu avec Françoise Cadol. / Durée : 1h10. Dans les Alpes, nous découvrons l’histoire vraie d’une louve. Une plongée immersive dans le monde secret des loups, un hommage à leur résilience et à leur place fragile dans un écosystème qu’ils partagent avec nous. Tarif unique de 20 € pour toute la soirée. Réservation indispensable au cinéma ou par courrier avec paiement par chèque. Date limite de réservation : Dimanche 29 novembre à 21h. Lundi 30 novembre 2026 de 18h30 à 22h40 Cinéma Arlequin, 28 Place de la Libération - 26110 NYONS 04 75 26 01 41 https://www.cinema-arlequin.fr/",
@@ -2467,7 +2467,7 @@
       "website": "https://www.cinema-arlequin.fr/"
     },
     "parser_version": 8,
-    "fetched_at": "2026-11-10T14:56:54.824573+00:00"
+    "fetched_at": "2026-11-11T10:00:24.589635+00:00"
   },
   "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/": {
     "text": "Yoga des yeux avec Annabel Yoga des yeux avec Annabel Exporter l'événement samedi 05 décembre 2026 Solidarité / Santé, Vie associative Retour Thème abordé : le yoga des yeux pour un regard apaisé et tonifié. Réservation au 06 81 80 05 73 Participation : 12€ Crédits photographiques : Annabel DJILA Samedi 05 décembre 2026 de 10h30 à 11h30 Collectif le papillon 10 avenue Jules Bernard Nyons associationlepapillon@gmail.com 0681800573 https://www.annabeldjila.com/les-ateliers/",
@@ -2480,6 +2480,19 @@
       "website": "https://www.annabeldjila.com/les-ateliers/"
     },
     "parser_version": 8,
-    "fetched_at": "2026-11-10T14:57:02.950968+00:00"
+    "fetched_at": "2026-11-11T10:00:24.589635+00:00"
+  },
+  "https://www.nyons.com/agenda/exposition-de-sandrine-pascual-kaufmann/": {
+    "text": "Exposition de Sandrine Pascual Kaufmann Exposition de Sandrine Pascual Kaufmann Exporter l'événement mardi 03 novembre 2026 Patrimoine / Culture vivante Retour Sandrine Pascual Kaufmann présente ses peintures à l’Espace Vignolis, du 3 au 30 novembre aux horaires d’ouverture de la Cave coopérative. Entrée libre. Du mardi 03 novembre 2026 de 10h00 au lundi 30 novembre 2026 à 18h00 Espace Vignolis, place Olivier de Serres - 26110 NYONS 0475269500 https://www.vignolis.fr/fr/",
+    "practical": {
+      "date_time": "Du mardi 03 novembre 2026 de 10h00 au lundi 30 novembre 2026 à 18h00",
+      "location_name": "",
+      "address": "Espace Vignolis, place Olivier de Serres - 26110 NYONS",
+      "phone": "0475269500",
+      "email": "",
+      "website": "https://www.vignolis.fr/fr/"
+    },
+    "parser_version": 8,
+    "fetched_at": "2026-11-11T10:00:24.589635+00:00"
   }
 }

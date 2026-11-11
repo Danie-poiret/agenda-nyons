@@ -1224,6 +1224,38 @@
       "model": "editorial-sourced",
       "version": 1,
       "generated_at": "2026-11-05T12:00:00+00:00"
+    },
+    "exposition-de-sandrine-pascual-kaufmann-2026-11-03": {
+      "text": "L’Espace Vignolis appartient à la coopérative oléicole et viticole du Nyonsais, créée en 1923. Une exposition de peintures prend ainsi place dans un lieu également consacré aux productions de l’olivier et de la vigne.",
+      "source_label": "Vignolis — Histoire de la coopérative",
+      "source_url": "https://www.vignolis.fr/fr/cooperative/historique",
+      "version": 1,
+      "model": "editorial-local",
+      "generated_at": "2026-11-11T10:00:24.589635+00:00"
+    },
+    "marche-contre-les-violences-faites-aux-femmes-2026-11-28": {
+      "text": "La date du 25 novembre rend hommage aux trois sœurs Mirabal, assassinées en République dominicaine en 1960. En 1999, l’ONU a proclamé cette date Journée internationale pour l’élimination de la violence à l’égard des femmes.",
+      "source_label": "Nations Unies — Histoire de la journée du 25 novembre",
+      "source_url": "https://www.un.org/fr/node/112998",
+      "version": 1,
+      "model": "editorial-local",
+      "generated_at": "2026-11-11T10:00:24.589635+00:00"
+    },
+    "yoga-des-yeux-avec-annabel-2026-12-05": {
+      "text": "Le yoga figure depuis 2016 sur la Liste représentative du patrimoine culturel immatériel de l’humanité de l’UNESCO. Cette inscription concerne une tradition culturelle originaire d’Inde, transmise notamment par l’enseignement de maître à élève.",
+      "source_label": "UNESCO — Le yoga, inscrit en 2016",
+      "source_url": "https://ich.unesco.org/fr/RL/le-yoga-01163",
+      "version": 1,
+      "model": "editorial-local",
+      "generated_at": "2026-11-11T10:00:24.589635+00:00"
+    },
+    "soiree-100-montagne-2026-11-30": {
+      "text": "Le Temps des Animaux explore Derborence à travers sa faune présente toute l’année : renards, chamois, chouettes ou hermines. La soirée montagne s’intéresse ainsi aux habitants sauvages des Alpes, au-delà des seuls paysages.",
+      "source_label": "Ville de Nyons — Programme de la soirée 100 % Montagne",
+      "source_url": "https://www.nyons.com/agenda/soiree-100-montagne/",
+      "version": 1,
+      "model": "editorial-local",
+      "generated_at": "2026-11-11T10:00:24.589635+00:00"
     }
   }
 }

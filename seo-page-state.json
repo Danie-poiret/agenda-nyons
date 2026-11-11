@@ -6,12 +6,12 @@
       "lastmod": "2026-11-06"
     },
     "semaines/index.html": {
-      "hash": "333df35a9967c775ce4e636eec74079f128308e8bb8106a8e468ed1762292efa",
-      "lastmod": "2026-11-10"
+      "hash": "aa1eed589106d392f50e69685987bdf1a940a3c0d70502e6d4ff712604557fab",
+      "lastmod": "2026-11-11"
     },
     "evenements/index.html": {
-      "hash": "fe9fa849ed42c00ec157557ee2c967845cccdfb1d6374f9934336d23ed3d6c0c",
-      "lastmod": "2026-11-10"
+      "hash": "4cf026c32fc773cf10a71805bb4d66d6925891b4a54bc50b7d86709316489b66",
+      "lastmod": "2026-11-11"
     },
     "cinema/index.html": {
       "hash": "a8ed35959079779e5c472ed2c448e06e998a0f620b2a271b4f39a9055df6ec9f",
@@ -54,8 +54,8 @@
       "lastmod": "2026-11-03"
     },
     "semaines/semaine-16-novembre-2026/index.html": {
-      "hash": "623c157fba3abd72ca1697560b792eb5b93aba220e95c33d329fe82caffe9a1a",
-      "lastmod": "2026-11-10"
+      "hash": "dffe84c433da725ee5cbba6eb7b81fcced3f0ca02c562bd749d2b0970dda6903",
+      "lastmod": "2026-11-11"
     },
     "semaines/semaine-17-mai-2027/index.html": {
       "hash": "f7fab26ce0c59f3ee9bafd780fef50d35b9e6131a953caad3ff5570f390dc4b6",
@@ -90,8 +90,8 @@
       "lastmod": "2026-11-07"
     },
     "semaines/semaine-23-novembre-2026/index.html": {
-      "hash": "186272bcac09a391a60d0f13611e36c1b2a0f21be67964d1d946b47efd22892b",
-      "lastmod": "2026-11-10"
+      "hash": "1b3b1a7e1b61bc1eed52a0b484d182e192249ae6b9c6dd968d37cc6ff154f709",
+      "lastmod": "2026-11-11"
     },
     "semaines/semaine-25-janvier-2027/index.html": {
       "hash": "d11592836826111d5499728ddc917916985c699eac4a5ec2539af3d8fd74e014",
@@ -122,8 +122,8 @@
       "lastmod": "2026-11-07"
     },
     "semaines/semaine-30-novembre-2026/index.html": {
-      "hash": "65515c9054d552167dcae017e3bfb44f5cda85e45f4cb052450180742b2e97f7",
-      "lastmod": "2026-11-10"
+      "hash": "ef5dc379cfe376252daf20a14fca6b3fc68d5d43da5f0b751399419e65ce1fa9",
+      "lastmod": "2026-11-11"
     },
     "semaines/semaine-4-janvier-2027/index.html": {
       "hash": "1a718348611347fce75e54b294e6af035e8f677c9a7110f3a034c14954d554d1",
@@ -150,8 +150,8 @@
       "lastmod": "2026-11-09"
     },
     "semaines/semaine-9-novembre-2026/index.html": {
-      "hash": "10e836339be3b3d933331676cbbc016d2bb631691111536644f04512a2c4f09b",
-      "lastmod": "2026-11-10"
+      "hash": "390060d7afa3e25a8b4066af16f8c545f8312bd8af17bcb6b46220611419554b",
+      "lastmod": "2026-11-11"
     },
     "evenements/1er-tour-des-elections-presidentielles-2027-04-18/index.html": {
       "hash": "47b457335e31dd837e86744fa8304557fb7deac00589f6a849ef030adbe2371c",
@@ -1122,8 +1122,8 @@
       "lastmod": "2026-11-03"
     },
     "evenements/marche-contre-les-violences-faites-aux-femmes-2026-11-28/index.html": {
-      "hash": "6c5611576bef99828601ac1cd15849ee1e64d288eda266c5b5d9ffe0b0464c93",
-      "lastmod": null
+      "hash": "b742f82c795118c7ef70b07811edac7f09852e86c8a3cbc1a71e4caa118e02d8",
+      "lastmod": "2026-11-11"
     },
     "evenements/marche-de-noel-2026-12-12/index.html": {
       "hash": "3731de7095b16d33b024ee28986762f0ff5b1948b9f0420775ca11bdeea4da08",
@@ -1226,8 +1226,8 @@
       "lastmod": "2026-11-08"
     },
     "evenements/soiree-100-montagne-2026-11-30/index.html": {
-      "hash": "9a175c60f8831dbbeafb7f1e98f5d8c5918cbc1dee02b2df5b86551db951a751",
-      "lastmod": null
+      "hash": "715d7b099553a311ad6fd70f7724ddc9de093c9b5f76ef642ea2c408785895e7",
+      "lastmod": "2026-11-11"
     },
     "evenements/soiree-100-nepal-2026-11-09/index.html": {
       "hash": "a0dd24c39bbd66855807a968e64b5d0c3c05691efc5a628269181305ff3570d0",
@@ -1314,8 +1314,12 @@
       "lastmod": "2026-11-08"
     },
     "evenements/yoga-des-yeux-avec-annabel-2026-12-05/index.html": {
-      "hash": "3e80c5b41979963025b31fc7ee03a99968fbc72b9c917a733ac53fb19f5fede1",
-      "lastmod": null
+      "hash": "f37b33af1a9ee14101aa46c446d0f991ea471cf990771cce8dbef203a75ceba8",
+      "lastmod": "2026-11-11"
+    },
+    "evenements/exposition-de-sandrine-pascual-kaufmann-2026-11-03/index.html": {
+      "hash": "9d42450f311a7666fd28d8935850cb40cb924526a12b967c2f7c58e5e5e0e2b8",
+      "lastmod": "2026-11-11"
     }
   }
 }

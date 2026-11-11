@@ -1110,6 +1110,14 @@ def extract_event_detail_data(html_text: str, source_url: str):
                     practical["address"] = "Nyons"
                 break
 
+    # Les départs de marche peuvent être donnés sans numéro de rue.
+    if not practical["address"]:
+        for line in place_candidates:
+            departure = re.fullmatch(r"Départ\s+de\s+(?:la\s+)?((?:place|rue|avenue|boulevard)\s+.{2,100})", line, re.I)
+            if departure:
+                practical["address"] = clean(departure.group(1)) + " - 26110 Nyons"
+                break
+
     # Nettoyage / sécurité
     for key in ("location_name", "address"):
         val = clean(practical.get(key, ""))
@@ -1615,6 +1623,13 @@ def render_event_page(event, editorial, related_events=None, practical=None):
             + f'</div>{actions_html}</section>'
         )
 
+    verified_at = clean(editorial.get("verified_at", ""))
+    source_html = "DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0"
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", verified_at):
+        checked = french_date(parse_iso(verified_at))
+        source_html = (f'Informations vérifiées le {esc(checked)} · '
+                       f'<a href="{esc(event["url"])}" target="_blank" rel="noopener noreferrer">Ville de Nyons — fiche officielle</a> · Licence Ouverte 2.0')
+
     event_ld = {
         "@context": "https://schema.org",
         "@type": "Event",
@@ -1699,7 +1714,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     </section>
     <div class="question">💬 {esc(editorial.get('reader_question',''))}</div>
     {related_section}
-    <div class="source">DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0</div>
+    <div class="source">{source_html}</div>
   </main>
 </body>
 </html>'''
@@ -2653,4 +2668,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

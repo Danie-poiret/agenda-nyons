@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-10T14:56:38.269168+00:00",
-  "count": 181,
+  "updated_at": "2026-11-11T10:00:24.589635+00:00",
+  "count": 182,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -3618,6 +3618,17 @@
           "verified_on": "2026-10-22"
         }
       }
+    },
+    {
+      "title": "Exposition de Sandrine Pascual Kaufmann",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-30",
+      "summary": "Sandrine Pascual Kaufmann présente ses peintures à l’Espace Vignolis, du 3 au 30 novembre, aux horaires d’ouverture de la cave coopérative. Entrée libre.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-de-sandrine-pascual-kaufmann/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-de-sandrine-pascual-kaufmann-2026-11-03/"
     },
     {
       "title": "Cinéma — Irish Travellers",
@@ -7552,15 +7563,7 @@
       "end_date": "2026-11-30",
       "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/soiree-100-montagne/",
       "practical": {

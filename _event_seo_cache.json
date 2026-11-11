@@ -14090,29 +14090,44 @@
       "categories": [
         "Solidarité / Santé"
       ],
-      "url": "https://www.nyons.com/agenda/marche-contre-les-violences-faites-aux-femmes/"
+      "url": "https://www.nyons.com/agenda/marche-contre-les-violences-faites-aux-femmes/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 10h00 à 12h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "s.amourous@cc-bdp.fr",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/marche-contre-les-violences-faites-aux-femmes-2026-11-28/",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 28 novembre 2026 de 10h00 à 12h00"
     },
     "editorial": {
-      "seo_title": "Marche contre les violences faites aux femmes à Nyons",
-      "meta_description": "Marche contre les violences faites aux femmes à Nyons : dates, informations pratiques et détails utiles pour préparer votre sortie.",
-      "intro": "Marche contre les violences faites aux femmes est annoncé à Nyons 28 novembre 2026. Marche pour la Journée internationale de lutte contre les violences faites aux femmes.",
-      "story": "Marche pour la Journée internationale de lutte contre les violences faites aux femmes.",
-      "why_it_matters": "Si le thème vous intéresse, l’essentiel est ici : la date, le lieu et les informations pratiques utiles pour décider de votre sortie.",
-      "practical": "",
-      "reader_question": "Qu'est-ce qui vous attire le plus dans « Marche contre les violences faites aux femmes » ?",
-      "_fallback": true
+      "seo_title": "À Nyons, marcher contre les violences faites aux femmes",
+      "meta_description": "Une marche contre les violences faites aux femmes est annoncée à Nyons le 28 novembre 2026, de 10 h à 12 h, au départ de la place Buffaven.",
+      "intro": "Une marche contre les violences faites aux femmes est organisée à Nyons le samedi 28 novembre 2026, de 10 h à 12 h. Le départ est annoncé place Buffaven.",
+      "story": "Ce rendez-vous s’inscrit dans le Contrat Local de Santé 2025-2030 et dans la mobilisation autour de la Journée internationale de lutte contre les violences faites aux femmes. La journée internationale a lieu le 25 novembre ; la marche nyonsaise est bien prévue le samedi 28 novembre.",
+      "why_it_matters": "Participer à cette marche, c’est prendre part à une mobilisation locale contre les violences faites aux femmes. Le rendez-vous donne une date et un lieu pour se retrouver autour de cette cause, dans l’espace public.",
+      "practical": "Samedi 28 novembre 2026, de 10 h à 12 h. Départ de la place Buffaven à Nyons. Pour les renseignements pratiques, contactez s.amourous@cc-bdp.fr.",
+      "reader_question": "Participerez-vous à cette mobilisation à Nyons le 28 novembre ?",
+      "_fallback": false,
+      "verified_at": "2026-11-11"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 10h00 à 12h00",
       "location_name": "",
-      "address": "",
+      "address": "Place Buffaven - 26110 Nyons",
       "phone": "",
       "email": "s.amourous@cc-bdp.fr",
       "website": ""
     },
-    "generated_at": "2026-11-10T14:56:53.698693+00:00",
-    "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "generated_at": "2026-11-11T10:00:24.589635+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-1609951f1d39427d",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/soiree-100-montagne/": {
     "hash": "a6d9d590aed41c7e4cbdd73043b3f87a68fd98c0f9821a871be23593a66bd163",
@@ -14123,27 +14138,32 @@
       "end_date": "2026-11-30",
       "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Patrimoine / Culture vivante"
       ],
-      "url": "https://www.nyons.com/agenda/soiree-100-montagne/"
+      "url": "https://www.nyons.com/agenda/soiree-100-montagne/",
+      "practical": {
+        "date_time": "Lundi 30 novembre 2026 de 18h30 à 22h40",
+        "location_name": "Cinéma Arlequin,",
+        "address": "28 Place de la Libération - 26110 NYONS",
+        "phone": "04 75 26 01 41",
+        "email": "",
+        "website": "https://www.cinema-arlequin.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-100-montagne-2026-11-30/",
+      "start_time": "18:30",
+      "end_time": "22:40",
+      "date_label": "Lundi 30 novembre 2026 de 18h30 à 22h40"
     },
     "editorial": {
-      "seo_title": "Soirée 100% Montagne à Nyons",
-      "meta_description": "Soirée 100% Montagne à Nyons : dates, informations pratiques et détails utiles pour préparer votre sortie.",
-      "intro": "Soirée 100% Montagne est annoncé à Nyons 30 novembre 2026. Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !",
-      "story": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !",
-      "why_it_matters": "Si le thème vous intéresse, l’essentiel est ici : la date, le lieu et les informations pratiques utiles pour décider de votre sortie.",
-      "practical": "",
-      "reader_question": "Qu'est-ce qui vous attire le plus dans « Soirée 100% Montagne » ?",
-      "_fallback": true
+      "seo_title": "Soirée montagne à Nyons : deux films, un échange et un repas",
+      "meta_description": "L’Arlequin organise une soirée montagne à Nyons le 30 novembre 2026 : deux documentaires, une rencontre et un repas. Tarif : 20 €, sur réservation.",
+      "intro": "L’Arlequin consacre le lundi 30 novembre 2026 à la montagne : deux documentaires, un échange avec une productrice et un repas composent la soirée, de 18 h 30 à 22 h 40.",
+      "story": "À 18 h 30 : Le Temps des Animaux, de Vincent Chabloz, 1 h 24. À 20 h : échange avec Florence Adam, productrice chez JMH & Filo Films. À 20 h 30 : repas préparé par Sucre et sel par Julie. À 21 h 30 : Louve, une vie dans les Alpes, de Baptiste Deturche et Corentin Esmieu, avec Françoise Cadol, 1 h 10.",
+      "why_it_matters": "La soirée réunit cinéma animalier, rencontre et repas. Une occasion de regarder les animaux des Alpes sur grand écran et d’échanger autour des films.",
+      "practical": "Tarif unique : 20 € pour toute la soirée. Réservation indispensable au cinéma ou par courrier avec paiement par chèque, avant le dimanche 29 novembre à 21 h. Cinéma L’Arlequin, 28 place de la Libération, Nyons. Téléphone : 04 75 26 01 41.",
+      "reader_question": "Quel documentaire vous attire le plus : Le Temps des Animaux ou Louve, une vie dans les Alpes ?",
+      "_fallback": false,
+      "verified_at": "2026-11-11"
     },
     "practical": {
       "date_time": "Lundi 30 novembre 2026 de 18h30 à 22h40",
@@ -14153,9 +14173,11 @@
       "email": "",
       "website": "https://www.cinema-arlequin.fr/"
     },
-    "generated_at": "2026-11-10T14:56:54.944872+00:00",
-    "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "generated_at": "2026-11-11T10:00:24.589635+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-91e3127ac99a0f5d",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/": {
     "hash": "74e4066462523acd1e8e8be2454022158cde0945346cb7e2cdddb42fd513e420",
@@ -14169,17 +14191,30 @@
         "Solidarité / Santé",
         "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/"
+      "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 10h30 à 11h30",
+        "location_name": "Collectif le papillon",
+        "address": "10 avenue Jules Bernard Nyons",
+        "phone": "06 81 80 05 73",
+        "email": "associationlepapillon@gmail.com",
+        "website": "https://www.annabeldjila.com/les-ateliers/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/yoga-des-yeux-avec-annabel-2026-12-05/",
+      "start_time": "10:30",
+      "end_time": "11:30",
+      "date_label": "Samedi 05 décembre 2026 de 10h30 à 11h30"
     },
     "editorial": {
-      "seo_title": "Yoga des yeux avec Annabel à Nyons",
-      "meta_description": "Yoga des yeux avec Annabel à Nyons : dates, informations pratiques et détails utiles pour préparer votre sortie.",
-      "intro": "Yoga des yeux avec Annabel est annoncé à Nyons 5 décembre 2026. Annabel Djila",
-      "story": "Annabel Djila",
-      "why_it_matters": "Si le thème vous intéresse, l’essentiel est ici : la date, le lieu et les informations pratiques utiles pour décider de votre sortie.",
-      "practical": "",
-      "reader_question": "Qu'est-ce qui vous attire le plus dans « Yoga des yeux avec Annabel » ?",
-      "_fallback": true
+      "seo_title": "Yoga des yeux avec Annabel : un atelier à Nyons",
+      "meta_description": "Annabel Djila anime un atelier de yoga des yeux à Nyons le 5 décembre 2026, de 10 h 30 à 11 h 30, au Collectif le papillon. Participation : 12 €.",
+      "intro": "Annabel Djila propose un atelier de yoga des yeux le samedi 5 décembre 2026 à Nyons. La séance se déroule de 10 h 30 à 11 h 30 au Collectif le papillon, au 10 avenue Jules Bernard.",
+      "story": "Le thème annoncé est « le yoga des yeux pour un regard apaisé et tonifié ». Cet atelier d’une heure est proposé sur réservation, avec une participation de 12 €. Pour vous inscrire, contactez le 06 81 80 05 73.",
+      "why_it_matters": "Ce rendez-vous s’adresse aux personnes intéressées par le thème du regard et du yoga des yeux. Avant de réserver, vous pouvez demander à l’organisatrice comment se déroule la séance et si son contenu correspond à votre attente.",
+      "practical": "Samedi 5 décembre 2026, de 10 h 30 à 11 h 30. Collectif le papillon, 10 avenue Jules Bernard, Nyons. Participation : 12 €. Réservation au 06 81 80 05 73. Contact : associationlepapillon@gmail.com.",
+      "reader_question": "Avez-vous déjà participé à un atelier consacré au yoga des yeux ?",
+      "_fallback": false,
+      "verified_at": "2026-11-11"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 10h30 à 11h30",
@@ -14189,8 +14224,49 @@
       "email": "associationlepapillon@gmail.com",
       "website": "https://www.annabeldjila.com/les-ateliers/"
     },
-    "generated_at": "2026-11-10T14:57:03.071276+00:00",
-    "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "generated_at": "2026-11-11T10:00:24.589635+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-99a53fc5ed418f3e",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/exposition-de-sandrine-pascual-kaufmann/": {
+    "hash": "635042d52d54d79350e0aca3ce103019f69dbfadb3db40d47a8f3d4b878ebf37",
+    "slug": "exposition-de-sandrine-pascual-kaufmann-2026-11-03",
+    "event": {
+      "title": "Exposition de Sandrine Pascual Kaufmann",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-30",
+      "summary": "Sandrine Pascual Kaufmann présente ses peintures à l’Espace Vignolis, du 3 au 30 novembre, aux horaires d’ouverture de la cave coopérative. Entrée libre.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-de-sandrine-pascual-kaufmann/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-de-sandrine-pascual-kaufmann-2026-11-03/"
+    },
+    "editorial": {
+      "seo_title": "Sandrine Pascual Kaufmann expose à Nyons, chez Vignolis",
+      "meta_description": "Découvrez les peintures de Sandrine Pascual Kaufmann à l’Espace Vignolis de Nyons, du 3 au 30 novembre 2026. Entrée libre aux horaires de la cave.",
+      "intro": "Les peintures de Sandrine Pascual Kaufmann sont à découvrir à l’Espace Vignolis, place Olivier de Serres à Nyons. L’exposition se tient du 3 au 30 novembre 2026, en entrée libre.",
+      "story": "L’artiste présente ses peintures dans l’Espace Vignolis. Pour venir les regarder, suivez les horaires d’ouverture de la cave coopérative : les dates et heures de début et de fin de l’exposition ne constituent pas un horaire quotidien d’accueil.",
+      "why_it_matters": "Une exposition permet de s’arrêter devant les tableaux et de prendre le temps de les regarder. Si vous aimez découvrir le travail d’une artiste pendant votre passage à Nyons, cette adresse offre une occasion de le faire librement.",
+      "practical": "Exposition du 3 au 30 novembre 2026 à l’Espace Vignolis, place Olivier de Serres, 26110 Nyons. Entrée libre aux horaires d’ouverture de la cave coopérative. Renseignements et horaires : 04 75 26 95 00.",
+      "reader_question": "Aimez-vous découvrir une exposition lorsque vous passez chez Vignolis ?",
+      "_fallback": false,
+      "verified_at": "2026-11-11"
+    },
+    "practical": {
+      "date_time": "Du mardi 03 novembre 2026 de 10h00 au lundi 30 novembre 2026 à 18h00",
+      "location_name": "",
+      "address": "Espace Vignolis, place Olivier de Serres - 26110 NYONS",
+      "phone": "0475269500",
+      "email": "",
+      "website": "https://www.vignolis.fr/fr/"
+    },
+    "generated_at": "2026-11-11T10:00:24.589635+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-bd73a80e510af3bf",
+    "anecdote_assignment_version": 101
   }
 }
