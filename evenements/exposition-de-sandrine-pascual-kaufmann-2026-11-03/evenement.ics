@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:exposition-de-sandrine-pascual-kaufmann-2026-11-03@agenda.vivreanyons.fr
-DTSTAMP:20261111T100024Z
+DTSTAMP:20261111T142753Z
 DTSTART;TZID=Europe/Paris:20261103T100000
 DTEND;TZID=Europe/Paris:20261130T180000
 SUMMARY:Exposition de Sandrine Pascual Kaufmann
-DESCRIPTION:Sandrine Pascual Kaufmann présente ses peintures à l’Espace Vignolis\, du 3 au 30 novembre\, aux horaires d’ouverture de la cave coopérative. Entrée libre.\nhttps://agenda.vivreanyons.fr/evenements/exposition-de-sandrine-pascual-kaufmann-2026-11-03/
+DESCRIPTION:Du 3 au 30 novembre à l'Espace Vignolis.\nhttps://agenda.vivreanyons.fr/evenements/exposition-de-sandrine-pascual-kaufmann-2026-11-03/
 LOCATION:Espace Vignolis\, place Olivier de Serres - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/exposition-de-sandrine-pascual-kaufmann-2026-11-03/
 END:VEVENT

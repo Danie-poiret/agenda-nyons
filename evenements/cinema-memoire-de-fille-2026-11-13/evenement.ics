@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:memoire-de-fille-2026-11-13-2045@agenda.vivreanyons.fr
-DTSTAMP:20261110T145724Z
+DTSTAMP:20261111T142753Z
 DTSTART:20261113T194500Z
 SUMMARY:Mémoire de fille — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -19,7 +19,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-memoire-de-fille-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:memoire-de-fille-2026-11-14-1530@agenda.vivreanyons.fr
-DTSTAMP:20261110T145724Z
+DTSTAMP:20261111T142753Z
 DTSTART:20261114T143000Z
 SUMMARY:Mémoire de fille — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -34,7 +34,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-memoire-de-fille-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:memoire-de-fille-2026-11-16-1730@agenda.vivreanyons.fr
-DTSTAMP:20261110T145724Z
+DTSTAMP:20261111T142753Z
 DTSTART:20261116T163000Z
 SUMMARY:Mémoire de fille — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -49,7 +49,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-memoire-de-fille-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:memoire-de-fille-2026-11-17-1800@agenda.vivreanyons.fr
-DTSTAMP:20261110T145724Z
+DTSTAMP:20261111T142753Z
 DTSTART:20261117T170000Z
 SUMMARY:Mémoire de fille — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

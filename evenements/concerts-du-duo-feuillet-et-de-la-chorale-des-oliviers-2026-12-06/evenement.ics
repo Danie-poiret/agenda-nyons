@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers-2026-12-06@agenda.vivreanyons.fr
-DTSTAMP:20261110T145724Z
+DTSTAMP:20261111T142753Z
 DTSTART;TZID=Europe/Paris:20261206T150000
 DTEND;TZID=Europe/Paris:20261206T180000
 SUMMARY:Concerts du duo Feuillet et de la Chorale des Oliviers
