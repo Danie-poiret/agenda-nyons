@@ -5,35 +5,40 @@ on:
     paths: [partner_banners.py, .github/workflows/partner-banners.yml]
 permissions:
   contents: write
+  pages: write
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Actualiser uniquement la version du composant publicitaire
+      - name: Actualiser uniquement la version de l'encart La Lézardière
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          old = "assets/nyons-partner-banners.js?v=20261011-v2"
-          new = "assets/nyons-partner-banners.js?v=20261102-lezardiere-wide"
+          import re
+          version = "20261111-papy-histoire"
+          pattern = re.compile(r"(assets/nyons-partner-banners\.js\?v=)[^\"'<>\s]+")
           count = 0
           for path in Path(".").rglob("*.html"):
               if any(part.startswith(".") for part in path.parts):
                   continue
               source = path.read_text(encoding="utf8")
-              updated = source.replace(old, new)
+              updated = pattern.sub(lambda m: m[1] + version, source)
               if updated != source:
-                  assert updated.replace(new, old) == source
+                  assert pattern.sub(r"\1VERSION", updated) == pattern.sub(r"\1VERSION", source)
                   path.write_text(updated, encoding="utf8")
                   count += 1
           print(f"{count} pages actualisées ; textes et données inchangés. Aucun appel OpenAI.")
           PY
       - name: Publier les pages actualisées
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- '*.html'
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Actualiser les bannières sous le titre des pages"
+          git commit -m "Actualiser la version de l'encart La Lézardière sur toutes les pages"
           git pull --rebase
           git push
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
