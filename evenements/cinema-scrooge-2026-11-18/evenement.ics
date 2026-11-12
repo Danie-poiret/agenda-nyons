@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:scrooge-2026-11-18-1615@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261118T151500Z
 SUMMARY:Scrooge — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -18,7 +18,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:scrooge-2026-11-20-2030@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261120T193000Z
 SUMMARY:Scrooge — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -32,7 +32,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:scrooge-2026-11-21-1400@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261121T130000Z
 SUMMARY:Scrooge — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -46,7 +46,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:scrooge-2026-11-21-1830@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261121T173000Z
 SUMMARY:Scrooge — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -60,7 +60,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:scrooge-2026-11-22-1900@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261122T180000Z
 SUMMARY:Scrooge — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -74,7 +74,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:scrooge-2026-11-23-1630@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261123T153000Z
 SUMMARY:Scrooge — VO sous-titrée
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -88,7 +88,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-scrooge-2026-11-18/
 END:VEVENT
 BEGIN:VEVENT
 UID:scrooge-2026-11-24-1845@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART:20261124T174500Z
 SUMMARY:Scrooge — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

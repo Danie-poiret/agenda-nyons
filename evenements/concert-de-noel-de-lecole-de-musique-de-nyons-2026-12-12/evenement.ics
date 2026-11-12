@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:concert-de-noel-de-lecole-de-musique-de-nyons-2026-12-12@agenda.vivreanyons.fr
-DTSTAMP:20261111T142753Z
+DTSTAMP:20261112T152047Z
 DTSTART;TZID=Europe/Paris:20261212T103000
 DTEND;TZID=Europe/Paris:20261212T120000
 SUMMARY:Concert de Noël de l’École de Musique de Nyons
