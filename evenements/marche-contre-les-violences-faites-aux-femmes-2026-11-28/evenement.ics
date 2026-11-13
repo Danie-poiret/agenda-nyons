@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:marche-contre-les-violences-faites-aux-femmes-2026-11-28@agenda.vivreanyons.fr
-DTSTAMP:20261112T152047Z
+DTSTAMP:20261113T143854Z
 DTSTART;TZID=Europe/Paris:20261128T100000
 DTEND;TZID=Europe/Paris:20261128T120000
 SUMMARY:Marche contre les violences faites aux femmes
