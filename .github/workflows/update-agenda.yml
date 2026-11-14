@@ -7,9 +7,12 @@ on:
     paths:
       - '.github/workflows/update-agenda.yml'
       - 'fix_saviezvous.py'
+      - 'update_agenda.py'
+      - 'event_editorial.py'
       - 'saviezvous_facts.json'
       - 'requirements.txt'
       - 'tests/test_no_api_agenda.py'
+      - 'tests/test_event_editorial.py'
   schedule:
     - cron: "17 6 * * *"
 
@@ -34,6 +37,9 @@ jobs:
 
       - name: Verifier le fonctionnement sans API payante
         run: python -m unittest discover -s tests -p test_no_api_agenda.py -v
+
+      - name: Verifier les programmes officiels et le nettoyage des fiches
+        run: python -m unittest discover -s tests -p test_event_editorial.py -v
 
       - name: Recuperer agenda et generer les pages SEO
         env:

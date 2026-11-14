@@ -72,6 +72,8 @@ Vérification indépendante (aucune API payante, aucun secret) : workflow check-
 
 ## Actualisation sans clé ni API payante
 
+Les nouvelles fiches utilisent aussi le programme détaillé de la page municipale, et pas seulement le résumé de la liste. `event_editorial.py` prépare la présentation, le programme, un conseil lié au type de sortie, les informations pratiques et la question au lecteur, sans appel payant. Le programme reste celui de l'organisateur ; aucune durée, prestation ou condition d'accès n'est ajoutée si elle n'est pas publiée. Les textes rédigés déjà enregistrés sont conservés. Les résumés sont nettoyés avant publication pour exclure la pagination et le pied de page de la mairie. Les modifications de ce module et du générateur déclenchent également l'actualisation, avec des tests sur ces cas.
+
 Le workflow quotidien ne transmet plus de clé OpenAI et n’installe pas son SDK. Les textes éditoriaux déjà enregistrés sont conservés ; les nouvelles fiches et semaines utilisent les informations officielles et les modèles locaux existants. La page « Nyons aujourd’hui » continue à réutiliser ces mêmes données.
 
 Les « Le saviez-vous » proviennent uniquement des faits enregistrés ou des repères manuels de `fix_saviezvous.py`. Un fait doit rester pertinent et unique. Si aucun fait adapté n’est disponible, seul ce bloc facultatif est omis : aucun texte n’est inventé et la publication de l’événement n’est pas bloquée. Les faits du cache restent conservés pour les mises à jour suivantes.

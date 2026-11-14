@@ -27,6 +27,7 @@ import requests
 from bs4 import BeautifulSoup
 from cinema_agenda import merge_cinema_events, generate_cinema_pages, paris_today
 from rollover_pages import install_live_agenda
+from event_editorial import clean_source_text, local_editorial
 
 try:
     from openai import OpenAI
@@ -50,7 +51,7 @@ ROBOTS = ROOT / "robots.txt"
 MAX_PAGES = 15
 TIMEOUT = 25
 EVENT_DETAIL_TTL_HOURS = 48
-EVENT_DETAIL_PARSER_VERSION = 8
+EVENT_DETAIL_PARSER_VERSION = 9
 PRACTICAL_ONLY_REFRESH_VERSION = 1
 MAX_EVENT_AI_CALLS = int(os.getenv("MAX_EVENT_AI_CALLS", "100"))
 EVENT_PROMPT_VERSION = 10
@@ -197,7 +198,7 @@ def extract_end_and_summary(segment: str, start_iso: str):
         cut_positions.append(next_date.start())
 
     summary_part = segment[:min(cut_positions)] if cut_positions else segment
-    summary_part = clean(summary_part)
+    summary_part = clean_source_text(summary_part)
 
     for c in CATEGORIES:
         if summary_part.lower().startswith(c.lower()):
@@ -893,7 +894,7 @@ def extract_event_detail_data(html_text: str, source_url: str):
 
         # Ne coupe jamais sur "agenda" si on est encore dans les 12 premières lignes :
         # certains contenus ont ce mot près du haut de la page.
-        if len(event_lines) > 12 and any(marker in low for marker in stop_markers):
+        if any(marker in low for marker in stop_markers if marker != "agenda") or (len(event_lines) > 12 and low == "agenda"):
             break
 
         event_lines.append(line)
@@ -1002,7 +1003,7 @@ def extract_event_detail_data(html_text: str, source_url: str):
         low = line.lower()
 
         street_words = (
-            "rue ", "avenue ", "av. ", "boulevard ", "place ",
+            "rue ", "avenue ", "av. ", "boulevard ", "place ", "pl. ",
             "chemin ", "route ", "promenade ", "allée ", "allee ",
             "impasse ", "quai ", "cours "
         )
@@ -1040,12 +1041,12 @@ def extract_event_detail_data(html_text: str, source_url: str):
         if looks_like_address(line):
             # "Maison de Pays 128 Promenade de la Digue"
             m = re.search(
-                r"\b\d{1,4}\s+(?:rue|avenue|av\.|boulevard|place|chemin|route|promenade|allée|allee|impasse|quai|cours)\b",
+                r"\b\d{1,4}\s+(?:rue\b|avenue\b|av\.|boulevard\b|place\b|pl\.|chemin\b|route\b|promenade\b|allée\b|allee\b|impasse\b|quai\b|cours\b)",
                 line,
                 re.I,
             )
             if m:
-                practical["location_name"] = clean(line[:m.start()])
+                practical["location_name"] = clean(line[:m.start()]).rstrip(" ,-")
                 practical["address"] = clean(line[m.start():])
             else:
                 # "125 rue ... - 26110 Nyons" seul
@@ -1234,35 +1235,9 @@ def get_event_detail(session, event, detail_cache):
         }
 
 
-def fallback_event_editorial(event):
-    title = event["title"]
+def fallback_event_editorial(event, detail_text="", practical=None):
     when = format_event_date(event)
-    summary = clean(event.get("summary", ""))
-
-    intro = f"{title} est annoncé à Nyons {when}."
-    if summary:
-        intro += f" {summary}"
-
-    return {
-        "seo_title": (f"{title} à Nyons" if "nyons" not in title.lower() else title),
-        "meta_description": trim_meta(
-            f"{title} à Nyons : dates, informations pratiques et détails utiles pour préparer votre sortie."
-        ),
-        "intro": intro,
-        "story": (
-            summary
-            if summary
-            else "Cette fiche rassemble les informations disponibles pour retrouver rapidement ce rendez-vous dans l’agenda de Nyons."
-        ),
-        "why_it_matters": (
-            "Si le thème vous intéresse, l’essentiel est ici : la date, le lieu et les informations pratiques utiles pour décider de votre sortie."
-        ),
-        "practical": (
-            ""
-        ),
-        "reader_question": f"Qu'est-ce qui vous attire le plus dans « {title} » ?",
-        "_fallback": True,
-    }
+    return local_editorial(event, detail_text, practical or {}, when)
 
 
 def sanitize_editorial_text(value: str) -> str:
@@ -1328,7 +1303,7 @@ def generate_event_editorial(event, detail_text, practical=None):
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     if not api_key or OpenAI is None:
         print(f"Événement {event['title']}: OpenAI indisponible, texte de secours.")
-        return fallback_event_editorial(event)
+        return fallback_event_editorial(event, detail_text, practical)
 
     schema = {
         "type": "object",
@@ -1437,7 +1412,7 @@ def generate_event_editorial(event, detail_text, practical=None):
         return data
     except Exception as exc:
         print(f"Événement {event['title']}: OpenAI erreur ({exc}), texte de secours.", file=sys.stderr)
-        return fallback_event_editorial(event)
+        return fallback_event_editorial(event, detail_text, practical)
 
 
 def event_section_titles(event):
@@ -1757,6 +1732,7 @@ def generate_event_pages(events):
         detail_data = get_event_detail(session, event, detail_cache)
         detail = detail_data.get("text", "")
         practical = detail_data.get("practical") or {}
+        event = dict(event, summary=clean_source_text(event.get("summary", "")))
         digest = event_hash(event)
         cached = event_cache.get(event["url"], {})
 
@@ -1781,6 +1757,11 @@ def generate_event_pages(events):
             editorial_generated_at = cached.get("generated_at") or datetime.now(timezone.utc).isoformat()
             print(f"FICHE {idx:03d}/{total_active}: inchangée, aucun appel API — {event['title']}")
 
+        elif not os.getenv("OPENAI_API_KEY", "").strip() or OpenAI is None:
+            editorial = fallback_event_editorial(event, detail, practical)
+            editorial_generated_at = datetime.now(timezone.utc).isoformat()
+            print(f"FICHE {idx:03d}/{total_active}: programme officiel mis en forme sans API — {event['title']}")
+
         elif ai_calls < MAX_EVENT_AI_CALLS:
             editorial = generate_event_editorial(event, detail, practical)
             editorial_generated_at = datetime.now(timezone.utc).isoformat()
@@ -1788,7 +1769,7 @@ def generate_event_pages(events):
             print(f"FICHE {idx:03d}/{total_active}: contenu éditorial généré — {event['title']}")
 
         else:
-            editorial = cached.get("editorial") or fallback_event_editorial(event)
+            editorial = fallback_event_editorial(event, detail, practical)
             editorial_generated_at = cached.get("generated_at") or datetime.now(timezone.utc).isoformat()
             print(f"FICHE {idx:03d}/{total_active}: limite API atteinte, texte conservé/secours — {event['title']}")
 
