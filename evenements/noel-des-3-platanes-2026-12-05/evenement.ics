@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:noel-des-3-platanes-2026-12-05@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261205T100000
 DTEND;TZID=Europe/Paris:20261206T183000
 SUMMARY:Noël des 3 Platanes
 DESCRIPTION:12 artistes et artisans seront présents et vous proposerons des cadeaux originaux\, uniques\, dans une ambiance chaleureuse.\nhttps://agenda.vivreanyons.fr/evenements/noel-des-3-platanes-2026-12-05/
-LOCATION:Les 3 Platanes\, — 63 rue de la Maladrerie - 26110 NYONS
+LOCATION:Les 3 Platanes — 63 rue de la Maladrerie - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/noel-des-3-platanes-2026-12-05/
 END:VEVENT
 END:VCALENDAR

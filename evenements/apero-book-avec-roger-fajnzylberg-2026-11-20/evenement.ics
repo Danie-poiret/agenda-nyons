@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:apero-book-avec-roger-fajnzylberg-2026-11-20@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261120T180000
 DTEND;TZID=Europe/Paris:20261120T200000
 SUMMARY:Apéro Book avec Roger Fajnzylberg
-DESCRIPTION:Une rencontre exceptionnelle autour de la mémoire\, de l'histoire familiale et de la transmission. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 11.9°C / 11.9°C Co\nhttps://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/
-LOCATION:Librairie de l'olivier\, — 8 place de la Libération
+DESCRIPTION:Une rencontre exceptionnelle autour de la mémoire\, de l'histoire familiale et de la transmission.\nhttps://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/
+LOCATION:Librairie de l'olivier — 8 place de la Libération
 URL:https://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/
 END:VEVENT
 END:VCALENDAR

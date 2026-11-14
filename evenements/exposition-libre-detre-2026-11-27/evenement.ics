@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:exposition-libre-detre-2026-11-27@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261127T160000
 DTEND;TZID=Europe/Paris:20261203T190000
 SUMMARY:Exposition « libre d’être »
 DESCRIPTION:14 artistes s'engagent avec le Planning Familial de Nyons\nhttps://agenda.vivreanyons.fr/evenements/exposition-libre-detre-2026-11-27/
-LOCATION:Préau des Arts\, — 8 rue Pierre Toesca - 26110 NYONS
+LOCATION:Préau des Arts — 8 rue Pierre Toesca - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/exposition-libre-detre-2026-11-27/
 END:VEVENT
 END:VCALENDAR

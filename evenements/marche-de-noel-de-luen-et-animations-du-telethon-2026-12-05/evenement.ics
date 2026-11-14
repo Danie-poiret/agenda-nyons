@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261205T100000
 DTEND;TZID=Europe/Paris:20261205T170000
 SUMMARY:Marché de Noël de l’UEN et animations du Téléthon
-DESCRIPTION:Sur la place de la Libération Nord. 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Couvert 11.9°C / 11.9°C Contact Recherche Mentions légales Politique de confidentialité\nhttps://agenda.vivreanyons.fr/evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/
+DESCRIPTION:Sur la place de la Libération Nord.\nhttps://agenda.vivreanyons.fr/evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/
 LOCATION:Place de la Libération Nord - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/
 END:VEVENT

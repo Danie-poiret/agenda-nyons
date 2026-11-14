@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:expositions-les-heures-douces-2026-11-18@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261118T100000
 DTEND;TZID=Europe/Paris:20261231T170000
 SUMMARY:Expositions « Les Heures Douces »
 DESCRIPTION:Créations originales et uniques par "Les Pépites du 31".\nhttps://agenda.vivreanyons.fr/evenements/expositions-les-heures-douces-2026-11-18/
-LOCATION:Galerie "Les Pépites du 31"\, — 31 rue des Déportés - 26110 NYONS
+LOCATION:Galerie "Les Pépites du 31" — 31 rue des Déportés - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/expositions-les-heures-douces-2026-11-18/
 END:VEVENT
 END:VCALENDAR

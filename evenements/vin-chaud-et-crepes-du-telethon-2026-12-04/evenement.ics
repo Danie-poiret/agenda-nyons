@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:vin-chaud-et-crepes-du-telethon-2026-12-04@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261204T100000
 DTEND;TZID=Europe/Paris:20261204T180000
 SUMMARY:Vin chaud et crêpes du Téléthon
 DESCRIPTION:Devant Gamm Vert\, 8 avenue de Venterol.\nhttps://agenda.vivreanyons.fr/evenements/vin-chaud-et-crepes-du-telethon-2026-12-04/
-LOCATION:Gamm Vert\, — 8 avenue de Venterol - 26110 NYONS
+LOCATION:Gamm Vert — 8 avenue de Venterol - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/vin-chaud-et-crepes-du-telethon-2026-12-04/
 END:VEVENT
 END:VCALENDAR

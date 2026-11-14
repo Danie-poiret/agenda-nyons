@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-tarte-sucree-festive-a-clementine-2026-12-05@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261205T140000
 DTEND;TZID=Europe/Paris:20261205T163000
 SUMMARY:Atelier Culinaire – Tarte Sucrée Festive à Clémentine
 DESCRIPTION:En décembre\, Muriel vous invite à mettre les agrumes à l’honneur! Façonnez une tarte sucrée gourmande à l’huile d’olive avec un croustillant praliné et la fraîcheur de la clémentine dans une mousse légère.\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-tarte-sucree-festive-a-clementine-2026-12-05/
-LOCATION:
+LOCATION:Maison des Huiles d'Olive et Olives de France — 40 Pl. de la Libération
 URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-tarte-sucree-festive-a-clementine-2026-12-05/
 END:VEVENT
 END:VCALENDAR

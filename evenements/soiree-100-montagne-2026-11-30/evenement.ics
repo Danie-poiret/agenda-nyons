@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:soiree-100-montagne-2026-11-30@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261130T183000
 DTEND;TZID=Europe/Paris:20261130T224000
 SUMMARY:Soirée 100% Montagne
 DESCRIPTION:Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !\nhttps://agenda.vivreanyons.fr/evenements/soiree-100-montagne-2026-11-30/
-LOCATION:Cinéma Arlequin\, — 28 Place de la Libération - 26110 NYONS
+LOCATION:Cinéma Arlequin — 28 Place de la Libération - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/soiree-100-montagne-2026-11-30/
 END:VEVENT
 END:VCALENDAR

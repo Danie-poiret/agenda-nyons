@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-yoga-du-chant-2027-05-08@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Atelier Yoga du Chant
 DESCRIPTION:Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini\,\nhttps://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-05-08/
-LOCATION:Ile Verte\, — 1 avenue Frédéric Mistral - 26110 Nyons
+LOCATION:Ile Verte — 1 avenue Frédéric Mistral - 26110 Nyons
 URL:https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2027-05-08/
 END:VEVENT
 END:VCALENDAR

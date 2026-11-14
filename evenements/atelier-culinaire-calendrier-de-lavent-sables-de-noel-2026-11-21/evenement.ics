@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261121T100000
 DTEND;TZID=Europe/Paris:20261121T120000
 SUMMARY:Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël
 DESCRIPTION:Les petits gourmands sont attendus pour réaliser et décorer de délicieux petits biscuits à l’huile d’olive pour patienter jusqu’au 25 décembre !\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21/
-LOCATION:
+LOCATION:Maison des Huiles d'Olive et Olives de France — 40 Pl. de la Libération
 URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21/
 END:VEVENT
 END:VCALENDAR

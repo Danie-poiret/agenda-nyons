@@ -1256,6 +1256,22 @@
       "version": 1,
       "model": "editorial-local",
       "generated_at": "2026-11-11T10:00:24.589635+00:00"
+    },
+    "atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12": {
+      "text": "Le nom de la tapenade vient du provençal tapenado, lui-même dérivé de tapeno, la câpre. Ce petit ingrédient a donc donné son nom à une préparation que l’on associe volontiers aux olives.",
+      "source_label": "Dictionnaire de l’Académie française — Tapenade",
+      "model": "local-bank",
+      "version": 1,
+      "generated_at": "2026-11-14T14:39:39.624075+00:00",
+      "source_url": "https://www.dictionnaire-academie.fr/article/A9T0273"
+    },
+    "concert-de-noel-de-lecole-de-musique-de-nyons-2026-12-12": {
+      "text": "Le mot concert vient de l’italien concerto, qui signifie accord. On retrouve cette idée dans l’expression « agir de concert » : faire quelque chose ensemble, en s’entendant pour une action commune.",
+      "source_label": "Dictionnaire de l’Académie française — Concert",
+      "model": "local-bank",
+      "version": 1,
+      "generated_at": "2026-11-14T14:39:39.625795+00:00",
+      "source_url": "https://www.dictionnaire-academie.fr/article/A9C3367"
     }
   }
 }

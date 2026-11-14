@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:petits-crimes-conjugaux-2026-11-14@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261114T203000
 DTEND;TZID=Europe/Paris:20261114T220000
 SUMMARY:Petits crimes conjugaux
 DESCRIPTION:Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie " L'Épopée Belle "\nhttps://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/
-LOCATION:L'Électron Libre\, — 70 allée Édouard Farnier Z.A. Les Laurons - 26110 NYONS
+LOCATION:L'Électron Libre — 70 allée Édouard Farnier Z.A. Les Laurons - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/
 END:VEVENT
 END:VCALENDAR

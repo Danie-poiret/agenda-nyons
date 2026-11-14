@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:jupiter-2026-11-25-1800@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261125T170000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -18,7 +18,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-25-2000@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261125T190000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -32,7 +32,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-27-1600@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261127T150000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -46,7 +46,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-28-1500@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261128T140000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -60,7 +60,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-28-2100@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261128T200000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -74,7 +74,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-29-1700@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261129T160000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -88,7 +88,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-30-1430@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261130T133000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -102,7 +102,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-11-30-2130@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261130T203000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -116,7 +116,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-12-01-1600@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261201T150000Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -130,7 +130,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-jupiter-2026-11-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:jupiter-2026-12-01-1845@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261201T174500Z
 SUMMARY:Jupiter — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

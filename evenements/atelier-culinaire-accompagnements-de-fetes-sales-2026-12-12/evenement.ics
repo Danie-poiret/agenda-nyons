@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261212T140000
 DTEND;TZID=Europe/Paris:20261212T163000
 SUMMARY:Atelier Culinaire – Accompagnements de Fêtes salés
-DESCRIPTION:Sublimez vos entrées de fin d’année avec des créations 100% maison : pain d’épices à l’huile d’olive\, confits d’oignons à la tapenade\, blinis et chantilly citronnée à l’aneth ! 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\,\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12/
-LOCATION:
+DESCRIPTION:Sublimez vos entrées de fin d’année avec des créations 100% maison : pain d’épices à l’huile d’olive\, confits d’oignons à la tapenade\, blinis et chantilly citronnée à l’aneth !\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12/
+LOCATION:Maison des Huiles d'Olive et Olives de France — 40 Pl. de la Libération
 URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12/
 END:VEVENT
 END:VCALENDAR

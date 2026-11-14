@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-14T13:35:25.634986+00:00",
-  "count": 183,
+  "updated_at": "2026-11-14T14:38:59.763299+00:00",
+  "count": 182,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -1250,7 +1250,7 @@
       "url": "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/",
       "practical": {
         "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes,",
+        "location_name": "Les 3 Platanes",
         "address": "63 rue de la Maladrerie - 26110 NYONS",
         "phone": "0620046099",
         "email": "",
@@ -3216,6 +3216,30 @@
       }
     },
     {
+      "title": "« L’Eau » : Exposition du Préau des Arts",
+      "start_date": "2026-10-28",
+      "end_date": "2026-11-13",
+      "summary": "1 place de la Liberté, du 28 octobre au 13 novembre.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/leau-exposition-du-preau-des-arts/",
+      "practical": {
+        "date_time": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00",
+        "location_name": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00",
+        "address": "1 place de la Libération - 26110 NYONS",
+        "phone": "0770118817",
+        "email": "gpanpreaudesarts@gmail.com",
+        "website": "https://lepreaudesartsnyons.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/leau-exposition-du-preau-des-arts-2026-10-28/",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "date_label": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00"
+    },
+    {
       "title": "Cinéma — Gruffalo, de père en fils",
       "film_title": "Gruffalo, de père en fils",
       "kind": "cinema",
@@ -4979,26 +5003,51 @@
       }
     },
     {
-      "title": "Atelier Yoga du Chant",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
+      "title": "La Femme Moustique",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "summary": "Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.",
       "categories": [
-        "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Patrimoine / Culture vivante",
+        "Culture"
       ],
-      "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-5/",
+      "url": "https://www.nyons.com/agenda/la-femme-moustique/",
       "practical": {
-        "date_time": "samedi 14 novembre 2026 de 10h à 12h",
-        "location_name": "Ile Verte,",
-        "address": "1 avenue Frédéric Mistral - 26110 Nyons",
-        "phone": "06 20 88 60 35",
-        "email": "peroliere@gmail.com",
-        "website": "https://ghischec.wixsite.com/amate"
+        "date_time": "Vendredi 13 novembre 2026 de 20h00 à 21h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "04 75 26 50 10",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.melancolie.org/moustique"
       },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-yoga-du-chant-2026-11-14/",
-      "date_label": "samedi 14 novembre 2026 de 10h à 12h"
+      "page_url": "https://agenda.vivreanyons.fr/evenements/la-femme-moustique-2026-11-13/",
+      "start_time": "20:00",
+      "end_time": "21:00",
+      "date_label": "Vendredi 13 novembre 2026 de 20h00 à 21h00"
+    },
+    {
+      "title": "« Ode à l’Olive »",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "summary": "Lecture concertante, vendredi 13 novembre à la Maison de Pays, 18h.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/ode-a-lolive/",
+      "practical": {
+        "date_time": "Vendredi 13 novembre 2026 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0608471195",
+        "email": "etudesnyons@gmail.com",
+        "website": "http://www.terre-eygues.net"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Vendredi 13 novembre 2026 de 18h00 à 20h00"
     },
     {
       "title": "Café-rencontre UNAFAM",
@@ -5011,7 +5060,7 @@
       "url": "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/",
       "practical": {
         "date_time": "Samedi 14 novembre 2026 de 14h30 à 17h00",
-        "location_name": "Maison Constantin,",
+        "location_name": "Maison Constantin",
         "address": "36 avenue Paul Laurens - 26110 NYONS",
         "phone": "0475551643",
         "email": "",
@@ -5021,50 +5070,6 @@
       "start_time": "14:30",
       "end_time": "17:00",
       "date_label": "Samedi 14 novembre 2026 de 14h30 à 17h00"
-    },
-    {
-      "title": "Constellation familiale",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
-      "categories": [
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/constellation-familiale/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 13h30 à 19h30",
-        "location_name": "Le collectif le Papillon,",
-        "address": "10 Avenue Jules Bernard - 26110 NYONS",
-        "phone": "06 47 18 92 87",
-        "email": "",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-14/",
-      "start_time": "13:30",
-      "end_time": "19:30",
-      "date_label": "Samedi 14 novembre 2026 de 13h30 à 19h30"
-    },
-    {
-      "title": "Cueillette solidaire des olives de Nyons",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-2/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 07h30 à 12h00",
-        "location_name": "Centre Technique Municipal,",
-        "address": "66 avenue Frédéric Mistral - 26110 NYONS",
-        "phone": "04 75 26 50 00",
-        "email": "r.viarsac@nyons.com",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-14/",
-      "start_time": "07:30",
-      "end_time": "12:00",
-      "date_label": "Samedi 14 novembre 2026 de 07h30 à 12h00"
     },
     {
       "title": "Petits crimes conjugaux",
@@ -5078,7 +5083,7 @@
       "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/",
       "practical": {
         "date_time": "Samedi 14 novembre 2026 de 20h30 à 22h00",
-        "location_name": "L'Électron Libre,",
+        "location_name": "L'Électron Libre",
         "address": "70 allée Édouard Farnier Z.A. Les Laurons - 26110 NYONS",
         "phone": "",
         "email": "electron.nyons@gmail.com",
@@ -5088,30 +5093,6 @@
       "start_time": "20:30",
       "end_time": "22:00",
       "date_label": "Samedi 14 novembre 2026 de 20h30 à 22h00"
-    },
-    {
-      "title": "Projection « Et si on levait les yeux ? »",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Projection suivie d’un échange pour parents, ados et enfants, animé par Olivia (AASHN) et Samantha.",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/projection-et-si-on-levait-les-yeux/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 15h00 à 17h00",
-        "location_name": "Médiathèque",
-        "address": "9 rue Albin Vilhet - 26110 NYONS",
-        "phone": "04 75 26 48 26",
-        "email": "mddp-nyons@ladrome.fr",
-        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/projection-et-si-on-levait-les-yeux-2026-11-14/",
-      "start_time": "15:00",
-      "end_time": "17:00",
-      "date_label": "Samedi 14 novembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Puces des couturières",
@@ -6020,7 +6001,7 @@
       "url": "https://www.nyons.com/agenda/expositions-les-heures-douces/",
       "practical": {
         "date_time": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00",
-        "location_name": "Galerie \"Les Pépites du 31\",",
+        "location_name": "Galerie \"Les Pépites du 31\"",
         "address": "31 rue des Déportés - 26110 NYONS",
         "phone": "",
         "email": "",
@@ -6112,7 +6093,7 @@
       "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/",
       "practical": {
         "date_time": "Vendredi 20 novembre 2026 de 18h00 à 20h00",
-        "location_name": "Librairie de l'olivier,",
+        "location_name": "Librairie de l'olivier",
         "address": "8 place de la Libération",
         "phone": "0475260491",
         "email": "librairie.olivier@club-internet.fr",
@@ -6137,8 +6118,8 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-calendrier-de-lavent-sables-de-noel/",
       "practical": {
         "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
-        "location_name": "",
-        "address": "",
+        "location_name": "Maison des Huiles d'Olive et Olives de France",
+        "address": "40 Pl. de la Libération",
         "phone": "0475269090",
         "email": "oliveetsens@gmail.com",
         "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
@@ -6160,7 +6141,7 @@
       "url": "https://www.nyons.com/agenda/bourse-aux-jouets/",
       "practical": {
         "date_time": "Samedi 21 novembre 2026 de 09h00 à 17h00",
-        "location_name": "Maison de Pays,",
+        "location_name": "Maison de Pays",
         "address": "128 promenade de la Digue - 26110 NYONS",
         "phone": "06 22 23 28 67",
         "email": "asmat26110@gmail.com",
@@ -6182,7 +6163,7 @@
       "url": "https://www.nyons.com/agenda/constellation-familiale-2/",
       "practical": {
         "date_time": "Samedi 21 novembre 2026 de 13h30 à 19h30",
-        "location_name": "Le collectif le Papillon,",
+        "location_name": "Le collectif le Papillon",
         "address": "10 Avenue Jules Bernard - 26110 NYONS",
         "phone": "06 47 18 92 87",
         "email": "",
@@ -6204,7 +6185,7 @@
       "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-3/",
       "practical": {
         "date_time": "Samedi 21 novembre 2026 de 07h30 à 12h00",
-        "location_name": "Centre Technique Municipal,",
+        "location_name": "Centre Technique Municipal",
         "address": "66 avenue Frédéric Mistral - 26110 NYONS",
         "phone": "04 75 26 50 00",
         "email": "r.viarsac@nyons.com",
@@ -6282,7 +6263,7 @@
       "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
       "practical": {
         "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
-        "location_name": "Médiatheque Départementale Drôme Provençale,",
+        "location_name": "Médiatheque Départementale Drôme Provençale",
         "address": "9 rue Albin Vilhet - 26110 NYONS",
         "phone": "04 75 26 48 26",
         "email": "contesetrencontres.nyons@gmail.com",
@@ -6349,7 +6330,7 @@
       "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/",
       "practical": {
         "date_time": "Dimanche 22 novembre 2026 de 14h00 à 17h00",
-        "location_name": "Maison de Pays,",
+        "location_name": "Maison de Pays",
         "address": "128 promenade de la Digue - 26110 NYONS",
         "phone": "04 75 27 26 96",
         "email": "",
@@ -7011,7 +6992,7 @@
       "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
       "practical": {
         "date_time": "Mercredi 25 novembre 2026 de 09h00 à 17h00",
-        "location_name": "Chambre d'agriculture,",
+        "location_name": "Chambre d'agriculture",
         "address": "2 avenue de Venterol - 26110 NYONS",
         "phone": "06 70 82 90 44",
         "email": "",
@@ -7041,8 +7022,8 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-duo-de-choux-sales-festifs/",
       "practical": {
         "date_time": "Vendredi 27 novembre 2026 de 14h00 à 16h30",
-        "location_name": "",
-        "address": "",
+        "location_name": "Maison des Huiles d'Olive et Olives de France",
+        "address": "40 Pl. de la Libération",
         "phone": "0475269090",
         "email": "oliveetsens@gmail.com",
         "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
@@ -7159,7 +7140,7 @@
       "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
       "practical": {
         "date_time": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00",
-        "location_name": "Préau des Arts,",
+        "location_name": "Préau des Arts",
         "address": "8 rue Pierre Toesca - 26110 NYONS",
         "phone": "0475264326",
         "email": "secretariatnyons@laplanningfamilial26.org",
@@ -7182,7 +7163,7 @@
       "url": "https://www.nyons.com/agenda/initiation-a-la-reflexologie-plantaire/",
       "practical": {
         "date_time": "Samedi 28 novembre 2026 de 14h00 à 18h00",
-        "location_name": "Le collectif le Papillon,",
+        "location_name": "Le collectif le Papillon",
         "address": "10 Avenue Jules Bernard - 26110 NYONS",
         "phone": "06 81 80 05 73",
         "email": "djilanab@yahoo.fr",
@@ -7228,7 +7209,7 @@
       "url": "https://www.nyons.com/agenda/journee-depistages-organises/",
       "practical": {
         "date_time": "Samedi 28 novembre 2026 de 09h30 à 17h45",
-        "location_name": "Maison de santé Émile Lisbonne,",
+        "location_name": "Maison de santé Émile Lisbonne",
         "address": "21 rue Émile Lisbonne - 26110 NYONS",
         "phone": "04 75 43 85 31",
         "email": "",
@@ -7510,7 +7491,7 @@
       "url": "https://www.nyons.com/agenda/soiree-100-montagne/",
       "practical": {
         "date_time": "Lundi 30 novembre 2026 de 18h30 à 22h40",
-        "location_name": "Cinéma Arlequin,",
+        "location_name": "Cinéma Arlequin",
         "address": "28 Place de la Libération - 26110 NYONS",
         "phone": "04 75 26 01 41",
         "email": "",
@@ -7606,7 +7587,7 @@
       "url": "https://www.nyons.com/agenda/apero-book-avec-francoise-bourdon/",
       "practical": {
         "date_time": "Vendredi 04 décembre 2026 de 18h00 à 20h00",
-        "location_name": "Librairie de l'olivier,",
+        "location_name": "Librairie de l'olivier",
         "address": "8 place de la Libération",
         "phone": "0475260491",
         "email": "librairie.olivier@club-internet.fr",
@@ -7674,7 +7655,7 @@
       "url": "https://www.nyons.com/agenda/vin-chaud-et-crepes-du-telethon/",
       "practical": {
         "date_time": "Vendredi 04 décembre 2026 de 10h00 à 18h00",
-        "location_name": "Gamm Vert,",
+        "location_name": "Gamm Vert",
         "address": "8 avenue de Venterol - 26110 NYONS",
         "phone": "0475260420",
         "email": "",
@@ -7721,8 +7702,8 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-tarte-sucree-festive-a-clementine/",
       "practical": {
         "date_time": "Samedi 05 décembre 2026 de 14h00 à 16h30",
-        "location_name": "",
-        "address": "",
+        "location_name": "Maison des Huiles d'Olive et Olives de France",
+        "address": "40 Pl. de la Libération",
         "phone": "0475269090",
         "email": "oliveetsens@gmail.com",
         "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
@@ -7751,7 +7732,7 @@
       "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/",
       "practical": {
         "date_time": "Samedi 05 décembre 2026 de 14h00 à 17h00",
-        "location_name": "Centre Régional de Boule sportive et Pétanque,",
+        "location_name": "Centre Régional de Boule sportive et Pétanque",
         "address": "25 rue Félix-Maurent, ZAC des Laurons II - 26110 NYONS",
         "phone": "0670421921",
         "email": "cl26-3007@francepetanque.com",
@@ -7821,7 +7802,7 @@
       "url": "https://www.nyons.com/agenda/noel-des-3-platanes/",
       "practical": {
         "date_time": "Du samedi 05 décembre 2026 de 10h00 au dimanche 06 décembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes,",
+        "location_name": "Les 3 Platanes",
         "address": "63 rue de la Maladrerie - 26110 NYONS",
         "phone": "0620046099",
         "email": "gaia.durivau@wanadoo.fr",
@@ -7986,8 +7967,8 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-accompagnements-de-fetes-sales/",
       "practical": {
         "date_time": "Samedi 12 décembre 2026 de 14h00 à 16h30",
-        "location_name": "",
-        "address": "",
+        "location_name": "Maison des Huiles d'Olive et Olives de France",
+        "address": "40 Pl. de la Libération",
         "phone": "0475269090",
         "email": "oliveetsens@gmail.com",
         "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
@@ -8010,7 +7991,7 @@
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/",
       "practical": {
         "date_time": "samedi 12 décembre 2026 de 10h à 12h",
-        "location_name": "Ile Verte,",
+        "location_name": "Ile Verte",
         "address": "1 avenue Frédéric Mistral - 26110 Nyons",
         "phone": "06 20 88 60 35",
         "email": "peroliere@gmail.com",
@@ -8225,8 +8206,8 @@
       "url": "https://www.nyons.com/agenda/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu/",
       "practical": {
         "date_time": "Mercredi 23 décembre 2026 de 14h00 à 16h30",
-        "location_name": "",
-        "address": "",
+        "location_name": "Maison des Huiles d'Olive et Olives de France",
+        "address": "40 Pl. de la Libération",
         "phone": "0475269090",
         "email": "oliveetsens@gmail.com",
         "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
@@ -8373,7 +8354,7 @@
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/",
       "practical": {
         "date_time": "samedi 9 janvier 2027 de 10h à 12h",
-        "location_name": "Ile Verte,",
+        "location_name": "Ile Verte",
         "address": "1 avenue Frédéric Mistral - 26110 Nyons",
         "phone": "06 20 88 60 35",
         "email": "peroliere@gmail.com",
@@ -8439,7 +8420,7 @@
       "url": "https://www.nyons.com/agenda/loto-de-lassociation-le-trait-dunion/",
       "practical": {
         "date_time": "Dimanche 17 janvier 2027 de 14h00 à 17h00",
-        "location_name": "Maison de Pays,",
+        "location_name": "Maison de Pays",
         "address": "128 promenade de la Digue - 26110 NYONS",
         "phone": "04 75 26 18 90",
         "email": "drambure@orange.fr",
@@ -8563,7 +8544,7 @@
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/",
       "practical": {
         "date_time": "samedi 13 février 2027 de 10h à 12h",
-        "location_name": "Ile Verte,",
+        "location_name": "Ile Verte",
         "address": "1 avenue Frédéric Mistral - 26110 Nyons",
         "phone": "06 20 88 60 35",
         "email": "peroliere@gmail.com",
@@ -8631,7 +8612,7 @@
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/",
       "practical": {
         "date_time": "samedi 13 mars 2027 de 10h à 12h",
-        "location_name": "Ile Verte,",
+        "location_name": "Ile Verte",
         "address": "1 avenue Frédéric Mistral - 26110 Nyons",
         "phone": "06 20 88 60 35",
         "email": "peroliere@gmail.com",
@@ -8825,7 +8806,7 @@
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
       "practical": {
         "date_time": "samedi 10 avril 2027 de 10h à 12h",
-        "location_name": "Ile Verte,",
+        "location_name": "Ile Verte",
         "address": "1 avenue Frédéric Mistral - 26110 Nyons",
         "phone": "06 20 88 60 35",
         "email": "peroliere@gmail.com",
@@ -8962,7 +8943,7 @@
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",
       "practical": {
         "date_time": "samedi 8 mai 2027 de 10h à 12h",
-        "location_name": "Ile Verte,",
+        "location_name": "Ile Verte",
         "address": "1 avenue Frédéric Mistral - 26110 Nyons",
         "phone": "06 20 88 60 35",
         "email": "peroliere@gmail.com",

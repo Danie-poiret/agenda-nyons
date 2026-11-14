@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:terminator-2-le-jugement-dernier-2026-11-13-2030@agenda.vivreanyons.f
  r
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261113T193000Z
 SUMMARY:Terminator 2 : le Jugement Dernier — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -22,7 +22,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:terminator-2-le-jugement-dernier-2026-11-14-1800@agenda.vivreanyons.f
  r
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261114T170000Z
 SUMMARY:Terminator 2 : le Jugement Dernier — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -39,7 +39,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:terminator-2-le-jugement-dernier-2026-11-15-1645@agenda.vivreanyons.f
  r
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261115T154500Z
 SUMMARY:Terminator 2 : le Jugement Dernier — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -56,7 +56,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:terminator-2-le-jugement-dernier-2026-11-17-2015@agenda.vivreanyons.f
  r
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART:20261117T191500Z
 SUMMARY:Terminator 2 : le Jugement Dernier — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

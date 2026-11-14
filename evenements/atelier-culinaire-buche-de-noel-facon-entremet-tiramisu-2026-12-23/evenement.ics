@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-buche-de-noel-facon-entremet-tiramisu-2026-12-23@agenda.vivreanyons.fr
-DTSTAMP:20261114T133535Z
+DTSTAMP:20261114T143938Z
 DTSTART;TZID=Europe/Paris:20261223T140000
 DTEND;TZID=Europe/Paris:20261223T163000
 SUMMARY:Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu
-DESCRIPTION:Surprenez vos convives avec un entremet de fête aussi élégant qu’original\, qui fusionne la magie de Noël et la gourmandise irrésistible du Tiramisu ! 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 2\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu-2026-12-23/
-LOCATION:
+DESCRIPTION:Surprenez vos convives avec un entremet de fête aussi élégant qu’original\, qui fusionne la magie de Noël et la gourmandise irrésistible du Tiramisu !\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu-2026-12-23/
+LOCATION:Maison des Huiles d'Olive et Olives de France — 40 Pl. de la Libération
 URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu-2026-12-23/
 END:VEVENT
 END:VCALENDAR
