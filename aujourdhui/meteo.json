@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-13",
-  "temperature": 10.0,
+  "date": "2026-11-14",
+  "temperature": 13.0,
   "observation": "15 h 00",
   "isForecast": true,
-  "min": 6.0,
-  "max": 13.0,
-  "rain": 0.0,
-  "wind": 34.0,
-  "windMax": 35.0,
-  "description": "Partiellement couvert",
-  "fetched_at": "2026-11-13T15:38:56.437286+01:00"
+  "min": 5.0,
+  "max": 14.0,
+  "rain": 1.1,
+  "wind": 7.0,
+  "windMax": 22.0,
+  "description": "Bruine légère",
+  "fetched_at": "2026-11-14T14:35:37.424513+01:00"
 }

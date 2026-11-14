@@ -4,7 +4,7 @@ PRODID:-//VivreAnyons//Cinema Nyons//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:a-la-poursuite-de-laffreunard-2026-11-25-1700@agenda.vivreanyons.fr
-DTSTAMP:20261113T143854Z
+DTSTAMP:20261114T133535Z
 DTSTART:20261125T160000Z
 SUMMARY:À la poursuite de l’Affreunard — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -20,7 +20,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laf
 END:VEVENT
 BEGIN:VEVENT
 UID:a-la-poursuite-de-laffreunard-2026-11-28-1500@agenda.vivreanyons.fr
-DTSTAMP:20261113T143854Z
+DTSTAMP:20261114T133535Z
 DTSTART:20261128T140000Z
 SUMMARY:À la poursuite de l’Affreunard — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -36,7 +36,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laf
 END:VEVENT
 BEGIN:VEVENT
 UID:a-la-poursuite-de-laffreunard-2026-11-29-1800@agenda.vivreanyons.fr
-DTSTAMP:20261113T143854Z
+DTSTAMP:20261114T133535Z
 DTSTART:20261129T170000Z
 SUMMARY:À la poursuite de l’Affreunard — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -52,7 +52,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laf
 END:VEVENT
 BEGIN:VEVENT
 UID:a-la-poursuite-de-laffreunard-2026-12-01-1630@agenda.vivreanyons.fr
-DTSTAMP:20261113T143854Z
+DTSTAMP:20261114T133535Z
 DTSTART:20261201T153000Z
 SUMMARY:À la poursuite de l’Affreunard — VF
 LOCATION:28 place de la Libération\, 26110 Nyons
@@ -68,7 +68,7 @@ URL:https://agenda.vivreanyons.fr/evenements/cinema-a-la-poursuite-de-laf
 END:VEVENT
 BEGIN:VEVENT
 UID:a-la-poursuite-de-laffreunard-2026-12-01-1730@agenda.vivreanyons.fr
-DTSTAMP:20261113T143854Z
+DTSTAMP:20261114T133535Z
 DTSTART:20261201T163000Z
 SUMMARY:À la poursuite de l’Affreunard — VF
 LOCATION:28 place de la Libération\, 26110 Nyons

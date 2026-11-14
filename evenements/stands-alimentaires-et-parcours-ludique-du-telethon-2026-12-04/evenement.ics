@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:stands-alimentaires-et-parcours-ludique-du-telethon-2026-12-04@agenda.vivreanyons.fr
-DTSTAMP:20261113T143854Z
+DTSTAMP:20261114T133535Z
 DTSTART;TZID=Europe/Paris:20261204T150000
 DTEND;TZID=Europe/Paris:20261204T183000
 SUMMARY:Stands alimentaires et parcours ludique du Téléthon

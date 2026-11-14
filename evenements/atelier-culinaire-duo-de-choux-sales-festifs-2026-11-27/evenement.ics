@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27@agenda.vivreanyons.fr
+DTSTAMP:20261114T133535Z
+DTSTART;TZID=Europe/Paris:20261127T140000
+DTEND;TZID=Europe/Paris:20261127T163000
+SUMMARY:Atelier Culinaire – Duo de Choux Salés festifs
+DESCRIPTION:Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.\nhttps://agenda.vivreanyons.fr/evenements/atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27/
+END:VEVENT
+END:VCALENDAR

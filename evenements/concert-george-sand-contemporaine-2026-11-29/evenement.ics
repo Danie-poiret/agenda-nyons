@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-george-sand-contemporaine-2026-11-29@agenda.vivreanyons.fr
+DTSTAMP:20261114T133535Z
+DTSTART;TZID=Europe/Paris:20261129T163000
+DTEND;TZID=Europe/Paris:20261129T173000
+SUMMARY:Concert « George Sand Contemporaine »
+DESCRIPTION:Association Lire Écrire Créer\nhttps://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/
+END:VEVENT
+END:VCALENDAR

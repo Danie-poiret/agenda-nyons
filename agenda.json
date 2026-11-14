@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-13T14:38:37.628906+00:00",
-  "count": 179,
+  "updated_at": "2026-11-14T13:35:25.634986+00:00",
+  "count": 183,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -3216,30 +3216,6 @@
       }
     },
     {
-      "title": "« L’Eau » : Exposition du Préau des Arts",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-13",
-      "summary": "1 place de la Liberté, du 28 octobre au 13 novembre.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/leau-exposition-du-preau-des-arts/",
-      "practical": {
-        "date_time": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00",
-        "location_name": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00",
-        "address": "1 place de la Libération - 26110 NYONS",
-        "phone": "0770118817",
-        "email": "gpanpreaudesarts@gmail.com",
-        "website": "https://lepreaudesartsnyons.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/leau-exposition-du-preau-des-arts-2026-10-28/",
-      "start_time": "09:00",
-      "end_time": "17:00",
-      "date_label": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00"
-    },
-    {
       "title": "Cinéma — Gruffalo, de père en fils",
       "film_title": "Gruffalo, de père en fils",
       "kind": "cinema",
@@ -5003,53 +4979,6 @@
       }
     },
     {
-      "title": "La Femme Moustique",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "summary": "Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/la-femme-moustique/",
-      "practical": {
-        "date_time": "Vendredi 13 novembre 2026 de 20h00 à 21h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "04 75 26 50 10",
-        "email": "l.flouret@nyons.com",
-        "website": "https://www.melancolie.org/moustique"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/la-femme-moustique-2026-11-13/",
-      "start_time": "20:00",
-      "end_time": "21:00",
-      "date_label": "Vendredi 13 novembre 2026 de 20h00 à 21h00"
-    },
-    {
-      "title": "« Ode à l’Olive »",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "summary": "Lecture concertante, vendredi 13 novembre à la Maison de Pays, 18h.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/ode-a-lolive/",
-      "practical": {
-        "date_time": "Vendredi 13 novembre 2026 de 18h00 à 20h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "0608471195",
-        "email": "etudesnyons@gmail.com",
-        "website": "http://www.terre-eygues.net"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/",
-      "start_time": "18:00",
-      "end_time": "20:00",
-      "date_label": "Vendredi 13 novembre 2026 de 18h00 à 20h00"
-    },
-    {
       "title": "Atelier Yoga du Chant",
       "start_date": "2026-11-14",
       "end_date": "2026-11-14",
@@ -5121,8 +5050,7 @@
       "end_date": "2026-11-14",
       "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
       "categories": [
-        "Solidarité / Santé",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-2/",
       "practical": {
@@ -5167,15 +5095,9 @@
       "end_date": "2026-11-14",
       "summary": "Projection suivie d’un échange pour parents, ados et enfants, animé par Olivia (AASHN) et Samantha.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/projection-et-si-on-levait-les-yeux/",
       "practical": {
@@ -5197,8 +5119,14 @@
       "end_date": "2026-11-14",
       "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/puces-des-couturieres/",
@@ -5214,6 +5142,31 @@
       "start_time": "09:00",
       "end_time": "19:00",
       "date_label": "Samedi 14 novembre 2026 de 09h00 à 19h00"
+    },
+    {
+      "title": "Toupetituli",
+      "start_date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/toupetituli-2/",
+      "practical": {
+        "date_time": "Samedi 14 novembre 2026 de 11h00 à 12h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet, à Nyons",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/toupetituli-2026-11-14/",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 14 novembre 2026 de 11h00 à 12h00"
     },
     {
       "title": "Cinéma — Ressacs, une histoire touarègue",
@@ -6108,15 +6061,8 @@
       "end_date": "2026-12-05",
       "summary": "Vente de billets dans les commerces de Nyons et durant les manifestations et don de la recette au Téléthon.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/grande-tombola-du-telethon/",
       "practical": {
@@ -6176,6 +6122,31 @@
       "start_time": "18:00",
       "end_time": "20:00",
       "date_label": "Vendredi 20 novembre 2026 de 18h00 à 20h00"
+    },
+    {
+      "title": "Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "summary": "Les petits gourmands sont attendus pour réaliser et décorer de délicieux petits biscuits à l’huile d’olive pour patienter jusqu’au 25 décembre !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-calendrier-de-lavent-sables-de-noel/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
+        "location_name": "",
+        "address": "",
+        "phone": "0475269090",
+        "email": "oliveetsens@gmail.com",
+        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21/",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 21 novembre 2026 de 10h00 à 12h00"
     },
     {
       "title": "Bourse aux jouets",
@@ -6250,8 +6221,15 @@
       "end_date": "2026-11-21",
       "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
       "practical": {
@@ -7027,14 +7005,7 @@
       "end_date": "2026-11-25",
       "summary": "Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
@@ -7050,6 +7021,36 @@
       "start_time": "09:00",
       "end_time": "17:00",
       "date_label": "Mercredi 25 novembre 2026 de 09h00 à 17h00"
+    },
+    {
+      "title": "Atelier Culinaire – Duo de Choux Salés festifs",
+      "start_date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "summary": "Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-duo-de-choux-sales-festifs/",
+      "practical": {
+        "date_time": "Vendredi 27 novembre 2026 de 14h00 à 16h30",
+        "location_name": "",
+        "address": "",
+        "phone": "0475269090",
+        "email": "oliveetsens@gmail.com",
+        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27/",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date_label": "Vendredi 27 novembre 2026 de 14h00 à 16h30"
     },
     {
       "title": "Cinéma — Les Braves",
@@ -7353,6 +7354,29 @@
       }
     },
     {
+      "title": "Concert « George Sand Contemporaine »",
+      "start_date": "2026-11-29",
+      "end_date": "2026-11-29",
+      "summary": "Association Lire Écrire Créer",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/concert-george-sand-contemporaine/",
+      "practical": {
+        "date_time": "Dimanche 29 novembre 2026 de 16h30 à 17h30",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "assolireecrirecreer@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/",
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "date_label": "Dimanche 29 novembre 2026 de 16h30 à 17h30"
+    },
+    {
       "title": "Cinéma — Le Temps des animaux",
       "film_title": "Le Temps des animaux",
       "kind": "cinema",
@@ -7503,8 +7527,15 @@
       "end_date": "2026-12-03",
       "summary": "Organisé par Nyons Bridge Club.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/tournoi-de-bridge-du-telethon/",
       "practical": {
@@ -7526,15 +7557,8 @@
       "end_date": "2026-12-03",
       "summary": "Proposée par le Comité des Fêtes et de Loisirs de Nyons.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/vente-de-sucres-et-sales-du-telethon/",
       "practical": {
@@ -7623,8 +7647,7 @@
       "summary": "Organisés par le Lions Club et Courir à Nyons, sur la place du Dr Bourdongle.",
       "categories": [
         "Solidarité / Santé",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/stands-alimentaires-et-parcours-ludique-du-telethon/",
       "practical": {
@@ -7685,14 +7708,44 @@
       "date_label": "Samedi 05 décembre 2026 de 19h00 à 21h00"
     },
     {
+      "title": "Atelier Culinaire – Tarte Sucrée Festive à Clémentine",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "En décembre, Muriel vous invite à mettre les agrumes à l’honneur! Façonnez une tarte sucrée gourmande à l’huile d’olive avec un croustillant praliné et la fraîcheur de la clémentine dans une mousse légère.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-tarte-sucree-festive-a-clementine/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 14h00 à 16h30",
+        "location_name": "",
+        "address": "",
+        "phone": "0475269090",
+        "email": "oliveetsens@gmail.com",
+        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-tarte-sucree-festive-a-clementine-2026-12-05/",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date_label": "Samedi 05 décembre 2026 de 14h00 à 16h30"
+    },
+    {
       "title": "Concours de pétanque du Téléthon",
       "start_date": "2026-12-05",
       "end_date": "2026-12-05",
       "summary": "Au Centre Régional de Boule sportive et Pétanque",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/",
@@ -7738,15 +7791,8 @@
       "end_date": "2026-12-05",
       "summary": "Sur la place de la Libération Nord.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel-de-luen-et-animations-du-telethon/",
       "practical": {
@@ -7927,6 +7973,31 @@
       "date_label": "Vendredi 11 décembre 2026 de 17h30 à 20h00"
     },
     {
+      "title": "Atelier Culinaire – Accompagnements de Fêtes salés",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Sublimez vos entrées de fin d’année avec des créations 100% maison : pain d’épices à l’huile d’olive, confits d’oignons à la tapenade, blinis et chantilly citronnée à l’aneth !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-accompagnements-de-fetes-sales/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 14h00 à 16h30",
+        "location_name": "",
+        "address": "",
+        "phone": "0475269090",
+        "email": "oliveetsens@gmail.com",
+        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12/",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date_label": "Samedi 12 décembre 2026 de 14h00 à 16h30"
+    },
+    {
       "title": "Atelier Yoga du Chant",
       "start_date": "2026-12-12",
       "end_date": "2026-12-12",
@@ -7954,9 +8025,15 @@
       "end_date": "2026-12-12",
       "summary": "Concert de Noël par les élèves de l'école de musique",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons-2/",
       "practical": {
@@ -8001,15 +8078,8 @@
       "end_date": "2026-12-13",
       "summary": "Comédie de la Cie “d’ici ou d’Ailleurs”",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/cher-edouard/",
       "practical": {
@@ -8142,6 +8212,31 @@
       "date_label": "Samedi 19 décembre 2026 de 11h00 à 12h00"
     },
     {
+      "title": "Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-23",
+      "summary": "Surprenez vos convives avec un entremet de fête aussi élégant qu’original, qui fusionne la magie de Noël et la gourmandise irrésistible du Tiramisu !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu/",
+      "practical": {
+        "date_time": "Mercredi 23 décembre 2026 de 14h00 à 16h30",
+        "location_name": "",
+        "address": "",
+        "phone": "0475269090",
+        "email": "oliveetsens@gmail.com",
+        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu-2026-12-23/",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date_label": "Mercredi 23 décembre 2026 de 14h00 à 16h30"
+    },
+    {
       "title": "Exposition de l’atelier de Laines et de Colliers d’ANIMA",
       "start_date": "2026-12-23",
       "end_date": "2027-01-01",
@@ -8171,8 +8266,15 @@
       "end_date": "2026-12-29",
       "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/",
       "practical": {
@@ -8241,15 +8343,8 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -8408,9 +8503,15 @@
       "end_date": "2027-01-27",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/",
       "practical": {
@@ -8477,15 +8578,8 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -8647,9 +8741,15 @@
       "end_date": "2027-03-31",
       "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/",
       "practical": {
@@ -8718,14 +8818,8 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
@@ -8883,8 +8977,15 @@
       "end_date": "2027-05-14",
       "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/boite-a-cordees/",
       "practical": {
