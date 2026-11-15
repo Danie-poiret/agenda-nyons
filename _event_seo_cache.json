@@ -3166,15 +3166,8 @@
       "end_date": "2026-11-21",
       "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/"
     },
@@ -3516,15 +3509,8 @@
       "end_date": "2026-12-29",
       "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/"
     },
@@ -3793,8 +3779,15 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/"
     },
@@ -3831,15 +3824,9 @@
       "end_date": "2027-01-27",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/"
     },
@@ -4223,9 +4210,15 @@
       "end_date": "2027-03-24",
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/"
     },
@@ -4262,15 +4255,9 @@
       "end_date": "2027-03-31",
       "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/"
     },
@@ -4500,8 +4487,14 @@
       "end_date": "2027-05-08",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/"
@@ -4539,15 +4532,8 @@
       "end_date": "2027-05-14",
       "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/boite-a-cordees/"
     },
@@ -7791,9 +7777,15 @@
       "end_date": "2027-01-01",
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/"
     },
@@ -10788,7 +10780,15 @@
       "end_date": "2026-12-11",
       "summary": "Écrivez une phrase ou deux de jolies intentions à destination d’un enfant ou d’un adulte.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/"
     },
@@ -10846,7 +10846,7 @@
       "email": "communication@orsac-atrir.fr",
       "website": "https://www.orsac-atrir.fr/"
     },
-    "generated_at": "2026-11-14T14:39:06.829499+00:00",
+    "generated_at": "2026-11-15T13:58:36.799693+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-19ae412f1ef3adea",
@@ -10881,7 +10881,7 @@
       "email": "",
       "website": "https://domainerocheville.com/"
     },
-    "generated_at": "2026-11-14T14:39:14.588584+00:00",
+    "generated_at": "2026-11-15T13:58:39.133766+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-909d0efe474f49b3",
@@ -10919,7 +10919,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:15.000111+00:00",
+    "generated_at": "2026-11-15T13:58:39.134100+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4547265b252c08b9",
@@ -10957,7 +10957,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:26.302016+00:00",
+    "generated_at": "2026-11-15T13:58:42.503883+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-17e209539df9c640",
@@ -10972,8 +10972,15 @@
       "end_date": "2026-12-03",
       "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/exposition-libre-detre/"
     },
@@ -10995,7 +11002,7 @@
       "email": "secretariatnyons@laplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-14T14:39:10.679115+00:00",
+    "generated_at": "2026-11-15T13:58:37.720570+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b4a0415b95d07d7f",
@@ -11033,7 +11040,7 @@
       "email": "regine3108@gmail.com",
       "website": "https://choraledesoliviers.fr/"
     },
-    "generated_at": "2026-11-14T14:39:19.973728+00:00",
+    "generated_at": "2026-11-15T13:58:42.010780+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-0efc033762d28039",
@@ -11071,7 +11078,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:05.976863+00:00",
+    "generated_at": "2026-11-15T13:58:36.799537+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11114,7 +11121,7 @@
       "email": "nyonsbc@gmail.com",
       "website": "https://www.nyonsbridgeclub.fr/"
     },
-    "generated_at": "2026-11-14T14:39:13.984877+00:00",
+    "generated_at": "2026-11-15T13:58:38.237203+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11150,7 +11157,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:14.385915+00:00",
+    "generated_at": "2026-11-15T13:58:39.133626+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11186,7 +11193,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:15.487690+00:00",
+    "generated_at": "2026-11-15T13:58:40.064906+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11199,7 +11206,8 @@
       "end_date": "2026-12-04",
       "summary": "Devant Gamm Vert, 8 avenue de Venterol.",
       "categories": [
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/vin-chaud-et-crepes-du-telethon/"
     },
@@ -11221,7 +11229,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:15.888365+00:00",
+    "generated_at": "2026-11-15T13:58:40.065048+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11256,7 +11264,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:16.734810+00:00",
+    "generated_at": "2026-11-15T13:58:40.972586+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11269,14 +11277,9 @@
       "end_date": "2026-12-05",
       "summary": "Au Centre Régional de Boule sportive et Pétanque",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/"
@@ -11299,7 +11302,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "http://www.nyons-petanque.com"
     },
-    "generated_at": "2026-11-14T14:39:17.355018+00:00",
+    "generated_at": "2026-11-15T13:58:40.972966+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11350,8 +11353,15 @@
       "end_date": "2026-12-05",
       "summary": "Sur la place de la Libération Nord.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel-de-luen-et-animations-du-telethon/"
     },
@@ -11373,7 +11383,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:18.019795+00:00",
+    "generated_at": "2026-11-15T13:58:41.485358+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11410,7 +11420,7 @@
       "email": "communications.nyonsbc@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:21.621795+00:00",
+    "generated_at": "2026-11-15T13:58:42.011009+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11462,8 +11472,15 @@
       "end_date": "2026-12-12",
       "summary": "Organisé par la cave coopérative Vignolis.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel/"
     },
@@ -11485,7 +11502,7 @@
       "email": "communication@vignolis.fr",
       "website": "http://www.vignolis.fr"
     },
-    "generated_at": "2026-11-14T14:39:22.885054+00:00",
+    "generated_at": "2026-11-15T13:58:42.011674+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -13977,8 +13994,15 @@
       "end_date": "2026-11-20",
       "summary": "Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/"
     },
@@ -14000,7 +14024,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-14T14:39:07.757390+00:00",
+    "generated_at": "2026-11-15T13:58:36.799878+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14036,7 +14060,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-14T14:39:14.795382+00:00",
+    "generated_at": "2026-11-15T13:58:39.133990+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14049,15 +14073,9 @@
       "end_date": "2026-12-12",
       "summary": "Concert de Noël par les élèves de l'école de musique",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons-2/"
     },
@@ -14079,7 +14097,7 @@
       "email": "secretariat.assoc.e2mn@gmail.com",
       "website": "https://www.ecoledemusiquedenyons.com/"
     },
-    "generated_at": "2026-11-14T14:39:22.681160+00:00",
+    "generated_at": "2026-11-15T13:58:42.011547+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c65f5e9dd3c5ee8",
@@ -14273,7 +14291,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.les3platanes.com/"
     },
-    "generated_at": "2026-11-14T14:39:18.225528+00:00",
+    "generated_at": "2026-11-15T13:58:41.485623+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14309,7 +14327,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:04.819662+00:00",
+    "generated_at": "2026-11-15T13:58:36.267978+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14344,7 +14362,7 @@
       "email": "a.schneider@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:25.665161+00:00",
+    "generated_at": "2026-11-15T13:58:42.503742+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14382,7 +14400,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-14T14:39:07.964511+00:00",
+    "generated_at": "2026-11-15T13:58:36.800023+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14395,13 +14413,8 @@
       "end_date": "2026-11-27",
       "summary": "Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
-        "Vie associative",
         "Culture",
         "Loisirs"
       ],
@@ -14425,7 +14438,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-14T14:39:10.183428+00:00",
+    "generated_at": "2026-11-15T13:58:37.720432+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14461,7 +14474,7 @@
       "email": "assolireecrirecreer@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-14T14:39:12.589420+00:00",
+    "generated_at": "2026-11-15T13:58:38.236994+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14499,7 +14512,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-14T14:39:16.941838+00:00",
+    "generated_at": "2026-11-15T13:58:40.972853+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14537,7 +14550,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-14T14:39:21.827107+00:00",
+    "generated_at": "2026-11-15T13:58:42.011314+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-960d70c89f80c6bc",
@@ -14577,7 +14590,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-14T14:39:26.719986+00:00",
+    "generated_at": "2026-11-15T13:58:42.504088+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   }

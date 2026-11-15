@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-14T14:38:59.763299+00:00",
-  "count": 182,
+  "updated_at": "2026-11-15T13:58:34.888217+00:00",
+  "count": 174,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -1230,36 +1230,6 @@
           "verified_on": "2026-10-04"
         }
       }
-    },
-    {
-      "title": "Exposition fond d’atelier d’artiste de Pierre Dupont",
-      "start_date": "2026-10-12",
-      "end_date": "2026-11-14",
-      "summary": "Du 12 octobre au 14 novembre aux 3 Platanes.",
-      "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-fond-datelier-dartiste-de-pierre-dupont/",
-      "practical": {
-        "date_time": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30",
-        "location_name": "Les 3 Platanes",
-        "address": "63 rue de la Maladrerie - 26110 NYONS",
-        "phone": "0620046099",
-        "email": "",
-        "website": "https://www.les3platanes.com/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-fond-datelier-dartiste-de-pierre-dupont-2026-10-12/",
-      "start_time": "10:00",
-      "end_time": "18:30",
-      "date_label": "Du lundi 12 octobre 2026 de 10h00 au samedi 14 novembre 2026 à 18h30"
     },
     {
       "title": "Cinéma — Fausse Note",
@@ -3216,30 +3186,6 @@
       }
     },
     {
-      "title": "« L’Eau » : Exposition du Préau des Arts",
-      "start_date": "2026-10-28",
-      "end_date": "2026-11-13",
-      "summary": "1 place de la Liberté, du 28 octobre au 13 novembre.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/leau-exposition-du-preau-des-arts/",
-      "practical": {
-        "date_time": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00",
-        "location_name": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00",
-        "address": "1 place de la Libération - 26110 NYONS",
-        "phone": "0770118817",
-        "email": "gpanpreaudesarts@gmail.com",
-        "website": "https://lepreaudesartsnyons.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/leau-exposition-du-preau-des-arts-2026-10-28/",
-      "start_time": "09:00",
-      "end_time": "17:00",
-      "date_label": "Du mercredi 28 octobre 2026 de 09h00 au vendredi 13 novembre 2026 à 17h00"
-    },
-    {
       "title": "Cinéma — Gruffalo, de père en fils",
       "film_title": "Gruffalo, de père en fils",
       "kind": "cinema",
@@ -3559,7 +3505,15 @@
       "end_date": "2026-12-11",
       "summary": "Écrivez une phrase ou deux de jolies intentions à destination d’un enfant ou d’un adulte.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/",
       "practical": {
@@ -5003,153 +4957,6 @@
       }
     },
     {
-      "title": "La Femme Moustique",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "summary": "Conte monstrueux du merveilleux pour oser s’exprimer et prendre le risque de grandir. De et par Mélancolie Motte.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/la-femme-moustique/",
-      "practical": {
-        "date_time": "Vendredi 13 novembre 2026 de 20h00 à 21h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "04 75 26 50 10",
-        "email": "l.flouret@nyons.com",
-        "website": "https://www.melancolie.org/moustique"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/la-femme-moustique-2026-11-13/",
-      "start_time": "20:00",
-      "end_time": "21:00",
-      "date_label": "Vendredi 13 novembre 2026 de 20h00 à 21h00"
-    },
-    {
-      "title": "« Ode à l’Olive »",
-      "start_date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "summary": "Lecture concertante, vendredi 13 novembre à la Maison de Pays, 18h.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/ode-a-lolive/",
-      "practical": {
-        "date_time": "Vendredi 13 novembre 2026 de 18h00 à 20h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "0608471195",
-        "email": "etudesnyons@gmail.com",
-        "website": "http://www.terre-eygues.net"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/ode-a-lolive-2026-11-13/",
-      "start_time": "18:00",
-      "end_time": "20:00",
-      "date_label": "Vendredi 13 novembre 2026 de 18h00 à 20h00"
-    },
-    {
-      "title": "Café-rencontre UNAFAM",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Tous les deux mois les bénévoles de l’Union Nationale des Amis et Familles de Malades et/ou...",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/cafe-rencontre-unafam-4/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 14h30 à 17h00",
-        "location_name": "Maison Constantin",
-        "address": "36 avenue Paul Laurens - 26110 NYONS",
-        "phone": "0475551643",
-        "email": "",
-        "website": "https://www.unafam.org/drome/cafes-rencontre"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cafe-rencontre-unafam-2026-11-14/",
-      "start_time": "14:30",
-      "end_time": "17:00",
-      "date_label": "Samedi 14 novembre 2026 de 14h30 à 17h00"
-    },
-    {
-      "title": "Petits crimes conjugaux",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Pièce de théâtre d'Éric-Emmanuel Schmitt par la Compagnie \" L'Épopée Belle \"",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/petits-crimes-conjugaux/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 20h30 à 22h00",
-        "location_name": "L'Électron Libre",
-        "address": "70 allée Édouard Farnier Z.A. Les Laurons - 26110 NYONS",
-        "phone": "",
-        "email": "electron.nyons@gmail.com",
-        "website": "https://www.lelectron.fr"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/petits-crimes-conjugaux-2026-11-14/",
-      "start_time": "20:30",
-      "end_time": "22:00",
-      "date_label": "Samedi 14 novembre 2026 de 20h30 à 22h00"
-    },
-    {
-      "title": "Puces des couturières",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Puces des couturières du Comité des Fêtes et des Loisirs de Nyons et loisirs créatifs.",
-      "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/puces-des-couturieres/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 09h00 à 19h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "06 46 63 25 54",
-        "email": "comitedesfetesetdeloisirs@sfr.fr",
-        "website": "https://www.comitefetesloisirsnyons.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/puces-des-couturieres-2026-11-14/",
-      "start_time": "09:00",
-      "end_time": "19:00",
-      "date_label": "Samedi 14 novembre 2026 de 09h00 à 19h00"
-    },
-    {
-      "title": "Toupetituli",
-      "start_date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/toupetituli-2/",
-      "practical": {
-        "date_time": "Samedi 14 novembre 2026 de 11h00 à 12h00",
-        "location_name": "Médiathèque",
-        "address": "9 rue Albin Vilhet, à Nyons",
-        "phone": "04 75 26 48 26",
-        "email": "mddp-nyons@ladrome.fr",
-        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/toupetituli-2026-11-14/",
-      "start_time": "11:00",
-      "end_time": "12:00",
-      "date_label": "Samedi 14 novembre 2026 de 11h00 à 12h00"
-    },
-    {
       "title": "Cinéma — Ressacs, une histoire touarègue",
       "film_title": "Ressacs, une histoire touarègue",
       "kind": "cinema",
@@ -6087,8 +5894,15 @@
       "end_date": "2026-11-20",
       "summary": "Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/",
       "practical": {
@@ -6202,15 +6016,8 @@
       "end_date": "2026-11-21",
       "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
       "practical": {
@@ -7009,13 +6816,8 @@
       "end_date": "2026-11-27",
       "summary": "Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
-        "Vie associative",
         "Culture",
         "Loisirs"
       ],
@@ -7134,8 +6936,15 @@
       "end_date": "2026-12-03",
       "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
       "practical": {
@@ -7650,7 +7459,8 @@
       "end_date": "2026-12-04",
       "summary": "Devant Gamm Vert, 8 avenue de Venterol.",
       "categories": [
-        "Solidarité / Santé"
+        "Solidarité / Santé",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/vin-chaud-et-crepes-du-telethon/",
       "practical": {
@@ -7719,14 +7529,9 @@
       "end_date": "2026-12-05",
       "summary": "Au Centre Régional de Boule sportive et Pétanque",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/",
@@ -7772,8 +7577,15 @@
       "end_date": "2026-12-05",
       "summary": "Sur la place de la Libération Nord.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel-de-luen-et-animations-du-telethon/",
       "practical": {
@@ -8006,15 +7818,9 @@
       "end_date": "2026-12-12",
       "summary": "Concert de Noël par les élèves de l'école de musique",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons-2/",
       "practical": {
@@ -8036,8 +7842,15 @@
       "end_date": "2026-12-12",
       "summary": "Organisé par la cave coopérative Vignolis.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel/",
       "practical": {
@@ -8223,9 +8036,15 @@
       "end_date": "2027-01-01",
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/",
       "practical": {
@@ -8247,15 +8066,8 @@
       "end_date": "2026-12-29",
       "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/",
       "practical": {
@@ -8461,8 +8273,15 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/",
       "practical": {
@@ -8484,15 +8303,9 @@
       "end_date": "2027-01-27",
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/",
       "practical": {
@@ -8698,9 +8511,15 @@
       "end_date": "2027-03-24",
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/",
       "practical": {
@@ -8722,15 +8541,9 @@
       "end_date": "2027-03-31",
       "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/",
       "practical": {
@@ -8936,8 +8749,14 @@
       "end_date": "2027-05-08",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",
@@ -8958,15 +8777,8 @@
       "end_date": "2027-05-14",
       "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/boite-a-cordees/",
       "practical": {
