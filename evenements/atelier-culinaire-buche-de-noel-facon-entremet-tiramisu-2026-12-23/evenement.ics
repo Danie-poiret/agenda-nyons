@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-buche-de-noel-facon-entremet-tiramisu-2026-12-23@agenda.vivreanyons.fr
-DTSTAMP:20261115T135847Z
+DTSTAMP:20261116T155335Z
 DTSTART;TZID=Europe/Paris:20261223T140000
 DTEND;TZID=Europe/Paris:20261223T163000
 SUMMARY:Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu

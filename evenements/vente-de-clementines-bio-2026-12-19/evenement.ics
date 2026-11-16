@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vente-de-clementines-bio-2026-12-19@agenda.vivreanyons.fr
+DTSTAMP:20261116T155335Z
+DTSTART;TZID=Europe/Paris:20261219T093000
+DTEND;TZID=Europe/Paris:20261219T160000
+SUMMARY:Vente de clémentines bio
+DESCRIPTION:L'association "Amitié Nyons-Nulès" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée\nhttps://agenda.vivreanyons.fr/evenements/vente-de-clementines-bio-2026-12-19/
+LOCATION:Place de la Libération Sud - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/vente-de-clementines-bio-2026-12-19/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:apres-midi-de-noel-2026-12-19@agenda.vivreanyons.fr
+DTSTAMP:20261116T155335Z
+DTSTART;TZID=Europe/Paris:20261219T143000
+DTEND;TZID=Europe/Paris:20261219T173000
+SUMMARY:Après-midi de Noël
+DESCRIPTION:Organisé par la Municipalité avec le Comité des Fêtes.\nhttps://agenda.vivreanyons.fr/evenements/apres-midi-de-noel-2026-12-19/
+LOCATION:Place du Dr Bourdongle - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/apres-midi-de-noel-2026-12-19/
+END:VEVENT
+END:VCALENDAR

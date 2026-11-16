@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-15T13:58:34.888217+00:00",
-  "count": 174,
+  "updated_at": "2026-11-16T15:51:50.252569+00:00",
+  "count": 180,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -7147,7 +7147,7 @@
       "title": "Concert « George Sand Contemporaine »",
       "start_date": "2026-11-29",
       "end_date": "2026-11-29",
-      "summary": "Association Lire Écrire Créer",
+      "summary": "Proposé par l'association \"Lire Écrire Créer\"",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -7156,7 +7156,7 @@
       "practical": {
         "date_time": "Dimanche 29 novembre 2026 de 16h30 à 17h30",
         "location_name": "",
-        "address": "",
+        "address": "Salle de l'ancien tribunal, place Jacques Martin Deydier - 26110 NYONS",
         "phone": "",
         "email": "assolireecrirecreer@gmail.com",
         "website": ""
@@ -7675,7 +7675,7 @@
       "title": "Yoga des yeux avec Annabel",
       "start_date": "2026-12-05",
       "end_date": "2026-12-05",
-      "summary": "Annabel Djila",
+      "summary": "Annabel Djila vosu attend au local du collectif \"le Papillon\".",
       "categories": [
         "Solidarité / Santé",
         "Vie associative"
@@ -7683,8 +7683,8 @@
       "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/",
       "practical": {
         "date_time": "Samedi 05 décembre 2026 de 10h30 à 11h30",
-        "location_name": "Collectif le papillon",
-        "address": "10 avenue Jules Bernard Nyons",
+        "location_name": "Le collectif le Papillon",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
         "phone": "06 81 80 05 73",
         "email": "associationlepapillon@gmail.com",
         "website": "https://www.annabeldjila.com/les-ateliers/"
@@ -7837,6 +7837,28 @@
       "date_label": "Samedi 12 décembre 2026 de 10h30 à 12h00"
     },
     {
+      "title": "Constellations familiales",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/constellations-familiales-3/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 13h30 à 19h30",
+        "location_name": "Le collectif le Papillon",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
+        "phone": "0647189287",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-12-12/",
+      "start_time": "13:30",
+      "end_time": "19:30",
+      "date_label": "Samedi 12 décembre 2026 de 13h30 à 19h30"
+    },
+    {
       "title": "Marché de Noël",
       "start_date": "2026-12-12",
       "end_date": "2026-12-12",
@@ -7915,31 +7937,31 @@
     },
     {
       "title": "Conseil municipal",
-      "start_date": "2026-12-16",
-      "end_date": "2026-12-16",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-17",
       "summary": "À l'occasion du conseil municipal, l'assemblée délibérante élue est chargée de gérer les affaires...",
       "categories": [
         "Administratif"
       ],
       "url": "https://www.nyons.com/agenda/conseil-municipal/",
       "practical": {
-        "date_time": "Mercredi 16 décembre 2026 de 18h30 à 20h00",
+        "date_time": "Jeudi 17 décembre 2026 de 18h30 à 20h00",
         "location_name": "Hôtel de ville",
         "address": "Nyons",
         "phone": "04 75 26 50 06",
         "email": "a.schneider@nyons.com",
         "website": ""
       },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-12-16/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-12-17/",
       "start_time": "18:30",
       "end_time": "20:00",
-      "date_label": "Mercredi 16 décembre 2026 de 18h30 à 20h00"
+      "date_label": "Jeudi 17 décembre 2026 de 18h30 à 20h00"
     },
     {
       "title": "Peter Pan ou l’Enfant Jamais",
       "start_date": "2026-12-18",
       "end_date": "2026-12-18",
-      "summary": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
+      "summary": "D’après «Peter Pan» de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de «Nyons en Fêtes».",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -7957,6 +7979,58 @@
       "start_time": "20:00",
       "end_time": "22:00",
       "date_label": "Vendredi 18 décembre 2026 de 20h00 à 22h00"
+    },
+    {
+      "title": "Après-midi de Noël",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Organisé par la Municipalité avec le Comité des Fêtes.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/apres-midi-de-noel/",
+      "practical": {
+        "date_time": "Samedi 19 décembre 2026 de 14h30 à 17h30",
+        "location_name": "",
+        "address": "Place du Dr Bourdongle - 26110 NYONS",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/apres-midi-de-noel-2026-12-19/",
+      "start_time": "14:30",
+      "end_time": "17:30",
+      "date_label": "Samedi 19 décembre 2026 de 14h30 à 17h30"
+    },
+    {
+      "title": "Constellations familiales",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/constellations-familiales-4/",
+      "practical": {
+        "date_time": "Samedi 19 décembre 2026 de 13h30 à 19h30",
+        "location_name": "Le collectif le Papillon",
+        "address": "10 Avenue Jules Bernard - 26110 NYONS",
+        "phone": "0647189287",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-12-19/",
+      "start_time": "13:30",
+      "end_time": "19:30",
+      "date_label": "Samedi 19 décembre 2026 de 13h30 à 19h30"
     },
     {
       "title": "Les Arcades fêtent Noël",
@@ -8006,6 +8080,28 @@
       "date_label": "Samedi 19 décembre 2026 de 11h00 à 12h00"
     },
     {
+      "title": "Vente de clémentines bio",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/vente-de-clementines-bio/",
+      "practical": {
+        "date_time": "Samedi 19 décembre 2026 de 09h30 à 16h00",
+        "location_name": "",
+        "address": "Place de la Libération Sud - 26110 NYONS",
+        "phone": "0663192728",
+        "email": "nyonsnules@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/vente-de-clementines-bio-2026-12-19/",
+      "start_time": "09:30",
+      "end_time": "16:00",
+      "date_label": "Samedi 19 décembre 2026 de 09h30 à 16h00"
+    },
+    {
       "title": "Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu",
       "start_date": "2026-12-23",
       "end_date": "2026-12-23",
@@ -8031,20 +8127,34 @@
       "date_label": "Mercredi 23 décembre 2026 de 14h00 à 16h30"
     },
     {
+      "title": "Balade en calèche",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-23",
+      "summary": "Proposée par l'Union des Entreprises du Nyonsais.",
+      "categories": [],
+      "url": "https://www.nyons.com/agenda/balade-en-caleche/",
+      "practical": {
+        "date_time": "Mercredi 23 décembre 2026 de 10h00 à 16h00",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "uennyons@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/balade-en-caleche-2026-12-23/",
+      "start_time": "10:00",
+      "end_time": "16:00",
+      "date_label": "Mercredi 23 décembre 2026 de 10h00 à 16h00"
+    },
+    {
       "title": "Exposition de l’atelier de Laines et de Colliers d’ANIMA",
       "start_date": "2026-12-23",
       "end_date": "2027-01-01",
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/",
       "practical": {
@@ -8064,7 +8174,7 @@
       "title": "On a perdu les clés du traîneau",
       "start_date": "2026-12-29",
       "end_date": "2026-12-29",
-      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
+      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de «Nyons en Fêtes».",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -8082,6 +8192,28 @@
       "start_time": "15:00",
       "end_time": "16:00",
       "date_label": "Mardi 29 décembre 2026 de 15h00 à 16h00"
+    },
+    {
+      "title": "Réveillon du Jour de l’An du Comité des Fêtes",
+      "start_date": "2026-12-31",
+      "end_date": "2026-12-31",
+      "summary": "Repas par le restaurant \"La Détente\" et bal avec l'orchestre \"SaxoLove\".",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/reveillon-du-jour-de-lan-du-comite-des-fetes/",
+      "practical": {
+        "date_time": "Jeudi 31 décembre 2026 de 20h00 à 23h59",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "07 86 07 15 58",
+        "email": "comitefetesnyons@orange.fr",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/reveillon-du-jour-de-lan-du-comite-des-fetes-2026-12-31/",
+      "start_time": "20:00",
+      "end_time": "23:59",
+      "date_label": "Jeudi 31 décembre 2026 de 20h00 à 23h59"
     },
     {
       "title": "Concert de Rebecca Chaillot",
@@ -8136,8 +8268,15 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -8273,15 +8412,8 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/",
       "practical": {
@@ -8372,8 +8504,15 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -8511,15 +8650,9 @@
       "end_date": "2027-03-24",
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/",
       "practical": {
@@ -8612,8 +8745,14 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
@@ -8749,14 +8888,8 @@
       "end_date": "2027-05-08",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",

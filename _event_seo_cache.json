@@ -3469,7 +3469,7 @@
       "title": "Peter Pan ou l’Enfant Jamais",
       "start_date": "2026-12-18",
       "end_date": "2026-12-18",
-      "summary": "D’après « Peter pan » de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de « Nyons en Fête ».",
+      "summary": "D’après «Peter Pan» de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de «Nyons en Fêtes».",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -3507,7 +3507,7 @@
       "title": "On a perdu les clés du traîneau",
       "start_date": "2026-12-29",
       "end_date": "2026-12-29",
-      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de « Nyons en Fête ».",
+      "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de «Nyons en Fêtes».",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -3624,8 +3624,15 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/"
     },
@@ -3779,15 +3786,8 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/"
     },
@@ -3979,8 +3979,15 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/"
     },
@@ -4210,15 +4217,9 @@
       "end_date": "2027-03-24",
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/"
     },
@@ -4371,8 +4372,14 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/"
@@ -4487,14 +4494,8 @@
       "end_date": "2027-05-08",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/"
@@ -7777,15 +7778,9 @@
       "end_date": "2027-01-01",
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/"
     },
@@ -10846,7 +10841,7 @@
       "email": "communication@orsac-atrir.fr",
       "website": "https://www.orsac-atrir.fr/"
     },
-    "generated_at": "2026-11-15T13:58:36.799693+00:00",
+    "generated_at": "2026-11-16T15:52:01.295817+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-19ae412f1ef3adea",
@@ -10867,7 +10862,7 @@
       "seo_title": "30e édition du Noël au Domaine Rocheville à Nyons",
       "meta_description": "30e édition du Noël au Domaine Rocheville : Du vendredi 04 décembre 2026 de 14h00 au samedi 05 décembre 2026 à 18h00. Domaine Rocheville, 117 ter Route de Montélimar - 26110 NYONS",
       "intro": "30e édition du Noël au Domaine Rocheville est annoncé à Nyons du 4 décembre 2026 au 5 décembre 2026. Vendredi après-midi et samedi toute la journée.",
-      "story": "30e édition du Noël au Domaine Rocheville, 117 ter Route de Montélimar, vendredi après-midi et samedi toute la journée. Marché de Noël, dégustations, animations…",
+      "story": "30e édition du Noël au Domaine Rocheville, 117 ter Route de Montélimar, vendredi après-midi et samedi toute la journée. Marché de Noël, dégustations, animations… Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du vendredi 04 décembre 2026 de 14h00 au samedi 05 décembre 2026 à 18h00, Domaine Rocheville, 117 ter Route de Montélimar - 26110 NYONS. Renseignements : 04 75 26 35 20.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « 30e édition du Noël au Domaine Rocheville » ?",
@@ -10881,7 +10876,7 @@
       "email": "",
       "website": "https://domainerocheville.com/"
     },
-    "generated_at": "2026-11-15T13:58:39.133766+00:00",
+    "generated_at": "2026-11-16T15:52:24.723232+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-909d0efe474f49b3",
@@ -10905,7 +10900,7 @@
       "seo_title": "Illumination de la Ville à Nyons",
       "meta_description": "Illumination de la Ville : Vendredi 04 décembre 2026 de 18h00 à 20h00. Place de la Libération - 26110 NYONS",
       "intro": "Illumination de la Ville est annoncé à Nyons le 4 décembre 2026. Lancement des illuminations de Noël sur la place de la Libération à partir de 18h, défilé en musique, vin chaud et chocolat chaud offerts.",
-      "story": "Lancement des illuminations de Noël sur la place de la Libération à partir de 18h. Déambulation lumineuses des enfants, défilé en musique avec le trio « Misters Noël », vin chaud et chocolat chaud offerts place du Dr Bourdongle. Pour cette occasion, nous vous invitons à confectionner votre propre lanterne de Noël en papier à l’aide du patron en bas de page.",
+      "story": "Lancement des illuminations de Noël sur la place de la Libération à partir de 18h. Déambulation lumineuses des enfants, défilé en musique avec le trio « Misters Noël », vin chaud et chocolat chaud offerts place du Dr Bourdongle. Pour cette occasion, nous vous invitons à confectionner votre propre lanterne de Noël en papier à l’aide du patron en bas de page. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 04 décembre 2026 de 18h00 à 20h00, Place de la Libération - 26110 NYONS. Renseignements : 04 75 26 50 00.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Illumination de la Ville » ?",
@@ -10919,7 +10914,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:39.134100+00:00",
+    "generated_at": "2026-11-16T15:52:27.247284+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4547265b252c08b9",
@@ -10943,7 +10938,7 @@
       "seo_title": "Les Arcades fêtent Noël à Nyons",
       "meta_description": "Les Arcades fêtent Noël : Samedi 19 décembre 2026 de 10h00 à 18h00. Devant la librairie Pinet, place du Dr Bourdongle - 26110 NYONS",
       "intro": "Les Arcades fêtent Noël est annoncé à Nyons le 19 décembre 2026. Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat.",
-      "story": "Les Arcades fêtent Noël : Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat. Rendez-vous devant la librairie Pinet, place du Dr Bourdongle, de 10h à 17h.",
+      "story": "Les Arcades fêtent Noël : Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat. Rendez-vous devant la librairie Pinet, place du Dr Bourdongle, de 10h à 17h. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 19 décembre 2026 de 10h00 à 18h00, Devant la librairie Pinet, place du Dr Bourdongle - 26110 NYONS. Renseignements : 04 75 26 41 26.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Les Arcades fêtent Noël » ?",
@@ -10957,7 +10952,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:42.503883+00:00",
+    "generated_at": "2026-11-16T15:52:53.906435+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-17e209539df9c640",
@@ -11002,7 +10997,7 @@
       "email": "secretariatnyons@laplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-15T13:58:37.720570+00:00",
+    "generated_at": "2026-11-16T15:52:14.107953+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b4a0415b95d07d7f",
@@ -11026,7 +11021,7 @@
       "seo_title": "Concerts du duo Feuillet et de la Chorale des Oliviers à Nyons",
       "meta_description": "Concerts du duo Feuillet et de la Chorale des Oliviers : Dimanche 06 décembre 2026 de 15h00 à 18h00. Église Saint-Vincent - 26110 NYONS",
       "intro": "À Nyons, le concerts du duo Feuillet et de la Chorale des Oliviers a lieu le 6 décembre 2026. Dans le cadre du Téléthon 2026.",
-      "story": "Concerts à l’Église St-Vincent dans le cadre du Téléthon, dimanche 6 février à 15h. En 1ère partie : Sylvine et Christophe Feuillet en duo 2e partie : Variétés françaises par la Chorale des Oliviers . Venez partager un moment musical riche en émotions ! Participation au chapeau, les bénéfices seront reversés à l’AFM Téléthon.",
+      "story": "Concerts à l’Église St-Vincent dans le cadre du Téléthon, dimanche 6 février à 15h. En 1ère partie : Sylvine et Christophe Feuillet en duo 2e partie : Variétés françaises par la Chorale des Oliviers . Venez partager un moment musical riche en émotions ! Participation au chapeau, les bénéfices seront reversés à l’AFM Téléthon. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Assister à ce concert, c’est prendre le temps d’écouter les musiciens en direct. Gardez les horaires et l’adresse sous la main pour rejoindre le lieu du concert avant le début.",
       "practical": "Dimanche 06 décembre 2026 de 15h00 à 18h00, Église Saint-Vincent - 26110 NYONS. Renseignements : 06 07 88 45 22 ou regine3108@gmail.com.",
       "reader_question": "Qu’aimeriez-vous retrouver dans ce concert ?",
@@ -11040,7 +11035,7 @@
       "email": "regine3108@gmail.com",
       "website": "https://choraledesoliviers.fr/"
     },
-    "generated_at": "2026-11-15T13:58:42.010780+00:00",
+    "generated_at": "2026-11-16T15:52:40.168805+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-0efc033762d28039",
@@ -11064,7 +11059,7 @@
       "seo_title": "Grande Tombola du Téléthon à Nyons",
       "meta_description": "Grande Tombola du Téléthon : Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00. Dans les commerces de Nyons et durant les manifestations - 26110 NYONS",
       "intro": "Grande Tombola du Téléthon est annoncé à Nyons du 19 novembre 2026 au 5 décembre 2026. Vente de billets dans les commerces de Nyons et durant les manifestations et don de la recette au Téléthon.",
-      "story": "Grande Tombola solidaire du Téléthon organisée par l’Union des Entreprises du Nyonsais avec la participation de la Mairie de Nyons. Vente de billets dans les commerces de Nyons et durant les manifestations, du 19 novembre au 5 décembre. Don de la recette au Téléthon. 3 € le billet, 1er prix : séjour de 3 jours et 2 nuits pour 2 adultes et 2 enfants à Europa-Park. Tirage au sort des gagnants de la tombola, samedi 5 décembre à 17h.",
+      "story": "Grande Tombola solidaire du Téléthon organisée par l’Union des Entreprises du Nyonsais avec la participation de la Mairie de Nyons. Vente de billets dans les commerces de Nyons et durant les manifestations, du 19 novembre au 5 décembre. Don de la recette au Téléthon. 3 € le billet, 1er prix : séjour de 3 jours et 2 nuits pour 2 adultes et 2 enfants à Europa-Park. Tirage au sort des gagnants de la tombola, samedi 5 décembre à 17h. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00, Dans les commerces de Nyons et durant les manifestations - 26110 NYONS. Renseignements : uennyons@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Grande Tombola du Téléthon » ?",
@@ -11078,7 +11073,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:36.799537+00:00",
+    "generated_at": "2026-11-16T15:52:00.337036+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11107,7 +11102,7 @@
       "seo_title": "Tournoi de Bridge du Téléthon à Nyons",
       "meta_description": "Tournoi de Bridge du Téléthon : Jeudi 03 décembre 2026 de 14h00 à 18h00. Espace Roumanille, Draye de Meyne - 26110 NYONS",
       "intro": "Tournoi de Bridge du Téléthon est annoncé à Nyons le 3 décembre 2026. Organisé par Nyons Bridge Club.",
-      "story": "Tournoi de Bridge du Téléthon organisé par Nyons Bridge Club à l’Espace Roumanille, de 14h à 18h. Participation : 10 € par personne, au profit du Téléthon.",
+      "story": "Tournoi de Bridge du Téléthon organisé par Nyons Bridge Club à l’Espace Roumanille, de 14h à 18h. Participation : 10 € par personne, au profit du Téléthon. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 03 décembre 2026 de 14h00 à 18h00, Espace Roumanille, Draye de Meyne - 26110 NYONS. Renseignements : 06 41 53 49 23 ou nyonsbc@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Tournoi de Bridge du Téléthon » ?",
@@ -11121,7 +11116,7 @@
       "email": "nyonsbc@gmail.com",
       "website": "https://www.nyonsbridgeclub.fr/"
     },
-    "generated_at": "2026-11-15T13:58:38.237203+00:00",
+    "generated_at": "2026-11-16T15:52:22.392776+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11143,7 +11138,7 @@
       "seo_title": "Vente de sucrés et salés du Téléthon à Nyons",
       "meta_description": "Vente de sucrés et salés du Téléthon : Jeudi 03 décembre 2026 de 08h00 à 12h00. ",
       "intro": "Vente de sucrés et salés du Téléthon est annoncé à Nyons le 3 décembre 2026. Proposée par le Comité des Fêtes et de Loisirs de Nyons.",
-      "story": "Vente de sucrés et salés proposée par le Comité des Fêtes et de Loisirs de Nyons , dans le cadre du Téléthon. Sur le marché, toute la matinée.",
+      "story": "Vente de sucrés et salés proposée par le Comité des Fêtes et de Loisirs de Nyons , dans le cadre du Téléthon. Sur le marché, toute la matinée. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 03 décembre 2026 de 08h00 à 12h00.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Vente de sucrés et salés du Téléthon » ?",
@@ -11157,7 +11152,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:39.133626+00:00",
+    "generated_at": "2026-11-16T15:52:23.383219+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11179,7 +11174,7 @@
       "seo_title": "Stands alimentaires et parcours ludique du Téléthon à Nyons",
       "meta_description": "Stands alimentaires et parcours ludique du Téléthon : Vendredi 04 décembre 2026 de 15h00 à 18h30. ",
       "intro": "Stands alimentaires et parcours ludique du Téléthon est annoncé à Nyons le 4 décembre 2026. Organisés par le Lions Club et Courir à Nyons, sur la place du Dr Bourdongle.",
-      "story": "Dans le cadre du Téléthon, sur la place du Dr Bourdongle, : Fabrication traditionnelle de boudin antillais à la chaudière, vente de charcuterie et bar à huîtres proposé par le Lions Club, de 15h à 19h. Parcours ludique parents / enfants organisé par Courir à Nyons, de 17h30 à 18h30. Participation libre.",
+      "story": "Dans le cadre du Téléthon, sur la place du Dr Bourdongle, : Fabrication traditionnelle de boudin antillais à la chaudière, vente de charcuterie et bar à huîtres proposé par le Lions Club, de 15h à 19h. Parcours ludique parents / enfants organisé par Courir à Nyons, de 17h30 à 18h30. Participation libre. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 04 décembre 2026 de 15h00 à 18h30.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Stands alimentaires et parcours ludique du Téléthon » ?",
@@ -11193,7 +11188,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:40.064906+00:00",
+    "generated_at": "2026-11-16T15:52:28.469327+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11229,7 +11224,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:40.065048+00:00",
+    "generated_at": "2026-11-16T15:52:29.521116+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11250,7 +11245,7 @@
       "seo_title": "Animation musicale du Téléthon à Nyons",
       "meta_description": "Animation musicale du Téléthon : Samedi 05 décembre 2026 de 19h00 à 21h00. Devant La Belle Époque / Les Palmiers, place de la Libération Nord - 26110 NYONS",
       "intro": "Animation musicale du Téléthon est annoncé à Nyons le 5 décembre 2026. Devant La Belle Époque / Les Palmiers, place de la Libération Nord",
-      "story": "Animation musicale du Téléthon , devant La Belle Époque / Les Palmiers, place de la Libération Nord.",
+      "story": "Animation musicale du Téléthon , devant La Belle Époque / Les Palmiers, place de la Libération Nord. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 05 décembre 2026 de 19h00 à 21h00, Devant La Belle Époque / Les Palmiers, place de la Libération Nord - 26110 NYONS.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Animation musicale du Téléthon » ?",
@@ -11264,7 +11259,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:40.972586+00:00",
+    "generated_at": "2026-11-16T15:52:30.651489+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11302,7 +11297,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "http://www.nyons-petanque.com"
     },
-    "generated_at": "2026-11-15T13:58:40.972966+00:00",
+    "generated_at": "2026-11-16T15:52:32.958928+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11369,7 +11364,7 @@
       "seo_title": "Marché de Noël de l’UEN et animations du Téléthon à Nyons",
       "meta_description": "Marché de Noël de l’UEN et animations du Téléthon : Samedi 05 décembre 2026 de 10h00 à 17h00. Place de la Libération Nord - 26110 NYONS",
       "intro": "Marché de Noël de l’UEN et animations du Téléthon est annoncé à Nyons le 5 décembre 2026. Sur la place de la Libération Nord.",
-      "story": "Rendez-vous sur la place de la Libération Nord de 10h à 17h, pour le Marché de Noël de l’Union des Entreprises du Nyonsais avec : • Promenades en calèche • Vente de marrons chauds • Spectacle de feu d’Indira à 18h • Fabrication traditionnelle de boudin antillais à la chaudière, vente de charcuterie et bar à huîtres par le Lions Club . • Crêpes, gâteaux, boissons chaudes, ateliers maquillage à partir de 15h par Les Nounous Super Chouettes . • Tournoi de sumo par Le Zen à 14h (5 € par combattant) • Animation musicale du Groupe musical du Nyonsais à 14h • Découverte du Shiatsu avec séances sur chaises de 20 mn, proposées par Shiatsu-Antei Do . Libre participation. • Verre de l’amitié offert par la municipalité et tirage au sort des gagnants de la tombola à 17h.",
+      "story": "Rendez-vous sur la place de la Libération Nord de 10h à 17h, pour le Marché de Noël de l’Union des Entreprises du Nyonsais avec : • Promenades en calèche • Vente de marrons chauds • Spectacle de feu d’Indira à 18h • Fabrication traditionnelle de boudin antillais à la chaudière, vente de charcuterie et bar à huîtres par le Lions Club . • Crêpes, gâteaux, boissons chaudes, ateliers maquillage à partir de 15h par Les Nounous Super Chouettes . • Tournoi de sumo par Le Zen à 14h (5 € par combattant) • Animation musicale du Groupe musical du Nyonsais à 14h • Découverte du Shiatsu avec séances sur chaises de 20 mn, proposées par Shiatsu-Antei Do . Libre participation. • Verre de l’amitié offert par la municipalité et tirage au sort des gagnants de la tombola à 17h. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 05 décembre 2026 de 10h00 à 17h00, Place de la Libération Nord - 26110 NYONS. Renseignements : 06 73 35 66 72 ou uennyons@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Marché de Noël de l’UEN et animations du Téléthon » ?",
@@ -11383,7 +11378,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:41.485358+00:00",
+    "generated_at": "2026-11-16T15:52:35.016345+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11406,7 +11401,7 @@
       "seo_title": "Tournoi de basket 3×3 du Téléthon à Nyons",
       "meta_description": "Tournoi de basket 3×3 du Téléthon : Vendredi 11 décembre 2026 de 17h30 à 20h00. Maison des sports Jean Monpeyssen - 26110 NYONS",
       "intro": "Tournoi de basket 3×3 du Téléthon est annoncé à Nyons le 11 décembre 2026. Ouvert à tous, don de la recette pour le Téléthon.",
-      "story": "Tournoi de basket 3×3 du Téléthon organisé par le Basket Club, vendredi 11 décembre à partir de 17h30. Ouvert à tous. Participation : 1 € par joueur minimum et don de la recette d’une buvette de décembre.",
+      "story": "Tournoi de basket 3×3 du Téléthon organisé par le Basket Club, vendredi 11 décembre à partir de 17h30. Ouvert à tous. Participation : 1 € par joueur minimum et don de la recette d’une buvette de décembre. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 11 décembre 2026 de 17h30 à 20h00, Maison des sports Jean Monpeyssen - 26110 NYONS. Renseignements : 06 17 01 35 70 ou communications.nyonsbc@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Tournoi de basket 3×3 du Téléthon » ?",
@@ -11420,7 +11415,7 @@
       "email": "communications.nyonsbc@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:42.011009+00:00",
+    "generated_at": "2026-11-16T15:52:42.124117+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11488,7 +11483,7 @@
       "seo_title": "Marché de Noël à Nyons",
       "meta_description": "Marché de Noël : Samedi 12 décembre 2026 de 09h30 à 18h30. Cave coopérative Vignolis, place Olivier de Serres - 26110 NYONS",
       "intro": "Marché de Noël est annoncé à Nyons le 12 décembre 2026. Organisé par la cave coopérative Vignolis.",
-      "story": "Marché de Noël organisé devant la cave coopérative Vignolis, place Olivier de Serres, toute la journée.",
+      "story": "Marché de Noël organisé devant la cave coopérative Vignolis, place Olivier de Serres, toute la journée. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 12 décembre 2026 de 09h30 à 18h30, Cave coopérative Vignolis, place Olivier de Serres - 26110 NYONS. Renseignements : 04 75 26 95 05 ou communication@vignolis.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Marché de Noël » ?",
@@ -11502,7 +11497,7 @@
       "email": "communication@vignolis.fr",
       "website": "http://www.vignolis.fr"
     },
-    "generated_at": "2026-11-15T13:58:42.011674+00:00",
+    "generated_at": "2026-11-16T15:52:46.836800+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14024,7 +14019,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-15T13:58:36.799878+00:00",
+    "generated_at": "2026-11-16T15:52:02.383165+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14060,7 +14055,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-15T13:58:39.133990+00:00",
+    "generated_at": "2026-11-16T15:52:26.024292+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14097,7 +14092,7 @@
       "email": "secretariat.assoc.e2mn@gmail.com",
       "website": "https://www.ecoledemusiquedenyons.com/"
     },
-    "generated_at": "2026-11-15T13:58:42.011547+00:00",
+    "generated_at": "2026-11-16T15:52:44.953673+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c65f5e9dd3c5ee8",
@@ -14187,7 +14182,7 @@
       "title": "Yoga des yeux avec Annabel",
       "start_date": "2026-12-05",
       "end_date": "2026-12-05",
-      "summary": "Annabel Djila",
+      "summary": "Annabel Djila vosu attend au local du collectif \"le Papillon\".",
       "categories": [
         "Solidarité / Santé",
         "Vie associative"
@@ -14207,8 +14202,8 @@
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 10h30 à 11h30",
-      "location_name": "Collectif le papillon",
-      "address": "10 avenue Jules Bernard Nyons",
+      "location_name": "Le collectif le Papillon",
+      "address": "10 Avenue Jules Bernard - 26110 NYONS",
       "phone": "06 81 80 05 73",
       "email": "associationlepapillon@gmail.com",
       "website": "https://www.annabeldjila.com/les-ateliers/"
@@ -14277,7 +14272,7 @@
       "seo_title": "Noël des 3 Platanes à Nyons",
       "meta_description": "Noël des 3 Platanes : Du samedi 05 décembre 2026 de 10h00 au dimanche 06 décembre 2026 à 18h30. Les 3 Platanes",
       "intro": "Noël des 3 Platanes est annoncé à Nyons du 5 décembre 2026 au 6 décembre 2026. 12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse.",
-      "story": "Noël des 3 Platanes , au 63 rue de la Maladrerie, samedi 5 et dimanche 6 décembre. Entrée libre. 12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse : Christèle Ogano (cyanotypes, bijoux) Patrick Mathon (sculpteur) Éditions Chemins de la Liberté (maison édition) Didier Haas (tourneur sur bois) Gaëlle David (vitrailliste) David Galbiati (peintre) Cocalicowax (création textile) Francis Bienfait (bijoux) Linda Arditi (bijoux) Fond d’atelier du peintre Pierre Dupont Gaïa du Rivau (photographiste) Une déco de Noël sera installée dans la cour, venez prendre un Café chez Toma Café autour d’un brasero, choisir un des 3 plats chaud et mijotés de Véro Local (food-truck), ou un peu de douceurs sucrés et vin chaud au salon de thé mobile Oui-Oui. Il y aura aussi un atelier « Do It Yourself » tout public. L’idée proposée : Une ou 2 grandes tables avec dessus tout un tas de matériaux pour fabriquer vous-même vos décorations de Noël : Pastels, crayons, encre, ciseaux, colle, paillettes, rubans, coton, bouchons en lièges, boites d’œufs, écorces de platanes… toutes ces choses avec lesquelles nous pouvons imaginer et créer. Des idées / tutos vous seront proposés. Participation à partir de 5 € / personne.",
+      "story": "Noël des 3 Platanes , au 63 rue de la Maladrerie, samedi 5 et dimanche 6 décembre. Entrée libre. 12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse : Christèle Ogano (cyanotypes, bijoux) Patrick Mathon (sculpteur) Éditions Chemins de la Liberté (maison édition) Didier Haas (tourneur sur bois) Gaëlle David (vitrailliste) David Galbiati (peintre) Cocalicowax (création textile) Francis Bienfait (bijoux) Linda Arditi (bijoux) Fond d’atelier du peintre Pierre Dupont Gaïa du Rivau (photographiste) Une déco de Noël sera installée dans la cour, venez prendre un Café chez Toma Café autour d’un brasero, choisir un des 3 plats chaud et mijotés de Véro Local (food-truck), ou un peu de douceurs sucrés et vin chaud au salon de thé mobile Oui-Oui. Il y aura aussi un atelier « Do It Yourself » tout public. L’idée proposée : Une ou 2 grandes tables avec dessus tout un tas de matériaux pour fabriquer vous-même vos décorations de Noël : Pastels, crayons, encre, ciseaux, colle, paillettes, rubans, coton, bouchons en lièges, boites d’œufs, écorces de platanes… toutes ces choses avec lesquelles nous pouvons imaginer et créer. Des idées / tutos vous seront proposés. Participation à partir de 5 € / personne. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du samedi 05 décembre 2026 de 10h00 au dimanche 06 décembre 2026 à 18h30, Les 3 Platanes, 63 rue de la Maladrerie - 26110 NYONS. Renseignements : 06 20 04 60 99 ou gaia.durivau@wanadoo.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Noël des 3 Platanes » ?",
@@ -14291,7 +14286,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.les3platanes.com/"
     },
-    "generated_at": "2026-11-15T13:58:41.485623+00:00",
+    "generated_at": "2026-11-16T15:52:36.137342+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14327,17 +14322,17 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:36.267978+00:00",
+    "generated_at": "2026-11-16T15:51:58.291020+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
   "https://www.nyons.com/agenda/conseil-municipal/": {
     "hash": "1b28425af08b638c76b100f53d381bbc0228c6a54a9f7a4b0554d4015a086f3b",
-    "slug": "conseil-municipal-2026-12-16",
+    "slug": "conseil-municipal-2026-12-17",
     "event": {
       "title": "Conseil municipal",
-      "start_date": "2026-12-16",
-      "end_date": "2026-12-16",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-17",
       "summary": "À l'occasion du conseil municipal, l'assemblée délibérante élue est chargée de gérer les affaires...",
       "categories": [
         "Administratif"
@@ -14346,23 +14341,23 @@
     },
     "editorial": {
       "seo_title": "Conseil municipal à Nyons",
-      "meta_description": "Conseil municipal : Mercredi 16 décembre 2026 de 18h30 à 20h00. Hôtel de ville",
-      "intro": "Conseil municipal est annoncé à Nyons le 16 décembre 2026. À l'occasion du conseil municipal, l'assemblée délibérante élue est chargée de gérer les affaires...",
+      "meta_description": "Conseil municipal : Jeudi 17 décembre 2026 de 18h30 à 20h00. Hôtel de ville",
+      "intro": "Conseil municipal est annoncé à Nyons le 17 décembre 2026. À l'occasion du conseil municipal, l'assemblée délibérante élue est chargée de gérer les affaires...",
       "story": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations. Séance ouverte à tous.",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
-      "practical": "Mercredi 16 décembre 2026 de 18h30 à 20h00, Hôtel de ville, Nyons. Renseignements : 04 75 26 50 06 ou a.schneider@nyons.com.",
+      "practical": "Jeudi 17 décembre 2026 de 18h30 à 20h00, Hôtel de ville, Nyons. Renseignements : 04 75 26 50 06 ou a.schneider@nyons.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Conseil municipal » ?",
       "_fallback": true
     },
     "practical": {
-      "date_time": "Mercredi 16 décembre 2026 de 18h30 à 20h00",
+      "date_time": "Jeudi 17 décembre 2026 de 18h30 à 20h00",
       "location_name": "Hôtel de ville",
       "address": "Nyons",
       "phone": "04 75 26 50 06",
       "email": "a.schneider@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:42.503742+00:00",
+    "generated_at": "2026-11-16T15:52:49.859540+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14400,7 +14395,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-15T13:58:36.800023+00:00",
+    "generated_at": "2026-11-16T15:52:03.517960+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14438,7 +14433,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-15T13:58:37.720432+00:00",
+    "generated_at": "2026-11-16T15:52:13.097147+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14449,7 +14444,7 @@
       "title": "Concert « George Sand Contemporaine »",
       "start_date": "2026-11-29",
       "end_date": "2026-11-29",
-      "summary": "Association Lire Écrire Créer",
+      "summary": "Proposé par l'association \"Lire Écrire Créer\"",
       "categories": [
         "Patrimoine / Culture vivante",
         "Culture"
@@ -14458,23 +14453,23 @@
     },
     "editorial": {
       "seo_title": "Concert « George Sand Contemporaine » à Nyons",
-      "meta_description": "Concert « George Sand Contemporaine » : Dimanche 29 novembre 2026 de 16h30 à 17h30. ",
-      "intro": "À Nyons, le concert « George Sand Contemporaine » a lieu le 29 novembre 2026. Association Lire Écrire Créer",
-      "story": "Concert piano et lecture de textes de George Sand",
+      "meta_description": "Concert « George Sand Contemporaine » : Dimanche 29 novembre 2026 de 16h30 à 17h30. Salle de l'ancien tribunal, place Jacques Martin Deydier - 26110 NYONS",
+      "intro": "À Nyons, le concert « George Sand Contemporaine » a lieu le 29 novembre 2026. Proposé par l'association \"Lire Écrire Créer\"",
+      "story": "Concert piano et lecture de textes de George Sand, le 29 novembre dans la salle de l’ancien tribunal, place Jacques Martin Deydier à 16h30.",
       "why_it_matters": "Assister à ce concert, c’est prendre le temps d’écouter les musiciens en direct. Gardez les horaires et l’adresse sous la main pour rejoindre le lieu du concert avant le début.",
-      "practical": "Dimanche 29 novembre 2026 de 16h30 à 17h30. Renseignements : assolireecrirecreer@gmail.com.",
+      "practical": "Dimanche 29 novembre 2026 de 16h30 à 17h30, Salle de l'ancien tribunal, place Jacques Martin Deydier - 26110 NYONS. Renseignements : assolireecrirecreer@gmail.com.",
       "reader_question": "Qu’aimeriez-vous retrouver dans ce concert ?",
       "_fallback": true
     },
     "practical": {
       "date_time": "Dimanche 29 novembre 2026 de 16h30 à 17h30",
       "location_name": "",
-      "address": "",
+      "address": "Salle de l'ancien tribunal, place Jacques Martin Deydier - 26110 NYONS",
       "phone": "",
       "email": "assolireecrirecreer@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-15T13:58:38.236994+00:00",
+    "generated_at": "2026-11-16T15:52:20.354163+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14498,7 +14493,7 @@
       "seo_title": "Atelier Culinaire – Tarte Sucrée Festive à Clémentine à Nyons",
       "meta_description": "Atelier Culinaire – Tarte Sucrée Festive à Clémentine : Samedi 05 décembre 2026 de 14h00 à 16h30. Maison des Huiles d'Olive et Olives de France",
       "intro": "À Nyons, l’atelier Culinaire – Tarte Sucrée Festive à Clémentine est proposé le 5 décembre 2026. En décembre, Muriel vous invite à mettre les agrumes à l’honneur! Façonnez une tarte sucrée gourmande à l’huile d’olive avec un croustillant praliné et la fraîcheur de la clémentine dans une mousse légère.",
-      "story": "Mettez la Clémentine à l’honneur pour illuminer vos tables de fin d’année et venez façonner votre tarte sucrée avec Muriel ! Associez la gourmandise d’un croustillant praliné à la fraîcheur des clémentines de saison et à l’élégance d’un décor en chocolat! Au programme : – Préparez et foncez une pâte sucrée de 20 cm aux saveurs d’une de nos huiles d’olive de France – Préparez un praliné feuillantine aux crêpes dentelles – Réalisez une belle mousse légère à la clémentine – Elaborez d’un sirop de nappage au jus de clémentine – Décorez avec un motif festif en chocolat Pensez bien à apporter votre boite hermétique ! Rendez-vous le Samedi 05 Décembre 2026 à 14h Durée : 2h30 Public : Adultes et Enfant à partir de 12 ans, accompagné d’un adulte Prix : 25€ (*20€ pour les adhérents)",
+      "story": "Mettez la Clémentine à l’honneur pour illuminer vos tables de fin d’année et venez façonner votre tarte sucrée avec Muriel ! Associez la gourmandise d’un croustillant praliné à la fraîcheur des clémentines de saison et à l’élégance d’un décor en chocolat! Au programme : – Préparez et foncez une pâte sucrée de 20 cm aux saveurs d’une de nos huiles d’olive de France – Préparez un praliné feuillantine aux crêpes dentelles – Réalisez une belle mousse légère à la clémentine – Elaborez d’un sirop de nappage au jus de clémentine – Décorez avec un motif festif en chocolat Pensez bien à apporter votre boite hermétique ! Rendez-vous le Samedi 05 Décembre 2026 à 14h Durée : 2h30 Public : Adultes et Enfant à partir de 12 ans, accompagné d’un adulte Prix : 25€ (*20€ pour les adhérents) Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Samedi 05 décembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?",
@@ -14512,7 +14507,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-15T13:58:40.972853+00:00",
+    "generated_at": "2026-11-16T15:52:31.788579+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14536,7 +14531,7 @@
       "seo_title": "Atelier Culinaire – Accompagnements de Fêtes salés à Nyons",
       "meta_description": "Atelier Culinaire – Accompagnements de Fêtes salés : Samedi 12 décembre 2026 de 14h00 à 16h30. Maison des Huiles d'Olive et Olives de France",
       "intro": "À Nyons, l’atelier Culinaire – Accompagnements de Fêtes salés est proposé le 12 décembre 2026. Sublimez vos entrées de fin d’année avec des créations 100% maison : pain d’épices à l’huile d’olive, confits d’oignons à la tapenade, blinis et chantilly citronnée à l’aneth !",
-      "story": "Pour sublimer vos tables du Réveillon, Muriel vous invite à réaliser vos accompagnements salés gourmands et faits maison ! Faîtes la différence sur vos tables de fin d’année en confectionnant vous-même des accompagnements salés raffinés et 100% maison ! Cet atelier salé vous guidera dans la réalisation : – d’un pain d’épices moelleux avec une subtile saveur de l’huile d’olive de Nyons et d’un confit d’oignons caramélisés à la tapenade pour accompagner le foie gras,… – de blinis maison légers et d’une chantilly citronnée à l’aneth frais pour accompagner le saumon ou la truite en filets,… Pensez bien à apporter votre boite hermertique ! Rendez-vous le Samedi 12 Décembre 2026 à 14h Durée : 2h30 Public : Adultes Prix : 30€ (*25€ pour les adhérents)",
+      "story": "Pour sublimer vos tables du Réveillon, Muriel vous invite à réaliser vos accompagnements salés gourmands et faits maison ! Faîtes la différence sur vos tables de fin d’année en confectionnant vous-même des accompagnements salés raffinés et 100% maison ! Cet atelier salé vous guidera dans la réalisation : – d’un pain d’épices moelleux avec une subtile saveur de l’huile d’olive de Nyons et d’un confit d’oignons caramélisés à la tapenade pour accompagner le foie gras,… – de blinis maison légers et d’une chantilly citronnée à l’aneth frais pour accompagner le saumon ou la truite en filets,… Pensez bien à apporter votre boite hermertique ! Rendez-vous le Samedi 12 Décembre 2026 à 14h Durée : 2h30 Public : Adultes Prix : 30€ (*25€ pour les adhérents) Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Samedi 12 décembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quel accompagnement aimeriez-vous préparer vous-même pour les fêtes ?",
@@ -14550,7 +14545,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-15T13:58:42.011314+00:00",
+    "generated_at": "2026-11-16T15:52:43.103167+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-960d70c89f80c6bc",
@@ -14576,7 +14571,7 @@
       "seo_title": "Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu à Nyons",
       "meta_description": "Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu : Mercredi 23 décembre 2026 de 14h00 à 16h30. Maison des Huiles d'Olive et Olives de France",
       "intro": "À Nyons, l’atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu est proposé le 23 décembre 2026. Surprenez vos convives avec un entremet de fête aussi élégant qu’original, qui fusionne la magie de Noël et la gourmandise irrésistible du Tiramisu !",
-      "story": "Revisitez le grand classique italien en un entremet de fête élégant : Tiramisu de Noël ! Venez découvrir les techniques de l’entremet moderne à travers une « bûche ronde » Tiramisu ! Durant cet atelier, Muriel vous apprendra à : – réaliser un biscuit cuillère maison aux douces saveurs de l’huile d’olive de Nyons, – un sirop d’imbibage, – une crème chantilly mascarpone à la vanille, – une ganache au chocolat, – un montage à l’envers en cercle. Et pour finir, un beau pochage et un décor en chocolat ! Pensez bien à apporter votre boite hermétique ! Rendez-vous le Mercredi 23 Décembre 2026 à 14h Durée : 3h Public : Adultes et Enfant à partir de 12 ans bienvenu, accompagné d’un adulte Prix : 35€ (*30€ pour les adhérents)",
+      "story": "Revisitez le grand classique italien en un entremet de fête élégant : Tiramisu de Noël ! Venez découvrir les techniques de l’entremet moderne à travers une « bûche ronde » Tiramisu ! Durant cet atelier, Muriel vous apprendra à : – réaliser un biscuit cuillère maison aux douces saveurs de l’huile d’olive de Nyons, – un sirop d’imbibage, – une crème chantilly mascarpone à la vanille, – une ganache au chocolat, – un montage à l’envers en cercle. Et pour finir, un beau pochage et un décor en chocolat ! Pensez bien à apporter votre boite hermétique ! Rendez-vous le Mercredi 23 Décembre 2026 à 14h Durée : 3h Public : Adultes et Enfant à partir de 12 ans bienvenu, accompagné d’un adulte Prix : 35€ (*30€ pour les adhérents) Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Mercredi 23 décembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?",
@@ -14590,7 +14585,223 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-15T13:58:42.504088+00:00",
+    "generated_at": "2026-11-16T15:52:57.059639+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/constellations-familiales-3/": {
+    "hash": "b2dc33666d98abfa45602b61b9cd09c9c118cbc6d9804a1b14d7ad1bce596ec3",
+    "slug": "constellations-familiales-2026-12-12",
+    "event": {
+      "title": "Constellations familiales",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/constellations-familiales-3/"
+    },
+    "editorial": {
+      "seo_title": "Constellations familiales à Nyons",
+      "meta_description": "Constellations familiales : Samedi 12 décembre 2026 de 13h30 à 19h30. Le collectif le Papillon",
+      "intro": "Constellations familiales est annoncé à Nyons le 12 décembre 2026. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "story": "Asma vous donne rendez-vous le 12 Décembre au local du collectif « le Papillon » à Nyons pour des constellations familiales . La constellation familiale est une approche thérapeutique. Nous n’héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C’est un moment de libération, mais aussi d’hommage à nos ancêtres… Un temps pour se reconnecter, comprendre, apaiser et honorer ce qui nous a précédés. Soyez les bienvenu.es !",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Samedi 12 décembre 2026 de 13h30 à 19h30, Le collectif le Papillon, 10 Avenue Jules Bernard - 26110 NYONS. Renseignements : 06 47 18 92 87.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Constellations familiales » ?",
+      "_fallback": true
+    },
+    "practical": {
+      "date_time": "Samedi 12 décembre 2026 de 13h30 à 19h30",
+      "location_name": "Le collectif le Papillon",
+      "address": "10 Avenue Jules Bernard - 26110 NYONS",
+      "phone": "0647189287",
+      "email": "",
+      "website": ""
+    },
+    "generated_at": "2026-11-16T15:52:46.001103+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/apres-midi-de-noel/": {
+    "hash": "e5f0e78ede31f63f96408feab6dbd29ef7e2f55c1f9b51cb71e77a0daed6b55a",
+    "slug": "apres-midi-de-noel-2026-12-19",
+    "event": {
+      "title": "Après-midi de Noël",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Organisé par la Municipalité avec le Comité des Fêtes.",
+      "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/apres-midi-de-noel/"
+    },
+    "editorial": {
+      "seo_title": "Après-midi de Noël à Nyons",
+      "meta_description": "Après-midi de Noël : Samedi 19 décembre 2026 de 14h30 à 17h30. Place du Dr Bourdongle - 26110 NYONS",
+      "intro": "Après-midi de Noël est annoncé à Nyons le 19 décembre 2026. Organisé par la Municipalité avec le Comité des Fêtes.",
+      "story": "Après-midi de Noël organisé par la Municipalité avec le Comité des Fêtes, samedi 19 décembre sur la place du Dr Bourdongle. • Dès 14h30, animation musicale, déambulation d’échassières, maquillage, atelier de Noël avec la ressourcerie 3 R-La Triade, jeux en bois de Mistigri… • Vers 15h, défilé du Père Noël et de Miss et Mister Nyons. • Vers 16h, goûters distribués aux enfants, chocolat chaud, vin chaud et sablés offerts par le Comité des Fêtes. Venez avec votre plus beau pull de Noël ! Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Samedi 19 décembre 2026 de 14h30 à 17h30, Place du Dr Bourdongle - 26110 NYONS.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Après-midi de Noël » ?",
+      "_fallback": true
+    },
+    "practical": {
+      "date_time": "Samedi 19 décembre 2026 de 14h30 à 17h30",
+      "location_name": "",
+      "address": "Place du Dr Bourdongle - 26110 NYONS",
+      "phone": "",
+      "email": "",
+      "website": ""
+    },
+    "generated_at": "2026-11-16T15:52:51.931426+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/constellations-familiales-4/": {
+    "hash": "0f6abb9b4a173994bc3caeea283ad43afb4f83fbbaf9db958a767fd237ff7637",
+    "slug": "constellations-familiales-2026-12-19",
+    "event": {
+      "title": "Constellations familiales",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/constellations-familiales-4/"
+    },
+    "editorial": {
+      "seo_title": "Constellations familiales à Nyons",
+      "meta_description": "Constellations familiales : Samedi 19 décembre 2026 de 13h30 à 19h30. Le collectif le Papillon",
+      "intro": "Constellations familiales est annoncé à Nyons le 19 décembre 2026. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "story": "Asma vous donne rendez-vous le 19 Décembre à Nyons pour des constellations familiales . La constellation familiale est une approche thérapeutique. Nous n’héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C’est un moment de libération, mais aussi d’hommage à nos ancêtres… Un temps pour se reconnecter, comprendre, apaiser et honorer ce qui nous a précédés. Soyez les bienvenu.es !",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Samedi 19 décembre 2026 de 13h30 à 19h30, Le collectif le Papillon, 10 Avenue Jules Bernard - 26110 NYONS. Renseignements : 06 47 18 92 87.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Constellations familiales » ?",
+      "_fallback": true
+    },
+    "practical": {
+      "date_time": "Samedi 19 décembre 2026 de 13h30 à 19h30",
+      "location_name": "Le collectif le Papillon",
+      "address": "10 Avenue Jules Bernard - 26110 NYONS",
+      "phone": "0647189287",
+      "email": "",
+      "website": ""
+    },
+    "generated_at": "2026-11-16T15:52:52.839150+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/vente-de-clementines-bio/": {
+    "hash": "bad355e59eee2b0b4d3560afb7e2dda1684bc9c07fcb151912bbd54dc66c4f9a",
+    "slug": "vente-de-clementines-bio-2026-12-19",
+    "event": {
+      "title": "Vente de clémentines bio",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/vente-de-clementines-bio/"
+    },
+    "editorial": {
+      "seo_title": "Vente de clémentines bio à Nyons",
+      "meta_description": "Vente de clémentines bio : Samedi 19 décembre 2026 de 09h30 à 16h00. Place de la Libération Sud - 26110 NYONS",
+      "intro": "Vente de clémentines bio est annoncé à Nyons le 19 décembre 2026. L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
+      "story": "Vente de clémentines bio, en provenance de la région de Nulès à l’occasion de la Fête de l’Olive piquée. Stand tenu par l’association « Amitié Nyons-Nulès ». Venez nombreux",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Samedi 19 décembre 2026 de 09h30 à 16h00, Place de la Libération Sud - 26110 NYONS. Renseignements : 06 63 19 27 28 ou nyonsnules@gmail.com.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Vente de clémentines bio » ?",
+      "_fallback": true
+    },
+    "practical": {
+      "date_time": "Samedi 19 décembre 2026 de 09h30 à 16h00",
+      "location_name": "",
+      "address": "Place de la Libération Sud - 26110 NYONS",
+      "phone": "0663192728",
+      "email": "nyonsnules@gmail.com",
+      "website": ""
+    },
+    "generated_at": "2026-11-16T15:52:55.939313+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/balade-en-caleche/": {
+    "hash": "781aac7fd6a9e748be71791dbe1bdd6cda74462620047a37323d811651a55b85",
+    "slug": "balade-en-caleche-2026-12-23",
+    "event": {
+      "title": "Balade en calèche",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-23",
+      "summary": "Proposée par l'Union des Entreprises du Nyonsais.",
+      "categories": [],
+      "url": "https://www.nyons.com/agenda/balade-en-caleche/"
+    },
+    "editorial": {
+      "seo_title": "Balade en calèche à Nyons",
+      "meta_description": "Balade en calèche : Mercredi 23 décembre 2026 de 10h00 à 16h00. ",
+      "intro": "Balade en calèche est annoncé à Nyons le 23 décembre 2026. Proposée par l'Union des Entreprises du Nyonsais.",
+      "story": "Balade en calèche proposée par l’Union des Entreprises du Nyonsais, mercredi 23 décembre, de 10h à 16h. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Mercredi 23 décembre 2026 de 10h00 à 16h00. Renseignements : uennyons@gmail.com.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Balade en calèche » ?",
+      "_fallback": true
+    },
+    "practical": {
+      "date_time": "Mercredi 23 décembre 2026 de 10h00 à 16h00",
+      "location_name": "",
+      "address": "",
+      "phone": "",
+      "email": "uennyons@gmail.com",
+      "website": ""
+    },
+    "generated_at": "2026-11-16T15:52:58.194303+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/reveillon-du-jour-de-lan-du-comite-des-fetes/": {
+    "hash": "dc01a46eceb694c9c283e981816fe272bf85babb5a1ea56976f40f57d8076cfc",
+    "slug": "reveillon-du-jour-de-lan-du-comite-des-fetes-2026-12-31",
+    "event": {
+      "title": "Réveillon du Jour de l’An du Comité des Fêtes",
+      "start_date": "2026-12-31",
+      "end_date": "2026-12-31",
+      "summary": "Repas par le restaurant \"La Détente\" et bal avec l'orchestre \"SaxoLove\".",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/reveillon-du-jour-de-lan-du-comite-des-fetes/"
+    },
+    "editorial": {
+      "seo_title": "Réveillon du Jour de l’An du Comité des Fêtes à Nyons",
+      "meta_description": "Réveillon du Jour de l’An du Comité des Fêtes : Jeudi 31 décembre 2026 de 20h00 à 23h59. Maison de Pays",
+      "intro": "Réveillon du Jour de l’An du Comité des Fêtes est annoncé à Nyons le 31 décembre 2026. Repas par le restaurant \"La Détente\" et bal avec l'orchestre \"SaxoLove\".",
+      "story": "Réveillon du Jour de l’An du Comité des Fêtes , jeudi 31 décembre dès 20h. Repas par le restaurant «La Détente» et bal avec l’orchestre «SaxoLove», à la",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Jeudi 31 décembre 2026 de 20h00 à 23h59, Maison de Pays, 128 Promenade de la Digue - 26110 NYONS. Renseignements : 07 86 07 15 58 ou comitefetesnyons@orange.fr.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Réveillon du Jour de l’An du Comité des Fêtes » ?",
+      "_fallback": true
+    },
+    "practical": {
+      "date_time": "Jeudi 31 décembre 2026 de 20h00 à 23h59",
+      "location_name": "Maison de Pays",
+      "address": "128 Promenade de la Digue - 26110 NYONS",
+      "phone": "07 86 07 15 58",
+      "email": "comitefetesnyons@orange.fr",
+      "website": ""
+    },
+    "generated_at": "2026-11-16T15:53:01.366473+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   }

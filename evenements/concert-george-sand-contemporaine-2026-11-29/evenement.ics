@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:concert-george-sand-contemporaine-2026-11-29@agenda.vivreanyons.fr
-DTSTAMP:20261115T135847Z
+DTSTAMP:20261116T155335Z
 DTSTART;TZID=Europe/Paris:20261129T163000
 DTEND;TZID=Europe/Paris:20261129T173000
 SUMMARY:Concert « George Sand Contemporaine »
-DESCRIPTION:Association Lire Écrire Créer\nhttps://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/
-LOCATION:
+DESCRIPTION:Proposé par l'association "Lire Écrire Créer"\nhttps://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/
+LOCATION:Salle de l'ancien tribunal\, place Jacques Martin Deydier - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/
 END:VEVENT
 END:VCALENDAR

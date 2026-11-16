@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:reveillon-du-jour-de-lan-du-comite-des-fetes-2026-12-31@agenda.vivreanyons.fr
+DTSTAMP:20261116T155335Z
+DTSTART;TZID=Europe/Paris:20261231T200000
+DTEND;TZID=Europe/Paris:20261231T235900
+SUMMARY:Réveillon du Jour de l’An du Comité des Fêtes
+DESCRIPTION:Repas par le restaurant "La Détente" et bal avec l'orchestre "SaxoLove".\nhttps://agenda.vivreanyons.fr/evenements/reveillon-du-jour-de-lan-du-comite-des-fetes-2026-12-31/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/reveillon-du-jour-de-lan-du-comite-des-fetes-2026-12-31/
+END:VEVENT
+END:VCALENDAR

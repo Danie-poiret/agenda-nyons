@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:balade-en-caleche-2026-12-23@agenda.vivreanyons.fr
+DTSTAMP:20261116T155335Z
+DTSTART;TZID=Europe/Paris:20261223T100000
+DTEND;TZID=Europe/Paris:20261223T160000
+SUMMARY:Balade en calèche
+DESCRIPTION:Proposée par l'Union des Entreprises du Nyonsais.\nhttps://agenda.vivreanyons.fr/evenements/balade-en-caleche-2026-12-23/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/balade-en-caleche-2026-12-23/
+END:VEVENT
+END:VCALENDAR

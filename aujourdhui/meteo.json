@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-15",
-  "temperature": 14.0,
-  "observation": "15 h 00",
+  "date": "2026-11-16",
+  "temperature": 12.0,
+  "observation": "18 h 00",
   "isForecast": true,
-  "min": 10.0,
-  "max": 14.0,
-  "rain": 3.6,
-  "wind": 4.0,
-  "windMax": 13.0,
-  "description": "Couvert",
-  "fetched_at": "2026-11-15T14:58:48.593095+01:00"
+  "min": 9.0,
+  "max": 15.0,
+  "rain": 0.1,
+  "wind": 3.0,
+  "windMax": 6.0,
+  "description": "Pluie éparse à proximité",
+  "fetched_at": "2026-11-16T16:53:37.427252+01:00"
 }
