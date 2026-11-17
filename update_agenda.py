@@ -27,7 +27,7 @@ import requests
 from bs4 import BeautifulSoup
 from cinema_agenda import merge_cinema_events, generate_cinema_pages, paris_today
 from rollover_pages import install_live_agenda
-from event_editorial import clean_source_text, local_editorial
+from event_editorial import clean_source_text, local_editorial, render_event_story
 from event_cache import preferred_event_entries
 
 try:
@@ -1696,7 +1696,7 @@ def render_event_page(event, editorial, related_events=None, practical=None):
     {archive_note}
     {practical_section}
     <div class="lead">{esc(editorial.get('intro',''))}</div>
-    <section class="section"><h2>{esc(story_title)}</h2><p>{esc(editorial.get('story',''))}</p></section>
+    <section class="section"><h2>{esc(story_title)}</h2>{render_event_story(event, editorial.get('story',''))}</section>
     <section class="section"><h2>{esc(why_title)}</h2><p>{esc(editorial.get('why_it_matters',''))}</p></section>
     {anecdote_section}
     <section class="section"><h2>ℹ️ Informations pratiques</h2>

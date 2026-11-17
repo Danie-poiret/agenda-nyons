@@ -158,3 +158,59 @@ def subject_copy(subject, description):
     if "marché" in subject or "noël" in subject:
         return ("Ces rendez-vous de fin d’année permettent de découvrir les propositions des exposants et des organisateurs locaux. Le programme distingue les animations, les stands et leurs horaires : gardez ces repères pour organiser votre passage.", "Pour les fêtes, cherchez-vous plutôt un cadeau d’artisan ou une spécialité gourmande ?")
     return ("Le programme de ce rendez-vous est présenté ci-dessus avec ses informations concrètes. Pour une précision sur l’accueil ou les conditions de participation, utilisez le contact de l’organisation lorsqu’il est indiqué.", "Avez-vous déjà participé à ce rendez-vous à Nyons ?")
+
+
+def render_event_story(event, story):
+    """Keep the 2026 Olive Piquee programme readable on every regeneration."""
+    from html import escape
+    if (event.get("url") == "https://www.nyons.com/agenda/fete-de-lolive-piquee-2026/"
+            and event.get("start_date") == "2026-12-19"):
+        return OLIVE_PIQUEE_2026_PROGRAMME
+    return "<p>" + escape(story or "", quote=True) + "</p>"
+
+
+OLIVE_PIQUEE_2026_PROGRAMME = r'''<div class="event-programme">
+<style>.event-programme h3{font-size:20px;line-height:1.3;margin:25px 0 10px;color:var(--olive-dark)}.event-programme p+p{margin-top:12px}.event-programme li{margin:8px 0}.event-programme .programme-scroll{overflow-x:auto;margin:14px 0}.event-programme table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.6}.event-programme th,.event-programme td{padding:12px;text-align:left;vertical-align:top;border:1px solid var(--line)}.event-programme th{background:var(--olive-dark);color:#fff}.event-programme td:first-child{width:130px;font-weight:700}.event-programme caption{text-align:left;font-weight:700;margin-bottom:8px}</style>
+<p>Le samedi 19 décembre, de 9 h à 17 h 30, la fête réunit marché du terroir, dégustations et animations autour de la Tanche, l’olive noire de Nyons AOP. Deux lieux accueillent le programme : la place de la Libération Sud et la Maison des Huiles d’olive et Olives de France.</p>
+<h3>Qu’est-ce qu’une olive piquée ?</h3>
+<p>Les premières olives noires fraîches sont piquées, puis recouvertes de sel marin. Conservées dans un endroit frais et ventilé, elles sont remuées régulièrement et peuvent être dégustées après 12 à 15 jours. Une préparation traditionnelle pour retrouver les olives de Nyons sur la table de Noël.</p>
+<h3>Sur la place de la Libération Sud : toute la journée</h3>
+<ul>
+<li><strong>Marché du terroir :</strong> olives et huiles de Nyons AOP, Côtes du Rhône Villages Nyons AOP, produits locaux et cadeaux gourmands. Des huîtres proposées par le Lions Club et des clémentines de Nulès sont aussi annoncées, ainsi qu’une tombola des exposants.</li>
+<li><strong>Restauration sur place ou à emporter :</strong> le foodtruck « Retour aux racines » propose une cuisine maison, avec un menu et une formule burger.</li>
+<li><strong>Lancer de scourtins :</strong> adultes et enfants peuvent s’initier avec ces disques traditionnellement utilisés pour extraire l’huile d’olive, avant le concours de 16 h.</li>
+<li><strong>Jeux en bois</strong> avec La Plume d’ombres.</li>
+<li><strong>Moulin miniature :</strong> près de la scène, le Syndicat de l’Olive de Nyons et des Baronnies présente le broyage, le malaxage et le pressage, de l’olive à l’huile.</li>
+</ul>
+<h3>Les rendez-vous à heure fixe sur la place</h3>
+<div class="programme-scroll" role="region" aria-label="Horaires des animations sur la place" tabindex="0"><table>
+<caption>Programme sur la place de la Libération Sud</caption>
+<thead><tr><th scope="col">Horaire</th><th scope="col">Animation</th></tr></thead><tbody>
+<tr><td>10 h à 11 h</td><td><strong>Doctolive :</strong> Benoît Chauvin-Buthaud, de la Chambre d’agriculture de la Drôme, répond aux questions sur les maladies, ravageurs et carences des oliviers. Apportez branches, photos et questions près du podium.</td></tr>
+<tr><td>10 h 30</td><td>Initiation à la dégustation d’Huiles d’olive de France.</td></tr>
+<tr><td>11 h 30</td><td>Inauguration et chapitre de la Confrérie des Chevaliers de l’Olivier, puis verre de l’amitié avec le Syndicat des Vignerons du Nyonsais.</td></tr>
+<tr><td>14 h 30</td><td><strong>Cueillette dans une oliveraie et découverte du vignoble :</strong> départ en covoiturage depuis le parvis de la Maison des Huiles d’olive. Durée annoncée : 1 h. Les participants repartent avec une barquette de 200 g d’olives cueillies et piquées par leurs soins. Atelier organisé avec les administrateurs de la Caisse locale du Crédit Agricole de Nyons.</td></tr>
+<tr><td>15 h à 17 h</td><td>Piquage des olives avec les conseils de la Confrérie des Chevaliers de l’Olivier.</td></tr>
+<tr><td>15 h à 16 h 30</td><td><strong>Prix des consommateurs :</strong> dégustez et votez pour vos olives piquées de Nyons AOP préférées. Résultats à 17 h.</td></tr>
+<tr><td>15 h 30 à 16 h 30</td><td>Vin chaud offert.</td></tr>
+<tr><td>16 h</td><td>Concours de lancer de scourtins.</td></tr>
+</tbody></table></div>
+<h3>À la Maison des Huiles d’olive et Olives de France</h3>
+<p>Les démonstrations culinaires mettent les olives noires et l’huile d’olive de Nyons AOP en cuisine. Attention : celle de 14 h 30 a lieu en même temps que le départ de l’atelier cueillette.</p>
+<div class="programme-scroll" role="region" aria-label="Horaires à la Maison des Huiles d’olive" tabindex="0"><table>
+<caption>Programme à la Maison, place de la Libération</caption>
+<thead><tr><th scope="col">Horaire</th><th scope="col">À découvrir</th></tr></thead><tbody>
+<tr><td>10 h à 17 h 30</td><td>Visite libre de l’exposition « Olive &amp; Sens ».</td></tr>
+<tr><td>14 h 30</td><td><strong>« Apéritif olivement gourmand »</strong>, démonstration par Alexandra, de France Olive – Maison des Huiles d’olive et Olives de France.</td></tr>
+<tr><td>15 h 45</td><td><strong>Fondant aux mandarines confites, cœur aux olives de Nyons, coulis mandarine et cardamome, huile d’olive de Nyons AOP</strong>, par Christophe Malet, du restaurant « D’Un Goût à l’Autre ».</td></tr>
+</tbody></table></div>
+<h3>Prolonger la découverte dans les moulins</h3>
+<p>Le programme invite aussi à découvrir les moulins et le patrimoine oléicole nyonsais. Contactez chaque établissement pour préparer votre visite :</p>
+<ul>
+<li>Coopérative oléicole du Nyonsais : <a href="tel:0475269500">04 75 26 95 00</a>.</li>
+<li>Huilerie Richard : <a href="tel:0475264753">04 75 26 47 53</a>.</li>
+<li>Moulin Dozol-Autrand : <a href="tel:0475260252">04 75 26 02 52</a>.</li>
+<li>Moulin Ramade : <a href="tel:0475260818">04 75 26 08 18</a>.</li>
+<li>Moulin Jouve : <a href="tel:0475279440">04 75 27 94 40</a>.</li>
+</ul>
+</div>'''
