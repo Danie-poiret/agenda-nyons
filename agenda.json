@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-16T15:51:50.252569+00:00",
-  "count": 180,
+  "updated_at": "2026-11-17T08:24:07.757207+00:00",
+  "count": 179,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -5889,36 +5889,6 @@
       "date_label": "Jeudi 19 novembre 2026 de 08h30 à 12h00"
     },
     {
-      "title": "Apéro Book avec Roger Fajnzylberg",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "summary": "Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
-      "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/",
-      "practical": {
-        "date_time": "Vendredi 20 novembre 2026 de 18h00 à 20h00",
-        "location_name": "Librairie de l'olivier",
-        "address": "8 place de la Libération",
-        "phone": "0475260491",
-        "email": "librairie.olivier@club-internet.fr",
-        "website": "https://librairiedelolivier.fr"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/",
-      "start_time": "18:00",
-      "end_time": "20:00",
-      "date_label": "Vendredi 20 novembre 2026 de 18h00 à 20h00"
-    },
-    {
       "title": "Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
@@ -5949,8 +5919,15 @@
       "end_date": "2026-11-21",
       "summary": "Organisée par les Nounous Super Chouette, samedi 21 novembre à la Maison de Pays.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
-        "Vie associative"
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/bourse-aux-jouets/",
       "practical": {
@@ -6056,30 +6033,6 @@
       "start_time": "15:00",
       "end_time": "12:00",
       "date_label": "Samedi 21 novembre 2026 de 15h00 à 12h00"
-    },
-    {
-      "title": "« L’invité surprise » (Contes et Rencontres)",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
-      ],
-      "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
-        "location_name": "Médiatheque Départementale Drôme Provençale",
-        "address": "9 rue Albin Vilhet - 26110 NYONS",
-        "phone": "04 75 26 48 26",
-        "email": "contesetrencontres.nyons@gmail.com",
-        "website": "https://contesetrencontres26.org/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/linvite-surprise-contes-et-rencontres-2026-11-21/",
-      "start_time": "10:00",
-      "end_time": "12:00",
-      "date_label": "Samedi 21 novembre 2026 de 10h00 à 12h00"
     },
     {
       "title": "Cinéma — Everybody Digs Bill Evans",
@@ -6936,15 +6889,8 @@
       "end_date": "2026-12-03",
       "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
       "practical": {
@@ -7057,9 +7003,15 @@
       "end_date": "2026-11-28",
       "summary": "À la Maison de Pays dès 10h30",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/",
       "practical": {
@@ -7317,14 +7269,8 @@
       "end_date": "2026-12-03",
       "summary": "Organisé par Nyons Bridge Club.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/tournoi-de-bridge-du-telethon/",
@@ -7413,8 +7359,15 @@
       "end_date": "2026-12-04",
       "summary": "Lancement des illuminations de Noël sur la place de la Libération à partir de 18h, défilé en musique, vin chaud et chocolat chaud offerts.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/illumination-de-la-ville/",
       "practical": {
@@ -7459,8 +7412,7 @@
       "end_date": "2026-12-04",
       "summary": "Devant Gamm Vert, 8 avenue de Venterol.",
       "categories": [
-        "Solidarité / Santé",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/vin-chaud-et-crepes-du-telethon/",
       "practical": {
@@ -7577,15 +7529,8 @@
       "end_date": "2026-12-05",
       "summary": "Sur la place de la Libération Nord.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel-de-luen-et-animations-du-telethon/",
       "practical": {
@@ -7677,8 +7622,15 @@
       "end_date": "2026-12-05",
       "summary": "Annabel Djila vosu attend au local du collectif \"le Papillon\".",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/",
       "practical": {
@@ -7818,9 +7770,15 @@
       "end_date": "2026-12-12",
       "summary": "Concert de Noël par les élèves de l'école de musique",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons-2/",
       "practical": {
@@ -7864,15 +7822,8 @@
       "end_date": "2026-12-12",
       "summary": "Organisé par la cave coopérative Vignolis.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel/",
       "practical": {
@@ -7986,15 +7937,9 @@
       "end_date": "2026-12-19",
       "summary": "Organisé par la Municipalité avec le Comité des Fêtes.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/apres-midi-de-noel/",
       "practical": {
@@ -8031,6 +7976,30 @@
       "start_time": "13:30",
       "end_time": "19:30",
       "date_label": "Samedi 19 décembre 2026 de 13h30 à 19h30"
+    },
+    {
+      "title": "Fête de l’Olive Piquée 2026",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Organisée par le Syndicat de l’Olive de Nyons et des Baronnies aidé de ses partenaires.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/fete-de-lolive-piquee-2026/",
+      "practical": {
+        "date_time": "Samedi 19 décembre 2026 de 09h00 à 17h30",
+        "location_name": "",
+        "address": "Place de la Libération Sud et Maison des Huiles d’olive & Olives de France - 26110 NYONS",
+        "phone": "04 75 26 95 00",
+        "email": "",
+        "website": "https://maisondeshuilesetolives.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/fete-de-lolive-piquee-2026-2026-12-19/",
+      "start_time": "09:00",
+      "end_time": "17:30",
+      "date_label": "Samedi 19 décembre 2026 de 09h00 à 17h30"
     },
     {
       "title": "Les Arcades fêtent Noël",
@@ -8085,7 +8054,15 @@
       "end_date": "2026-12-19",
       "summary": "L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/vente-de-clementines-bio/",
       "practical": {
@@ -8268,15 +8245,8 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -8298,8 +8268,14 @@
       "end_date": "2027-01-09",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/",
@@ -8504,15 +8480,8 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -8534,8 +8503,15 @@
       "end_date": "2027-03-10",
       "summary": "Si les histoires d’amour ressemblaient aux contes de fées, cela se saurait !",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/",
       "practical": {
@@ -8745,14 +8721,8 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
@@ -8773,7 +8743,15 @@
       "end_date": "2027-04-18",
       "summary": "1er tour des élections présidentielles.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/1er-tour-des-elections-presidentielles/",
       "practical": {

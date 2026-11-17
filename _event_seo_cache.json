@@ -2286,7 +2286,8 @@
       "why_it_matters": "Le conseil municipal est un moment concret de la vie publique locale : c’est là que l’assemblée élue traite les affaires de la commune par ses délibérations. Cette séance permet de suivre l’activité municipale à Nyons.",
       "practical": "Mercredi 21 octobre 2026, de 18h30 à 20h00. Hôtel de Ville, place Buffaven, 26110 Nyons. Tél. : 04 75 26 50 06.",
       "reader_question": "Souhaitez-vous suivre cette séance du conseil municipal de Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 18 novembre 2026 de 18h30 à 20h00",
@@ -2751,7 +2752,8 @@
       "why_it_matters": "Ce loto offre un rendez-vous concret de la vie associative à Nyons. C’est une sortie simple, organisée sur un après-midi, qui met à l’honneur un jeu bien connu et l’activité de l’association Le Trait d’Union.",
       "practical": "Dimanche 1er novembre 2026, de 14h à 17h. Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Contact : 04 75 26 18 90 ou drambure@orange.fr.",
       "reader_question": "Allez-vous tenter votre chance au loto du Trait d’Union ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Dimanche 17 janvier 2027 de 14h00 à 17h00",
@@ -3141,7 +3143,8 @@
       "why_it_matters": "Le Salon Vivre ici réunit dans un même rendez-vous des thèmes qui touchent au quotidien : le cadre de vie, la solidarité, la santé et la vie associative. C’est une date locale à inscrire sur son agenda de novembre à Nyons.",
       "practical": "Mercredi 18 novembre 2026, de 9h à 20h. Contact : campuscedille@asoft-nyons.net. Site : https://salonvivreici.fr/",
       "reader_question": "Comptez-vous passer au Salon Vivre ici le 18 novembre à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Mercredi 18 novembre 2026 de 09h00 à 20h00",
@@ -3179,7 +3182,8 @@
       "why_it_matters": "Ce concert offre une sortie culturelle en soirée à Nyons, avec un horaire bien défini de 20h30 à 22h. C’est un rendez-vous simple à inscrire dans son agenda pour celles et ceux qui souhaitent profiter d’une proposition musicale le samedi 21 novembre.",
       "practical": "Samedi 21 novembre 2026, de 20h30 à 22h. Renseignements : electron.nyons@gmail.com. Site : https://www.lelectron.fr",
       "reader_question": "Serez-vous au concert « De l’île Noire au Montbrun » le 21 novembre à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 20h30 à 22h00",
@@ -3216,7 +3220,8 @@
       "why_it_matters": "Les lotos font partie de ces rendez-vous simples qui donnent un cadre concret à la vie des associations. Celui de Détente et loisirs réunit cette initiative associative et un après-midi programmé à la Maison de Pays, au cœur de Nyons.",
       "practical": "Dimanche 22 novembre 2026, de 14h à 17h. Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Téléphone : 04 75 27 26 96.",
       "reader_question": "Serez-vous présent au loto de Détente et loisirs à la Maison de Pays ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Dimanche 22 novembre 2026 de 14h00 à 17h00",
@@ -3254,7 +3259,8 @@
       "why_it_matters": "Une comédie est une belle occasion de sortir le soir à Nyons et de partager un moment de spectacle vivant. Les Turlupinades met en avant le travail de la Compagnie du Chien Noir, dans un créneau accessible pour une sortie culturelle du samedi.",
       "practical": "Samedi 5 décembre 2026, de 20h30 à 22h. Renseignements : electron.nyons@gmail.com. Site : www.lelectron.fr.",
       "reader_question": "Envie de découvrir Les Turlupinades avec la Compagnie du Chien Noir ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 20h30 à 22h00",
@@ -3291,7 +3297,8 @@
       "why_it_matters": "Le Téléthon est ici identifié comme un rendez-vous lié à la solidarité et à la santé. Sa tenue sur un week-end entier en fait un temps fort inscrit dans l’agenda nyonsais, les 5 et 6 décembre 2026.",
       "practical": "Téléthon 2026 à Nyons, du samedi 5 décembre 2026 à 00h00 au dimanche 6 décembre 2026 à 23h59.",
       "reader_question": "Serez-vous à Nyons pour le week-end du Téléthon 2026 ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59",
@@ -3330,7 +3337,8 @@
       "why_it_matters": "Cette conférence offre un temps de culture et de réflexion autour de grandes représentations du monde. La présence d’un astrophysicien, professeur à l’INSA de Lyon, donne à cette rencontre un ancrage scientifique, tout en laissant place au dialogue annoncé entre mythes et modèles.",
       "practical": "Lundi 7 décembre 2026, de 15 h à 17 h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Contact : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Comment les mythes et les modèles participent-ils à notre représentation du monde ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Lundi 07 décembre 2026 de 15h00 à 17h00",
@@ -3369,7 +3377,8 @@
       "why_it_matters": "C’est une occasion de découvrir ou de pratiquer le yoga du chant au sein d’un atelier animé par Ghislaine Checchini. Une proposition associative locale, organisée sur une matinée à l’Île Verte.",
       "practical": "Samedi 12 décembre 2026, de 10h à 12h, à l’Île Verte, 1 avenue Frédéric Mistral à Nyons. Contact : 06 20 88 60 35 ou peroliere@gmail.com.",
       "reader_question": "Avez-vous envie de participer à cet Atelier Yoga du Chant à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "samedi 12 décembre 2026 de 10h à 12h",
@@ -3407,7 +3416,8 @@
       "why_it_matters": "Cher Edouard propose un temps de culture vivante à Nyons, porté par la Cie d’ici ou d’Ailleurs. Pour les amateurs de théâtre comme pour ceux qui cherchent une sortie culturelle le dimanche, cette comédie offre un rendez-vous clairement identifié dans la journée.",
       "practical": "Dimanche 13 décembre 2026, de 17h à 18h30. Contact : electron.nyons@gmail.com. Informations : www.lelectron.fr.",
       "reader_question": "Envie de découvrir la comédie Cher Edouard à Nyons ce dimanche 13 décembre ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Dimanche 13 décembre 2026 de 17h00 à 18h30",
@@ -3446,7 +3456,8 @@
       "why_it_matters": "Cette conférence offre un temps consacré à l’histoire et au patrimoine culturel, autour d’un personnage majeur du Moyen Âge. C’est aussi une occasion de retrouver à Nyons une proposition de l’UNTL animée par un historien médiéviste.",
       "practical": "Lundi 14 décembre 2026, de 15h à 17h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37, contact@untl.net, untl.net.",
       "reader_question": "Souhaitez-vous découvrir Louis XI à travers cette conférence d’Alain Saint-Denis ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Lundi 14 décembre 2026 de 15h00 à 17h00",
@@ -3484,7 +3495,8 @@
       "why_it_matters": "Cette date réunit à Nyons une œuvre de James Matthew Barrie et le travail du TRAC de Beaumes-de-Venise. Inscrite dans « Nyons en Fête », elle offre un rendez-vous culturel en soirée à la Maison de Pays.",
       "practical": "Vendredi 18 décembre 2026, de 20h à 22h, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
       "reader_question": "Allez-vous découvrir Peter Pan ou l’Enfant Jamais à la Maison de Pays ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 18 décembre 2026 de 20h00 à 22h00",
@@ -3522,7 +3534,8 @@
       "why_it_matters": "Cette proposition ajoute un temps de théâtre à « Nyons en Fête ». Entre comédie, magie et humour, elle offre une sortie culturelle identifiée, portée par la cie RêVOLT, au cœur de l’après-midi du 29 décembre.",
       "practical": "Mardi 29 décembre 2026, de 15h à 16h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Plus d’informations sur theatrerevolt.com.",
       "reader_question": "Envie de retrouver les clés du traîneau avec la cie RêVOLT ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Mardi 29 décembre 2026 de 15h00 à 16h00",
@@ -3560,7 +3573,8 @@
       "why_it_matters": "Ce concert réunit piano et quatuor à cordes pour une proposition musicale dédiée au premier jour de l’année. Intégré à « Nyons en Fête », il offre un rendez-vous culturel précis pour marquer le passage au Nouvel An à Nyons.",
       "practical": "Vendredi 1er janvier 2027, de 17h à 18h10. Renseignements : 04 75 26 50 10, l.flouret@nyons.com. Site de Rebecca Chaillot : rebeccachaillot.fr.",
       "reader_question": "Envie de commencer l’année 2027 en musique avec ce concerto à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 01 janvier 2027 de 17h00 à 18h10",
@@ -3599,7 +3613,8 @@
       "why_it_matters": "Cette conférence offre un temps consacré à la toponymie locale, dans un cadre culturel et associatif. C’est une occasion de s’intéresser aux noms qui jalonnent le territoire, avec une présentation assurée par Robert Gleize.",
       "practical": "Lundi 4 janvier 2027, de 15 h à 17 h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Quels noms de lieux de Nyons vous intriguent le plus ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Lundi 04 janvier 2027 de 15h00 à 17h00",
@@ -3624,15 +3639,8 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/"
     },
@@ -3644,7 +3652,8 @@
       "why_it_matters": "Cette sortie propose de découvrir un récit de renaissance à travers des thèmes concrets et personnels. L’enfance, la santé mentale, le kung-fu et la pop cantonaise s’y croisent dans une création portée par Matthias Fortune.",
       "practical": "Vendredi 8 janvier 2027, de 20h à 21h20. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : compagnielehomardbleu.com/jackiechan.",
       "reader_question": "Quel écho vous inspire ce lien entre kung-fu, enfance et pop cantonaise ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 08 janvier 2027 de 20h00 à 21h20",
@@ -3669,8 +3678,14 @@
       "end_date": "2027-01-09",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
+        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/"
@@ -3683,7 +3698,8 @@
       "why_it_matters": "C’est une proposition associative à Nyons qui réunit, dans son intitulé même, le yoga et le chant. Le rendez-vous offre un créneau précis de deux heures, en matinée, à l’Ile Verte, avec l’animation de Ghislaine Checchini.",
       "practical": "Samedi 9 janvier 2027, de 10h à 12h, à l’Ile Verte, 1 avenue Frédéric Mistral à Nyons. Contact : 06 20 88 60 35 ou peroliere@gmail.com.",
       "reader_question": "Avez-vous envie de participer à cet atelier Yoga du Chant à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "samedi 9 janvier 2027 de 10h à 12h",
@@ -3722,7 +3738,8 @@
       "why_it_matters": "Cette conférence offre un temps consacré à Albert Camus dans un cadre local et associatif. Pour les personnes intéressées par la littérature, l’écriture et les échanges culturels, c’est une occasion de retrouver cet auteur à Nyons avec l’éclairage de Jean-Michel Wavelet.",
       "practical": "Lundi 11 janvier 2027, de 15h à 17h, à la Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Souhaitez-vous découvrir Albert Camus à travers le thème de la voix de la pauvreté ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Lundi 11 janvier 2027 de 15h00 à 17h00",
@@ -3761,7 +3778,8 @@
       "why_it_matters": "Cette conférence offre un temps consacré à l’histoire du Dauphiné et à ses acteurs ruraux du XVIIIe siècle. C’est une proposition culturelle locale pour celles et ceux qui souhaitent découvrir ce sujet avec Martine Lambert et l’UNTL.",
       "practical": "Jeudi 21 janvier 2027, de 15h à 17h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Vous intéressez-vous à l’histoire rurale du Dauphiné au XVIIIe siècle ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Jeudi 21 janvier 2027 de 15h00 à 17h00",
@@ -3799,7 +3817,8 @@
       "why_it_matters": "C’est une occasion de revenir à un lien fort entre Nyons et René Barjavel : celui de sa naissance dans la cité, en 1911. En réunissant patrimoine, culture vivante et littérature autour de son nom, les Rencontres replacent son itinéraire de journaliste et d’écrivain dans son ancrage nyonsais.",
       "practical": "Les Rencontres Barjavel ont lieu du vendredi 22 janvier à 9 h au samedi 23 janvier 2027 à 19 h. Contact : 04 75 26 50 36 ou l.flouret@nyons.com.",
       "reader_question": "Connaissiez-vous les liens de René Barjavel avec Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Du vendredi 22 janvier 2027 de 09h00 au samedi 23 janvier 2027 à 19h00",
@@ -3838,7 +3857,8 @@
       "why_it_matters": "Cette conférence offre un temps culturel consacré à une œuvre précisément identifiée : « Guernica » de Pablo Picasso. La présence de Sabine Schütz, historienne et critique d’art, donne à cette rencontre un cadre dédié à l’histoire de l’art, porté par la vie associative nyonsaise.",
       "practical": "Mercredi 27 janvier 2027, de 18h à 20h, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37, contact@untl.net, untl.net.",
       "reader_question": "Avez-vous envie de découvrir « Guernica » de Picasso lors de cette conférence à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 27 janvier 2027 de 18h00 à 20h00",
@@ -3877,7 +3897,8 @@
       "why_it_matters": "Voilà une sortie pour celles et ceux qui souhaitent consacrer une soirée à la réflexion économique, avec une conférence centrée sur la France et les idées de ses penseurs. La présentation de Gilbert Font donne un cadre précis à ce rendez-vous proposé par l’UNTL à Nyons.",
       "practical": "Mercredi 3 février 2027, de 18 h à 20 h, à la Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Contact : 04 75 26 41 37 · contact@untl.net · untl.net.",
       "reader_question": "Souhaitez-vous assister à cette conférence de l’UNTL sur les penseurs économiques ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 28 avril 2027 de 18h00 à 20h00",
@@ -3915,7 +3936,8 @@
       "why_it_matters": "C’est une belle occasion de retrouver l’œuvre de Jean Giono sous un autre éclairage : celui d’un conte vivant, joué et mis en musique. Une sortie culturelle d’une heure à la Maison de Pays, au cœur de Nyons.",
       "practical": "Samedi 6 février 2027, de 19h à 20h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
       "reader_question": "Connaissez-vous le livre « Les grands chemins » de Jean Giono ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 06 février 2027 de 19h00 à 20h00",
@@ -3954,7 +3976,8 @@
       "why_it_matters": "Cet atelier offre un rendez-vous associatif identifié autour du yoga du chant, dans un lieu bien connu de Nyons. Animé par Ghislaine Checchini pour l’association Amate, il propose un créneau de deux heures un samedi matin.",
       "practical": "Samedi 13 février 2027, de 10h à 12h, à l’Ile Verte, 1 avenue Frédéric Mistral, 26110 Nyons. Contact : 06 20 88 60 35 ou peroliere@gmail.com.",
       "reader_question": "Avez-vous envie de découvrir le yoga du chant avec l’association Amate ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "samedi 13 février 2027 de 10h à 12h",
@@ -3979,15 +4002,8 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/"
     },
@@ -3999,7 +4015,8 @@
       "why_it_matters": "Cette date offre à Nyons une sortie culturelle centrée sur un croisement musical précis : le jazz et les musiques orientales. Blue Maqam met en avant cette rencontre d’influences, pour un moment dédié à l’écoute et à la découverte d’un univers musical identifié.",
       "practical": "Vendredi 19 février 2027, de 20h à 21h15. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : renaudgarciafons.com.",
       "reader_question": "Avez-vous envie de découvrir Blue Maqam et son dialogue entre jazz et musiques orientales ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 19 février 2027 de 20h00 à 21h15",
@@ -4024,8 +4041,15 @@
       "end_date": "2027-03-10",
       "summary": "Si les histoires d’amour ressemblaient aux contes de fées, cela se saurait !",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/"
     },
@@ -4037,7 +4061,8 @@
       "why_it_matters": "Cette sortie offre à Nyons une soirée culturelle autour d’un sujet universel : l’amour et l’écart entre les rêves racontés et la réalité. Le titre comme le propos annoncé donnent une couleur originale à ce rendez-vous du mois de mars.",
       "practical": "Mercredi 10 mars 2027, de 20h à 21h10. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Informations complémentaires sur le site de la Comédie de Valence.",
       "reader_question": "Les histoires d’amour vous font-elles davantage penser aux contes de fées ou à la vraie vie ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 10 mars 2027 de 20h00 à 21h10",
@@ -4076,7 +4101,8 @@
       "why_it_matters": "Cet atelier met en lumière une activité portée par une association locale, autour du Yoga du Chant. Pour les personnes qui cherchent une sortie de loisirs à Nyons le samedi matin, c’est un rendez-vous identifié, animé par Ghislaine Checchini.",
       "practical": "Samedi 13 mars 2027, de 10h à 12h. Île Verte, 1 avenue Frédéric Mistral, 26110 Nyons. Contact : 06 20 88 60 35 ou peroliere@gmail.com.",
       "reader_question": "Avez-vous déjà participé à un atelier de Yoga du Chant ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "samedi 13 mars 2027 de 10h à 12h",
@@ -4115,7 +4141,8 @@
       "why_it_matters": "Pi est le sujet central de cette conférence, portée par un intervenant agrégé de mathématiques. C’est une sortie culturelle à Nyons pour consacrer un après-midi à ce thème mathématique, dans le cadre d’un rendez-vous proposé par l’UNTL.",
       "practical": "Dimanche 14 mars 2027, de 15h à 17h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Contact : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Que souhaiteriez-vous savoir sur Pi ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Dimanche 14 mars 2027 de 15h00 à 17h00",
@@ -4154,7 +4181,8 @@
       "why_it_matters": "Cette conférence offre un temps de réflexion autour de la domesticité et des relations humaines qu’elle recouvre. La présence de Michèle Margain, à la fois généalogiste, écrivaine et attentive aux terroirs, donne à cette soirée une approche ancrée dans les personnes et leurs parcours.",
       "practical": "Mercredi 17 mars 2027, de 18h à 20h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Que vous évoquent les notions de servilité et de fidélité dans la domesticité ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 17 mars 2027 de 18h00 à 20h00",
@@ -4192,7 +4220,8 @@
       "why_it_matters": "Cette sortie propose un regard théâtral sur l’amour, avec une tonalité qui mêle humour, insolence et trouble. Une occasion de découvrir à Nyons le travail de Charlotte Adrien, réalisé en collaboration avec le CCDV, dans le cadre d’un rendez-vous culturel vivant.",
       "practical": "Vendredi 19 mars 2027, de 20h à 21h30, à la Maison de Pays, 128 promenade de la Digue à Nyons. Tél. 04 75 26 50 10. Contact : l.flouret@nyons.com. Site : cddv-vaucluse.com.",
       "reader_question": "Envie de regarder l’amour en face à travers ce rituel théâtral ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 19 mars 2027 de 20h00 à 21h30",
@@ -4231,7 +4260,8 @@
       "why_it_matters": "Cette conférence offre à Nyons un rendez-vous culturel centré sur un sujet scientifique clairement identifié. La présence de Jean-Loup Rubino, de l’Université de la Sorbonne, donne à cette rencontre de l’UNTL un cadre universitaire, accessible lors d’une soirée de deux heures.",
       "practical": "Mercredi 24 mars 2027, de 18h à 20h, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Renseignements : 04 75 26 41 37, contact@untl.net, untl.net.",
       "reader_question": "Le thème de la glaciation ordovicienne du Gondwana vous intéresse-t-il ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 24 mars 2027 de 18h00 à 20h00",
@@ -4270,7 +4300,8 @@
       "why_it_matters": "Cette conférence offre un rendez-vous culturel porté par l’UNTL à Nyons. C’est l’occasion d’assister à une présentation de Dominique Phélebon autour de « Sapienza Galiarda », dans le cadre de la vie associative locale.",
       "practical": "Mercredi 31 mars 2027, de 18h30 à 20h30, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Contact : 04 75 26 41 37 · contact@untl.net · untl.net.",
       "reader_question": "Souhaitez-vous assister à la conférence « Sapienza Galiarda » proposée par l’UNTL ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 31 mars 2027 de 18h30 à 20h30",
@@ -4308,7 +4339,8 @@
       "why_it_matters": "Cette soirée met la poésie au premier plan, sans la séparer de la musique. L’accordéon, le violoncelle et la voix composent une forme vivante, portée par trois artistes, dans le cadre du Printemps des Poètes à Nyons.",
       "practical": "Vendredi 2 avril 2027, de 20h30 à 21h30, à la Maison de Pays, 128 Promenade de la Digue à Nyons. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com.",
       "reader_question": "Avez-vous envie de découvrir cette rencontre entre poésie, accordéon, violoncelle et voix ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 02 avril 2027 de 20h30 à 21h30",
@@ -4347,7 +4379,8 @@
       "why_it_matters": "C’est une occasion de découvrir ou d’approcher autrement Pieter Bruegel l’ancien à travers une conférence animée par une spécialiste de l’histoire et de la critique d’art. Un rendez-vous culturel local porté par l’UNTL, au cœur de Nyons.",
       "practical": "Mercredi 7 avril 2027, de 18h à 20h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Contact : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Souhaitez-vous découvrir « Les Jeux d’Enfants » de Pieter Bruegel l’ancien avec Sabine Schütz ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 07 avril 2027 de 18h00 à 20h00",
@@ -4372,14 +4405,8 @@
       "end_date": "2027-04-10",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/"
@@ -4392,7 +4419,8 @@
       "why_it_matters": "C’est une sortie locale qui associe deux pratiques dans un même atelier : le yoga et le chant. Porté par l’association Amate et animé par Ghislaine Checchini, ce rendez-vous propose un temps de loisir associatif à Nyons.",
       "practical": "Samedi 10 avril 2027, de 10h à 12h. Île Verte, 1 avenue Frédéric-Mistral, 26110 Nyons. Contact : 06 20 88 60 35 ou peroliere@gmail.com.",
       "reader_question": "Avez-vous envie de découvrir le Yoga du Chant avec l’association Amate à Nyons ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "samedi 10 avril 2027 de 10h à 12h",
@@ -4430,7 +4458,8 @@
       "why_it_matters": "Landing offre une sortie culturelle du soir à Nyons, portée par une idée simple : un mouvement peut se poursuivre même après une chute. Le format d’1 h 10 permet de réserver un vrai temps pour ce rendez-vous, sans y consacrer toute la soirée.",
       "practical": "Vendredi 23 avril 2027, de 20h30 à 21h40. Renseignements : 04 75 26 50 10, l.flouret@nyons.com. Site : cie-xpress.org/landingf.",
       "reader_question": "Cette phrase, « Tomber n’est pas la fin du mouvement », vous parle-t-elle ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 23 avril 2027 de 20h30 à 21h40",
@@ -4469,7 +4498,8 @@
       "why_it_matters": "L’éducation populaire constitue le cœur de cette conférence. C’est une occasion de suivre l’éclairage d’un intervenant spécialisé sur un sujet qui relie réflexion, histoire sociale et histoire politique, au sein d’un rendez-vous culturel et associatif à Nyons.",
       "practical": "Lundi 26 avril 2027, de 15h à 17h, à la Maison de Pays, 128 promenade de la Digue à Nyons. Contact : 04 75 26 41 37 ou contact@untl.net.",
       "reader_question": "Souhaitez-vous découvrir l’histoire de l’éducation populaire avec Philippe Fréchet ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Lundi 26 avril 2027 de 15h00 à 17h00",
@@ -4508,7 +4538,8 @@
       "why_it_matters": "C’est une proposition associative dédiée au Yoga du Chant, avec une animation assurée par Ghislaine Checchini. Le créneau de deux heures permet de prévoir sa participation sur la matinée du samedi, dans un lieu situé à Nyons.",
       "practical": "Samedi 8 mai 2027, de 10 h à 12 h. Île Verte, 1 avenue Frédéric-Mistral, 26110 Nyons. Contact : 06 20 88 60 35 ou peroliere@gmail.com.",
       "reader_question": "Souhaitez-vous participer à l’atelier Yoga du Chant du samedi matin ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "samedi 8 mai 2027 de 10h à 12h",
@@ -4546,7 +4577,8 @@
       "why_it_matters": "C’est une sortie culturelle qui met la musique au premier plan, dans un format annoncé comme un laboratoire de vibrations. Le partenariat avec les Jeunesses Musicales de France inscrit aussi ce rendez-vous dans une démarche de diffusion musicale vivante à Nyons.",
       "practical": "Vendredi 14 mai 2027, de 10h30 à 15h20. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Site : jmfrance.org/spectacles/boite-a-cordees.",
       "reader_question": "Quelle vibration musicale vous intrigue le plus dans cette Boite à cordées ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 14 mai 2027 de 10h30 à 15h20",
@@ -4584,7 +4616,8 @@
       "why_it_matters": "Cette représentation donne rendez-vous avec un texte d’Alfred de Musset interprété par la compagnie Capharnaüm. Une sortie culturelle à Nyons pour retrouver le théâtre sur scène, entre le rire et le drame annoncés par la pièce.",
       "practical": "Jeudi 20 mai 2027, de 20h30 à 22h00, à la Maison de Pays, 128 promenade de la Digue à Nyons. Renseignements : 04 75 26 50 10.",
       "reader_question": "Avez-vous envie de retrouver Alfred de Musset sur la scène de la Maison de Pays ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Jeudi 20 mai 2027 de 20h30 à 22h00",
@@ -4622,7 +4655,8 @@
       "why_it_matters": "C’est une occasion de prendre part à une proposition culturelle vivante à Nyons, autour de La Caravane Exquise. La restitution publique offre un rendez-vous de journée, entre culture, patrimoine et loisirs.",
       "practical": "Samedi 28 novembre 2026, de 10h à 19h. Renseignements : 06 76 26 81 98 ou y.crespel@cc-bdp.fr. Site : cc-bdp.fr.",
       "reader_question": "Vous avez envie de découvrir cette escale toposensible de La Caravane Exquise ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 10h00 à 19h00",
@@ -6907,7 +6941,8 @@
       "why_it_matters": "Pour les amateurs de contes et de culture vivante, « La Loba » offre un temps culturel porté par Contes et Rencontres à Nyons. Une proposition locale dont le titre et la parole invitent à entrer dans l’univers de la loba.",
       "practical": "Samedi 21 novembre 2026, à la Maison des associations Georges Girard, Draye de Meyne, 26110 Nyons. Contact : contesetrencontres.nyons@gmail.com. Site : contesetrencontres26.org.",
       "reader_question": "Quelle image vous évoque cette invitation à aller dans le bois ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 15h00 à 12h00",
@@ -6971,9 +7006,15 @@
       "end_date": "2026-11-28",
       "summary": "À la Maison de Pays dès 10h30",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/"
     },
@@ -6985,7 +7026,8 @@
       "why_it_matters": "Pour les habitants comme pour les visiteurs de passage, ce salon met le livre au premier plan dans un lieu bien connu de Nyons. C’est une sortie culturelle proposée sur une journée entière, à la Maison de Pays, sous le signe des contes et des rencontres.",
       "practical": "Samedi 28 novembre 2026, de 10h30 à 23h00. Maison de Pays, 128 Promenade de la Digue, 26110 Nyons. Contact : contesetrencontres.nyons@gmail.com. Site : contesetrencontres26.org.",
       "reader_question": "Prévoyez-vous de passer par la Maison de Pays pour le Salon du livre de « Contes et Rencontres » ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 10h30 à 23h00",
@@ -7023,7 +7065,8 @@
       "why_it_matters": "Cette rencontre offre un temps dédié aux personnes qui envisagent la transmission de leur exploitation agricole. Pouvoir échanger avec un conseiller spécialisé permet d’aborder concrètement ses questions dans le cadre d’un entretien individuel, sur une journée entière.",
       "practical": "Mercredi 25 novembre 2026, de 9h à 17h. Renseignements au 06 70 82 90 44. Plus d’informations : cc-bdp.fr/2026/09/transmission-agricole-2-rendez-vous-pour-preparer-lavenir-de-son-exploitation/.",
       "reader_question": "Souhaitez-vous échanger avec un conseiller spécialisé sur la transmission de votre exploitation ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 25 novembre 2026 de 09h00 à 17h00",
@@ -7098,7 +7141,8 @@
       "why_it_matters": "L’intelligence artificielle prend une place grandissante dans les débats de société. Cette exposition à Nyons propose de s’arrêter sur la nécessité d’encadrer son développement, en gardant en tête à la fois ses promesses et les questions qu’elle pose.",
       "practical": "Du vendredi 6 novembre à 10h au samedi 28 novembre 2026 à 18h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Tél. 04 75 26 48 26.",
       "reader_question": "Comment voyez-vous la place d’un cadre pour le développement de l’intelligence artificielle ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du vendredi 06 novembre 2026 de 10h00 au samedi 28 novembre 2026 à 18h00",
@@ -7261,7 +7305,8 @@
       "why_it_matters": "C’est une occasion de faire une pause devant les images qui nous entourent et de réfléchir à la manière dont elles sont comprises ou utilisées. À la médiathèque, ce jeu met la photographie au cœur d’une approche culturelle, attentive aux multiples sens qu’une image peut prendre.",
       "practical": "Samedi 28 novembre 2026, de 10h30 à 12h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Renseignements : 04 75 26 48 26 ou mddp-nyons@ladrome.fr.",
       "reader_question": "Quelle photographie vous donnerait envie d’en chercher l’origine ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 10h30 à 12h00",
@@ -7300,7 +7345,8 @@
       "why_it_matters": "C’est une sortie de décembre directement liée à la préparation de Noël, proposée dans un lieu culturel bien connu à Nyons. Le créneau du samedi matin permet de consacrer un moment à ce rendez-vous avant les fêtes, dans le cadre de « Samedi, ça me dit ! ».",
       "practical": "Samedi 5 décembre 2026, de 10h30 à 12h, à la Médiathèque, 9 rue Albin Vilhet, 26110 Nyons. Tél. : 04 75 26 48 26. Courriel : mddp-nyons@ladrome.fr.",
       "reader_question": "Envie de préparer Noël à la Médiathèque de Nyons ce samedi matin ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 10h30 à 12h00",
@@ -7339,7 +7385,8 @@
       "why_it_matters": "Les histoires racontées sont une belle porte d’entrée vers la culture pour les tout-petits. Toupetituli offre un temps dédié aux jeunes oreilles, dans le cadre familier de la Médiathèque de Nyons, autour de récits portés par les bibliothécaires.",
       "practical": "Samedi 19 décembre 2026, de 11h à 12h, à la Médiathèque, 9 rue Albin Vilhet à Nyons. Renseignements : 04 75 26 48 26 ou mddp-nyons@ladrome.fr.",
       "reader_question": "Quel petit amateur d’histoires emmènerez-vous à Toupetituli ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 19 décembre 2026 de 11h00 à 12h00",
@@ -7528,7 +7575,8 @@
       "why_it_matters": "Cette sortie met en lumière une approche thérapeutique consacrée aux liens familiaux et à ce qui peut se transmettre entre générations. Elle offre un temps consacré à ces histoires, schémas et bagages émotionnels qui accompagnent parfois les parcours familiaux.",
       "practical": "Samedi 21 novembre 2026, de 13h30 à 19h30, au collectif le Papillon, 10 avenue Jules Bernard à Nyons. Renseignements : 06 47 18 92 87.",
       "reader_question": "Les transmissions familiales vous intéressent-elles ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 13h30 à 19h30",
@@ -7553,7 +7601,15 @@
       "end_date": "2027-04-18",
       "summary": "1er tour des élections présidentielles.",
       "categories": [
-        "Solidarité / Santé"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/1er-tour-des-elections-presidentielles/"
     },
@@ -7565,7 +7621,8 @@
       "why_it_matters": "Une élection présidentielle constitue un moment important de la vie démocratique. Le premier tour permet aux électrices et électeurs de participer au choix qui ouvre cette échéance nationale. À Nyons, la journée du 18 avril 2027 est donc à noter dès maintenant.",
       "practical": "Dimanche 18 avril 2027, de 8h à 18h. Premier tour des élections présidentielles à Nyons.",
       "reader_question": "Avez-vous noté la date du premier tour dans votre agenda ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Dimanche 18 avril 2027 de 08h00 à 18h00",
@@ -7602,7 +7659,8 @@
       "why_it_matters": "Une élection présidentielle engage un choix qui dépasse largement la journée elle-même. Ce second tour est un moment concret de participation démocratique, où chaque vote exprimé compte dans le résultat final de l’élection.",
       "practical": "Dimanche 2 mai 2027, de 8 h à 18 h.",
       "reader_question": "Prévoyez-vous de voter lors du second tour le 2 mai 2027 ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Dimanche 02 mai 2027 de 08h00 à 18h00",
@@ -7740,8 +7798,15 @@
       "end_date": "2026-11-21",
       "summary": "Organisée par les Nounous Super Chouette, samedi 21 novembre à la Maison de Pays.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
         "Enfance / Jeunesse",
-        "Vie associative"
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/bourse-aux-jouets/"
     },
@@ -7753,7 +7818,8 @@
       "why_it_matters": "Une bourse aux jouets est un rendez-vous concret pour les familles et les personnes intéressées par l’univers de l’enfance. À Nyons, l’événement met aussi en lumière l’action des Nounous Super Chouette dans le cadre de la vie associative locale.",
       "practical": "Samedi 21 novembre 2026, de 9 h à 17 h. Maison de Pays, 128 promenade de la Digue, 26110 Nyons. Tél. : 06 22 23 28 67. Email : asmat26110@gmail.com.",
       "reader_question": "Prévoyez-vous de passer à la Maison de Pays pour cette bourse aux jouets ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 09h00 à 17h00",
@@ -7792,7 +7858,8 @@
       "why_it_matters": "Cette exposition donne une place visible à une initiative associative nyonsaise autour des laines et des colliers. Pour les habitants comme pour les visiteurs de passage pendant les fêtes, elle propose un rendez-vous culturel ancré dans la vie locale, au centre de Nyons.",
       "practical": "Du mercredi 23 décembre 2026 à 14 h au vendredi 1er janvier 2027 à 18 h. Espace Roumanille, place de la Libération, 26110 Nyons. Contact : 06 89 33 48 54 — anima-ong@orange.fr.",
       "reader_question": "Irez-vous découvrir l’exposition de l’atelier de laines et de colliers d’ANIMA ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du mercredi 23 décembre 2026 de 14h00 au vendredi 01 janvier 2027 à 18h00",
@@ -7867,7 +7934,8 @@
       "why_it_matters": "Cette cérémonie offre un rendez-vous municipal en ce début d’année à Nyons. Organisée à la Maison de Pays, elle marque un temps officiel du calendrier local et rassemble les vœux de la mairie pour 2027.",
       "practical": "Mardi 12 janvier 2027, de 18h30 à 20h00, à la Maison de Pays. Renseignements : 04 75 26 50 00.",
       "reader_question": "Serez-vous présent à la cérémonie des vœux de la mairie le 12 janvier ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Mardi 12 janvier 2027 de 18h30 à 20h00",
@@ -10438,7 +10506,8 @@
       "why_it_matters": "La récolte des oliveraies communales sert ici une action de solidarité locale. La Ville propose de participer entre collègues, entre amis ou en famille. Le rendez-vous commence par un café et des croissants avant la cueillette.",
       "practical": "Pour cette séance du 21 novembre, rendez-vous à 7 h 30 au Centre Technique Municipal, 66 avenue Frédéric Mistral à Nyons ; fin annoncée à 12 h. Inscription à l’accueil de la mairie ou au 04 75 26 50 00. Renseignements : r.viarsac@nyons.com. Les trois dates annoncées sont les 7, 14 et 21 novembre 2026.",
       "reader_question": "Avec qui viendrez-vous donner un coup de main dans les oliveraies ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 07h30 à 12h00",
@@ -10476,7 +10545,8 @@
       "why_it_matters": "Le format annoncé est une initiation de quatre heures. Le lieu, la participation demandée et le contact d’inscription permettent de préparer sa venue et de demander les modalités directement à Annabel.",
       "practical": "Samedi 28 novembre, de 14 h à 18 h, au Collectif le Papillon, 10 avenue Jules Bernard à Nyons. Participation annoncée : 50 €. Renseignements et inscriptions auprès d’Annabel au 06 81 80 05 73. Contact également indiqué : djilanab@yahoo.fr.",
       "reader_question": "Préférez-vous découvrir cet atelier en couple, entre amis ou en famille ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 14h00 à 18h00",
@@ -10662,7 +10732,8 @@
       "why_it_matters": "Plusieurs actions sont réunies dans la même journée à la maison de santé. Lors de la prise de rendez-vous, l’équipe pourra préciser les créneaux et les démarches correspondant aux actions proposées.",
       "practical": "Rendez-vous samedi 28 novembre 2026, de 9 h 30 à 17 h 45, à la Maison de santé Émile Lisbonne, 21 rue Émile Lisbonne à Nyons. Accès gratuit uniquement sur rendez-vous : 04 75 43 85 31. Les tranches d’âge ci-dessus reprennent le programme de cette journée.",
       "reader_question": "Avez-vous relevé le numéro pour demander votre rendez-vous ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 09h30 à 17h45",
@@ -10794,7 +10865,8 @@
       "story": "Du 2 novembre au 11 décembre 2026, chacun peut écrire quelques mots bienveillants à destination d’un enfant, d’une femme ou d’un homme. Les lettres sont collectées au Carrefour des habitants, à la Maison des associations Georges Girard, Draye de Meyne à Nyons. Pour connaître les modalités de dépôt, contactez le 04 75 26 47 31.",
       "why_it_matters": "Cette action propose une manière simple de participer à la solidarité de Noël : prendre le temps d’écrire à quelqu’un. Il ne s’agit pas d’un spectacle à une heure précise, mais d’une collecte organisée sur plusieurs semaines, qui laisse le temps de préparer son message.",
       "practical": "Collecte du 2 novembre au 11 décembre 2026 au Carrefour des habitants, Maison des associations Georges Girard, Draye de Meyne, 26110 Nyons. Renseignements : 04 75 26 47 31. Les bornes annoncées sont le 2 novembre à 9 h et le 11 décembre à 17 h ; contactez l’association pour les horaires effectifs de dépôt.",
-      "reader_question": "À qui aimeriez-vous adresser quelques mots bienveillants pour Noël ?"
+      "reader_question": "À qui aimeriez-vous adresser quelques mots bienveillants pour Noël ?",
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du lundi 02 novembre 2026 de 09h00 au vendredi 11 décembre 2026 à 17h00",
@@ -10826,12 +10898,13 @@
     "editorial": {
       "seo_title": "Journée mondiale de lutte contre le BPCO à Nyons",
       "meta_description": "Journée mondiale de lutte contre le BPCO : Jeudi 19 novembre 2026 de 08h30 à 12h00. Place Buffaven",
-      "intro": "Journée mondiale de lutte contre le BPCO est annoncé à Nyons le 19 novembre 2026. Ateliers de prévention et d’information !",
+      "intro": "À Nyons, « Journée mondiale de lutte contre le BPCO » est au programme le 19 novembre 2026. Ateliers de prévention et d’information !",
       "story": "Des ateliers de prévention et d’information sur cette maladie sont organisés à l’occasion du marché hebdomadaire. 👉 Vous avez un doute ou vous connaissez quelqu’un susceptible d’être concernés par cette maladie ? Cette journée est l’occasion pour vous ou votre proche de se faire dépister. Ce n’est pas une fatalité, venez en parler avec l’équipe pluriprofessionnelle des soignants de l’Orsac-Atrir (kinésithérapeute, enseignant(e) en activité physique adaptée, infirmière en tabacologie, IPA (Infirmière en Pratiques Avancées), ETP (Education thérapeutique du Patient) ! 😊",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 19 novembre 2026 de 08h30 à 12h00, Place Buffaven, Nyons. Renseignements : 04 75 26 55 00 ou communication@orsac-atrir.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Journée mondiale de lutte contre le BPCO » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Jeudi 19 novembre 2026 de 08h30 à 12h00",
@@ -10841,7 +10914,7 @@
       "email": "communication@orsac-atrir.fr",
       "website": "https://www.orsac-atrir.fr/"
     },
-    "generated_at": "2026-11-16T15:52:01.295817+00:00",
+    "generated_at": "2026-11-17T08:24:08.395664+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-19ae412f1ef3adea",
@@ -10861,12 +10934,13 @@
     "editorial": {
       "seo_title": "30e édition du Noël au Domaine Rocheville à Nyons",
       "meta_description": "30e édition du Noël au Domaine Rocheville : Du vendredi 04 décembre 2026 de 14h00 au samedi 05 décembre 2026 à 18h00. Domaine Rocheville, 117 ter Route de Montélimar - 26110 NYONS",
-      "intro": "30e édition du Noël au Domaine Rocheville est annoncé à Nyons du 4 décembre 2026 au 5 décembre 2026. Vendredi après-midi et samedi toute la journée.",
+      "intro": "À Nyons, « 30e édition du Noël au Domaine Rocheville » est au programme du 4 décembre 2026 au 5 décembre 2026. Vendredi après-midi et samedi toute la journée.",
       "story": "30e édition du Noël au Domaine Rocheville, 117 ter Route de Montélimar, vendredi après-midi et samedi toute la journée. Marché de Noël, dégustations, animations… Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du vendredi 04 décembre 2026 de 14h00 au samedi 05 décembre 2026 à 18h00, Domaine Rocheville, 117 ter Route de Montélimar - 26110 NYONS. Renseignements : 04 75 26 35 20.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « 30e édition du Noël au Domaine Rocheville » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du vendredi 04 décembre 2026 de 14h00 au samedi 05 décembre 2026 à 18h00",
@@ -10876,7 +10950,7 @@
       "email": "",
       "website": "https://domainerocheville.com/"
     },
-    "generated_at": "2026-11-16T15:52:24.723232+00:00",
+    "generated_at": "2026-11-17T08:24:09.431727+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-909d0efe474f49b3",
@@ -10891,20 +10965,28 @@
       "end_date": "2026-12-04",
       "summary": "Lancement des illuminations de Noël sur la place de la Libération à partir de 18h, défilé en musique, vin chaud et chocolat chaud offerts.",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Culture"
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/illumination-de-la-ville/"
     },
     "editorial": {
       "seo_title": "Illumination de la Ville à Nyons",
       "meta_description": "Illumination de la Ville : Vendredi 04 décembre 2026 de 18h00 à 20h00. Place de la Libération - 26110 NYONS",
-      "intro": "Illumination de la Ville est annoncé à Nyons le 4 décembre 2026. Lancement des illuminations de Noël sur la place de la Libération à partir de 18h, défilé en musique, vin chaud et chocolat chaud offerts.",
+      "intro": "À Nyons, « Illumination de la Ville » est au programme le 4 décembre 2026. Lancement des illuminations de Noël sur la place de la Libération à partir de 18h, défilé en musique, vin chaud et chocolat chaud offerts.",
       "story": "Lancement des illuminations de Noël sur la place de la Libération à partir de 18h. Déambulation lumineuses des enfants, défilé en musique avec le trio « Misters Noël », vin chaud et chocolat chaud offerts place du Dr Bourdongle. Pour cette occasion, nous vous invitons à confectionner votre propre lanterne de Noël en papier à l’aide du patron en bas de page. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 04 décembre 2026 de 18h00 à 20h00, Place de la Libération - 26110 NYONS. Renseignements : 04 75 26 50 00.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Illumination de la Ville » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 04 décembre 2026 de 18h00 à 20h00",
@@ -10914,7 +10996,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:27.247284+00:00",
+    "generated_at": "2026-11-17T08:24:09.432680+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4547265b252c08b9",
@@ -10937,12 +11019,13 @@
     "editorial": {
       "seo_title": "Les Arcades fêtent Noël à Nyons",
       "meta_description": "Les Arcades fêtent Noël : Samedi 19 décembre 2026 de 10h00 à 18h00. Devant la librairie Pinet, place du Dr Bourdongle - 26110 NYONS",
-      "intro": "Les Arcades fêtent Noël est annoncé à Nyons le 19 décembre 2026. Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat.",
+      "intro": "À Nyons, « Les Arcades fêtent Noël » est au programme le 19 décembre 2026. Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat.",
       "story": "Les Arcades fêtent Noël : Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat. Rendez-vous devant la librairie Pinet, place du Dr Bourdongle, de 10h à 17h. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 19 décembre 2026 de 10h00 à 18h00, Devant la librairie Pinet, place du Dr Bourdongle - 26110 NYONS. Renseignements : 04 75 26 41 26.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Les Arcades fêtent Noël » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 19 décembre 2026 de 10h00 à 18h00",
@@ -10952,7 +11035,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:53.906435+00:00",
+    "generated_at": "2026-11-17T08:24:12.137834+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-17e209539df9c640",
@@ -10967,27 +11050,21 @@
       "end_date": "2026-12-03",
       "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/exposition-libre-detre/"
     },
     "editorial": {
       "seo_title": "Exposition « libre d’être » à Nyons",
       "meta_description": "Exposition « libre d’être » : Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00. Préau des Arts",
-      "intro": "Exposition « libre d’être » est annoncé à Nyons du 27 novembre 2026 au 3 décembre 2026. 14 artistes s'engagent avec le Planning Familial de Nyons",
+      "intro": "À Nyons, « Exposition « libre d’être » » est au programme du 27 novembre 2026 au 3 décembre 2026. 14 artistes s'engagent avec le Planning Familial de Nyons",
       "story": "À l’occasion des 50 ans du Planning Familial de Nyons et des 70 ans du Planning National , des artistes exposent leurs œuvres en lien avec les valeurs du Planning Familial. Au moins 50% du prix des œuvres vendues seront reversé à l’association. Le vernissage aura lieu le vendredi 27 novembre à 18h au",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00, Préau des Arts, 8 rue Pierre Toesca - 26110 NYONS. Renseignements : 04 75 26 43 26 ou secretariatnyons@laplanningfamilial26.org.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Exposition « libre d’être » » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00",
@@ -10997,7 +11074,7 @@
       "email": "secretariatnyons@laplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-16T15:52:14.107953+00:00",
+    "generated_at": "2026-11-17T08:24:09.208637+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b4a0415b95d07d7f",
@@ -11025,7 +11102,8 @@
       "why_it_matters": "Assister à ce concert, c’est prendre le temps d’écouter les musiciens en direct. Gardez les horaires et l’adresse sous la main pour rejoindre le lieu du concert avant le début.",
       "practical": "Dimanche 06 décembre 2026 de 15h00 à 18h00, Église Saint-Vincent - 26110 NYONS. Renseignements : 06 07 88 45 22 ou regine3108@gmail.com.",
       "reader_question": "Qu’aimeriez-vous retrouver dans ce concert ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Dimanche 06 décembre 2026 de 15h00 à 18h00",
@@ -11035,7 +11113,7 @@
       "email": "regine3108@gmail.com",
       "website": "https://choraledesoliviers.fr/"
     },
-    "generated_at": "2026-11-16T15:52:40.168805+00:00",
+    "generated_at": "2026-11-17T08:24:10.607743+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-0efc033762d28039",
@@ -11058,12 +11136,13 @@
     "editorial": {
       "seo_title": "Grande Tombola du Téléthon à Nyons",
       "meta_description": "Grande Tombola du Téléthon : Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00. Dans les commerces de Nyons et durant les manifestations - 26110 NYONS",
-      "intro": "Grande Tombola du Téléthon est annoncé à Nyons du 19 novembre 2026 au 5 décembre 2026. Vente de billets dans les commerces de Nyons et durant les manifestations et don de la recette au Téléthon.",
+      "intro": "À Nyons, « Grande Tombola du Téléthon » est au programme du 19 novembre 2026 au 5 décembre 2026. Vente de billets dans les commerces de Nyons et durant les manifestations et don de la recette au Téléthon.",
       "story": "Grande Tombola solidaire du Téléthon organisée par l’Union des Entreprises du Nyonsais avec la participation de la Mairie de Nyons. Vente de billets dans les commerces de Nyons et durant les manifestations, du 19 novembre au 5 décembre. Don de la recette au Téléthon. 3 € le billet, 1er prix : séjour de 3 jours et 2 nuits pour 2 adultes et 2 enfants à Europa-Park. Tirage au sort des gagnants de la tombola, samedi 5 décembre à 17h. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00, Dans les commerces de Nyons et durant les manifestations - 26110 NYONS. Renseignements : uennyons@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Grande Tombola du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00",
@@ -11073,7 +11152,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:00.337036+00:00",
+    "generated_at": "2026-11-17T08:24:08.395223+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11086,14 +11165,8 @@
       "end_date": "2026-12-03",
       "summary": "Organisé par Nyons Bridge Club.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
         "Vie associative",
-        "Culture",
         "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/tournoi-de-bridge-du-telethon/"
@@ -11101,12 +11174,13 @@
     "editorial": {
       "seo_title": "Tournoi de Bridge du Téléthon à Nyons",
       "meta_description": "Tournoi de Bridge du Téléthon : Jeudi 03 décembre 2026 de 14h00 à 18h00. Espace Roumanille, Draye de Meyne - 26110 NYONS",
-      "intro": "Tournoi de Bridge du Téléthon est annoncé à Nyons le 3 décembre 2026. Organisé par Nyons Bridge Club.",
+      "intro": "À Nyons, « Tournoi de Bridge du Téléthon » est au programme le 3 décembre 2026. Organisé par Nyons Bridge Club.",
       "story": "Tournoi de Bridge du Téléthon organisé par Nyons Bridge Club à l’Espace Roumanille, de 14h à 18h. Participation : 10 € par personne, au profit du Téléthon. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 03 décembre 2026 de 14h00 à 18h00, Espace Roumanille, Draye de Meyne - 26110 NYONS. Renseignements : 06 41 53 49 23 ou nyonsbc@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Tournoi de Bridge du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Jeudi 03 décembre 2026 de 14h00 à 18h00",
@@ -11116,7 +11190,7 @@
       "email": "nyonsbc@gmail.com",
       "website": "https://www.nyonsbridgeclub.fr/"
     },
-    "generated_at": "2026-11-16T15:52:22.392776+00:00",
+    "generated_at": "2026-11-17T08:24:09.209409+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11137,12 +11211,13 @@
     "editorial": {
       "seo_title": "Vente de sucrés et salés du Téléthon à Nyons",
       "meta_description": "Vente de sucrés et salés du Téléthon : Jeudi 03 décembre 2026 de 08h00 à 12h00. ",
-      "intro": "Vente de sucrés et salés du Téléthon est annoncé à Nyons le 3 décembre 2026. Proposée par le Comité des Fêtes et de Loisirs de Nyons.",
+      "intro": "À Nyons, « Vente de sucrés et salés du Téléthon » est au programme le 3 décembre 2026. Proposée par le Comité des Fêtes et de Loisirs de Nyons.",
       "story": "Vente de sucrés et salés proposée par le Comité des Fêtes et de Loisirs de Nyons , dans le cadre du Téléthon. Sur le marché, toute la matinée. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 03 décembre 2026 de 08h00 à 12h00.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Vente de sucrés et salés du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Jeudi 03 décembre 2026 de 08h00 à 12h00",
@@ -11152,7 +11227,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:23.383219+00:00",
+    "generated_at": "2026-11-17T08:24:09.431360+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11173,12 +11248,13 @@
     "editorial": {
       "seo_title": "Stands alimentaires et parcours ludique du Téléthon à Nyons",
       "meta_description": "Stands alimentaires et parcours ludique du Téléthon : Vendredi 04 décembre 2026 de 15h00 à 18h30. ",
-      "intro": "Stands alimentaires et parcours ludique du Téléthon est annoncé à Nyons le 4 décembre 2026. Organisés par le Lions Club et Courir à Nyons, sur la place du Dr Bourdongle.",
+      "intro": "À Nyons, « Stands alimentaires et parcours ludique du Téléthon » est au programme le 4 décembre 2026. Organisés par le Lions Club et Courir à Nyons, sur la place du Dr Bourdongle.",
       "story": "Dans le cadre du Téléthon, sur la place du Dr Bourdongle, : Fabrication traditionnelle de boudin antillais à la chaudière, vente de charcuterie et bar à huîtres proposé par le Lions Club, de 15h à 19h. Parcours ludique parents / enfants organisé par Courir à Nyons, de 17h30 à 18h30. Participation libre. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 04 décembre 2026 de 15h00 à 18h30.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Stands alimentaires et parcours ludique du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Vendredi 04 décembre 2026 de 15h00 à 18h30",
@@ -11188,7 +11264,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:28.469327+00:00",
+    "generated_at": "2026-11-17T08:24:09.659975+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11201,20 +11277,20 @@
       "end_date": "2026-12-04",
       "summary": "Devant Gamm Vert, 8 avenue de Venterol.",
       "categories": [
-        "Solidarité / Santé",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/vin-chaud-et-crepes-du-telethon/"
     },
     "editorial": {
       "seo_title": "Vin chaud et crêpes du Téléthon à Nyons",
       "meta_description": "Vin chaud et crêpes du Téléthon : Vendredi 04 décembre 2026 de 10h00 à 18h00. Gamm Vert",
-      "intro": "Vin chaud et crêpes du Téléthon est annoncé à Nyons le 4 décembre 2026. Devant Gamm Vert, 8 avenue de Venterol.",
+      "intro": "À Nyons, « Vin chaud et crêpes du Téléthon » est au programme le 4 décembre 2026. Devant Gamm Vert, 8 avenue de Venterol.",
       "story": "Vin chaud et crêpes devant",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 04 décembre 2026 de 10h00 à 18h00, Gamm Vert, 8 avenue de Venterol - 26110 NYONS. Renseignements : 04 75 26 04 20.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Vin chaud et crêpes du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 04 décembre 2026 de 10h00 à 18h00",
@@ -11224,7 +11300,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:29.521116+00:00",
+    "generated_at": "2026-11-17T08:24:09.660267+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11244,12 +11320,13 @@
     "editorial": {
       "seo_title": "Animation musicale du Téléthon à Nyons",
       "meta_description": "Animation musicale du Téléthon : Samedi 05 décembre 2026 de 19h00 à 21h00. Devant La Belle Époque / Les Palmiers, place de la Libération Nord - 26110 NYONS",
-      "intro": "Animation musicale du Téléthon est annoncé à Nyons le 5 décembre 2026. Devant La Belle Époque / Les Palmiers, place de la Libération Nord",
+      "intro": "À Nyons, « Animation musicale du Téléthon » est au programme le 5 décembre 2026. Devant La Belle Époque / Les Palmiers, place de la Libération Nord",
       "story": "Animation musicale du Téléthon , devant La Belle Époque / Les Palmiers, place de la Libération Nord. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 05 décembre 2026 de 19h00 à 21h00, Devant La Belle Époque / Les Palmiers, place de la Libération Nord - 26110 NYONS.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Animation musicale du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 19h00 à 21h00",
@@ -11259,7 +11336,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:30.651489+00:00",
+    "generated_at": "2026-11-17T08:24:09.891572+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11282,12 +11359,13 @@
     "editorial": {
       "seo_title": "Concours de pétanque du Téléthon à Nyons",
       "meta_description": "Concours de pétanque du Téléthon : Samedi 05 décembre 2026 de 14h00 à 17h00. Centre Régional de Boule sportive et Pétanque",
-      "intro": "Concours de pétanque du Téléthon est annoncé à Nyons le 5 décembre 2026. Au Centre Régional de Boule sportive et Pétanque",
+      "intro": "À Nyons, « Concours de pétanque du Téléthon » est au programme le 5 décembre 2026. Au Centre Régional de Boule sportive et Pétanque",
       "story": "Concours de pétanque en triplette montée du Téléthon , au",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 05 décembre 2026 de 14h00 à 17h00, Centre Régional de Boule sportive et Pétanque, 25 rue Félix-Maurent, ZAC des Laurons II - 26110 NYONS. Renseignements : 06 70 42 19 21 ou cl26-3007@francepetanque.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Concours de pétanque du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 14h00 à 17h00",
@@ -11297,7 +11375,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "http://www.nyons-petanque.com"
     },
-    "generated_at": "2026-11-16T15:52:32.958928+00:00",
+    "generated_at": "2026-11-17T08:24:09.892761+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11348,27 +11426,21 @@
       "end_date": "2026-12-05",
       "summary": "Sur la place de la Libération Nord.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel-de-luen-et-animations-du-telethon/"
     },
     "editorial": {
       "seo_title": "Marché de Noël de l’UEN et animations du Téléthon à Nyons",
       "meta_description": "Marché de Noël de l’UEN et animations du Téléthon : Samedi 05 décembre 2026 de 10h00 à 17h00. Place de la Libération Nord - 26110 NYONS",
-      "intro": "Marché de Noël de l’UEN et animations du Téléthon est annoncé à Nyons le 5 décembre 2026. Sur la place de la Libération Nord.",
+      "intro": "À Nyons, « Marché de Noël de l’UEN et animations du Téléthon » est au programme le 5 décembre 2026. Sur la place de la Libération Nord.",
       "story": "Rendez-vous sur la place de la Libération Nord de 10h à 17h, pour le Marché de Noël de l’Union des Entreprises du Nyonsais avec : • Promenades en calèche • Vente de marrons chauds • Spectacle de feu d’Indira à 18h • Fabrication traditionnelle de boudin antillais à la chaudière, vente de charcuterie et bar à huîtres par le Lions Club . • Crêpes, gâteaux, boissons chaudes, ateliers maquillage à partir de 15h par Les Nounous Super Chouettes . • Tournoi de sumo par Le Zen à 14h (5 € par combattant) • Animation musicale du Groupe musical du Nyonsais à 14h • Découverte du Shiatsu avec séances sur chaises de 20 mn, proposées par Shiatsu-Antei Do . Libre participation. • Verre de l’amitié offert par la municipalité et tirage au sort des gagnants de la tombola à 17h. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 05 décembre 2026 de 10h00 à 17h00, Place de la Libération Nord - 26110 NYONS. Renseignements : 06 73 35 66 72 ou uennyons@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Marché de Noël de l’UEN et animations du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 10h00 à 17h00",
@@ -11378,7 +11450,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:35.016345+00:00",
+    "generated_at": "2026-11-17T08:24:10.381736+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11400,12 +11472,13 @@
     "editorial": {
       "seo_title": "Tournoi de basket 3×3 du Téléthon à Nyons",
       "meta_description": "Tournoi de basket 3×3 du Téléthon : Vendredi 11 décembre 2026 de 17h30 à 20h00. Maison des sports Jean Monpeyssen - 26110 NYONS",
-      "intro": "Tournoi de basket 3×3 du Téléthon est annoncé à Nyons le 11 décembre 2026. Ouvert à tous, don de la recette pour le Téléthon.",
+      "intro": "À Nyons, « Tournoi de basket 3×3 du Téléthon » est au programme le 11 décembre 2026. Ouvert à tous, don de la recette pour le Téléthon.",
       "story": "Tournoi de basket 3×3 du Téléthon organisé par le Basket Club, vendredi 11 décembre à partir de 17h30. Ouvert à tous. Participation : 1 € par joueur minimum et don de la recette d’une buvette de décembre. Téléchargez le programme 2026 du Téléthon à Nyons",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 11 décembre 2026 de 17h30 à 20h00, Maison des sports Jean Monpeyssen - 26110 NYONS. Renseignements : 06 17 01 35 70 ou communications.nyonsbc@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Tournoi de basket 3×3 du Téléthon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 11 décembre 2026 de 17h30 à 20h00",
@@ -11415,7 +11488,7 @@
       "email": "communications.nyonsbc@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:42.124117+00:00",
+    "generated_at": "2026-11-17T08:24:10.608137+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -11467,27 +11540,21 @@
       "end_date": "2026-12-12",
       "summary": "Organisé par la cave coopérative Vignolis.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel/"
     },
     "editorial": {
       "seo_title": "Marché de Noël à Nyons",
       "meta_description": "Marché de Noël : Samedi 12 décembre 2026 de 09h30 à 18h30. Cave coopérative Vignolis, place Olivier de Serres - 26110 NYONS",
-      "intro": "Marché de Noël est annoncé à Nyons le 12 décembre 2026. Organisé par la cave coopérative Vignolis.",
+      "intro": "À Nyons, « Marché de Noël » est au programme le 12 décembre 2026. Organisé par la cave coopérative Vignolis.",
       "story": "Marché de Noël organisé devant la cave coopérative Vignolis, place Olivier de Serres, toute la journée. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 12 décembre 2026 de 09h30 à 18h30, Cave coopérative Vignolis, place Olivier de Serres - 26110 NYONS. Renseignements : 04 75 26 95 05 ou communication@vignolis.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Marché de Noël » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 12 décembre 2026 de 09h30 à 18h30",
@@ -11497,7 +11564,7 @@
       "email": "communication@vignolis.fr",
       "website": "http://www.vignolis.fr"
     },
-    "generated_at": "2026-11-16T15:52:46.836800+00:00",
+    "generated_at": "2026-11-17T08:24:10.609734+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14040,12 +14107,13 @@
     "editorial": {
       "seo_title": "Apéro Book avec Françoise Bourdon à Nyons",
       "meta_description": "Apéro Book avec Françoise Bourdon : Vendredi 04 décembre 2026 de 18h00 à 20h00. Librairie de l'olivier",
-      "intro": "Apéro Book avec Françoise Bourdon est annoncé à Nyons le 4 décembre 2026. C'est toujours un grand plaisir de retrouver Françoise Bourdon à la librairie ! Ses romans sont très attendus par ses nombreux lecteurs et fidèles admirateurs.",
+      "intro": "À Nyons, « Apéro Book avec Françoise Bourdon » est au programme le 4 décembre 2026. C'est toujours un grand plaisir de retrouver Françoise Bourdon à la librairie ! Ses romans sont très attendus par ses nombreux lecteurs et fidèles admirateurs.",
       "story": "Cette année, elle nous offre deux nouveaux romans aux éditions Presses de la Cité, publiés à seulement un mois d’intervalle, pour rendre hommage à deux régions qui lui sont chères : la Provence et les Ardennes. « Un hiver pour tout recommencer » – Presses de la Cité À l’approche de Noël, Lily veille sur les traditions familiales dans sa bastide provençale des Glycines. Autour d’elle, une famille attachante, mais cabossée par la vie, traverse ses joies, ses peines et ses retrouvailles. Entre secrets, blessures et nouveaux départs, la maison devient un refuge où les liens se renouent. Un roman chaleureux et lumineux, empreint de traditions provençales, de tendresse et de l’esprit de Noël. « Ce que dit le silence » – Presses de la Cité De la Sicile aux Ardennes, Françoise Bourdon nous entraîne au début du XXe siècle dans le destin de Cosima et Paul. Après le terrible séisme de Messine en 1908, leur rencontre donnera naissance à un amour profond, bientôt confronté aux tourments de l’Histoire, des massacres contre les Arméniens à la Première Guerre mondiale. Une magnifique histoire d’amour et de courage, qui met en lumière le destin des femmes, la force des liens et la résistance face aux épreuves. Deux romans, deux régions, et toujours le plaisir de retrouver la belle plume de Françoise Bourdon !",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Vendredi 04 décembre 2026 de 18h00 à 20h00, Librairie de l'olivier, 8 place de la Libération. Renseignements : 04 75 26 04 91 ou librairie.olivier@club-internet.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Apéro Book avec Françoise Bourdon » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 04 décembre 2026 de 18h00 à 20h00",
@@ -14055,7 +14123,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-16T15:52:26.024292+00:00",
+    "generated_at": "2026-11-17T08:24:09.432361+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14068,9 +14136,15 @@
       "end_date": "2026-12-12",
       "summary": "Concert de Noël par les élèves de l'école de musique",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
         "Vie associative",
-        "Culture"
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons-2/"
     },
@@ -14082,7 +14156,8 @@
       "why_it_matters": "Ce rendez-vous permet d’écouter les élèves et de découvrir le travail mené depuis la rentrée. Une autre manière de connaître l’école de musique, à travers ceux qui y apprennent et ceux qui les accompagnent.",
       "practical": "Samedi 12 décembre 2026 de 10h30 à 12h00, École de Musique de Nyons (salle de l'ancien Tribunal), place Jacques Martin Deydier - 26110 NYONS. Renseignements : 06 86 83 29 00 ou secretariat.assoc.e2mn@gmail.com.",
       "reader_question": "Avez-vous déjà assisté à un concert de cette école de musique ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 12 décembre 2026 de 10h30 à 12h00",
@@ -14092,7 +14167,7 @@
       "email": "secretariat.assoc.e2mn@gmail.com",
       "website": "https://www.ecoledemusiquedenyons.com/"
     },
-    "generated_at": "2026-11-16T15:52:44.953673+00:00",
+    "generated_at": "2026-11-17T08:24:10.609177+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c65f5e9dd3c5ee8",
@@ -14120,7 +14195,7 @@
       "practical": "Samedi 28 novembre 2026, de 10 h à 12 h. Départ de la place Buffaven à Nyons. Pour les renseignements pratiques, contactez s.amourous@cc-bdp.fr.",
       "reader_question": "Participerez-vous à cette mobilisation à Nyons le 28 novembre ?",
       "_fallback": false,
-      "verified_at": "2026-11-11"
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 28 novembre 2026 de 10h00 à 12h00",
@@ -14159,7 +14234,7 @@
       "practical": "Tarif unique : 20 € pour toute la soirée. Réservation indispensable au cinéma ou par courrier avec paiement par chèque, avant le dimanche 29 novembre à 21 h. Cinéma L’Arlequin, 28 place de la Libération, Nyons. Téléphone : 04 75 26 01 41.",
       "reader_question": "Quel documentaire vous attire le plus : Le Temps des Animaux ou Louve, une vie dans les Alpes ?",
       "_fallback": false,
-      "verified_at": "2026-11-11"
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Lundi 30 novembre 2026 de 18h30 à 22h40",
@@ -14184,8 +14259,15 @@
       "end_date": "2026-12-05",
       "summary": "Annabel Djila vosu attend au local du collectif \"le Papillon\".",
       "categories": [
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Vie associative"
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/"
     },
@@ -14198,7 +14280,7 @@
       "practical": "Samedi 5 décembre 2026, de 10 h 30 à 11 h 30. Collectif le papillon, 10 avenue Jules Bernard, Nyons. Participation : 12 €. Réservation au 06 81 80 05 73. Contact : associationlepapillon@gmail.com.",
       "reader_question": "Avez-vous déjà participé à un atelier consacré au yoga des yeux ?",
       "_fallback": false,
-      "verified_at": "2026-11-11"
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 10h30 à 11h30",
@@ -14237,7 +14319,7 @@
       "practical": "Exposition du 3 au 30 novembre 2026 à l’Espace Vignolis, place Olivier de Serres, 26110 Nyons. Entrée libre aux horaires d’ouverture de la cave coopérative. Renseignements et horaires : 04 75 26 95 00.",
       "reader_question": "Aimez-vous découvrir une exposition lorsque vous passez chez Vignolis ?",
       "_fallback": false,
-      "verified_at": "2026-11-11"
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du mardi 03 novembre 2026 de 10h00 au lundi 30 novembre 2026 à 18h00",
@@ -14271,12 +14353,13 @@
     "editorial": {
       "seo_title": "Noël des 3 Platanes à Nyons",
       "meta_description": "Noël des 3 Platanes : Du samedi 05 décembre 2026 de 10h00 au dimanche 06 décembre 2026 à 18h30. Les 3 Platanes",
-      "intro": "Noël des 3 Platanes est annoncé à Nyons du 5 décembre 2026 au 6 décembre 2026. 12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse.",
+      "intro": "À Nyons, « Noël des 3 Platanes » est au programme du 5 décembre 2026 au 6 décembre 2026. 12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse.",
       "story": "Noël des 3 Platanes , au 63 rue de la Maladrerie, samedi 5 et dimanche 6 décembre. Entrée libre. 12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse : Christèle Ogano (cyanotypes, bijoux) Patrick Mathon (sculpteur) Éditions Chemins de la Liberté (maison édition) Didier Haas (tourneur sur bois) Gaëlle David (vitrailliste) David Galbiati (peintre) Cocalicowax (création textile) Francis Bienfait (bijoux) Linda Arditi (bijoux) Fond d’atelier du peintre Pierre Dupont Gaïa du Rivau (photographiste) Une déco de Noël sera installée dans la cour, venez prendre un Café chez Toma Café autour d’un brasero, choisir un des 3 plats chaud et mijotés de Véro Local (food-truck), ou un peu de douceurs sucrés et vin chaud au salon de thé mobile Oui-Oui. Il y aura aussi un atelier « Do It Yourself » tout public. L’idée proposée : Une ou 2 grandes tables avec dessus tout un tas de matériaux pour fabriquer vous-même vos décorations de Noël : Pastels, crayons, encre, ciseaux, colle, paillettes, rubans, coton, bouchons en lièges, boites d’œufs, écorces de platanes… toutes ces choses avec lesquelles nous pouvons imaginer et créer. Des idées / tutos vous seront proposés. Participation à partir de 5 € / personne. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du samedi 05 décembre 2026 de 10h00 au dimanche 06 décembre 2026 à 18h30, Les 3 Platanes, 63 rue de la Maladrerie - 26110 NYONS. Renseignements : 06 20 04 60 99 ou gaia.durivau@wanadoo.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Noël des 3 Platanes » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Du samedi 05 décembre 2026 de 10h00 au dimanche 06 décembre 2026 à 18h30",
@@ -14286,7 +14369,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.les3platanes.com/"
     },
-    "generated_at": "2026-11-16T15:52:36.137342+00:00",
+    "generated_at": "2026-11-17T08:24:10.382348+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14307,12 +14390,13 @@
     "editorial": {
       "seo_title": "Expositions « Les Heures Douces » à Nyons",
       "meta_description": "Expositions « Les Heures Douces » : Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00. Galerie \"Les Pépites du 31\"",
-      "intro": "Expositions « Les Heures Douces » est annoncé à Nyons du 18 novembre 2026 au 31 décembre 2026. Créations originales et uniques par \"Les Pépites du 31\".",
+      "intro": "À Nyons, « Expositions « Les Heures Douces » » est au programme du 18 novembre 2026 au 31 décembre 2026. Créations originales et uniques par \"Les Pépites du 31\".",
       "story": "« Les Heures Douces » : créations originales et uniques par « Les Pépites du 31 », du 18 novembre au 31 décembre 2026. Ouverture de 10h à 18h du mercredi au samedi (Ouverture élargie durant les fêtes). Vernissage de l’exposition en présence des artistes, le 20 novembre à partir de 17h.",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00, Galerie \"Les Pépites du 31\", 31 rue des Déportés - 26110 NYONS.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Expositions « Les Heures Douces » » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00",
@@ -14322,7 +14406,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:51:58.291020+00:00",
+    "generated_at": "2026-11-17T08:24:08.167902+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14342,12 +14426,13 @@
     "editorial": {
       "seo_title": "Conseil municipal à Nyons",
       "meta_description": "Conseil municipal : Jeudi 17 décembre 2026 de 18h30 à 20h00. Hôtel de ville",
-      "intro": "Conseil municipal est annoncé à Nyons le 17 décembre 2026. À l'occasion du conseil municipal, l'assemblée délibérante élue est chargée de gérer les affaires...",
+      "intro": "À Nyons, « Conseil municipal » est au programme le 17 décembre 2026. À l'occasion du conseil municipal, l'assemblée délibérante élue est chargée de gérer les affaires...",
       "story": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations. Séance ouverte à tous.",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 17 décembre 2026 de 18h30 à 20h00, Hôtel de ville, Nyons. Renseignements : 04 75 26 50 06 ou a.schneider@nyons.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Conseil municipal » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Jeudi 17 décembre 2026 de 18h30 à 20h00",
@@ -14357,7 +14442,7 @@
       "email": "a.schneider@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:49.859540+00:00",
+    "generated_at": "2026-11-17T08:24:11.638742+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14385,7 +14470,8 @@
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Samedi 21 novembre 2026 de 10h00 à 12h00, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
@@ -14395,7 +14481,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-16T15:52:03.517960+00:00",
+    "generated_at": "2026-11-17T08:24:08.396017+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14423,7 +14509,8 @@
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Vendredi 27 novembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Vendredi 27 novembre 2026 de 14h00 à 16h30",
@@ -14433,7 +14520,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-16T15:52:13.097147+00:00",
+    "generated_at": "2026-11-17T08:24:09.208311+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14459,7 +14546,8 @@
       "why_it_matters": "Assister à ce concert, c’est prendre le temps d’écouter les musiciens en direct. Gardez les horaires et l’adresse sous la main pour rejoindre le lieu du concert avant le début.",
       "practical": "Dimanche 29 novembre 2026 de 16h30 à 17h30, Salle de l'ancien tribunal, place Jacques Martin Deydier - 26110 NYONS. Renseignements : assolireecrirecreer@gmail.com.",
       "reader_question": "Qu’aimeriez-vous retrouver dans ce concert ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Dimanche 29 novembre 2026 de 16h30 à 17h30",
@@ -14469,7 +14557,7 @@
       "email": "assolireecrirecreer@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:20.354163+00:00",
+    "generated_at": "2026-11-17T08:24:09.209143+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14497,7 +14585,8 @@
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Samedi 05 décembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 14h00 à 16h30",
@@ -14507,7 +14596,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-16T15:52:31.788579+00:00",
+    "generated_at": "2026-11-17T08:24:09.892453+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14535,7 +14624,8 @@
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Samedi 12 décembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quel accompagnement aimeriez-vous préparer vous-même pour les fêtes ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 12 décembre 2026 de 14h00 à 16h30",
@@ -14545,7 +14635,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-16T15:52:43.103167+00:00",
+    "generated_at": "2026-11-17T08:24:10.608639+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-960d70c89f80c6bc",
@@ -14575,7 +14665,8 @@
       "why_it_matters": "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous.",
       "practical": "Mercredi 23 décembre 2026 de 14h00 à 16h30, Maison des Huiles d'Olive et Olives de France, 40 Pl. de la Libération. Renseignements : 04 75 26 90 90 ou oliveetsens@gmail.com.",
       "reader_question": "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Mercredi 23 décembre 2026 de 14h00 à 16h30",
@@ -14585,7 +14676,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-16T15:52:57.059639+00:00",
+    "generated_at": "2026-11-17T08:24:12.138684+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14605,12 +14696,13 @@
     "editorial": {
       "seo_title": "Constellations familiales à Nyons",
       "meta_description": "Constellations familiales : Samedi 12 décembre 2026 de 13h30 à 19h30. Le collectif le Papillon",
-      "intro": "Constellations familiales est annoncé à Nyons le 12 décembre 2026. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "intro": "À Nyons, « Constellations familiales » est au programme le 12 décembre 2026. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
       "story": "Asma vous donne rendez-vous le 12 Décembre au local du collectif « le Papillon » à Nyons pour des constellations familiales . La constellation familiale est une approche thérapeutique. Nous n’héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C’est un moment de libération, mais aussi d’hommage à nos ancêtres… Un temps pour se reconnecter, comprendre, apaiser et honorer ce qui nous a précédés. Soyez les bienvenu.es !",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 12 décembre 2026 de 13h30 à 19h30, Le collectif le Papillon, 10 Avenue Jules Bernard - 26110 NYONS. Renseignements : 06 47 18 92 87.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Constellations familiales » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 12 décembre 2026 de 13h30 à 19h30",
@@ -14620,7 +14712,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:46.001103+00:00",
+    "generated_at": "2026-11-17T08:24:10.609545+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14633,27 +14725,22 @@
       "end_date": "2026-12-19",
       "summary": "Organisé par la Municipalité avec le Comité des Fêtes.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Culture"
       ],
       "url": "https://www.nyons.com/agenda/apres-midi-de-noel/"
     },
     "editorial": {
       "seo_title": "Après-midi de Noël à Nyons",
       "meta_description": "Après-midi de Noël : Samedi 19 décembre 2026 de 14h30 à 17h30. Place du Dr Bourdongle - 26110 NYONS",
-      "intro": "Après-midi de Noël est annoncé à Nyons le 19 décembre 2026. Organisé par la Municipalité avec le Comité des Fêtes.",
+      "intro": "À Nyons, « Après-midi de Noël » est au programme le 19 décembre 2026. Organisé par la Municipalité avec le Comité des Fêtes.",
       "story": "Après-midi de Noël organisé par la Municipalité avec le Comité des Fêtes, samedi 19 décembre sur la place du Dr Bourdongle. • Dès 14h30, animation musicale, déambulation d’échassières, maquillage, atelier de Noël avec la ressourcerie 3 R-La Triade, jeux en bois de Mistigri… • Vers 15h, défilé du Père Noël et de Miss et Mister Nyons. • Vers 16h, goûters distribués aux enfants, chocolat chaud, vin chaud et sablés offerts par le Comité des Fêtes. Venez avec votre plus beau pull de Noël ! Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 19 décembre 2026 de 14h30 à 17h30, Place du Dr Bourdongle - 26110 NYONS.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Après-midi de Noël » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Samedi 19 décembre 2026 de 14h30 à 17h30",
@@ -14663,7 +14750,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:51.931426+00:00",
+    "generated_at": "2026-11-17T08:24:11.906880+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14683,12 +14770,13 @@
     "editorial": {
       "seo_title": "Constellations familiales à Nyons",
       "meta_description": "Constellations familiales : Samedi 19 décembre 2026 de 13h30 à 19h30. Le collectif le Papillon",
-      "intro": "Constellations familiales est annoncé à Nyons le 19 décembre 2026. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
+      "intro": "À Nyons, « Constellations familiales » est au programme le 19 décembre 2026. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
       "story": "Asma vous donne rendez-vous le 19 Décembre à Nyons pour des constellations familiales . La constellation familiale est une approche thérapeutique. Nous n’héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C’est un moment de libération, mais aussi d’hommage à nos ancêtres… Un temps pour se reconnecter, comprendre, apaiser et honorer ce qui nous a précédés. Soyez les bienvenu.es !",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Samedi 19 décembre 2026 de 13h30 à 19h30, Le collectif le Papillon, 10 Avenue Jules Bernard - 26110 NYONS. Renseignements : 06 47 18 92 87.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Constellations familiales » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 19 décembre 2026 de 13h30 à 19h30",
@@ -14698,7 +14786,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:52.839150+00:00",
+    "generated_at": "2026-11-17T08:24:11.907379+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14711,7 +14799,15 @@
       "end_date": "2026-12-19",
       "summary": "L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
       "categories": [
-        "Vie associative"
+        "Administratif",
+        "Cadre de vie",
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante",
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative",
+        "Culture",
+        "Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/vente-de-clementines-bio/"
     },
@@ -14734,7 +14830,7 @@
       "email": "nyonsnules@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T08:20:54.120710+00:00",
+    "generated_at": "2026-11-17T08:24:12.138267+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-2047c3e2aabf3c8a",
@@ -14754,12 +14850,13 @@
     "editorial": {
       "seo_title": "Balade en calèche à Nyons",
       "meta_description": "Balade en calèche : Mercredi 23 décembre 2026 de 10h00 à 16h00. ",
-      "intro": "Balade en calèche est annoncé à Nyons le 23 décembre 2026. Proposée par l'Union des Entreprises du Nyonsais.",
+      "intro": "À Nyons, « Balade en calèche » est au programme le 23 décembre 2026. Proposée par l'Union des Entreprises du Nyonsais.",
       "story": "Balade en calèche proposée par l’Union des Entreprises du Nyonsais, mercredi 23 décembre, de 10h à 16h. Téléchargez le programme 2026 de \"Nyons en Fêtes\"",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Mercredi 23 décembre 2026 de 10h00 à 16h00. Renseignements : uennyons@gmail.com.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Balade en calèche » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Mercredi 23 décembre 2026 de 10h00 à 16h00",
@@ -14769,7 +14866,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:58.194303+00:00",
+    "generated_at": "2026-11-17T08:24:12.362477+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   },
@@ -14789,12 +14886,13 @@
     "editorial": {
       "seo_title": "Réveillon du Jour de l’An du Comité des Fêtes à Nyons",
       "meta_description": "Réveillon du Jour de l’An du Comité des Fêtes : Jeudi 31 décembre 2026 de 20h00 à 23h59. Maison de Pays",
-      "intro": "Réveillon du Jour de l’An du Comité des Fêtes est annoncé à Nyons le 31 décembre 2026. Repas par le restaurant \"La Détente\" et bal avec l'orchestre \"SaxoLove\".",
+      "intro": "À Nyons, « Réveillon du Jour de l’An du Comité des Fêtes » est au programme le 31 décembre 2026. Repas par le restaurant \"La Détente\" et bal avec l'orchestre \"SaxoLove\".",
       "story": "Réveillon du Jour de l’An du Comité des Fêtes , jeudi 31 décembre dès 20h. Repas par le restaurant «La Détente» et bal avec l’orchestre «SaxoLove», à la",
       "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
       "practical": "Jeudi 31 décembre 2026 de 20h00 à 23h59, Maison de Pays, 128 Promenade de la Digue - 26110 NYONS. Renseignements : 07 86 07 15 58 ou comitefetesnyons@orange.fr.",
       "reader_question": "Qu’aimeriez-vous découvrir lors de « Réveillon du Jour de l’An du Comité des Fêtes » ?",
-      "_fallback": true
+      "_fallback": true,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Jeudi 31 décembre 2026 de 20h00 à 23h59",
@@ -14804,7 +14902,45 @@
       "email": "comitefetesnyons@orange.fr",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:53:01.366473+00:00",
+    "generated_at": "2026-11-17T08:24:13.521730+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10
+  },
+  "https://www.nyons.com/agenda/fete-de-lolive-piquee-2026/": {
+    "hash": "14b80e39570b7592412dafab6f7da421ecc137edbd6da018107e7d900b8e7fe9",
+    "slug": "fete-de-lolive-piquee-2026-2026-12-19",
+    "event": {
+      "title": "Fête de l’Olive Piquée 2026",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Organisée par le Syndicat de l’Olive de Nyons et des Baronnies aidé de ses partenaires.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative",
+        "Culture"
+      ],
+      "url": "https://www.nyons.com/agenda/fete-de-lolive-piquee-2026/"
+    },
+    "editorial": {
+      "seo_title": "Fête de l’Olive Piquée 2026 à Nyons",
+      "meta_description": "Fête de l’Olive Piquée 2026 : Samedi 19 décembre 2026 de 09h00 à 17h30. Place de la Libération Sud et Maison des Huiles d’olive & Olives de France - 26110 NYONS",
+      "intro": "À Nyons, « Fête de l’Olive Piquée 2026 » est au programme le 19 décembre 2026. Organisée par le Syndicat de l’Olive de Nyons et des Baronnies aidé de ses partenaires.",
+      "story": "Qu’est-ce que l’Olive piquée ? L’olive piquée est une préparation traditionnelle de l’olive noire de Nyons AOP, la Tanche, qui permet de déguster les premières olives noires fraîches pour Noël. Les olives sont piquées (à l’aide d’une machine à piquer ou d’une fourchette par exemple) puis recouvertes de sel marin, placées dans un récipient dans un endroit frais ventilé et remuées régulièrement. Elles peuvent être dégustées sous 12 à 15 jours. Un délice à l’apéritif ! Au programme : Sur la place de la Libération Sud • Marché de produits du terroir – Toute la journée Produits oléicoles de Nyons AOP, Côtes du Rhône Villages Nyons AOP, produits locaux et de terroir, idées de cadeaux gourmands, huîtres proposées par le Lion’s club, clémentines de Nulès… Tombola des exposants, vin chaud offert de 15h30 à 16h30. • Restauration sur place ou à emporter Le foodtruck «Retour aux racines» propose une cuisine maison, saine, gourmande, locale et bio, accessible à tous… Menu et formule burger. Sur Facebook : @retourauxracines.foodtruck • Lancer de scourtin – Toute la journée Adultes & enfants, initiez-vous au lancer de scourtins, utilisés traditionnellement pour l’extraction de l’huile d’olive, et préparez-vous pour le concours de 16h ! • Jeux en bois – Toute la journée Avec La Plume d’ombres. • Le moulin en miniature, de l’olive à l’huile – Toute la journée Découvrez en direct les étapes de fabrication de l’huile d’olive grâce à un moulin miniature artisanal : broyage des olives, malaxage de la pâte et pressage. Rendez-vous près de la scène. Animé par le Syndicat de l’olive de Nyons et des Baronnies. • Initiation à la dégustation d’Huiles d’olive de France à 10h30. • Doctolive de 10h à 11h Venez consulter Benoît Chauvin-Buthaud de la Chambre d’agriculture de la Drôme, pour vous aider au diagnostic des maladies/ravageurs/carences sur vos oliviers. Venez avec vos branches / photos / questions. Rendez-vous vers le podium. • Inauguration & chapitre de la Confrérie des Chevaliers de l’Olivier – 11h30 Verre de l’amitié avec la participation du Syndicat des Vignerons du Nyonsais. • Atelier cueillette dans une oliveraie & découverte du vignoble des Côtes du Rhône Villages Nyons AOP – 14h30 Repartez avec votre barquette (200g) d’olives cueillies et piquées par vos soins ! Rendez-vous sur le parvis de la Maison des Huiles d’olive & Olives de France pour un départ en covoiturage pour la parcelle. Organisé en partenariat avec les administrateurs de la Caisse locale du Crédit Agricole de Nyons. Durée : 1h • Piquage des olives de 15h à 17h Venez faire piquer vos olives sous les conseils avisés de la Confrérie des Chevaliers de l’Olivier ! • Prix des consommateurs – De 15h à 16h30 (Re-)Découvrez cette préparation traditionnelle de la variété Tanche et votez pour vos olives piquées de Nyons AOP préférées ! Résultats à 17h. Animé par le Syndicat de l’Olive de Nyons et des Baronnies. À la Maison des Huiles d’olive & Olives de France, place de la Libération En cuisine avec les olives noires & l’huile d’olive de Nyons AOP … • 14h30 – Démonstration culinaire : Apéritif olivement gourmand par Alexandra, France Olive-Maison des Huiles d’olive et Olives de France. • 15h45 – Démonstration culinaire : Fondant Mandarines Confites, Cœur Olives de Nyons, Coulis Mandarine et Caramome, Huile d’olive de Nyons AOP , par Christophe Malet du restaurant «D’Un Goût à l’Autre». Visite libre de l’exposition «Olive & Sens» – 10h-17h30 Visitez les moulins et hauts lieux du patrimoine oléicole nyonsais : • Coopérative oléicole du Nyonsais –",
+      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "practical": "Samedi 19 décembre 2026 de 09h00 à 17h30, Place de la Libération Sud et Maison des Huiles d’olive & Olives de France - 26110 NYONS. Renseignements : 04 75 26 95 00.",
+      "reader_question": "Qu’aimeriez-vous découvrir lors de « Fête de l’Olive Piquée 2026 » ?",
+      "_fallback": true,
+      "verified_at": "2026-11-17"
+    },
+    "practical": {
+      "date_time": "Samedi 19 décembre 2026 de 09h00 à 17h30",
+      "location_name": "",
+      "address": "Place de la Libération Sud et Maison des Huiles d’olive & Olives de France - 26110 NYONS",
+      "phone": "04 75 26 95 00",
+      "email": "",
+      "website": "https://maisondeshuilesetolives.fr/"
+    },
+    "generated_at": "2026-11-17T08:24:12.137522+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10
   }

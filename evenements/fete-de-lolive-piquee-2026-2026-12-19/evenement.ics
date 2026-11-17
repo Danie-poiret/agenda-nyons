@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fete-de-lolive-piquee-2026-2026-12-19@agenda.vivreanyons.fr
+DTSTAMP:20261117T082415Z
+DTSTART;TZID=Europe/Paris:20261219T090000
+DTEND;TZID=Europe/Paris:20261219T173000
+SUMMARY:Fête de l’Olive Piquée 2026
+DESCRIPTION:Organisée par le Syndicat de l’Olive de Nyons et des Baronnies aidé de ses partenaires.\nhttps://agenda.vivreanyons.fr/evenements/fete-de-lolive-piquee-2026-2026-12-19/
+LOCATION:Place de la Libération Sud et Maison des Huiles d’olive & Olives de France - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/fete-de-lolive-piquee-2026-2026-12-19/
+END:VEVENT
+END:VCALENDAR
