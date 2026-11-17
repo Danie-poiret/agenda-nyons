@@ -121,6 +121,22 @@ class NoApiFactsTests(unittest.TestCase):
             self.assertTrue(f['match'])
             self.assertTrue(f['source_url'].startswith('https://'))
 
+    def test_clementine_bank_restores_the_missing_block_before_practical_details(self):
+        item = entry('clementines', 'Vente de clémentines bio')
+        self.prepare({'url': item}, {})
+        page = self.pages/'clementines/index.html'
+        page.write_text('<main><section class="section"><h2>ℹ️ Informations pratiques</h2><p>Date et lieu confirmés</p></section><div class="question">Question</div></main>', encoding='utf8')
+        bank = json.loads((ROOT/'saviezvous_facts.json').read_text(encoding='utf8'))['facts']
+        fruit = next(f for f in bank if f['id']=='nules-clemenules-1953')
+        self.set_bank([fruit])
+        self.run_local()
+        text = self.text('clementines')
+        self.assertIn('1953', text)
+        self.assertIn('redivia.gva.es', text)
+        self.assertLess(text.index('Le saviez-vous'), text.index('Informations pratiques'))
+        self.run_local()
+        self.assertEqual(text, self.text('clementines'))
+
     def test_old_cache_entries_are_not_deleted(self):
         record = {'text': FACT}
         self.prepare({'url': entry('nouveau')}, {'ancien': record})

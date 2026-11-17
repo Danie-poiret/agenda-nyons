@@ -66,7 +66,17 @@ def local_editorial(event, detail_text, practical, when):
     description = event_description(event, detail_text, practical)
     subject = title.casefold()
     period = when if when.startswith("du ") else f"le {when}"
-    if "culinaire" in subject or "cuisine" in subject:
+    context = description + " " + summary
+    if ("clémentine" in subject and re.search(r"\bnul[èe]s\b", context, re.I)
+            and "olive piqu" in context.casefold()
+            and re.search(r"amiti[ée].*nyons.nul", context, re.I)):
+        intro = "À l’occasion de la Fête de l’Olive piquée, l’association « Amitié Nyons-Nulès » propose une vente de clémentines bio à Nyons. Les fruits annoncés proviennent de la région de Nulès."
+        description = description.rstrip(" .") + ". " + practical_text(practical, when).split(" Renseignements :", 1)[0]
+        why = "Ce rendez-vous associe les fruits de la région de Nulès à la vie associative nyonsaise. Si vous êtes venu pour la Fête de l’Olive piquée, vous pouvez aussi repérer le stand tenu par l’association « Amitié Nyons-Nulès »."
+        question = "Connaissiez-vous déjà les clémentines de la région de Nulès ?"
+        # The programme already supplies the introduction; do not repeat the listing.
+        summary = ""
+    elif "culinaire" in subject or "cuisine" in subject:
         intro = f"À Nyons, l’{title[0].lower() + title[1:]} est proposé {period}."
         why = "L’intérêt de cet atelier est de préparer soi-même les accompagnements, au lieu de se limiter à choisir le plat principal. Regardez les recettes au programme pour choisir ce que vous aimeriez apprendre à refaire chez vous."
         question = "Quel accompagnement aimeriez-vous préparer vous-même pour les fêtes ?" if "fête" in subject else "Quelle préparation aimeriez-vous apprendre à refaire chez vous ?"
@@ -81,7 +91,7 @@ def local_editorial(event, detail_text, practical, when):
         why = "Le sujet de cette conférence vous intéresse ? Le programme ci-dessus permet de préparer votre écoute et de noter les questions que vous aimeriez approfondir."
         question = "Quelle question aimeriez-vous approfondir pendant cette conférence ?"
     else:
-        intro = f"{title} est annoncé à Nyons {period}."
+        intro = f"À Nyons, « {title} » est au programme {period}."
         why = "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir."
         question = f"Qu’aimeriez-vous découvrir lors de « {title} » ?"
     if summary:

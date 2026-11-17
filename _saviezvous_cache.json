@@ -1272,6 +1272,14 @@
       "version": 1,
       "generated_at": "2026-11-14T14:39:39.625795+00:00",
       "source_url": "https://www.dictionnaire-academie.fr/article/A9C3367"
+    },
+    "vente-de-clementines-bio-2026-12-19": {
+      "text": "Nulès a donné son nom à la Clemenules, une variété de clémentine apparue en 1953 dans cette ville de la province de Castellón. Elle provient d’une mutation spontanée de la clémentine Fina : le nom du fruit garde ainsi la trace de son origine.",
+      "source_label": "Generalitat Valenciana — Variétés d’agrumes, Clementina de Nules",
+      "model": "local-bank",
+      "version": 1,
+      "generated_at": "2026-11-17T08:20:54.158186+00:00",
+      "source_url": "https://redivia.gva.es/bitstream/handle/20.500.11939/8172/1985_Bono_Variedades.pdf?isAllowed=y&sequence=1"
     }
   }
 }

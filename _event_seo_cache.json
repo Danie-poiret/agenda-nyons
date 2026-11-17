@@ -14718,12 +14718,13 @@
     "editorial": {
       "seo_title": "Vente de clémentines bio à Nyons",
       "meta_description": "Vente de clémentines bio : Samedi 19 décembre 2026 de 09h30 à 16h00. Place de la Libération Sud - 26110 NYONS",
-      "intro": "Vente de clémentines bio est annoncé à Nyons le 19 décembre 2026. L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
-      "story": "Vente de clémentines bio, en provenance de la région de Nulès à l’occasion de la Fête de l’Olive piquée. Stand tenu par l’association « Amitié Nyons-Nulès ». Venez nombreux",
-      "why_it_matters": "Pour préparer votre sortie, retrouvez ci-dessus le programme annoncé et les coordonnées de l’organisation. Pensez à noter l’horaire et le lieu avant de partir.",
+      "intro": "À l’occasion de la Fête de l’Olive piquée, l’association « Amitié Nyons-Nulès » propose une vente de clémentines bio à Nyons. Les fruits annoncés proviennent de la région de Nulès.",
+      "story": "Vente de clémentines bio, en provenance de la région de Nulès à l’occasion de la Fête de l’Olive piquée. Stand tenu par l’association « Amitié Nyons-Nulès ». Venez nombreux. Samedi 19 décembre 2026 de 09h30 à 16h00, Place de la Libération Sud - 26110 NYONS.",
+      "why_it_matters": "Ce rendez-vous associe les fruits de la région de Nulès à la vie associative nyonsaise. Si vous êtes venu pour la Fête de l’Olive piquée, vous pouvez aussi repérer le stand tenu par l’association « Amitié Nyons-Nulès ».",
       "practical": "Samedi 19 décembre 2026 de 09h30 à 16h00, Place de la Libération Sud - 26110 NYONS. Renseignements : 06 63 19 27 28 ou nyonsnules@gmail.com.",
-      "reader_question": "Qu’aimeriez-vous découvrir lors de « Vente de clémentines bio » ?",
-      "_fallback": true
+      "reader_question": "Connaissiez-vous déjà les clémentines de la région de Nulès ?",
+      "_fallback": true,
+      "verified_at": "2026-11-17"
     },
     "practical": {
       "date_time": "Samedi 19 décembre 2026 de 09h30 à 16h00",
@@ -14733,9 +14734,11 @@
       "email": "nyonsnules@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-16T15:52:55.939313+00:00",
+    "generated_at": "2026-11-17T08:20:54.120710+00:00",
     "model": "gpt-5.6-terra",
-    "prompt_version": 10
+    "prompt_version": 10,
+    "anecdote_id": "topic-2047c3e2aabf3c8a",
+    "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/balade-en-caleche/": {
     "hash": "781aac7fd6a9e748be71791dbe1bdd6cda74462620047a37323d811651a55b85",

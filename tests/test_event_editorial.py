@@ -17,6 +17,27 @@ def event(title="Atelier culinaire", url="https://www.nyons.com/agenda/test/"):
 
 
 class EventEditorialTests(unittest.TestCase):
+    def test_clementine_sale_uses_its_actual_subject_and_variable_schedule(self):
+        e = event("Vente de clémentines bio")
+        e.update(start_date="2027-12-18", end_date="2027-12-18", summary="Clémentines de Nulès pour la fête de l’Olive piquée, par Amitié Nyons-Nulès.")
+        p = dict(date_time="Samedi 18 décembre 2027 de 10h00 à 15h00", address="Place de la Libération Sud", phone="0663192728")
+        text = "Retour Vente de clémentines bio en provenance de Nulès. Stand tenu par Amitié Nyons-Nulès pour la Fête de l’Olive piquée. " + p['date_time']
+        copy = agenda.fallback_event_editorial(e, text, p)
+        self.assertIn('Amitié Nyons-Nulès', copy['intro'])
+        self.assertIn('région de Nulès', copy['why_it_matters'])
+        self.assertIn('2027', copy['story'])
+        self.assertNotIn('2026', copy['story'])
+        self.assertNotIn('Pour préparer votre sortie', copy['why_it_matters'])
+        self.assertIn('clémentines', copy['reader_question'])
+        self.assertNotIn('gratuit', ' '.join(str(v) for v in copy.values()))
+
+    def test_other_clementine_sale_does_not_invent_an_association_or_festival(self):
+        e = event("Vente de clémentines bio")
+        e['summary'] = 'Vente de fruits de la région de Nulès.'
+        copy = agenda.fallback_event_editorial(e, 'Retour Vente de fruits de la région de Nulès.', {})
+        self.assertNotIn('Amitié', copy['intro'])
+        self.assertNotIn('Olive piquée', copy['intro'])
+
     def test_last_list_event_drops_footer_and_pagination(self):
         _, summary = agenda.extract_end_and_summary(
             "Recettes de fêtes ! 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités", "2026-12-12")

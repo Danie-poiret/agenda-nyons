@@ -165,7 +165,9 @@ def render_fact(page, fact):
     new, count = section_re.subn(block, old, count=1)
     if count == 0:
         # A previous keyless run may have omitted this optional section.
-        anchor = '<div class="question">' if '<div class="question">' in old else '</main>'
+        # Restore an omitted block at the same position as a newly generated page.
+        practical_anchor = '<section class="section"><h2>ℹ️ Informations pratiques</h2>'
+        anchor = practical_anchor if practical_anchor in old else ('<div class="question">' if '<div class="question">' in old else '</main>')
         if anchor not in old:
             raise RuntimeError(f"Emplacement Le saviez-vous introuvable : {page}")
         new = old.replace(anchor, block + "\n    " + anchor, 1)

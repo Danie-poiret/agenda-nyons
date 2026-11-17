@@ -1773,6 +1773,12 @@ def generate_event_pages(events):
             editorial_generated_at = cached.get("generated_at") or datetime.now(timezone.utc).isoformat()
             print(f"FICHE {idx:03d}/{total_active}: limite API atteinte, texte conservé/secours — {event['title']}")
 
+        # Use the recorded municipal fetch date, including for unpaid copy.
+        # A missing or failed fetch must not manufacture today's verification date.
+        source_date = clean((detail_cache.get(event["url"]) or {}).get("fetched_at", ""))[:10]
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", source_date):
+            editorial = dict(editorial, verified_at=source_date)
+
         event_cache[event["url"]] = {
             "hash": digest,
             "slug": event_slug(event),
