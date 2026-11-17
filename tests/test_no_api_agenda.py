@@ -155,6 +155,10 @@ class NoApiFactsTests(unittest.TestCase):
         self.assertEqual(json.loads(self.cache.read_text(encoding='utf-8'))['entries']['ancien'], record)
 
 class NoApiWorkflowTests(unittest.TestCase):
+    def test_daily_workflow_checks_all_current_pages(self):
+        workflow=(ROOT / '.github/workflows/update-agenda.yml').read_text(encoding='utf8')
+        self.assertIn('python audit_event_pages.py',workflow)
+        self.assertIn("- 'event_cache.py'",workflow)
 
     def test_no_paid_secret_or_sdk_in_daily_workflow(self):
         self.assertNotIn('OPENAI_API_KEY', (ROOT / '.github/workflows/update-agenda.yml').read_text(encoding='utf-8'))

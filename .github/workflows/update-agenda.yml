@@ -9,6 +9,8 @@ on:
       - 'fix_saviezvous.py'
       - 'update_agenda.py'
       - 'event_editorial.py'
+      - 'event_cache.py'
+      - 'audit_event_pages.py'
       - 'saviezvous_facts.json'
       - 'requirements.txt'
       - 'tests/test_no_api_agenda.py'
@@ -114,6 +116,9 @@ jobs:
 
       - name: Completer les Le saviez-vous depuis les textes enregistres
         run: python fix_saviezvous.py
+
+      - name: Controler toutes les fiches actuelles avant publication
+        run: python audit_event_pages.py
 
       - name: Generer Nyons aujourd hui depuis les donnees existantes
         run: python build_today.py --weather

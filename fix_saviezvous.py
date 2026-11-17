@@ -163,7 +163,7 @@ def programme_fact(item):
             excerpt = ' '.join(story.split()[:max(20, 60-len(title.split()))]) + '…' if story else ''
         if not excerpt:
             return None
-        text = f'Un détail du programme de {title} : {excerpt}'
+        text = f'À retenir pour {title} : {excerpt}'
         if len(text.split()) < 18:
             text += ' ' + clean(editorial.get('practical'))
     if not valid_fact(text) or not topical_fact(item, text):

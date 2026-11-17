@@ -89,11 +89,11 @@ def local_editorial(event, detail_text, practical, when):
             why = "Ce rendez-vous permet d’écouter les élèves et de découvrir le travail mené depuis la rentrée. Une autre manière de connaître l’école de musique, à travers ceux qui y apprennent et ceux qui les accompagnent."
         question = "Avez-vous déjà assisté à un concert de cette école de musique ?" if "école" in subject else "Qu’aimeriez-vous retrouver dans ce concert ?"
     elif "conférence" in subject:
-        intro = f"À Nyons, {title} est au programme {period}."
+        intro = f"{title} : rendez-vous à Nyons {period}."
         why = "Le sujet de cette conférence vous intéresse ? Le programme ci-dessus permet de préparer votre écoute et de noter les questions que vous aimeriez approfondir."
         question = "Quelle question aimeriez-vous approfondir pendant cette conférence ?"
     else:
-        intro = f"À Nyons, {title} est au programme {period}."
+        intro = f"{title} : rendez-vous à Nyons {period}."
         why, question = subject_copy(subject, description)
     if summary:
         intro += " " + summary
