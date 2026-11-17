@@ -1,7 +1,7 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-17T08:24:07.757207+00:00",
+  "updated_at": "2026-11-17T08:29:09.806426+00:00",
   "count": 179,
   "events": [
     {
@@ -3505,15 +3505,7 @@
       "end_date": "2026-12-11",
       "summary": "Écrivez une phrase ou deux de jolies intentions à destination d’un enfant ou d’un adulte.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/lettres-de-noel-solidaires/",
       "practical": {
@@ -3579,8 +3571,7 @@
       "end_date": "2026-11-30",
       "summary": "Du 3 au 30 novembre à l'Espace Vignolis.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-sandrine-pascual-kaufmann/",
       "practical": {
@@ -4235,8 +4226,7 @@
       "end_date": "2026-11-28",
       "summary": "L’intelligence artificielle, pour le meilleur et pour le pire ? La prise de conscience sur l’impératif de fixer un cadre au développement de l’IA semble s’accélérer ces derniers temps.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/exposition-ia-droits-devant/",
       "practical": {
@@ -5019,8 +5009,7 @@
       "summary": "Conférence présentée par Joëlle Vionnet et Bruno Machtelinck.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/",
       "practical": {
@@ -5802,8 +5791,7 @@
       "end_date": "2026-12-31",
       "summary": "Créations originales et uniques par \"Les Pépites du 31\".",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/expositions-les-heures-douces/",
       "practical": {
@@ -5895,9 +5883,7 @@
       "summary": "Les petits gourmands sont attendus pour réaliser et décorer de délicieux petits biscuits à l’huile d’olive pour patienter jusqu’au 25 décembre !",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
+        "Sport / Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-culinaire-calendrier-de-lavent-sables-de-noel/",
       "practical": {
@@ -5919,15 +5905,8 @@
       "end_date": "2026-11-21",
       "summary": "Organisée par les Nounous Super Chouette, samedi 21 novembre à la Maison de Pays.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
         "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/bourse-aux-jouets/",
       "practical": {
@@ -5993,8 +5972,7 @@
       "end_date": "2026-11-21",
       "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
       "practical": {
@@ -6017,8 +5995,7 @@
       "summary": "\"Va dans le bois mon enfant, car si tu n’y vas pas, jamais ta vie de loba ne commencera !\"",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/la-loba-contes-et-rencontres/",
       "practical": {
@@ -6746,8 +6723,7 @@
       "end_date": "2026-11-25",
       "summary": "Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.",
       "categories": [
-        "Solidarité / Santé",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
       "practical": {
@@ -6770,9 +6746,7 @@
       "summary": "Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
+        "Sport / Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-culinaire-duo-de-choux-sales-festifs/",
       "practical": {
@@ -6936,8 +6910,7 @@
       "summary": "Pour se questionner sur l’origine des photographies, leur polysémie, leurs usages.",
       "categories": [
         "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/",
       "practical": {
@@ -7003,15 +6976,8 @@
       "end_date": "2026-11-28",
       "summary": "À la Maison de Pays dès 10h30",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/salon-du-livre-de-contes-et-rencontres/",
       "practical": {
@@ -7033,8 +6999,7 @@
       "end_date": "2026-11-28",
       "summary": "Escale toposensible avec La Caravane Exquise.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/entresorts-la-caravane-exquise-restitution-publique/",
       "practical": {
@@ -7101,8 +7066,7 @@
       "end_date": "2026-11-29",
       "summary": "Proposé par l'association \"Lire Écrire Créer\"",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/concert-george-sand-contemporaine/",
       "practical": {
@@ -7246,8 +7210,7 @@
       "end_date": "2026-11-30",
       "summary": "Le cinéma l’Arlequin vous propose une soirée spéciale 100% Montagne !",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/soiree-100-montagne/",
       "practical": {
@@ -7270,8 +7233,7 @@
       "summary": "Organisé par Nyons Bridge Club.",
       "categories": [
         "Solidarité / Santé",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/tournoi-de-bridge-du-telethon/",
       "practical": {
@@ -7336,8 +7298,7 @@
       "end_date": "2026-12-04",
       "summary": "C'est toujours un grand plaisir de retrouver Françoise Bourdon à la librairie ! Ses romans sont très attendus par ses nombreux lecteurs et fidèles admirateurs.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/apero-book-avec-francoise-bourdon/",
       "practical": {
@@ -7359,15 +7320,7 @@
       "end_date": "2026-12-04",
       "summary": "Lancement des illuminations de Noël sur la place de la Libération à partir de 18h, défilé en musique, vin chaud et chocolat chaud offerts.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/illumination-de-la-ville/",
       "practical": {
@@ -7457,9 +7410,7 @@
       "summary": "En décembre, Muriel vous invite à mettre les agrumes à l’honneur! Façonnez une tarte sucrée gourmande à l’huile d’olive avec un croustillant praliné et la fraîcheur de la clémentine dans une mousse légère.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
+        "Sport / Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-culinaire-tarte-sucree-festive-a-clementine/",
       "practical": {
@@ -7483,8 +7434,7 @@
       "categories": [
         "Solidarité / Santé",
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/concours-de-petanque-du-telethon/",
       "practical": {
@@ -7506,8 +7456,7 @@
       "end_date": "2026-12-05",
       "summary": "Comédie de la Compagnie du Chien Noir",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/les-turlupinades/",
       "practical": {
@@ -7553,8 +7502,7 @@
       "summary": "12 artistes et artisans seront présents et vous proposerons des cadeaux originaux, uniques, dans une ambiance chaleureuse.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/noel-des-3-platanes/",
       "practical": {
@@ -7577,8 +7525,7 @@
       "summary": "Un atelier pour préparer Noël !",
       "categories": [
         "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/samedi-ca-me-dit-4/",
       "practical": {
@@ -7622,15 +7569,8 @@
       "end_date": "2026-12-05",
       "summary": "Annabel Djila vosu attend au local du collectif \"le Papillon\".",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
         "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/yoga-des-yeux-avec-annabel/",
       "practical": {
@@ -7652,8 +7592,7 @@
       "end_date": "2026-12-06",
       "summary": "Dans le cadre du Téléthon 2026.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers/",
       "practical": {
@@ -7676,8 +7615,7 @@
       "summary": "Présentée par Jean-Luc Boissel, astrophysicien, professeur à l'INSA de Lyon.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-des-mythes-aux-modeles-ou-la-recherche-dune-representation-du-monde/",
       "practical": {
@@ -7700,8 +7638,7 @@
       "summary": "Ouvert à tous, don de la recette pour le Téléthon.",
       "categories": [
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/tournoi-de-basket-3x3-du-telethon/",
       "practical": {
@@ -7724,9 +7661,7 @@
       "summary": "Sublimez vos entrées de fin d’année avec des créations 100% maison : pain d’épices à l’huile d’olive, confits d’oignons à la tapenade, blinis et chantilly citronnée à l’aneth !",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
+        "Sport / Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-culinaire-accompagnements-de-fetes-sales/",
       "practical": {
@@ -7749,8 +7684,7 @@
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-6/",
       "practical": {
@@ -7770,15 +7704,8 @@
       "end_date": "2026-12-12",
       "summary": "Concert de Noël par les élèves de l'école de musique",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
         "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-noel-de-lecole-de-musique-de-nyons-2/",
       "practical": {
@@ -7822,8 +7749,7 @@
       "end_date": "2026-12-12",
       "summary": "Organisé par la cave coopérative Vignolis.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/marche-de-noel/",
       "practical": {
@@ -7845,8 +7771,7 @@
       "end_date": "2026-12-13",
       "summary": "Comédie de la Cie “d’ici ou d’Ailleurs”",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/cher-edouard/",
       "practical": {
@@ -7869,8 +7794,7 @@
       "summary": "Conférence présentée par Alain Saint-Denis, historien médiéviste",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-louis-xi-ou-luniverselle-aragne/",
       "practical": {
@@ -7914,8 +7838,7 @@
       "end_date": "2026-12-18",
       "summary": "D’après «Peter Pan» de James Matthew Barrie, par le TRAC de Beaumes de Venise, dans le cadre de «Nyons en Fêtes».",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/peter-pan-ou-lenfant-jamais/",
       "practical": {
@@ -7938,8 +7861,7 @@
       "summary": "Organisé par la Municipalité avec le Comité des Fêtes.",
       "categories": [
         "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/apres-midi-de-noel/",
       "practical": {
@@ -7984,8 +7906,7 @@
       "summary": "Organisée par le Syndicat de l’Olive de Nyons et des Baronnies aidé de ses partenaires.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/fete-de-lolive-piquee-2026/",
       "practical": {
@@ -8007,8 +7928,7 @@
       "end_date": "2026-12-19",
       "summary": "Dédicace d’auteurs, dégustation de vins et de douceurs et démonstration d’artisanat.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/les-arcades-fetent-noel/",
       "practical": {
@@ -8031,8 +7951,7 @@
       "summary": "Des histoires racontées par les bibliothécaires pour les tout-petits.",
       "categories": [
         "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/toupetituli-3/",
       "practical": {
@@ -8054,15 +7973,7 @@
       "end_date": "2026-12-19",
       "summary": "L'association \"Amitié Nyons-Nulès\" vend des clémentines de Noël à l'occasion de la fête de l'Olive piquée",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/vente-de-clementines-bio/",
       "practical": {
@@ -8085,9 +7996,7 @@
       "summary": "Surprenez vos convives avec un entremet de fête aussi élégant qu’original, qui fusionne la magie de Noël et la gourmandise irrésistible du Tiramisu !",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Sport / Loisirs",
-        "Culture",
-        "Loisirs"
+        "Sport / Loisirs"
       ],
       "url": "https://www.nyons.com/agenda/atelier-culinaire-buche-de-noel-facon-entremet-tiramisu/",
       "practical": {
@@ -8130,8 +8039,7 @@
       "summary": "Exposition de l’atelier de Laines et de Colliers de l'Association Nyonsaise...",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/exposition-de-latelier-de-laines-et-de-colliers-danima/",
       "practical": {
@@ -8153,8 +8061,7 @@
       "end_date": "2026-12-29",
       "summary": "Une comédie théâtrale magique et drôle de la cie RêVOLT, proposée dans le cadre de «Nyons en Fêtes».",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/on-a-perdu-les-cles-du-traineau/",
       "practical": {
@@ -8198,8 +8105,7 @@
       "end_date": "2027-01-01",
       "summary": "Concerto pour piano et quatuor à cordes proposé dans le cadre de « Nyons en Fête » à l’occasion du Nouvel An.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/concert-de-rebecca-chaillot/",
       "practical": {
@@ -8222,8 +8128,7 @@
       "summary": "Conférence présentée par Robert Gleize, agrégé de physique",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-essai-de-toponymie-locale/",
       "practical": {
@@ -8245,8 +8150,7 @@
       "end_date": "2027-01-08",
       "summary": "Enfance(s), kung-fu, santé mentale et pop cantonaise : l’histoire vraie d’une renaissance. De Matthias Fortune (Cie Le Homard Bleu).",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-du-pere-du-fils-et-de-jackie-chan/",
       "practical": {
@@ -8268,15 +8172,8 @@
       "end_date": "2027-01-09",
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
         "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-7/",
       "practical": {
@@ -8297,8 +8194,7 @@
       "summary": "Conférence présentée par Jean-Michel Wavelet, instituteur, inspecteur d'Académie et écrivain",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-albert-camus-la-voix-de-la-pauvrete/",
       "practical": {
@@ -8365,8 +8261,7 @@
       "summary": "Conférence présentée par Martine Lambert, coprésidente honoraire de l'UNTL.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiieme-siecle/",
       "practical": {
@@ -8388,8 +8283,7 @@
       "end_date": "2027-01-23",
       "summary": "Nyons célèbre René Barjavel, ce fils de boulanger né dans notre cité en 1911, devenu journaliste puis écrivain à succès.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/les-rencontres-barjavel-2027/",
       "practical": {
@@ -8412,8 +8306,7 @@
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-guernica-de-pablo-picasso/",
       "practical": {
@@ -8435,8 +8328,7 @@
       "end_date": "2027-02-06",
       "summary": "Un conte musical et théâtralisé librement inspiré du livre « Les grands chemins » de Jean Giono. Avec Yohann Villanua. Dans le cadre de l’Alicoque.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/les-grands-chemins/",
       "practical": {
@@ -8459,8 +8351,7 @@
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-8/",
       "practical": {
@@ -8480,8 +8371,7 @@
       "end_date": "2027-02-19",
       "summary": "Un trait d’union entre jazz et musiques orientales.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/blue-maqam-de-renaud-garcia-fons/",
       "practical": {
@@ -8503,15 +8393,7 @@
       "end_date": "2027-03-10",
       "summary": "Si les histoires d’amour ressemblaient aux contes de fées, cela se saurait !",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/quand-je-serai-grande-je-serai-patrick-swayze/",
       "practical": {
@@ -8534,8 +8416,7 @@
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-9/",
       "practical": {
@@ -8556,8 +8437,7 @@
       "summary": "Conférence présentée par Michel Moreau, agrégé de mathématiques.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-tout-ce-que-vous-avez-toujours-voulu-savoir-sur-pi-en-ce-jour-de-pi/",
       "practical": {
@@ -8580,8 +8460,7 @@
       "summary": "Conférence présentée par Michèle Margain, généalogiste, écrivaine, passionnée des terroirs et de ceux qui y vivent.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-domesticite-entre-servilite-et-fidelite/",
       "practical": {
@@ -8603,8 +8482,7 @@
       "end_date": "2027-03-19",
       "summary": "De Charlotte Adrien, en collaboration avec le CCDV. Un rituel théâtral insolent, drôle et troublant, pour regarder l’amour en face.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/au-nom-de-lamour/",
       "practical": {
@@ -8627,8 +8505,7 @@
       "summary": "Conférence présentée par Jean-Loup Rubino, Université de la Sorbonne.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-la-glaciation-ordovicienne-du-gondwana/",
       "practical": {
@@ -8651,8 +8528,7 @@
       "summary": "Conférence présentée par Dominique Phélebon, maîtrise de lettres et personnel de direction d'établissement scolaire",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-sapienza-galiarda/",
       "practical": {
@@ -8674,8 +8550,7 @@
       "end_date": "2027-04-02",
       "summary": "Poésie vivante en accordéon, violoncelle et voix, avec Sabine Venaruzzo, Daniel Mille et Eric Longsworth, dans le cadre du Printemps des Poètes.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/et-maintenant-jattends/",
       "practical": {
@@ -8698,8 +8573,7 @@
       "summary": "Conférence présentée par Sabine Schütz, historienne et critique d'art.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-jeux-denfants-de-pieter-bruegel-lancien/",
       "practical": {
@@ -8722,8 +8596,7 @@
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-11/",
       "practical": {
@@ -8743,15 +8616,7 @@
       "end_date": "2027-04-18",
       "summary": "1er tour des élections présidentielles.",
       "categories": [
-        "Administratif",
-        "Cadre de vie",
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante",
-        "Solidarité / Santé",
-        "Sport / Loisirs",
-        "Vie associative",
-        "Culture",
-        "Loisirs"
+        "Solidarité / Santé"
       ],
       "url": "https://www.nyons.com/agenda/1er-tour-des-elections-presidentielles/",
       "practical": {
@@ -8773,8 +8638,7 @@
       "end_date": "2027-04-23",
       "summary": "Tomber n’est pas la fin du mouvement.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/landing/",
       "practical": {
@@ -8797,8 +8661,7 @@
       "summary": "Conférence présentée par Philippe Fréchet, enseignant spécialisé, conférencier de l’histoire de la pensée et de l’histoire sociale et politique.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-pour-une-histoire-de-leducation-populaire/",
       "practical": {
@@ -8821,8 +8684,7 @@
       "summary": "Conférence présentée par Gilbert Font, ancien directeur financier.",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-les-penseurs-economiques-face-a-la-situation-francaise/",
       "practical": {
@@ -8867,8 +8729,7 @@
       "summary": "Atelier Yoga du Chant de l’association Amate animé par Ghislaine Checchini,",
       "categories": [
         "Sport / Loisirs",
-        "Vie associative",
-        "Loisirs"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/atelier-yoga-du-chant-10/",
       "practical": {
@@ -8888,8 +8749,7 @@
       "end_date": "2027-05-14",
       "summary": "Vibrations musicales en laboratoire. En partenariat avec les Jeunesses Musicales de France.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/boite-a-cordees/",
       "practical": {
@@ -8911,8 +8771,7 @@
       "end_date": "2027-05-20",
       "summary": "D’Alfred de Musset, par la compagnie Capharnaüm. Ils jouent à s’aimer… du rire au drame.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/on-ne-badine-pas-avec-lamour/",
       "practical": {

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-accompagnements-de-fetes-sales-2026-12-12@agenda.vivreanyons.fr
-DTSTAMP:20261117T082415Z
+DTSTAMP:20261117T082920Z
 DTSTART;TZID=Europe/Paris:20261212T140000
 DTEND;TZID=Europe/Paris:20261212T163000
 SUMMARY:Atelier Culinaire – Accompagnements de Fêtes salés
