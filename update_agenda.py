@@ -144,6 +144,20 @@ def page_event_headings(soup):
     return items
 
 
+def page_event_categories(soup):
+    """Read each card's own labels, never the page-wide category filters."""
+    result = {}
+    for card in soup.select('.wpgb-card'):
+        heading = card.find('h2')
+        link = heading.find('a', href=True) if heading else None
+        if not link:
+            continue
+        href = urljoin(BASE, link['href']).split('#', 1)[0].split('?', 1)[0]
+        labels = [clean(tag.get_text(' ', strip=True)) for tag in card.select('.wpgb-term-label')]
+        result[href] = list(dict.fromkeys(label for label in labels if label in CATEGORIES))
+    return result
+
+
 def find_title_positions(page_text: str, items):
     """Repère les titres dans le texte complet en conservant l'ordre de la page."""
     located = []
@@ -214,6 +228,7 @@ def scrape_page(session, page: int):
 
     soup = BeautifulSoup(r.text, "html.parser")
     items = page_event_headings(soup)
+    card_categories = page_event_categories(soup)
 
     page_text = clean(soup.get_text(" ", strip=True))
     located = find_title_positions(page_text, items)
@@ -239,10 +254,7 @@ def scrape_page(session, page: int):
         after = page_text[pos + len(title):next_boundary]
         end, summary = extract_end_and_summary(after, start)
 
-        cats = [
-            c for c in CATEGORIES
-            if c.lower() in before.lower()
-        ]
+        cats = card_categories.get(href, [])
 
         found.append({
             "title": title,

@@ -17,6 +17,15 @@ def event(title="Atelier culinaire", url="https://www.nyons.com/agenda/test/"):
 
 
 class EventEditorialTests(unittest.TestCase):
+    def test_categories_are_read_from_each_card_not_filters_or_neighbours(self):
+        source = '''<nav>Administratif Sport / Loisirs Culture</nav>
+        <article class="wpgb-card"><span class="wpgb-term-label">Vie associative</span><h2><a href="/agenda/vente/">Vente de clémentines</a></h2></article>
+        <article class="wpgb-card"><span class="wpgb-term-label">Sport / Loisirs</span><h2><a href="/agenda/sport/">Tournoi</a></h2></article>'''
+        labels = agenda.page_event_categories(agenda.BeautifulSoup(source, 'html.parser'))
+        self.assertEqual(labels['https://www.nyons.com/agenda/vente/'], ['Vie associative'])
+        self.assertEqual(labels['https://www.nyons.com/agenda/sport/'], ['Sport / Loisirs'])
+        self.assertEqual(agenda.event_section_titles({'title':'Vente de clémentines', 'categories':labels['https://www.nyons.com/agenda/vente/']})[0], '📍 Ce qui est prévu')
+
     def test_clementine_sale_uses_its_actual_subject_and_variable_schedule(self):
         e = event("Vente de clémentines bio")
         e.update(start_date="2027-12-18", end_date="2027-12-18", summary="Clémentines de Nulès pour la fête de l’Olive piquée, par Amitié Nyons-Nulès.")
