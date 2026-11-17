@@ -13,6 +13,17 @@ def entry(slug, title='Concert de piano'):
     return {'slug': slug, 'event': {'title': title, 'summary': title, 'start_date': '2026-11-01'}, 'editorial': {'intro': 'Texte déjà publié, à conserver.'}, 'practical': {'place': 'Lieu vérifié'}}
 
 class NoApiFactsTests(unittest.TestCase):
+    def test_programme_reference_uses_real_source_and_changes_with_it(self):
+        item=entry('noel','Après-midi de Noël')
+        item['event'].update(url='https://www.nyons.com/agenda/apres-midi-de-noel/',end_date='2099-12-19')
+        item['editorial']['story']='Le rendez-vous est annoncé. Les enfants pourront retrouver les jeux en bois et le goûter avec le Père Noël sur la place de Nyons.'
+        fact=facts.programme_fact(item)
+        self.assertIn('jeux en bois',fact['text'])
+        self.assertEqual(fact['source_url'],item['event']['url'])
+        self.assertIn('programme',fact['source_label'])
+        item['editorial']['story']='Le programme a changé. Les enfants retrouveront un atelier de décoration de Noël avec les bénévoles de Nyons et les familles du quartier.'
+        self.assertNotIn('jeux en bois', facts.programme_fact(item)['text'])
+
 
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()

@@ -28,6 +28,7 @@ from bs4 import BeautifulSoup
 from cinema_agenda import merge_cinema_events, generate_cinema_pages, paris_today
 from rollover_pages import install_live_agenda
 from event_editorial import clean_source_text, local_editorial
+from event_cache import preferred_event_entries
 
 try:
     from openai import OpenAI
@@ -1166,7 +1167,7 @@ def extract_event_detail_data(html_text: str, source_url: str):
         practical["website"] = candidate
         break
 
-    detail_text = event_text[:5200]
+    detail_text = event_text[:20000]
 
     return {
         "text": detail_text,
@@ -1431,7 +1432,9 @@ def event_section_titles(event):
     """Titres éditoriaux naturels selon le type d'événement."""
     title = clean(event.get("title", "")).lower()
     cats = " ".join(event.get("categories") or []).lower()
-    haystack = f"{title} {cats}"
+    # Broad municipal categories must not turn a market into an exhibition,
+    # or a cooking workshop into a sporting event.
+    haystack = title
 
     if any(k in haystack for k in ("atelier", "culinaire", "cuisine", "gastronomie")):
         return ("🍴 Au programme de cet atelier", "👀 Pourquoi ça peut vous plaire")
@@ -1611,7 +1614,8 @@ def render_event_page(event, editorial, related_events=None, practical=None):
         )
 
     verified_at = clean(editorial.get("verified_at", ""))
-    source_html = "DATAtourisme · mise à jour le 16/03/2026 · Licence Ouverte 2.0"
+    source_html = (f'<a href="{esc(event["url"])}" target="_blank" rel="noopener noreferrer">'
+                   'Ville de Nyons — fiche officielle</a> · Licence Ouverte 2.0')
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", verified_at):
         checked = french_date(parse_iso(verified_at))
         source_html = (f'Informations vérifiées le {esc(checked)} · '
@@ -1804,14 +1808,15 @@ def generate_event_pages(events):
             "anecdote_assignment_version": cached.get("anecdote_assignment_version"),
         }
 
+    page_entries = preferred_event_entries(event_cache, active)
     cached_events = []
-    for entry in event_cache.values():
+    for entry in page_entries:
         e = entry.get("event")
         if e and entry.get("editorial") and e.get("kind") != "cinema":
             cached_events.append(e)
     cached_events.sort(key=lambda e: (e["start_date"], e["title"].lower()))
 
-    for entry in event_cache.values():
+    for entry in page_entries:
         event = entry.get("event")
         editorial = entry.get("editorial")
         practical = entry.get("practical") or {}

@@ -14,6 +14,7 @@ import re
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from event_cache import preferred_event_entries
 
 ROOT = Path(__file__).resolve().parent
 EVENT_CACHE = ROOT / "_event_seo_cache.json"
@@ -125,6 +126,52 @@ def bank_candidates(item):
             if any(" " + norm(word) + " " in subject for word in fact.get("match", []))]
 
 
+def programme_fact(item):
+    """Use a sourced programme detail when no historical fact is available.
+
+    This is explicitly a programme reference, never invented historical trivia.
+    Rebuilt from the current editorial on every run, so dates cannot go stale.
+    """
+    event = item.get('event') or {}
+    editorial = item.get('editorial') or {}
+    title = clean(event.get('title'))
+    story = clean(editorial.get('story'))
+    if not event.get('url', '').startswith('https://www.nyons.com/agenda/'):
+        return None
+    # Do not turn an organiser's therapeutic assertions into documentary facts.
+    if any(word in norm(title) for word in ('constellations familiales', 'bpco')):
+        excerpt = clean(editorial.get('practical'))
+        text = f'Le rendez-vous « {title} » est annoncé ainsi par la Ville de Nyons : {excerpt}'
+    else:
+        story = re.split(r'Téléchargez|Crédits photographiques', story, maxsplit=1, flags=re.I)[0].strip()
+        sentences = re.split(r'(?<=[.!?…])\s+(?=[A-ZÀÉÈÊ«•])', story)
+        # Prefer a concrete detail after the opening announcement.
+        candidates = sentences[1:] + sentences[:1]
+        excerpt = ''
+        for sentence in candidates:
+            if 18 <= len(sentence.split()) <= 58:
+                excerpt = sentence
+                break
+        if not excerpt:
+            selected = []
+            for sentence in sentences:
+                if len((' '.join(selected + [sentence])).split()) > 58:
+                    break
+                selected.append(sentence)
+            excerpt = ' '.join(selected)
+        if not excerpt:
+            excerpt = ' '.join(story.split()[:max(20, 60-len(title.split()))]) + '…' if story else ''
+        if not excerpt:
+            return None
+        text = f'Un détail du programme de {title} : {excerpt}'
+        if len(text.split()) < 18:
+            text += ' ' + clean(editorial.get('practical'))
+    if not valid_fact(text) or not topical_fact(item, text):
+        return None
+    return {'text': text, 'source_label': 'Ville de Nyons — repère dans le programme annoncé',
+            'source_url': event['url'], 'model': 'official-programme'}
+
+
 def load_fact_cache():
     if not FACT_CACHE.exists():
         return {"version": FACT_VERSION, "entries": {}}
@@ -181,7 +228,9 @@ def main():
     fact_cache = load_fact_cache()
     cached_facts = fact_cache.get("entries", {})
     entries = []
-    for url, item in event_cache.items():
+    agenda_file = ROOT / 'agenda.json'
+    active = json.loads(agenda_file.read_text(encoding='utf8')).get('events', []) if agenda_file.exists() else []
+    for item in preferred_event_entries(event_cache, active):
         slug = clean(item.get("slug", ""))
         if slug and item.get("event") and item.get("editorial"):
             entries.append((slug, item))
@@ -191,6 +240,8 @@ def main():
     for slug, item in entries:
         manual = manual_fact(item)
         cached = cached_facts.get(slug) if isinstance(cached_facts, dict) else None
+        if isinstance(cached, dict) and cached.get('model') == 'official-programme':
+            cached = programme_fact(item)
         for candidate in (manual, cached):
             if not isinstance(candidate, dict):
                 continue
@@ -211,6 +262,15 @@ def main():
                 assigned[slug] = dict(candidate, text=text)
                 used_keys.add(key)
                 break
+    # Missing future/current pages get an explicit, source-bound programme detail.
+    today = datetime.now(timezone.utc).date().isoformat()
+    for slug, item in entries:
+        if slug in assigned or clean((item.get('event') or {}).get('end_date', '')) < today:
+            continue
+        candidate = programme_fact(item)
+        if candidate and fact_key(candidate['text']) not in used_keys:
+            assigned[slug] = candidate
+            used_keys.add(fact_key(candidate['text']))
     missing = [(slug, item) for slug, item in entries if slug not in assigned]
     if len(used_keys) != len(assigned):
         raise RuntimeError("Des textes Le saviez-vous sont encore dupliqués")
@@ -229,7 +289,7 @@ def main():
         fact = assigned[slug]
         manual = manual_fact(item)
         old = cached_facts.get(slug) if isinstance(cached_facts, dict) else None
-        record = stable_record(fact, old, model="manual" if manual else ("local-bank" if fact.get("id") else "cache"))
+        record = stable_record(fact, old, model="manual" if manual else (fact.get('model') or ("local-bank" if fact.get("id") else "cache")))
         updated_cache[slug] = record
         item["anecdote_id"] = "topic-" + hashlib.sha256(record["text"].encode("utf-8")).hexdigest()[:16]
         item["anecdote_assignment_version"] = 100 + FACT_VERSION

@@ -9,6 +9,7 @@ from unittest.mock import patch
 
 import update_agenda as agenda
 from event_editorial import clean_source_text, event_description
+from event_cache import preferred_event_entries
 
 
 def event(title="Atelier culinaire", url="https://www.nyons.com/agenda/test/"):
@@ -17,6 +18,24 @@ def event(title="Atelier culinaire", url="https://www.nyons.com/agenda/test/"):
 
 
 class EventEditorialTests(unittest.TestCase):
+    def test_current_municipal_alias_wins_even_if_old_record_is_written_later(self):
+        old = event('Concert de Noël', 'https://www.nyons.com/agenda/concert/')
+        current = dict(old, url='https://www.nyons.com/agenda/concert-2/')
+        good = dict(slug='concert-noel-2026-12-12', event=current, editorial={'story':'Programme actuel'}, generated_at='2026-11-17')
+        stale = dict(slug=good['slug'], event=old, editorial={'story':'Ancienne version'}, generated_at='2026-12-01')
+        selected = preferred_event_entries({current['url']:good,old['url']:stale}, [current])
+        self.assertEqual(selected, [good])
+
+    def test_christmas_and_exhibition_copy_has_the_actual_subject(self):
+        for title, expected in [('Après-midi de Noël','Père Noël'), ('Expositions « Les Heures Douces »','vernissage'), ('Tournoi de basket 3×3 du Téléthon','3×3')]:
+            copy = agenda.fallback_event_editorial(event(title), 'Retour Programme annoncé avec ses horaires.', {})
+            self.assertIn(expected, copy['why_it_matters'])
+            self.assertNotIn('Pour préparer votre sortie, retrouvez ci-dessus',copy['why_it_matters'])
+
+    def test_dessert_workshop_does_not_promise_savoury_accompaniments(self):
+        copy = agenda.fallback_event_editorial(event('Atelier culinaire – Bûche Tiramisu'), 'Retour Réalisez votre dessert.', {})
+        self.assertNotIn('accompagnements', copy['why_it_matters'])
+
     def test_categories_are_read_from_each_card_not_filters_or_neighbours(self):
         source = '''<nav>Administratif Sport / Loisirs Culture</nav>
         <article class="wpgb-card"><span class="wpgb-term-label">Vie associative</span><h2><a href="/agenda/vente/">Vente de clémentines</a></h2></article>
