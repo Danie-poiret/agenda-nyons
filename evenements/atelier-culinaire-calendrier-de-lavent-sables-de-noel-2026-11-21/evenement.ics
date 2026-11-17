@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21@agenda.vivreanyons.fr
-DTSTAMP:20261117T090301Z
+DTSTAMP:20261117T131552Z
 DTSTART;TZID=Europe/Paris:20261121T100000
 DTEND;TZID=Europe/Paris:20261121T120000
 SUMMARY:Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël
