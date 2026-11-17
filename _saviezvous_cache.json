@@ -1496,6 +1496,22 @@
       "version": 1,
       "generated_at": "2026-11-17T09:03:02.798842+00:00",
       "source_url": "https://www.nyons.com/agenda/reveillon-du-jour-de-lan-du-comite-des-fetes/"
+    },
+    "decouverte-des-sports-de-raquettes-2026-12-05": {
+      "text": "À retenir pour Découverte des sports de raquettes : Découverte des sports de raquettes (padel, pickleball, tennis) proposée par le Tennis Club et le Padel Club de Nyons, de 14h à 18h.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-17T16:04:44.968671+00:00",
+      "source_url": "https://www.nyons.com/agenda/decouverte-des-sports-de-raquettes/"
+    },
+    "video-live-streaming-du-telethon-2026-12-12": {
+      "text": "À retenir pour Video live streaming du Téléthon : Video live streaming de l’Ultra Smart Monkey eSport , samedi 12 décembre, de 1h jusqu’au bout de la nuit.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-17T16:04:44.977155+00:00",
+      "source_url": "https://www.nyons.com/agenda/video-live-streaming-du-telethon/"
     }
   }
 }

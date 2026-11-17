@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:decouverte-des-sports-de-raquettes-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261117T160443Z
+DTSTART;TZID=Europe/Paris:20261205T140000
+DTEND;TZID=Europe/Paris:20261205T170000
+SUMMARY:Découverte des sports de raquettes
+DESCRIPTION:Dans le cadre du\nhttps://agenda.vivreanyons.fr/evenements/decouverte-des-sports-de-raquettes-2026-12-05/
+LOCATION:Courts de tennis\, Draye de Meyne - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/decouverte-des-sports-de-raquettes-2026-12-05/
+END:VEVENT
+END:VCALENDAR

@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-17T13:15:41.252540+00:00",
-  "count": 179,
+  "updated_at": "2026-11-17T16:04:29.970596+00:00",
+  "count": 180,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -5003,51 +5003,6 @@
       }
     },
     {
-      "title": "Conférence de l’UNTL sur l’intelligence des corbeaux",
-      "start_date": "2026-11-16",
-      "end_date": "2026-11-16",
-      "summary": "Conférence présentée par Joëlle Vionnet et Bruno Machtelinck.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/conference-de-luntl-sur-lintelligence-des-corbeaux/",
-      "practical": {
-        "date_time": "Lundi 16 novembre 2026 de 15h00 à 17h00",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "0475264137",
-        "email": "contact@untl.net",
-        "website": "http://www.untl.net"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/conference-de-luntl-sur-lintelligence-des-corbeaux-2026-11-16/",
-      "start_time": "15:00",
-      "end_time": "17:00",
-      "date_label": "Lundi 16 novembre 2026 de 15h00 à 17h00"
-    },
-    {
-      "title": "Don du sang",
-      "start_date": "2026-11-16",
-      "end_date": "2026-11-16",
-      "summary": "Don du sang à la Maison de Pays : Je donne mon sang : je sauve des vies !",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/don-du-sang-3/",
-      "practical": {
-        "date_time": "Lundi 16 novembre 2026 de 08h30 à 12h30",
-        "location_name": "Maison de Pays",
-        "address": "128 Promenade de la Digue - 26110 NYONS",
-        "phone": "0475824405",
-        "email": "",
-        "website": "https://mon-rdv-dondesang.efs.sante.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/don-du-sang-2026-11-16/",
-      "start_time": "08:30",
-      "end_time": "12:30",
-      "date_label": "Lundi 16 novembre 2026 de 08h30 à 12h30"
-    },
-    {
       "title": "Cinéma — 15/18",
       "film_title": "15/18",
       "kind": "cinema",
@@ -5877,6 +5832,28 @@
       "date_label": "Jeudi 19 novembre 2026 de 08h30 à 12h00"
     },
     {
+      "title": "Apéro Book avec Roger Fajnzylberg",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "summary": "Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/",
+      "practical": {
+        "date_time": "Vendredi 20 novembre 2026 de 18h00 à 20h00",
+        "location_name": "Librairie de l'olivier",
+        "address": "8 place de la Libération",
+        "phone": "0475260491",
+        "email": "librairie.olivier@club-internet.fr",
+        "website": "https://librairiedelolivier.fr"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Vendredi 20 novembre 2026 de 18h00 à 20h00"
+    },
+    {
       "title": "Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
@@ -6010,6 +5987,29 @@
       "start_time": "15:00",
       "end_time": "12:00",
       "date_label": "Samedi 21 novembre 2026 de 15h00 à 12h00"
+    },
+    {
+      "title": "« L’invité surprise » (Contes et Rencontres)",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
+      "practical": {
+        "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
+        "location_name": "Médiatheque Départementale Drôme Provençale",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "contesetrencontres.nyons@gmail.com",
+        "website": "https://contesetrencontres26.org/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/linvite-surprise-contes-et-rencontres-2026-11-21/",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "date_label": "Samedi 21 novembre 2026 de 10h00 à 12h00"
     },
     {
       "title": "Cinéma — Everybody Digs Bill Evans",
@@ -7451,6 +7451,29 @@
       "date_label": "Samedi 05 décembre 2026 de 14h00 à 17h00"
     },
     {
+      "title": "Découverte des sports de raquettes",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Dans le cadre du",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/decouverte-des-sports-de-raquettes/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 14h00 à 17h00",
+        "location_name": "",
+        "address": "Courts de tennis, Draye de Meyne - 26110 NYONS",
+        "phone": "0475260870",
+        "email": "contact@tcnyons.fr",
+        "website": "https://tenup.fft.fr/club/50260234"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/decouverte-des-sports-de-raquettes-2026-12-05/",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 05 décembre 2026 de 14h00 à 17h00"
+    },
+    {
       "title": "Les turlupinades",
       "start_date": "2026-12-05",
       "end_date": "2026-12-05",
@@ -7540,28 +7563,6 @@
       "start_time": "10:30",
       "end_time": "12:00",
       "date_label": "Samedi 05 décembre 2026 de 10h30 à 12h00"
-    },
-    {
-      "title": "Téléthon 2026",
-      "start_date": "2026-12-05",
-      "end_date": "2026-12-06",
-      "summary": "Téléthon 2026",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/telethon-2026/",
-      "practical": {
-        "date_time": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59",
-        "location_name": "",
-        "address": "",
-        "phone": "",
-        "email": "",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/",
-      "start_time": "00:00",
-      "end_time": "23:59",
-      "date_label": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59"
     },
     {
       "title": "Yoga des yeux avec Annabel",
@@ -7764,6 +7765,29 @@
       "start_time": "09:30",
       "end_time": "18:30",
       "date_label": "Samedi 12 décembre 2026 de 09h30 à 18h30"
+    },
+    {
+      "title": "Video live streaming du Téléthon",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Organisé par l’Ultra Smart Monkey eSport.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/video-live-streaming-du-telethon/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 10h00 à 23h59",
+        "location_name": "",
+        "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+        "phone": "0631712882",
+        "email": "usm.esport19@gmail.com",
+        "website": "https://www.usmesport.com/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/video-live-streaming-du-telethon-2026-12-12/",
+      "start_time": "10:00",
+      "end_time": "23:59",
+      "date_label": "Samedi 12 décembre 2026 de 10h00 à 23h59"
     },
     {
       "title": "Cher Edouard",

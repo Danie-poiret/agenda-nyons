@@ -6918,8 +6918,7 @@
       "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
       "categories": [
         "Patrimoine / Culture vivante",
-        "Vie associative",
-        "Culture"
+        "Vie associative"
       ],
       "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/"
     },
@@ -6931,7 +6930,8 @@
       "why_it_matters": "Cette sortie donne rendez-vous à Nyons autour du conte et de l’imaginaire, avec une proposition construite autour de la surprise. C’est aussi une occasion de retrouver une initiative associative et culturelle dans le cadre de la médiathèque départementale.",
       "practical": "Samedi 21 novembre 2026, de 10h à 12h, à la Médiathèque Départementale Drôme Provençale, 9 rue Albin Vilhet à Nyons. Renseignements : 04 75 26 48 26 ou contesetrencontres.nyons@gmail.com.",
       "reader_question": "Que pourrait bien cacher le paquet cadeau de « L’invité surprise » ?",
-      "_fallback": false
+      "_fallback": false,
+      "verified_at": "2026-11-16"
     },
     "practical": {
       "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
@@ -10828,7 +10828,7 @@
       "email": "communication@orsac-atrir.fr",
       "website": "https://www.orsac-atrir.fr/"
     },
-    "generated_at": "2026-11-17T13:15:41.940428+00:00",
+    "generated_at": "2026-11-17T16:04:32.144860+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-19ae412f1ef3adea",
@@ -10864,7 +10864,7 @@
       "email": "",
       "website": "https://domainerocheville.com/"
     },
-    "generated_at": "2026-11-17T13:15:43.998428+00:00",
+    "generated_at": "2026-11-17T16:04:33.705906+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-909d0efe474f49b3",
@@ -10902,7 +10902,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:43.999030+00:00",
+    "generated_at": "2026-11-17T16:04:33.707047+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4547265b252c08b9",
@@ -10940,7 +10940,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:49.014036+00:00",
+    "generated_at": "2026-11-17T16:04:39.364314+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-17e209539df9c640",
@@ -10979,7 +10979,7 @@
       "email": "secretariatnyons@laplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-17T13:15:42.229925+00:00",
+    "generated_at": "2026-11-17T16:04:33.097845+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b4a0415b95d07d7f",
@@ -11017,7 +11017,7 @@
       "email": "regine3108@gmail.com",
       "website": "https://choraledesoliviers.fr/"
     },
-    "generated_at": "2026-11-17T13:15:47.631685+00:00",
+    "generated_at": "2026-11-17T16:04:36.968784+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-0efc033762d28039",
@@ -11056,7 +11056,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:41.940112+00:00",
+    "generated_at": "2026-11-17T16:04:32.144506+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-3edc6bdfa70055a9",
@@ -11095,7 +11095,7 @@
       "email": "nyonsbc@gmail.com",
       "website": "https://www.nyonsbridgeclub.fr/"
     },
-    "generated_at": "2026-11-17T13:15:42.230523+00:00",
+    "generated_at": "2026-11-17T16:04:33.098626+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4911638aa39bf8f5",
@@ -11134,7 +11134,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:43.998146+00:00",
+    "generated_at": "2026-11-17T16:04:33.705501+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-7f4b59326f31e56e",
@@ -11173,7 +11173,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:45.106921+00:00",
+    "generated_at": "2026-11-17T16:04:34.255493+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c5501189fa45bab",
@@ -11211,7 +11211,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:45.107132+00:00",
+    "generated_at": "2026-11-17T16:04:34.255737+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-d87f80ef59a26238",
@@ -11249,7 +11249,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:46.391124+00:00",
+    "generated_at": "2026-11-17T16:04:34.793399+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-a4d3e0239f768072",
@@ -11289,7 +11289,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "http://www.nyons-petanque.com"
     },
-    "generated_at": "2026-11-17T13:15:46.391913+00:00",
+    "generated_at": "2026-11-17T16:04:34.794303+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-ccabd5255ec62a83",
@@ -11369,7 +11369,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:46.641931+00:00",
+    "generated_at": "2026-11-17T16:04:36.967893+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-3c4e07efed890af1",
@@ -11408,7 +11408,7 @@
       "email": "communications.nyonsbc@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:47.631942+00:00",
+    "generated_at": "2026-11-17T16:04:36.969252+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b1a3dea3164e8f5d",
@@ -11485,7 +11485,7 @@
       "email": "communication@vignolis.fr",
       "website": "http://www.vignolis.fr"
     },
-    "generated_at": "2026-11-17T13:15:47.633288+00:00",
+    "generated_at": "2026-11-17T16:04:36.971206+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-58c895f6987e6605",
@@ -13979,15 +13979,14 @@
       "end_date": "2026-11-20",
       "summary": "Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
       "categories": [
-        "Patrimoine / Culture vivante",
-        "Culture"
+        "Patrimoine / Culture vivante"
       ],
       "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/"
     },
     "editorial": {
       "seo_title": "Apéro Book avec Roger Fajnzylberg à Nyons",
       "meta_description": "Apéro Book avec Roger Fajnzylberg : Vendredi 20 novembre 2026 de 18h00 à 20h00. Librairie de l'olivier",
-      "intro": "À Nyons, Apéro Book avec Roger Fajnzylberg est au programme le 20 novembre 2026. Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
+      "intro": "Apéro Book avec Roger Fajnzylberg : rendez-vous à Nyons le 20 novembre 2026. Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
       "story": "Une rencontre exceptionnelle autour de la mémoire, de l’histoire familiale et de la transmission. Roger Fajnzylberg viendra nous présenter « Ce que j’ai vu à Auschwitz », le témoignage de son père, déporté à Auschwitz pendant la Seconde Guerre mondiale. Au sortir de la guerre, son père a très peu parlé de cette période. Roger savait pourtant qu’une boîte à chaussures contenait quatre carnets écrits en 1947. Il les conservera pendant des années, au fil des déménagements, avant de se décider à ouvrir cette boîte en 2015, bien après le décès de ses parents, notamment poussé par les questions de son propre fils. De ces quatre carnets est né un témoignage historique exceptionnel, validé par l’historien Alban Perrin. Pour le rendre accessible au plus grand nombre, Roger a choisi de le faire publier sous quatre formes : un beau livre aux éditions du Seuil, deux éditions de poche chez Points, dont une destinée au public scolaire, et une bande dessinée chez Dupuis. Un témoignage bouleversant, une histoire de transmission et un moment d’échange précieux autour d’un verre.",
       "why_it_matters": "La rencontre porte sur la transmission d’un témoignage familial écrit après la déportation. Roger Fajnzylberg explique le parcours des carnets de son père et leur publication : prenez le temps de lire la présentation avant l’échange.",
       "practical": "Vendredi 20 novembre 2026 de 18h00 à 20h00, Librairie de l'olivier, 8 place de la Libération. Renseignements : 04 75 26 04 91 ou librairie.olivier@club-internet.fr.",
@@ -14003,7 +14002,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-16T15:52:02.383165+00:00",
+    "generated_at": "2026-11-17T16:04:32.145323+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-59d674c9262fc59e",
@@ -14041,7 +14040,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-17T13:15:43.998830+00:00",
+    "generated_at": "2026-11-17T16:04:33.706655+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-fd981040c7eb0b97",
@@ -14080,7 +14079,7 @@
       "email": "secretariat.assoc.e2mn@gmail.com",
       "website": "https://www.ecoledemusiquedenyons.com/"
     },
-    "generated_at": "2026-11-17T13:15:47.632675+00:00",
+    "generated_at": "2026-11-17T16:04:36.970398+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c65f5e9dd3c5ee8",
@@ -14272,7 +14271,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.les3platanes.com/"
     },
-    "generated_at": "2026-11-17T13:15:46.642340+00:00",
+    "generated_at": "2026-11-17T16:04:36.968435+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-7617a4cbdada9363",
@@ -14310,7 +14309,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:41.700973+00:00",
+    "generated_at": "2026-11-17T16:04:31.567509+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-c4e5f22ea3571f23",
@@ -14348,7 +14347,7 @@
       "email": "a.schneider@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:47.855832+00:00",
+    "generated_at": "2026-11-17T16:04:38.825921+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-989d54a17c6770a4",
@@ -14387,7 +14386,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-17T13:15:41.940699+00:00",
+    "generated_at": "2026-11-17T16:04:32.145644+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b42db0a74ed3ebc7",
@@ -14426,7 +14425,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-17T13:15:42.229668+00:00",
+    "generated_at": "2026-11-17T16:04:33.097551+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-886110e01caa83ec",
@@ -14464,7 +14463,7 @@
       "email": "assolireecrirecreer@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:42.230287+00:00",
+    "generated_at": "2026-11-17T16:04:33.098356+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-12fb18cf4ab7a5de",
@@ -14503,7 +14502,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-17T13:15:46.391698+00:00",
+    "generated_at": "2026-11-17T16:04:34.794038+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-08337fc681128d91",
@@ -14542,7 +14541,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-17T13:15:47.632277+00:00",
+    "generated_at": "2026-11-17T16:04:36.969902+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-960d70c89f80c6bc",
@@ -14581,7 +14580,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-17T13:15:49.014728+00:00",
+    "generated_at": "2026-11-17T16:04:39.365111+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b0cca246a8ca45f1",
@@ -14619,7 +14618,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:47.633041+00:00",
+    "generated_at": "2026-11-17T16:04:36.970871+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-02bd675fc62b9523",
@@ -14658,7 +14657,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:49.012710+00:00",
+    "generated_at": "2026-11-17T16:04:39.362616+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-ead6995c7931d7cb",
@@ -14696,7 +14695,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:49.013007+00:00",
+    "generated_at": "2026-11-17T16:04:39.363071+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-1f65aaacbc0a96c4",
@@ -14734,7 +14733,7 @@
       "email": "nyonsnules@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:49.014393+00:00",
+    "generated_at": "2026-11-17T16:04:39.364705+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-2047c3e2aabf3c8a",
@@ -14770,7 +14769,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:49.957501+00:00",
+    "generated_at": "2026-11-17T16:04:39.925701+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9e7dc1f9abfc10f4",
@@ -14808,7 +14807,7 @@
       "email": "comitefetesnyons@orange.fr",
       "website": ""
     },
-    "generated_at": "2026-11-17T13:15:50.286930+00:00",
+    "generated_at": "2026-11-17T16:04:40.576526+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-6403e3d0336aa0ea",
@@ -14847,10 +14846,88 @@
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-11-17T13:15:49.013847+00:00",
+    "generated_at": "2026-11-17T16:04:39.364087+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-d7d8cbe3fd3f9a7d",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/decouverte-des-sports-de-raquettes/": {
+    "hash": "71b78a5acc518ab0d1fbd9902b616f12bb149ddbe434f325135c3f9f86b6fc96",
+    "slug": "decouverte-des-sports-de-raquettes-2026-12-05",
+    "event": {
+      "title": "Découverte des sports de raquettes",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Dans le cadre du",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/decouverte-des-sports-de-raquettes/"
+    },
+    "editorial": {
+      "seo_title": "Découverte des sports de raquettes à Nyons",
+      "meta_description": "Découverte des sports de raquettes : Samedi 05 décembre 2026 de 14h00 à 17h00. Courts de tennis, Draye de Meyne - 26110 NYONS",
+      "intro": "Découverte des sports de raquettes : rendez-vous à Nyons le 5 décembre 2026. Dans le cadre du",
+      "story": "Découverte des sports de raquettes (padel, pickleball, tennis) proposée par le Tennis Club et le Padel Club de Nyons, de 14h à 18h. Animation gratuite, buvette et snacking sur place, tombola au bénéfice du Téléthon. Téléchargez le programme 2026 du Téléthon à Nyons",
+      "why_it_matters": "Le programme de ce rendez-vous est présenté ci-dessus avec ses informations concrètes. Pour une précision sur l’accueil ou les conditions de participation, utilisez le contact de l’organisation lorsqu’il est indiqué.",
+      "practical": "Samedi 05 décembre 2026 de 14h00 à 17h00, Courts de tennis, Draye de Meyne - 26110 NYONS. Renseignements : 04 75 26 08 70 ou contact@tcnyons.fr.",
+      "reader_question": "Avez-vous déjà participé à ce rendez-vous à Nyons ?",
+      "_fallback": true,
+      "verified_at": "2026-11-17"
+    },
+    "practical": {
+      "date_time": "Samedi 05 décembre 2026 de 14h00 à 17h00",
+      "location_name": "",
+      "address": "Courts de tennis, Draye de Meyne - 26110 NYONS",
+      "phone": "0475260870",
+      "email": "contact@tcnyons.fr",
+      "website": "https://tenup.fft.fr/club/50260234"
+    },
+    "generated_at": "2026-11-17T16:04:35.922288+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10,
+    "anecdote_id": "topic-92dbb607dbb88b36",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/video-live-streaming-du-telethon/": {
+    "hash": "4efca236d7b7ad2d2180722360466f4f51702735508aece926397775a18b3cc3",
+    "slug": "video-live-streaming-du-telethon-2026-12-12",
+    "event": {
+      "title": "Video live streaming du Téléthon",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Organisé par l’Ultra Smart Monkey eSport.",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/video-live-streaming-du-telethon/"
+    },
+    "editorial": {
+      "seo_title": "Video live streaming du Téléthon à Nyons",
+      "meta_description": "Video live streaming du Téléthon : Samedi 12 décembre 2026 de 10h00 à 23h59. Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+      "intro": "Video live streaming du Téléthon : rendez-vous à Nyons le 12 décembre 2026. Organisé par l’Ultra Smart Monkey eSport.",
+      "story": "Video live streaming de l’Ultra Smart Monkey eSport , samedi 12 décembre, de 1h jusqu’au bout de la nuit. À la Maison des associations, de 10h jusqu’au bout de la nuit. Une dizaine de gamers se rassemblent afin de récolter des dons pour le Téléthon. Vidéo diffusée en direct sur le site : www.twitch.tv/usmesport Téléchargez le programme 2026 du Téléthon à Nyons",
+      "why_it_matters": "Ce rendez-vous permet de soutenir le Téléthon en retrouvant les bénévoles de Nyons. L’annonce détaille la vente ou l’animation proposée et les conditions de participation.",
+      "practical": "Samedi 12 décembre 2026 de 10h00 à 23h59, Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS. Renseignements : 06 31 71 28 82 ou usm.esport19@gmail.com.",
+      "reader_question": "Quelle animation solidaire aimez-vous retrouver pendant le Téléthon à Nyons ?",
+      "_fallback": true,
+      "verified_at": "2026-11-17"
+    },
+    "practical": {
+      "date_time": "Samedi 12 décembre 2026 de 10h00 à 23h59",
+      "location_name": "",
+      "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
+      "phone": "0631712882",
+      "email": "usm.esport19@gmail.com",
+      "website": "https://www.usmesport.com/"
+    },
+    "generated_at": "2026-11-17T16:04:37.941478+00:00",
+    "model": "gpt-5.6-terra",
+    "prompt_version": 10,
+    "anecdote_id": "topic-746c8bc47ddd380b",
     "anecdote_assignment_version": 101
   }
 }

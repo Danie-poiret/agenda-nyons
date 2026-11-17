@@ -6,11 +6,11 @@
       "lastmod": "2026-11-17"
     },
     "semaines/index.html": {
-      "hash": "7aa93661706fe518ba9ab6969962d30fd914bd67eb56a67d0bf7f1a3d8206c72",
+      "hash": "ee6abdb878cdd3011855a3738dbfc1b3eff755f838f0d20609f8bf4eb403a297",
       "lastmod": "2026-11-17"
     },
     "evenements/index.html": {
-      "hash": "c0f69c1e046d26f642542153251aea336af15cc48d4c5b1ff5368330bd914463",
+      "hash": "eed9803754da0a78b8d31bcd1cd773ff8a13dcb3e3804f801febda3971c8d918",
       "lastmod": "2026-11-17"
     },
     "cinema/index.html": {
@@ -18,7 +18,7 @@
       "lastmod": "2026-11-17"
     },
     "aujourdhui/index.html": {
-      "hash": "ce27ed0b99bfb98f08c30e20402fd6762171eeaca9ff41ac14261caa4e302339",
+      "hash": "e750843e2e55734052aea7c944dcbac725fc1557b72b4517c10ec90d8eb14788",
       "lastmod": "2026-11-17"
     },
     "semaines/semaine-1-fevrier-2027/index.html": {
@@ -54,7 +54,7 @@
       "lastmod": "2026-11-17"
     },
     "semaines/semaine-16-novembre-2026/index.html": {
-      "hash": "ffaae127847a733e0dbd81326d82ecde961deaea02c819d5ca2483256606b01a",
+      "hash": "c2ee460d20dc0a2a53e9268f3641cbb7c17196425b54f6f86759ad4ef49163f0",
       "lastmod": "2026-11-17"
     },
     "semaines/semaine-17-mai-2027/index.html": {
@@ -122,7 +122,7 @@
       "lastmod": "2026-11-17"
     },
     "semaines/semaine-30-novembre-2026/index.html": {
-      "hash": "66106707a73d3cee482d4a8d1a8322a59a6e1528937e11341a6c8a94c8d70fd7",
+      "hash": "2135f735a969c1fa97bb59757fac311ef3cc6889ed28d5f4f399e0334ba7dfa6",
       "lastmod": "2026-11-17"
     },
     "semaines/semaine-4-janvier-2027/index.html": {
@@ -138,7 +138,7 @@
       "lastmod": "2026-11-11"
     },
     "semaines/semaine-7-decembre-2026/index.html": {
-      "hash": "0cd90d0b43cba909e3da8ae453160a244a31111f65977702abf204a9c4dd23aa",
+      "hash": "d1090c2d55ff0286661fe3c1cfb644fd4fab1328a7f1cde8608030ef8189f268",
       "lastmod": "2026-11-17"
     },
     "semaines/semaine-8-fevrier-2027/index.html": {
@@ -190,7 +190,7 @@
       "lastmod": "2026-11-17"
     },
     "evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/index.html": {
-      "hash": "8b08a3e60ecfe2d80bbeada5d0ed305d526f07d6122113b69745d873c1dc893a",
+      "hash": "afb645636c0c1964e3e02c0e6bacc15f7831f62f68550f6a917724fe2fb39439",
       "lastmod": "2026-11-17"
     },
     "evenements/apres-midi-de-noel-2026-12-19/index.html": {
@@ -933,6 +933,10 @@
       "hash": "b48690c95937a8d16669e83bac7615e7b481deee1f3b10e2ffc0c18154a8b674",
       "lastmod": "2026-11-17"
     },
+    "evenements/decouverte-des-sports-de-raquettes-2026-12-05/index.html": {
+      "hash": "24e3a4585b8dde30bd7fbedaa0779f18d289e86203ebf1fb2d97a8fc33d27fc4",
+      "lastmod": null
+    },
     "evenements/decouvrez-solidarite-paysans-2026-08-01/index.html": {
       "hash": "f1e2bc9dd9d68b8fabe57dda72ad3b624a018dd04f78b3110fb741c7ae685dce",
       "lastmod": "2026-11-17"
@@ -1162,7 +1166,7 @@
       "lastmod": "2026-11-17"
     },
     "evenements/linvite-surprise-contes-et-rencontres-2026-11-21/index.html": {
-      "hash": "ae34d45bf23f460497c2d75d414280c5d4221f080af178435408ce99c5bf97fa",
+      "hash": "39d1346413fdcf5c2f5063238b79d796066335fbc8440437e09fe75f82352004",
       "lastmod": "2026-11-17"
     },
     "evenements/loto-dasoft-nyons-numerique-2026-10-18/index.html": {
@@ -1380,6 +1384,10 @@
     "evenements/vente-de-sucres-et-sales-du-telethon-2026-12-03/index.html": {
       "hash": "0e3a4162131058bd5deb0a259acd63a9a508b712005899c809603bd644153b18",
       "lastmod": "2026-11-17"
+    },
+    "evenements/video-live-streaming-du-telethon-2026-12-12/index.html": {
+      "hash": "6528515ebe9dcc2d27d2cffa11b91ae342034e3a0eeb54bf8d3f6728039a183c",
+      "lastmod": null
     },
     "evenements/vin-chaud-et-crepes-du-telethon-2026-12-04/index.html": {
       "hash": "4e434c4a01e41f95721219ca353544974ad97ded352ada6aa0577503fcbfb0b7",
