@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:marche-de-noel-du-clos-des-ruynes-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261118T154349Z
+DTSTART;TZID=Europe/Paris:20261128T100000
+DTEND;TZID=Europe/Paris:20261129T180000
+SUMMARY:Marché de Noël du Clos des Rûynes
+DESCRIPTION:Un marché de Noël chaleureux et créatif au cœur de Nyons ! Claire et Vincent Boutonnet vous invitent au Clos des Rûynes pour un marché de Noël placé sous le signe de la création\, de l'artisanat et des belles découvertes.\nhttps://agenda.vivreanyons.fr/evenements/marche-de-noel-du-clos-des-ruynes-2026-11-28/
+LOCATION:Clos des Rûynes — 56 avenue Paul Laurens - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/marche-de-noel-du-clos-des-ruynes-2026-11-28/
+END:VEVENT
+END:VCALENDAR

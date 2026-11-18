@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:george-sand-contemporaine-2026-11-29@agenda.vivreanyons.fr
+DTSTAMP:20261118T154349Z
+DTSTART;TZID=Europe/Paris:20261129T163000
+DTEND;TZID=Europe/Paris:20261129T183000
+SUMMARY:George Sand contemporaine
+DESCRIPTION:George Sand\, entre les mots et les notes… Et si\, le temps d’un spectacle\, nous entrions dans l’univers de George Sand ? Une femme libre\, passionnée\, audacieuse\, dont les mots résonnent encore aujourd’hui.\nhttps://agenda.vivreanyons.fr/evenements/george-sand-contemporaine-2026-11-29/
+LOCATION:Salle de l'ancien tribunal\, place Jacques Martin Deydier - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/george-sand-contemporaine-2026-11-29/
+END:VEVENT
+END:VCALENDAR

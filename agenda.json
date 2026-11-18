@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-17T16:04:29.970596+00:00",
-  "count": 180,
+  "updated_at": "2026-11-18T15:43:31.788063+00:00",
+  "count": 183,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -5854,6 +5854,29 @@
       "date_label": "Vendredi 20 novembre 2026 de 18h00 à 20h00"
     },
     {
+      "title": "Visite collective dans le vieux Nyons",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "summary": "Une promenade commentée dans le vieux Nyons pour parler de la nature en ville et de la végétalisation du centre ancien.",
+      "categories": [
+        "Cadre de vie",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/visite-collective-dans-le-vieux-nyons/",
+      "practical": {
+        "date_time": "Vendredi 20 novembre 2026 de 10h00 à 11h30",
+        "location_name": "",
+        "address": "RDV place du Dr Bourdongle, à l’angle de la pharmacie des plantes (prévoyez d’arriver 5' avant au plus tard) - 26110 NYONS",
+        "phone": "04 75 26 79 05",
+        "email": "smbp@baronnies-provencales.fr",
+        "website": "https://www.baronnies-provencales.fr/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/visite-collective-dans-le-vieux-nyons-2026-11-20/",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "date_label": "Vendredi 20 novembre 2026 de 10h00 à 11h30"
+    },
+    {
       "title": "Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
@@ -6971,6 +6994,28 @@
       "date_label": "Samedi 28 novembre 2026 de 10h00 à 12h00"
     },
     {
+      "title": "Marché de Noël du Clos des Rûynes",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "summary": "Un marché de Noël chaleureux et créatif au cœur de Nyons ! Claire et Vincent Boutonnet vous invitent au Clos des Rûynes pour un marché de Noël placé sous le signe de la création, de l'artisanat et des belles découvertes.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/marche-de-noel-du-clos-des-ruynes/",
+      "practical": {
+        "date_time": "Du samedi 28 novembre 2026 de 10h00 au dimanche 29 novembre 2026 à 18h00",
+        "location_name": "Clos des Rûynes",
+        "address": "56 avenue Paul Laurens - 26110 NYONS",
+        "phone": "",
+        "email": "brigitte.albero@free.fr",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/marche-de-noel-du-clos-des-ruynes-2026-11-28/",
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "date_label": "Du samedi 28 novembre 2026 de 10h00 au dimanche 29 novembre 2026 à 18h00"
+    },
+    {
       "title": "Salon du livre de « Contes et Rencontres »",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
@@ -7061,26 +7106,27 @@
       }
     },
     {
-      "title": "Concert « George Sand Contemporaine »",
+      "title": "George Sand contemporaine",
       "start_date": "2026-11-29",
       "end_date": "2026-11-29",
-      "summary": "Proposé par l'association \"Lire Écrire Créer\"",
+      "summary": "George Sand, entre les mots et les notes… Et si, le temps d’un spectacle, nous entrions dans l’univers de George Sand ? Une femme libre, passionnée, audacieuse, dont les mots résonnent encore aujourd’hui.",
       "categories": [
-        "Patrimoine / Culture vivante"
+        "Patrimoine / Culture vivante",
+        "Vie associative"
       ],
-      "url": "https://www.nyons.com/agenda/concert-george-sand-contemporaine/",
+      "url": "https://www.nyons.com/agenda/george-sand-contemporaine/",
       "practical": {
-        "date_time": "Dimanche 29 novembre 2026 de 16h30 à 17h30",
+        "date_time": "Dimanche 29 novembre 2026 de 16h30 à 18h30",
         "location_name": "",
         "address": "Salle de l'ancien tribunal, place Jacques Martin Deydier - 26110 NYONS",
         "phone": "",
-        "email": "assolireecrirecreer@gmail.com",
-        "website": ""
+        "email": "brigitte.albero@free.fr",
+        "website": "https://www.editionscheminsdeliberte.fr/"
       },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/concert-george-sand-contemporaine-2026-11-29/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/george-sand-contemporaine-2026-11-29/",
       "start_time": "16:30",
-      "end_time": "17:30",
-      "date_label": "Dimanche 29 novembre 2026 de 16h30 à 17h30"
+      "end_time": "18:30",
+      "date_label": "Dimanche 29 novembre 2026 de 16h30 à 18h30"
     },
     {
       "title": "Cinéma — Le Temps des animaux",
@@ -7454,7 +7500,7 @@
       "title": "Découverte des sports de raquettes",
       "start_date": "2026-12-05",
       "end_date": "2026-12-05",
-      "summary": "Dans le cadre du",
+      "summary": "Dans le cadre du Téléthon 2026.",
       "categories": [
         "Solidarité / Santé",
         "Vie associative"
@@ -7563,6 +7609,28 @@
       "start_time": "10:30",
       "end_time": "12:00",
       "date_label": "Samedi 05 décembre 2026 de 10h30 à 12h00"
+    },
+    {
+      "title": "Téléthon 2026",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-06",
+      "summary": "Téléthon 2026",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/telethon-2026/",
+      "practical": {
+        "date_time": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59",
+        "location_name": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/telethon-2026-2026-12-05/",
+      "start_time": "00:00",
+      "end_time": "23:59",
+      "date_label": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59"
     },
     {
       "title": "Yoga des yeux avec Annabel",

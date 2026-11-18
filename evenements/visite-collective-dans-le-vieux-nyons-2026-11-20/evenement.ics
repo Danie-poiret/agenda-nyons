@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:visite-collective-dans-le-vieux-nyons-2026-11-20@agenda.vivreanyons.fr
+DTSTAMP:20261118T154349Z
+DTSTART;TZID=Europe/Paris:20261120T100000
+DTEND;TZID=Europe/Paris:20261120T113000
+SUMMARY:Visite collective dans le vieux Nyons
+DESCRIPTION:Une promenade commentée dans le vieux Nyons pour parler de la nature en ville et de la végétalisation du centre ancien.\nhttps://agenda.vivreanyons.fr/evenements/visite-collective-dans-le-vieux-nyons-2026-11-20/
+LOCATION:RDV place du Dr Bourdongle\, à l’angle de la pharmacie des plantes (prévoyez d’arriver 5' avant au plus tard) - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/visite-collective-dans-le-vieux-nyons-2026-11-20/
+END:VEVENT
+END:VCALENDAR

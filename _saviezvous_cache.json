@@ -1512,6 +1512,30 @@
       "version": 1,
       "generated_at": "2026-11-17T16:04:44.977155+00:00",
       "source_url": "https://www.nyons.com/agenda/video-live-streaming-du-telethon/"
+    },
+    "visite-collective-dans-le-vieux-nyons-2026-11-20": {
+      "text": "À retenir pour Visite collective dans le vieux Nyons : Le Parc naturel régional des Baronnies provençales souhaite anticiper plutôt que subir l’évolution des paysages et en prendre soin.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-18T15:43:50.699533+00:00",
+      "source_url": "https://www.nyons.com/agenda/visite-collective-dans-le-vieux-nyons/"
+    },
+    "marche-de-noel-du-clos-des-ruynes-2026-11-28": {
+      "text": "À retenir pour Marché de Noël du Clos des Rûynes : Un marché de Noël chaleureux et créatif au cœur de Nyons ! Claire et Vincent Boutonnet vous invitent au",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-18T15:43:50.707746+00:00",
+      "source_url": "https://www.nyons.com/agenda/marche-de-noel-du-clos-des-ruynes/"
+    },
+    "george-sand-contemporaine-2026-11-29": {
+      "text": "À retenir pour George Sand contemporaine : Au fil de lectures choisies et d’œuvres pour piano de son époque, littérature et musique se répondent, faisant revivre toute la sensibilité, les élans et les passions du XIXe siècle.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-18T15:43:50.709201+00:00",
+      "source_url": "https://www.nyons.com/agenda/george-sand-contemporaine/"
     }
   }
 }
