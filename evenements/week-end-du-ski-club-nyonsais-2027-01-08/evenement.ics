@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:week-end-du-ski-club-nyonsais-2027-01-08@agenda.vivreanyons.fr
+DTSTAMP:20261122T124316Z
+DTSTART;TZID=Europe/Paris:20270108T070000
+DTEND;TZID=Europe/Paris:20270110T190000
+SUMMARY:Week-end du Ski Club Nyonsais
+DESCRIPTION:Inscriptions et renseignements sur le site skiclubnyonsais.fr\nhttps://agenda.vivreanyons.fr/evenements/week-end-du-ski-club-nyonsais-2027-01-08/
+LOCATION:Départ — place Olivier de Serres (Coopérative du Nyonsais) — Place Olivier de Serres\, 26110 Nyons
+URL:https://agenda.vivreanyons.fr/evenements/week-end-du-ski-club-nyonsais-2027-01-08/
+END:VEVENT
+END:VCALENDAR

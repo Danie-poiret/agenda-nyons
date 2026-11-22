@@ -744,5 +744,43 @@
     "generated_at": "2026-10-15T11:34:39.492103+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 3
+  },
+  "2027-02-22": {
+    "hash": "de7a24dd299d35f74c8dcf5605e05e3d63951ecb374c035b6a3bc2b8b3237f66",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 22 au 28 février 2027 : sorties, animations et événements de la semaine, avec dates et liens vers les fiches officielles.",
+      "intro": "Vous cherchez que faire à Nyons du 22 au 28 février 2027 ? Cette sélection rassemble 1 rendez-vous annoncés dans l’agenda officiel de la Ville de Nyons. Retrouvez ci-dessous les dates essentielles et les liens vers les fiches officielles pour préparer votre semaine.",
+      "weekend": "Pour organiser votre week-end, consultez les événements datés du samedi et du dimanche dans la liste ci-dessous. Les horaires, tarifs et éventuelles modifications restent à vérifier sur la fiche officielle de chaque rendez-vous.",
+      "practical": "Avant de vous déplacer, vérifiez la fiche officielle : certains événements peuvent être modifiés, reportés ou soumis à réservation.",
+      "conclusion": "Cette page est mise à jour automatiquement à partir de l’agenda public de Nyons. Revenez régulièrement pour découvrir les nouveaux rendez-vous annoncés.",
+      "highlights": [
+        {
+          "event_title": "Sortie hebdomadaire du Ski Club Nyonsais",
+          "reason": "Un rendez-vous à retrouver dans l’agenda de la semaine."
+        }
+      ]
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "local",
+    "prompt_version": 3
+  },
+  "2027-03-01": {
+    "hash": "a1602a1596bcb94ee7636e8c22f3d773def96f229f37b243a9322a82dc177387",
+    "editorial": {
+      "meta_description": "Agenda de Nyons du 1 au 7 mars 2027 : sorties, animations et événements de la semaine, avec dates et liens vers les fiches officielles.",
+      "intro": "Vous cherchez que faire à Nyons du 1 au 7 mars 2027 ? Cette sélection rassemble 1 rendez-vous annoncés dans l’agenda officiel de la Ville de Nyons. Retrouvez ci-dessous les dates essentielles et les liens vers les fiches officielles pour préparer votre semaine.",
+      "weekend": "Pour organiser votre week-end, consultez les événements datés du samedi et du dimanche dans la liste ci-dessous. Les horaires, tarifs et éventuelles modifications restent à vérifier sur la fiche officielle de chaque rendez-vous.",
+      "practical": "Avant de vous déplacer, vérifiez la fiche officielle : certains événements peuvent être modifiés, reportés ou soumis à réservation.",
+      "conclusion": "Cette page est mise à jour automatiquement à partir de l’agenda public de Nyons. Revenez régulièrement pour découvrir les nouveaux rendez-vous annoncés.",
+      "highlights": [
+        {
+          "event_title": "Sortie hebdomadaire du Ski Club Nyonsais",
+          "reason": "Un rendez-vous à retrouver dans l’agenda de la semaine."
+        }
+      ]
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "local",
+    "prompt_version": 3
   }
 }

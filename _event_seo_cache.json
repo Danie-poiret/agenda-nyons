@@ -15045,5 +15045,859 @@
     "prompt_version": 10,
     "anecdote_id": "topic-a14561785a632714",
     "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/karaoke-de-noel/": {
+    "hash": "f540c785164bfe9816e6b10bef644e99c94b29d3dcaf82338c9842d11c7133c6",
+    "slug": "karaoke-de-noel-2026-12-12",
+    "event": {
+      "title": "Karaoké de Noël",
+      "url": "https://www.nyons.com/agenda/karaoke-de-noel/",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Organisé par la Municipalité et animé par Nathan.",
+      "categories": [
+        "Patrimoine / Culture vivante"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/karaoke-de-noel-2026-12-12/",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 12 décembre 2026 de 15h00 à 17h00",
+      "location": "Place du Dr Bourdongle",
+      "address": "Place du Dr Bourdongle, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Karaoké de Noël à Nyons — 12 décembre 2026, de 15 h à 17 h",
+      "meta_description": "Karaoké de Noël à Nyons le 12 décembre 2026, de 15 h à 17 h, place du Dr Bourdongle. Animation par Nathan et danse avec Nyons O’Line.",
+      "intro": "Envie de chanter au milieu des animations de Noël ? Le samedi 12 décembre 2026, la Municipalité de Nyons vous donne rendez-vous place du Dr Bourdongle, de 15 h à 17 h, pour un karaoké animé par Nathan.",
+      "story": "Le karaoké est ouvert à tous : chanteurs occasionnels, choristes confirmés et personnes qui souhaitent simplement essayer. Nathan anime cet après-midi organisé par la Municipalité. Vers 16 h, Nyons O’Line proposera une démonstration de danse en ligne. Vous pouvez donc venir pour chanter, écouter ou profiter de cette animation au cours de votre passage dans le centre de Nyons.",
+      "why_it_matters": "Voilà un rendez-vous qui peut réunir plusieurs générations autour des chansons. Pas besoin d’être un habitué du micro : l’annonce accueille aussi ceux qui ne sont pas des chanteurs confirmés. La démonstration de danse ajoute un autre moment à partager pendant l’après-midi.",
+      "practical": "Rendez-vous samedi 12 décembre 2026 de 15 h à 17 h, place du Dr Bourdongle à Nyons. Démonstration de Nyons O’Line vers 16 h. Renseignements auprès de la Ville de Nyons au 04 75 26 50 00. La fiche municipale ne précise pas de tarif ni de réservation.",
+      "reader_question": "Quelle chanson aimeriez-vous reprendre pour ce karaoké de Noël ?"
+    },
+    "practical": {
+      "date_time": "Samedi 12 décembre 2026 de 15h00 à 17h00",
+      "location_name": "Place du Dr Bourdongle",
+      "address": "Place du Dr Bourdongle, 26110 Nyons",
+      "phone": "0475265000",
+      "email": "",
+      "website": ""
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-eff96dcecf3b6e55",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais/": {
+    "hash": "ad1c38469787a65e48e94bb3f0e0232a34878be2c785a7dfee666d19a0ff9480",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-12",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais/",
+      "start_date": "2026-12-12",
+      "end_date": "2026-12-12",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-12/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 12 décembre 2026 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 12 décembre 2026",
+      "meta_description": "Sortie de ski au départ de Nyons le 12 décembre 2026 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 12 décembre 2026, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 12 décembre 2026 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-6ded4eca2688435e",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-2/": {
+    "hash": "f87284f19168f05b204c685dda55489b8ca0f1a52da6a079d3fbc9d6ff03e006",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-19",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-2/",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-19/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 19 décembre 2026 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 19 décembre 2026",
+      "meta_description": "Sortie de ski au départ de Nyons le 19 décembre 2026 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 19 décembre 2026, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 19 décembre 2026 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-1872d0562e82f2e3",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-3/": {
+    "hash": "c35418d15f25f505e797d82ee071a2fa80b5fc3806e1be1fdf7e00787cf4e0fb",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-3/",
+      "start_date": "2026-12-26",
+      "end_date": "2026-12-26",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 26 décembre 2026 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 26 décembre 2026",
+      "meta_description": "Sortie de ski au départ de Nyons le 26 décembre 2026 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 26 décembre 2026, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 26 décembre 2026 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-2e12e9964710dde2",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-4/": {
+    "hash": "2da455dc9a272649ab854a1cc743882b10bd37f19b3021183577a699cd572b51",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-02",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-4/",
+      "start_date": "2027-01-02",
+      "end_date": "2027-01-02",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-02/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 02 janvier 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 2 janvier 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 2 janvier 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 2 janvier 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 02 janvier 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-4850f7c221756a87",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/week-end-du-ski-club-nyonsais/": {
+    "hash": "4aab1dfaa800d6c44d07407f9442346da9b548c1785090614c2269d8d290b59d",
+    "slug": "week-end-du-ski-club-nyonsais-2027-01-08",
+    "event": {
+      "title": "Week-end du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/week-end-du-ski-club-nyonsais/",
+      "start_date": "2027-01-08",
+      "end_date": "2027-01-10",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/week-end-du-ski-club-nyonsais-2027-01-08/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Du vendredi 08 janvier 2027 de 07h00 au dimanche 10 janvier 2027 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Week-end du Ski Club Nyonsais à la Joue du Loup — 8 au 10 janvier 2027",
+      "meta_description": "Week-end ski à la Joue du Loup du 8 au 10 janvier 2027 : chalet aux Flocons du Soleil, forfait et transport individuel. Tarif annoncé : 120 €.",
+      "intro": "Le Ski Club Nyonsais propose un week-end à la Joue du Loup du vendredi 8 au dimanche 10 janvier 2027. La formule annoncée associe un hébergement en chalet à la résidence Les Flocons du Soleil et le forfait de remontées mécaniques.",
+      "story": "Le tarif annoncé est de 120 € sur une base de six personnes. Le transport est individuel : il faut donc organiser son trajet pour rejoindre le séjour. Le règlement se fait à la réservation, avec un encaissement durant ou après le séjour. Les inscriptions et renseignements passent par skiclubnyonsais.fr. Les adhésions se font pendant les permanences au local du club, et le numéro d’adhésion est demandé lors de l’inscription en ligne.",
+      "why_it_matters": "Passer plusieurs jours en chalet permet de prolonger la sortie en montagne au-delà d’une seule journée. La formule réunit l’hébergement et les remontées mécaniques ; le transport individuel laisse à chaque participant le soin de préparer son déplacement avec le club.",
+      "practical": "Du 8 au 10 janvier 2027 ; la fiche municipale indique une période du vendredi à 7 h au dimanche à 19 h. Destination : la Joue du Loup. Hébergement : résidence Les Flocons du Soleil. Tarif : 120 € sur une base de six personnes. Transport individuel. La place Olivier de Serres à Nyons est le point de référence indiqué par l’annonce ; confirmez le rendez-vous avec le club au 06 81 66 18 33.",
+      "reader_question": "Un week-end en chalet à la montagne vous tenterait-il cet hiver ?"
+    },
+    "practical": {
+      "date_time": "Du vendredi 08 janvier 2027 de 07h00 au dimanche 10 janvier 2027 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-45de0df3a1cff7f5",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-5/": {
+    "hash": "4217112a0d9d53573dd1da5c988aa10045e6478a7562a36b01842f91967dae92",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-09",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-5/",
+      "start_date": "2027-01-09",
+      "end_date": "2027-01-09",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-09/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 09 janvier 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 9 janvier 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 9 janvier 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 9 janvier 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 09 janvier 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-56f63d514541fe14",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-6/": {
+    "hash": "10fd1c50314a53a5295190bb465c162303b4c765cf0cbd2f95f9a8beb90b46fb",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-16",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-6/",
+      "start_date": "2027-01-16",
+      "end_date": "2027-01-16",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-16/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 16 janvier 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 16 janvier 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 16 janvier 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 16 janvier 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 16 janvier 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-7cd69d381d90f04f",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-7/": {
+    "hash": "ab8d5c87e9ffc613426c09d2bd6881d16b2864e08a3bc91b6bfaf8361ac82371",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-23",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-7/",
+      "start_date": "2027-01-23",
+      "end_date": "2027-01-23",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-23/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 23 janvier 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 23 janvier 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 23 janvier 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 23 janvier 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 23 janvier 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-adb039b05005ad48",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sejour-du-ski-club-nyonsais/": {
+    "hash": "c4bf24ffcd3837ecdccafc30c8c19c680160dfaca590a0aa3bb98f1a2558ca23",
+    "slug": "sejour-du-ski-club-nyonsais-2027-01-24",
+    "event": {
+      "title": "Séjour du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sejour-du-ski-club-nyonsais/",
+      "start_date": "2027-01-24",
+      "end_date": "2027-01-27",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sejour-du-ski-club-nyonsais-2027-01-24/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Du dimanche 24 janvier 2027 de 07h00 au mercredi 27 janvier 2027 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Séjour du Ski Club Nyonsais aux 3 Vallées — 24 au 27 janvier 2027",
+      "meta_description": "Du 24 au 27 janvier 2027, séjour aux 3 Vallées avec le Ski Club Nyonsais : hôtel en demi-pension, forfait et car. Environ 560 €, acompte de 100 €.",
+      "intro": "Le Ski Club Nyonsais organise un séjour aux 3 Vallées du dimanche 24 au mercredi 27 janvier 2027. Hébergement en demi-pension à l’Hôtel Les Chalets ***, forfait de remontées mécaniques et transport en car composent la formule annoncée.",
+      "story": "Le départ en bus est prévu depuis la place Olivier de Serres, près de la Coopérative du Nyonsais. Le tarif annoncé est d’environ 560 € par personne, avec un nombre de places limité et un acompte de 100 € à la réservation. Les inscriptions et renseignements se font sur skiclubnyonsais.fr. Pour le transport en car, les skis et les surfs doivent être sous housse et les chaussures placées dans un sac. Les forfaits sont à restituer à la fin du séjour.",
+      "why_it_matters": "Cette formule rassemble les principaux éléments du séjour : le trajet en car, les nuits en hôtel avec demi-pension et les remontées mécaniques. Elle permet de préparer plusieurs journées de ski avec le club au départ de Nyons, en tenant compte des places disponibles.",
+      "practical": "Du 24 au 27 janvier 2027. La fiche indique un départ le dimanche à 7 h et une fin le mercredi à 19 h. Point de départ : place Olivier de Serres à Nyons. Budget annoncé : environ 560 € par personne ; acompte de 100 € à la réservation. Les mineurs restent sous la responsabilité de leurs parents. Renseignements au 06 81 66 18 33 ou sur skiclubnyonsais.fr.",
+      "reader_question": "Avez-vous déjà découvert les 3 Vallées lors d’un séjour avec un club ?"
+    },
+    "practical": {
+      "date_time": "Du dimanche 24 janvier 2027 de 07h00 au mercredi 27 janvier 2027 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-b8e872aafcb2eeb5",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-8/": {
+    "hash": "d19be2f494ec56f9ae9b454f43cf32cb9127212c9a151b937de4c249c66f4c83",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-30",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-8/",
+      "start_date": "2027-01-30",
+      "end_date": "2027-01-30",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-30/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 30 janvier 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 30 janvier 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 30 janvier 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 30 janvier 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 30 janvier 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-13eb4d0db80afee7",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-9/": {
+    "hash": "5c20570be1f0d071bffc01bc70e4b136e50d92fe184593dcba2f4dd5e487a9a5",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-06",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-9/",
+      "start_date": "2027-02-06",
+      "end_date": "2027-02-06",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-06/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 06 février 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 6 février 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 6 février 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 6 février 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 06 février 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-ac35e44f92beb3a7",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-10/": {
+    "hash": "44d83970eefe54734c72f4bc29678ebe43344f24065751003c2abe7d6d6991a2",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-13",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-10/",
+      "start_date": "2027-02-13",
+      "end_date": "2027-02-13",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-13/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 13 février 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 13 février 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 13 février 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 13 février 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 13 février 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-89048fc3dff80b20",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-11/": {
+    "hash": "0ec158b6c8b87778aa28c592bde59c42b40551eef26ff070d0613289e0e5dee3",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-20",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-11/",
+      "start_date": "2027-02-20",
+      "end_date": "2027-02-20",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-20/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 20 février 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 20 février 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 20 février 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 20 février 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 20 février 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-7a85abd41c6c2792",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-12/": {
+    "hash": "b7a9bf51581dcaae4ea8f3d31649dd902b16570c21a3d5f2ea5d0a5687836fd7",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-27",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-12/",
+      "start_date": "2027-02-27",
+      "end_date": "2027-02-27",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-27/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 27 février 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 27 février 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 27 février 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 27 février 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 27 février 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-d5a3e7ccf3e62a75",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-13/": {
+    "hash": "e770f3152d4c47b044341f2bce23bb3c5587c40aa1023aebf66e3d764e858176",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-06",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-13/",
+      "start_date": "2027-03-06",
+      "end_date": "2027-03-06",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-06/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 06 mars 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 6 mars 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 6 mars 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 6 mars 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 06 mars 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-4f1d44a0fc4a3d21",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-14/": {
+    "hash": "4001e383341e3605d78edc7509a6ba03afe9191bbdc84ce4dad88b798f76bba8",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-13",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-14/",
+      "start_date": "2027-03-13",
+      "end_date": "2027-03-13",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-13/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 13 mars 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 13 mars 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 13 mars 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 13 mars 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 13 mars 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-bae8303d94b7d082",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-15/": {
+    "hash": "d4c3a6337cbeba69d94ef69d905bd866c465670a75833d242426a80b2ea26c0b",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-20",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-15/",
+      "start_date": "2027-03-20",
+      "end_date": "2027-03-20",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-20/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 20 mars 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 20 mars 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 20 mars 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 20 mars 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 20 mars 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-bb45156721a7da5a",
+    "anecdote_assignment_version": 101
+  },
+  "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-16/": {
+    "hash": "87cfb489a774c6677885f623288b667073b3900330134c981200e25bb1b9ca7e",
+    "slug": "sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-27",
+    "event": {
+      "title": "Sortie hebdomadaire du Ski Club Nyonsais",
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-16/",
+      "start_date": "2027-03-27",
+      "end_date": "2027-03-27",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
+      "categories": [
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-27/",
+      "start_time": "07:00",
+      "end_time": "19:00",
+      "date_label": "Samedi 27 mars 2027 de 07h00 à 19h00",
+      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons"
+    },
+    "editorial": {
+      "_fallback": false,
+      "verified_at": "2026-11-22",
+      "seo_title": "Ski Club Nyonsais : sortie à la Joue du Loup le 27 mars 2027",
+      "meta_description": "Sortie de ski au départ de Nyons le 27 mars 2027 : car à 7 h vers la Joue du Loup, tarifs et inscription avant le jeudi à 19 h.",
+      "intro": "Le 27 mars 2027, le Ski Club Nyonsais organise une journée à la Joue du Loup. Le car part à 7 h de la place Olivier de Serres, près de la Coopérative du Nyonsais. La plage horaire annoncée pour cette sortie va de 7 h à 19 h.",
+      "story": "La sortie rejoint la Joue du Loup en bus depuis Nyons. Les inscriptions se font sur skiclubnyonsais.fr avant le jeudi à 19 h ; le numéro d’adhésion est demandé lors de la réservation en ligne. Les adhésions se font uniquement pendant les permanences au local du club. Pour le voyage, les housses sont obligatoires pour les skis et les surfs, et les chaussures doivent être dans un sac. Les forfaits sont à restituer à la fin de la sortie.",
+      "why_it_matters": "Cette formule permet de partir depuis Nyons avec le transport organisé par le club. Elle s’adresse aussi aux personnes qui souhaitent accompagner les skieurs sans skier, puisqu’un tarif promeneurs est annoncé. Le départ matinal permet de préparer sa journée et son matériel la veille.",
+      "practical": "Tarifs annoncés : moins de 18 ans, 31 € ; adultes, 36 € ; non-adhérents, 46 € ; assurance forfait journée, 3 € ; promeneurs, 25 €. Départ en car à 7 h, place Olivier de Serres à Nyons. Les enfants mineurs restent sous la responsabilité de leurs parents. Inscriptions et renseignements : skiclubnyonsais.fr ou 06 81 66 18 33.",
+      "reader_question": "Vous partiriez plutôt pour les pistes ou pour une journée de promenade à la montagne ?"
+    },
+    "practical": {
+      "date_time": "Samedi 27 mars 2027 de 07h00 à 19h00",
+      "location_name": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
+      "address": "Place Olivier de Serres, 26110 Nyons",
+      "phone": "0681661833",
+      "email": "",
+      "website": "https://skiclubnyonsais.fr/"
+    },
+    "generated_at": "2026-11-22T12:43:15.249002+00:00",
+    "model": "editorial-local",
+    "prompt_version": 10,
+    "anecdote_id": "topic-3b5dc95cb051d996",
+    "anecdote_assignment_version": 101
   }
 }
