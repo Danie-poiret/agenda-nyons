@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-12@agenda.vivreanyons.fr
-DTSTAMP:20261122T124315Z
+DTSTAMP:20261122T143851Z
 DTSTART;TZID=Europe/Paris:20261212T070000
 DTEND;TZID=Europe/Paris:20261212T190000
 SUMMARY:Sortie hebdomadaire du Ski Club Nyonsais
 DESCRIPTION:Inscriptions et renseignements sur le site skiclubnyonsais.fr\nhttps://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-12/
-LOCATION:Départ — place Olivier de Serres (Coopérative du Nyonsais) — Place Olivier de Serres\, 26110 Nyons
+LOCATION:Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-12/
 END:VEVENT
 END:VCALENDAR

@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26@agenda.vivreanyons.fr
-DTSTAMP:20261122T124316Z
+DTSTAMP:20261122T143851Z
 DTSTART;TZID=Europe/Paris:20261226T070000
 DTEND;TZID=Europe/Paris:20261226T190000
 SUMMARY:Sortie hebdomadaire du Ski Club Nyonsais
-DESCRIPTION:Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville\, BP 103\, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq\nhttps://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26/
-LOCATION:Départ — place Olivier de Serres (Coopérative du Nyonsais) — Place Olivier de Serres\, 26110 Nyons
+DESCRIPTION:Inscriptions et renseignements sur le site skiclubnyonsais.fr\nhttps://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26/
+LOCATION:Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26/
 END:VEVENT
 END:VCALENDAR

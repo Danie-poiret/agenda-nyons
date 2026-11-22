@@ -1688,6 +1688,14 @@
       "model": "editorial-local",
       "version": 1,
       "generated_at": "2026-11-22T12:43:15.249002+00:00"
+    },
+    "journee-depistage-2026-11-28": {
+      "text": "À retenir pour Journée dépistage : Il mentionne le dépistage du cancer du col de l’utérus pour les 25–65 ans, la remise d’un kit de dépistage colorectal à réaliser chez soi et l’ordonnance avec prise de rendez-vous de mammographie pour les 50–74 ans.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-22T14:38:51.755482+00:00",
+      "source_url": "https://www.nyons.com/agenda/journee-depistages-organises/"
     }
   }
 }

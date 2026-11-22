@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-22T12:43:15.249002+00:00",
-  "count": 202,
+  "updated_at": "2026-11-22T14:38:17.599374+00:00",
+  "count": 189,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -5719,28 +5719,6 @@
       }
     },
     {
-      "title": "Conseil Municipal",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-18",
-      "summary": "À l’occasion du conseil municipal, l’assemblée délibérante élue est chargée de gérer les affaires de la Commune par ses délibérations.",
-      "categories": [
-        "Administratif"
-      ],
-      "url": "https://www.nyons.com/agenda/conseil-municipal-4/",
-      "practical": {
-        "date_time": "Mercredi 18 novembre 2026 de 18h30 à 20h00",
-        "location_name": "",
-        "address": "Hôtel de Ville, place Buffaven - 26110 Nyons",
-        "phone": "04 75 26 50 06",
-        "email": "",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/conseil-municipal-2026-11-18/",
-      "start_time": "18:30",
-      "end_time": "20:00",
-      "date_label": "Mercredi 18 novembre 2026 de 18h30 à 20h00"
-    },
-    {
       "title": "Expositions « Les Heures Douces »",
       "start_date": "2026-11-18",
       "end_date": "2026-12-31",
@@ -5761,30 +5739,6 @@
       "start_time": "10:00",
       "end_time": "17:00",
       "date_label": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00"
-    },
-    {
-      "title": "Salon Vivre ici",
-      "start_date": "2026-11-18",
-      "end_date": "2026-11-18",
-      "summary": "Etudier, travailler, habiter",
-      "categories": [
-        "Cadre de vie",
-        "Solidarité / Santé",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/salon-vivre-ici/",
-      "practical": {
-        "date_time": "Mercredi 18 novembre 2026 de 09h00 à 20h00",
-        "location_name": "",
-        "address": "",
-        "phone": "",
-        "email": "campuscedille@asoft-nyons.net",
-        "website": "https://salonvivreici.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/salon-vivre-ici-2026-11-18/",
-      "start_time": "09:00",
-      "end_time": "20:00",
-      "date_label": "Mercredi 18 novembre 2026 de 09h00 à 20h00"
     },
     {
       "title": "Grande Tombola du Téléthon",
@@ -5808,73 +5762,6 @@
       "start_time": "09:00",
       "end_time": "19:00",
       "date_label": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00"
-    },
-    {
-      "title": "Journée mondiale de lutte contre le BPCO",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "summary": "Ateliers de prévention et d’information !",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/journee-mondiale-de-lutte-contre-le-bpco/",
-      "practical": {
-        "date_time": "Jeudi 19 novembre 2026 de 08h30 à 12h00",
-        "location_name": "Place Buffaven",
-        "address": "Nyons",
-        "phone": "04 75 26 55 00",
-        "email": "communication@orsac-atrir.fr",
-        "website": "https://www.orsac-atrir.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/journee-mondiale-de-lutte-contre-le-bpco-2026-11-19/",
-      "start_time": "08:30",
-      "end_time": "12:00",
-      "date_label": "Jeudi 19 novembre 2026 de 08h30 à 12h00"
-    },
-    {
-      "title": "Apéro Book avec Roger Fajnzylberg",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "summary": "Une rencontre exceptionnelle autour de la mémoire, de l'histoire familiale et de la transmission.",
-      "categories": [
-        "Patrimoine / Culture vivante"
-      ],
-      "url": "https://www.nyons.com/agenda/apero-book-avec-roger-fajnzylberg/",
-      "practical": {
-        "date_time": "Vendredi 20 novembre 2026 de 18h00 à 20h00",
-        "location_name": "Librairie de l'olivier",
-        "address": "8 place de la Libération",
-        "phone": "0475260491",
-        "email": "librairie.olivier@club-internet.fr",
-        "website": "https://librairiedelolivier.fr"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/",
-      "start_time": "18:00",
-      "end_time": "20:00",
-      "date_label": "Vendredi 20 novembre 2026 de 18h00 à 20h00"
-    },
-    {
-      "title": "Visite collective dans le vieux Nyons",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "summary": "Une promenade commentée dans le vieux Nyons pour parler de la nature en ville et de la végétalisation du centre ancien.",
-      "categories": [
-        "Cadre de vie",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/visite-collective-dans-le-vieux-nyons/",
-      "practical": {
-        "date_time": "Vendredi 20 novembre 2026 de 10h00 à 11h30",
-        "location_name": "",
-        "address": "RDV place du Dr Bourdongle, à l’angle de la pharmacie des plantes (prévoyez d’arriver 5' avant au plus tard) - 26110 NYONS",
-        "phone": "04 75 26 79 05",
-        "email": "smbp@baronnies-provencales.fr",
-        "website": "https://www.baronnies-provencales.fr/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/visite-collective-dans-le-vieux-nyons-2026-11-20/",
-      "start_time": "10:00",
-      "end_time": "11:30",
-      "date_label": "Vendredi 20 novembre 2026 de 10h00 à 11h30"
     },
     {
       "title": "Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël",
@@ -5967,51 +5854,6 @@
       "date_label": "Samedi 21 novembre 2026 de 07h30 à 12h00"
     },
     {
-      "title": "De l’île Noire au Montbrun",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "Concert \"De l'Ile Noire au Mont Brun\"",
-      "categories": [
-        "Patrimoine / Culture vivante"
-      ],
-      "url": "https://www.nyons.com/agenda/de-lile-noire-au-montbrun/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 20h30 à 22h00",
-        "location_name": "",
-        "address": "",
-        "phone": "",
-        "email": "electron.nyons@gmail.com",
-        "website": "https://www.lelectron.fr"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/de-lile-noire-au-montbrun-2026-11-21/",
-      "start_time": "20:30",
-      "end_time": "22:00",
-      "date_label": "Samedi 21 novembre 2026 de 20h30 à 22h00"
-    },
-    {
-      "title": "« La Loba » (Contes et Rencontres)",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "\"Va dans le bois mon enfant, car si tu n’y vas pas, jamais ta vie de loba ne commencera !\"",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/la-loba-contes-et-rencontres/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 15h00 à 12h00",
-        "location_name": "",
-        "address": "Maison des associations Georges Girard, Draye de Meyne - 26110 NYONS",
-        "phone": "",
-        "email": "contesetrencontres.nyons@gmail.com",
-        "website": "https://contesetrencontres26.org/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/la-loba-contes-et-rencontres-2026-11-21/",
-      "start_time": "15:00",
-      "end_time": "12:00",
-      "date_label": "Samedi 21 novembre 2026 de 15h00 à 12h00"
-    },
-    {
       "title": "« L’invité surprise » (Contes et Rencontres)",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
@@ -6078,28 +5920,6 @@
         "poster_alt": "Affiche de Everybody Digs Bill Evans",
         "poster_credit": "Affiche promotionnelle du film, version de meilleure définition issue du cinéma ou du distributeur."
       }
-    },
-    {
-      "title": "Loto de « Détente et loisirs »",
-      "start_date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "summary": "Loto de l'association \"Détente et loisirs\" à 14h à la Maison de Pays.",
-      "categories": [
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/loto-de-detente-et-loisirs/",
-      "practical": {
-        "date_time": "Dimanche 22 novembre 2026 de 14h00 à 17h00",
-        "location_name": "Maison de Pays",
-        "address": "128 promenade de la Digue - 26110 NYONS",
-        "phone": "04 75 27 26 96",
-        "email": "",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/loto-de-detente-et-loisirs-2026-11-22/",
-      "start_time": "14:00",
-      "end_time": "17:00",
-      "date_label": "Dimanche 22 novembre 2026 de 14h00 à 17h00"
     },
     {
       "title": "Cinéma — Camembert",
@@ -6741,51 +6561,6 @@
       }
     },
     {
-      "title": "Le RDV de la transmission agricole",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "summary": "Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
-      "practical": {
-        "date_time": "Mercredi 25 novembre 2026 de 09h00 à 17h00",
-        "location_name": "Chambre d'agriculture",
-        "address": "2 avenue de Venterol - 26110 NYONS",
-        "phone": "06 70 82 90 44",
-        "email": "",
-        "website": "https://www.cc-bdp.fr/2026/09/transmission-agricole-2-rendez-vous-pour-preparer-lavenir-de-son-exploitation/?fbclid=IwY2xjawUy4N5leHRuA2FlbQIxMABwZG9mAXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR77OHwKjmNnrtRyBa1H8C4r9AC9Z6fpXvKYOl_U1b-5azWhPI9AIys6JDNMuQ_aem_qjqTw4bOh5wdooTSWW77KQ"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/",
-      "start_time": "09:00",
-      "end_time": "17:00",
-      "date_label": "Mercredi 25 novembre 2026 de 09h00 à 17h00"
-    },
-    {
-      "title": "Atelier Culinaire – Duo de Choux Salés festifs",
-      "start_date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "summary": "Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-duo-de-choux-sales-festifs/",
-      "practical": {
-        "date_time": "Vendredi 27 novembre 2026 de 14h00 à 16h30",
-        "location_name": "Maison des Huiles d'Olive et Olives de France",
-        "address": "40 Pl. de la Libération",
-        "phone": "0475269090",
-        "email": "oliveetsens@gmail.com",
-        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27/",
-      "start_time": "14:00",
-      "end_time": "16:30",
-      "date_label": "Vendredi 27 novembre 2026 de 14h00 à 16h30"
-    },
-    {
       "title": "Cinéma — Les Braves",
       "film_title": "Les Braves",
       "kind": "cinema",
@@ -6881,29 +6656,6 @@
       }
     },
     {
-      "title": "Exposition « libre d’être »",
-      "start_date": "2026-11-27",
-      "end_date": "2026-12-03",
-      "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
-      "categories": [
-        "Solidarité / Santé",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
-      "practical": {
-        "date_time": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00",
-        "location_name": "Préau des Arts",
-        "address": "8 rue Pierre Toesca - 26110 NYONS",
-        "phone": "0475264326",
-        "email": "secretariatnyons@laplanningfamilial26.org",
-        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-libre-detre-2026-11-27/",
-      "start_time": "16:00",
-      "end_time": "19:00",
-      "date_label": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00"
-    },
-    {
       "title": "Initiation à la réflexologie plantaire",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
@@ -6927,33 +6679,10 @@
       "date_label": "Samedi 28 novembre 2026 de 14h00 à 18h00"
     },
     {
-      "title": "Jeu « Pause photo prose »",
+      "title": "Journée dépistage",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
-      "summary": "Pour se questionner sur l’origine des photographies, leur polysémie, leurs usages.",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Patrimoine / Culture vivante"
-      ],
-      "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/",
-      "practical": {
-        "date_time": "Samedi 28 novembre 2026 de 10h30 à 12h00",
-        "location_name": "Médiathèque",
-        "address": "9 rue Albin Vilhet - 26110 NYONS",
-        "phone": "04 75 26 48 26",
-        "email": "mddp-nyons@ladrome.fr",
-        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/jeu-pause-photo-prose-2026-11-28/",
-      "start_time": "10:30",
-      "end_time": "12:00",
-      "date_label": "Samedi 28 novembre 2026 de 10h30 à 12h00"
-    },
-    {
-      "title": "Journée dépistages organisés",
-      "start_date": "2026-11-28",
-      "end_date": "2026-11-28",
-      "summary": "Bilan perosnnalisé, dépistages des cancers, consultations gynécologiques, sensibilisation et informations.",
+      "summary": "Bilans personnalisés, dépistages des cancers, consultations gynécologiques, sensibilisation et informations.",
       "categories": [
         "Solidarité / Santé"
       ],
@@ -6966,7 +6695,7 @@
         "email": "",
         "website": ""
       },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/journee-depistages-organises-2026-11-28/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/journee-depistage-2026-11-28/",
       "start_time": "09:30",
       "end_time": "17:45",
       "date_label": "Samedi 28 novembre 2026 de 09h30 à 17h45"
@@ -7814,19 +7543,25 @@
     },
     {
       "title": "Karaoké de Noël",
-      "url": "https://www.nyons.com/agenda/karaoke-de-noel/",
       "start_date": "2026-12-12",
       "end_date": "2026-12-12",
       "summary": "Organisé par la Municipalité et animé par Nathan.",
       "categories": [
         "Patrimoine / Culture vivante"
       ],
+      "url": "https://www.nyons.com/agenda/karaoke-de-noel/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 15h00 à 17h00",
+        "location_name": "",
+        "address": "Place du Dr Bourdongle - 26110 NYONS",
+        "phone": "0475265000",
+        "email": "",
+        "website": ""
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/karaoke-de-noel-2026-12-12/",
       "start_time": "15:00",
       "end_time": "17:00",
-      "date_label": "Samedi 12 décembre 2026 de 15h00 à 17h00",
-      "location": "Place du Dr Bourdongle",
-      "address": "Place du Dr Bourdongle, 26110 Nyons"
+      "date_label": "Samedi 12 décembre 2026 de 15h00 à 17h00"
     },
     {
       "title": "Marché de Noël",
@@ -7852,7 +7587,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais/",
       "start_date": "2026-12-12",
       "end_date": "2026-12-12",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -7860,12 +7594,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais/",
+      "practical": {
+        "date_time": "Samedi 12 décembre 2026 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-12/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 12 décembre 2026 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 12 décembre 2026 de 07h00 à 19h00"
     },
     {
       "title": "Video live streaming du Téléthon",
@@ -8003,28 +7744,6 @@
       "date_label": "Samedi 19 décembre 2026 de 14h30 à 17h30"
     },
     {
-      "title": "Constellations familiales",
-      "start_date": "2026-12-19",
-      "end_date": "2026-12-19",
-      "summary": "Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels. C'est un moment de libération, mais aussi d'hommage à nos ancêtres...",
-      "categories": [
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/constellations-familiales-4/",
-      "practical": {
-        "date_time": "Samedi 19 décembre 2026 de 13h30 à 19h30",
-        "location_name": "Le collectif le Papillon",
-        "address": "10 Avenue Jules Bernard - 26110 NYONS",
-        "phone": "0647189287",
-        "email": "",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/constellations-familiales-2026-12-19/",
-      "start_time": "13:30",
-      "end_time": "19:30",
-      "date_label": "Samedi 19 décembre 2026 de 13h30 à 19h30"
-    },
-    {
       "title": "Fête de l’Olive Piquée 2026",
       "start_date": "2026-12-19",
       "end_date": "2026-12-19",
@@ -8071,7 +7790,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-2/",
       "start_date": "2026-12-19",
       "end_date": "2026-12-19",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8079,12 +7797,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-2/",
+      "practical": {
+        "date_time": "Samedi 19 décembre 2026 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-19/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 19 décembre 2026 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 19 décembre 2026 de 07h00 à 19h00"
     },
     {
       "title": "Toupetituli",
@@ -8199,20 +7924,26 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-3/",
       "start_date": "2026-12-26",
       "end_date": "2026-12-26",
-      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
       "categories": [
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-3/",
+      "practical": {
+        "date_time": "Samedi 26 décembre 2026 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2026-12-26/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 26 décembre 2026 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 26 décembre 2026 de 07h00 à 19h00"
     },
     {
       "title": "On a perdu les clés du traîneau",
@@ -8282,7 +8013,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-4/",
       "start_date": "2027-01-02",
       "end_date": "2027-01-02",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8290,12 +8020,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-4/",
+      "practical": {
+        "date_time": "Samedi 02 janvier 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-02/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 02 janvier 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 02 janvier 2027 de 07h00 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Essai de toponymie locale »",
@@ -8344,7 +8081,6 @@
     },
     {
       "title": "Week-end du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/week-end-du-ski-club-nyonsais/",
       "start_date": "2027-01-08",
       "end_date": "2027-01-10",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8352,12 +8088,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/week-end-du-ski-club-nyonsais/",
+      "practical": {
+        "date_time": "Du vendredi 08 janvier 2027 de 07h00 au dimanche 10 janvier 2027 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/week-end-du-ski-club-nyonsais-2027-01-08/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Du vendredi 08 janvier 2027 de 07h00 au dimanche 10 janvier 2027 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Du vendredi 08 janvier 2027 de 07h00 au dimanche 10 janvier 2027 à 19h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -8382,7 +8125,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-5/",
       "start_date": "2027-01-09",
       "end_date": "2027-01-09",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8390,12 +8132,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-5/",
+      "practical": {
+        "date_time": "Samedi 09 janvier 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-09/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 09 janvier 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 09 janvier 2027 de 07h00 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur Albert Camus, la voix de la pauvreté",
@@ -8444,7 +8193,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-6/",
       "start_date": "2027-01-16",
       "end_date": "2027-01-16",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8452,12 +8200,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-6/",
+      "practical": {
+        "date_time": "Samedi 16 janvier 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-16/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 16 janvier 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 16 janvier 2027 de 07h00 à 19h00"
     },
     {
       "title": "Loto de l’association « Le Trait d’Union »",
@@ -8528,7 +8283,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-7/",
       "start_date": "2027-01-23",
       "end_date": "2027-01-23",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8536,16 +8290,22 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-7/",
+      "practical": {
+        "date_time": "Samedi 23 janvier 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-23/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 23 janvier 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 23 janvier 2027 de 07h00 à 19h00"
     },
     {
       "title": "Séjour du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sejour-du-ski-club-nyonsais/",
       "start_date": "2027-01-24",
       "end_date": "2027-01-27",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8553,12 +8313,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sejour-du-ski-club-nyonsais/",
+      "practical": {
+        "date_time": "Du dimanche 24 janvier 2027 de 07h00 au mercredi 27 janvier 2027 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sejour-du-ski-club-nyonsais-2027-01-24/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Du dimanche 24 janvier 2027 de 07h00 au mercredi 27 janvier 2027 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Du dimanche 24 janvier 2027 de 07h00 au mercredi 27 janvier 2027 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Guernica » de Pablo Picasso",
@@ -8585,7 +8352,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-8/",
       "start_date": "2027-01-30",
       "end_date": "2027-01-30",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8593,12 +8359,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-8/",
+      "practical": {
+        "date_time": "Samedi 30 janvier 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-01-30/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 30 janvier 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 30 janvier 2027 de 07h00 à 19h00"
     },
     {
       "title": "Les Grands Chemins",
@@ -8624,20 +8397,26 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-9/",
       "start_date": "2027-02-06",
       "end_date": "2027-02-06",
-      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
       "categories": [
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-9/",
+      "practical": {
+        "date_time": "Samedi 06 février 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-06/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 06 février 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 06 février 2027 de 07h00 à 19h00"
     },
     {
       "title": "Atelier Yoga du Chant",
@@ -8662,7 +8441,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-10/",
       "start_date": "2027-02-13",
       "end_date": "2027-02-13",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8670,12 +8448,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-10/",
+      "practical": {
+        "date_time": "Samedi 13 février 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-13/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 13 février 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 13 février 2027 de 07h00 à 19h00"
     },
     {
       "title": "Blue Maqam de Renaud Garcia-Fons",
@@ -8701,7 +8486,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-11/",
       "start_date": "2027-02-20",
       "end_date": "2027-02-20",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8709,16 +8493,22 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-11/",
+      "practical": {
+        "date_time": "Samedi 20 février 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-20/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 20 février 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 20 février 2027 de 07h00 à 19h00"
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-12/",
       "start_date": "2027-02-27",
       "end_date": "2027-02-27",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8726,16 +8516,22 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-12/",
+      "practical": {
+        "date_time": "Samedi 27 février 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-02-27/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 27 février 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 27 février 2027 de 07h00 à 19h00"
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-13/",
       "start_date": "2027-03-06",
       "end_date": "2027-03-06",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8743,12 +8539,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-13/",
+      "practical": {
+        "date_time": "Samedi 06 mars 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-06/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 06 mars 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 06 mars 2027 de 07h00 à 19h00"
     },
     {
       "title": "Quand je serai grande, je serai Patrick Swayze",
@@ -8795,20 +8598,26 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-14/",
       "start_date": "2027-03-13",
       "end_date": "2027-03-13",
-      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr 1 2 3 4 5 … 10 11 -> Abonnement aux informations de la ville de Nyons Recevez les dernières actualités de la ville et les alertes d’urgence et de sécurité directement dans votre boîte mail ou par SMS. S'abonner Mairie de Nyons Hôtel de Ville, BP 103, 26110 Nyons 04 75 26 50 00 Nous suivre Météo Nuageux 13°C / 13°C Contact Recherche Mentions légales Politiq",
+      "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
       "categories": [
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-14/",
+      "practical": {
+        "date_time": "Samedi 13 mars 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-13/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 13 mars 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 13 mars 2027 de 07h00 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Tout ce que vous avez toujours voulu savoir sur Pi… en ce jour de Pi »",
@@ -8880,7 +8689,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-15/",
       "start_date": "2027-03-20",
       "end_date": "2027-03-20",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8888,12 +8696,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-15/",
+      "practical": {
+        "date_time": "Samedi 20 mars 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-20/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 20 mars 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 20 mars 2027 de 07h00 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur « La glaciation ordovicienne du Gondwana »",
@@ -8920,7 +8735,6 @@
     },
     {
       "title": "Sortie hebdomadaire du Ski Club Nyonsais",
-      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-16/",
       "start_date": "2027-03-27",
       "end_date": "2027-03-27",
       "summary": "Inscriptions et renseignements sur le site skiclubnyonsais.fr",
@@ -8928,12 +8742,19 @@
         "Sport / Loisirs",
         "Vie associative"
       ],
+      "url": "https://www.nyons.com/agenda/sortie-hebdomadaire-du-ski-club-nyonsais-16/",
+      "practical": {
+        "date_time": "Samedi 27 mars 2027 de 07h00 à 19h00",
+        "location_name": "",
+        "address": "Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS",
+        "phone": "0681661833",
+        "email": "",
+        "website": "https://skiclubnyonsais.fr/"
+      },
       "page_url": "https://agenda.vivreanyons.fr/evenements/sortie-hebdomadaire-du-ski-club-nyonsais-2027-03-27/",
       "start_time": "07:00",
       "end_time": "19:00",
-      "date_label": "Samedi 27 mars 2027 de 07h00 à 19h00",
-      "location": "Départ — place Olivier de Serres (Coopérative du Nyonsais)",
-      "address": "Place Olivier de Serres, 26110 Nyons"
+      "date_label": "Samedi 27 mars 2027 de 07h00 à 19h00"
     },
     {
       "title": "Conférence de l’UNTL sur « Sapienza Galiarda »",

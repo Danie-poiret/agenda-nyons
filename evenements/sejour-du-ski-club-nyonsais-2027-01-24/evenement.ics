@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:sejour-du-ski-club-nyonsais-2027-01-24@agenda.vivreanyons.fr
-DTSTAMP:20261122T124316Z
+DTSTAMP:20261122T143851Z
 DTSTART;TZID=Europe/Paris:20270124T070000
 DTEND;TZID=Europe/Paris:20270127T190000
 SUMMARY:Séjour du Ski Club Nyonsais
 DESCRIPTION:Inscriptions et renseignements sur le site skiclubnyonsais.fr\nhttps://agenda.vivreanyons.fr/evenements/sejour-du-ski-club-nyonsais-2027-01-24/
-LOCATION:Départ — place Olivier de Serres (Coopérative du Nyonsais) — Place Olivier de Serres\, 26110 Nyons
+LOCATION:Place Olivier de Serres (Coopérative du Nyonsais) - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/sejour-du-ski-club-nyonsais-2027-01-24/
 END:VEVENT
 END:VCALENDAR

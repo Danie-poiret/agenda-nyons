@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:karaoke-de-noel-2026-12-12@agenda.vivreanyons.fr
-DTSTAMP:20261122T124315Z
+DTSTAMP:20261122T143851Z
 DTSTART;TZID=Europe/Paris:20261212T150000
 DTEND;TZID=Europe/Paris:20261212T170000
 SUMMARY:Karaoké de Noël
 DESCRIPTION:Organisé par la Municipalité et animé par Nathan.\nhttps://agenda.vivreanyons.fr/evenements/karaoke-de-noel-2026-12-12/
-LOCATION:Place du Dr Bourdongle — Place du Dr Bourdongle\, 26110 Nyons
+LOCATION:Place du Dr Bourdongle - 26110 NYONS
 URL:https://agenda.vivreanyons.fr/evenements/karaoke-de-noel-2026-12-12/
 END:VEVENT
 END:VCALENDAR
