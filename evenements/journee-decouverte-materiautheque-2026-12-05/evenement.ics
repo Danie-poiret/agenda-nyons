@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:journee-decouverte-materiautheque-2026-12-05@agenda.vivreanyons.fr
+DTSTAMP:20261123T181529Z
+DTSTART;TZID=Europe/Paris:20261205T100000
+DTEND;TZID=Europe/Paris:20261205T170000
+SUMMARY:Journée découverte Matériauthèque
+DESCRIPTION:Venez découvrir le lieu\, le fonctionnement\, le réemploi. Amenez vos idées\, rejoignez nous comme bénévole...\nhttps://agenda.vivreanyons.fr/evenements/journee-decouverte-materiautheque-2026-12-05/
+LOCATION:2060 route de Gap\, sortie de Nyons\, direction Aubres-Gap
+URL:https://agenda.vivreanyons.fr/evenements/journee-decouverte-materiautheque-2026-12-05/
+END:VEVENT
+END:VCALENDAR

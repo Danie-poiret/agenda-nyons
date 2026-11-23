@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:le-combat-continue-50-ans-de-planning-familial-a-nyons-2026-12-03@agenda.vivreanyons.fr
+DTSTAMP:20261123T181529Z
+DTSTART;TZID=Europe/Paris:20261203T190000
+DTEND;TZID=Europe/Paris:20261203T230000
+SUMMARY:Le combat continue… 50 ans de Planning Familial à Nyons
+DESCRIPTION:Soirée de clôture en présence de la Présidente Nationale du Planning Sarah Durocher\nhttps://agenda.vivreanyons.fr/evenements/le-combat-continue-50-ans-de-planning-familial-a-nyons-2026-12-03/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/le-combat-continue-50-ans-de-planning-familial-a-nyons-2026-12-03/
+END:VEVENT
+END:VCALENDAR

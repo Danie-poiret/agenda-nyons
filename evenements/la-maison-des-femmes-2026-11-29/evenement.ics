@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:la-maison-des-femmes-2026-11-29@agenda.vivreanyons.fr
+DTSTAMP:20261123T181529Z
+DTSTART;TZID=Europe/Paris:20261129T190000
+DTEND;TZID=Europe/Paris:20261129T220000
+SUMMARY:La Maison des femmes
+DESCRIPTION:Projection\nhttps://agenda.vivreanyons.fr/evenements/la-maison-des-femmes-2026-11-29/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/la-maison-des-femmes-2026-11-29/
+END:VEVENT
+END:VCALENDAR

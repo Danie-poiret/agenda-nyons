@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:50-ans-de-planning-familial-2026-12-02@agenda.vivreanyons.fr
+DTSTAMP:20261123T181529Z
+DTSTART;TZID=Europe/Paris:20261202T130000
+DTEND;TZID=Europe/Paris:20261202T170000
+SUMMARY:50 ans de Planning Familial
+DESCRIPTION:Journée portes ouvertes\nhttps://agenda.vivreanyons.fr/evenements/50-ans-de-planning-familial-2026-12-02/
+LOCATION:4 Place Jacques Martin Deydier
+URL:https://agenda.vivreanyons.fr/evenements/50-ans-de-planning-familial-2026-12-02/
+END:VEVENT
+END:VCALENDAR

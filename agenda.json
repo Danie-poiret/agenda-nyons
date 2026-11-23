@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-22T14:38:17.599374+00:00",
-  "count": 189,
+  "updated_at": "2026-11-23T18:15:17.187302+00:00",
+  "count": 197,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -5764,119 +5764,6 @@
       "date_label": "Du jeudi 19 novembre 2026 de 09h00 au samedi 05 décembre 2026 à 19h00"
     },
     {
-      "title": "Atelier Culinaire – Calendrier de l’Avent : Sablés de Noël",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "Les petits gourmands sont attendus pour réaliser et décorer de délicieux petits biscuits à l’huile d’olive pour patienter jusqu’au 25 décembre !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Sport / Loisirs"
-      ],
-      "url": "https://www.nyons.com/agenda/atelier-culinaire-calendrier-de-lavent-sables-de-noel/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
-        "location_name": "Maison des Huiles d'Olive et Olives de France",
-        "address": "40 Pl. de la Libération",
-        "phone": "0475269090",
-        "email": "oliveetsens@gmail.com",
-        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21/",
-      "start_time": "10:00",
-      "end_time": "12:00",
-      "date_label": "Samedi 21 novembre 2026 de 10h00 à 12h00"
-    },
-    {
-      "title": "Bourse aux jouets",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "Organisée par les Nounous Super Chouette, samedi 21 novembre à la Maison de Pays.",
-      "categories": [
-        "Enfance / Jeunesse",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/bourse-aux-jouets/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 09h00 à 17h00",
-        "location_name": "Maison de Pays",
-        "address": "128 promenade de la Digue - 26110 NYONS",
-        "phone": "06 22 23 28 67",
-        "email": "asmat26110@gmail.com",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/bourse-aux-jouets-2026-11-21/",
-      "start_time": "09:00",
-      "end_time": "17:00",
-      "date_label": "Samedi 21 novembre 2026 de 09h00 à 17h00"
-    },
-    {
-      "title": "Constellation familiale",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "La constellation familiale est une méthode thérapeutique. Nous n'héritons pas uniquement des traits physiques de nos ancêtres, mais également de leurs histoires, schémas et bagages émotionnels.",
-      "categories": [
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/constellation-familiale-2/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 13h30 à 19h30",
-        "location_name": "Le collectif le Papillon",
-        "address": "10 Avenue Jules Bernard - 26110 NYONS",
-        "phone": "06 47 18 92 87",
-        "email": "",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/constellation-familiale-2026-11-21/",
-      "start_time": "13:30",
-      "end_time": "19:30",
-      "date_label": "Samedi 21 novembre 2026 de 13h30 à 19h30"
-    },
-    {
-      "title": "Cueillette solidaire des olives de Nyons",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-3/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 07h30 à 12h00",
-        "location_name": "Centre Technique Municipal",
-        "address": "66 avenue Frédéric Mistral - 26110 NYONS",
-        "phone": "04 75 26 50 00",
-        "email": "r.viarsac@nyons.com",
-        "website": ""
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-21/",
-      "start_time": "07:30",
-      "end_time": "12:00",
-      "date_label": "Samedi 21 novembre 2026 de 07h30 à 12h00"
-    },
-    {
-      "title": "« L’invité surprise » (Contes et Rencontres)",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "summary": "Un paquet cadeau, un manteau de fée... Surprise !",
-      "categories": [
-        "Patrimoine / Culture vivante",
-        "Vie associative"
-      ],
-      "url": "https://www.nyons.com/agenda/linvite-surprise-contes-et-rencontres/",
-      "practical": {
-        "date_time": "Samedi 21 novembre 2026 de 10h00 à 12h00",
-        "location_name": "Médiatheque Départementale Drôme Provençale",
-        "address": "9 rue Albin Vilhet - 26110 NYONS",
-        "phone": "04 75 26 48 26",
-        "email": "contesetrencontres.nyons@gmail.com",
-        "website": "https://contesetrencontres26.org/"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/linvite-surprise-contes-et-rencontres-2026-11-21/",
-      "start_time": "10:00",
-      "end_time": "12:00",
-      "date_label": "Samedi 21 novembre 2026 de 10h00 à 12h00"
-    },
-    {
       "title": "Cinéma — Everybody Digs Bill Evans",
       "film_title": "Everybody Digs Bill Evans",
       "kind": "cinema",
@@ -6561,6 +6448,51 @@
       }
     },
     {
+      "title": "Le RDV de la transmission agricole",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "summary": "Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
+      "practical": {
+        "date_time": "Mercredi 25 novembre 2026 de 09h00 à 17h00",
+        "location_name": "Chambre d'agriculture",
+        "address": "2 avenue de Venterol - 26110 NYONS",
+        "phone": "06 70 82 90 44",
+        "email": "",
+        "website": "https://www.cc-bdp.fr/2026/09/transmission-agricole-2-rendez-vous-pour-preparer-lavenir-de-son-exploitation/?fbclid=IwY2xjawUy4N5leHRuA2FlbQIxMABwZG9mAXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR77OHwKjmNnrtRyBa1H8C4r9AC9Z6fpXvKYOl_U1b-5azWhPI9AIys6JDNMuQ_aem_qjqTw4bOh5wdooTSWW77KQ"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "date_label": "Mercredi 25 novembre 2026 de 09h00 à 17h00"
+    },
+    {
+      "title": "Atelier Culinaire – Duo de Choux Salés festifs",
+      "start_date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "summary": "Atelier gourmand autour de la Pâte à Choux avec Muriel ! Apprenez à réaliser de délicieux choux salés avec leurs craquelins aux tapenades et garnis aux saveurs gourmandes du foie gras et du saumon.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Sport / Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-culinaire-duo-de-choux-sales-festifs/",
+      "practical": {
+        "date_time": "Vendredi 27 novembre 2026 de 14h00 à 16h30",
+        "location_name": "Maison des Huiles d'Olive et Olives de France",
+        "address": "40 Pl. de la Libération",
+        "phone": "0475269090",
+        "email": "oliveetsens@gmail.com",
+        "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27/",
+      "start_time": "14:00",
+      "end_time": "16:30",
+      "date_label": "Vendredi 27 novembre 2026 de 14h00 à 16h30"
+    },
+    {
       "title": "Cinéma — Les Braves",
       "film_title": "Les Braves",
       "kind": "cinema",
@@ -6656,6 +6588,51 @@
       }
     },
     {
+      "title": "Exposition « libre d’être »",
+      "start_date": "2026-11-27",
+      "end_date": "2026-12-03",
+      "summary": "14 artistes s'engagent avec le Planning Familial de Nyons",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/exposition-libre-detre/",
+      "practical": {
+        "date_time": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00",
+        "location_name": "Préau des Arts",
+        "address": "8 rue Pierre Toesca - 26110 NYONS",
+        "phone": "0475264326",
+        "email": "secretariatnyons@laplanningfamilial26.org",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-libre-detre-2026-11-27/",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "date_label": "Du vendredi 27 novembre 2026 de 16h00 au jeudi 03 décembre 2026 à 19h00"
+    },
+    {
+      "title": "Cueillette solidaire des olives de Nyons",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "summary": "Organisée par la municipalité avec le concours d’associations locales et de tous les bénévoles désireux de contribuer à une œuvre sociale.",
+      "categories": [
+        "Solidarité / Santé"
+      ],
+      "url": "https://www.nyons.com/agenda/cueillette-solidaire-des-olives-de-nyons-4/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 07h30 à 12h00",
+        "location_name": "Centre Technique Municipal",
+        "address": "66 avenue Frédéric Mistral - 26110 NYONS",
+        "phone": "04 75 26 50 00",
+        "email": "r.viarsac@nyons.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-28/",
+      "start_time": "07:30",
+      "end_time": "12:00",
+      "date_label": "Samedi 28 novembre 2026 de 07h30 à 12h00"
+    },
+    {
       "title": "Initiation à la réflexologie plantaire",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
@@ -6679,6 +6656,29 @@
       "date_label": "Samedi 28 novembre 2026 de 14h00 à 18h00"
     },
     {
+      "title": "Jeu « Pause photo prose »",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "summary": "Pour se questionner sur l’origine des photographies, leur polysémie, leurs usages.",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/jeu-pause-photo-prose/",
+      "practical": {
+        "date_time": "Samedi 28 novembre 2026 de 10h30 à 12h00",
+        "location_name": "Médiathèque",
+        "address": "9 rue Albin Vilhet - 26110 NYONS",
+        "phone": "04 75 26 48 26",
+        "email": "mddp-nyons@ladrome.fr",
+        "website": "https://mediatheque.ladrome.fr/nyons/accueil-drome-provencale.aspx?_lg=fr-FR"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/jeu-pause-photo-prose-2026-11-28/",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "date_label": "Samedi 28 novembre 2026 de 10h30 à 12h00"
+    },
+    {
       "title": "Journée dépistage",
       "start_date": "2026-11-28",
       "end_date": "2026-11-28",
@@ -6699,6 +6699,29 @@
       "start_time": "09:30",
       "end_time": "17:45",
       "date_label": "Samedi 28 novembre 2026 de 09h30 à 17h45"
+    },
+    {
+      "title": "Le Planning c’est aussi notre histoire",
+      "start_date": "2026-11-28",
+      "end_date": "2026-12-03",
+      "summary": "Exposition",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/le-planning-cest-aussi-notre-histoire/",
+      "practical": {
+        "date_time": "Du samedi 28 novembre 2026 de 13h00 au jeudi 03 décembre 2026 à 14h00",
+        "location_name": "",
+        "address": "",
+        "phone": "0475264326",
+        "email": "secretariatnyons@leplanningfamilial26.orf",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/le-planning-cest-aussi-notre-histoire-2026-11-28/",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "date_label": "Du samedi 28 novembre 2026 de 13h00 au jeudi 03 décembre 2026 à 14h00"
     },
     {
       "title": "Marche contre les violences faites aux femmes",
@@ -6858,6 +6881,29 @@
       "date_label": "Dimanche 29 novembre 2026 de 16h30 à 18h30"
     },
     {
+      "title": "La Maison des femmes",
+      "start_date": "2026-11-29",
+      "end_date": "2026-11-29",
+      "summary": "Projection",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/la-maison-des-femmes/",
+      "practical": {
+        "date_time": "Dimanche 29 novembre 2026 de 19h00 à 22h00",
+        "location_name": "",
+        "address": "",
+        "phone": "0475264326",
+        "email": "secretariatnyons@leplanningfamilial26.org",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/la-maison-des-femmes-2026-11-29/",
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "date_label": "Dimanche 29 novembre 2026 de 19h00 à 22h00"
+    },
+    {
       "title": "Cinéma — Le Temps des animaux",
       "film_title": "Le Temps des animaux",
       "kind": "cinema",
@@ -7002,6 +7048,75 @@
       "date_label": "Lundi 30 novembre 2026 de 18h30 à 22h40"
     },
     {
+      "title": "Sur les traces de Madeleine Pelletier",
+      "start_date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "summary": "Projection",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/sur-les-traces-de-madeleine-pelletier/",
+      "practical": {
+        "date_time": "Lundi 30 novembre 2026 de 19h00 à 22h00",
+        "location_name": "Salle de l'ancien tribunal",
+        "address": "4 place Jacques Martin Deydier",
+        "phone": "0475264326",
+        "email": "secretariatnyons@leplanningfamilial26.org",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/sur-les-traces-de-madeleine-pelletier-2026-11-30/",
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "date_label": "Lundi 30 novembre 2026 de 19h00 à 22h00"
+    },
+    {
+      "title": "50 ans de Planning Familial",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-02",
+      "summary": "Journée portes ouvertes",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/50-ans-de-planning-familial/",
+      "practical": {
+        "date_time": "Mercredi 02 décembre 2026 de 13h00 à 17h00",
+        "location_name": "",
+        "address": "4 Place Jacques Martin Deydier",
+        "phone": "0475264326",
+        "email": "secretariatnyons@leplanningfamilial26.org",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/50-ans-de-planning-familial-2026-12-02/",
+      "start_time": "13:00",
+      "end_time": "17:00",
+      "date_label": "Mercredi 02 décembre 2026 de 13h00 à 17h00"
+    },
+    {
+      "title": "Le combat continue… 50 ans de Planning Familial à Nyons",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "summary": "Soirée de clôture en présence de la Présidente Nationale du Planning Sarah Durocher",
+      "categories": [
+        "Solidarité / Santé",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/le-combat-continue-50-ans-de-planning-familial-a-nyons/",
+      "practical": {
+        "date_time": "Jeudi 03 décembre 2026 de 19h00 à 23h00",
+        "location_name": "",
+        "address": "",
+        "phone": "0475264326",
+        "email": "secretariatnyons@leplanningfamilial26.org",
+        "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/le-combat-continue-50-ans-de-planning-familial-a-nyons-2026-12-03/",
+      "start_time": "19:00",
+      "end_time": "23:00",
+      "date_label": "Jeudi 03 décembre 2026 de 19h00 à 23h00"
+    },
+    {
       "title": "Tournoi de Bridge du Téléthon",
       "start_date": "2026-12-03",
       "end_date": "2026-12-03",
@@ -7135,6 +7250,28 @@
       "date_label": "Vendredi 04 décembre 2026 de 15h00 à 18h30"
     },
     {
+      "title": "Vente de Noël de la Paroisse et du Vestiaire",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-06",
+      "summary": "Organisée par La Paroisse Saint-Vincent et l'association Le Vestiaire.",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/vente-de-noel-de-la-paroisse-et-du-vestiaire/",
+      "practical": {
+        "date_time": "Du vendredi 04 décembre 2026 de 09h00 au dimanche 06 décembre 2026 à 16h00",
+        "location_name": "Centre Saint-Vincent",
+        "address": "30 rue Henri Debiez - 26110 NYONS",
+        "phone": "0633569800",
+        "email": "jimmy26110@hotmail.fr",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/vente-de-noel-de-la-paroisse-et-du-vestiaire-2026-12-04/",
+      "start_time": "09:00",
+      "end_time": "16:00",
+      "date_label": "Du vendredi 04 décembre 2026 de 09h00 au dimanche 06 décembre 2026 à 16h00"
+    },
+    {
       "title": "Vin chaud et crêpes du Téléthon",
       "start_date": "2026-12-04",
       "end_date": "2026-12-04",
@@ -7155,6 +7292,29 @@
       "start_time": "10:00",
       "end_time": "18:00",
       "date_label": "Vendredi 04 décembre 2026 de 10h00 à 18h00"
+    },
+    {
+      "title": "« Le sacré dans l’art moderne »",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "summary": "Conférence de Marie-Hélène Adam de l'association Humanitas.",
+      "categories": [
+        "Patrimoine / Culture vivante",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/le-sacre-dans-lart-moderne/",
+      "practical": {
+        "date_time": "Vendredi 04 décembre 2026 de 18h00 à 20h00",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0783787742",
+        "email": "mhadam.conf@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/le-sacre-dans-lart-moderne-2026-12-04/",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "date_label": "Vendredi 04 décembre 2026 de 18h00 à 20h00"
     },
     {
       "title": "Animation musicale du Téléthon",
@@ -7247,6 +7407,28 @@
       "start_time": "14:00",
       "end_time": "17:00",
       "date_label": "Samedi 05 décembre 2026 de 14h00 à 17h00"
+    },
+    {
+      "title": "Journée découverte Matériauthèque",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "summary": "Venez découvrir le lieu, le fonctionnement, le réemploi. Amenez vos idées, rejoignez nous comme bénévole...",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/journee-decouverte-materiautheque-2/",
+      "practical": {
+        "date_time": "Samedi 05 décembre 2026 de 10h00 à 17h00",
+        "location_name": "",
+        "address": "2060 route de Gap, sortie de Nyons, direction Aubres-Gap",
+        "phone": "0674238804",
+        "email": "contact@larboretum.co",
+        "website": "https://www.larboretum.co/projets/"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/journee-decouverte-materiautheque-2026-12-05/",
+      "start_time": "10:00",
+      "end_time": "17:00",
+      "date_label": "Samedi 05 décembre 2026 de 10h00 à 17h00"
     },
     {
       "title": "Les turlupinades",

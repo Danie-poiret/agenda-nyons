@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:le-sacre-dans-lart-moderne-2026-12-04@agenda.vivreanyons.fr
+DTSTAMP:20261123T181529Z
+DTSTART;TZID=Europe/Paris:20261204T180000
+DTEND;TZID=Europe/Paris:20261204T200000
+SUMMARY:« Le sacré dans l’art moderne »
+DESCRIPTION:Conférence de Marie-Hélène Adam de l'association Humanitas.\nhttps://agenda.vivreanyons.fr/evenements/le-sacre-dans-lart-moderne-2026-12-04/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/le-sacre-dans-lart-moderne-2026-12-04/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:le-planning-cest-aussi-notre-histoire-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261123T181529Z
+DTSTART;TZID=Europe/Paris:20261128T130000
+DTEND;TZID=Europe/Paris:20261203T140000
+SUMMARY:Le Planning c’est aussi notre histoire
+DESCRIPTION:Exposition\nhttps://agenda.vivreanyons.fr/evenements/le-planning-cest-aussi-notre-histoire-2026-11-28/
+LOCATION:
+URL:https://agenda.vivreanyons.fr/evenements/le-planning-cest-aussi-notre-histoire-2026-11-28/
+END:VEVENT
+END:VCALENDAR
