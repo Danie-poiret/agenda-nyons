@@ -1768,6 +1768,30 @@
       "version": 1,
       "generated_at": "2026-11-23T18:15:30.897463+00:00",
       "source_url": "https://www.nyons.com/agenda/journee-decouverte-materiautheque-2/"
+    },
+    "soiree-danniversaire-de-lunyons-citoyenne-2026-12-04": {
+      "text": "À retenir pour Soirée d’anniversaire de l’UNyons citoyenne : L’UNyons citoyenne fête son anniversaire , vendredi 4 décembre à la",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-24T17:51:13.467246+00:00",
+      "source_url": "https://www.nyons.com/agenda/soiree-danniversaire-de-lunyons-citoyenne/"
+    },
+    "atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie-2026-12-13": {
+      "text": "À retenir pour Atelier « À la rencontre des aspirations profondes de sa vie » : Une journée pour Soi, joyeuse, intense, profonde.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-24T17:51:13.479452+00:00",
+      "source_url": "https://www.nyons.com/agenda/atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie/"
+    },
+    "cine-gouter-de-noel-2026-12-21": {
+      "text": "À retenir pour Ciné-goûter de Noël : Tarif : 5€ Synopsis La vie d’Ernest et Célestine est toujours pleine de surprises et de fantaisie : cuisiner de délicieuses charabiettes au miel, chercher le cadeau parfait ou encore préparer un spectacle de patinage… les deux complices ne s’ennuient jamais.",
+      "source_label": "Ville de Nyons — repère dans le programme annoncé",
+      "model": "official-programme",
+      "version": 1,
+      "generated_at": "2026-11-24T17:51:13.485062+00:00",
+      "source_url": "https://www.nyons.com/agenda/cine-gouter-de-noel/"
     }
   }
 }

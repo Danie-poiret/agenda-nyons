@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:soiree-danniversaire-de-lunyons-citoyenne-2026-12-04@agenda.vivreanyons.fr
+DTSTAMP:20261124T175112Z
+DTSTART;TZID=Europe/Paris:20261204T183000
+DTEND;TZID=Europe/Paris:20261204T233000
+SUMMARY:Soirée d’anniversaire de l’UNyons citoyenne
+DESCRIPTION:Avec la participation de Jungle Groove et Dj Flo\nhttps://agenda.vivreanyons.fr/evenements/soiree-danniversaire-de-lunyons-citoyenne-2026-12-04/
+LOCATION:Maison de Pays — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/soiree-danniversaire-de-lunyons-citoyenne-2026-12-04/
+END:VEVENT
+END:VCALENDAR

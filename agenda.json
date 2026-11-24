@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-23T18:15:17.187302+00:00",
-  "count": 197,
+  "updated_at": "2026-11-24T17:50:25.731153+00:00",
+  "count": 200,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -7227,6 +7227,28 @@
       "date_label": "Vendredi 04 décembre 2026 de 18h00 à 20h00"
     },
     {
+      "title": "Soirée d’anniversaire de l’UNyons citoyenne",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "summary": "Avec la participation de Jungle Groove et Dj Flo",
+      "categories": [
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/soiree-danniversaire-de-lunyons-citoyenne/",
+      "practical": {
+        "date_time": "Vendredi 04 décembre 2026 de 18h30 à 23h30",
+        "location_name": "Maison de Pays",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/soiree-danniversaire-de-lunyons-citoyenne-2026-12-04/",
+      "start_time": "18:30",
+      "end_time": "23:30",
+      "date_label": "Vendredi 04 décembre 2026 de 18h30 à 23h30"
+    },
+    {
       "title": "Stands alimentaires et parcours ludique du Téléthon",
       "start_date": "2026-12-04",
       "end_date": "2026-12-04",
@@ -7814,6 +7836,30 @@
       "date_label": "Samedi 12 décembre 2026 de 10h00 à 23h59"
     },
     {
+      "title": "Atelier « À la rencontre des aspirations profondes de sa vie »",
+      "start_date": "2026-12-13",
+      "end_date": "2026-12-13",
+      "summary": "À la découverte des aspirations profondes de sa vie",
+      "categories": [
+        "Solidarité / Santé",
+        "Sport / Loisirs",
+        "Vie associative"
+      ],
+      "url": "https://www.nyons.com/agenda/atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie/",
+      "practical": {
+        "date_time": "Dimanche 13 décembre 2026 de 09h30 à 17h00",
+        "location_name": "Maison de Pays (salle 3)",
+        "address": "128 Promenade de la Digue - 26110 NYONS",
+        "phone": "0783787742",
+        "email": "lhumanitas.123@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie-2026-12-13/",
+      "start_time": "09:30",
+      "end_time": "17:00",
+      "date_label": "Dimanche 13 décembre 2026 de 09h30 à 17h00"
+    },
+    {
       "title": "Cher Edouard",
       "start_date": "2026-12-13",
       "end_date": "2026-12-13",
@@ -8037,6 +8083,29 @@
       "start_time": "09:30",
       "end_time": "16:00",
       "date_label": "Samedi 19 décembre 2026 de 09h30 à 16h00"
+    },
+    {
+      "title": "Ciné-goûter de Noël",
+      "start_date": "2026-12-21",
+      "end_date": "2026-12-21",
+      "summary": "Projection du film d'animation \"Le Noël d'Ernest et Célestine\".",
+      "categories": [
+        "Enfance / Jeunesse",
+        "Patrimoine / Culture vivante"
+      ],
+      "url": "https://www.nyons.com/agenda/cine-gouter-de-noel/",
+      "practical": {
+        "date_time": "Lundi 21 décembre 2026 de 16h30 à 18h15",
+        "location_name": "Cinéma l'Arlequin",
+        "address": "28 place de la Libération - 26110 NYONS",
+        "phone": "0475260141",
+        "email": "l.flouret@nyons.com",
+        "website": "https://www.cinema-arlequin.fr/#home"
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/cine-gouter-de-noel-2026-12-21/",
+      "start_time": "16:30",
+      "end_time": "18:15",
+      "date_label": "Lundi 21 décembre 2026 de 16h30 à 18h15"
     },
     {
       "title": "Atelier Culinaire – Bûche de Noël façon « Entremet » Tiramisu",

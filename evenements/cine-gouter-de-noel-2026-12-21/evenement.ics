@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cine-gouter-de-noel-2026-12-21@agenda.vivreanyons.fr
+DTSTAMP:20261124T175112Z
+DTSTART;TZID=Europe/Paris:20261221T163000
+DTEND;TZID=Europe/Paris:20261221T181500
+SUMMARY:Ciné-goûter de Noël
+DESCRIPTION:Projection du film d'animation "Le Noël d'Ernest et Célestine".\nhttps://agenda.vivreanyons.fr/evenements/cine-gouter-de-noel-2026-12-21/
+LOCATION:Cinéma l'Arlequin — 28 place de la Libération - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/cine-gouter-de-noel-2026-12-21/
+END:VEVENT
+END:VCALENDAR

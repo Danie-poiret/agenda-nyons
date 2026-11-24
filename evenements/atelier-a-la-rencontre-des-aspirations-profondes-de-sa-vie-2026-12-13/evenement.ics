@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie-2026-12-13@agenda.vivreanyons.fr
+DTSTAMP:20261124T175112Z
+DTSTART;TZID=Europe/Paris:20261213T093000
+DTEND;TZID=Europe/Paris:20261213T170000
+SUMMARY:Atelier « À la rencontre des aspirations profondes de sa vie »
+DESCRIPTION:À la découverte des aspirations profondes de sa vie\nhttps://agenda.vivreanyons.fr/evenements/atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie-2026-12-13/
+LOCATION:Maison de Pays (salle 3) — 128 Promenade de la Digue - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie-2026-12-13/
+END:VEVENT
+END:VCALENDAR
