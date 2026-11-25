@@ -3258,7 +3258,7 @@
       "practical": "Samedi 5 décembre 2026, de 20h30 à 22h. Renseignements : electron.nyons@gmail.com. Site : www.lelectron.fr.",
       "reader_question": "Envie de découvrir Les Turlupinades avec la Compagnie du Chien Noir ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 20h30 à 22h00",
@@ -3296,7 +3296,7 @@
       "practical": "Téléthon 2026 à Nyons, du samedi 5 décembre 2026 à 00h00 au dimanche 6 décembre 2026 à 23h59.",
       "reader_question": "Serez-vous à Nyons pour le week-end du Téléthon 2026 ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Du samedi 05 décembre 2026 de 00h00 au dimanche 06 décembre 2026 à 23h59",
@@ -3412,7 +3412,7 @@
       "practical": "Dimanche 13 décembre 2026, de 17h à 18h30. Contact : electron.nyons@gmail.com. Informations : www.lelectron.fr.",
       "reader_question": "Envie de découvrir la comédie Cher Edouard à Nyons ce dimanche 13 décembre ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Dimanche 13 décembre 2026 de 17h00 à 18h30",
@@ -3527,7 +3527,7 @@
       "practical": "Mardi 29 décembre 2026, de 15h à 16h. Renseignements : 04 75 26 50 10 ou l.flouret@nyons.com. Plus d’informations sur theatrerevolt.com.",
       "reader_question": "Envie de retrouver les clés du traîneau avec la cie RêVOLT ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Mardi 29 décembre 2026 de 15h00 à 16h00",
@@ -3797,7 +3797,7 @@
       "practical": "Les Rencontres Barjavel ont lieu du vendredi 22 janvier à 9 h au samedi 23 janvier 2027 à 19 h. Contact : 04 75 26 50 36 ou l.flouret@nyons.com.",
       "reader_question": "Connaissiez-vous les liens de René Barjavel avec Nyons ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Du vendredi 22 janvier 2027 de 09h00 au samedi 23 janvier 2027 à 19h00",
@@ -7552,7 +7552,7 @@
       "practical": "Dimanche 18 avril 2027, de 8h à 18h. Premier tour des élections présidentielles à Nyons.",
       "reader_question": "Avez-vous noté la date du premier tour dans votre agenda ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Dimanche 18 avril 2027 de 08h00 à 18h00",
@@ -7590,7 +7590,7 @@
       "practical": "Dimanche 2 mai 2027, de 8 h à 18 h.",
       "reader_question": "Prévoyez-vous de voter lors du second tour le 2 mai 2027 ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Dimanche 02 mai 2027 de 08h00 à 18h00",
@@ -7857,7 +7857,7 @@
       "practical": "Mardi 12 janvier 2027, de 18h30 à 20h00, à la Maison de Pays. Renseignements : 04 75 26 50 00.",
       "reader_question": "Serez-vous présent à la cérémonie des vœux de la mairie le 12 janvier ?",
       "_fallback": false,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Mardi 12 janvier 2027 de 18h30 à 20h00",
@@ -10864,7 +10864,7 @@
       "email": "",
       "website": "https://domainerocheville.com/"
     },
-    "generated_at": "2026-11-24T17:50:32.411706+00:00",
+    "generated_at": "2026-11-25T17:16:34.805429+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-909d0efe474f49b3",
@@ -10902,7 +10902,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:33.154118+00:00",
+    "generated_at": "2026-11-25T17:16:34.805980+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4547265b252c08b9",
@@ -10940,7 +10940,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:46.215059+00:00",
+    "generated_at": "2026-11-25T17:16:36.764956+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-17e209539df9c640",
@@ -10979,7 +10979,7 @@
       "email": "secretariatnyons@laplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-24T17:50:27.612386+00:00",
+    "generated_at": "2026-11-25T17:16:33.949516+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b4a0415b95d07d7f",
@@ -11017,7 +11017,7 @@
       "email": "regine3108@gmail.com",
       "website": "https://choraledesoliviers.fr/"
     },
-    "generated_at": "2026-11-24T17:50:38.810156+00:00",
+    "generated_at": "2026-11-25T17:16:36.309615+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-0efc033762d28039",
@@ -11056,7 +11056,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:27.611748+00:00",
+    "generated_at": "2026-11-25T17:16:33.948940+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-3edc6bdfa70055a9",
@@ -11095,7 +11095,7 @@
       "email": "nyonsbc@gmail.com",
       "website": "https://www.nyonsbridgeclub.fr/"
     },
-    "generated_at": "2026-11-24T17:50:31.671713+00:00",
+    "generated_at": "2026-11-25T17:16:34.594013+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4911638aa39bf8f5",
@@ -11124,7 +11124,7 @@
       "practical": "Jeudi 03 décembre 2026 de 08h00 à 12h00.",
       "reader_question": "Quelle animation solidaire aimez-vous retrouver pendant le Téléthon à Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Jeudi 03 décembre 2026 de 08h00 à 12h00",
@@ -11134,7 +11134,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:32.047008+00:00",
+    "generated_at": "2026-11-25T17:16:34.805208+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-7f4b59326f31e56e",
@@ -11163,7 +11163,7 @@
       "practical": "Vendredi 04 décembre 2026 de 15h00 à 18h30.",
       "reader_question": "Vous viendriez plutôt pour le parcours en famille ou pour retrouver les stands solidaires ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Vendredi 04 décembre 2026 de 15h00 à 18h30",
@@ -11173,7 +11173,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:34.169726+00:00",
+    "generated_at": "2026-11-25T17:16:35.244597+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c5501189fa45bab",
@@ -11211,7 +11211,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:34.378161+00:00",
+    "generated_at": "2026-11-25T17:16:35.244990+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-d87f80ef59a26238",
@@ -11239,7 +11239,7 @@
       "practical": "Samedi 05 décembre 2026 de 19h00 à 21h00, Devant La Belle Époque / Les Palmiers, place de la Libération Nord - 26110 NYONS.",
       "reader_question": "Quel souvenir gardez-vous des animations musicales organisées pour le Téléthon à Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Samedi 05 décembre 2026 de 19h00 à 21h00",
@@ -11249,7 +11249,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:34.769970+00:00",
+    "generated_at": "2026-11-25T17:16:35.453427+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-a4d3e0239f768072",
@@ -11289,7 +11289,7 @@
       "email": "cl26-3007@francepetanque.com",
       "website": "http://www.nyons-petanque.com"
     },
-    "generated_at": "2026-11-24T17:50:35.367707+00:00",
+    "generated_at": "2026-11-25T17:16:35.454093+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-ccabd5255ec62a83",
@@ -11369,7 +11369,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:37.005670+00:00",
+    "generated_at": "2026-11-25T17:16:36.100455+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-3c4e07efed890af1",
@@ -11408,7 +11408,7 @@
       "email": "communications.nyonsbc@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:39.962940+00:00",
+    "generated_at": "2026-11-25T17:16:36.309833+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b1a3dea3164e8f5d",
@@ -11485,7 +11485,7 @@
       "email": "communication@vignolis.fr",
       "website": "http://www.vignolis.fr"
     },
-    "generated_at": "2026-11-24T17:50:42.215820+00:00",
+    "generated_at": "2026-11-25T17:16:36.310674+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-58c895f6987e6605",
@@ -14040,7 +14040,7 @@
       "email": "librairie.olivier@club-internet.fr",
       "website": "https://librairiedelolivier.fr"
     },
-    "generated_at": "2026-11-24T17:50:32.784222+00:00",
+    "generated_at": "2026-11-25T17:16:34.805773+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-fd981040c7eb0b97",
@@ -14079,7 +14079,7 @@
       "email": "secretariat.assoc.e2mn@gmail.com",
       "website": "https://www.ecoledemusiquedenyons.com/"
     },
-    "generated_at": "2026-11-24T17:50:41.121568+00:00",
+    "generated_at": "2026-11-25T17:16:36.310333+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9c65f5e9dd3c5ee8",
@@ -14271,7 +14271,7 @@
       "email": "gaia.durivau@wanadoo.fr",
       "website": "https://www.les3platanes.com/"
     },
-    "generated_at": "2026-11-24T17:50:37.390296+00:00",
+    "generated_at": "2026-11-25T17:16:36.100818+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-7617a4cbdada9363",
@@ -14279,9 +14279,9 @@
   },
   "https://www.nyons.com/agenda/expositions-les-heures-douces/": {
     "hash": "c98bf61d0a888e4c066378568f4b7488b845874e30e0568f17613cb142363e09",
-    "slug": "expositions-les-heures-douces-2026-11-18",
+    "slug": "exposition-les-heures-douces-2026-11-18",
     "event": {
-      "title": "Expositions « Les Heures Douces »",
+      "title": "Exposition « Les Heures Douces »",
       "start_date": "2026-11-18",
       "end_date": "2026-12-31",
       "summary": "Créations originales et uniques par \"Les Pépites du 31\".",
@@ -14291,15 +14291,15 @@
       "url": "https://www.nyons.com/agenda/expositions-les-heures-douces/"
     },
     "editorial": {
-      "seo_title": "Expositions « Les Heures Douces » à Nyons",
-      "meta_description": "Expositions « Les Heures Douces » : Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00. Galerie \"Les Pépites du 31\"",
-      "intro": "Expositions « Les Heures Douces » : rendez-vous à Nyons du 18 novembre 2026 au 31 décembre 2026. Créations originales et uniques par \"Les Pépites du 31\".",
+      "seo_title": "Exposition « Les Heures Douces » à Nyons",
+      "meta_description": "Exposition « Les Heures Douces » : Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00. Galerie \"Les Pépites du 31\"",
+      "intro": "Exposition « Les Heures Douces » : rendez-vous à Nyons du 18 novembre 2026 au 31 décembre 2026. Créations originales et uniques par \"Les Pépites du 31\".",
       "story": "« Les Heures Douces » : créations originales et uniques par « Les Pépites du 31 », du 18 novembre au 31 décembre 2026. Ouverture de 10h à 18h du mercredi au samedi (Ouverture élargie durant les fêtes). Vernissage de l’exposition en présence des artistes, le 20 novembre à partir de 17h.",
       "why_it_matters": "Les créations originales des Pépites du 31 se découvrent sur plusieurs semaines. Le vernissage est un rendez-vous distinct des jours habituels d’ouverture : choisissez votre passage selon que vous souhaitez rencontrer les artistes ou parcourir l’exposition.",
       "practical": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00, Galerie \"Les Pépites du 31\", 31 rue des Déportés - 26110 NYONS.",
       "reader_question": "Quelle création vous donne envie de pousser la porte d’une galerie : peinture, objet ou pièce d’artisanat ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00",
@@ -14309,10 +14309,10 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:27.395713+00:00",
+    "generated_at": "2026-11-25T17:16:33.948646+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
-    "anecdote_id": "topic-c4e5f22ea3571f23",
+    "anecdote_id": "topic-90a1343472eb50a5",
     "anecdote_assignment_version": 101
   },
   "https://www.nyons.com/agenda/conseil-municipal/": {
@@ -14347,7 +14347,7 @@
       "email": "a.schneider@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:44.849692+00:00",
+    "generated_at": "2026-11-25T17:16:36.556274+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-989d54a17c6770a4",
@@ -14425,7 +14425,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-24T17:50:27.612160+00:00",
+    "generated_at": "2026-11-25T17:16:33.949316+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-886110e01caa83ec",
@@ -14502,7 +14502,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-24T17:50:35.159623+00:00",
+    "generated_at": "2026-11-25T17:16:35.453911+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-08337fc681128d91",
@@ -14541,7 +14541,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-24T17:50:40.352845+00:00",
+    "generated_at": "2026-11-25T17:16:36.310134+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-960d70c89f80c6bc",
@@ -14580,7 +14580,7 @@
       "email": "oliveetsens@gmail.com",
       "website": "https://maisondeshuilesetolives.fr/ateliers/ateliers-culinaires/"
     },
-    "generated_at": "2026-11-24T17:50:49.104106+00:00",
+    "generated_at": "2026-11-25T17:16:36.765825+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-b0cca246a8ca45f1",
@@ -14618,7 +14618,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:41.488628+00:00",
+    "generated_at": "2026-11-25T17:16:36.310527+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-02bd675fc62b9523",
@@ -14647,7 +14647,7 @@
       "practical": "Samedi 19 décembre 2026 de 14h30 à 17h30, Place du Dr Bourdongle - 26110 NYONS.",
       "reader_question": "Les enfants préfèrent-ils les jeux en bois, l’atelier de Noël ou le passage du Père Noël ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Samedi 19 décembre 2026 de 14h30 à 17h30",
@@ -14657,7 +14657,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:45.444114+00:00",
+    "generated_at": "2026-11-25T17:16:36.764021+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-ead6995c7931d7cb",
@@ -14733,7 +14733,7 @@
       "email": "nyonsnules@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:47.571621+00:00",
+    "generated_at": "2026-11-25T17:16:36.765278+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-2047c3e2aabf3c8a",
@@ -14759,7 +14759,7 @@
       "practical": "Mercredi 23 décembre 2026 de 10h00 à 16h00. Renseignements : uennyons@gmail.com.",
       "reader_question": "Avec qui aimeriez-vous faire une promenade en calèche dans Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Mercredi 23 décembre 2026 de 10h00 à 16h00",
@@ -14769,7 +14769,7 @@
       "email": "uennyons@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:49.488561+00:00",
+    "generated_at": "2026-11-25T17:16:36.979558+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-9e7dc1f9abfc10f4",
@@ -14807,7 +14807,7 @@
       "email": "comitefetesnyons@orange.fr",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:50.837104+00:00",
+    "generated_at": "2026-11-25T17:16:37.196339+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-6403e3d0336aa0ea",
@@ -14846,7 +14846,7 @@
       "email": "",
       "website": "https://maisondeshuilesetolives.fr/"
     },
-    "generated_at": "2026-11-24T17:50:45.835680+00:00",
+    "generated_at": "2026-11-25T17:16:36.764782+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-d7d8cbe3fd3f9a7d",
@@ -14885,7 +14885,7 @@
       "email": "contact@tcnyons.fr",
       "website": "https://tenup.fft.fr/club/50260234"
     },
-    "generated_at": "2026-11-24T17:50:35.806204+00:00",
+    "generated_at": "2026-11-25T17:16:35.454243+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-92dbb607dbb88b36",
@@ -14924,7 +14924,7 @@
       "email": "usm.esport19@gmail.com",
       "website": "https://www.usmesport.com/"
     },
-    "generated_at": "2026-11-24T17:50:43.038432+00:00",
+    "generated_at": "2026-11-25T17:16:36.310864+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-746c8bc47ddd380b",
@@ -15001,7 +15001,7 @@
       "email": "brigitte.albero@free.fr",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:29.460009+00:00",
+    "generated_at": "2026-11-25T17:16:34.158439+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-14f784652c5db9f0",
@@ -15040,7 +15040,7 @@
       "email": "brigitte.albero@free.fr",
       "website": "https://www.editionscheminsdeliberte.fr/"
     },
-    "generated_at": "2026-11-24T17:50:30.476360+00:00",
+    "generated_at": "2026-11-25T17:16:34.158727+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-a14561785a632714",
@@ -15818,7 +15818,7 @@
       "email": "r.viarsac@nyons.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:27.612794+00:00",
+    "generated_at": "2026-11-25T17:16:33.949819+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-d410124b9fa19809",
@@ -15847,7 +15847,7 @@
       "practical": "Du samedi 28 novembre 2026 de 13h00 au jeudi 03 décembre 2026 à 14h00. Renseignements : 04 75 26 43 26 ou secretariatnyons@leplanningfamilial26.orf.",
       "reader_question": "Avez-vous déjà participé à ce rendez-vous à Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Du samedi 28 novembre 2026 de 13h00 au jeudi 03 décembre 2026 à 14h00",
@@ -15857,7 +15857,7 @@
       "email": "secretariatnyons@leplanningfamilial26.orf",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-24T17:50:28.847852+00:00",
+    "generated_at": "2026-11-25T17:16:34.158107+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-32946928a6d9a72b",
@@ -15886,7 +15886,7 @@
       "practical": "Dimanche 29 novembre 2026 de 19h00 à 22h00. Renseignements : 04 75 26 43 26 ou secretariatnyons@leplanningfamilial26.org.",
       "reader_question": "Avez-vous déjà participé à ce rendez-vous à Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Dimanche 29 novembre 2026 de 19h00 à 22h00",
@@ -15896,7 +15896,7 @@
       "email": "secretariatnyons@leplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-24T17:50:30.690126+00:00",
+    "generated_at": "2026-11-25T17:16:34.374156+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-ccf07fcab87d11be",
@@ -15935,7 +15935,7 @@
       "email": "secretariatnyons@leplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-24T17:50:31.072786+00:00",
+    "generated_at": "2026-11-25T17:16:34.374451+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-8515a1eb322e1a8b",
@@ -15974,7 +15974,7 @@
       "email": "secretariatnyons@leplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-24T17:50:31.072989+00:00",
+    "generated_at": "2026-11-25T17:16:34.374631+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-42cc9c9de4422e99",
@@ -16003,7 +16003,7 @@
       "practical": "Jeudi 03 décembre 2026 de 19h00 à 23h00. Renseignements : 04 75 26 43 26 ou secretariatnyons@leplanningfamilial26.org.",
       "reader_question": "Avez-vous déjà participé à ce rendez-vous à Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Jeudi 03 décembre 2026 de 19h00 à 23h00",
@@ -16013,7 +16013,7 @@
       "email": "secretariatnyons@leplanningfamilial26.org",
       "website": "https://www.planning-familial.org/fr/le-planning-familial-de-la-drome-26/permanences-nyons-728"
     },
-    "generated_at": "2026-11-24T17:50:31.293953+00:00",
+    "generated_at": "2026-11-25T17:16:34.593770+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-4d7fa7c09b76da94",
@@ -16051,7 +16051,7 @@
       "email": "jimmy26110@hotmail.fr",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:34.169970+00:00",
+    "generated_at": "2026-11-25T17:16:35.244839+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-5915f99abe85fda4",
@@ -16090,7 +16090,7 @@
       "email": "mhadam.conf@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:34.378457+00:00",
+    "generated_at": "2026-11-25T17:16:35.245185+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-34e63328f116046d",
@@ -16128,7 +16128,7 @@
       "email": "contact@larboretum.co",
       "website": "https://www.larboretum.co/projets/"
     },
-    "generated_at": "2026-11-24T17:50:35.806479+00:00",
+    "generated_at": "2026-11-25T17:16:35.454408+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-51fb0bc4a41e9c0d",
@@ -16156,7 +16156,7 @@
       "practical": "Vendredi 04 décembre 2026 de 18h30 à 23h30, Maison de Pays, 128 Promenade de la Digue - 26110 NYONS.",
       "reader_question": "Avez-vous déjà participé à ce rendez-vous à Nyons ?",
       "_fallback": true,
-      "verified_at": "2026-11-24"
+      "verified_at": "2026-11-25"
     },
     "practical": {
       "date_time": "Vendredi 04 décembre 2026 de 18h30 à 23h30",
@@ -16166,7 +16166,7 @@
       "email": "",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:33.964167+00:00",
+    "generated_at": "2026-11-25T17:16:35.023907+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-e280bda66b624af1",
@@ -16206,7 +16206,7 @@
       "email": "lhumanitas.123@gmail.com",
       "website": ""
     },
-    "generated_at": "2026-11-24T17:50:43.414842+00:00",
+    "generated_at": "2026-11-25T17:16:36.311005+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-a67eb66817b39870",
@@ -16245,7 +16245,7 @@
       "email": "l.flouret@nyons.com",
       "website": "https://www.cinema-arlequin.fr/#home"
     },
-    "generated_at": "2026-11-24T17:50:48.555652+00:00",
+    "generated_at": "2026-11-25T17:16:36.765513+00:00",
     "model": "gpt-5.6-terra",
     "prompt_version": 10,
     "anecdote_id": "topic-207095492dd8b8cf",

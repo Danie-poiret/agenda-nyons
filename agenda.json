@@ -1,7 +1,7 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-24T17:50:25.731153+00:00",
+  "updated_at": "2026-11-25T17:16:33.535329+00:00",
   "count": 200,
   "events": [
     {
@@ -5719,7 +5719,7 @@
       }
     },
     {
-      "title": "Expositions « Les Heures Douces »",
+      "title": "Exposition « Les Heures Douces »",
       "start_date": "2026-11-18",
       "end_date": "2026-12-31",
       "summary": "Créations originales et uniques par \"Les Pépites du 31\".",
@@ -5735,7 +5735,7 @@
         "email": "",
         "website": ""
       },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/expositions-les-heures-douces-2026-11-18/",
+      "page_url": "https://agenda.vivreanyons.fr/evenements/exposition-les-heures-douces-2026-11-18/",
       "start_time": "10:00",
       "end_time": "17:00",
       "date_label": "Du mercredi 18 novembre 2026 de 10h00 au jeudi 31 décembre 2026 à 17h00"

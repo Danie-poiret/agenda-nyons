@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:soiree-danniversaire-de-lunyons-citoyenne-2026-12-04@agenda.vivreanyons.fr
-DTSTAMP:20261124T175112Z
+DTSTAMP:20261125T171638Z
 DTSTART;TZID=Europe/Paris:20261204T183000
 DTEND;TZID=Europe/Paris:20261204T233000
 SUMMARY:Soirée d’anniversaire de l’UNyons citoyenne
