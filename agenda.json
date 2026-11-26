@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-25T17:16:33.535329+00:00",
-  "count": 200,
+  "updated_at": "2026-11-26T16:57:34.915872+00:00",
+  "count": 199,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -6446,28 +6446,6 @@
           ]
         }
       }
-    },
-    {
-      "title": "Le RDV de la transmission agricole",
-      "start_date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "summary": "Vous êtes agriculteur/agricultrice et souhaitez transmettre votre exploitation agricole ? Bénéficiez d’un entretien individuel avec un conseiller spécialisé pour répondre à vos questions.",
-      "categories": [
-        "Solidarité / Santé"
-      ],
-      "url": "https://www.nyons.com/agenda/le-rdv-de-la-transmission-agricole/",
-      "practical": {
-        "date_time": "Mercredi 25 novembre 2026 de 09h00 à 17h00",
-        "location_name": "Chambre d'agriculture",
-        "address": "2 avenue de Venterol - 26110 NYONS",
-        "phone": "06 70 82 90 44",
-        "email": "",
-        "website": "https://www.cc-bdp.fr/2026/09/transmission-agricole-2-rendez-vous-pour-preparer-lavenir-de-son-exploitation/?fbclid=IwY2xjawUy4N5leHRuA2FlbQIxMABwZG9mAXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR77OHwKjmNnrtRyBa1H8C4r9AC9Z6fpXvKYOl_U1b-5azWhPI9AIys6JDNMuQ_aem_qjqTw4bOh5wdooTSWW77KQ"
-      },
-      "page_url": "https://agenda.vivreanyons.fr/evenements/le-rdv-de-la-transmission-agricole-2026-11-25/",
-      "start_time": "09:00",
-      "end_time": "17:00",
-      "date_label": "Mercredi 25 novembre 2026 de 09h00 à 17h00"
     },
     {
       "title": "Atelier Culinaire – Duo de Choux Salés festifs",

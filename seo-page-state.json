@@ -2,24 +2,24 @@
   "version": 1,
   "pages": {
     "index.html": {
-      "hash": "a07bacb730db27da246d974951d2d67912e674731c90ad58266cc7f8de2a06ca",
-      "lastmod": "2026-11-25"
+      "hash": "6a8d0b62777cae2884b1915e9df2066c16a1ad132a54aa4be9e85b3bb4e6d068",
+      "lastmod": "2026-11-26"
     },
     "semaines/index.html": {
-      "hash": "5d8e3683242cdb7fa1c0c5d71bbc1cb45bb66de65b5f02a209633fe121364933",
-      "lastmod": "2026-11-24"
+      "hash": "22fca6a754360ff1fb67615360d490d22f77804cf0b8d6ddb4dc2838810b7817",
+      "lastmod": "2026-11-26"
     },
     "evenements/index.html": {
-      "hash": "1787fc8a0b4a276f6a7f74d0afabcd983976622c0868b3e9d18c55f6c0087835",
-      "lastmod": "2026-11-25"
+      "hash": "b454ca11193277fa1ebbe71f10558389c59fa308fd72a10f40233c6ca7baa785",
+      "lastmod": "2026-11-26"
     },
     "cinema/index.html": {
-      "hash": "fa889bd279a7406fd04cc41d4a66f42b7ca16740ad483650e1813c41f5f76cce",
-      "lastmod": "2026-11-25"
+      "hash": "61d74033ecc8326a20d0a8f693d09139790f1d6f5b48dbabdff01aaf96523bd6",
+      "lastmod": "2026-11-26"
     },
     "aujourdhui/index.html": {
-      "hash": "d987f595e94b1c1cb68aeba5aeb627e0c22eb5f9117d6ce0f075e77978ec5173",
-      "lastmod": "2026-11-25"
+      "hash": "8c06fe61f1ab8c47b2b47796f0bd809e21423997f39d281bf5afba109e716e67",
+      "lastmod": "2026-11-26"
     },
     "semaines/semaine-1-fevrier-2027/index.html": {
       "hash": "e6402009ba0a2eafe6c7e30ced3dfe5f314095e540adba5501d927c595d5a3b0",
@@ -98,8 +98,8 @@
       "lastmod": "2026-11-22"
     },
     "semaines/semaine-23-novembre-2026/index.html": {
-      "hash": "09cc03718636d2a1c4bd93e4fe04bb5dabbafc95ad661dd2b1d9bc37e0165e73",
-      "lastmod": "2026-11-25"
+      "hash": "ac275c71bdc33cd9a2f43b059497d9c9c96e08b4c8cc1288f49fffce39134bf0",
+      "lastmod": "2026-11-26"
     },
     "semaines/semaine-25-janvier-2027/index.html": {
       "hash": "b78cd7a97f4373b29b63eebb71b1cbc2028d967aec75c8f789cccc8890bef332",
@@ -162,24 +162,24 @@
       "lastmod": "2026-11-16"
     },
     "evenements/1er-tour-des-elections-presidentielles-2027-04-18/index.html": {
-      "hash": "b2793025dafddb108e660268b4f46b00cde8c257efb89d8248c3657d03ffde79",
-      "lastmod": "2026-11-25"
+      "hash": "f0e757770cbe5acf4b0b7e8913049fc5c6c2b334c7346470e4737b9d696eaf8d",
+      "lastmod": "2026-11-26"
     },
     "evenements/2nd-tour-des-elections-presidentielles-2027-05-02/index.html": {
-      "hash": "041a2c50b6386e91d2e8bfe5e844f9086267ef8d15d611841f92aa114aa74605",
-      "lastmod": "2026-11-25"
+      "hash": "c4bef28b7ee0ec8a3146cf3b29f18fdc32d11dab2353b95315a7e0756ff5e637",
+      "lastmod": "2026-11-26"
     },
     "evenements/30e-edition-du-noel-au-domaine-rocheville-2026-12-04/index.html": {
-      "hash": "1c799eef801d136ae6723fa628e7db84bed0637a27025dd7f2d642ca66130441",
-      "lastmod": "2026-11-24"
+      "hash": "4aa8448e09d0ce75aad6a018bf3ddbeb1764154445b26069b3487df14753675d",
+      "lastmod": "2026-11-26"
     },
     "evenements/4-seasons-jam-2026-10-10/index.html": {
       "hash": "789c55e7d575f1cdac36c925a12428d29ac85cb0035771aed31ca20280180921",
       "lastmod": "2026-11-17"
     },
     "evenements/50-ans-de-planning-familial-2026-12-02/index.html": {
-      "hash": "242d3d20afca64163a593f1f8e36462bdf25d1f1cafd4524eeedab580f751155",
-      "lastmod": null
+      "hash": "7df0171a814fcf56610092e0102aaec688dc36ce6537cf3df2d947674f534951",
+      "lastmod": "2026-11-26"
     },
     "evenements/a-vos-cartes-prets-jouez-2026-10-07/index.html": {
       "hash": "ef33abf8c7d9b96c634e6c6997bf6371ea5ea263d4faa48b744948a13c359c06",
@@ -190,24 +190,24 @@
       "lastmod": "2026-11-17"
     },
     "evenements/animation-musicale-du-telethon-2026-12-05/index.html": {
-      "hash": "2521e7e00c3755d395cc601f28ff484117c825b9da765e1028f46371a6a02db6",
-      "lastmod": "2026-11-25"
+      "hash": "3b545fc6f9d1f9467a82395aa6e18d58033d849474d8ac0705d715dc66f870d4",
+      "lastmod": "2026-11-26"
     },
     "evenements/animations-pour-octobre-rose-2026-10-10/index.html": {
       "hash": "9a021a48783dfe573daf7ecca525f55e140ba131d66b1332646c696caca1430e",
       "lastmod": "2026-11-17"
     },
     "evenements/apero-book-avec-francoise-bourdon-2026-12-04/index.html": {
-      "hash": "3394252b4ae87c1cb59202e3f0e1f23c3ad8e36a7e9bebd4fc2c4b6d0e627af4",
-      "lastmod": "2026-11-24"
+      "hash": "70aea0bdbe40b6dcf03b59133edcbfabd61efdeca3309f7359e4fe9d3adffde3",
+      "lastmod": "2026-11-26"
     },
     "evenements/apero-book-avec-roger-fajnzylberg-2026-11-20/index.html": {
-      "hash": "c66f266b05333e47c062948a07d7c3974a4bfba24eb82cdfc8005f23fb20bd8f",
-      "lastmod": "2026-11-25"
+      "hash": "b01b7479be5c635db13499bbc7af096374583a460198c7f5393339ba88b639eb",
+      "lastmod": "2026-11-26"
     },
     "evenements/apres-midi-de-noel-2026-12-19/index.html": {
-      "hash": "a25adec3af7fc34975d41c7fdd03e6a9ac28e3d404b1c917dd7cffb15c93c5c5",
-      "lastmod": "2026-11-25"
+      "hash": "e188919e66d3d75da32cd1b9165eeb832cf868f413073affe6f8bafeff8deb5c",
+      "lastmod": "2026-11-26"
     },
     "evenements/atelier-a-la-rencontre-des-aspirations-profondes-de-sa-vie-2026-12-13/index.html": {
       "hash": "eea6d418ac2f0dca4cf243983b35382708b7a24df6bb63a3f54d758024d97905",
@@ -242,12 +242,12 @@
       "lastmod": "2026-11-24"
     },
     "evenements/atelier-culinaire-calendrier-de-lavent-sables-de-noel-2026-11-21/index.html": {
-      "hash": "fb4812925c6e762d7ff88011cd1a8ba72e9fc514ebd46b1b0c9023f7052623ea",
-      "lastmod": "2026-11-25"
+      "hash": "98eb8677cd18976a7e36d0a448046156577f600a3b547f3f4a00438876be472e",
+      "lastmod": "2026-11-26"
     },
     "evenements/atelier-culinaire-duo-de-choux-sales-festifs-2026-11-27/index.html": {
-      "hash": "e422300f631d51bc5d90516fae15e539ef7e0412b919decd281ed424e6e40310",
-      "lastmod": "2026-11-25"
+      "hash": "9fcf4600795cfbcecdd70330a8c1611e66c8892f10e4bdeb3696d8344a3c0aed",
+      "lastmod": "2026-11-26"
     },
     "evenements/atelier-culinaire-gnocchis-2026-10-08/index.html": {
       "hash": "fa8bd573c286cfa6b55089285541580bffc721c7862dee4ff99d7b239b1a4629",
@@ -266,8 +266,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/atelier-culinaire-tarte-sucree-festive-a-clementine-2026-12-05/index.html": {
-      "hash": "678755cd5db97656d04dcbe73b0468de139fbfb8bf4b0c00e62c1f14529bba8a",
-      "lastmod": "2026-11-24"
+      "hash": "486ba6e7759e3e6b039f2af71dc3988c303b616aae38ce08c4f031b803166984",
+      "lastmod": "2026-11-26"
     },
     "evenements/atelier-dart-therapie-2026-10-17/index.html": {
       "hash": "52f042084b5b88ee33ac5181a17bcdca68d38b559afb8a03e94ea0f11c253bc2",
@@ -342,8 +342,8 @@
       "lastmod": "2026-11-24"
     },
     "evenements/balade-en-caleche-2026-12-23/index.html": {
-      "hash": "9d6286d4e69d53b9a8b52006d69c6750f3de622ad3f907423aed25b379672898",
-      "lastmod": "2026-11-25"
+      "hash": "9882b23b87209222ee52be4fae51f12a1f496fb384ce16e2c234698d94ca22ae",
+      "lastmod": "2026-11-26"
     },
     "evenements/blue-maqam-de-renaud-garcia-fons-2027-02-19/index.html": {
       "hash": "346d28c26bd48f8365c84b05c0f741f844104dada399f3930c85be0903d47a8a",
@@ -354,8 +354,8 @@
       "lastmod": "2026-11-24"
     },
     "evenements/bourse-aux-jouets-2026-11-21/index.html": {
-      "hash": "fe5199ce644c3ebdfb2d2bb1e451eecf0bc51eda0d384d51cc413cedc77eac35",
-      "lastmod": "2026-11-25"
+      "hash": "706ed3f958fdd43b8df5ad5215bc59d5100f6d2fd5942b2db5a21bfcfc3f1bbf",
+      "lastmod": "2026-11-26"
     },
     "evenements/cafe-rencontre-unafam-2026-11-14/index.html": {
       "hash": "162efbfa46bff8716e79c850008121ef63f91b858647fce35572da931bc6f298",
@@ -366,8 +366,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/ceremonie-des-vux-du-maire-2027-01-12/index.html": {
-      "hash": "65aeca0a63f5f109c0932f009a6902cd4455ad034d7e208e2a6e0e82cd65e175",
-      "lastmod": "2026-11-25"
+      "hash": "fbefffd937151c53bb285c3aa6cf1a1e97aa1a832ad67e484b37398bc23573cc",
+      "lastmod": "2026-11-26"
     },
     "evenements/ceremonie-des-vux-du-mairie-2027-01-12/index.html": {
       "hash": "8d8e16137a4880d6a7ceebd008c52bc4f1617e40e5b5dd1c9039b1b7c6a7e701",
@@ -378,8 +378,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/cher-edouard-2026-12-13/index.html": {
-      "hash": "f1ed8fe3083cf7a77d23a22c130703c92b97de77a3b7baa39b318e657148dfdd",
-      "lastmod": "2026-11-25"
+      "hash": "5126dd67989f4553170e04b8c15c2123750d74849f0f64499e2aca16d07e7f19",
+      "lastmod": "2026-11-26"
     },
     "evenements/cine-debat-sur-l-adamant-2026-10-11/index.html": {
       "hash": "4ee0e8460ac543a906060620bfa6e6c3f8c8b946e4cdec328213821ef2a7a79b",
@@ -806,16 +806,16 @@
       "lastmod": "2026-11-24"
     },
     "evenements/concert-george-sand-contemporaine-2026-11-29/index.html": {
-      "hash": "ae01ba84dcda5af5e9e46082040afe194c5a31528e245eb824beaa70646cbd14",
-      "lastmod": "2026-11-23"
+      "hash": "1c28f4cecd2dffc7ce55349e7278e85f49dc420c49a5ce4c7f2e80d309e5e4d6",
+      "lastmod": "2026-11-26"
     },
     "evenements/concerts-du-duo-feuillet-et-de-la-chorale-des-oliviers-2026-12-06/index.html": {
       "hash": "398c9100720bcf6eadad30b4565484d91957292744f5535a8964e25eae914b86",
       "lastmod": "2026-11-24"
     },
     "evenements/concours-de-petanque-du-telethon-2026-12-05/index.html": {
-      "hash": "63c2019572d3784a83e30cf2ecd3500a1c1d35b70e17f571edc1c6ebae93390b",
-      "lastmod": "2026-11-24"
+      "hash": "3af4b7d682c80f93774b0197e4b0f10dbe00a022cf5124ecb8c07d976427f109",
+      "lastmod": "2026-11-26"
     },
     "evenements/conference-de-luntl-les-marchands-ruraux-dans-le-dauphine-au-xviiie-siecle-2027-01-21/index.html": {
       "hash": "2d5964f65a218c8a9db5984787e78b888f814176252713dbde72e5355c46e981",
@@ -902,8 +902,8 @@
       "lastmod": "2026-11-11"
     },
     "evenements/conseil-municipal-2026-11-18/index.html": {
-      "hash": "bd7b3b9b9028e1675037d71ae74abfd55bdf338362a46598418524d250f3caf6",
-      "lastmod": "2026-11-25"
+      "hash": "7d976d6117ee33af806c238f282a23e1ee8fae0907645b9ea4ed04445b76936e",
+      "lastmod": "2026-11-26"
     },
     "evenements/conseil-municipal-2026-12-16/index.html": {
       "hash": "350e1f3bb50a7a7ae7d341e41239ed0946e534a04fe5378018bbc602556c12c4",
@@ -918,8 +918,8 @@
       "lastmod": "2026-11-25"
     },
     "evenements/constellation-familiale-2026-11-21/index.html": {
-      "hash": "8941592e7bd44d56514923a5b4f5d69bb6cf8e8017f45a226f962a892ba67314",
-      "lastmod": "2026-11-25"
+      "hash": "842df54d6e00ce4ae15c533d2b670168671a9c6bbd231d441f02f6afb9aeefbc",
+      "lastmod": "2026-11-26"
     },
     "evenements/constellations-familiales-2026-10-03/index.html": {
       "hash": "8e66e9fbce8d91c070e5e0b8756cf32798497f559bf804b0e9a94382e7af92ce",
@@ -946,20 +946,20 @@
       "lastmod": "2026-11-25"
     },
     "evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-21/index.html": {
-      "hash": "eaaebf5488a51c7816ae7bcaa286fc4511a30ff1f4fcc891b307bff7b9b34179",
-      "lastmod": "2026-11-25"
+      "hash": "496f515f38dc026e493d551e69c9932257b380114b9f9a92dd653db7a42b2d80",
+      "lastmod": "2026-11-26"
     },
     "evenements/cueillette-solidaire-des-olives-de-nyons-2026-11-28/index.html": {
-      "hash": "26f3072a770c072dc45c33d726072f7c673c60d367f7ec64851295bb9cdee8f0",
-      "lastmod": "2026-11-25"
+      "hash": "62a37b791f5f0b82354c0b8c12077d3866840c9ae635be9a17a3d72c033f9ebb",
+      "lastmod": "2026-11-26"
     },
     "evenements/de-lile-noire-au-montbrun-2026-11-21/index.html": {
-      "hash": "9734a1d42185f6b956a4d70a3e31968bbd6da083c3ae714029fe8136582ff81b",
-      "lastmod": "2026-11-25"
+      "hash": "db48e29d410ef6c6c6b9b88fb697aaebdfcf8b88b799de66475d5d03d7e2a4aa",
+      "lastmod": "2026-11-26"
     },
     "evenements/decouverte-des-sports-de-raquettes-2026-12-05/index.html": {
-      "hash": "d085f49b7a8aa364ef6e9c4fa170f69e89a28edcad4b784cccb6d39b2dae08d6",
-      "lastmod": "2026-11-24"
+      "hash": "a4498a020844b3b9dfdd3b482456800af427881f8821e350c24ea3dc8b77b155",
+      "lastmod": "2026-11-26"
     },
     "evenements/decouvrez-solidarite-paysans-2026-08-01/index.html": {
       "hash": "f1e2bc9dd9d68b8fabe57dda72ad3b624a018dd04f78b3110fb741c7ae685dce",
@@ -1014,12 +1014,12 @@
       "lastmod": "2026-11-17"
     },
     "evenements/exposition-les-heures-douces-2026-11-18/index.html": {
-      "hash": "0d7005ecee9e7b0988ca8c2add0915373202608cc87c05171ebfd6b088fd13ce",
-      "lastmod": null
+      "hash": "5ed9c0aa6124ae0bdf27facf0b5a86e677ea2e49c1b30651e0bee3004cb29fac",
+      "lastmod": "2026-11-26"
     },
     "evenements/exposition-libre-detre-2026-11-27/index.html": {
-      "hash": "38c491f0e60fc9cd1ae93e94da6614b6911f8f6ad21b7497916a0b03c924d17b",
-      "lastmod": "2026-11-25"
+      "hash": "7c14e6baf1099e3c039c0e1ba17f1057ced75844e9d2852c2b78d61339935b4b",
+      "lastmod": "2026-11-26"
     },
     "evenements/exposition-photo-jump-2026-10-12/index.html": {
       "hash": "60a3ca00a29bdde3c71bc373ef53031c3b08e1c1b8099f6680ded53321746d3c",
@@ -1054,8 +1054,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/george-sand-contemporaine-2026-11-29/index.html": {
-      "hash": "521a12bf8388480e1661f0a5a4b49202c74706264f8743c5c5db2954374b7eca",
-      "lastmod": "2026-11-24"
+      "hash": "17ab298cb393e3b80a780dffe12b84362c7d20e162f1b854b7330a13a9043a58",
+      "lastmod": "2026-11-26"
     },
     "evenements/gouter-halloween-avec-nyons-oline-2026-10-31/index.html": {
       "hash": "eb22bbc62cbaef0d85a8f611e0f166314c1c971458f91fd910aef245530713f7",
@@ -1066,28 +1066,28 @@
       "lastmod": "2026-11-17"
     },
     "evenements/grande-tombola-du-telethon-2026-11-19/index.html": {
-      "hash": "7b578e75ba65471c10b439a5e77d9032a3ccba5f78c4fda71cb5ba0978ca0e75",
-      "lastmod": "2026-11-25"
+      "hash": "e78023766d3f186d16dcb5e5f420be5c658eee67d46a47b65cf80765a035b804",
+      "lastmod": "2026-11-26"
     },
     "evenements/hallowen-au-cinema-arlequin-2026-10-31/index.html": {
       "hash": "2febeb937568c8c7ccdfd61b080d1fbb5d73b2fd241b12c9106e750216649ef7",
       "lastmod": "2026-11-17"
     },
     "evenements/illumination-de-la-ville-2026-12-04/index.html": {
-      "hash": "3cd5200f44615e6fc337a0869f1e88499fcb4f59a8e598a6741d205763aee01b",
-      "lastmod": "2026-11-24"
+      "hash": "10a79f3fea5d1eb43c2e0cf4790ed27e615c92bb0a45099d8e5c2d8109e9c1dd",
+      "lastmod": "2026-11-26"
     },
     "evenements/impro-2026-09-26/index.html": {
       "hash": "40a460bbe9222a522e306d2e4d12fa66e256eb46aad6812805553955de676d73",
       "lastmod": "2026-11-17"
     },
     "evenements/initiation-a-la-reflexologie-plantaire-2026-11-28/index.html": {
-      "hash": "f3c01f58e45b02254efcad68a59e5310f96833770a1b881c2a99a742763a58c7",
-      "lastmod": "2026-11-25"
+      "hash": "2614aaa84d75ffdc2be48cfa5099203447d148572191ec572655ea7b7a909097",
+      "lastmod": "2026-11-26"
     },
     "evenements/jeu-pause-photo-prose-2026-11-28/index.html": {
-      "hash": "9f2c595271894aac4ab72d66255b1592538462616614b2093249dbfde2792c0c",
-      "lastmod": "2026-11-25"
+      "hash": "ce19359bbe363190950ccaa0a6f3b9478bc7f8c70dc3a6fa8bb6089c3aca3345",
+      "lastmod": "2026-11-26"
     },
     "evenements/jeux-zen-et-moins-zen-2026-10-27/index.html": {
       "hash": "4684d8c5c80a27757498d34b8e5bec2e39d22f43ee4030ad41b27f6378d1fd89",
@@ -1102,12 +1102,12 @@
       "lastmod": "2026-11-17"
     },
     "evenements/journee-decouverte-materiautheque-2026-12-05/index.html": {
-      "hash": "bafc298ebd88295c11af34d1704f97dfd8c6a179e0bf71c031ff79bf719e2cfe",
-      "lastmod": null
+      "hash": "d1ca7a1c5df3d257541a4e037633c2dac76ce1e9c300e20550c02ef89fc3d689",
+      "lastmod": "2026-11-26"
     },
     "evenements/journee-depistage-2026-11-28/index.html": {
-      "hash": "33aa262482a1f30440d36df8c53729740cfe633693117b096ed5bfc7c380a296",
-      "lastmod": "2026-11-25"
+      "hash": "93e35d3b35fc91725179faec2f930f92374456ad82a0cb8175dbe5781242bae9",
+      "lastmod": "2026-11-26"
     },
     "evenements/journee-depistages-organises-2026-11-28/index.html": {
       "hash": "b4b6e6c971d527ec2c7cb749f3b0d20dfebd28e36333a3ed9fd22ef59ece0f63",
@@ -1118,28 +1118,28 @@
       "lastmod": "2026-11-17"
     },
     "evenements/journee-mondiale-de-lutte-contre-le-bpco-2026-11-19/index.html": {
-      "hash": "15830f16057df4bf18faf68c059841ae852640c24c514cfe4db740fb11b71e53",
-      "lastmod": "2026-11-25"
+      "hash": "3d03b06d84a6d7bcfdc90641fe44fb499487be7c6599845b721d40d00f499e86",
+      "lastmod": "2026-11-26"
     },
     "evenements/karaoke-de-noel-2026-12-12/index.html": {
       "hash": "3e9fee3cfed777a26604dfdf0a0f2db83d393f29b16814a1348b7d04ec7ed11a",
       "lastmod": "2026-11-24"
     },
     "evenements/la-caravane-exquise-restitution-publique-2026-11-28/index.html": {
-      "hash": "1b367fea86e07e2aa48953829c0265feb2b3d68849ba51d8123efdf177ca5fc2",
-      "lastmod": "2026-11-25"
+      "hash": "80aa1ddc63f9cd81354158f1d6ca0214a77a7fc66e034114127e5fcf1cbf4ace",
+      "lastmod": "2026-11-26"
     },
     "evenements/la-femme-moustique-2026-11-13/index.html": {
       "hash": "7dea2c901bce27d46807f0ab7779b1f683645cdd524560f74471cc20aa82ebeb",
       "lastmod": "2026-11-25"
     },
     "evenements/la-loba-contes-et-rencontres-2026-11-21/index.html": {
-      "hash": "a4d8f5b00a27a40d4632ab05a10350d6aaf5eb89503a488528e8661b27c89a1a",
-      "lastmod": "2026-11-25"
+      "hash": "88c839da892d9b4c6e8b05070696484c197de00194402319c3e7615b875ce314",
+      "lastmod": "2026-11-26"
     },
     "evenements/la-maison-des-femmes-2026-11-29/index.html": {
-      "hash": "5d72a6c4e1efbc8a67611e251a3d7eb5b008d0f0d58b4775ab647dbe4c73289c",
-      "lastmod": "2026-11-25"
+      "hash": "31eb829abba5c9d13d67673956e42a3985fe4580ae77e000ff75f23aa3e03290",
+      "lastmod": "2026-11-26"
     },
     "evenements/la-vie-en-couleur-exposition-de-cecile-allex-2026-09-22/index.html": {
       "hash": "b1c5585fe807632f9fe906029594bedc3216055c4908e7d5bb9de5edf8925b18",
@@ -1150,20 +1150,20 @@
       "lastmod": "2026-11-24"
     },
     "evenements/le-combat-continue-50-ans-de-planning-familial-a-nyons-2026-12-03/index.html": {
-      "hash": "284e6b610a2422dbb20442e40ad8aa84fadc214aab1d57ead66209c1ba920f57",
-      "lastmod": "2026-11-25"
+      "hash": "cf741c59d1d188047745bba020e41d5f4a7fb8686019be556d5a656b74cb21d0",
+      "lastmod": "2026-11-26"
     },
     "evenements/le-planning-cest-aussi-notre-histoire-2026-11-28/index.html": {
-      "hash": "c4f888279266dfec4ba266736c8d99da3d57802281198b91592742cbe2e1bc97",
-      "lastmod": "2026-11-25"
+      "hash": "17c76c1226f2dffa17e80462b69b4c74147be3d076c610d8aff48eead1580130",
+      "lastmod": "2026-11-26"
     },
     "evenements/le-rdv-de-la-transmission-agricole-2026-11-25/index.html": {
-      "hash": "133f1a8ba74d0df4816223303930e91f0cf2c1fbbb14b2178fa2180874cda4bb",
-      "lastmod": "2026-11-25"
+      "hash": "2773a5b9975d76bf349c1804421a54e59521665692ba4b0751b7f999224d9475",
+      "lastmod": "2026-11-26"
     },
     "evenements/le-sacre-dans-lart-moderne-2026-12-04/index.html": {
-      "hash": "10d8f3424871d3a0d9c0f484fcc85d3972e666dc73660a713bd9e6ba9fb9a75b",
-      "lastmod": null
+      "hash": "4403e8879ce637cc03a9dee5f8491bb5a813aee53e7e22ccfdfb7939c77eee35",
+      "lastmod": "2026-11-26"
     },
     "evenements/leau-exposition-du-preau-des-arts-2026-10-28/index.html": {
       "hash": "973311e62ef9aba266502a17e2a1a7a887074badbdde0819116896ef02ad9d35",
@@ -1178,8 +1178,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/les-12-heures-du-padel-du-telethon-2026-12-05/index.html": {
-      "hash": "d40c099e922859d9b6304c6d0260868baab47be95f70b1062db843bfcf95aee0",
-      "lastmod": "2026-11-17"
+      "hash": "a8cbe6575733da8704e73a92ed5c9c8cdf035337cbcdc4f9ab142650c74efe07",
+      "lastmod": "2026-11-26"
     },
     "evenements/les-8-jours-de-la-ville-de-nyons-2026-09-25/index.html": {
       "hash": "2eea34b8d4846f7e79d02b92a81dbcdea94d09c13315312c4a790e40993c17cd",
@@ -1210,12 +1210,12 @@
       "lastmod": "2026-11-17"
     },
     "evenements/les-rencontres-barjavel-2027-2027-01-22/index.html": {
-      "hash": "19ea04a4c4a34c8be0a22b20a3de8bc604146ff6d1c82ed6a1382378a358a1e5",
-      "lastmod": "2026-11-25"
+      "hash": "3451536af623dfaf0291dc897469cc2af617f6765247af58ce38affa0844019b",
+      "lastmod": "2026-11-26"
     },
     "evenements/les-turlupinades-2026-12-05/index.html": {
-      "hash": "bb74aede9144de4012e148bfe1100a84e29c5c567572e3488de2bd4aadc6e6bb",
-      "lastmod": "2026-11-25"
+      "hash": "884bcc8bbe1122c4d27871d6830aa23b886457aab93e0db8b8d0452851b39c23",
+      "lastmod": "2026-11-26"
     },
     "evenements/lettres-de-noel-solidaires-2026-11-02/index.html": {
       "hash": "4f1d33ba21a044e8ece85844dc3b4bda38f2f278a2697779962639de0548bb0f",
@@ -1226,16 +1226,16 @@
       "lastmod": "2026-11-17"
     },
     "evenements/linvite-surprise-contes-et-rencontres-2026-11-21/index.html": {
-      "hash": "a3248018ff0d816b524344b226cac8d98fd9f76868bb2ad97e5c9a464973f434",
-      "lastmod": "2026-11-25"
+      "hash": "229659c74e76eb870c10160dd1744b3729c345070f6273d788e250da192b8f0d",
+      "lastmod": "2026-11-26"
     },
     "evenements/loto-dasoft-nyons-numerique-2026-10-18/index.html": {
       "hash": "8a099c0652499a4c6934ae385195f683b4e6f3693615d7d21002bbe117ab0b48",
       "lastmod": "2026-11-17"
     },
     "evenements/loto-de-detente-et-loisirs-2026-11-22/index.html": {
-      "hash": "a8ded13b62d63ddb787801e16c8870d1b7ecce5829066245b22df127d04482a4",
-      "lastmod": "2026-11-25"
+      "hash": "58ebd190e759893a159dce4da9e1dae9c528092b45b322d45f39469b0491a72f",
+      "lastmod": "2026-11-26"
     },
     "evenements/loto-de-lassociation-le-trait-dunion-2026-11-01/index.html": {
       "hash": "2c2c667a252f63b815ca64489743320c2912e51c5917c9b972b530c466b3c140",
@@ -1246,20 +1246,20 @@
       "lastmod": "2026-11-24"
     },
     "evenements/marche-contre-les-violences-faites-aux-femmes-2026-11-28/index.html": {
-      "hash": "e7a4436f365c892e153b9c6b395de0670cb7a81c56896755200e196492c7f0e8",
-      "lastmod": "2026-11-25"
+      "hash": "b5a06c5e8816dd52238ab88ef9cfdeeb7a2d2cd11236a93992dd4f1bac0d77b0",
+      "lastmod": "2026-11-26"
     },
     "evenements/marche-de-noel-2026-12-12/index.html": {
       "hash": "d91f48994cbb1af37abb745b365c9832af663daa50b8143a91e246c629a637a5",
       "lastmod": "2026-11-24"
     },
     "evenements/marche-de-noel-de-luen-et-animations-du-telethon-2026-12-05/index.html": {
-      "hash": "2af9f20db5cca5219075833fcd780d669feeaf88194db428250cd3bc4a5b97db",
-      "lastmod": "2026-11-24"
+      "hash": "401b6d669db1e27267a90954719da7d4f8d172214cf6588d1bd24c5420d9f1e7",
+      "lastmod": "2026-11-26"
     },
     "evenements/marche-de-noel-du-clos-des-ruynes-2026-11-28/index.html": {
-      "hash": "07d691e54971cd878c0d04ed6f747a2f1ddba83ff5f470a1c6ca9178508aa31e",
-      "lastmod": "2026-11-25"
+      "hash": "1f2f5906a83b1e71cfef5e708d6fea8cbfb35ec32b952ba9d4c9db59de72b9f6",
+      "lastmod": "2026-11-26"
     },
     "evenements/marche-pour-le-climat-2026-09-26/index.html": {
       "hash": "be0a0671dab61e531b0b4c3a006ff6524356efa6d5cfa7f7074158e9c8858c21",
@@ -1270,16 +1270,16 @@
       "lastmod": "2026-11-17"
     },
     "evenements/noel-des-3-platanes-2026-12-05/index.html": {
-      "hash": "78efb99d65dded0cd81b814cc67ab333b2e6313c4319909708bbc4078b700829",
-      "lastmod": "2026-11-24"
+      "hash": "c90e9ba9fa8556ac1cc0a882975f32a6da8f48a1fcd415a0eac78a033686f3f2",
+      "lastmod": "2026-11-26"
     },
     "evenements/ode-a-lolive-2026-11-13/index.html": {
       "hash": "efcc53875ce98ab133990498056e615fb07148425c8fb0c98f9efb4ad8c0dd44",
       "lastmod": "2026-11-25"
     },
     "evenements/on-a-perdu-les-cles-du-traineau-2026-12-29/index.html": {
-      "hash": "ca519d969819da5366763184473a0f539df6c4378ed1b15bd505a6986c21b99a",
-      "lastmod": "2026-11-25"
+      "hash": "d407033cd42e0b63a8250927862bf6ff80539a5d54c52aac4ea73a5ac1e997eb",
+      "lastmod": "2026-11-26"
     },
     "evenements/on-ne-badine-pas-avec-lamour-2027-05-20/index.html": {
       "hash": "68f25a9cac346427d011a362aeb7523d5a04f1312ded3fa9eaa0b4d41774ab22",
@@ -1326,20 +1326,20 @@
       "lastmod": "2026-11-17"
     },
     "evenements/salon-du-livre-de-contes-et-rencontres-2026-11-28/index.html": {
-      "hash": "3bc20a8e20f766cf04caf1b101d18a730e0a574525621229a19103c5581953df",
-      "lastmod": "2026-11-25"
+      "hash": "e903706a49b086143380144c5f90ce572abe538f6a8e4b21c85fbc7631d92aee",
+      "lastmod": "2026-11-26"
     },
     "evenements/salon-vivre-ici-2026-11-18/index.html": {
-      "hash": "c7262c31da3ffa28babde930ebe3a5267e9774fecc97fa70585dca8031bab551",
-      "lastmod": "2026-11-25"
+      "hash": "5759aac997349c1141ea7dc876a5ca7bb5354036e174bb97eb75cbf9203f9369",
+      "lastmod": "2026-11-26"
     },
     "evenements/samedi-ca-me-dit-2026-10-10/index.html": {
       "hash": "d04bc1a6955540be0db6fb724e3afad6ef17373d2f02459e3b05808791a584b8",
       "lastmod": "2026-11-17"
     },
     "evenements/samedi-ca-me-dit-2026-12-05/index.html": {
-      "hash": "7556c688d8daa4833e3894bc065eaf7bc386d6a53e131105436d9d0886171d01",
-      "lastmod": "2026-11-24"
+      "hash": "6acae25274b8cb971e3280124ec78251ddab3978366c34d015279a3c2cfca5ef",
+      "lastmod": "2026-11-26"
     },
     "evenements/sans-dessus-dessous-une-heure-avec-jules-verne-2026-10-15/index.html": {
       "hash": "eb9b36dad49f4f3c0516596772950299f749fff90650a429254347370366342e",
@@ -1366,8 +1366,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/soiree-100-montagne-2026-11-30/index.html": {
-      "hash": "727b8f7b4cdf69997a03405c2c3bbf616b7b83c94868f08598828cc4b3059b43",
-      "lastmod": "2026-11-24"
+      "hash": "4ee60c87de5267391bf3a7e0c40ac7a3669156ee1477a3056f34fdb232398585",
+      "lastmod": "2026-11-26"
     },
     "evenements/soiree-100-nepal-2026-11-09/index.html": {
       "hash": "917bef74d7250db1a4d1272afc7179e9b09c9deaf605b7c7f40cc655dfb85938",
@@ -1378,8 +1378,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/soiree-danniversaire-de-lunyons-citoyenne-2026-12-04/index.html": {
-      "hash": "3f3b08b1847eba408291fb2fc6897ab834dc7f6d0f2480e77cefbfe200bda9d7",
-      "lastmod": "2026-11-25"
+      "hash": "57db013e7186664ca2bb4395c7b56180054ae86b0b569e1e3650ef7b64908568",
+      "lastmod": "2026-11-26"
     },
     "evenements/soiree-de-presentation-de-nyons-en-scene-2026-10-16/index.html": {
       "hash": "f1e05562579cb24b85d82f4f21c9d0b76c42efd47a88a51da87284fcac3e9f58",
@@ -1454,8 +1454,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/stands-alimentaires-et-parcours-ludique-du-telethon-2026-12-04/index.html": {
-      "hash": "175ded2005d1e56e6c0d243c881f0a97966ec440b8acf37ada15e7168dd5dbde",
-      "lastmod": "2026-11-25"
+      "hash": "376670c33e1c25e700b22a7870fe7a0a5faa9107a10e2c4a64dce1df72eb7a04",
+      "lastmod": "2026-11-26"
     },
     "evenements/stands-sur-la-sante-mentale-2026-10-08/index.html": {
       "hash": "5223cd519506f247986c98356815b042abe61b6ba2a76d6ff7e4cbf795c1eaa9",
@@ -1466,12 +1466,12 @@
       "lastmod": "2026-11-17"
     },
     "evenements/sur-les-traces-de-madeleine-pelletier-2026-11-30/index.html": {
-      "hash": "858b1cafa95164a21d88ceaa3080c43be50a7c0e100b7ff88eb58206bcc586d9",
-      "lastmod": null
+      "hash": "949687c6e56a3c81b4d493b28df32d48cd599359fdbc679ecf697fb23c09c704",
+      "lastmod": "2026-11-26"
     },
     "evenements/telethon-2026-2026-12-05/index.html": {
-      "hash": "d4283a6b10fe3e4650a921d798ecf81e594def47a007f0b8e91a745b2c51d634",
-      "lastmod": "2026-11-25"
+      "hash": "831d9a67ae296d7fe615012336e0206cfbea6557b398a8b66de948330ef0f5d3",
+      "lastmod": "2026-11-26"
     },
     "evenements/theatre-sur-la-sante-mentale-2026-10-08/index.html": {
       "hash": "97d18a88294d87c5eb9dc4c0d86773de4675ecc6e0c606f52d8324796ab6c300",
@@ -1494,8 +1494,8 @@
       "lastmod": "2026-11-17"
     },
     "evenements/tournoi-de-bridge-du-telethon-2026-12-03/index.html": {
-      "hash": "d1b8bbe398773f192e9f68ea693d10d748a854beb24b1ea11cf244ace09f6d49",
-      "lastmod": "2026-11-24"
+      "hash": "40d38ddb2de983e936650913f3ecb856a3bf9a8412ae77c91e1e925ebdf8ff64",
+      "lastmod": "2026-11-26"
     },
     "evenements/trail-de-nyons-et-baronnies-2026-10-17/index.html": {
       "hash": "83d6f9f2bcb14ec06dd3cf715a6789d94a7e725989f6edf44c0d92fd0cc3b84a",
@@ -1522,32 +1522,32 @@
       "lastmod": "2026-11-24"
     },
     "evenements/vente-de-noel-de-la-paroisse-et-du-vestiaire-2026-12-04/index.html": {
-      "hash": "6a37b78b83445243a576ae885474df60efa1c74ca727bbe2197f7e4f6ee12893",
-      "lastmod": null
+      "hash": "cf3e1a5d639a1ab250f3b5d4a823611bb6f14b5a8255e6b42907513db25d174d",
+      "lastmod": "2026-11-26"
     },
     "evenements/vente-de-sucres-et-sales-du-telethon-2026-12-03/index.html": {
-      "hash": "1aa0701f6373833fd13ee16ae6d176ce109d1d2840050b2d17b0047d32bd0a0e",
-      "lastmod": "2026-11-25"
+      "hash": "4e15ec6364343a79d94a086fdcfde8f21beae858073ca933a27c4b50ae114456",
+      "lastmod": "2026-11-26"
     },
     "evenements/video-live-streaming-du-telethon-2026-12-12/index.html": {
       "hash": "468e8563dc049de47c1edf75b4c3961a34d144fd24511b6f5abcce76154355d8",
       "lastmod": "2026-11-24"
     },
     "evenements/vin-chaud-et-crepes-du-telethon-2026-12-04/index.html": {
-      "hash": "9c00b8f0f8a723a84b7915a2c3ed7dabe8e96b90e65a03b3a9437a9b47ce4a89",
-      "lastmod": "2026-11-24"
+      "hash": "7681849f236f970767ee5f0bdb0f70904bea010350c50aceba2af5a7890025ac",
+      "lastmod": "2026-11-26"
     },
     "evenements/visite-collective-dans-le-vieux-nyons-2026-11-20/index.html": {
-      "hash": "53b9e6623df6329da0992a9047e1b2be7f3896f0f04a31b7cb9ca51975eced72",
-      "lastmod": "2026-11-25"
+      "hash": "128674181bb3878ae5e859cddfac22bb18e6bd444579377f56fae4da394c1fe6",
+      "lastmod": "2026-11-26"
     },
     "evenements/week-end-du-ski-club-nyonsais-2027-01-08/index.html": {
       "hash": "1b57564ef4223f8f5664e2d66f31635c3b0c961258b756e5dad647bef61272eb",
       "lastmod": "2026-11-24"
     },
     "evenements/yoga-des-yeux-avec-annabel-2026-12-05/index.html": {
-      "hash": "71f34f0b603fa9b5f623bdfb640e08d4223694ac5cb5214ae7e88d703e322217",
-      "lastmod": "2026-11-24"
+      "hash": "18da684bcfa45369a9dff6fe5272090ca2b5f8cd518ef1dd645eb2d0787edd6f",
+      "lastmod": "2026-11-26"
     }
   }
 }

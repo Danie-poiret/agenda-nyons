@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-25",
-  "temperature": 8.0,
+  "date": "2026-11-26",
+  "temperature": 9.0,
   "observation": "18 h 00",
   "isForecast": true,
-  "min": 8.0,
+  "min": 7.0,
   "max": 11.0,
-  "rain": 18.2,
-  "wind": 14.0,
-  "windMax": 27.0,
-  "description": "Pluie modérée",
-  "fetched_at": "2026-11-25T18:16:41.084513+01:00"
+  "rain": 0.0,
+  "wind": 26.0,
+  "windMax": 26.0,
+  "description": "Partiellement couvert",
+  "fetched_at": "2026-11-26T17:57:51.594337+01:00"
 }
