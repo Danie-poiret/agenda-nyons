@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivre a Nyons//Agenda de Nyons//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:movember-du-basket-club-nyons-2026-11-28@agenda.vivreanyons.fr
+DTSTAMP:20261127T164338Z
+DTSTART;TZID=Europe/Paris:20261128T140000
+DTEND;TZID=Europe/Paris:20261129T170000
+SUMMARY:« Movember » du Basket Club Nyons
+DESCRIPTION:Le Basket Club Nyons se mobilise durant tout le week-end des 28 &\nhttps://agenda.vivreanyons.fr/evenements/movember-du-basket-club-nyons-2026-11-28/
+LOCATION:Du samedi 28 novembre 2026 de 14h00 au dimanche 29 novembre 2026 à 17h00 — Maison des sports Jean Monpeyssen - 26110 NYONS
+URL:https://agenda.vivreanyons.fr/evenements/movember-du-basket-club-nyons-2026-11-28/
+END:VEVENT
+END:VCALENDAR

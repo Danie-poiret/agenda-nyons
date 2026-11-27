@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:vente-de-noel-de-la-paroisse-et-du-vestiaire-2026-12-04@agenda.vivreanyons.fr
-DTSTAMP:20261126T165748Z
+DTSTAMP:20261127T164339Z
 DTSTART;TZID=Europe/Paris:20261204T090000
 DTEND;TZID=Europe/Paris:20261206T160000
 SUMMARY:Vente de Noël de la Paroisse et du Vestiaire

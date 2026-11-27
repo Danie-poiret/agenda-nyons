@@ -1,8 +1,8 @@
 {
   "source": "https://www.nyons.com/sorties-actus/agenda/",
   "cinema_source": "https://www.cinema-arlequin.fr/",
-  "updated_at": "2026-11-26T16:57:34.915872+00:00",
-  "count": 199,
+  "updated_at": "2026-11-27T16:43:01.365639+00:00",
+  "count": 200,
   "events": [
     {
       "title": "Cinéma — Chien bleu et autres belles histoires de l’école des loisirs",
@@ -6767,6 +6767,29 @@
       "start_time": "10:30",
       "end_time": "23:00",
       "date_label": "Samedi 28 novembre 2026 de 10h30 à 23h00"
+    },
+    {
+      "title": "« Movember » du Basket Club Nyons",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "summary": "Le Basket Club Nyons se mobilise durant tout le week-end des 28 &",
+      "categories": [
+        "Solidarité / Santé",
+        "Sport / Loisirs"
+      ],
+      "url": "https://www.nyons.com/agenda/movember-du-basket-club-nyons/",
+      "practical": {
+        "date_time": "Du samedi 28 novembre 2026 de 14h00 au dimanche 29 novembre 2026 à 17h00",
+        "location_name": "Du samedi 28 novembre 2026 de 14h00 au dimanche 29 novembre 2026 à 17h00",
+        "address": "Maison des sports Jean Monpeyssen - 26110 NYONS",
+        "phone": "0671004762",
+        "email": "communications.nyonsbc@gmail.com",
+        "website": ""
+      },
+      "page_url": "https://agenda.vivreanyons.fr/evenements/movember-du-basket-club-nyons-2026-11-28/",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "date_label": "Du samedi 28 novembre 2026 de 14h00 au dimanche 29 novembre 2026 à 17h00"
     },
     {
       "title": "«La Caravane Exquise» : restitution publique",
